@@ -23,8 +23,8 @@ JpGraph is the primary PHP charting library for PDF generation in Zero theme:
 
 **Installation:**
 ```bash
-# JpGraph is included in the project dependencies
-composer require jpgraph/jpgraph
+# JpGraph: pacchetto amenadiel/jpgraph (vedi Modules/Chart/docs/jpgraph-composer-and-namespaces.md)
+composer require amenadiel/jpgraph
 ```
 
 **Usage Example:**
