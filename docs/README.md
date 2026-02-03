@@ -43,8 +43,6 @@ Zero/
 
 ## Backlinks
 
-- [Xot Module](../../Modules/Xot/docs/)
-- [UI Module](../../Modules/UI/docs/)
-
-## AI Workflows
-- [AI Methodologies](./ai-methodologies.md)
+## 🔁 CI & Semantic Versioning
+Il tema include il workflow locale in `.github/workflows/semantic-versioning.yml`.
+Include anche l’attestazione build provenance con `actions/attest-build-provenance@v3`.
