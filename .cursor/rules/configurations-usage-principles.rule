@@ -57,4 +57,4 @@ Le azioni dei form **DEVONO** essere richiamate dai metodi PHP, non hardcoded ne
 ```
 
 ## Riferimenti
-- [Documentazione completa](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONFIGURATIONS_USAGE_PRINCIPLES.md)
+- [Documentazione completa](/var/www/html/healthcare_app/laravel/Modules/Notify/docs/CONFIGURATIONS_USAGE_PRINCIPLES.md)
