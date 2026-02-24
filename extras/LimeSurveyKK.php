@@ -6,7 +6,7 @@ class LimeSurveyKK
 {
     public $db_lime = null;
     public $db_xot = null;
-    public $db_quaeris = null;
+    public $db_healthcare_app = null;
     public $db = null;
     public $survey_id = 0;
     public $tables = [];
@@ -18,7 +18,7 @@ class LimeSurveyKK
         $this->survey_id = $survey_id;
 
         $this->db_lime = DB::connection('limesurvey');
-        $this->db_quaeris = DB::connection('quaeris');
+        $this->db_healthcare_app = DB::connection('healthcare_app');
         $this->db_xot = DB::connection('mysql');
 
         $this->db = $this->db_lime;
@@ -31,8 +31,8 @@ class LimeSurveyKK
             $this->tables[$table->TABLE_SCHEMA][$table->TABLE_NAME] = $table->TABLE_SCHEMA.'.'.$table->TABLE_NAME;
         }
 
-        $this->base_schema = 'txaesfry_quaeris_survey';
-        $this->charts_schema = 'txaesfry_quaeris';
+        $this->base_schema = 'txaesfry_healthcare_app_survey';
+        $this->charts_schema = 'txaesfry_healthcare_app';
     }
 
     public function get_all_answers($params = [
@@ -282,7 +282,7 @@ class LimeSurveyKK
             }
         }
 
-        $survey_pdf = $this->db_quaeris->selectOne("
+        $survey_pdf = $this->db_healthcare_app->selectOne("
             SELECT
                 *
             FROM
