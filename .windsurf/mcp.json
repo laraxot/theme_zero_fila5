@@ -6,11 +6,11 @@
       "type": "http"
     },
     "mysql": {
-      "url": "mysql://user:password@localhost:3306/saluteora",
+      "url": "mysql://user:password@localhost:3306/healthcare_app",
       "type": "mysql"
     },
     "postgres": {
-      "url": "postgres://user:password@localhost:5432/saluteora",
+      "url": "postgres://user:password@localhost:5432/healthcare_app",
       "type": "postgres"
     },
     "redis": {
