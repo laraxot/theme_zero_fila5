@@ -31,6 +31,6 @@ Questa regola si applica a:
 
 ## Riferimenti
 
-- [Modules/Notify/docs/ACRONYM_NAMING_CONVENTIONS.md](file:///var/www/html/saluteora/laravel/Modules/Notify/docs/ACRONYM_NAMING_CONVENTIONS.md)
+- [Modules/Notify/docs/ACRONYM_NAMING_CONVENTIONS.md](file:///var/www/html/healthcare_app/laravel/Modules/Notify/docs/ACRONYM_NAMING_CONVENTIONS.md)
 - [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
 - [Laravel Documentation - Coding Style](https://laravel.com/docs/10.x/contributions#coding-style)
