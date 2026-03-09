@@ -42,7 +42,7 @@ if (!$sid) {
 
     $all_surveys = $customer->surveyPdfs->all();
     foreach ($all_surveys as $tmp_survey) {
-        $tmp_survey = $limeKK->db->selectOne("
+        $tmp_survey = $limeKK->db->selectOne(")
             SELECT
                 s.sid
             FROM
@@ -255,15 +255,15 @@ body:not(.layout-fixed) .main-sidebar {
 @extends('adm_theme::layouts.app')
 @section('content')
 <component :is="'script'">
-jQuery("#survey_selector select").on("change", function() {
+jQuery("#survey_selector select").on("change", function() {)
     window.location.href = jQuery("option:selected", this).val();
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {)
     Chart.register(ChartDataLabels);
 });
 
-jQuery(".card-header button").on("click", function() {
+jQuery(".card-header button").on("click", function() {)
     if (jQuery(".hide", this).is(":hidden")) {
         jQuery(".hide", this).show();
         jQuery(".open", this).hide();
@@ -483,10 +483,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                                 
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: "doughnut"
                                                             , data: {
                                                                 labels: false
@@ -589,10 +589,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                                 
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: 'bar',
                                                             data: {
                                                                 labels: [
@@ -705,10 +705,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                                 
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: 'bar',
                                                             data: {
                                                                 labels: [
@@ -809,7 +809,7 @@ jQuery(".card-header button").on("click", function() {
                                         $no = "No";
                                         $yes = "Sì";
                                     }
-                                    $votes_total = array(
+                                    $votes_total = array()
                                         $no => 0
                                         , $yes => 0
                                         , "Non so / Non risponde" => 0
@@ -843,10 +843,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                                                         
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: "doughnut"
                                                             , data: {
                                                                 labels: [
@@ -910,7 +910,7 @@ jQuery(".card-header button").on("click", function() {
 
                                             //$answers = json_change_key($answers, "S\u00c3\u00ac", "Sì");
 
-                                            $votes = array(
+                                            $votes = array()
                                                 $no => 0
                                                 , $yes => 0
                                                 , "Non so / Non risponde" => 0
@@ -938,10 +938,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
 
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: 'bar'
                                                             , data: {
                                                                 labels: [
@@ -1042,7 +1042,7 @@ jQuery(".card-header button").on("click", function() {
 
                                                 //$answers = json_change_key($answers, "S\u00c3\u00ac", "Sì");
 
-                                                $votes = array(
+                                                $votes = array()
                                                     $no => 0
                                                     , $yes => 0
                                                     , "Non so / Non risponde" => 0
@@ -1069,10 +1069,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
 
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: 'bar'
                                                             , data: {
                                                                 labels: [
@@ -1178,7 +1178,7 @@ jQuery(".card-header button").on("click", function() {
                                         $no = "No";
                                         $yes = "Sì";
                                     }
-                                    $votes_total = array(
+                                    $votes_total = array()
                                         $no => 0
                                         , $yes => 0
                                         , "Non so / Non risponde" => 0
@@ -1212,10 +1212,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                                                         
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: "doughnut"
                                                             , data: {
                                                                 labels: [
@@ -1279,7 +1279,7 @@ jQuery(".card-header button").on("click", function() {
 
                                             //$answers = json_change_key($answers, "S\u00c3\u00ac", "Sì");
 
-                                            $votes = array(
+                                            $votes = array()
                                                 $no => 0
                                                 , $yes => 0
                                                 , "Non so / Non risponde" => 0
@@ -1308,10 +1308,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
 
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: 'bar'
                                                             , data: {
                                                                 labels: [
@@ -1412,7 +1412,7 @@ jQuery(".card-header button").on("click", function() {
 
                                                 //$answers = json_change_key($answers, "S\u00c3\u00ac", "Sì");
 
-                                                $votes = array(
+                                                $votes = array()
                                                     $no => 0
                                                     , $yes => 0
                                                     , "Non so / Non risponde" => 0
@@ -1439,10 +1439,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
 
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: 'bar'
                                                             , data: {
                                                                 labels: [
@@ -1608,10 +1608,10 @@ jQuery(".card-header button").on("click", function() {
                                     <div class="chart_box">
                                         <canvas class="charts" height="{{$height}}" id="{{$chart_id}}"></canvas>
                                         <component :is="'script'">
-                                            document.addEventListener("DOMContentLoaded", function() {
+                                            document.addEventListener("DOMContentLoaded", function() {)
                                                 const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                         
-                                                const {{$chart_id}} = new Chart(ctx, {
+                                                const {{$chart_id}} = new Chart(ctx, {)
                                                     type: 'bar'
                                                     , data: {
                                                         labels: [
@@ -1700,7 +1700,7 @@ jQuery(".card-header button").on("click", function() {
                                                     $sq_key = (is_array($sq_value)) ? array_key_first($sq_value) : $sq_value;
 
                                                     if (!isset($grouped_months[$month][$sq_key])) {
-                                                        $grouped_months[$month][$sq_key] = array(
+                                                        $grouped_months[$month][$sq_key] = array()
                                                             "people" => 0
                                                             , "total" => 0
                                                         );
@@ -1758,10 +1758,10 @@ jQuery(".card-header button").on("click", function() {
                                     <div class="chart_box">
                                         <canvas class="charts" id="{{$chart_id}}"></canvas>
                                         <component :is="'script'">
-                                            document.addEventListener("DOMContentLoaded", function() {
+                                            document.addEventListener("DOMContentLoaded", function() {)
                                                 const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                         
-                                                const {{$chart_id}} = new Chart(ctx, {
+                                                const {{$chart_id}} = new Chart(ctx, {)
                                                     type: 'line'
                                                     , data: {
                                                         labels: [
@@ -1772,7 +1772,7 @@ jQuery(".card-header button").on("click", function() {
                                                         , datasets: [
                                                             @php
                                                             //$colors = explode(",", $chart["record"]->list_color);
-                                                            $colors = array(
+                                                            $colors = array()
                                                                 0 => "#F05978"
                                                                 , 1 => "#FFCD90"
                                                                 , 2 => "#3FC67A"
@@ -1859,7 +1859,7 @@ jQuery(".card-header button").on("click", function() {
 
                                         foreach ($groups as $answer => $values) {
                                             if (!isset($grouped[$answer])) {
-                                                $grouped[$answer] = array(
+                                                $grouped[$answer] = array()
                                                     "people" => 0
                                                     , "total" => 0
                                                     , "average" => 0
@@ -1880,10 +1880,10 @@ jQuery(".card-header button").on("click", function() {
                                     <div class="chart_box">
                                         <canvas class="charts" height="{{$height}}" id="{{$chart_id}}"></canvas>
                                         <component :is="'script'">
-                                            document.addEventListener("DOMContentLoaded", function() {
+                                            document.addEventListener("DOMContentLoaded", function() {)
                                                 const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                         
-                                                const {{$chart_id}} = new Chart(ctx, {
+                                                const {{$chart_id}} = new Chart(ctx, {)
                                                     type: 'bar'
                                                     , data: {
                                                         labels: [
@@ -2029,10 +2029,10 @@ jQuery(".card-header button").on("click", function() {
                                     <div class="chart_box">
                                         <canvas class="charts" id="{{$chart_id}}"></canvas>
                                         <component :is="'script'">
-                                            document.addEventListener("DOMContentLoaded", function() {
+                                            document.addEventListener("DOMContentLoaded", function() {)
                                                 const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                         
-                                                const {{$chart_id}} = new Chart(ctx, {
+                                                const {{$chart_id}} = new Chart(ctx, {)
                                                     type: 'bar'
                                                     , data: {
                                                         labels: [
@@ -2181,10 +2181,10 @@ jQuery(".card-header button").on("click", function() {
                                     <div class="chart_box">
                                         <canvas class="charts" style="max-height:500px;" id="{{$chart_id}}"></canvas>
                                         <component :is="'script'">
-                                            document.addEventListener("DOMContentLoaded", function() {
+                                            document.addEventListener("DOMContentLoaded", function() {)
                                                 const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                                                 
-                                                const {{$chart_id}} = new Chart(ctx, {
+                                                const {{$chart_id}} = new Chart(ctx, {)
                                                     type: "doughnut"
                                                     , data: {
                                                         labels: [
@@ -2248,7 +2248,7 @@ jQuery(".card-header button").on("click", function() {
                                         $no = "No";
                                         $yes = "Sì";
                                     }
-                                    $votes_total = array(
+                                    $votes_total = array()
                                         $no => 0
                                         , $yes => 0
                                         , "Non so / Non risponde" => 0
@@ -2288,10 +2288,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                                                         
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: "doughnut"
                                                             , data: {
                                                                 labels: [
@@ -2359,7 +2359,7 @@ jQuery(".card-header button").on("click", function() {
 
                                             //$answers = json_change_key($answers, "S\u00c3\u00ac", "Sì");
 
-                                            $votes = array(
+                                            $votes = array()
                                                 $no => 0
                                                 , $yes => 0
                                                 , "Non so / Non risponde" => 0
@@ -2387,10 +2387,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
 
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: 'bar'
                                                             , data: {
                                                                 labels: [
@@ -2496,7 +2496,7 @@ jQuery(".card-header button").on("click", function() {
 
                                                 //$answers = json_change_key($answers, "S\u00c3\u00ac", "Sì");
 
-                                                $votes = array(
+                                                $votes = array()
                                                     $no => 0
                                                     , $yes => 0
                                                     , "Non so / Non risponde" => 0
@@ -2523,10 +2523,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
 
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: 'bar'
                                                             , data: {
                                                                 labels: [
@@ -2632,7 +2632,7 @@ jQuery(".card-header button").on("click", function() {
                                         $no = "No";
                                         $yes = "Sì";
                                     }
-                                    $votes_total = array(
+                                    $votes_total = array()
                                         $no => 0
                                         , $yes => 0
                                         , "Non so / Non risponde" => 0
@@ -2672,10 +2672,10 @@ jQuery(".card-header button").on("click", function() {
                                             <div class="chart_box">
                                                 <canvas class="charts" id="{{$chart_id}}"></canvas>
                                                 <component :is="'script'">
-                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                    document.addEventListener("DOMContentLoaded", function() {)
                                                         const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
                                                         
-                                                        const {{$chart_id}} = new Chart(ctx, {
+                                                        const {{$chart_id}} = new Chart(ctx, {)
                                                             type: "doughnut"
                                                             , data: {
                                                                 labels: [
