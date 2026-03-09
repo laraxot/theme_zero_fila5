@@ -5,6 +5,9 @@
 **Version:** 1.0.0
 **Status:** Production Ready
 
+> Update 2026-03-09: this project follows a docs-first rule.
+> Before code changes on PDF/chart flows, module and theme docs must be reviewed and improved.
+
 ---
 
 ## Table of Contents
@@ -33,7 +36,7 @@ This document describes how the Zero theme integrates LimeSurvey survey charts i
 ```
 Survey Data (LimeSurvey)
     ↓
-healthcare_app Module (Chart Widgets)
+Quaeris Module (Dashboard + PDF orchestration)
     ↓
 JpGraph (PNG Generation)
     ↓
@@ -53,13 +56,13 @@ PDF Download
 | Module/Theme | Responsibility |
 |--------------|----------------|
 | **Limesurvey** | Database access, models, question types |
-| **healthcare_app** | Business logic, chart widgets, PDF generation |
+| **Quaeris** | Business logic, chart widgets orchestration, PDF generation |
 | **Chart** | JpGraph actions, Chart.js plugins, asset registration |
 | **Zero Theme** | PDF templates, styling, Blade components |
 
 ### Theme Does NOT
 
-- Generate chart images (that's healthcare_app/Chart)
+- Generate chart images (that's Quaeris/Chart actions)
 - Register Chart.js plugins (that's Chart module)
 - Query LimeSurvey database (that's Limesurvey module)
 
