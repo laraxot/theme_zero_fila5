@@ -76,7 +76,3 @@ node_modules/
 # PHPStan output files
 phpstan*.json
 _docs/
-
-# Documentation archives are local-only scratch/history.
-docs/archive/
-docs/archive/**
