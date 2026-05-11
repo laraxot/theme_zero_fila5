@@ -1,34 +1,16 @@
 ---
-title: "Wiki Index"
-module: "Zero"
-updated: "2026-04-15T08:28:52Z"
+title: "Zero Theme Wiki"
+theme: "Zero"
 ---
 
-# Wiki Index — Zero
+# Zero Theme Wiki
 
-> **Purpose:** Content-oriented catalog of all wiki pages in this module.  
-> **Replaces embedding-based RAG at moderate scale (~100 sources).**
-
-## Concepts
-
-- [theme-zero-operating-focus](./concepts/theme-zero-operating-focus.md) — baseline role, guardrails, retrieval path, and local second-brain loop for theme decisions
-
-## Entities
-
-_No entities tracked yet._
-
-## Sources
-
-- [context-compression-and-retrieval](./sources/context-compression-and-retrieval.md) — summary of the shared prompt-compression setup for theme docs workflows
-- [theme-zero-product-and-roadmap-docs](./sources/theme-zero-product-and-roadmap-docs.md) — summary of strategic Theme Zero docs
-- [laravel13-theme-zero-composer-audit](./sources/laravel13-theme-zero-composer-audit.md) — Composer audit for Laravel 13 root merge decisions
-
-## Comparisons
-
-_No comparisons synthesized yet._
+## Indices
+- [Rules](rules/INDEX.md)
+- [Skills](skills/INDEX.md)
+- [Commands](commands/INDEX.md)
+- [Memories](memories/INDEX.md)
+- [Concepts](concepts/INDEX.md)
 
 ---
-
-**Last Updated:** 2026-05-05T12:10:00Z  
-**Total Pages:** 4  
-**Total Raw Sources:** 4
+*Updated: 2026-05-11*
