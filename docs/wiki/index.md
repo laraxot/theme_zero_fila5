@@ -21,6 +21,7 @@ _No entities tracked yet._
 
 - [context-compression-and-retrieval](./sources/context-compression-and-retrieval.md) — summary of the shared prompt-compression setup for theme docs workflows
 - [theme-zero-product-and-roadmap-docs](./sources/theme-zero-product-and-roadmap-docs.md) — summary of strategic Theme Zero docs
+- [laravel13-theme-zero-composer-audit](./sources/laravel13-theme-zero-composer-audit.md) — Composer audit for Laravel 13 root merge decisions
 
 ## Comparisons
 
@@ -28,6 +29,6 @@ _No comparisons synthesized yet._
 
 ---
 
-**Last Updated:** 2026-04-29T11:55:00Z  
-**Total Pages:** 3  
-**Total Raw Sources:** 3
+**Last Updated:** 2026-05-05T12:10:00Z  
+**Total Pages:** 4  
+**Total Raw Sources:** 4
