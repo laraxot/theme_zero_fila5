@@ -1,16 +1,25 @@
-# Zero Theme - skills Index
+---
+title: "Skills Index"
+type: "index"
+tags: [skills, theme, on-demand]
+module: "Zero"
+updated: 2026-05-12
+---
 
-## Purpose
-Index for Zero theme skills.
+# Skills — Zero Theme Wiki
 
-## On-Demand Loading
+> Skill condivise e riusabili per il tema. Load on-demand.
+
+## Available Skills
+
+- [filament-page-creation](../../../../../Modules/Xot/docs/wiki/skills/filament-page-creation.md) — crea correttamente page Filament usando `XotBase*`, `$resource` protetto e traduzioni automatiche
+
+## Usage
 
 ```bash
-qmd search "Zero skills" --limit 5
+qmd search "Zero theme skill filament" --limit 5
 ```
 
-## See Also
-- [Root Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-
 ---
-*Updated: 2026-05-11*
+
+**Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
