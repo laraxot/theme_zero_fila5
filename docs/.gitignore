@@ -1,2 +1,5 @@
 # Local generated documentation archives
-archive/
+legacy/
+
+# Ignore backup files
+*.backup
