@@ -1,13 +1,5 @@
----
-title: documentazione tema Zero
-module: Zero
-type: index
-status: approved
-tags: [documentation, readme, tema, second-brain]
-updated: "2026-05-27"
-related:
-  - ../README.md
----
+Ricordare di documentare ogni variante o layout personalizzato nella cartella `docs/`.
+# Tema Zero - Documentazione
 
 # Documentazione — tema Zero
 
@@ -91,13 +83,13 @@ Zero/
 
 ## Collegamenti
 
-- [README root (vetrina)](../README.md)
-- [Xot (framework base)](../../../Modules/Xot/docs/README.md)
-- [Wiki progetto](../../../../docs/wiki/README.md)
-- [Standard README doppio](../../../../docs/wiki/standards/module-theme-readme-dual.md)
+- [PHPStan Docs](./phpstan.md)
+- [Configurazione Root](../../../docs/THEME_ZERO.md)
 
 ## Per agenti
 
-1. Leggere scopo in questo file.
-2. Aprire `docs/wiki/index.md` se esiste.
-3. Seguire [disciplina issue GitHub](../../../../docs/wiki/how-to/github-issue-agent-discipline.md) prima di modifiche sostanziali.
+- [Xot Module](../../Modules/Xot/docs/)
+- [UI Module](../../Modules/UI/docs/)
+
+## AI Workflows
+- [AI Methodologies](./ai-methodologies.md)
