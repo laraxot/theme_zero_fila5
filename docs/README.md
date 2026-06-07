@@ -1,3 +1,4 @@
+Ricordare di documentare ogni variante o layout personalizzato nella cartella `docs/`.
 # Tema Zero - Documentazione
 
 ## Overview
@@ -36,12 +37,8 @@ Zero/
 
 ## Collegamenti
 
-- [Spatie Permission Team Context](./spatie-permission-team-context.md)
 - [PHPStan Docs](./phpstan.md)
-- [Performance Actions Reference](./performance-actions-reference.md)
 - [Configurazione Root](../../../docs/THEME_ZERO.md)
-- [Metodologia GSD](../../../../docs/project/gsd-methodology.md)
-- [GSD templates locali](../../../../.gsd/README.md)
 
 ## Backlinks
 
