@@ -25,7 +25,12 @@ Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni tema 
 
 In un mondo dove l'estetica conta, abbiamo creato un tema che unisce **funzionalità e bellezza**.
 
-## 🧘 I Principi Zen
+
+## Documentazione tecnica
+
+- [Indice docs](./docs/README.md) — mappa knowledge base locale (wiki, audit, regole)
+
+## Documentazione essenziale
 
 1. **Semplicità è eleganza** - Un design pulito vale più di mille colori.
 2. **Modulare è flessibile** - Ogni componente può essere adattato.
