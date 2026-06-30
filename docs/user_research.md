@@ -1,14 +1,3 @@
----
-title: "user-research (deprecated)"
-type: reference
-status: deprecated
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "deprecated renamed user-research.md"
----
-
-> This file has been renamed to [user-research.md](user-research.md).
-> Do not add dates or underscores in filenames.
 # User Research - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -459,7 +448,3 @@ This document presents user research findings for Theme Zero, the ultra-minimali
 
 **Acknowledgments**
 Thank you to all 22 research participants and 9 pre-alpha testers.
----
-
-> This file has been renamed to [user-research.md](user-research.md).
-> Do not add dates or underscores in filenames.
