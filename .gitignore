@@ -128,6 +128,10 @@ build
 /cache
 .git-rewrite
 _ide_helper_models.php
+*.old
+*.bak
+*.backup
+
 public_html/vendor
 public_html/js
 public_html/css
@@ -181,17 +185,5 @@ public_html/
 .env.latest
 node_modules/
 # PHPStan output files
-.cursor/
-.vscode/
-.windsurf/
-tests/AuditCoverage
-# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
-
-# Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
-.devcontainer/
-extras
-tests/AuditCoverage/
-
-
-# Database locale vector search (non versionare)
-ruvector.db
+phpstan*.json
+_docs/
