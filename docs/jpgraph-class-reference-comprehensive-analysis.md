@@ -1,15 +1,3 @@
----
-title: "📚 JpGraph Class Reference - Analisi Completta 2024"
-type: guide
-tags: ['charts', 'pdf', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "jpgraph class reference - analisi completta 2024"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # 📚 JpGraph Class Reference - Analisi Completta 2024
 
 ## 🎯 **Introduzione alla Documentazione JpGraph**
@@ -426,8 +414,6 @@ $graph->Stroke();
 - **API Reference**: https://jpgraph.net/doc/
 - **FAQ**: https://jpgraph.net/doc/faq.html
 
-## 🔄 **Integrazione con healthcare_app**
-## 🔄 **Integrazione con ModuloEsempio**
 ## 🔄 **Integrazione con healthcare_app**
 
 ### **Pattern di Integrazione**
