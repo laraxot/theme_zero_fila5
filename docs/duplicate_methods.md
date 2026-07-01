@@ -1,17 +1,3 @@
----
-title: "duplicate-methods (deprecated)"
-type: reference
-status: deprecated
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "deprecated renamed duplicate-methods.md"
----
-
-> This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
-> Do not add dates or underscores in filenames.
-
-> This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
-> Do not add dates or underscores in filenames.
 # Metodi duplicati — Zero
 
 Analisi sintetica dei metodi PHP con lo stesso nome all’interno di questo ambito.
@@ -33,9 +19,3 @@ Analisi sintetica dei metodi PHP con lo stesso nome all’interno di questo ambi
 - Per i metodi di tipo accessor/mutator, la duplicazione è spesso legata a pattern Eloquent ricorrenti.
 
 > Documento generato il 2026-06-15 da Claude Code.
-
-> This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
-> Do not add dates or underscores in filenames.
-
-> This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
-> Do not add dates or underscores in filenames.
