@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
 type: guide
@@ -18,27 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "riepilogo risoluzione conflitti git - filament 4"
 related:
-  - "./00-index.md"
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅
