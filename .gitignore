@@ -188,10 +188,6 @@ node_modules/
 phpstan*.json
 _docs/
 .cursor/
-.vscode/
-.windsurf/
-.devcontainer/
-.cursor/
 .devcontainer/
 .vscode/
 .windsurf/

@@ -6,13 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme zero documentation index"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
-
-# Theme Zero Documentation Index
-
-> **Note 2026-07-24**: redundant with [00-index.md](./00-index.md) (canonical, updated 2026-03-28).
-> See that file as the primary entry point for Zero theme docs.
 
 # Theme Zero Documentation Index
 
