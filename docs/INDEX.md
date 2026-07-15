@@ -11,10 +11,6 @@ related:
 
 # Documentation Index — Theme Zero
 
-> **Note 2026-07-24**: this index is redundant with [00-index.md](./00-index.md) (canonical, updated
-> 2026-03-28, aligned with current stack: Filament 5, Livewire 4, Volt, Tailwind v4). Kept only for the
-> `archive/duplicates` links below which are not referenced elsewhere.
-
 ## Archive
 - [archive/duplicates/conflict-resolution-summary](./archive/duplicates/conflict_resolution_summary.md)
 
@@ -36,8 +32,6 @@ related:
 - [roadmap/theme-customization](./roadmap/theme-customization.md)
 
 ## Root
-- [CHANGELOG](./changelog.md)
-
 - [CHANGELOG](./CHANGELOG.md)
 - [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT-RESOLUTION-SUMMARY.md)
 - [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT_RESOLUTION_SUMMARY.md)
@@ -160,11 +154,6 @@ related:
 - [skills/README](./skills/README.md)
 
 ## Wiki
-- [wiki/SCHEMA](./wiki/schema.md)
-- [wiki/bmad-method](./wiki/bmad-method.md)
-- [wiki/commands/INDEX](./wiki/commands/index.md)
-- [wiki/concepts/INDEX](./wiki/concepts/index.md)
-
 - [wiki/SCHEMA](./wiki/SCHEMA.md)
 - [wiki/bmad-method](./wiki/bmad-method.md)
 - [wiki/commands/INDEX](./wiki/commands/INDEX.md)
@@ -181,11 +170,6 @@ related:
 - [wiki/concepts/theme-zero-operating-focus](./wiki/concepts/theme-zero-operating-focus.md)
 - [wiki/index](./wiki/index.md)
 - [wiki/log](./wiki/log.md)
-- [wiki/memories/INDEX](./wiki/memories/index.md)
-- [wiki/overview](./wiki/overview.md)
-- [wiki/rules/INDEX](./wiki/rules/index.md)
-- [wiki/skills/INDEX](./wiki/skills/index.md)
-
 - [wiki/memories/INDEX](./wiki/memories/INDEX.md)
 - [wiki/overview](./wiki/overview.md)
 - [wiki/rules/INDEX](./wiki/rules/INDEX.md)
