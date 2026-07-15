@@ -1,33 +1,4 @@
 ---
-title: "Zero Theme Architecture"
-type: architecture
-tags: [theme, architecture, zero]
-created: 2026-08-04
-updated: 2026-08-04
----
-# Zero Theme — Architecture
-
-## Purpose
-Zero theme architecture and design patterns for Laraxot PTVX.
-
-## Core Components
-
-**Views:**
-- Blade templates for base layouts
-- Component-based structure
-
-**Assets:**
-- Vite build pipeline
-- Tailwind CSS compilation
-
-**Providers:**
-- ThemeServiceProvider registration
-
-## Quality Gates
-- Build passes without errors
-- Components render correctly
-- Performance optimized
----
 title: "Architettura del Tema Zero"
 type: guide
 tags: ['filament', 'laravel', 'charts', 'testing']
@@ -35,7 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "architettura del tema zero"
 related:
-  - "./00-index.md"
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
