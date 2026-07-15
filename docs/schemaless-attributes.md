@@ -6,21 +6,14 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "schemaless attributes in themes"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
 # 🧬 Schemaless Attributes in Themes
 
 **Status:** ✅ STANDARD
-**Central Reference:** [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
-# 🧬 Schemaless Attributes in Themes
-
-**Status:** ✅ STANDARD
-**Central Reference:** [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
-# 🧬 Schemaless Attributes in Themes
-
-**Status:** ✅ STANDARD
-**Central Reference:** [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
+**Central Reference:** [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
 
 ---
 
@@ -82,27 +75,6 @@ $record->save();
 
 ## References
 
-- [Xot Schemaless Guide](../../Modules/Xot/docs/spatie-schemaless-attributes.md)
-- [UI Themes Detailed Guide](../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
-- [Rating Schemaless Docs](../../Modules/Rating/docs/schemaless-attributes.md)
-**Reference:** [Global Rules](../../../Modules/Xot/docs/schemaless-attributes-rules.md)
-
----
-
-## 🎨 Utilizzo nei Temi
-
-I temi possono utilizzare modelli che implementano Schemaless Attributes.
-
-### Best Practices per le View
-1.  **Accesso Sicuro**: Gli attributi potrebbero non esistere.
-    ```blade
-    {{-- ✅ CORRETTO --}}
-    {{ $model->extra_attributes->get('color', 'default-blue') }}
-    
-    {{-- ❌ RISCHIOSO --}}
-    {{ $model->extra_attributes->color }}
-    ```
-
-2.  **Forms**: Quando si creano form per attributi extra, usare la dot notation nei nomi dei campi se supportato dal backend, oppure gestire la serializzazione.
-
----
+- [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
+- [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
+- [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
