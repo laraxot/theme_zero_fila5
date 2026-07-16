@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+use Illuminate\Database\Connection;
 
 // ponytail: questo file è un'integrazione legacy con LimeSurvey, refactoring richiederebbe rewriting completo
 
@@ -8,13 +9,13 @@ use function Safe\preg_replace;
 
 class LimeSurveyKK
 {
-    public ?\Illuminate\Database\Connection $db_lime = null;
+    public ?Connection $db_lime = null;
 
-    public ?\Illuminate\Database\Connection $db_xot = null;
+    public ?Connection $db_xot = null;
 
-    public ?\Illuminate\Database\Connection $db_quaeris = null;
+    public ?Connection $db_quaeris = null;
 
-    public ?\Illuminate\Database\Connection $db = null;
+    public ?Connection $db = null;
 
     public int $survey_id = 0;
 
@@ -35,7 +36,7 @@ class LimeSurveyKK
         $this->db = $this->db_lime;
 
         $tables = $this->db->select('SELECT * FROM INFORMATION_SCHEMA.TABLES');
-        /** @var array<\stdClass> $tables */
+        /** @var array<stdClass> $tables */
         foreach ($tables as $key => $table) {
             if (! isset($this->tables[$table->TABLE_SCHEMA])) {
                 $this->tables[$table->TABLE_SCHEMA] = [];
