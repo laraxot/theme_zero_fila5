@@ -1,110 +1,6 @@
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
-# -----------------------------------------------------------------------------
-# Root-level forbidden directories
-# -----------------------------------------------------------------------------
-
-bashscripts/
-_bmad-output/
-.circleci/
-.claude-audit/
-.devcontainer/
-_docs/
-docs/archive/
-docs/archived/
-docs/legacy/
-docs/workbench/
-.kilocode/
-.kiro/
-.ralph/
-scripts/
-test-results/
-tests/.claude-audit/
-tests/AuditCoverage/
-
-# -----------------------------------------------------------------------------
-# IDE / AI tools
-# -----------------------------------------------------------------------------
-
-.cursor/
-.vscode/
-.windsurf/
-.agents/
-
-# -----------------------------------------------------------------------------
-# AI / local tooling output
-# -----------------------------------------------------------------------------
-
-graphify-out/
-.headroom/
-
-# -----------------------------------------------------------------------------
-# Logs, caches and temporary files
-# -----------------------------------------------------------------------------
-
-*.log
-*.phar
-*.lock
-*.gz
-*.cache
-*.old
-*.bak
-*.backup
-error_log
-logs/
-*:Zone.Identifier
-
-/cache/
-.git-rewrite/
-
-# -----------------------------------------------------------------------------
-# Environment files
-# -----------------------------------------------------------------------------
-
-.env
-.env.docker
-.env.latest
-
-# -----------------------------------------------------------------------------
-# Dependencies / generated assets
-# -----------------------------------------------------------------------------
-
-vendor/
-node_modules/
-uploads/
-limesurvey/
-build/
-
-# -----------------------------------------------------------------------------
-# Package manager files
-# -----------------------------------------------------------------------------
-
-package-lock.json
-
-# -----------------------------------------------------------------------------
-# Public HTML generated/vendor assets
-# -----------------------------------------------------------------------------
-
-public_html/vendor/
-public_html/js/
-public_html/css/
-public_html/storage/
-public_html/error_log
-public_html/chart/
-
-# -----------------------------------------------------------------------------
-# Laravel generated / local files
-# -----------------------------------------------------------------------------
-
-laravel/
-laravel/*.lock
-laravel/bootstrap/cache/*
-laravel/public
-laravel/database/migrations/
-laravel/resources/lang/vendor/
-laravel/resources/views/vendor/
-laravel/stubs/
 bashscripts
 _bmad-output
 .circleci
@@ -121,22 +17,29 @@ docs/workbench
 scripts
 test-results
 tests/.claude-audit
+*.log
+*.phar
+*.lock
 uploads
 limesurvey
 vendor
 build
+package-lock.json
+error_log
+*.gz
+*.cache
 /cache
 .git-rewrite
 _ide_helper_models.php
 *.old
 *.bak
 *.backup
-
 public_html/vendor
 public_html/js
 public_html/css
 public_html/storage
 public_html/chart
+laravel/*.lock
 laravel/lang/vendor/
 laravel/database/migrations
 laravel/resources/views/vendor
@@ -147,9 +50,6 @@ laravel/.phpstorm.meta.php
 laravel/_ide_helper.php
 laravel/public
 laravel/resources/lang/vendor/
-
-
-
 vendor/
 public_html/css/
 public_html/js/
@@ -170,24 +70,8 @@ public_html/
 node_modules/
 # PHPStan output files
 phpstan*.json
-_docs/
 .cursor/
-.devcontainer/
 .vscode/
 .windsurf/
 tests/AuditCoverage
-
 # AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
-scripts/
-docs/archive/
-docs/archived/
-docs/legacy/
-docs/workbench/
-.circleci/
-.claude-audit/
-tests/.claude-audit/
-_bmad-output/
-test-results/
-.kilocode/
-.kiro/
-.ralph/
