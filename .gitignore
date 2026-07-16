@@ -145,27 +145,11 @@ laravel/package-lock.json
 laravel/error_log
 laravel/.phpstorm.meta.php
 laravel/_ide_helper.php
-laravel/_ide_helper_models.php
-
-# -----------------------------------------------------------------------------
-# PHP / static analysis / quality tools
-# -----------------------------------------------------------------------------
-
-phpstan*.json
-phpinsights.php
-rector.php
-
-# -----------------------------------------------------------------------------
-# Documentation / generated screenshots
-# -----------------------------------------------------------------------------
-
-docs/screenshots/
-.cursor
-.devcontainer
-.vscode
-.windsurf
 laravel/public
 laravel/resources/lang/vendor/
+
+
+
 vendor/
 public_html/css/
 public_html/js/
@@ -191,3 +175,19 @@ _docs/
 .devcontainer/
 .vscode/
 .windsurf/
+tests/AuditCoverage
+
+# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
+scripts/
+docs/archive/
+docs/archived/
+docs/legacy/
+docs/workbench/
+.circleci/
+.claude-audit/
+tests/.claude-audit/
+_bmad-output/
+test-results/
+.kilocode/
+.kiro/
+.ralph/
