@@ -35,10 +35,8 @@ laravel/package-lock.json
 laravel/error_log
 laravel/.phpstorm.meta.php
 laravel/_ide_helper.php
-laravel/error_log
 laravel/public
 laravel/resources/lang/vendor/
-laravel/composer.lock
 
 
 
@@ -48,20 +46,9 @@ public_html/js/
 public_html/vendor/
 public_html/vendor/*
 laravel/bootstrap/cache/*
-public_html/vendor/
-public_html/js/
 laravel/stubs
-laravel/resources/lang/vendor/
 laravel/resources/views/vendor/
-public_html/vendor/
 .git-rewrite/
-public_html/css
-public_html/js
-vendor
-public_html/css/
-public_html/js/
-public_html/js/
-public_html/css/
 *:Zone.Identifier
 .env
 laravel/database/migrations/
@@ -80,3 +67,19 @@ _docs/
 .devcontainer/
 .vscode/
 .windsurf/
+tests/AuditCoverage
+
+# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
+scripts/
+docs/archive/
+docs/archived/
+docs/legacy/
+docs/workbench/
+.circleci/
+.claude-audit/
+tests/.claude-audit/
+_bmad-output/
+test-results/
+.kilocode/
+.kiro/
+.ralph/
