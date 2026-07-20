@@ -1,3 +1,22 @@
+---
+title: "Chart.js datalabels in Filament 5"
+description: "Integrazione datalabels nel tema Zero e vincoli Blade Filament 5."
+type: guide
+status: active
+version: "5.x"
+tags: [filament, chartjs, blade, theme-zero, view-cache]
+created: "2026-03-02"
+updated: "2026-07-20"
+issues: ["https://github.com/laraxot/base_quaeris_fila5/issues/1"]
+discussions: ["https://github.com/laraxot/base_quaeris_fila5/discussions/1"]
+related:
+  - "./README.md"
+  - "./INDEX.md"
+  - "./roadmap/component-library.md"
+  - "./roadmap/performance-optimization.md"
+  - "../../../Modules/Chart/docs/chart-assets-centralization-rule.md"
+---
+
 # Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero
 
 ## Overview
@@ -77,6 +96,9 @@ I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart
 - Segui il pattern delle labels multiple centrate per coerenza visiva
 - Applica sfondi semi-trasparenti per migliorare il contrasto
 - Usa angoli arrotondati e padding generoso per un aspetto moderno
+- Nei form Livewire usare `<form wire:submit="metodo">` e `{{ $this->form }}`;
+  non inventare componenti nel namespace `filament-schemas`.
+- Usare `php artisan view:cache` come gate per i Blade del tema.
 
 ## Riferimenti
 
@@ -84,3 +106,4 @@ I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart
 - [Filament 5.x Charts](https://filamentphp.com/docs/5.x/widgets/charts)
 - [chartjs-plugin-datalabels](https://chartjs-plugin-datalabels.netlify.app/)
 - [Multiple Labels Complete Guide](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
+- [Rendering ufficiale dei form Filament 5](https://filamentphp.com/docs/5.x/components/form)
