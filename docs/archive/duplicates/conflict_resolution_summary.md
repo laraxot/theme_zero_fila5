@@ -6,8 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "riepilogo risoluzione conflitti git - filament 4"
 related:
-  - "./conflict-resolution-summary-relocated.md"
-  - "./conflict-resolution-summary.md"
+  - "./conflict_resolution_summary.md"
 ---
 
 # Riepilogo Risoluzione Conflitti Git - Filament 4
@@ -66,7 +65,7 @@ public function form(Form $form): Form
 - **UI**: Widgets, Tests
 
 ### ⚠️ Richiede Attenzione
-- **Xot/helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
+- **Xot/Helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
 
 ## Script Creati
 
