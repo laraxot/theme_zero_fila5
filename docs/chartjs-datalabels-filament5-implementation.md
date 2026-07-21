@@ -1,20 +1,13 @@
 ---
-title: "Chart.js datalabels in Filament 5"
-description: "Integrazione datalabels nel tema Zero e vincoli Blade Filament 5."
-type: guide
-status: active
-version: "5.x"
-tags: [filament, chartjs, blade, theme-zero, view-cache]
-created: "2026-03-02"
-updated: "2026-07-20"
-issues: ["https://github.com/laraxot/base_quaeris_fila5/issues/1"]
-discussions: ["https://github.com/laraxot/base_quaeris_fila5/discussions/1"]
+title: "Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero"
+type: concept
+tags: ['filament', 'charts', 'testing']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "implementazione chartjs datalabels in filament 5x - tema zero"
 related:
-  - "./README.md"
-  - "./INDEX.md"
-  - "./roadmap/component-library.md"
-  - "./roadmap/performance-optimization.md"
-  - "../../../Modules/Chart/docs/chart-assets-centralization-rule.md"
+  - "./00-INDEX.md"
+  - "./00-index.md"
 ---
 
 # Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero
@@ -105,5 +98,4 @@ I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart
 - [Chart.js Documentation](https://www.chartjs.org/docs/latest/)
 - [Filament 5.x Charts](https://filamentphp.com/docs/5.x/widgets/charts)
 - [chartjs-plugin-datalabels](https://chartjs-plugin-datalabels.netlify.app/)
-- [Multiple Labels Complete Guide](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
-- [Rendering ufficiale dei form Filament 5](https://filamentphp.com/docs/5.x/components/form)
+- [Multiple Labels Complete Guide](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)

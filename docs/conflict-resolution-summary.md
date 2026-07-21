@@ -6,8 +6,8 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "riepilogo risoluzione conflitti git - filament 4"
 related:
-  - "./conflict-resolution-summary-relocated.md"
-  - "./conflict-resolution-summary.md"
+  - "./00-INDEX.md"
+  - "./00-index.md"
 ---
 
 # Riepilogo Risoluzione Conflitti Git - Filament 4
