@@ -70,8 +70,8 @@ public_html/
 node_modules/
 # PHPStan output files
 phpstan*.json
+_docs/
 .cursor/
+.devcontainer/
 .vscode/
 .windsurf/
-tests/AuditCoverage
-# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
