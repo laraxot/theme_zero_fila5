@@ -14,9 +14,9 @@ related:
 
 ## Ultra-Minimalist Theme
 
-**Document Version:** 1.0  
-**Sprint:** Sprint 1 (Q2 2026)  
-**Sprint Duration:** 2 weeks (April 1-14, 2026)  
+**Document Version:** 1.0
+**Sprint:** Sprint 1 (Q2 2026)
+**Sprint Duration:** 2 weeks (April 1-14, 2026)
 **Team:** Theme Zero Development Team
 
 ---
@@ -68,9 +68,9 @@ related:
 ### P0 - Critical Stories
 
 #### Story 1: Typography Components
-**ID:** ZERO-101  
-**Points:** 8  
-**Priority:** P0  
+**ID:** ZERO-101
+**Points:** 8
+**Priority:** P0
 **Assignee:** Lead Dev
 
 **User Story:**
@@ -104,9 +104,9 @@ related:
 ---
 
 #### Story 2: Minimalism Philosophy Documentation
-**ID:** ZERO-102  
-**Points:** 5  
-**Priority:** P0  
+**ID:** ZERO-102
+**Points:** 5
+**Priority:** P0
 **Assignee:** Lead Dev
 
 **User Story:**
@@ -131,9 +131,9 @@ related:
 ---
 
 #### Story 3: Performance Baseline
-**ID:** ZERO-103  
-**Points:** 5  
-**Priority:** P0  
+**ID:** ZERO-103
+**Points:** 5
+**Priority:** P0
 **Assignee:** Lead Dev
 
 **User Story:**
@@ -160,9 +160,9 @@ related:
 ### P1 - High Priority Stories
 
 #### Story 4: Basic Form Input
-**ID:** ZERO-104  
-**Points:** 5  
-**Priority:** P1  
+**ID:** ZERO-104
+**Points:** 5
+**Priority:** P1
 **Assignee:** Lead Dev
 
 **User Story:**
@@ -186,9 +186,9 @@ related:
 ---
 
 #### Story 5: Component Decision Framework
-**ID:** ZERO-105  
-**Points:** 3  
-**Priority:** P1  
+**ID:** ZERO-105
+**Points:** 3
+**Priority:** P1
 **Assignee:** Lead Dev
 
 **User Story:**
@@ -212,9 +212,9 @@ related:
 ### P2 - Medium Priority Stories
 
 #### Story 6: Layout Utilities
-**ID:** ZERO-106  
-**Points:** 3  
-**Priority:** P2  
+**ID:** ZERO-106
+**Points:** 3
+**Priority:** P2
 **Assignee:** Lead Dev
 
 **User Story:**
