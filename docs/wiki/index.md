@@ -4,7 +4,7 @@ module: "Zero"
 updated: "2026-04-15T08:28:52Z"
 ---
 
-# Zero Theme Wiki
+# Wiki Index — Zero
 
 > **Purpose:** Content-oriented catalog of all wiki pages in this module.  
 > **Replaces embedding-based RAG at moderate scale (~100 sources).**
