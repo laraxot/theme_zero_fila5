@@ -1,9 +1,9 @@
 ---
-title: "Zero Theme Wiki Log"
-theme: "Zero"
+title: "Activity Log"
+module: "Zero"
 ---
 
-# Zero Theme - Wiki Activity Log
+# Activity Log — Zero
 
 > **Purpose:** Append-only chronological activity record tracking ingests, queries, and lint passes.
 
