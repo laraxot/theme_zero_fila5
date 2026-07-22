@@ -3,11 +3,13 @@ title: "Performance actions reference"
 type: guide
 tags: ['filament', 'pdf']
 created: 2026-07-14
-updated: 2026-07-14
-qmd: "performance actions reference"
+updated: 2026-07-22
+qmd: "performance actions reference gg_integ_params_no_asz FieldRefresh"
 related:
   - "./00-INDEX.md"
   - "./00-index.md"
+  - "./wiki/concepts/gg-integ-params-no-asz-theme-boundary.md"
+  - "../../Modules/Sigma/docs/wiki/concepts/gg-integ-params-no-asz.md"
 ---
 
 # Performance actions reference
@@ -31,6 +33,13 @@ Appartiene a:
 
 - `Modules\Performance\Actions\Organizzativa\UpdateGgPresenzaDalalAction`
 - `Modules\Sigma\Models\Traits\Mutators\EnteMatrDateRangeMutator`
+
+Nello stesso mutator Sigma vivono anche `getGgAssenzaDalal()` e `getHhAssenzaDalal()`,
+condivisi da tutte le schede (Ptv, Progressioni, Performance) via `SchedaTrait`.
+Il tema **non** deve ricalcolarli: consuma i campi materializzati o il refresh
+Filament (`FieldRefreshAction`) sul form.
+
+Per `gg_integ_params_no_asz` (≠ `gg_esperienza_no_asz`): getter + Attribute co-locati in `SchedaMutator` con persist `withoutEvents`; boundary tema in [gg-integ-params-no-asz-theme-boundary](./wiki/concepts/gg-integ-params-no-asz-theme-boundary.md).
 
 Il tema vede solo l'effetto finale: il campo `gg_presenza_dalal` valorizzato sul
 record `Organizzativa`.
