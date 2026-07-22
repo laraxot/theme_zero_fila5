@@ -76,3 +76,6 @@ _docs/
 .vscode/
 .windsurf/
 extras
+
+# Local vector DB (agent tooling)
+ruvector.db
