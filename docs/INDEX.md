@@ -40,6 +40,7 @@ related:
 - [accessor-delegation-pattern](./accessor-delegation-pattern.md)
 - [agent-confidence-discipline](./agent-confidence-discipline.md)
 - [agent-confidence-protocol](./agent-confidence-protocol.md)
+- [folio-pages-structure](./folio-pages-structure.md) — FO `pages/` ptvx (no cartelle semantiche)
 - [agent-edit-discipline](./agent-edit-discipline.md)
 - [ai-development-guide](./ai-development-guide.md)
 - [ai-handoff](./ai-handoff.md)
