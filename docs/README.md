@@ -87,6 +87,10 @@ Zero/
 
 Path `laravel/Themes/Zero` → remote `laraxot/theme_zero_fila5` (da `git remote -v`; il vecchio `gitmodules.ini` è stato rimosso il 2 set 2026, non era un file letto da git). Entrare con `cd`, non trattarlo come submodule della root. Protocollo: [17-gitmodules-path-iteration.md](../../../../bashscripts/tools/prompts/17-gitmodules-path-iteration.md).
 
+## Repo indipendente
+
+Path in `gitmodules.ini`: `laravel/Themes/Zero` → remote `laraxot/theme_zero_fila5`. Entrare con `cd`, non trattarlo come submodule della root. Protocollo: [17-gitmodules-path-iteration.md](../../../../bashscripts/tools/prompts/17-gitmodules-path-iteration.md).
+
 ## Collegamenti
 
 - [PHPStan Docs](./phpstan.md)
