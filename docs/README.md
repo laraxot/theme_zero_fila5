@@ -9,7 +9,9 @@ Tema alternativo/sperimentale. Hub: [gestionale-docs-index.md](../../docs/gestio
 
 > **Mappa knowledge base locale.** Il [README in root](../README.md) è la vetrina (valore, release, onboarding); questo file indica **dove** trovare regole, wiki e audit per chi sviluppa o per gli agenti AI.
 
-## Scopo
+> **GitHub remote (GRAVE):** prima di link issue/discussion nei docs → `cd laravel/Themes/Zero && git remote -v` (`laraxot/theme_zero_fila5`). Mai `base_techplanner` / `base_workorder`. Vedi [code-quality-improvement-report.md](./code-quality-improvement-report.md).
+
+## Scopo (business)
 
 Zero theme for Laraxot PTVX: frontend theme with Tailwind, Vite, Flowbite and Alpine.js integration.
 
