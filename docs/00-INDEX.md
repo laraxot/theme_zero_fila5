@@ -1,5 +1,10 @@
 # 📚 Zero Theme - Documentation Index
 
+> **Nota 2026-07-24**: file d'indice ridondante rispetto a [00-index.md](./00-index.md), che è il più recente
+> (2026-03-28) e allineato allo stack corrente (Filament 5, Livewire 4, Volt, Tailwind v4). Consultare
+> `00-index.md` come punto di ingresso primario; questo file resta come vista alternativa non aggiornata
+> nella stessa sessione.
+
 **Path**: `laravel/Themes/Zero/docs/`  
 **Tema**: @Themes/Zero
 
