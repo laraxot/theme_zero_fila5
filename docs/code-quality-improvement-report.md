@@ -84,7 +84,7 @@ Rilevazione del 17 luglio 2026 sul working tree locale; esclusi vendor e dipende
 5. **tests/ assente — primo test reale.** Se il componente è caricato in produzione, aggiungere un solo smoke test che risolva provider/entrypoint e renda una view o route rappresentativa. Se è placeholder non usato, rimuovere il componente invece di costruire una suite speculativa.
 
 
-- [ ] PHPStan L10 scoped senza errori non giustificati.
+- [x] PHPStan L10 scoped senza errori non giustificati. (Modules 2026-07-27)
 - [ ] Pest scoped verde sui flussi critici.
 - [ ] Nessuna nuova estensione Filament diretta o controller FO.
 - [ ] Nessuna nuova business logic in Services/Support.
@@ -93,11 +93,18 @@ Rilevazione del 17 luglio 2026 sul working tree locale; esclusi vendor e dipende
 
 ## Criteri di uscita
 
+## Gate PHPStan (2026-07-27)
+
+- `cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1` → **0 errori**.
+- Themes: solo insieme a Modules — [phpstan-stale-ignore-pattern](../../../../docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md).
+
 ## Verifica GitHub / qualità cross-repo
 
 ```bash
 cd laravel/Themes/Zero && git remote -v   # laraxot/theme_zero_fila5
 cd ../../.. && cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1
+# Themes: usare Modules Themes/Zero insieme — mai Themes da solo
+# (ignore neon unmatched) → docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md
 ```
 
-Gate moduli (2026-07-27): **0 errori** — chat [phpstan-modules-getclassname-zero](../../../../docs/chat/phpstan-modules-getclassname-zero.md).
+Gate moduli (2026-07-27): **0 errori** — chat [phpstan-modules-themes-gate](../../../../docs/chat/phpstan-modules-themes-gate.md).
