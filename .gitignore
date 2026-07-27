@@ -80,7 +80,11 @@ _docs/
 .devcontainer/
 .vscode/
 .windsurf/
-extras
+tests/AuditCoverage
+# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
 
-# Local vector DB (agent tooling)
-ruvector.db
+# Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
+.cursor/
+.devcontainer/
+.vscode/
+.windsurf/
