@@ -11,6 +11,8 @@ Tema alternativo/sperimentale. Hub: [gestionale-docs-index.md](../../docs/gestio
 
 > **GitHub remote (GRAVE):** prima di link issue/discussion nei docs → `cd laravel/Themes/Zero && git remote -v` (`laraxot/theme_zero_fila5`). Mai `base_techplanner` / `base_workorder`. Vedi [code-quality-improvement-report.md](./code-quality-improvement-report.md).
 
+> **PHPStan (2026-07-27):** gate `analyse Modules` → 0. Non usare `analyse Themes` da solo (ignore unmatched neon) — [phpstan-stale-ignore-pattern](../../../../docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md).
+
 ## Scopo (business)
 
 Zero theme for Laraxot PTVX: frontend theme with Tailwind, Vite, Flowbite and Alpine.js integration.
