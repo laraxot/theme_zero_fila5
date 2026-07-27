@@ -84,3 +84,4 @@ tests/AuditCoverage
 .vscode/
 .windsurf/
 extras
+tests/AuditCoverage/
