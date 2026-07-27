@@ -2,28 +2,33 @@
 title: "Code Quality Improvement Report — Zero"
 type: report
 tags: [code-quality, phpstan, pest, maintainability]
-module: "Zero"
+theme: "Zero"
 created: 2026-07-17
-updated: 2026-07-17
-qmd: "code quality baseline PHPStan Pest strict types Laraxot Zero"
+updated: 2026-07-27
+qmd: "code quality baseline PHPStan Pest strict types Laraxot Zero git remote"
 story: STORY-001
-issues:
-<<<<<<< HEAD
-  - "https://github.com/laraxot/base_techplanner_fila5/issues/46"
-discussions:
-  - "https://github.com/laraxot/base_techplanner_fila5/discussions/47"
-=======
-  - "https://github.com/laraxot/base_workorder_fila5/issues/46"
-discussions:
-  - "https://github.com/laraxot/base_workorder_fila5/discussions/47"
->>>>>>> 8125a85 (Update documentation indices to clarify redundancy and provide updated references. Added notes indicating that several index files are outdated and should refer to the canonical `00-index.md`. Adjusted links in various documents for consistency and accuracy. Enhanced README with additional information about the alternative theme documentation.)
+# GRAVE: issue/discussion del tema — mai base_techplanner / base_workorder / mono.
+# Resolve: cd laravel/Themes/Zero && git remote -v → laraxot/theme_zero_fila5
+issues: []
+discussions: []
 related:
   - "../../../../docs/stories/STORY-001-code-quality-moduli-temi.md"
+  - "../../../../docs/wiki/memories/module-github-remote-discipline.md"
 ---
 
 # Code Quality Improvement Report — Zero
 
 > Baseline statica riproducibile per orientare il miglioramento. I conteggi sono segnali, non sostituiscono PHPStan, Pest o la review del flusso reale.
+
+
+## GitHub (repo del componente)
+
+```bash
+cd laravel/Themes/Zero && git remote -v
+# atteso: laraxot/theme_zero_fila5
+```
+
+**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 
 ## Baseline
 
@@ -88,11 +93,11 @@ Rilevazione del 17 luglio 2026 sul working tree locale; esclusi vendor e dipende
 
 ## Criteri di uscita
 
-## Verifica
+## Verifica GitHub / qualità cross-repo
 
-Dalla cartella laravel/:
+```bash
+cd laravel/Themes/Zero && git remote -v   # laraxot/theme_zero_fila5
+cd ../../.. && cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1
+```
 
-    ./vendor/bin/phpstan analyse Themes/Zero --memory-limit=-1
-    ./vendor/bin/pest Themes/Zero/tests
-
-Limite deliberato: niente coverage, mutation score o metriche di complessità finché PHPStan, Pest e review mirata bastano a decidere.
+Gate moduli (2026-07-27): **0 errori** — chat [phpstan-modules-getclassname-zero](../../../../docs/chat/phpstan-modules-getclassname-zero.md).
