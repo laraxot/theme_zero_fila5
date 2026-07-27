@@ -8,6 +8,8 @@ Tema alternativo/sperimentale. Hub: [gestionale-docs-index.md](../../docs/gestio
 
 Il tema **Zero** è il tema principale di default per l'applicazione Laraxot PTVX.
 
+> **GitHub remote (GRAVE):** prima di link issue/discussion nei docs → `cd laravel/Themes/Zero && git remote -v` (`laraxot/theme_zero_fila5`). Mai `base_techplanner` / `base_workorder`. Vedi [code-quality-improvement-report.md](./code-quality-improvement-report.md).
+
 ## Scopo (business)
 
 - **Frontoffice**: layout e pagine base, con convenzioni condivise.
