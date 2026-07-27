@@ -1,7 +1,11 @@
 Ricordare di documentare ogni variante o layout personalizzato nella cartella `docs/`.
 # Tema Zero - Documentazione
 
-# Documentazione — tema Zero
+## Gestionale / replica
+
+Tema alternativo/sperimentale. Hub: [gestionale-docs-index.md](../../docs/gestionale-docs-index.md) · [tenant-modules-navigation-discipline.md](../../docs/tenant-modules-navigation-discipline.md) · [panels vs Zero](./gestionale-panels-vs-themes.md).
+
+## Overview
 
 > **Mappa knowledge base locale.** Il [README in root](../README.md) è la vetrina (valore, release, onboarding); questo file indica **dove** trovare regole, wiki e audit per chi sviluppa o per gli agenti AI.
 
