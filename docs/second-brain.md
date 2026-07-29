@@ -2,11 +2,7 @@
 title: second brain — puntatore modulo
 type: reference
 qmd: second brain modulo wiki locale laravel
-<<<<<<< HEAD
-updated: 2026-05-21
-=======
 updated: 2026-07-29
->>>>>>> provtv/dev
 ---
 
 # Second brain (modulo)
@@ -25,8 +21,6 @@ Stub **puntatore**: disciplina e link esterni curati stanno nella wiki di proget
 - Guida wiki modulo: [../../../../docs/wiki/how-to/module-wiki-documentation.md](../../../../docs/wiki/how-to/module-wiki-documentation.md)
 - Benchmark lettura esterna (Karpathy, Obsidian, PARA, …): [../../../../docs/wiki/sources/second-brain-external-benchmarks.md](../../../../docs/wiki/sources/second-brain-external-benchmarks.md)
 - **Filament (stack attuale): v5** — non v4. Policy: [../../../../docs/wiki/memories/filament-version-policy.md](../../../../docs/wiki/memories/filament-version-policy.md) · Xot: [../../../laravel/Modules/Xot/docs/filament-5-laraxot-rules.md](../../../laravel/Modules/Xot/docs/filament-5-laraxot-rules.md)
-<<<<<<< HEAD
-=======
 
 ## Nota operativa 2026-07-29
 
@@ -37,5 +31,3 @@ Per sync multi-org del tema:
 3. verificare `git rev-list --left-right --count HEAD...<remote>/dev`;
 4. fare push solo quando il secondo numero e' `0`;
 5. se QMD non trova la collection locale, usare wiki file-based e annotare il degrado nel report.
-
->>>>>>> provtv/dev
