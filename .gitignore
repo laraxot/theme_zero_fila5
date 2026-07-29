@@ -95,3 +95,4 @@ tests/AuditCoverage/
 phpinsights.php
 rector.php
 .cursor
+docs/screenshots
