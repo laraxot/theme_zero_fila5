@@ -31,4 +31,3 @@ Per sync multi-org del tema:
 3. verificare `git rev-list --left-right --count HEAD...<remote>/dev`;
 4. fare push solo quando il secondo numero e' `0`;
 5. se QMD non trova la collection locale, usare wiki file-based e annotare il degrado nel report.
-
