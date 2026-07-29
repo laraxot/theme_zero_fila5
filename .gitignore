@@ -92,6 +92,3 @@ rector.php
 .cursor
 docs/screenshots
 .agents
-.claude
-.codex
-gitmodules.ini
