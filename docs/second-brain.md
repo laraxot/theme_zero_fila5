@@ -30,6 +30,5 @@ Per sync multi-org del tema:
 2. fare `git fetch --all --prune`;
 3. verificare `git rev-list --left-right --count HEAD...<remote>/dev`;
 4. fare push solo quando il secondo numero e' `0`;
-5. se Git LFS blocca il push, cercare l'OID esatto nella cache LFS root prima di recuperare file generici;
-6. se QMD non trova la collection locale, usare wiki file-based e annotare il degrado nel report.
+5. se QMD non trova la collection locale, usare wiki file-based e annotare il degrado nel report.
 
