@@ -66,5 +66,8 @@ Forward-only: niente reset/squash/force per aggirare LFS.
 - Branch attivo: `dev`; `fetch --all --prune` riuscito.
 - Confronto pre-documentazione: `HEAD...laraxot/dev` = `4 0`, `HEAD...provtv/dev` = `3 0`; nessun remote aveva commit mancanti localmente.
 - Risoluzione: documentazione/prompt consolidati, poi push forward-only su entrambi i remote.
-- Regola riusabile: prima di sincronizzare org multiple, confrontare sempre `HEAD...<remote>/dev` e spingere solo se il secondo valore e' `0`.
+- Blocco risolto: push `laraxot` fermato da 4 oggetti LFS mancanti in `docs/screenshots/*`; `provtv` non li aveva, ma la cache LFS del monorepo root sì.
+- Fix LFS: copiati nella cache LFS del tema solo gli oggetti con OID esatto, poi `git lfs push laraxot dev` e push Git riuscito.
+- Primo allineamento riuscito: `laraxot/dev` e `provtv/dev` a `8ef721b` prima del commit documentale finale.
+- Regola riusabile: prima di sincronizzare org multiple, confrontare sempre `HEAD...<remote>/dev` e spingere solo se il secondo valore e' `0`; per LFS usare solo oggetti con OID verificato.
 
