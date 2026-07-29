@@ -44,9 +44,6 @@ Tema: sync multi-org + handoff docs.
 
 ### Playbook push dual-remote (2026-07-22)
 
-Se unpack fallisce → `git push --no-thin`. Se GH008 / LFS missing e un remote sibling ha già il tip → `git lfs fetch <sibling> --all` + `git lfs push <target> --all` + push.
-Canon (caso UI `b874935`): [../../../Modules/UI/docs/wiki/troubleshooting/git-push-lfs-missing-objects.md](../../../Modules/UI/docs/wiki/troubleshooting/git-push-lfs-missing-objects.md).
-Forward-only: niente reset/squash/force per aggirare LFS.
 
 ### Caso User 2026-07-23 (unrelated)
 
@@ -67,4 +64,3 @@ Forward-only: niente reset/squash/force per aggirare LFS.
 - Confronto pre-documentazione: `HEAD...laraxot/dev` = `4 0`, `HEAD...provtv/dev` = `3 0`; nessun remote aveva commit mancanti localmente.
 - Risoluzione: documentazione/prompt consolidati, poi push forward-only su entrambi i remote.
 - Regola riusabile: prima di sincronizzare org multiple, confrontare sempre `HEAD...<remote>/dev` e spingere solo se il secondo valore e' `0`.
-
