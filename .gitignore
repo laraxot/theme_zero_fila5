@@ -92,3 +92,4 @@ rector.php
 .cursor
 docs/screenshots
 .agents
+.claude
