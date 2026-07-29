@@ -8,9 +8,12 @@ CHANGELOG.md export-ignore
 *.jpeg binary
 *.gif binary
 *.webp binary
+<<<<<<< HEAD
+=======
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
 *.jpg !text !filter !merge !diff
 *.jpeg !text !filter !merge !diff
 *.gif !text !filter !merge !diff
 *.webp !text !filter !merge !diff
+>>>>>>> b3c2bb8 (Remove deprecated agent files and update .gitattributes to include new binary file types. Delete outdated documentation files and resolve conflicts in multi-org sync documentation.)
