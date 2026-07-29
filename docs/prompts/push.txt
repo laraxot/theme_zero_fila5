@@ -8,8 +8,13 @@ Procedura richiesta:
    - se HEAD e' avanti e il remote non ha commit mancanti, fai push fast-forward;
    - se un remote ha commit non presenti localmente, fermati e documenta la divergenza;
    - non usare force push, reset, restore, checkout, switch o revert.
-5. Dopo ogni push, ricontrolla che HEAD e tutti i remote dev puntino allo stesso stato.
-6. Documenta in docs/ come e' stata risolta la sincronizzazione.
-7. Aggiorna il second brain locale se emergono regole operative riusabili.
+5. Se il push fallisce per oggetti LFS mancanti:
+   - prova prima git lfs fetch <remote-sibling> --all;
+   - se anche il sibling non li ha, cerca gli OID nella cache LFS del monorepo root;
+   - copia solo oggetti con OID esatto nella cache LFS del tema;
+   - esegui git lfs push <remote> dev e poi git push <remote> dev.
+6. Dopo ogni push, ricontrolla che HEAD e tutti i remote dev puntino allo stesso stato.
+7. Documenta in docs/ come e' stata risolta la sincronizzazione.
+8. Aggiorna il second brain locale se emergono regole operative riusabili.
 
 Output finale: remoti sincronizzati, verifiche eseguite, file documentali modificati.
