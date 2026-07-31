@@ -1,4 +1,19 @@
+---
+title: "Theme Zero Documentation Index"
+type: guide
+tags: ['laravel', 'charts', 'phpstan']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "theme zero documentation index"
+related:
+  - "./00-INDEX.md"
+  - "./00-index.md"
+---
+
 # Theme Zero Documentation Index
+
+> **Note 2026-07-24**: redundant with [00-index.md](./00-index.md) (canonical, updated 2026-03-28).
+> See that file as the primary entry point for Zero theme docs.
 
 **Status**: Theme implementation for Laraxot monolith  
 **Last Updated**: January 2026
@@ -126,13 +141,6 @@ Theme development roadmap.
 - **Limesurvey Module** (`../../laravel/Modules/Limesurvey/docs/`) - Survey data integration
 - **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
 - **Chart Module** (`../../laravel/Modules/Chart/docs/`) - Chart generation
-- **Performance Module** (`../../laravel/Modules/Performance/docs/`) - Performance evaluation
-  - [Performance Actions Reference](./performance-actions-reference.md) - Backend actions for performance calculations
-  - [Update Gg Presenza Dalal](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md) - Calcolo giorni presenza
-  - [Update Gg Anno](../../Modules/Performance/docs/action-update-gg-anno.md) - Calcolo giorni presenza anno (campo `gg_anno`)
-  - [Update Perc Part-time](../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md) - Calcolo percentuale part-time
-  - [Discrepanza Calcolo Quota](../../Modules/Performance/docs/discrepanza-calcolo-quota.md) - Analisi diff quote
-  - [Filament Infolist Pattern](../../Modules/Performance/docs/filament-infolist-pattern.md) - Pattern infolist Filament
 
 ## File Organization
 
@@ -143,9 +151,6 @@ docs/
 ├── architecture.md                              # Architecture guide
 ├── components.md                                # Components reference
 ├── customization.md                             # Customization guide
-├── performance-actions-reference.md             # Performance actions
-├── performance-calcolo-quota-troubleshooting.md # Troubleshooting quote
-├── filament-infolist-pattern.md                 # Infolist pattern
 ├── layouts.md                                   # Layout templates
 ├── mail-layouts.md                              # Email layouts
 ├── examples.md                                  # Code examples
@@ -164,8 +169,7 @@ docs/
 ├── analisi-completa-tema.md                     # Theme analysis
 ├── comprehensive-theme-analysis.md              # Comprehensive analysis
 ├── database-governance.md                       # Database governance
-├── roadmap.md                                   # Development roadmap
-└── performance-actions-reference.md             # Performance module actions reference
+└── roadmap.md                                   # Development roadmap
 ```
 
 ## Key Concepts
