@@ -3,13 +3,11 @@ title: "Performance actions reference"
 type: guide
 tags: ['filament', 'pdf']
 created: 2026-07-14
-updated: 2026-07-22
-qmd: "performance actions reference gg_integ_params_no_asz FieldRefresh"
+updated: 2026-07-14
+qmd: "performance actions reference"
 related:
   - "./00-INDEX.md"
   - "./00-index.md"
-  - "./wiki/concepts/gg-integ-params-no-asz-theme-boundary.md"
-  - "../../Modules/Sigma/docs/wiki/concepts/gg-integ-params-no-asz.md"
 ---
 
 # Performance actions reference
