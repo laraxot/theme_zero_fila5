@@ -7,10 +7,10 @@ created: 2026-07-17
 updated: 2026-07-27
 qmd: "code quality baseline PHPStan Pest strict types Laraxot Zero git remote"
 story: STORY-001
-# GRAVE: issue/discussion del tema — mai base_techplanner / base_workorder / mono.
-# Resolve: cd laravel/Themes/Zero && git remote -v → laraxot/theme_zero_fila5
-issues: []
-discussions: []
+issues:
+  - "https://github.com/laraxot/base_workorder_fila5/issues/46"
+discussions:
+  - "https://github.com/laraxot/base_workorder_fila5/discussions/47"
 related:
   - "../../../../docs/stories/STORY-001-code-quality-moduli-temi.md"
   - "../../../../docs/wiki/memories/module-github-remote-discipline.md"
