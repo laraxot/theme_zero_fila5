@@ -1,3 +1,15 @@
+---
+title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
+type: guide
+tags: ['filament', 'laravel', 'testing', 'phpstan']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "riepilogo risoluzione conflitti git - filament 4"
+related:
+  - "./00-INDEX.md"
+  - "./00-index.md"
+---
+
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅
@@ -54,7 +66,7 @@ public function form(Form $form): Form
 - **UI**: Widgets, Tests
 
 ### ⚠️ Richiede Attenzione
-- **Xot/Helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
+- **Xot/helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
 
 ## Script Creati
 
