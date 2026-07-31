@@ -1,0 +1,58 @@
+Obiettivo: sincronizzare il tema Zero su tutti i remote GitHub configurati e lasciare una traccia chiara di come e' stato risolto il caso reale.
+
+Contesto reale risolto il 2026-07-29:
+- cartella: laravel/Themes/Zero;
+- branch: dev;
+- remote verificati con git remote -v:
+  - laraxot -> git@github.com:laraxot/theme_zero_fila5.git;
+  - provtv -> git@github.com:provtv/theme_zero_fila5.git;
+- dopo git fetch --all --prune, i remote non avevano commit mancanti rispetto a HEAD;
+- laraxot e provtv sono stati portati allo stesso tip finale: 81afc4c.
+
+Procedura da seguire:
+1. Vai in laravel/Themes/Zero.
+2. Esegui git remote -v e usa solo gli org emersi dai remote reali. Non dedurre l'org da nomi progetto, report o memoria.
+3. Esegui git fetch --all --prune.
+4. Confronta HEAD con ogni remote dev:
+   - git rev-list --left-right --count HEAD...laraxot/dev;
+   - git rev-list --left-right --count HEAD...provtv/dev.
+5. Interpreta i due numeri:
+   - primo numero > 0 e secondo numero = 0: HEAD e' avanti, puoi fare push fast-forward;
+   - secondo numero > 0: il remote ha commit non presenti localmente, fermati e documenta la divergenza;
+   - 0 0: gia' sincronizzato.
+6. Non usare mai force push, reset, restore, checkout, switch o revert.
+7. Fai push separati e verificabili:
+   - git push laraxot dev;
+   - git push provtv dev.
+8. Dopo ogni push, ripeti i confronti rev-list. La chiusura corretta e':
+   - HEAD...laraxot/dev = 0 0;
+   - HEAD...provtv/dev = 0 0;
+   - git status --short --branch senza file modificati.
+
+Come e' stato risolto il blocco LFS:
+1. Il primo git push laraxot dev e' fallito con oggetto LFS mancante: 2acd922745a664625769e0c582e55c47dc92c07425c7dac36c91ab83ef2b72b2.
+2. git lfs fetch provtv --all non ha risolto: anche provtv non aveva 4 oggetti LFS storici.
+3. git lfs ls-files --all -l ha mappato gli OID mancanti a docs/screenshots/*.
+4. Non sono stati usati file PNG generici trovati nei worktree agent, perche' gli sha256 non coincidevano con gli OID LFS richiesti.
+5. Gli oggetti corretti sono stati trovati nella cache LFS del monorepo root:
+   - .git/lfs/objects/2a/cd/2acd922745a664625769e0c582e55c47dc92c07425c7dac36c91ab83ef2b72b2;
+   - .git/lfs/objects/11/4b/114b08ae1a77eb8a3f350718083cd05978f16595c7ea0d360ce39a44e46981f9;
+   - .git/lfs/objects/40/7b/407bc962d783ce522dbac2e5e18a0c0c8ad17fa3a637e78113624b7ef257f130;
+   - .git/lfs/objects/8a/89/8a89a42253926d5969a75ea178cde426ea63647909ca772a20b74177a59abc0c.
+6. Sono state create le stesse directory sotto laravel/Themes/Zero/.git/lfs/objects/ e copiati solo gli oggetti con OID esatto.
+7. git lfs fsck --pointers ha confermato Git LFS fsck OK.
+8. git lfs push laraxot dev ha caricato 4 oggetti LFS.
+9. git push laraxot dev e git push provtv dev sono poi riusciti.
+
+Documentazione aggiornata:
+- docs/git-multi-org-sync-handoff.md: report della sync e del recupero LFS;
+- docs/second-brain.md: regola operativa riusabile;
+- docs/prompts/push.txt: questo prompt operativo migliorato.
+
+Output finale richiesto all'agente:
+- remoti elencati;
+- commit finale indicato;
+- verifica rev-list 0 0 per ogni remote;
+- verifica Git LFS fsck OK;
+- stato working tree clean;
+- eventuali limiti QMD/second-brain documentati se il wrapper usa una collection non presente.
