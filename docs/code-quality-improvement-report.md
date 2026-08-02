@@ -7,10 +7,10 @@ created: 2026-07-17
 updated: 2026-07-27
 qmd: "code quality baseline PHPStan Pest strict types Laraxot Zero git remote"
 story: STORY-001
-issues:
-  - "https://github.com/laraxot/base_workorder_fila5/issues/46"
-discussions:
-  - "https://github.com/laraxot/base_workorder_fila5/discussions/47"
+# GRAVE: issue/discussion del tema — mai base_ptvx / base_workorder / mono.
+# Resolve: cd laravel/Themes/Zero && git remote -v → laraxot/theme_zero_fila5
+issues: []
+discussions: []
 related:
   - "../../../../docs/stories/STORY-001-code-quality-moduli-temi.md"
   - "../../../../docs/wiki/memories/module-github-remote-discipline.md"
@@ -28,7 +28,7 @@ cd laravel/Themes/Zero && git remote -v
 # atteso: laraxot/theme_zero_fila5
 ```
 
-**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
+**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_ptvx_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 
 ## Baseline
 
