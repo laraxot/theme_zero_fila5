@@ -4,9 +4,9 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 
-$base_url = 'https://manager.quaerisofficina.it';   // no slash finale !
+$base_url = 'https://manager.example.test';   // no slash finale !
 $login = '/api/user/login';
-$addContact = '/api/quaeris/add-contact';
+$addContact = '/api/contacts/add';
 $email = 'info@veritas.it';
 $pass = 'veritas123';
 

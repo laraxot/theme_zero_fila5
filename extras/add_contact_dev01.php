@@ -4,9 +4,9 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 
-$base_url = 'https://dev01.quaerisofficina.it';
+$base_url = 'https://dev01.example.test';
 $login = '/api/user/login';
-$addContact = '/api/quaeris/add-contact';
+$addContact = '/api/contacts/add';
 $email = 'info@veritas.it';
 $pass = 'veritas123';
 
