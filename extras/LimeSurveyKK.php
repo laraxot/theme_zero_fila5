@@ -8,7 +8,7 @@ class LimeSurveyKK
 
     public $db_xot = null;
 
-    public $db_quaeris = null;
+    public $db_survey = null;
 
     public $db = null;
 
@@ -25,7 +25,7 @@ class LimeSurveyKK
         $this->survey_id = $survey_id;
 
         $this->db_lime = DB::connection('limesurvey');
-        $this->db_quaeris = DB::connection('quaeris');
+        $this->db_survey = DB::connection('survey');
         $this->db_xot = DB::connection('mysql');
 
         $this->db = $this->db_lime;
@@ -38,8 +38,8 @@ class LimeSurveyKK
             $this->tables[$table->TABLE_SCHEMA][$table->TABLE_NAME] = $table->TABLE_SCHEMA.'.'.$table->TABLE_NAME;
         }
 
-        $this->base_schema = 'txaesfry_quaeris_survey';
-        $this->charts_schema = 'txaesfry_quaeris';
+        $this->base_schema = 'survey_base_schema';
+        $this->charts_schema = 'survey_charts_schema';
     }
 
     public function get_all_answers($params = [
@@ -289,7 +289,7 @@ class LimeSurveyKK
             }
         }
 
-        $survey_pdf = $this->db_quaeris->selectOne("
+        $survey_pdf = $this->db_survey->selectOne("
             SELECT
                 *
             FROM
