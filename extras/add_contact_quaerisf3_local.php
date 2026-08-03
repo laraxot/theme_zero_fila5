@@ -4,10 +4,10 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 
-$base_url = 'http://quaerisf3.local';
-//$base_url = 'https://manager.quaeris.it';
+$base_url = 'http://healthcare_appf3.local';
+//$base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
-$addContact = '/api/quaeris/add-contact';
+$addContact = '/api/healthcare_app/add-contact';
 $email = 'marco.sottana@gmail.com';
 $pass = 'prova123';
 

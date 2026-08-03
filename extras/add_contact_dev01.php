@@ -3,9 +3,9 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 ini_set('display_errors',true);
 
-$base_url = "https://dev01.quaerisofficina.it";
+$base_url = "https://dev01.healthcare_appofficina.it";
 $login= "/api/user/login";
-$addContact= '/api/quaeris/add-contact';
+$addContact= '/api/healthcare_app/add-contact';
 $email = 'info@veritas.it';
 $pass = 'veritas123';
 
