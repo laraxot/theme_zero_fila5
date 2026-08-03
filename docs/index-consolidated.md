@@ -139,7 +139,15 @@ Theme development roadmap.
 ## Related Modules
 
 - **Limesurvey Module** (`../../laravel/Modules/Limesurvey/docs/`) - Survey data integration
+<<<<<<< HEAD
 - **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
+=======
+<<<<<<< .merge_file_UQp6my
+- **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
+=======
+- **ModuloEsempio Module** (`../../laravel/Modules/ModuloEsempio/docs/`) - Dashboard and reporting
+>>>>>>> .merge_file_mmD899
+>>>>>>> laraxot/dev
 - **Chart Module** (`../../laravel/Modules/Chart/docs/`) - Chart generation
 
 ## File Organization
