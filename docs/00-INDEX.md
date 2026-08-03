@@ -36,7 +36,11 @@ Zero theme documentation follows the standard theme structure with focus on:
 
 - [Theme Hub](../Barthelemy/docs/00-INDEX.md) - Overview of all themes
 - [Sixteen Theme](../Sixteen/docs/00-INDEX.md) - Primary theme (Design Comuni)
+<<<<<<< HEAD
 - [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+=======
+- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - forecast market theme
+>>>>>>> laraxot/dev
 - [Directory Structure Rules](../Barthelemy/docs/directory-structure-rules.md) - Theme organization
 
 ## Related Modules

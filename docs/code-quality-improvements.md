@@ -25,17 +25,41 @@ This document summarizes the code quality improvements made to the Zero theme, f
 ### Fixed Files
 
 #### Theme Extras
+<<<<<<< HEAD
 1. **add_multiple_contact_VivaServizi_manager_healthcare_app_it.php**
+=======
+<<<<<<< .merge_file_femLMr
+1. **add_multiple_contact_VivaServizi_manager_healthcare_app_it.php**
+=======
+1. **add_multiple_contact_VivaServizi_manager_ptvx_it.php**
+>>>>>>> .merge_file_7NvcBq
+>>>>>>> laraxot/dev
    - Added Safe imports for curl functions (curl_init, curl_setopt, curl_exec, curl_close, curl_setopt_array)
    - Added Safe import for json_decode
    - Added Safe import for ini_set
 
+<<<<<<< HEAD
 2. **add_contact_healthcare_appf3_local.php**
+=======
+<<<<<<< .merge_file_femLMr
+2. **add_contact_healthcare_appf3_local.php**
+=======
+2. **add_contact_ptvxf3_local.php**
+>>>>>>> .merge_file_7NvcBq
+>>>>>>> laraxot/dev
    - Added Safe imports for curl functions
    - Added Safe import for json_decode
    - Added Safe import for ini_set
 
+<<<<<<< HEAD
 3. **add_multiple_contact_ATS_manager_healthcare_app_it.php**
+=======
+<<<<<<< .merge_file_femLMr
+3. **add_multiple_contact_ATS_manager_healthcare_app_it.php**
+=======
+3. **add_multiple_contact_ATS_manager_ptvx_it.php**
+>>>>>>> .merge_file_7NvcBq
+>>>>>>> laraxot/dev
    - Added Safe imports for curl functions
    - Added Safe import for json_decode
    - Added Safe import for ini_set
