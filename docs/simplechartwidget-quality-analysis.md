@@ -775,13 +775,29 @@ protected function getData(): array
 ### PHPStan Level 10 Compliance
 ```bash
 # ✅ Zero errori dopo refactoring
+<<<<<<< HEAD
 ./vendor/bin/phpstan analyse Modules/healthcare_app/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
+=======
+<<<<<<< .merge_file_OntttQ
+./vendor/bin/phpstan analyse Modules/healthcare_app/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
+=======
+./vendor/bin/phpstan analyse Modules/ModuloEsempio/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
+>>>>>>> .merge_file_9vb4vW
+>>>>>>> laraxot/dev
 ```
 
 ### Testing Coverage
 ```bash
 # ✅ 100% coverage per metodi principali
+<<<<<<< HEAD
 ./vendor/bin/phpunit --coverage-html=coverage Modules/healthcare_app/tests/Unit/SimpleChartWidgetTest.php
+=======
+<<<<<<< .merge_file_OntttQ
+./vendor/bin/phpunit --coverage-html=coverage Modules/healthcare_app/tests/Unit/SimpleChartWidgetTest.php
+=======
+./vendor/bin/phpunit --coverage-html=coverage Modules/ModuloEsempio/tests/Unit/SimpleChartWidgetTest.php
+>>>>>>> .merge_file_9vb4vW
+>>>>>>> laraxot/dev
 ```
 
 ### Performance Metrics

@@ -377,10 +377,23 @@ When working with the Zero theme, you'll commonly encounter models from these mo
 - `Modules\Cms\Models\Page` - Static pages
 - `Modules\Cms\Models\Article` - Articles
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_S9ebzA
+>>>>>>> laraxot/dev
 ### healthcare_app Module
 - `Modules\healthcare_app\Models\Survey` - Surveys
 - `Modules\healthcare_app\Models\Question` - Survey questions
 - `Modules\healthcare_app\Models\SurveyPdf` - PDF exports
+<<<<<<< HEAD
+=======
+=======
+### ModuloEsempio Module
+- `Modules\ModuloEsempio\Models\Survey` - Surveys
+- `Modules\ModuloEsempio\Models\Question` - Survey questions
+- `Modules\ModuloEsempio\Models\SurveyPdf` - PDF exports
+>>>>>>> .merge_file_PKuvUx
+>>>>>>> laraxot/dev
 
 ### Other Modules
 - `Modules\Geo\Models\Place` - Geographic data

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Zero Theme - Documentation Index"
 type: concept
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Zero Theme - Documentation Index
 
 **Last Update**: 2026-03-28
@@ -52,7 +55,11 @@ related:
 | Volt | latest | Livewire functional/class components |
 
 ### Anti-Patterns
+<<<<<<< HEAD
 - QuestionChartAnswersTripleChartWidget — why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
+=======
+- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
+>>>>>>> laraxot/dev
 
 ### Theme Characteristics
 - **Style**: Ultra-minimalist
@@ -61,9 +68,15 @@ related:
 
 ### Related Resources
 
+<<<<<<< HEAD
 - [Cms Module](../../../Modules/Cms/docs/README.md)
 - [UI Module](../../../Modules/UI/docs/README.md)
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+=======
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> laraxot/dev
 - [AGENTS.md](../../../AGENTS.md) - Project guidelines
 
 ---

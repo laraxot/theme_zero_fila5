@@ -8,7 +8,11 @@ qmd: "folio pages structure theme zero ptvx auth home index no semantic director
 issues:
   - https://github.com/provtv/base_ptv_fila5/issues/124
 discussions:
+<<<<<<< HEAD
   - https://github.com/laraxot/base_fixcity_fila5/discussions/273
+=======
+  - https://github.com/laraxot/platform/discussions/273
+>>>>>>> laraxot/dev
 related:
   - ./architecture.md
   - ./authentication.md
@@ -36,11 +40,19 @@ resources/views/pages/
 
 - **DRY:** login/home restano nel tema; business logic nei moduli.
 - **KISS:** niente `pages/dashboard` / `pages/profile` come cartelle — esempi storici nei docs Zero non sono licenza a crearli.
+<<<<<<< HEAD
 - Fixcity/Sixteen (`[container0]`) **non** è presente in questo repo; non forzarlo qui.
 
 ## Provenienza
 
 Studiato (read-only) lo script/canon Fixcity Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests`.  
+=======
+- progetto corrente/Sixteen (`[container0]`) **non** è presente in questo repo; non forzarlo qui.
+
+## Provenienza
+
+Studiato (read-only) lo script/canon progetto corrente Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests`.  
+>>>>>>> laraxot/dev
 Git: `git show` / basi sibling — **mai** restore ([git-forward-only](../../../../docs/wiki/rules/git-forward-only.md)).
 
 ## Enforcement
