@@ -4,9 +4,9 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 
-$base_url = 'https://manager.quaeris.it';
+$base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
-$addContact = '/api/quaeris/add-contact-multi';
+$addContact = '/api/healthcare_app/add-contact-multi';
 $email = 'lfranchini@vivaservizi.it';
 $pass = 'franchinivivaservizi123';
 
@@ -57,7 +57,7 @@ $data = [
     ],
     // 'a3'=>[
     //   'survey_pdf_id' => '44',
-    //   'email' => 'davide.vaira@quaeris.it',
+    //   'email' => 'davide.vaira@healthcare_app.it',
     //   'language' => 'it',
     //   'usesleft' => '1',
   
