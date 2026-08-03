@@ -91,3 +91,9 @@ rector.php
 .cursor
 docs/screenshots
 .agents
+<<<<<<< HEAD
+=======
+extras
+extras
+.cursor
+>>>>>>> laraxot/dev
