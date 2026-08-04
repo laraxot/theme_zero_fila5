@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "product-roadmap (deprecated)"
 type: reference
@@ -10,10 +13,14 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed product-roadmap.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 
 > This file has been renamed to [product-roadmap.md](product-roadmap.md).
 > Do not add dates or underscores in filenames.
+<<<<<<< HEAD
 =======
 # Product Roadmap - Theme Zero
 
@@ -452,3 +459,5 @@ qmd: "deprecated renamed product-roadmap.md"
 > This file has been renamed to [product-roadmap.md](product-roadmap.md).
 > Do not add dates or underscores in filenames.
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)

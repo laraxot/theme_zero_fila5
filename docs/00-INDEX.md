@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Zero Theme Documentation Index"
 type: concept
@@ -17,6 +20,7 @@ related:
 
 # Zero Theme Documentation Index
 
+<<<<<<< HEAD
 > **Nota 2026-07-24**: file d'indice ridondante rispetto a [00-index.md](./00-index.md), che è il più recente
 > (2026-03-28) e allineato allo stack corrente (Filament 5, Livewire 4, Volt, Tailwind v4). Consultare
 > `00-index.md` come punto di ingresso primario; questo file resta come vista alternativa non aggiornata
@@ -26,6 +30,8 @@ related:
 # Zero Theme Documentation Index
 
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
 **Path**: `laravel/Themes/Zero/docs/`  
 **Last updated**: 2026-06-30
 
@@ -47,6 +53,7 @@ Zero theme documentation follows the standard theme structure with focus on:
 - [Sixteen Theme](../Sixteen/docs/00-INDEX.md) - Primary theme (Design Comuni)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
 =======
 - [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - forecast market theme
@@ -54,6 +61,9 @@ Zero theme documentation follows the standard theme structure with focus on:
 =======
 - [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
 >>>>>>> 11674ce (.)
+=======
+- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+>>>>>>> 2cb7d4f (.)
 - [Directory Structure Rules](../Barthelemy/docs/directory-structure-rules.md) - Theme organization
 
 ## Related Modules
@@ -66,6 +76,7 @@ Zero theme documentation follows the standard theme structure with focus on:
 Theme assets are published to: `public_html/themes/Zero/`
 
 Refer to the main theme documentation for build and deployment procedures.
+<<<<<<< HEAD
 =======
 # 📚 Zero Theme - Documentation Index
 
@@ -110,3 +121,5 @@ Refer to the main theme documentation for build and deployment procedures.
 
 **Ultimo Aggiornamento**: 2026-03-24
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)

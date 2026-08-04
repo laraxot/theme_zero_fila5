@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Filament Installation and Chart Widget Integration Guide for Zero Theme"
 type: how-to
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Filament Installation and Chart Widget Integration Guide for Zero Theme
 
 ## Overview
@@ -136,6 +142,7 @@ window.ChartJsBaseService = window.ChartJsBaseService || ChartJsBaseService;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Project rule (healthcare_app Fila5):** Chart.js plugin assets are centralized in the Chart module.
 =======
 <<<<<<< .merge_file_Zs1KdO
@@ -147,6 +154,9 @@ window.ChartJsBaseService = window.ChartJsBaseService || ChartJsBaseService;
 =======
 **Project rule (healthcare_app Fila5):** Chart.js plugin assets are centralized in the Chart module.
 >>>>>>> 11674ce (.)
+=======
+**Project rule (healthcare_app Fila5):** Chart.js plugin assets are centralized in the Chart module.
+>>>>>>> 2cb7d4f (.)
 
 The Zero theme must **not** register `chartjs-plugin-datalabels` (or other Chart.js plugins) via its own bundle.
 It consumes the plugins that are already registered for Filament charts by the Chart module.

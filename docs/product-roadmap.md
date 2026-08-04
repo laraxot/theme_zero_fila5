@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Product Roadmap - Theme Zero"
 type: guide
@@ -14,6 +17,9 @@ related:
   - "./00-index.md"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
 
 # Product Roadmap - Theme Zero
 
@@ -445,6 +451,7 @@ related:
 | Theme Team Lead | Product Owner | Roadmap prioritization |
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
+<<<<<<< HEAD
 =======
 # Zero - Product Roadmap
 =======
@@ -886,3 +893,5 @@ related:
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)

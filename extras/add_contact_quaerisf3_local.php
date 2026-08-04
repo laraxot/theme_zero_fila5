@@ -5,16 +5,22 @@ error_reporting(E_ALL);
 ini_set('display_errors', true);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $base_url = 'http://healthcare_appf3.local';
 //$base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact';
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 $base_url = 'http://quaerisf3.local';
 // $base_url = 'https://manager.quaeris.it';
 $login = '/api/user/login';
 $addContact = '/api/quaeris/add-contact';
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
 $email = 'marco.sottana@gmail.com';
 $pass = 'prova123';
 
@@ -29,6 +35,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 $response = curl_exec($ch);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
 
 
@@ -36,10 +43,13 @@ $json = json_decode($response);
 //die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
 
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 // die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
 
 $json = json_decode($response);
 // die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 // die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
@@ -47,6 +57,8 @@ $json = json_decode($response);
 $json = json_decode($response);
 // die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)
 
 $data = [
     'survey_pdf_id' => '10',
@@ -84,4 +96,7 @@ $response = curl_exec($ch);
 echo '<pre>'.print_r($response, true).'</pre>';
 
 curl_close($ch);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2cb7d4f (.)

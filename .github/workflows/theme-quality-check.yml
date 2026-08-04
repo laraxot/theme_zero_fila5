@@ -12,7 +12,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
       - uses: actions/checkout@v7
+=======
+      - uses: actions/checkout@v4
+>>>>>>> 2cb7d4f (.)
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:

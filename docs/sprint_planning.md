@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "sprint-planning (deprecated)"
 type: reference
@@ -10,10 +13,14 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed sprint-planning.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 
 > This file has been renamed to [sprint-planning.md](sprint-planning.md).
 > Do not add dates or underscores in filenames.
+<<<<<<< HEAD
 =======
 # Sprint Planning - Theme Zero
 
@@ -378,3 +385,5 @@ For every component added this sprint:
 > This file has been renamed to [sprint-planning.md](sprint-planning.md).
 > Do not add dates or underscores in filenames.
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
