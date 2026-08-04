@@ -4,10 +4,17 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 
+<<<<<<< HEAD
 $base_url = 'http://healthcare_appf3.local';
 //$base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact';
+=======
+$base_url = 'http://quaerisf3.local';
+// $base_url = 'https://manager.quaeris.it';
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact';
+>>>>>>> 11674ce (.)
 $email = 'marco.sottana@gmail.com';
 $pass = 'prova123';
 
@@ -20,12 +27,19 @@ $post = ['email' => $email, 'password' => $pass];
 curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 
 $response = curl_exec($ch);
+<<<<<<< HEAD
 //die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
 
 
 $json = json_decode($response);
 //die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
 
+=======
+// die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
+
+$json = json_decode($response);
+// die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
+>>>>>>> 11674ce (.)
 
 $data = [
     'survey_pdf_id' => '10',

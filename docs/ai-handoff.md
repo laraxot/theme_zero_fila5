@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "ai handoff"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # ai handoff
 
 ## regole non negoziabili

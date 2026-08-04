@@ -6,7 +6,11 @@ tags: [redundancy, theme, blade, auth]
 created: "2026-05-26"
 updated: "2026-05-26"
 related:
+<<<<<<< HEAD
   - ../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+=======
+  - ../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+>>>>>>> 11674ce (.)
   - ../../../One/docs/wiki/concepts/code-redundancy-theme.md
   - ../../../../Modules/User/docs/wiki/concepts/code-redundancy-user.md
 ---
@@ -32,4 +36,8 @@ Verificare che i commenti Blade non dicano «tema Zero» dentro file One (confus
 ## Collegamenti
 
 - [One](code-redundancy-theme.md)
+<<<<<<< HEAD
 - [Filosofia](../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
+=======
+- [Filosofia](../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
+>>>>>>> 11674ce (.)

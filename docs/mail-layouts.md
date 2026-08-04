@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Tema Zero - Mail Layouts"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Tema Zero - Mail Layouts
 
 ## Panoramica

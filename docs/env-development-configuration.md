@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Configurazione .env.development - Ambiente di Sviluppo"
 type: rule
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Configurazione .env.development - Ambiente di Sviluppo
 
 ## Panoramica
