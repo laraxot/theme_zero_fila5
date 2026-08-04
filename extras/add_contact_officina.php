@@ -5,10 +5,13 @@ error_reporting(E_ALL);
 ini_set('display_errors', true);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $base_url = 'https://manager.healthcare_appofficina.it';   //no slash finale !
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact';
 =======
+=======
+>>>>>>> f916df1 (.)
 $base_url = 'https://manager.quaerisofficina.it';   // no slash finale !
 $login = '/api/user/login';
 $addContact = '/api/quaeris/add-contact';
@@ -30,10 +33,14 @@ $json = json_decode($response);
 $data = [
     'survey_pdf_id' => '12',
 <<<<<<< HEAD
+<<<<<<< HEAD
     //'mobile_phone' => '+391234567890',
 =======
     // 'mobile_phone' => '+391234567890',
 >>>>>>> 11674ce (.)
+=======
+    // 'mobile_phone' => '+391234567890',
+>>>>>>> f916df1 (.)
     'email' => 'prova_ora@mail.com',
     'language' => 'it',
     'usesleft' => '1',
@@ -45,10 +52,14 @@ $data = [
     'attribute_3' => '',
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 //$data = json_encode($data);  perche ?
 =======
 // $data = json_encode($data);  perche ?
 >>>>>>> 11674ce (.)
+=======
+// $data = json_encode($data);  perche ?
+>>>>>>> f916df1 (.)
 $headers = [
     // 'Content-Type: application/json',  //error
     'Authorization: Bearer '.$json->token,
