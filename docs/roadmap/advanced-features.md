@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Funzionalita avanzate (dark mode, export)"
 type: guide
@@ -11,6 +12,8 @@ related:
   - "./component-library.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Funzionalita avanzate (dark mode, export)
 
 ## Obiettivo

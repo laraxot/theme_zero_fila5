@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -20,26 +21,48 @@ tests/.claude-audit
 *.log
 *.phar
 *.lock
+=======
+*.log
+*.phar
+*.lock
+
+>>>>>>> 11674ce (.)
 uploads
 limesurvey
 vendor
 build
 package-lock.json
 error_log
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11674ce (.)
 *.gz
 *.cache
 /cache
 .git-rewrite
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11674ce (.)
 _ide_helper_models.php
 *.old
 *.bak
 *.backup
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11674ce (.)
 public_html/vendor
 public_html/js
 public_html/css
 public_html/storage
 public_html/error_log
 public_html/chart
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11674ce (.)
 laravel/*.lock
 laravel/lang/vendor/
 laravel/database/migrations
@@ -49,26 +72,58 @@ laravel/package-lock.json
 laravel/error_log
 laravel/.phpstorm.meta.php
 laravel/_ide_helper.php
+<<<<<<< HEAD
 laravel/public
 laravel/resources/lang/vendor/
+=======
+laravel/error_log
+laravel/public
+laravel/resources/lang/vendor/
+laravel/composer.lock
+
+
+
+>>>>>>> 11674ce (.)
 vendor/
 public_html/css/
 public_html/js/
 public_html/vendor/
 public_html/vendor/*
 laravel/bootstrap/cache/*
+<<<<<<< HEAD
 laravel/stubs
 laravel/resources/views/vendor/
 .git-rewrite/
+=======
+public_html/vendor/
+public_html/js/
+laravel/stubs
+laravel/resources/lang/vendor/
+laravel/resources/views/vendor/
+public_html/vendor/
+.git-rewrite/
+public_html/css
+public_html/js
+vendor
+public_html/css/
+public_html/js/
+public_html/js/
+public_html/css/
+>>>>>>> 11674ce (.)
 *:Zone.Identifier
 .env
 laravel/database/migrations/
 logs
+<<<<<<< HEAD
+=======
+bashscripts/
+>>>>>>> 11674ce (.)
 laravel/
 public_html/
 .env.docker
 .env.latest
 node_modules/
+<<<<<<< HEAD
 # PHPStan output files
 phpstan*.json
 .cursor/
@@ -95,3 +150,9 @@ docs/screenshots
 # Output strumenti AI (cache locali, mai in git)
 graphify-out/
 .headroom/
+=======
+
+# PHPStan output files
+phpstan*.json
+_docs/
+>>>>>>> 11674ce (.)
