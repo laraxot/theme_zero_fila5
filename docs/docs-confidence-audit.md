@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Zero Theme Docs Confidence Audit - 2026-03-07"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Zero Theme Docs Confidence Audit - 2026-03-07
 
 ## Sintesi
