@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Product Launch Plan - Theme Zero"
 type: guide
@@ -14,6 +17,9 @@ related:
   - "./00-index.md"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
 
 # Product Launch Plan - Theme Zero
 
@@ -497,6 +503,7 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 | Product Owner | | |
 | Marketing Lead | | |
 | Tech Lead | | |
+<<<<<<< HEAD
 =======
 # Zero - Product Launch Plan
 =======
@@ -989,3 +996,5 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 | Marketing Lead | | |
 | Tech Lead | | |
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
