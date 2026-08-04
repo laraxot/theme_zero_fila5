@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Theme Zero Documentation Index"
 type: guide
@@ -15,6 +16,10 @@ related:
 > **Note 2026-07-24**: redundant with [00-index.md](./00-index.md) (canonical, updated 2026-03-28).
 > See that file as the primary entry point for Zero theme docs.
 
+=======
+# Theme Zero Documentation Index
+
+>>>>>>> 11674ce (.)
 **Status**: Theme implementation for Laraxot monolith  
 **Last Updated**: January 2026
 
@@ -139,11 +144,19 @@ Theme development roadmap.
 ## Related Modules
 
 - **Limesurvey Module** (`../../laravel/Modules/Limesurvey/docs/`) - Survey data integration
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
+=======
 <<<<<<< .merge_file_UQp6my
 - **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
 =======
 - **ModuloEsempio Module** (`../../laravel/Modules/ModuloEsempio/docs/`) - Dashboard and reporting
 >>>>>>> .merge_file_mmD899
+>>>>>>> laraxot/dev
+=======
+- **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
+>>>>>>> 11674ce (.)
 - **Chart Module** (`../../laravel/Modules/Chart/docs/`) - Chart generation
 
 ## File Organization

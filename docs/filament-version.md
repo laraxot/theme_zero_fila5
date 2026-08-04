@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Filament Version Declaration — Zero"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Filament Version Declaration — Zero
 
 **Current Version**: Filament v5 (Livewire v4 + Schemas)
