@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "BMAD Method v6.3 operativo nel progetto"
 type: guide
@@ -12,8 +15,11 @@ related:
   - "./log.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # BMAD Method v6.3 operativo nel progetto
 
 ## Regola pratica

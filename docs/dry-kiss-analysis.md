@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "🎨 DRY & KISS Analysis - Theme Zero"
 type: guide
@@ -11,8 +14,11 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # 🎨 DRY & KISS Analysis - Theme Zero
 
 **Data Analisi:** 2025-12-02

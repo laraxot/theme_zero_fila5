@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "JpGraph Integration Guide - Zero Theme"
 type: how-to
@@ -11,8 +14,11 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # JpGraph Integration Guide - Zero Theme
 
 ---
@@ -444,6 +450,7 @@ class MakePdf2Action
 ### Module Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
 - [LimeSurvey Charts PDF Integration](./limesurvey-charts-pdf-integration.md) - Integrazione completa LimeSurvey charts nei PDF
@@ -454,6 +461,12 @@ class MakePdf2Action
 - [LimeSurvey Charts PDF Integration](./limesurvey-charts-pdf-integration.md) - Integrazione completa LimeSurvey charts nei PDF
 - [PDF Generation with Charts](../../Modules/healthcare_app/docs/pdf-generation-with-charts.md) - Workflow completo generazione PDF
 >>>>>>> 11674ce (.)
+=======
+- [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
+- [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
+- [LimeSurvey Charts PDF Integration](./limesurvey-charts-pdf-integration.md) - Integrazione completa LimeSurvey charts nei PDF
+- [PDF Generation with Charts](../../../laravel/Modules/healthcare_app/docs/pdf-generation-with-charts.md) - Workflow completo generazione PDF
+>>>>>>> 099e856 (sync)
 
 ### Official JpGraph Resources
 

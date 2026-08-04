@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "product-roadmap (deprecated)"
 type: reference
@@ -6,6 +9,7 @@ status: deprecated
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed product-roadmap.md"
+<<<<<<< HEAD
 ---
 
 > This file has been renamed to [product-roadmap.md](product-roadmap.md).
@@ -442,3 +446,9 @@ qmd: "deprecated renamed product-roadmap.md"
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
 >>>>>>> 11674ce (.)
+=======
+---
+
+> This file has been renamed to [product-roadmap.md](product-roadmap.md).
+> Do not add dates or underscores in filenames.
+>>>>>>> 099e856 (sync)
