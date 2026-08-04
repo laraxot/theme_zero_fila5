@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Theme Zero - PHP Quality Gates Rule"
 type: rule
@@ -11,8 +14,11 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # Theme Zero - PHP Quality Gates Rule
 
 ## Regola tema
