@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Product Strategy - Theme Zero"
 type: guide
@@ -14,6 +17,9 @@ related:
   - "./00-index.md"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
 
 # Product Strategy - Theme Zero
 
@@ -608,6 +614,7 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-03-12 | Theme Team | Initial strategy for pre-alpha theme |
+<<<<<<< HEAD
 =======
 # Zero - Product Strategy
 =======
@@ -1213,3 +1220,5 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 |---------|------|--------|---------|
 | 1.0 | 2026-03-12 | Theme Team | Initial strategy for pre-alpha theme |
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)

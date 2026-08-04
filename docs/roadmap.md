@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Product Roadmap - Zero Theme"
 type: rule
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Product Roadmap - Zero Theme
 
 ## 🎯 Vision & Strategy
@@ -27,4 +33,8 @@ Develop the Zero Theme as a high-performance, specialized component of the Larax
 ## 🗓️ Timeline
 ### Q1 2026: Foundation
 - Standardize Zero Theme Documentation - *Status: Shipped*
+<<<<<<< HEAD
 - PHPStan Level 10 Audit - *Status: In Progress*
+=======
+- PHPStan Level 10 Audit - *Status: In Progress*
+>>>>>>> 2cb7d4f (.)

@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "CONFLICT-RESOLUTION-SUMMARY (deprecated)"
 type: reference
@@ -10,6 +13,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed CONFLICT-RESOLUTION-SUMMARY.md"
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 > This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
@@ -179,3 +183,8 @@ La migrazione a Filament 4 è stata completata con successo per il 99% dei file.
 > This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
 > Do not add dates or underscores in filenames.
 >>>>>>> 099e856 (sync)
+=======
+
+> This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
+> Do not add dates or underscores in filenames.
+>>>>>>> 2cb7d4f (.)

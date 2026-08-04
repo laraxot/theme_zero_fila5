@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "AI Methodologies Handbook"
 type: how-to
@@ -15,16 +18,20 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # AI Methodologies Handbook
 
 This file is a DRY local index for AI workflows in this module or theme.
 
 ## Canonical Sources
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [OpenViking Integration Guide](../../../docs/openviking-integration.md)
@@ -37,6 +44,10 @@ This file is a DRY local index for AI workflows in this module or theme.
 - [OpenViking Integration Guide](../../../docs/openviking-integration.md)
 - [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
 >>>>>>> 099e856 (sync)
+=======
+- [OpenViking Integration Guide](../../../docs/openviking-integration.md)
+- [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
+>>>>>>> 2cb7d4f (.)
 - [Root Docs Index](../../../../docs/index.md)
 
 ## Local Workflow

@@ -1,6 +1,7 @@
 <?php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f916df1 (.)
@@ -47,6 +48,8 @@ $data = [
 <<<<<<< HEAD
 $headers=[
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 
 declare(strict_types=1);
 error_reporting(E_ALL);
@@ -83,14 +86,18 @@ $data = [
 ];
 
 $headers = [
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 $headers = [
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)
     'Authorization: Bearer '.$json->token,
 ];
 
 curl_setopt_array($ch, [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     CURLOPT_HTTPHEADER  => $headers,
@@ -104,21 +111,27 @@ curl_setopt_array($ch, [
     CURLOPT_RETURNTRANSFER  =>true,
     CURLOPT_VERBOSE     => true,
 =======
+=======
+>>>>>>> 2cb7d4f (.)
     CURLOPT_HTTPHEADER => $headers,
     CURLOPT_URL => $base_url.$addContact,
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POST => true,
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_VERBOSE => true,
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_VERBOSE => true,
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)
     CURLOPT_POSTFIELDS => $data,
 
 ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 $response= curl_exec($ch);
@@ -134,5 +147,10 @@ $response = curl_exec($ch);
 
 echo '<pre>'.print_r($response, true).'</pre>';
 >>>>>>> f916df1 (.)
+=======
+$response = curl_exec($ch);
+
+echo '<pre>'.print_r($response, true).'</pre>';
+>>>>>>> 2cb7d4f (.)
 
 curl_close($ch);
