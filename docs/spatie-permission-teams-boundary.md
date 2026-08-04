@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Spatie Permission teams boundary"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Spatie Permission teams boundary
 
 ## Theme boundary
@@ -34,5 +37,10 @@ When a theme page includes the team switcher or dashboard widgets:
 
 ## References
 
+<<<<<<< HEAD
 - User module fix note: [../../../laravel/Modules/User/docs/spatie-permission-teams-laravel-13.md](../../../laravel/Modules/User/docs/spatie-permission-teams-laravel-13.md)
 - Xot bridge note: [../../../laravel/Modules/Xot/docs/spatie-permission-team-model-laravel-13.md](../../../laravel/Modules/Xot/docs/spatie-permission-team-model-laravel-13.md)
+=======
+- User module fix note: [../../Modules/User/docs/spatie-permission-teams-laravel-13.md](../../Modules/User/docs/spatie-permission-teams-laravel-13.md)
+- Xot bridge note: [../../Modules/Xot/docs/spatie-permission-team-model-laravel-13.md](../../Modules/Xot/docs/spatie-permission-team-model-laravel-13.md)
+>>>>>>> 11674ce (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Spatie Permission Team Context"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Spatie Permission Team Context
 
 ## Theme Boundary

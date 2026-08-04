@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Layout del Tema Zero"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Layout del Tema Zero
 
 ## Panoramica
