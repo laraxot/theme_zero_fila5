@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Model Usage in Themes - Best Practices"
 type: guide
@@ -11,8 +14,11 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # Model Usage in Themes - Best Practices
 
 ## Executive Summary
@@ -608,6 +614,7 @@ When working with data in theme views:
 ## Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Model Inheritance Rules (User Module)](../../../laravel/Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../../laravel/Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
@@ -620,6 +627,13 @@ When working with data in theme views:
 - [Widget Structure (User Module)](../../Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../Modules/Cms/docs/frontoffice/filament-auth.md)
 >>>>>>> 11674ce (.)
+=======
+- [Model Inheritance Rules (User Module)](../../../laravel/Modules/User/docs/model-inheritance-rules.md)
+- [DRY/KISS Model Refactoring Analysis](../../../laravel/Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
+- [Theme Architecture](./architecture.md)
+- [Widget Structure (User Module)](../../../laravel/Modules/User/docs/widgets_structure.md)
+- [Filament Authentication Best Practices](../../../laravel/Modules/Cms/docs/frontoffice/filament-auth.md)
+>>>>>>> 099e856 (sync)
 
 ---
 

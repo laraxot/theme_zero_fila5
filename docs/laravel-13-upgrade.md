@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Upgrade Laravel 13 - Theme Zero 🐄✨"
 type: guide
@@ -11,6 +14,9 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # Upgrade Laravel 13 - Theme Zero 🐄✨

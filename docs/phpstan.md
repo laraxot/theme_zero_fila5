@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "PHPStan Configuration - Theme Zero"
 type: guide
@@ -11,8 +14,11 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # PHPStan Configuration - Theme Zero
 
 ## Regola Fondamentale
@@ -60,9 +66,14 @@ cd /var/www/_bases/base_ptvx_fila5_mono/laravel
 ## Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
 - [Root phpstan.neon](../../../laravel/phpstan.neon)
 =======
 - [PHPStan Level 10 Guidelines](../../docs/phpstan-level10.md)
 - [Root phpstan.neon](../../laravel/phpstan.neon)
 >>>>>>> 11674ce (.)
+=======
+- [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
+- [Root phpstan.neon](../../../laravel/phpstan.neon)
+>>>>>>> 099e856 (sync)
