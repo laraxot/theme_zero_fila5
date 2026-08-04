@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Readonly Field Styling - UI/UX Pattern"
 type: rule
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Readonly Field Styling - UI/UX Pattern
 
 **Theme**: Zero  
@@ -140,6 +146,7 @@ Questi colori sono coerenti con:
 - [Components Guide](./components.md) - Componenti disponibili
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
 =======
 - [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
@@ -147,6 +154,9 @@ Questi colori sono coerenti con:
 =======
 - [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
 >>>>>>> 099e856 (sync)
+=======
+- [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+>>>>>>> 2cb7d4f (.)
 - [Theme One - Readonly Styling](../One/docs/readonly-field-styling.md) - Pattern condiviso
 
 ---
