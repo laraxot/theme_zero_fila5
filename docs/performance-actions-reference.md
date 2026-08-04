@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Performance actions reference"
 type: guide
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Performance actions reference
 
 ## UpdateGgPresenzaDalalAction
@@ -112,6 +118,7 @@ ridefinirlo.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione modulo Performance](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 =======
 - [Documentazione modulo Performance](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
@@ -119,6 +126,9 @@ ridefinirlo.
 =======
 - [Documentazione modulo Performance](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 >>>>>>> 099e856 (sync)
+=======
+- [Documentazione modulo Performance](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+>>>>>>> 2cb7d4f (.)
 - [README tema Zero](./README.md)
 - [Index documentazione tema Zero](./index.md)
 
@@ -218,6 +228,7 @@ TextColumn::make('gg_anno')
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione modulo Performance - giorni presenza](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 - [Documentazione modulo Performance - giorni anno](../../../laravel/Modules/Performance/docs/action-update-gg-anno.md)
 - [Documentazione modulo Performance - part-time ponderato](../../../laravel/Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
@@ -231,5 +242,10 @@ TextColumn::make('gg_anno')
 - [Documentazione modulo Performance - giorni anno](../../../laravel/Modules/Performance/docs/action-update-gg-anno.md)
 - [Documentazione modulo Performance - part-time ponderato](../../../laravel/Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
 >>>>>>> 099e856 (sync)
+=======
+- [Documentazione modulo Performance - giorni presenza](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance - giorni anno](../../../laravel/Modules/Performance/docs/action-update-gg-anno.md)
+- [Documentazione modulo Performance - part-time ponderato](../../../laravel/Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
+>>>>>>> 2cb7d4f (.)
 - [README tema Zero](./README.md)
 - [Index documentazione tema Zero](./index.md)

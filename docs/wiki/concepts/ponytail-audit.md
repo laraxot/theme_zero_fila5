@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Ponytail audit — Zero"
 type: guide
@@ -24,6 +27,7 @@ related:
 - [Delta temi](../../../../../docs/project/ponytail-audit-themes.md)
 
 Aggiornare solo finding e stato specifici di questo tema.
+<<<<<<< HEAD
 =======
 # Ponytail audit — Zero
 
@@ -31,3 +35,5 @@ Aggiornare solo finding e stato specifici di questo tema.
 
 Hub: [ponytail-audit-themes.md](../../../../../../docs/project/ponytail-audit-themes.md)
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
