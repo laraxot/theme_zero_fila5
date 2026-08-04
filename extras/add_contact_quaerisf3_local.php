@@ -28,6 +28,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 
 $response = curl_exec($ch);
 <<<<<<< HEAD
+<<<<<<< HEAD
 //die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
 
 
@@ -40,6 +41,12 @@ $json = json_decode($response);
 $json = json_decode($response);
 // die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
 >>>>>>> 11674ce (.)
+=======
+// die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
+
+$json = json_decode($response);
+// die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
+>>>>>>> f916df1 (.)
 
 $data = [
     'survey_pdf_id' => '10',
