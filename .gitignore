@@ -91,9 +91,7 @@ rector.php
 .cursor
 docs/screenshots
 .agents
-<<<<<<< HEAD
-=======
-extras
-extras
-.cursor
->>>>>>> laraxot/dev
+
+# Output strumenti AI (cache locali, mai in git)
+graphify-out/
+.headroom/
