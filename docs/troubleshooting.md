@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Zero Theme Troubleshooting Guide"
 type: how-to
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Zero Theme Troubleshooting Guide
 
 ## Advanced Charting Libraries

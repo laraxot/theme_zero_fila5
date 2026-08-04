@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Product Strategy: Zero Theme"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Product Strategy: Zero Theme
 
 ## 🌍 Market Context
