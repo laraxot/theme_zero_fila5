@@ -30,20 +30,28 @@ $json = json_decode($response);
 
 $data = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'a1'=>[
 =======
     'a1' => [
 >>>>>>> 11674ce (.)
+=======
+    'a1' => [
+>>>>>>> f916df1 (.)
         'survey_pdf_id' => '16', // id survey/questionario assegnato, valore fisso
         'email' => 'marco.sottana@gmail.com',
         'mobile_phone' => '',
         'language' => 'it', // valore fisso
         'usesleft' => '1', // valore fisso
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> 11674ce (.)
+=======
+
+>>>>>>> f916df1 (.)
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -62,20 +70,28 @@ $data = [
         'attribute_14' => 'altraemail@mail.com', // email segnalatore
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     'a2'=>[
 =======
     'a2' => [
 >>>>>>> 11674ce (.)
+=======
+    'a2' => [
+>>>>>>> f916df1 (.)
         'survey_pdf_id' => '16',
         'email' => 'vair81@gmail.com',
         'mobile_phone' => '3791339157',
         'language' => 'it',
         'usesleft' => '1',
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> 11674ce (.)
+=======
+
+>>>>>>> f916df1 (.)
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -94,20 +110,28 @@ $data = [
         'attribute_14' => 'altraemail@mail.com', // email segnalatore
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     'a3'=>[
 =======
     'a3' => [
 >>>>>>> 11674ce (.)
+=======
+    'a3' => [
+>>>>>>> f916df1 (.)
         'survey_pdf_id' => '16',
         'email' => '',
         'mobile_phone' => '3791339157',
         'language' => 'it',
         'usesleft' => '1',
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> 11674ce (.)
+=======
+
+>>>>>>> f916df1 (.)
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -125,6 +149,7 @@ $data = [
         'attribute_13' => 'telefono segnalatore', // telefono segnalatore
         'attribute_14' => 'altraemail@mail.com', // email segnalatore
 <<<<<<< HEAD
+<<<<<<< HEAD
     ]
     
     
@@ -132,6 +157,10 @@ $data = [
     ],
 
 >>>>>>> 11674ce (.)
+=======
+    ],
+
+>>>>>>> f916df1 (.)
 ];
 
 $headers = [
@@ -147,10 +176,14 @@ curl_setopt_array($ch, [
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_VERBOSE => true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     CURLOPT_POSTFIELDS => ['data'=>json_encode($data)],
 =======
     CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
 >>>>>>> 11674ce (.)
+=======
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> f916df1 (.)
 ]);
 
 $response = curl_exec($ch);
@@ -160,23 +193,27 @@ echo '<pre>'.print_r($response, true).'</pre>';
 curl_close($ch);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+function curl_postfields_flatten($data, $prefix = '')
+{
+    if (! is_array($data)) {
+        return $data;
+    }
+>>>>>>> f916df1 (.)
 
-function curl_postfields_flatten($data, $prefix = '') {
-    if (!is_array($data)) {
-      return $data;
+    $output = [];
+    foreach ($data as $key => $value) {
+        $final_key = $prefix ? "{$prefix}[{$key}]" : $key;
+        if (is_array($value)) {
+            $output += curl_postfields_flatten($value, $final_key);
+        } else {
+            $output[$final_key] = $value;
+        }
     }
-  
-    $output = array();
-    foreach($data as $key => $value) {
-      $final_key = $prefix ? "{$prefix}[{$key}]" : $key;
-      if (is_array($value)) {
-        $output += curl_postfields_flatten($value, $final_key);
-      }
-      else {
-        $output[$final_key] = $value;
-      }
-    }
+
     return $output;
+<<<<<<< HEAD
   }
 =======
 function curl_postfields_flatten($data, $prefix = '')
@@ -198,3 +235,6 @@ function curl_postfields_flatten($data, $prefix = '')
     return $output;
 }
 >>>>>>> 11674ce (.)
+=======
+}
+>>>>>>> f916df1 (.)
