@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "DRY & KISS Best Practices - Tema Zero"
 type: how-to
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # DRY & KISS Best Practices - Tema Zero
 
 **Data:** 15 Ottobre 2025  

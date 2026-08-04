@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "PRD: Zero Theme"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # PRD: Zero Theme
 
 ## 📋 Executive Summary

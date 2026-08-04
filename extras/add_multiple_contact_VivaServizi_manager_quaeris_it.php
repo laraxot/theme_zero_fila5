@@ -4,9 +4,15 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 
+<<<<<<< HEAD
 $base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact-multi';
+=======
+$base_url = 'https://manager.quaeris.it';
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact-multi';
+>>>>>>> 11674ce (.)
 $email = 'lfranchini@vivaservizi.it';
 $pass = 'franchinivivaservizi123';
 
@@ -23,6 +29,7 @@ $response = curl_exec($ch);
 $json = json_decode($response);
 
 $data = [
+<<<<<<< HEAD
     'a1'=>[
       'survey_pdf_id' => '44',
       'email' => 'vair81@gmail.com',
@@ -61,6 +68,46 @@ $data = [
     //   'language' => 'it',
     //   'usesleft' => '1',
   
+=======
+    'a1' => [
+        'survey_pdf_id' => '44',
+        'email' => 'vair81@gmail.com',
+        'mobile_phone' => '',
+        'language' => 'it',
+        'usesleft' => '1',
+
+        'first_name' => '',
+        'last_name' => '',
+        'attribute_1' => '02.07.2024', // Data cr.
+        'attribute_2' => 'ANCONA', // località
+        'attribute_3' => '3791339157', // tel. mobile, non prendere in considerazione, utilizzare il campo mobile_phone
+        'attribute_4' => 'E-mail', // canale_contatto
+        'attribute_5' => 'Variaz. anagrafiche ', // motivo_contatto
+        'attribute_6' => '', // Numero telefono
+    ],
+    'a2' => [
+        'survey_pdf_id' => '44',
+        'email' => '',
+        'mobile_phone' => '3791339157',
+        'language' => 'it',
+        'usesleft' => '1',
+
+        'first_name' => '',
+        'last_name' => '',
+        'attribute_1' => '02.07.2024', // Data cr.
+        'attribute_2' => 'ANCONA', // località
+        'attribute_3' => '3791339157', // tel. mobile, non prendere in considerazione, utilizzare il campo mobile_phone
+        'attribute_4' => 'E-mail', // canale_contatto
+        'attribute_5' => 'Variaz. anagrafiche ', // motivo_contatto
+        'attribute_6' => '', // Numero telefono
+    ],
+    // 'a3'=>[
+    //   'survey_pdf_id' => '44',
+    //   'email' => 'davide.vaira@quaeris.it',
+    //   'language' => 'it',
+    //   'usesleft' => '1',
+
+>>>>>>> 11674ce (.)
     //   'first_name' => '',
     //   'last_name' => '',
     //   'attribute_1' => '02.07.2024', // Data cr.
@@ -70,8 +117,12 @@ $data = [
     //   'attribute_5' => 'Variaz. anagrafiche ', // motivo_contatto
     //   'attribute_6' => '', // Numero telefono
     // ]
+<<<<<<< HEAD
     
     
+=======
+
+>>>>>>> 11674ce (.)
 ];
 
 $headers = [
@@ -86,7 +137,11 @@ curl_setopt_array($ch, [
     CURLOPT_POST => true,
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_VERBOSE => true,
+<<<<<<< HEAD
     CURLOPT_POSTFIELDS => ['data'=>json_encode($data)],
+=======
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> 11674ce (.)
 ]);
 
 $response = curl_exec($ch);
@@ -95,6 +150,7 @@ echo '<pre>'.print_r($response, true).'</pre>';
 
 curl_close($ch);
 
+<<<<<<< HEAD
 
 function curl_postfields_flatten($data, $prefix = '') {
     if (!is_array($data)) {
@@ -113,3 +169,23 @@ function curl_postfields_flatten($data, $prefix = '') {
     }
     return $output;
   }
+=======
+function curl_postfields_flatten($data, $prefix = '')
+{
+    if (! is_array($data)) {
+        return $data;
+    }
+
+    $output = [];
+    foreach ($data as $key => $value) {
+        $final_key = $prefix ? "{$prefix}[{$key}]" : $key;
+        if (is_array($value)) {
+            $output += curl_postfields_flatten($value, $final_key);
+        } else {
+            $output[$final_key] = $value;
+        }
+    }
+
+    return $output;
+}
+>>>>>>> 11674ce (.)

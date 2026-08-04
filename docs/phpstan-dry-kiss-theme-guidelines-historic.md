@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "PHPStan Level 10 + DRY/KISS Guidelines for Themes"
 type: rule
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # PHPStan Level 10 + DRY/KISS Guidelines for Themes
 
 ## Theme Code Quality Standards

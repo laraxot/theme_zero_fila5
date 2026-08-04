@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Theme Zero - Doc-First Workflow"
 type: how-to
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Theme Zero - Doc-First Workflow
 
 ## Regola

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Chart UI/UX Enhancements with Background Styling and Positioning"
 type: concept
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Chart UI/UX Enhancements with Background Styling and Positioning
 
 ## Overview

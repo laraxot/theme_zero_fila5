@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Accessibilita e standard cross-browser"
 type: rule
@@ -11,6 +12,8 @@ related:
   - "./component-library.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Accessibilita e standard cross-browser
 
 ## Obiettivo
