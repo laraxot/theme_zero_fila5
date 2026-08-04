@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Pattern Infolist Filament (Theme Zero)"
 type: pattern
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Pattern Infolist Filament (Theme Zero)
 
 ## Overview
@@ -154,12 +160,16 @@ Per dettagli completi del pattern, vedere:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 - [Documentazione Performance - Infolist Pattern](../../../laravel/Modules/Performance/docs/filament-infolist-pattern.md)
 - [Progressioni - Schemas e Tables (migrazione Filament 5)](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 - [XotBaseResourceInfolist - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
 - [XotBaseResource - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/XotBaseResource.php)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Documentazione Performance - Infolist Pattern](../../Modules/Performance/docs/filament-infolist-pattern.md)
@@ -169,3 +179,5 @@ Per dettagli completi del pattern, vedere:
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
