@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "🏎️ F1 World Champion 2026 - Theme Zero Integration"
 type: guide
@@ -15,6 +18,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
 **URL**: `http://forecast.local/it/forecasts/f1-world-champion-2026`  
@@ -25,6 +29,11 @@ related:
 
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
 >>>>>>> 11674ce (.)
+=======
+# 🏎️ F1 World Champion 2026 - Theme Zero Integration
+
+**URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
+>>>>>>> 2cb7d4f (.)
 **Tema**: Zero  
 **Data**: 2026-03-25
 
@@ -33,10 +42,14 @@ related:
 ## 📸 Screenshots Repository
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Gli screenshot della forecast detail page sono disponibili in:
 =======
 Gli screenshot della predict detail page sono disponibili in:
 >>>>>>> 11674ce (.)
+=======
+Gli screenshot della predict detail page sono disponibili in:
+>>>>>>> 2cb7d4f (.)
 
 ```
 laravel/Themes/Zero/docs/screenshots/
@@ -67,6 +80,7 @@ Il mercato **F1 World Champion 2026** ha **6 opzioni di risposta**:
 ### Componenti Utilizzati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il tema Zero utilizza i componenti del modulo forecast:
 
 ```blade
@@ -79,6 +93,8 @@ Il tema Zero utilizza i componenti del modulo forecast:
 <x-forecast-view.share-buttons />
 <x-forecast-view.sidebar-enhanced />
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 Il tema Zero utilizza i componenti del modulo Predict:
 
 ```blade
@@ -90,7 +106,10 @@ Il tema Zero utilizza i componenti del modulo Predict:
 <x-predict-view.recent-trades />
 <x-predict-view.share-buttons />
 <x-predict-view.sidebar-enhanced />
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
 ```
 
 ### File Theme Zero
@@ -98,10 +117,14 @@ Il tema Zero utilizza i componenti del modulo Predict:
 | File | Scopo |
 |------|-------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
 =======
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
 >>>>>>> 11674ce (.)
+=======
+| `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
+>>>>>>> 2cb7d4f (.)
 | `resources/css/app.css` | Theme styling |
 | `resources/js/gsap-config.js` | Animations |
 
@@ -151,10 +174,14 @@ small: text-sm (14px)
 ## ✅ Theme Compliance
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Componenti modulari forecast
 =======
 - [x] Componenti modulari Predict
 >>>>>>> 11674ce (.)
+=======
+- [x] Componenti modulari Predict
+>>>>>>> 2cb7d4f (.)
 - [x] Styling coerente con design system
 - [x] Responsive design
 - [x] Dark mode support

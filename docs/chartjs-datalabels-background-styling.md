@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Chart UI/UX Enhancements with Background Styling and Positioning"
 type: concept
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Chart UI/UX Enhancements with Background Styling and Positioning
 
 ## Overview

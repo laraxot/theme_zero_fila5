@@ -5,6 +5,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', true);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact-multi';
@@ -13,6 +14,11 @@ $base_url = 'https://manager.quaeris.it';
 $login = '/api/user/login';
 $addContact = '/api/quaeris/add-contact-multi';
 >>>>>>> 11674ce (.)
+=======
+$base_url = 'https://manager.quaeris.it';
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact-multi';
+>>>>>>> 2cb7d4f (.)
 $email = 'lfranchini@vivaservizi.it';
 $pass = 'franchinivivaservizi123';
 
@@ -29,6 +35,7 @@ $response = curl_exec($ch);
 $json = json_decode($response);
 
 $data = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     'a1'=>[
@@ -88,6 +95,8 @@ $data = [
 <<<<<<< HEAD
   
 =======
+=======
+>>>>>>> 2cb7d4f (.)
     'a1' => [
         'survey_pdf_id' => '44',
         'email' => 'vair81@gmail.com',
@@ -126,10 +135,13 @@ $data = [
     //   'language' => 'it',
     //   'usesleft' => '1',
 
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)
     //   'first_name' => '',
     //   'last_name' => '',
     //   'attribute_1' => '02.07.2024', // Data cr.
@@ -141,6 +153,7 @@ $data = [
     // ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     
 =======
@@ -149,6 +162,9 @@ $data = [
 =======
 
 >>>>>>> f916df1 (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
 ];
 
 $headers = [
@@ -165,6 +181,7 @@ curl_setopt_array($ch, [
     CURLOPT_VERBOSE => true,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     CURLOPT_POSTFIELDS => ['data'=>json_encode($data)],
 =======
     CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
@@ -172,6 +189,9 @@ curl_setopt_array($ch, [
 =======
     CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
 >>>>>>> f916df1 (.)
+=======
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> 2cb7d4f (.)
 ]);
 
 $response = curl_exec($ch);
@@ -180,6 +200,7 @@ echo '<pre>'.print_r($response, true).'</pre>';
 
 curl_close($ch);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -204,6 +225,8 @@ function curl_postfields_flatten($data, $prefix = '')
 <<<<<<< HEAD
   }
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 function curl_postfields_flatten($data, $prefix = '')
 {
     if (! is_array($data)) {
@@ -222,7 +245,10 @@ function curl_postfields_flatten($data, $prefix = '')
 
     return $output;
 }
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 }
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)

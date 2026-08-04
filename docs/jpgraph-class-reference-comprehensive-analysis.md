@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "📚 JpGraph Class Reference - Analisi Completta 2024"
 type: guide
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # 📚 JpGraph Class Reference - Analisi Completta 2024
 
 ## 🎯 **Introduzione alla Documentazione JpGraph**
@@ -437,6 +443,7 @@ $graph->Stroke();
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🔄 **Integrazione con healthcare_app**
 =======
 <<<<<<< .merge_file_pJ783w
@@ -448,6 +455,9 @@ $graph->Stroke();
 =======
 ## 🔄 **Integrazione con healthcare_app**
 >>>>>>> 11674ce (.)
+=======
+## 🔄 **Integrazione con healthcare_app**
+>>>>>>> 2cb7d4f (.)
 
 ### **Pattern di Integrazione**
 ```php

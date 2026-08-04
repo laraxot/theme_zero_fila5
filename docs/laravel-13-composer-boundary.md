@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Laravel 13 Composer boundary for Theme Zero"
 type: rule
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Laravel 13 Composer boundary for Theme Zero
 
 ## Rule
@@ -47,6 +53,7 @@ After Laravel 13 Composer resolution:
 - Theme architecture: [architecture.md](architecture.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Xot Composer strategy: [../../../laravel/Modules/Xot/docs/laravel-13-modular-composer-upgrade.md](../../../laravel/Modules/Xot/docs/laravel-13-modular-composer-upgrade.md)
 =======
 - Xot Composer strategy: [../../Modules/Xot/docs/laravel-13-modular-composer-upgrade.md](../../Modules/Xot/docs/laravel-13-modular-composer-upgrade.md)
@@ -54,3 +61,6 @@ After Laravel 13 Composer resolution:
 =======
 - Xot Composer strategy: [../../../laravel/Modules/Xot/docs/laravel-13-modular-composer-upgrade.md](../../../laravel/Modules/Xot/docs/laravel-13-modular-composer-upgrade.md)
 >>>>>>> 099e856 (sync)
+=======
+- Xot Composer strategy: [../../../laravel/Modules/Xot/docs/laravel-13-modular-composer-upgrade.md](../../../laravel/Modules/Xot/docs/laravel-13-modular-composer-upgrade.md)
+>>>>>>> 2cb7d4f (.)

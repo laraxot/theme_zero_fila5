@@ -3,10 +3,14 @@ title: second brain — puntatore modulo
 type: reference
 qmd: second brain modulo wiki locale laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 updated: 2026-07-29
 =======
 updated: 2026-05-21
 >>>>>>> 11674ce (.)
+=======
+updated: 2026-05-21
+>>>>>>> 2cb7d4f (.)
 ---
 
 # Second brain (modulo)
@@ -23,12 +27,16 @@ Stub **puntatore**: disciplina e link esterni curati stanno nella wiki di proget
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 - Modello: [../../../../docs/wiki/concepts/second-brain-operating-model.md](../../../../docs/wiki/concepts/second-brain-operating-model.md)
 - Guida wiki modulo: [../../../../docs/wiki/how-to/module-wiki-documentation.md](../../../../docs/wiki/how-to/module-wiki-documentation.md)
 - Benchmark lettura esterna (Karpathy, Obsidian, PARA, …): [../../../../docs/wiki/sources/second-brain-external-benchmarks.md](../../../../docs/wiki/sources/second-brain-external-benchmarks.md)
 - **Filament (stack attuale): v5** — non v4. Policy: [../../../../docs/wiki/memories/filament-version-policy.md](../../../../docs/wiki/memories/filament-version-policy.md) · Xot: [../../../laravel/Modules/Xot/docs/filament-5-laraxot-rules.md](../../../laravel/Modules/Xot/docs/filament-5-laraxot-rules.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ## Nota operativa 2026-07-29
@@ -48,3 +56,5 @@ Per sync multi-org del tema:
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)

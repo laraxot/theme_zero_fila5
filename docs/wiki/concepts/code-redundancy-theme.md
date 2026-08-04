@@ -8,6 +8,7 @@ updated: "2026-05-26"
 related:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
 =======
   - ../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
@@ -15,6 +16,9 @@ related:
 =======
   - ../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
 >>>>>>> 099e856 (sync)
+=======
+  - ../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+>>>>>>> 2cb7d4f (.)
   - ../../../One/docs/wiki/concepts/code-redundancy-theme.md
   - ../../../../Modules/User/docs/wiki/concepts/code-redundancy-user.md
 ---
@@ -42,6 +46,7 @@ Verificare che i commenti Blade non dicano «tema Zero» dentro file One (confus
 - [One](code-redundancy-theme.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filosofia](../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
 =======
 - [Filosofia](../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
@@ -49,3 +54,6 @@ Verificare che i commenti Blade non dicano «tema Zero» dentro file One (confus
 =======
 - [Filosofia](../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
 >>>>>>> 099e856 (sync)
+=======
+- [Filosofia](../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
+>>>>>>> 2cb7d4f (.)

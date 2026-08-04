@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Conflict Resolution — Theme Zero"
 type: guide
@@ -16,12 +19,15 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> f916df1 (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Conflict Resolution — Theme Zero
 
 ## Summary
@@ -33,6 +39,7 @@ related:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
 =======
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
@@ -43,3 +50,6 @@ related:
 =======
 - [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
 >>>>>>> 099e856 (sync)
+=======
+- [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
+>>>>>>> 2cb7d4f (.)

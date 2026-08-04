@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "🎨 THEMES SYSTEM - IL VESTITO DI LARAXOT"
 type: guide
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # 🎨 THEMES SYSTEM - IL VESTITO DI LARAXOT
 
 ## 📋 INDICE
@@ -282,6 +288,7 @@ use Illuminate\View\Component;
 use Illuminate\View\View;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\healthcare_app\Models\SurveyPdf;
 =======
 <<<<<<< .merge_file_Db191X
@@ -293,11 +300,15 @@ use Modules\ModuloEsempio\Models\SurveyPdf;
 =======
 use Modules\healthcare_app\Models\SurveyPdf;
 >>>>>>> 11674ce (.)
+=======
+use Modules\healthcare_app\Models\SurveyPdf;
+>>>>>>> 2cb7d4f (.)
 
 /**
  * SurveyCard: Visualizzazione survey card
  * 
  * NOTA: Solo presentazione, nessuna logica business
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * La logica sta nei moduli healthcare_app
@@ -311,6 +322,9 @@ use Modules\healthcare_app\Models\SurveyPdf;
 =======
  * La logica sta nei moduli healthcare_app
 >>>>>>> 11674ce (.)
+=======
+ * La logica sta nei moduli healthcare_app
+>>>>>>> 2cb7d4f (.)
  */
 class SurveyCard extends Component
 {
@@ -434,6 +448,7 @@ class SurveyCard extends Component
         <div class="flex justify-end space-x-2">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.view', ['record' => $survey->id]) }}" 
 =======
 <<<<<<< .merge_file_Db191X
@@ -445,10 +460,14 @@ class SurveyCard extends Component
 =======
             <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.view', ['record' => $survey->id]) }}" 
 >>>>>>> 11674ce (.)
+=======
+            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.view', ['record' => $survey->id]) }}" 
+>>>>>>> 2cb7d4f (.)
                class="inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                 Visualizza
             </a>
             
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.edit', ['record' => $survey->id]) }}" 
@@ -462,6 +481,9 @@ class SurveyCard extends Component
 =======
             <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.edit', ['record' => $survey->id]) }}" 
 >>>>>>> 11674ce (.)
+=======
+            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.edit', ['record' => $survey->id]) }}" 
+>>>>>>> 2cb7d4f (.)
                class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                 Modifica
             </a>

@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
 type: guide
@@ -16,12 +19,15 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅
@@ -78,7 +84,11 @@ public function form(Form $form): Form
 - **UI**: Widgets, Tests
 
 ### ⚠️ Richiede Attenzione
+<<<<<<< HEAD
 - **Xot/Helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
+=======
+- **Xot/helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
+>>>>>>> 2cb7d4f (.)
 
 ## Script Creati
 
@@ -179,4 +189,8 @@ git commit -m "feat: migrazione completa a Filament 4
 Tutti i file modificati hanno backup con estensione `.backup` per eventuali rollback.
 
 ## Conclusione
+<<<<<<< HEAD
 La migrazione a Filament 4 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
+=======
+La migrazione a Filament 4 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
+>>>>>>> 2cb7d4f (.)

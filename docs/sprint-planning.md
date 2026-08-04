@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Sprint Planning - Theme Zero"
 type: guide
@@ -14,6 +17,9 @@ related:
   - "./00-index.md"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
 
 # Sprint Planning - Theme Zero
 
@@ -371,6 +377,7 @@ For every component added this sprint:
 |------|------|------|
 | Product Owner | | |
 | Lead Dev | | |
+<<<<<<< HEAD
 =======
 # Sprint Planning: Zero Theme
 
@@ -736,3 +743,5 @@ For every component added this sprint:
 | Product Owner | | |
 | Lead Dev | | |
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
