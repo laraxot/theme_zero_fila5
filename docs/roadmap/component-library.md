@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Libreria componenti e integrazione UI"
 type: guide
@@ -11,6 +12,8 @@ related:
   - "./component-library.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Libreria componenti e integrazione UI
 
 ## Obiettivo

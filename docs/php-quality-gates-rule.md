@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Theme Zero - PHP Quality Gates Rule"
 type: rule
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Theme Zero - PHP Quality Gates Rule
 
 ## Regola tema
