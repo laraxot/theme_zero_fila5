@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+---
+title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
+type: guide
+tags: ['filament', 'laravel', 'testing', 'phpstan']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "riepilogo risoluzione conflitti git - filament 4"
+related:
+  - "./conflict-resolution-summary-relocated.md"
+  - "./conflict-resolution-summary.md"
+---
+
+>>>>>>> 2cb7d4f (.)
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅
