@@ -9,9 +9,13 @@ related:
 # organizzativa money
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../docs/wiki/how-to/module-docs-deduplication.md).
 =======
 Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../../docs/wiki/how-to/module-docs-deduplication.md).
 >>>>>>> 11674ce (.)
+=======
+Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../docs/wiki/how-to/module-docs-deduplication.md).
+>>>>>>> 099e856 (sync)
 
 → [organizzativa-money.md](../../../../../Modules/Xot/docs/wiki/concepts/organizzativa-money.md)

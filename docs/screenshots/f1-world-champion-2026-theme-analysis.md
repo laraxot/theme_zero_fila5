@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
 ---
 title: "🏎️ F1 World Champion 2026 - Theme Zero Integration"
 type: guide
@@ -14,17 +10,9 @@ related:
   - "./f1-world-champion-theme-analysis.md"
 ---
 
-<<<<<<< HEAD
-# 🏎️ F1 World Champion 2026 - Theme Zero Integration
-
-**URL**: `http://forecast.local/it/forecasts/f1-world-champion-2026`  
-=======
-=======
->>>>>>> 099e856 (sync)
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
->>>>>>> 11674ce (.)
 **Tema**: Zero  
 **Data**: 2026-03-25
 
@@ -32,11 +20,7 @@ related:
 
 ## 📸 Screenshots Repository
 
-<<<<<<< HEAD
-Gli screenshot della forecast detail page sono disponibili in:
-=======
 Gli screenshot della predict detail page sono disponibili in:
->>>>>>> 11674ce (.)
 
 ```
 laravel/Themes/Zero/docs/screenshots/
@@ -44,7 +28,7 @@ laravel/Themes/Zero/docs/screenshots/
 ├── f1-detail-desktop-1920x1080.png
 ├── f1-detail-tablet-768x1024.png
 ├── f1-detail-mobile-375x812.png
-└── f1-world-champion-theme-analysis.md (riferimento)
+└── f1-world-champion-2026-analysis.md (riferimento)
 ```
 
 ---
@@ -66,19 +50,6 @@ Il mercato **F1 World Champion 2026** ha **6 opzioni di risposta**:
 
 ### Componenti Utilizzati
 
-<<<<<<< HEAD
-Il tema Zero utilizza i componenti del modulo forecast:
-
-```blade
-<x-forecast-view.header />
-<x-forecast-view.market-stats />
-<x-forecast-view.trading-form />
-<x-forecast-view.order-book />
-<x-forecast-view.price-chart />
-<x-forecast-view.recent-trades />
-<x-forecast-view.share-buttons />
-<x-forecast-view.sidebar-enhanced />
-=======
 Il tema Zero utilizza i componenti del modulo Predict:
 
 ```blade
@@ -90,18 +61,13 @@ Il tema Zero utilizza i componenti del modulo Predict:
 <x-predict-view.recent-trades />
 <x-predict-view.share-buttons />
 <x-predict-view.sidebar-enhanced />
->>>>>>> 11674ce (.)
 ```
 
 ### File Theme Zero
 
 | File | Scopo |
 |------|-------|
-<<<<<<< HEAD
-| `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
-=======
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
->>>>>>> 11674ce (.)
 | `resources/css/app.css` | Theme styling |
 | `resources/js/gsap-config.js` | Animations |
 
@@ -150,11 +116,7 @@ small: text-sm (14px)
 
 ## ✅ Theme Compliance
 
-<<<<<<< HEAD
-- [x] Componenti modulari forecast
-=======
 - [x] Componenti modulari Predict
->>>>>>> 11674ce (.)
 - [x] Styling coerente con design system
 - [x] Responsive design
 - [x] Dark mode support
@@ -165,8 +127,9 @@ small: text-sm (14px)
 
 ## 🔗 Riferimenti
 
-- [Theme Zero Docs](../README.md)
-- [Architecture](../architecture.md)
+- [Predict Module Docs](../../Modules/Predict/docs/screenshots/f1-world-champion-2026-analysis.md)
+- [Theme Zero Docs](./README.md)
+- [Architecture](./architecture.md)
 
 ---
 

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "product-launch-plan (deprecated)"
 type: reference
@@ -6,6 +9,7 @@ status: deprecated
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed product-launch-plan.md"
+<<<<<<< HEAD
 ---
 
 > This file has been renamed to [product-launch-plan.md](product-launch-plan.md).
@@ -494,3 +498,9 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 | Marketing Lead | | |
 | Tech Lead | | |
 >>>>>>> 11674ce (.)
+=======
+---
+
+> This file has been renamed to [product-launch-plan.md](product-launch-plan.md).
+> Do not add dates or underscores in filenames.
+>>>>>>> 099e856 (sync)
