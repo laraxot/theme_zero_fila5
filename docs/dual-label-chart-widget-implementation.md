@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "SimpleChartWidget - Analisi Qualità del Codice e Best Practices"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # SimpleChartWidget - Analisi Qualità del Codice e Best Practices
 
 ## Panoramica
@@ -776,6 +779,7 @@ protected function getData(): array
 ```bash
 # ✅ Zero errori dopo refactoring
 <<<<<<< HEAD
+<<<<<<< HEAD
 ./vendor/bin/phpstan analyse Modules/healthcare_app/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
 =======
 <<<<<<< .merge_file_Qg2KfW
@@ -784,11 +788,15 @@ protected function getData(): array
 ./vendor/bin/phpstan analyse Modules/ModuloEsempio/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
 >>>>>>> .merge_file_Yr6M6d
 >>>>>>> laraxot/dev
+=======
+./vendor/bin/phpstan analyse Modules/healthcare_app/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
+>>>>>>> 11674ce (.)
 ```
 
 ### Testing Coverage
 ```bash
 # ✅ 100% coverage per metodi principali
+<<<<<<< HEAD
 <<<<<<< HEAD
 ./vendor/bin/phpunit --coverage-html=coverage Modules/healthcare_app/tests/Unit/SimpleChartWidgetTest.php
 =======
@@ -798,6 +806,9 @@ protected function getData(): array
 ./vendor/bin/phpunit --coverage-html=coverage Modules/ModuloEsempio/tests/Unit/SimpleChartWidgetTest.php
 >>>>>>> .merge_file_Yr6M6d
 >>>>>>> laraxot/dev
+=======
+./vendor/bin/phpunit --coverage-html=coverage Modules/healthcare_app/tests/Unit/SimpleChartWidgetTest.php
+>>>>>>> 11674ce (.)
 ```
 
 ### Performance Metrics
