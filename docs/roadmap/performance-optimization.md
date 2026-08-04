@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Performance e ottimizzazione asset"
 type: rule
@@ -12,8 +15,11 @@ related:
   - "./component-library.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # Performance e ottimizzazione asset
 
 ## Obiettivo
