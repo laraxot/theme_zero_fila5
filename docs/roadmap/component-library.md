@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Libreria componenti e integrazione UI"
 type: guide
@@ -12,8 +15,11 @@ related:
   - "./component-library.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # Libreria componenti e integrazione UI
 
 ## Obiettivo
