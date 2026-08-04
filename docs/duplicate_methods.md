@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "duplicate-methods (deprecated)"
 type: reference
@@ -10,6 +13,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed duplicate-methods.md"
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 > This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
@@ -42,3 +46,8 @@ Analisi sintetica dei metodi PHP con lo stesso nome all’interno di questo ambi
 > This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
 > Do not add dates or underscores in filenames.
 >>>>>>> 099e856 (sync)
+=======
+
+> This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
+> Do not add dates or underscores in filenames.
+>>>>>>> 2cb7d4f (.)

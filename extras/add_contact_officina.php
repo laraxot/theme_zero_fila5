@@ -6,6 +6,7 @@ ini_set('display_errors', true);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $base_url = 'https://manager.healthcare_appofficina.it';   //no slash finale !
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact';
@@ -16,6 +17,11 @@ $base_url = 'https://manager.quaerisofficina.it';   // no slash finale !
 $login = '/api/user/login';
 $addContact = '/api/quaeris/add-contact';
 >>>>>>> 11674ce (.)
+=======
+$base_url = 'https://manager.quaerisofficina.it';   // no slash finale !
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact';
+>>>>>>> 2cb7d4f (.)
 $email = 'info@veritas.it';
 $pass = 'veritas123';
 
@@ -34,6 +40,7 @@ $data = [
     'survey_pdf_id' => '12',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //'mobile_phone' => '+391234567890',
 =======
     // 'mobile_phone' => '+391234567890',
@@ -41,6 +48,9 @@ $data = [
 =======
     // 'mobile_phone' => '+391234567890',
 >>>>>>> f916df1 (.)
+=======
+    // 'mobile_phone' => '+391234567890',
+>>>>>>> 2cb7d4f (.)
     'email' => 'prova_ora@mail.com',
     'language' => 'it',
     'usesleft' => '1',
@@ -53,6 +63,7 @@ $data = [
 ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //$data = json_encode($data);  perche ?
 =======
 // $data = json_encode($data);  perche ?
@@ -60,6 +71,9 @@ $data = [
 =======
 // $data = json_encode($data);  perche ?
 >>>>>>> f916df1 (.)
+=======
+// $data = json_encode($data);  perche ?
+>>>>>>> 2cb7d4f (.)
 $headers = [
     // 'Content-Type: application/json',  //error
     'Authorization: Bearer '.$json->token,

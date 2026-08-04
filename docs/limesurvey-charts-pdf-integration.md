@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "LimeSurvey Charts PDF Integration - Zero Theme"
 type: guide
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # LimeSurvey Charts PDF Integration - Zero Theme
 
 **Created:** January 2026
@@ -638,6 +644,9 @@ Themes/Zero/
 ### Primary Guides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
 - [Guida Completa LimeSurvey Chart Widget](../../../laravel/Modules/healthcare_app/docs/limesurvey-chart-widget-complete-guide.md) - ⭐ **PRINCIPALE**
 - [JpGraph Deep Dive and Alternatives](../../Modules/Chart/docs/jpgraph-deep-dive-and-alternatives.md) - ⭐ **NUOVO** - Analisi approfondita JpGraph 4.4.3, alternative, confronto, e best practices
 
@@ -647,6 +656,7 @@ Themes/Zero/
 - [PDF Charts Integration Complete](../../../laravel/Modules/Chart/docs/pdf-charts-limesurvey-integration-complete.md)
 - [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
+<<<<<<< HEAD
 =======
 - [Guida Completa LimeSurvey Chart Widget](../../Modules/healthcare_app/docs/limesurvey-chart-widget-complete-guide.md) - ⭐ **PRINCIPALE**
 - [JpGraph Deep Dive and Alternatives](../../Modules/Chart/docs/jpgraph-deep-dive-and-alternatives.md) - ⭐ **NUOVO** - Analisi approfondita JpGraph 4.4.3, alternative, confronto, e best practices
@@ -669,6 +679,8 @@ Themes/Zero/
 - [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 
 ### Official JpGraph Resources
 - [JpGraph Official Site](https://jpgraph.net/) - Sito ufficiale
@@ -681,4 +693,8 @@ Themes/Zero/
 
 **Last Updated:** January 2026  
 **Maintainer:** Laraxot Team + Auto (AI Coding Assistant)  
+<<<<<<< HEAD
 **Livello:** Approfondito con pattern reali dal codebase
+=======
+**Livello:** Approfondito con pattern reali dal codebase
+>>>>>>> 2cb7d4f (.)
