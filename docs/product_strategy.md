@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "product-strategy (deprecated)"
 type: reference
@@ -6,6 +9,7 @@ status: deprecated
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed product-strategy.md"
+<<<<<<< HEAD
 ---
 
 > This file has been renamed to [product-strategy.md](product-strategy.md).
@@ -605,3 +609,9 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 |---------|------|--------|---------|
 | 1.0 | 2026-03-12 | Theme Team | Initial strategy for pre-alpha theme |
 >>>>>>> 11674ce (.)
+=======
+---
+
+> This file has been renamed to [product-strategy.md](product-strategy.md).
+> Do not add dates or underscores in filenames.
+>>>>>>> 099e856 (sync)
