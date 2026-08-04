@@ -5,16 +5,22 @@ error_reporting(E_ALL);
 ini_set('display_errors', true);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $base_url = 'https://manager.healthcare_app.it';
 // $base_url = 'https://manager2.healthcare_appofficina.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact';
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 $base_url = 'https://manager.quaeris.it';
 // $base_url = 'https://manager2.quaerisofficina.it';
 $login = '/api/user/login';
 $addContact = '/api/quaeris/add-contact';
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
 $email = 'a.tocchetto@altotrevigianoservizi.it';
 $pass = 'atstocchetto321';
 
@@ -62,6 +68,7 @@ curl_setopt_array($ch, [
     CURLOPT_HTTPHEADER => $headers,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     CURLOPT_URL => $base_url . $addContact,
 =======
     CURLOPT_URL => $base_url.$addContact,
@@ -69,6 +76,9 @@ curl_setopt_array($ch, [
 =======
     CURLOPT_URL => $base_url.$addContact,
 >>>>>>> f916df1 (.)
+=======
+    CURLOPT_URL => $base_url.$addContact,
+>>>>>>> 2cb7d4f (.)
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POST => true,
     CURLOPT_RETURNTRANSFER => true,
