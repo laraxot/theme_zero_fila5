@@ -61,10 +61,14 @@ $headers = [
 curl_setopt_array($ch, [
     CURLOPT_HTTPHEADER => $headers,
 <<<<<<< HEAD
+<<<<<<< HEAD
     CURLOPT_URL => $base_url . $addContact,
 =======
     CURLOPT_URL => $base_url.$addContact,
 >>>>>>> 11674ce (.)
+=======
+    CURLOPT_URL => $base_url.$addContact,
+>>>>>>> f916df1 (.)
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POST => true,
     CURLOPT_RETURNTRANSFER => true,
