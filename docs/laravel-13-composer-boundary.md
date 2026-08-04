@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Laravel 13 Composer boundary for Theme Zero"
 type: rule
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Laravel 13 Composer boundary for Theme Zero
 
 ## Rule
@@ -36,4 +39,8 @@ After Laravel 13 Composer resolution:
 ## References
 
 - Theme architecture: [architecture.md](architecture.md)
+<<<<<<< HEAD
 - Xot Composer strategy: [../../../laravel/Modules/Xot/docs/laravel-13-modular-composer-upgrade.md](../../../laravel/Modules/Xot/docs/laravel-13-modular-composer-upgrade.md)
+=======
+- Xot Composer strategy: [../../Modules/Xot/docs/laravel-13-modular-composer-upgrade.md](../../Modules/Xot/docs/laravel-13-modular-composer-upgrade.md)
+>>>>>>> 11674ce (.)

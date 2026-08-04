@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "🏎️ F1 World Champion 2026 - Theme Zero Integration"
 type: guide
@@ -13,6 +14,11 @@ related:
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
 **URL**: `http://forecast.local/it/forecasts/f1-world-champion-2026`  
+=======
+# 🏎️ F1 World Champion 2026 - Theme Zero Integration
+
+**URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
+>>>>>>> 11674ce (.)
 **Tema**: Zero  
 **Data**: 2026-03-25
 
@@ -20,7 +26,11 @@ related:
 
 ## 📸 Screenshots Repository
 
+<<<<<<< HEAD
 Gli screenshot della forecast detail page sono disponibili in:
+=======
+Gli screenshot della predict detail page sono disponibili in:
+>>>>>>> 11674ce (.)
 
 ```
 laravel/Themes/Zero/docs/screenshots/
@@ -50,6 +60,7 @@ Il mercato **F1 World Champion 2026** ha **6 opzioni di risposta**:
 
 ### Componenti Utilizzati
 
+<<<<<<< HEAD
 Il tema Zero utilizza i componenti del modulo forecast:
 
 ```blade
@@ -61,13 +72,30 @@ Il tema Zero utilizza i componenti del modulo forecast:
 <x-forecast-view.recent-trades />
 <x-forecast-view.share-buttons />
 <x-forecast-view.sidebar-enhanced />
+=======
+Il tema Zero utilizza i componenti del modulo Predict:
+
+```blade
+<x-predict-view.header />
+<x-predict-view.market-stats />
+<x-predict-view.trading-form />
+<x-predict-view.order-book />
+<x-predict-view.price-chart />
+<x-predict-view.recent-trades />
+<x-predict-view.share-buttons />
+<x-predict-view.sidebar-enhanced />
+>>>>>>> 11674ce (.)
 ```
 
 ### File Theme Zero
 
 | File | Scopo |
 |------|-------|
+<<<<<<< HEAD
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
+=======
+| `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
+>>>>>>> 11674ce (.)
 | `resources/css/app.css` | Theme styling |
 | `resources/js/gsap-config.js` | Animations |
 
@@ -116,7 +144,11 @@ small: text-sm (14px)
 
 ## ✅ Theme Compliance
 
+<<<<<<< HEAD
 - [x] Componenti modulari forecast
+=======
+- [x] Componenti modulari Predict
+>>>>>>> 11674ce (.)
 - [x] Styling coerente con design system
 - [x] Responsive design
 - [x] Dark mode support
@@ -127,7 +159,11 @@ small: text-sm (14px)
 
 ## 🔗 Riferimenti
 
+<<<<<<< HEAD
 - [forecast Module Docs](../../Modules/Domain/docs/screenshots/f1-world-champion-2026-analysis.md)
+=======
+- [Predict Module Docs](../../Modules/Predict/docs/screenshots/f1-world-champion-2026-analysis.md)
+>>>>>>> 11674ce (.)
 - [Theme Zero Docs](./README.md)
 - [Architecture](./architecture.md)
 

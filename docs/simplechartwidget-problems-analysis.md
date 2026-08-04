@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "SimpleChartWidget - Analisi Problemi e Miglioramenti UI/UX"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # SimpleChartWidget - Analisi Problemi e Miglioramenti UI/UX
 
 ## Panoramica

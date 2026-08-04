@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Architettura Moderna dei Temi - Zero Theme"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Architettura Moderna dei Temi - Zero Theme
 
 Il tema Zero segue i principi di modularità e performance introdotti con Laravel 12 e Filament 5.

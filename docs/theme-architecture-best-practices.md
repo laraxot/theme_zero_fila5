@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Theme Architecture and Best Practices"
 type: pattern
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Theme Architecture and Best Practices
 
 ## Overview

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Upgrade Laravel 13 - Theme Zero 🐄✨"
 type: guide
@@ -10,4 +11,6 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Upgrade Laravel 13 - Theme Zero 🐄✨
