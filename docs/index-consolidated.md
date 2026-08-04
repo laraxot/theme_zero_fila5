@@ -196,8 +196,7 @@ docs/
 ├── analisi-completa-tema.md                     # Theme analysis
 ├── comprehensive-theme-analysis.md              # Comprehensive analysis
 ├── database-governance.md                       # Database governance
-├── roadmap.md                                   # Development roadmap
-└── performance-actions-reference.md             # Performance module actions reference
+└── roadmap.md                                   # Development roadmap
 ```
 
 ## Key Concepts
