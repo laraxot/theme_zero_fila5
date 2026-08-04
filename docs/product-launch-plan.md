@@ -19,9 +19,9 @@ related:
 
 ## Ultra-Minimalist Theme
 
-**Document Version:** 1.0  
-**Launch Date:** October 15, 2026 (Target - v1.0)  
-**Launch Type:** Major Release (Pre-Alpha to v1.0)  
+**Document Version:** 1.0
+**Launch Date:** October 15, 2026 (Target - v1.0)
+**Launch Type:** Major Release (Pre-Alpha to v1.0)
 **Owner:** Theme Product Team
 
 ---
