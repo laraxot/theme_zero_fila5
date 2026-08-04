@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Zero - Sprint Planning Meeting"
 type: guide
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Zero - Sprint Planning Meeting
 
 > Documento operativo per sprint planning. Tema.
@@ -69,6 +75,7 @@ Spostare **Zero** in avanti sui gap P0/P1 piu' vicini al valore, evitando lavoro
 - [Product Launch Plan](product-launch-plan.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 =======
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
@@ -76,3 +83,6 @@ Spostare **Zero** in avanti sui gap P0/P1 piu' vicini al valore, evitando lavoro
 =======
 - [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 >>>>>>> 099e856 (sync)
+=======
+- [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+>>>>>>> 2cb7d4f (.)
