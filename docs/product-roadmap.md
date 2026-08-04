@@ -19,9 +19,9 @@ related:
 
 ## Ultra-Minimalist Theme
 
-**Document Version:** 1.0  
-**Planning Period:** 2026 (Q1-Q4)  
-**Last Updated:** March 12, 2026  
+**Document Version:** 1.0
+**Planning Period:** 2026 (Q1-Q4)
+**Last Updated:** March 12, 2026
 **Status:** Active - Pre-Alpha Phase
 
 ---
@@ -281,7 +281,7 @@ related:
 ## Milestones
 
 ### Milestone 1: Philosophy Defined
-**Target:** March 31, 2026  
+**Target:** March 31, 2026
 **Status:** In Progress
 
 **Criteria:**
@@ -296,7 +296,7 @@ related:
 ---
 
 ### Milestone 2: Essential Complete
-**Target:** June 30, 2026  
+**Target:** June 30, 2026
 **Status:** Planned
 
 **Criteria:**
@@ -311,7 +311,7 @@ related:
 ---
 
 ### Milestone 3: Release Candidate
-**Target:** September 15, 2026  
+**Target:** September 15, 2026
 **Status:** Planned
 
 **Criteria:**
@@ -326,7 +326,7 @@ related:
 ---
 
 ### Milestone 4: v1.0 Launch
-**Target:** October 15, 2026  
+**Target:** October 15, 2026
 **Status:** Planned
 
 **Criteria:**
