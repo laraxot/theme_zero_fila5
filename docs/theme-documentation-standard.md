@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Theme Documentation Standard"
 type: rule
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Theme Documentation Standard
 
 Standard per la documentazione dei temi nell'architettura Laraxot.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Analisi PHPStan livello 10 - tema"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Analisi PHPStan livello 10 - tema
 
 ## Scopo
