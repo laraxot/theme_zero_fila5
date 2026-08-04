@@ -7,10 +7,14 @@ created: "2026-05-26"
 updated: "2026-05-26"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
 =======
   - ../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
 >>>>>>> 11674ce (.)
+=======
+  - ../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+>>>>>>> 099e856 (sync)
   - ../../../One/docs/wiki/concepts/code-redundancy-theme.md
   - ../../../../Modules/User/docs/wiki/concepts/code-redundancy-user.md
 ---
@@ -37,7 +41,11 @@ Verificare che i commenti Blade non dicano «tema Zero» dentro file One (confus
 
 - [One](code-redundancy-theme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filosofia](../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
 =======
 - [Filosofia](../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
 >>>>>>> 11674ce (.)
+=======
+- [Filosofia](../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
+>>>>>>> 099e856 (sync)

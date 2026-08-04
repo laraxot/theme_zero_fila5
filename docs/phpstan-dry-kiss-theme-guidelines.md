@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "PHPStan Level 10 + DRY/KISS Guidelines for Themes"
 type: how-to
@@ -11,8 +14,11 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # PHPStan Level 10 + DRY/KISS Guidelines for Themes
 
 > **Stato aggiornato al 18 novembre 2025**  

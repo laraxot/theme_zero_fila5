@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
 type: guide
@@ -11,8 +14,11 @@ related:
   - "./conflict-resolution-summary.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> fed596f (.)
+=======
+>>>>>>> 099e856 (sync)
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅

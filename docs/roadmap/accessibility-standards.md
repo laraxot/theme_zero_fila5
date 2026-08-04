@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Accessibilita e standard cross-browser"
 type: rule
@@ -12,8 +15,11 @@ related:
   - "./component-library.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # Accessibilita e standard cross-browser
 
 ## Obiettivo
