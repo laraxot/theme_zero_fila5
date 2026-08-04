@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "CONFLICT-RESOLUTION-SUMMARY (deprecated)"
 type: reference
@@ -7,6 +10,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed CONFLICT-RESOLUTION-SUMMARY.md"
 ---
+<<<<<<< HEAD
 
 > This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
 > Do not add dates or underscores in filenames.
@@ -170,3 +174,8 @@ Tutti i file modificati hanno backup con estensione `.backup` per eventuali roll
 ## Conclusione
 La migrazione a Filament 4 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
 >>>>>>> 11674ce (.)
+=======
+
+> This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
+> Do not add dates or underscores in filenames.
+>>>>>>> 099e856 (sync)

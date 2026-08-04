@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "duplicate-methods-report (deprecated)"
 type: reference
@@ -7,6 +10,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed duplicate-methods-report.md"
 ---
+<<<<<<< HEAD
 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
 > Do not add dates or underscores in filenames.
@@ -90,3 +94,8 @@ Di seguito la classifica dei metodi più frequenti (solo quelli con più di una 
 - `docs/duplicate_methods_report.md` (questo file)
 - Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
 >>>>>>> 11674ce (.)
+=======
+
+> This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
+> Do not add dates or underscores in filenames.
+>>>>>>> 099e856 (sync)
