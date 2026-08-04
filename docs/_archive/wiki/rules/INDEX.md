@@ -25,4 +25,8 @@ qmd search "Zero theme rule filament" --limit 5
 
 ---
 
+<<<<<<< HEAD
 **Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+=======
+**Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+>>>>>>> 11674ce (.)

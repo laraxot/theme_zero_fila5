@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Integrazione Pacchetti nel Tema Zero"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Integrazione Pacchetti nel Tema Zero
 
 Il tema Zero utilizza le ultime tecnologie dell'ecosistema Laravel per offrire un'esperienza utente moderna e accessibile.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "ManageRelatedRecords Styling - Zero Theme"
 type: rule
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # ManageRelatedRecords Styling - Zero Theme
 
 ## Focus
