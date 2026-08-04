@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "📚 JpGraph Class Reference - Analisi Completta 2024"
 type: guide
@@ -11,8 +14,11 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # 📚 JpGraph Class Reference - Analisi Completta 2024
 
 ## 🎯 **Introduzione alla Documentazione JpGraph**
