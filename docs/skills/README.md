@@ -215,4 +215,8 @@ public function getClasses(): string
 
 ## Conclusione
 
+<<<<<<< HEAD
 Le skills per il tema Zero sono fondamentali per mantenere coerenza visiva e qualità del codice nel frontend. Con l'implementazione corretta di queste skills, il team può creare UI moderne, accessibili e performanti che rispettino il design system del tema.
+=======
+Le skills per il tema Zero sono fondamentali per mantenere coerenza visiva e qualità del codice nel frontend. Con l'implementazione corretta di queste skills, il team può creare UI moderne, accessibili e performanti che rispettino il design system del tema.
+>>>>>>> 2cb7d4f (.)
