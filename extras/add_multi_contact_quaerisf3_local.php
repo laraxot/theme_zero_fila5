@@ -5,16 +5,22 @@ error_reporting(E_ALL);
 ini_set('display_errors', true);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $base_url = 'http://healthcare_appf3.local';
 //$base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact-multi';
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 $base_url = 'http://quaerisf3.local';
 // $base_url = 'https://manager.quaeris.it';
 $login = '/api/user/login';
 $addContact = '/api/quaeris/add-contact-multi';
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
 $email = 'marco.sottana@gmail.com';
 $pass = 'prova123';
 
@@ -27,6 +33,7 @@ $post = ['email' => $email, 'password' => $pass];
 curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 
 $response = curl_exec($ch);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 //die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
@@ -42,6 +49,8 @@ $data = [
 <<<<<<< HEAD
     'a1'=>[
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 // die('<pre>'.print_r($response, true).'<hr>'.curl_error($ch).'</pre>['.__LINE__.']');
 
 $json = json_decode($response);
@@ -49,10 +58,13 @@ $json = json_decode($response);
 
 $data = [
     'a1' => [
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
     'a1' => [
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)
         'survey_pdf_id' => '10',
         'mobile_phone' => '321456789',
         'email' => 'test@email.com',
@@ -67,6 +79,7 @@ $data = [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'a2'=>[
 =======
     'a2' => [
@@ -74,11 +87,15 @@ $data = [
 =======
     'a2' => [
 >>>>>>> f916df1 (.)
+=======
+    'a2' => [
+>>>>>>> 2cb7d4f (.)
         'survey_pdf_id' => '10',
         'mobile_phone' => '321456789',
         'email' => 'aldo@email.com',
         'language' => 'it',
         'usesleft' => 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     
@@ -88,11 +105,15 @@ $data = [
 =======
 
 >>>>>>> f916df1 (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
         'first_name' => 'Aldo',
         'last_name' => 'Aldo',
         'attribute_1' => '123',
         'attribute_2' => '123',
         'attribute_3' => '123',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     ]
@@ -103,12 +124,15 @@ $data = [
 //die(print_r(http_build_query($data),true));
 //die('<pre>'.print_r(curl_postfields_flatten($data),true).'</pre>');
 =======
+=======
+>>>>>>> 2cb7d4f (.)
     ],
 
 ];
 
 // die(print_r(http_build_query($data),true));
 // die('<pre>'.print_r(curl_postfields_flatten($data),true).'</pre>');
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
     ],
@@ -118,6 +142,8 @@ $data = [
 // die(print_r(http_build_query($data),true));
 // die('<pre>'.print_r(curl_postfields_flatten($data),true).'</pre>');
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)
 
 $headers = [
     // 'Content-Type: application/json',  //error
@@ -134,6 +160,7 @@ curl_setopt_array($ch, [
     CURLOPT_VERBOSE => true,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //CURLOPT_POSTFIELDS => curl_postfields_flatten($data),
     CURLOPT_POSTFIELDS => ['data'=>json_encode($data)],
 =======
@@ -144,6 +171,10 @@ curl_setopt_array($ch, [
     // CURLOPT_POSTFIELDS => curl_postfields_flatten($data),
     CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
 >>>>>>> f916df1 (.)
+=======
+    // CURLOPT_POSTFIELDS => curl_postfields_flatten($data),
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> 2cb7d4f (.)
 ]);
 
 $response = curl_exec($ch);
@@ -154,6 +185,7 @@ echo '<pre>'.print_r($response, true).'</pre>';
 
 curl_close($ch);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -179,6 +211,8 @@ function curl_postfields_flatten($data, $prefix = '')
 <<<<<<< HEAD
   }
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 function curl_postfields_flatten($data, $prefix = '')
 {
     if (! is_array($data)) {
@@ -198,7 +232,10 @@ function curl_postfields_flatten($data, $prefix = '')
 
     return $output;
 }
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 }
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)

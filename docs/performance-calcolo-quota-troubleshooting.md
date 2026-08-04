@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Troubleshooting Calcolo Quota Performance"
 type: guide
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Troubleshooting Calcolo Quota Performance
 
 ## Problema: Discrepanza Quota Distribuita
@@ -116,6 +122,7 @@ Prima di ogni calcolo quota, verificare:
 Per approfondimenti:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Discrepanza Calcolo Quota (modulo Performance)](../../../laravel/Modules/Performance/docs/discrepanza-calcolo-quota.md)
 =======
 - [Discrepanza Calcolo Quota (modulo Performance)](../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
@@ -123,6 +130,9 @@ Per approfondimenti:
 =======
 - [Discrepanza Calcolo Quota (modulo Performance)](../../../laravel/Modules/Performance/docs/discrepanza-calcolo-quota.md)
 >>>>>>> 099e856 (sync)
+=======
+- [Discrepanza Calcolo Quota (modulo Performance)](../../../laravel/Modules/Performance/docs/discrepanza-calcolo-quota.md)
+>>>>>>> 2cb7d4f (.)
 - [Performance Actions Reference](./performance-actions-reference.md)
 
 ## Note

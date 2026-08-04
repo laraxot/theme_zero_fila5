@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Integrazione JpGraph e Chart.js nel Tema Zero"
 type: guide
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Integrazione JpGraph e Chart.js nel Tema Zero
 
 ## Panoramica
@@ -244,4 +250,8 @@ document.querySelectorAll('.lazy-chart').forEach(chart => {
 
 ## Conclusione
 
+<<<<<<< HEAD
 Il tema Zero supporta pienamente l'integrazione di JpGraph e Chart.js mantenendo la separazione tra presentazione e logica di business. Fornisce componenti flessibili, stili coerenti e considerazioni di accessibilità per entrambi i tipi di grafici, permettendo una presentazione visiva di alta qualità dei dati generati dal sistema healthcare_app.
+=======
+Il tema Zero supporta pienamente l'integrazione di JpGraph e Chart.js mantenendo la separazione tra presentazione e logica di business. Fornisce componenti flessibili, stili coerenti e considerazioni di accessibilità per entrambi i tipi di grafici, permettendo una presentazione visiva di alta qualità dei dati generati dal sistema healthcare_app.
+>>>>>>> 2cb7d4f (.)

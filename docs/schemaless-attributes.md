@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "🧬 Schemaless Attributes in Themes"
 type: rule
@@ -15,10 +18,14 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
 # 🧬 Schemaless Attributes in Themes
 
 **Status:** ✅ STANDARD
 **Central Reference:** [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
+<<<<<<< HEAD
 =======
 # 🧬 Schemaless Attributes in Themes
 
@@ -31,6 +38,8 @@ related:
 **Status:** ✅ STANDARD
 **Central Reference:** [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 
 ---
 
@@ -94,6 +103,7 @@ $record->save();
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
 - [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
 - [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
@@ -107,3 +117,8 @@ $record->save();
 - [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
 - [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
 >>>>>>> 099e856 (sync)
+=======
+- [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
+- [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
+- [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
+>>>>>>> 2cb7d4f (.)

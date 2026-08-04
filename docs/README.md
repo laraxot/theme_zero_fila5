@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Theme Documentation
 
 This directory contains documentation for the theme.
@@ -15,6 +16,8 @@ Documentation should be:
 - Updated with theme changes
 - Use Markdown format (.md)
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 # Tema Zero - Documentazione
 
 ## Overview
@@ -65,4 +68,7 @@ Zero/
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
