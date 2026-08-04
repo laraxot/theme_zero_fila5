@@ -73,11 +73,15 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 - [Testing](./testing.md) - Strategie e approcci per il testing del tema
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
 =======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 11674ce (.)
+=======
+- [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
+>>>>>>> 099e856 (sync)
 - [Performance](./performance.md) - Ottimizzazioni e analisi performance
 - [Accessibilità](./accessibility.md) - Linee guida per l'accessibilità
 

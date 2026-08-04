@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Conflict Resolution — Theme Zero"
 type: guide
@@ -12,10 +15,13 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 099e856 (sync)
 # Conflict Resolution — Theme Zero
 
 ## Summary
@@ -26,6 +32,7 @@ related:
 ## Backlinks
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
 =======
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
@@ -33,3 +40,6 @@ related:
 =======
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
 >>>>>>> f916df1 (.)
+=======
+- [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
+>>>>>>> 099e856 (sync)
