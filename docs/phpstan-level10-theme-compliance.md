@@ -195,7 +195,11 @@ Tratta le collections con type safety:
 ### 1. DashboardFilterData Pattern
 
 ```php
+<<<<<<< .merge_file_BxgTim
 // Pattern da healthcare_app/DashboardFilterData.php
+=======
+// Pattern da ModuloEsempio/DashboardFilterData.php
+>>>>>>> .merge_file_R0ZETp
 foreach ($components as $k => $component) {
     if (! $component instanceof Component) {
         continue;
@@ -208,7 +212,11 @@ foreach ($components as $k => $component) {
 ### 2. QueryExport Pattern
 
 ```php
+<<<<<<< .merge_file_BxgTim
 // Pattern da healthcare_app/QueryExport.php
+=======
+// Pattern da ModuloEsempio/QueryExport.php
+>>>>>>> .merge_file_R0ZETp
 $processed = $collection->mapWithKeys(
     static function (int|string $value, int $key): array {
         return [(string) $value => $value];
@@ -281,7 +289,11 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 - **User Module**: `Modules/User/docs/`
 =======
 - **Xot Module**: `Modules/Xot/docs/phpstan-level10-xot-fixes.md`
+<<<<<<< .merge_file_BxgTim
 - **healthcare_app Module**: `Modules/healthcare_app/docs/phpstan-level10-healthcare_app-fixes.md`
+=======
+- **ModuloEsempio Module**: `Modules/ModuloEsempio/docs/phpstan-level10-ptvx-fixes.md`
+>>>>>>> .merge_file_R0ZETp
 - **User Module**: `Modules/User/docs/phpstan-level10-user-fixes.md`
 >>>>>>> 11674ce (.)
 
