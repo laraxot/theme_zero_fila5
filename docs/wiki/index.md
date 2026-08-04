@@ -12,6 +12,7 @@ updated: "2026-05-12T10:15:00Z"
 ## Concepts
 
 - [theme-zero-operating-focus](./concepts/theme-zero-operating-focus.md) — baseline role, guardrails, retrieval path, and local second-brain loop for theme decisions
+- [method-name-homonyms](./concepts/method-name-homonyms.md) — censimento omonimi metodi (0 nel tema; logica nei moduli)
 
 ## Entities
 
@@ -24,6 +25,7 @@ _No entities tracked yet._
 
 ## On-Demand References
 
+- [contract-interface-stacking](../../../../../docs/wiki/rules/contract-interface-stacking.md) — pattern contratti compositi (modelli backend)
 - [rules-index](./rules/INDEX.md) — entry point per regole condivise e theme-facing da caricare on demand
 - [skills-index](./skills/INDEX.md) — entry point per skill riusabili lato tema e Xot
 
