@@ -8,6 +8,7 @@ updated: "2026-07-22"
 related:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
 =======
   - "../../../../../docs/wiki/rules/agent-confidence-protocol.md"
@@ -15,10 +16,14 @@ related:
 =======
   - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
 >>>>>>> 099e856 (sync)
+=======
+  - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
+>>>>>>> 2cb7d4f (.)
 ---
 
 # Massima confidenza agente
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Stub DRY. Regola canonica: [../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
@@ -28,5 +33,8 @@ Stub DRY. Regola canonica: [../../../../../docs/wiki/rules/agent-confidence-prot
 =======
 Stub DRY. Regola canonica: [../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
 >>>>>>> 099e856 (sync)
+=======
+Stub DRY. Regola canonica: [../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
+>>>>>>> 2cb7d4f (.)
 
 Checklist locale tema Zero: issue GitHub, wiki owner, file a chunk, gate, **docs tema** ([folio-pages-structure](./folio-pages-structure.md)), log, limiti.

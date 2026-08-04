@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "Spatie Permission teams boundary"
 type: guide
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # Spatie Permission teams boundary
 
 ## Theme boundary
@@ -45,6 +51,7 @@ When a theme page includes the team switcher or dashboard widgets:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - User module fix note: [../../../laravel/Modules/User/docs/spatie-permission-teams-laravel-13.md](../../../laravel/Modules/User/docs/spatie-permission-teams-laravel-13.md)
 - Xot bridge note: [../../../laravel/Modules/Xot/docs/spatie-permission-team-model-laravel-13.md](../../../laravel/Modules/Xot/docs/spatie-permission-team-model-laravel-13.md)
 =======
@@ -55,3 +62,7 @@ When a theme page includes the team switcher or dashboard widgets:
 - User module fix note: [../../../laravel/Modules/User/docs/spatie-permission-teams-laravel-13.md](../../../laravel/Modules/User/docs/spatie-permission-teams-laravel-13.md)
 - Xot bridge note: [../../../laravel/Modules/Xot/docs/spatie-permission-team-model-laravel-13.md](../../../laravel/Modules/Xot/docs/spatie-permission-team-model-laravel-13.md)
 >>>>>>> 099e856 (sync)
+=======
+- User module fix note: [../../../laravel/Modules/User/docs/spatie-permission-teams-laravel-13.md](../../../laravel/Modules/User/docs/spatie-permission-teams-laravel-13.md)
+- Xot bridge note: [../../../laravel/Modules/Xot/docs/spatie-permission-team-model-laravel-13.md](../../../laravel/Modules/Xot/docs/spatie-permission-team-model-laravel-13.md)
+>>>>>>> 2cb7d4f (.)

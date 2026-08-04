@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "duplicate-methods-report (deprecated)"
 type: reference
@@ -10,6 +13,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed duplicate-methods-report.md"
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
@@ -99,3 +103,8 @@ Di seguito la classifica dei metodi più frequenti (solo quelli con più di una 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
 > Do not add dates or underscores in filenames.
 >>>>>>> 099e856 (sync)
+=======
+
+> This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
+> Do not add dates or underscores in filenames.
+>>>>>>> 2cb7d4f (.)

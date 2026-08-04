@@ -5,6 +5,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', true);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact-multi';
@@ -13,6 +14,11 @@ $base_url = 'https://manager.quaeris.it';
 $login = '/api/user/login';
 $addContact = '/api/quaeris/add-contact-multi';
 >>>>>>> 11674ce (.)
+=======
+$base_url = 'https://manager.quaeris.it';
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact-multi';
+>>>>>>> 2cb7d4f (.)
 $email = 'a.tocchetto@altotrevigianoservizi.it';
 $pass = 'atstocchetto321';
 
@@ -31,6 +37,7 @@ $json = json_decode($response);
 $data = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'a1'=>[
 =======
     'a1' => [
@@ -38,11 +45,15 @@ $data = [
 =======
     'a1' => [
 >>>>>>> f916df1 (.)
+=======
+    'a1' => [
+>>>>>>> 2cb7d4f (.)
         'survey_pdf_id' => '16', // id survey/questionario assegnato, valore fisso
         'email' => 'marco.sottana@gmail.com',
         'mobile_phone' => '',
         'language' => 'it', // valore fisso
         'usesleft' => '1', // valore fisso
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     
@@ -52,6 +63,9 @@ $data = [
 =======
 
 >>>>>>> f916df1 (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -69,6 +83,7 @@ $data = [
         'attribute_13' => 'telefono segnalatore', // telefono segnalatore
         'attribute_14' => 'altraemail@mail.com', // email segnalatore
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     'a2'=>[
@@ -78,11 +93,15 @@ $data = [
 =======
     'a2' => [
 >>>>>>> f916df1 (.)
+=======
+    'a2' => [
+>>>>>>> 2cb7d4f (.)
         'survey_pdf_id' => '16',
         'email' => 'vair81@gmail.com',
         'mobile_phone' => '3791339157',
         'language' => 'it',
         'usesleft' => '1',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     
@@ -92,6 +111,9 @@ $data = [
 =======
 
 >>>>>>> f916df1 (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -111,6 +133,7 @@ $data = [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'a3'=>[
 =======
     'a3' => [
@@ -118,11 +141,15 @@ $data = [
 =======
     'a3' => [
 >>>>>>> f916df1 (.)
+=======
+    'a3' => [
+>>>>>>> 2cb7d4f (.)
         'survey_pdf_id' => '16',
         'email' => '',
         'mobile_phone' => '3791339157',
         'language' => 'it',
         'usesleft' => '1',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     
@@ -132,6 +159,9 @@ $data = [
 =======
 
 >>>>>>> f916df1 (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -150,6 +180,7 @@ $data = [
         'attribute_14' => 'altraemail@mail.com', // email segnalatore
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ]
     
     
@@ -161,6 +192,10 @@ $data = [
     ],
 
 >>>>>>> f916df1 (.)
+=======
+    ],
+
+>>>>>>> 2cb7d4f (.)
 ];
 
 $headers = [
@@ -177,6 +212,7 @@ curl_setopt_array($ch, [
     CURLOPT_VERBOSE => true,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     CURLOPT_POSTFIELDS => ['data'=>json_encode($data)],
 =======
     CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
@@ -184,6 +220,9 @@ curl_setopt_array($ch, [
 =======
     CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
 >>>>>>> f916df1 (.)
+=======
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> 2cb7d4f (.)
 ]);
 
 $response = curl_exec($ch);
@@ -192,6 +231,7 @@ echo '<pre>'.print_r($response, true).'</pre>';
 
 curl_close($ch);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -216,6 +256,8 @@ function curl_postfields_flatten($data, $prefix = '')
 <<<<<<< HEAD
   }
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 function curl_postfields_flatten($data, $prefix = '')
 {
     if (! is_array($data)) {
@@ -234,7 +276,10 @@ function curl_postfields_flatten($data, $prefix = '')
 
     return $output;
 }
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 }
 >>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)
