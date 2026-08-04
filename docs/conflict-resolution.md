@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: "Conflict Resolution — Theme Zero"
 type: guide
@@ -13,6 +14,8 @@ related:
 
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> f916df1 (.)
 # Conflict Resolution — Theme Zero
 
 ## Summary
@@ -22,7 +25,11 @@ related:
 
 ## Backlinks
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
 =======
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
 >>>>>>> 11674ce (.)
+=======
+- [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
+>>>>>>> f916df1 (.)
