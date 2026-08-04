@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "🧘 Accessor Delegation Pattern - Zero Theme"
 type: pattern
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # 🧘 Accessor Delegation Pattern - Zero Theme
 
 > **Pattern per accessor nel Zero Theme**

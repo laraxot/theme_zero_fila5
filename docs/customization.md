@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Personalizzazione del Tema Zero"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Personalizzazione del Tema Zero
 
 ## Panoramica

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Personalizzazione tema e varianti"
 type: guide
@@ -11,6 +12,8 @@ related:
   - "./component-library.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Personalizzazione tema e varianti
 
 ## Obiettivo

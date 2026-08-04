@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "BMAD Method v6.3 operativo nel progetto"
 type: guide
@@ -11,6 +12,8 @@ related:
   - "./log.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # BMAD Method v6.3 operativo nel progetto
 
 ## Regola pratica
