@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Zero Theme Docs Confidence Audit - 2026-03-07"
 type: guide
@@ -11,8 +14,11 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # Zero Theme Docs Confidence Audit - 2026-03-07
 
 ## Sintesi

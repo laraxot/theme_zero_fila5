@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
 type: guide
@@ -12,10 +15,13 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅
