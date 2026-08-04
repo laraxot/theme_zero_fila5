@@ -6,12 +6,24 @@ class LimeSurveyKK
 {
     public $db_lime = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public $db_xot = null;
     public $db_healthcare_app = null;
+=======
+
+    public $db_xot = null;
+
+    public $db_quaeris = null;
+
+>>>>>>> f916df1 (.)
     public $db = null;
+
     public $survey_id = 0;
+
     public $tables = [];
+
     public $base_schema = '';
+<<<<<<< HEAD
 =======
 
     public $db_xot = null;
@@ -27,6 +39,9 @@ class LimeSurveyKK
     public $base_schema = '';
 
 >>>>>>> 11674ce (.)
+=======
+
+>>>>>>> f916df1 (.)
     public $charts_schema = '';
 
     public function __construct($survey_id)
@@ -98,10 +113,14 @@ class LimeSurveyKK
                 $survey_fields[$key]['title'] = $db_question->title;
                 $survey_fields[$key]['type'] = $db_question->type;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $survey_fields[$key]['other'] = ('Y' == $db_question->other);
 =======
                 $survey_fields[$key]['other'] = ($db_question->other == 'Y');
 >>>>>>> 11674ce (.)
+=======
+                $survey_fields[$key]['other'] = ($db_question->other == 'Y');
+>>>>>>> f916df1 (.)
             } else {
                 $sub_key = $key.$db_question->title;
                 $survey_fields[$key]['sq'][$sub_key] = [
@@ -157,10 +176,14 @@ class LimeSurveyKK
                     $value = $survey->$field;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if ($attr['other'] && '-oth-' == $value) {
 =======
                     if ($attr['other'] && $value == '-oth-') {
 >>>>>>> 11674ce (.)
+=======
+                    if ($attr['other'] && $value == '-oth-') {
+>>>>>>> f916df1 (.)
                         $other_field = $field.'other';
                         $value = $survey->$other_field;
                     } elseif ($value) {
@@ -307,10 +330,14 @@ class LimeSurveyKK
                 $survey_fields[$key]['title'] = $db_question->title;
                 $survey_fields[$key]['type'] = $db_question->type;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $survey_fields[$key]['other'] = ('Y' == $db_question->other);
 =======
                 $survey_fields[$key]['other'] = ($db_question->other == 'Y');
 >>>>>>> 11674ce (.)
+=======
+                $survey_fields[$key]['other'] = ($db_question->other == 'Y');
+>>>>>>> f916df1 (.)
             } else {
                 $sub_key = $key.$db_question->title;
                 $survey_fields[$key]['sq'][$sub_key] = [
@@ -330,6 +357,7 @@ class LimeSurveyKK
                 survey_pdfs AS sp
             WHERE
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sp.survey_id = '" . $sid . "'
         ");
 
@@ -342,6 +370,13 @@ class LimeSurveyKK
         $survey_date_from = (isset($_GET['date_from'])) ? $_GET['date_from'] : (($survey_pdf->date_from) ?: '');
         $survey_date_to = (isset($_GET['date_to'])) ? $_GET['date_to'] : (($survey_pdf->date_to) ?: '');
 >>>>>>> 11674ce (.)
+=======
+                sp.survey_id = '".$sid."'
+        ");
+
+        $survey_date_from = (isset($_GET['date_from'])) ? $_GET['date_from'] : (($survey_pdf->date_from) ?: '');
+        $survey_date_to = (isset($_GET['date_to'])) ? $_GET['date_to'] : (($survey_pdf->date_to) ?: '');
+>>>>>>> f916df1 (.)
 
         $survey_date_from = (! preg_match("/^[0-9]{4}\-[0-9]{2}\-[0-9]{2}$/i", $survey_date_from)) ? '0000-00-00' : $survey_date_from;
         $survey_date_to = (! preg_match("/^[0-9]{4}\-[0-9]{2}\-[0-9]{2}$/i", $survey_date_to)) ? '0000-00-00' : $survey_date_to;
@@ -385,10 +420,14 @@ class LimeSurveyKK
         ';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ('0000-00-00' != $survey_date_from) {
 =======
         if ($survey_date_from != '0000-00-00') {
 >>>>>>> 11674ce (.)
+=======
+        if ($survey_date_from != '0000-00-00') {
+>>>>>>> f916df1 (.)
             $sql .= "
                 AND
                     ls.submitdate >= '".$survey_date_from."'
@@ -396,10 +435,14 @@ class LimeSurveyKK
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ('0000-00-00' != $survey_date_to) {
 =======
         if ($survey_date_to != '0000-00-00') {
 >>>>>>> 11674ce (.)
+=======
+        if ($survey_date_to != '0000-00-00') {
+>>>>>>> f916df1 (.)
             $sql .= "
                 AND
                     ls.submitdate <= '".$survey_date_to."'
@@ -465,10 +508,14 @@ class LimeSurveyKK
                     $value = $survey->$field;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if ($attr['other'] && '-oth-' == $value) {
 =======
                     if ($attr['other'] && $value == '-oth-') {
 >>>>>>> 11674ce (.)
+=======
+                    if ($attr['other'] && $value == '-oth-') {
+>>>>>>> f916df1 (.)
                         $other_field = $field.'other';
                         $value = $survey->$other_field;
                     } elseif ($value) {
@@ -500,6 +547,7 @@ class LimeSurveyKK
                             if (! $answer) {
                                 $answer_types[$attr['qid']][$value] = $value;
 <<<<<<< HEAD
+<<<<<<< HEAD
                             // $dump = array(
                             //     "qid" => $attr["qid"]
                             //     , "type" => $attr["type"]
@@ -518,6 +566,16 @@ class LimeSurveyKK
                                 // dddx($dump);
                                 // exit;
 >>>>>>> 11674ce (.)
+=======
+                                // $dump = array(
+                                //     "qid" => $attr["qid"]
+                                //     , "type" => $attr["type"]
+                                //     , "value" => $value
+                                // );
+
+                                // dddx($dump);
+                                // exit;
+>>>>>>> f916df1 (.)
                             } elseif (! is_object($answer)) {
                                 $value = $answer;
                             } else {
@@ -534,10 +592,14 @@ class LimeSurveyKK
                             $questions[$attr['qid']]['grouped'][$value] = 0;
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ++$questions[$attr['qid']]['grouped'][$value];
 =======
                         $questions[$attr['qid']]['grouped'][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                        $questions[$attr['qid']]['grouped'][$value]++;
+>>>>>>> f916df1 (.)
 
                         // Grouped months, weeks
                         if (! isset($questions[$attr['qid']]['months'][$survey->year.'-'.$month])) {
@@ -552,19 +614,27 @@ class LimeSurveyKK
                             $questions[$attr['qid']]['months'][$survey->year.'-'.$month][$value] = 0;
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ++$questions[$attr['qid']]['months'][$survey->year.'-'.$month][$value];
 =======
                         $questions[$attr['qid']]['months'][$survey->year.'-'.$month][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                        $questions[$attr['qid']]['months'][$survey->year.'-'.$month][$value]++;
+>>>>>>> f916df1 (.)
 
                         if (! isset($questions[$attr['qid']]['weeks'][$survey->year.'-'.$week][$value])) {
                             $questions[$attr['qid']]['weeks'][$survey->year.'-'.$week][$value] = 0;
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ++$questions[$attr['qid']]['weeks'][$survey->year.'-'.$week][$value];
 =======
                         $questions[$attr['qid']]['weeks'][$survey->year.'-'.$week][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                        $questions[$attr['qid']]['weeks'][$survey->year.'-'.$week][$value]++;
+>>>>>>> f916df1 (.)
 
                         // Grouped per survey > months, weeks
                         if (! isset($answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$attr['qid']])) {
@@ -574,10 +644,14 @@ class LimeSurveyKK
                             $answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$attr['qid']][$value] = 0;
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ++$answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$attr['qid']][$value];
 =======
                         $answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$attr['qid']][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                        $answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$attr['qid']][$value]++;
+>>>>>>> f916df1 (.)
 
                         if (! isset($answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$attr['qid']])) {
                             $answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$attr['qid']] = [];
@@ -586,10 +660,14 @@ class LimeSurveyKK
                             $answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$attr['qid']][$value] = 0;
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ++$answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$attr['qid']][$value];
 =======
                         $answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$attr['qid']][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                        $answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$attr['qid']][$value]++;
+>>>>>>> f916df1 (.)
 
                         // Grouped per record
                         if (! isset($answers_per_record[$survey->id][$attr['qid']])) {
@@ -599,10 +677,14 @@ class LimeSurveyKK
                             $answers_per_record[$survey->id][$attr['qid']][$value] = 0;
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ++$answers_per_record[$survey->id][$attr['qid']][$value];
 =======
                         $answers_per_record[$survey->id][$attr['qid']][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                        $answers_per_record[$survey->id][$attr['qid']][$value]++;
+>>>>>>> f916df1 (.)
 
                         // Detailed year, month, week
                         // if (!isset($questions[$attr["qid"]]["year"][$survey->year])) {
@@ -635,10 +717,14 @@ class LimeSurveyKK
                             $questions[$attr['qid']]['tot'] = 0;
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ++$questions[$attr['qid']]['tot'];
 =======
                         $questions[$attr['qid']]['tot']++;
 >>>>>>> 11674ce (.)
+=======
+                        $questions[$attr['qid']]['tot']++;
+>>>>>>> f916df1 (.)
                     }
                 }
 
@@ -702,10 +788,14 @@ class LimeSurveyKK
                                     $questions[$sub_attr['qid']]['grouped'][$value] = 0;
                                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ++$questions[$sub_attr['qid']]['grouped'][$value];
 =======
                                 $questions[$sub_attr['qid']]['grouped'][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                                $questions[$sub_attr['qid']]['grouped'][$value]++;
+>>>>>>> f916df1 (.)
 
                                 // Grouped months, weeks
                                 if (! isset($questions[$sub_attr['qid']]['months'][$survey->year.'-'.$month])) {
@@ -720,19 +810,27 @@ class LimeSurveyKK
                                     $questions[$sub_attr['qid']]['months'][$survey->year.'-'.$month][$value] = 0;
                                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ++$questions[$sub_attr['qid']]['months'][$survey->year.'-'.$month][$value];
 =======
                                 $questions[$sub_attr['qid']]['months'][$survey->year.'-'.$month][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                                $questions[$sub_attr['qid']]['months'][$survey->year.'-'.$month][$value]++;
+>>>>>>> f916df1 (.)
 
                                 if (! isset($questions[$sub_attr['qid']]['weeks'][$survey->year.'-'.$week][$value])) {
                                     $questions[$sub_attr['qid']]['weeks'][$survey->year.'-'.$week][$value] = 0;
                                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ++$questions[$sub_attr['qid']]['weeks'][$survey->year.'-'.$week][$value];
 =======
                                 $questions[$sub_attr['qid']]['weeks'][$survey->year.'-'.$week][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                                $questions[$sub_attr['qid']]['weeks'][$survey->year.'-'.$week][$value]++;
+>>>>>>> f916df1 (.)
 
                                 // Grouped per survey > months, weeks
                                 if (! isset($answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$sub_attr['qid']])) {
@@ -742,10 +840,14 @@ class LimeSurveyKK
                                     $answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$sub_attr['qid']][$value] = 0;
                                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ++$answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$sub_attr['qid']][$value];
 =======
                                 $answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$sub_attr['qid']][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                                $answers_per_period['months'][$survey->year.'-'.$month][$survey->id][$sub_attr['qid']][$value]++;
+>>>>>>> f916df1 (.)
 
                                 if (! isset($answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$sub_attr['qid']])) {
                                     $answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$sub_attr['qid']] = [];
@@ -754,10 +856,14 @@ class LimeSurveyKK
                                     $answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$sub_attr['qid']][$value] = 0;
                                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ++$answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$sub_attr['qid']][$value];
 =======
                                 $answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$sub_attr['qid']][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                                $answers_per_period['weeks'][$survey->year.'-'.$week][$survey->id][$sub_attr['qid']][$value]++;
+>>>>>>> f916df1 (.)
 
                                 // Grouped per record
                                 if (! isset($answers_per_record[$survey->id][$sub_attr['qid']])) {
@@ -767,10 +873,14 @@ class LimeSurveyKK
                                     $answers_per_record[$survey->id][$sub_attr['qid']][$value] = 0;
                                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ++$answers_per_record[$survey->id][$sub_attr['qid']][$value];
 =======
                                 $answers_per_record[$survey->id][$sub_attr['qid']][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                                $answers_per_record[$survey->id][$sub_attr['qid']][$value]++;
+>>>>>>> f916df1 (.)
 
                                 // Detailed year, month, week
                                 // if (!isset($questions[$sub_attr["qid"]]["year"][$survey->year])) {
@@ -810,10 +920,14 @@ class LimeSurveyKK
                                     $questions[$sub_attr['qid']]['tot'] = 0;
                                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ++$questions[$sub_attr['qid']]['tot'];
 =======
                                 $questions[$sub_attr['qid']]['tot']++;
 >>>>>>> 11674ce (.)
+=======
+                                $questions[$sub_attr['qid']]['tot']++;
+>>>>>>> f916df1 (.)
 
                                 $questions[$attr['qid']]['subquestions'][$sub_attr['qid']] = $questions[$sub_attr['qid']];
                                 $questions[$attr['qid']]['subquestions'][$sub_attr['qid']]['text'] = $sub_attr['text'];
@@ -989,10 +1103,14 @@ class LimeSurveyKK
                 $survey_fields[$key]['title'] = $db_question->title;
                 $survey_fields[$key]['type'] = $db_question->type;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $survey_fields[$key]['other'] = ('Y' == $db_question->other);
 =======
                 $survey_fields[$key]['other'] = ($db_question->other == 'Y');
 >>>>>>> 11674ce (.)
+=======
+                $survey_fields[$key]['other'] = ($db_question->other == 'Y');
+>>>>>>> f916df1 (.)
             } else {
                 $sub_key = $key.$db_question->title;
                 $survey_fields[$key]['sq'][$sub_key] = [
@@ -1139,10 +1257,14 @@ class LimeSurveyKK
                 $survey_fields[$key]['title'] = $db_question->title;
                 $survey_fields[$key]['type'] = $db_question->type;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $survey_fields[$key]['other'] = ('Y' == $db_question->other);
 =======
                 $survey_fields[$key]['other'] = ($db_question->other == 'Y');
 >>>>>>> 11674ce (.)
+=======
+                $survey_fields[$key]['other'] = ($db_question->other == 'Y');
+>>>>>>> f916df1 (.)
             } else {
                 $sub_key = $key.$db_question->title;
                 $survey_fields[$key]['sq'][$sub_key] = [
@@ -1197,10 +1319,14 @@ class LimeSurveyKK
                     $value = $survey->$field;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if ($attr['other'] && '-oth-' == $value) {
 =======
                     if ($attr['other'] && $value == '-oth-') {
 >>>>>>> 11674ce (.)
+=======
+                    if ($attr['other'] && $value == '-oth-') {
+>>>>>>> f916df1 (.)
                         $other_field = $field.'other';
                         $value = $survey->$other_field;
                     } elseif ($value) {
@@ -1249,10 +1375,14 @@ class LimeSurveyKK
                             $answers[$id]['grouped'][$value] = 0;
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ++$answers[$id]['grouped'][$value];
 =======
                         $answers[$id]['grouped'][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                        $answers[$id]['grouped'][$value]++;
+>>>>>>> f916df1 (.)
                     }
                 }
 
@@ -1311,10 +1441,14 @@ class LimeSurveyKK
                                     $answers[$id]['grouped'][$value] = 0;
                                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ++$answers[$id]['grouped'][$value];
 =======
                                 $answers[$id]['grouped'][$value]++;
 >>>>>>> 11674ce (.)
+=======
+                                $answers[$id]['grouped'][$value]++;
+>>>>>>> f916df1 (.)
                             }
                         }
                     }
