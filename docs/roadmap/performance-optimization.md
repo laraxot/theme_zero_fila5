@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Performance e ottimizzazione asset"
 type: rule
@@ -11,6 +12,8 @@ related:
   - "./component-library.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Performance e ottimizzazione asset
 
 ## Obiettivo

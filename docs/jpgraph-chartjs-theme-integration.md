@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Integrazione JpGraph e Chart.js nel Tema Zero"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Integrazione JpGraph e Chart.js nel Tema Zero
 
 ## Panoramica

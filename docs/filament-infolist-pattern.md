@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Pattern Infolist Filament (Theme Zero)"
 type: pattern
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Pattern Infolist Filament (Theme Zero)
 
 ## Overview
@@ -143,7 +146,14 @@ XotBaseResourceInfolist (abstract)
 
 Per dettagli completi del pattern, vedere:
 
+<<<<<<< HEAD
 - [Documentazione Performance - Infolist Pattern](../../../laravel/Modules/Performance/docs/filament-infolist-pattern.md)
 - [Progressioni - Schemas e Tables (migrazione Filament 5)](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 - [XotBaseResourceInfolist - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
 - [XotBaseResource - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/XotBaseResource.php)
+=======
+- [Documentazione Performance - Infolist Pattern](../../Modules/Performance/docs/filament-infolist-pattern.md)
+- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
+- [XotBaseResourceInfolist - Sorgente](../../Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
+- [XotBaseResource - Sorgente](../../Modules/Xot/app/Filament/Resources/XotBaseResource.php)
+>>>>>>> 11674ce (.)

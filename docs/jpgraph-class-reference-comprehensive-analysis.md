@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "📚 JpGraph Class Reference - Analisi Completta 2024"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # 📚 JpGraph Class Reference - Analisi Completta 2024
 
 ## 🎯 **Introduzione alla Documentazione JpGraph**
@@ -427,6 +430,7 @@ $graph->Stroke();
 - **FAQ**: https://jpgraph.net/doc/faq.html
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🔄 **Integrazione con healthcare_app**
 =======
 <<<<<<< .merge_file_pJ783w
@@ -435,6 +439,9 @@ $graph->Stroke();
 ## 🔄 **Integrazione con ModuloEsempio**
 >>>>>>> .merge_file_p17MPd
 >>>>>>> laraxot/dev
+=======
+## 🔄 **Integrazione con healthcare_app**
+>>>>>>> 11674ce (.)
 
 ### **Pattern di Integrazione**
 ```php

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Sprint Planning - Theme Zero"
 type: guide
@@ -366,3 +367,9 @@ For every component added this sprint:
 |------|------|------|
 | Product Owner | | |
 | Lead Dev | | |
+=======
+# Sprint Planning: Zero Theme
+
+## 🏁 Sprint Goal
+Finalize documentation and validation for Zero.
+>>>>>>> 11674ce (.)

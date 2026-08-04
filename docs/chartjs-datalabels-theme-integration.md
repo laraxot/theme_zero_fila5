@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Chart.js Datalabels Plugin Integration in Zero Theme"
 type: how-to
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Chart.js Datalabels Plugin Integration in Zero Theme
 
 ## Overview

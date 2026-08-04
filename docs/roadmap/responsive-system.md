@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Sistema responsive e grid"
 type: guide
@@ -11,6 +12,8 @@ related:
   - "./component-library.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Sistema responsive e grid
 
 ## Obiettivo

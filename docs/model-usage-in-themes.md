@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Model Usage in Themes - Best Practices"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Model Usage in Themes - Best Practices
 
 ## Executive Summary
@@ -378,13 +381,17 @@ When working with the Zero theme, you'll commonly encounter models from these mo
 - `Modules\Cms\Models\Article` - Articles
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_S9ebzA
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 11674ce (.)
 ### healthcare_app Module
 - `Modules\healthcare_app\Models\Survey` - Surveys
 - `Modules\healthcare_app\Models\Question` - Survey questions
 - `Modules\healthcare_app\Models\SurveyPdf` - PDF exports
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -394,6 +401,8 @@ When working with the Zero theme, you'll commonly encounter models from these mo
 - `Modules\ModuloEsempio\Models\SurveyPdf` - PDF exports
 >>>>>>> .merge_file_PKuvUx
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 11674ce (.)
 
 ### Other Modules
 - `Modules\Geo\Models\Place` - Geographic data
@@ -598,11 +607,19 @@ When working with data in theme views:
 
 ## Related Documentation
 
+<<<<<<< HEAD
 - [Model Inheritance Rules (User Module)](../../../laravel/Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../../laravel/Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
 - [Widget Structure (User Module)](../../../laravel/Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../../laravel/Modules/Cms/docs/frontoffice/filament-auth.md)
+=======
+- [Model Inheritance Rules (User Module)](../../Modules/User/docs/model-inheritance-rules.md)
+- [DRY/KISS Model Refactoring Analysis](../../Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
+- [Theme Architecture](./architecture.md)
+- [Widget Structure (User Module)](../../Modules/User/docs/widgets_structure.md)
+- [Filament Authentication Best Practices](../../Modules/Cms/docs/frontoffice/filament-auth.md)
+>>>>>>> 11674ce (.)
 
 ---
 

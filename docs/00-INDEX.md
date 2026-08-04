@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Zero Theme Documentation Index"
 type: concept
@@ -17,6 +18,10 @@ related:
 > `00-index.md` come punto di ingresso primario; questo file resta come vista alternativa non aggiornata
 > nella stessa sessione.
 
+=======
+# Zero Theme Documentation Index
+
+>>>>>>> 11674ce (.)
 **Path**: `laravel/Themes/Zero/docs/`  
 **Last updated**: 2026-06-30
 
@@ -37,10 +42,14 @@ Zero theme documentation follows the standard theme structure with focus on:
 - [Theme Hub](../Barthelemy/docs/00-INDEX.md) - Overview of all themes
 - [Sixteen Theme](../Sixteen/docs/00-INDEX.md) - Primary theme (Design Comuni)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
 =======
 - [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - forecast market theme
 >>>>>>> laraxot/dev
+=======
+- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+>>>>>>> 11674ce (.)
 - [Directory Structure Rules](../Barthelemy/docs/directory-structure-rules.md) - Theme organization
 
 ## Related Modules
