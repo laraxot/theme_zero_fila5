@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "User Research - Theme Zero"
 type: guide
@@ -14,6 +17,9 @@ related:
   - "./00-index.md"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
 
 # User Research - Theme Zero
 
@@ -465,6 +471,7 @@ This document presents user research findings for Theme Zero, the ultra-minimali
 
 **Acknowledgments**
 Thank you to all 22 research participants and 9 pre-alpha testers.
+<<<<<<< HEAD
 =======
 # User Research: Zero Theme
 
@@ -924,3 +931,5 @@ This document presents user research findings for Theme Zero, the ultra-minimali
 **Acknowledgments**
 Thank you to all 22 research participants and 9 pre-alpha testers.
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)

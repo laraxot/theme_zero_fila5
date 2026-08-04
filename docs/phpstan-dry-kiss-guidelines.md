@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 ---
 title: "PHPStan Level 10 + DRY/KISS Guidelines for Themes"
 type: rule
@@ -15,10 +18,13 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
 # PHPStan Level 10 + DRY/KISS Guidelines for Themes
 
 ## Theme Code Quality Standards
@@ -510,8 +516,13 @@ render(function (StatsService $statsService): array {
 
 - [Model Usage in Themes](./model-usage-in-themes.md)
 - [Theme Architecture](./architecture.md)
+<<<<<<< HEAD
 - [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis.md)
 - [DRY/KISS Best Practices](./dry-kiss-best-practices.md)
+=======
+- [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis-2025-10-17.md)
+- [DRY/KISS Best Practices](./dry-kiss-best-practices-2025-10-15.md)
+>>>>>>> 2cb7d4f (.)
 
 ---
 

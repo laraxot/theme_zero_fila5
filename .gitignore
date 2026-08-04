@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -22,11 +23,16 @@ tests/.claude-audit
 *.phar
 *.lock
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 *.log
 *.phar
 *.lock
 
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
 uploads
 limesurvey
 vendor
@@ -34,25 +40,37 @@ build
 package-lock.json
 error_log
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 11674ce (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
 *.gz
 *.cache
 /cache
 .git-rewrite
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 11674ce (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
 _ide_helper_models.php
 *.old
 *.bak
 *.backup
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 11674ce (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
 public_html/vendor
 public_html/js
 public_html/css
@@ -60,9 +78,13 @@ public_html/storage
 public_html/error_log
 public_html/chart
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 11674ce (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
 laravel/*.lock
 laravel/lang/vendor/
 laravel/database/migrations
@@ -73,9 +95,12 @@ laravel/error_log
 laravel/.phpstorm.meta.php
 laravel/_ide_helper.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 laravel/public
 laravel/resources/lang/vendor/
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 laravel/error_log
 laravel/public
 laravel/resources/lang/vendor/
@@ -83,7 +108,10 @@ laravel/composer.lock
 
 
 
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
 vendor/
 public_html/css/
 public_html/js/
@@ -91,10 +119,13 @@ public_html/vendor/
 public_html/vendor/*
 laravel/bootstrap/cache/*
 <<<<<<< HEAD
+<<<<<<< HEAD
 laravel/stubs
 laravel/resources/views/vendor/
 .git-rewrite/
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 public_html/vendor/
 public_html/js/
 laravel/stubs
@@ -109,20 +140,28 @@ public_html/css/
 public_html/js/
 public_html/js/
 public_html/css/
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
 *:Zone.Identifier
 .env
 laravel/database/migrations/
 logs
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 bashscripts/
 >>>>>>> 11674ce (.)
+=======
+bashscripts/
+>>>>>>> 2cb7d4f (.)
 laravel/
 public_html/
 .env.docker
 .env.latest
 node_modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
 # PHPStan output files
 phpstan*.json
@@ -151,15 +190,23 @@ docs/screenshots
 graphify-out/
 .headroom/
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 
 # PHPStan output files
 phpstan*.json
 _docs/
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
+=======
+>>>>>>> 2cb7d4f (.)
 .cursor/
 .devcontainer/
 .vscode/
 .windsurf/
+<<<<<<< HEAD
 >>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)

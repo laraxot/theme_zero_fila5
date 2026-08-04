@@ -10,6 +10,7 @@ related:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../docs/wiki/how-to/module-docs-deduplication.md).
 =======
 Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../../docs/wiki/how-to/module-docs-deduplication.md).
@@ -17,5 +18,8 @@ Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../..
 =======
 Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../docs/wiki/how-to/module-docs-deduplication.md).
 >>>>>>> 099e856 (sync)
+=======
+Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../docs/wiki/how-to/module-docs-deduplication.md).
+>>>>>>> 2cb7d4f (.)
 
 → [second-brain-local-discipline.md](../../../../../Modules/Xot/docs/wiki/concepts/second-brain-local-discipline.md)
