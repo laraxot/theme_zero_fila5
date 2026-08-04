@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
 ---
 title: "🎨 CHART.JS EXPORT INTEGRATION - TEMA ZERO"
 type: guide
@@ -11,8 +14,11 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
 # 🎨 CHART.JS EXPORT INTEGRATION - TEMA ZERO
 
 ## 📋 INDICE
