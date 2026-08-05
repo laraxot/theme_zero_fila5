@@ -1,4 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "Zero Theme - Documentation Index"
 type: concept
@@ -11,7 +22,22 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
 =======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 # Zero Theme - Documentation Index
 
@@ -56,9 +82,27 @@ related:
 
 ### Anti-Patterns
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - QuestionChartAnswersTripleChartWidget — why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
 =======
 - **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
+>>>>>>> 11674ce (.)
+=======
+- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
+>>>>>>> 2cb7d4f (.)
+=======
+- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 
 ### Theme Characteristics
@@ -69,6 +113,12 @@ related:
 ### Related Resources
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Cms Module](../../../Modules/Cms/docs/README.md)
 - [UI Module](../../../Modules/UI/docs/README.md)
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
@@ -76,6 +126,24 @@ related:
 - [Cms Module](../../Modules/Cms/docs/README.md)
 - [UI Module](../../Modules/UI/docs/README.md)
 - [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> 11674ce (.)
+=======
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> 2cb7d4f (.)
+=======
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 - [AGENTS.md](../../../AGENTS.md) - Project guidelines
 

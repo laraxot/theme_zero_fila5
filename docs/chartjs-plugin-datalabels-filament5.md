@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)"
 type: how-to
@@ -10,6 +21,19 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)
 
 ## Scope
@@ -86,6 +110,12 @@ If you need callbacks, always use `RawJs`.
 For a minimal, production-ready example showing 2 labels per bar, see:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
 =======
 <<<<<<< .merge_file_tBm5us
@@ -93,6 +123,18 @@ For a minimal, production-ready example showing 2 labels per bar, see:
 =======
 **`Modules/ModuloEsempio/Filament/Widgets/SimpleChartWidget.php`**
 >>>>>>> .merge_file_3E0BvZ
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+**`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
+>>>>>>> 11674ce (.)
+=======
+**`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
+>>>>>>> 2cb7d4f (.)
+=======
+**`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 
 ```php
@@ -127,4 +169,16 @@ JS);
 
 - **Seeing no labels**: plugin not loaded (Vite input missing or FilamentAsset registration missing).
 - **Trying to register via Chart.register() inside app.js**: avoid; Filament v5 plugin system should use `window.filamentChartJsPlugins`.
+<<<<<<< HEAD
 - **Using PHP arrays with string functions**: JS callbacks don't execute as strings. Always use `RawJs::make()`.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Using PHP arrays with string functions**: JS callbacks don't execute as strings. Always use `RawJs::make()`.
+=======
+- **Using PHP arrays with string functions**: JS callbacks don't execute as strings. Always use `RawJs::make()`.
+>>>>>>> 2cb7d4f (.)
+=======
+- **Using PHP arrays with string functions**: JS callbacks don't execute as strings. Always use `RawJs::make()`.
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev

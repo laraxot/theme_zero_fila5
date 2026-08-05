@@ -1,21 +1,96 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Template: laravel/Themes/<Tema>/.github/dependabot.yml
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+# Template: laravel/Themes/<Tema>/.github/dependabot.yml
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 version: 2
 updates:
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
+<<<<<<< HEAD
       interval: "daily"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      interval: "daily"
+=======
+      interval: "weekly"
+    labels:
+      - "dependencies"
+>>>>>>> 11674ce (.)
+=======
+      interval: "daily"
+>>>>>>> 2cb7d4f (.)
+=======
+      interval: "weekly"
+    labels:
+      - "dependencies"
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
+<<<<<<< HEAD
       interval: "daily"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      interval: "daily"
+=======
+      interval: "weekly"
+>>>>>>> 11674ce (.)
+=======
+      interval: "daily"
+>>>>>>> 2cb7d4f (.)
+=======
+      interval: "weekly"
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
     labels:
       - "dependencies"
 
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
       interval: "daily"
     labels:
       - "npm"
       - "dependencies"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 11674ce (.)
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "npm"
+<<<<<<< HEAD
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev

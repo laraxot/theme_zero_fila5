@@ -4,9 +4,33 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 
+<<<<<<< HEAD
 $base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact-multi';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+$base_url = 'https://manager.healthcare_app.it';
+$login = '/api/user/login';
+$addContact = '/api/healthcare_app/add-contact-multi';
+=======
+$base_url = 'https://manager.quaeris.it';
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact-multi';
+>>>>>>> 11674ce (.)
+=======
+$base_url = 'https://manager.quaeris.it';
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact-multi';
+>>>>>>> 2cb7d4f (.)
+=======
+$base_url = 'https://manager.quaeris.it';
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact-multi';
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 $email = 'a.tocchetto@altotrevigianoservizi.it';
 $pass = 'atstocchetto321';
 
@@ -23,13 +47,53 @@ $response = curl_exec($ch);
 $json = json_decode($response);
 
 $data = [
+<<<<<<< HEAD
     'a1'=>[
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    'a1'=>[
+=======
+    'a1' => [
+>>>>>>> 11674ce (.)
+=======
+    'a1' => [
+>>>>>>> f916df1 (.)
+=======
+    'a1' => [
+>>>>>>> 2cb7d4f (.)
+=======
+    'a1' => [
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
         'survey_pdf_id' => '16', // id survey/questionario assegnato, valore fisso
         'email' => 'marco.sottana@gmail.com',
         'mobile_phone' => '',
         'language' => 'it', // valore fisso
         'usesleft' => '1', // valore fisso
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 11674ce (.)
+=======
+
+>>>>>>> f916df1 (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -47,13 +111,53 @@ $data = [
         'attribute_13' => 'telefono segnalatore', // telefono segnalatore
         'attribute_14' => 'altraemail@mail.com', // email segnalatore
     ],
+<<<<<<< HEAD
     'a2'=>[
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    'a2'=>[
+=======
+    'a2' => [
+>>>>>>> 11674ce (.)
+=======
+    'a2' => [
+>>>>>>> f916df1 (.)
+=======
+    'a2' => [
+>>>>>>> 2cb7d4f (.)
+=======
+    'a2' => [
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
         'survey_pdf_id' => '16',
         'email' => 'vair81@gmail.com',
         'mobile_phone' => '3791339157',
         'language' => 'it',
         'usesleft' => '1',
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 11674ce (.)
+=======
+
+>>>>>>> f916df1 (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -71,13 +175,53 @@ $data = [
         'attribute_13' => 'telefono segnalatore', // telefono segnalatore
         'attribute_14' => 'altraemail@mail.com', // email segnalatore
     ],
+<<<<<<< HEAD
     'a3'=>[
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    'a3'=>[
+=======
+    'a3' => [
+>>>>>>> 11674ce (.)
+=======
+    'a3' => [
+>>>>>>> f916df1 (.)
+=======
+    'a3' => [
+>>>>>>> 2cb7d4f (.)
+=======
+    'a3' => [
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
         'survey_pdf_id' => '16',
         'email' => '',
         'mobile_phone' => '3791339157',
         'language' => 'it',
         'usesleft' => '1',
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 11674ce (.)
+=======
+
+>>>>>>> f916df1 (.)
+=======
+
+>>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -94,9 +238,35 @@ $data = [
         'attribute_12' => 'cellulare segnalatore', // cellulare segnalatore
         'attribute_13' => 'telefono segnalatore', // telefono segnalatore
         'attribute_14' => 'altraemail@mail.com', // email segnalatore
+<<<<<<< HEAD
     ]
     
     
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ]
+    
+    
+=======
+    ],
+
+>>>>>>> 11674ce (.)
+=======
+    ],
+
+>>>>>>> f916df1 (.)
+=======
+    ],
+
+>>>>>>> 2cb7d4f (.)
+=======
+    ],
+
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 ];
 
 $headers = [
@@ -111,7 +281,27 @@ curl_setopt_array($ch, [
     CURLOPT_POST => true,
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_VERBOSE => true,
+<<<<<<< HEAD
     CURLOPT_POSTFIELDS => ['data'=>json_encode($data)],
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    CURLOPT_POSTFIELDS => ['data'=>json_encode($data)],
+=======
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> 11674ce (.)
+=======
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> f916df1 (.)
+=======
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> 2cb7d4f (.)
+=======
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 ]);
 
 $response = curl_exec($ch);
@@ -120,6 +310,7 @@ echo '<pre>'.print_r($response, true).'</pre>';
 
 curl_close($ch);
 
+<<<<<<< HEAD
 
 function curl_postfields_flatten($data, $prefix = '') {
     if (!is_array($data)) {
@@ -138,3 +329,63 @@ function curl_postfields_flatten($data, $prefix = '') {
     }
     return $output;
   }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+function curl_postfields_flatten($data, $prefix = '')
+{
+    if (! is_array($data)) {
+        return $data;
+    }
+>>>>>>> f916df1 (.)
+
+    $output = [];
+    foreach ($data as $key => $value) {
+        $final_key = $prefix ? "{$prefix}[{$key}]" : $key;
+        if (is_array($value)) {
+            $output += curl_postfields_flatten($value, $final_key);
+        } else {
+            $output[$final_key] = $value;
+        }
+    }
+
+    return $output;
+<<<<<<< HEAD
+  }
+=======
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+function curl_postfields_flatten($data, $prefix = '')
+{
+    if (! is_array($data)) {
+        return $data;
+    }
+
+    $output = [];
+    foreach ($data as $key => $value) {
+        $final_key = $prefix ? "{$prefix}[{$key}]" : $key;
+        if (is_array($value)) {
+            $output += curl_postfields_flatten($value, $final_key);
+        } else {
+            $output[$final_key] = $value;
+        }
+    }
+
+    return $output;
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 11674ce (.)
+=======
+}
+>>>>>>> f916df1 (.)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev

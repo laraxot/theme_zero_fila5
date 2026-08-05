@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "Code Quality Improvements - Zero Theme"
 type: concept
@@ -10,6 +21,19 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # Code Quality Improvements - Zero Theme
 
 ## Overview
@@ -26,6 +50,12 @@ This document summarizes the code quality improvements made to the Zero theme, f
 
 #### Theme Extras
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 1. **add_multiple_contact_VivaServizi_manager_healthcare_app_it.php**
 =======
 <<<<<<< .merge_file_femLMr
@@ -34,11 +64,29 @@ This document summarizes the code quality improvements made to the Zero theme, f
 1. **add_multiple_contact_VivaServizi_manager_ptvx_it.php**
 >>>>>>> .merge_file_7NvcBq
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+1. **add_multiple_contact_VivaServizi_manager_healthcare_app_it.php**
+>>>>>>> 11674ce (.)
+=======
+1. **add_multiple_contact_VivaServizi_manager_healthcare_app_it.php**
+>>>>>>> 2cb7d4f (.)
+=======
+1. **add_multiple_contact_VivaServizi_manager_healthcare_app_it.php**
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
    - Added Safe imports for curl functions (curl_init, curl_setopt, curl_exec, curl_close, curl_setopt_array)
    - Added Safe import for json_decode
    - Added Safe import for ini_set
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 2. **add_contact_healthcare_appf3_local.php**
 =======
 <<<<<<< .merge_file_femLMr
@@ -47,11 +95,29 @@ This document summarizes the code quality improvements made to the Zero theme, f
 2. **add_contact_ptvxf3_local.php**
 >>>>>>> .merge_file_7NvcBq
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+2. **add_contact_healthcare_appf3_local.php**
+>>>>>>> 11674ce (.)
+=======
+2. **add_contact_healthcare_appf3_local.php**
+>>>>>>> 2cb7d4f (.)
+=======
+2. **add_contact_healthcare_appf3_local.php**
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
    - Added Safe imports for curl functions
    - Added Safe import for json_decode
    - Added Safe import for ini_set
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 3. **add_multiple_contact_ATS_manager_healthcare_app_it.php**
 =======
 <<<<<<< .merge_file_femLMr
@@ -59,6 +125,18 @@ This document summarizes the code quality improvements made to the Zero theme, f
 =======
 3. **add_multiple_contact_ATS_manager_ptvx_it.php**
 >>>>>>> .merge_file_7NvcBq
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+3. **add_multiple_contact_ATS_manager_healthcare_app_it.php**
+>>>>>>> 11674ce (.)
+=======
+3. **add_multiple_contact_ATS_manager_healthcare_app_it.php**
+>>>>>>> 2cb7d4f (.)
+=======
+3. **add_multiple_contact_ATS_manager_healthcare_app_it.php**
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
    - Added Safe imports for curl functions
    - Added Safe import for json_decode
