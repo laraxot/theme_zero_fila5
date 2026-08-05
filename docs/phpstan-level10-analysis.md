@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Analisi PHPStan livello 10 - tema
 
 ## Scopo
@@ -62,6 +65,7 @@ Se sono presenti cartelle legacy o extra non in target, specificare le esclusion
 - [theme architecture](./theme-architecture-best-practices.md)
 - [README](./README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PHPStan Level 10 Analysis - Theme Zero
 
 ## Status
@@ -78,3 +82,5 @@ Se sono presenti cartelle legacy o extra non in target, specificare le esclusion
 > The `extras/` directory contains legacy scripts and was excluded from the main stabilization target to focus on the active theme logic.
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
