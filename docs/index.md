@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
 > [00-index.md](./00-index.md) (canonico, aggiornato 2026-03-28). Usare `00-index.md` come riferimento
 > primario; questo file non è stato consolidato per evitare di perdere la prosa introduttiva italiana.
@@ -13,6 +14,8 @@
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 ## Panoramica
 Questo documento serve come indice centrale per il tema Zero, fornendo una guida per la personalizzazione e l'utilizzo del tema all'interno dell'applicazione Laravel. Il tema Zero è un tema basato su TailwindCSS con supporto per Vite e componenti Blade moderni.
 
@@ -41,6 +44,7 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Moduli Integrati
 - [Performance Actions Reference](./performance-actions-reference.md) - Riferimento action calcolo performance
 
@@ -51,6 +55,8 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 - [Performance Actions Reference](./performance-actions-reference.md) - Riferimento action calcolo performance
 
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -63,9 +69,12 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 - [Personalizzazione](./customization.md) - Guida alla personalizzazione del tema
 - [Readonly Field Styling](./readonly-field-styling.md) - Pattern UI/UX per campi readonly/calcolati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Readonly Field Styling](./readonly-field-styling.md) - Pattern UI/UX per campi readonly/calcolati
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 - [Esempi](./examples.md) - Esempi pratici di personalizzazione
 - [Autenticazione](./authentication.md) - Componenti di autenticazione
 - [Esempi Autenticazione](./auth_examples.md) - Esempi di pagine di autenticazione
@@ -87,6 +96,7 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
 =======
 >>>>>>> laraxot/dev
@@ -98,6 +108,8 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 =======
 - [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 - [Performance](./performance.md) - Ottimizzazioni e analisi performance
 - [Accessibilità](./accessibility.md) - Linee guida per l'accessibilità
 
@@ -207,9 +219,12 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: Gennaio 2025*
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 - **Aggiunto**: Sistema di documentazione automatica moduli
 - **Integrato**: Refresh intelligente form reattivi
 - **Migliorato**: Sistema di tracking e audit trail

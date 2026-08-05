@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -22,6 +23,8 @@ qmd: "deprecated renamed user-research.md"
 > Do not add dates or underscores in filenames.
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 # User Research - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -472,6 +475,7 @@ This document presents user research findings for Theme Zero, the ultra-minimali
 
 **Acknowledgments**
 Thank you to all 22 research participants and 9 pre-alpha testers.
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 ---
@@ -481,3 +485,5 @@ Thank you to all 22 research participants and 9 pre-alpha testers.
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Troubleshooting Calcolo Quota Performance
 
 ## Problema: Discrepanza Quota Distribuita
@@ -123,6 +126,7 @@ Per approfondimenti:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Discrepanza Calcolo Quota (modulo Performance)](../../../laravel/Modules/Performance/docs/discrepanza-calcolo-quota.md)
 =======
 - [Discrepanza Calcolo Quota (modulo Performance)](../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
@@ -133,6 +137,9 @@ Per approfondimenti:
 =======
 - [Discrepanza Calcolo Quota (modulo Performance)](../../../laravel/Modules/Performance/docs/discrepanza-calcolo-quota.md)
 >>>>>>> 2cb7d4f (.)
+=======
+- [Discrepanza Calcolo Quota (modulo Performance)](../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
+>>>>>>> 11674ce (.)
 - [Performance Actions Reference](./performance-actions-reference.md)
 
 ## Note

@@ -9,6 +9,7 @@ related:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "../../../laravel/Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md"
 =======
   - "../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md"
@@ -19,11 +20,15 @@ related:
 =======
   - "../../../laravel/Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md"
 >>>>>>> 2cb7d4f (.)
+=======
+  - "../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md"
+>>>>>>> 11674ce (.)
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
 ---
 
 # Disciplina agenti per massimizzare la confidenza
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37,5 +42,8 @@ Regola canonica: [../../../laravel/Modules/Xot/docs/wiki/concepts/agent-confiden
 =======
 Regola canonica: [../../../laravel/Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md](../../../laravel/Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md).
 >>>>>>> 2cb7d4f (.)
+=======
+Regola canonica: [../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md](../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md).
+>>>>>>> 11674ce (.)
 
 Sintesi: verificare prima di affermare; riprodurre prima di correggere; **scopo / chiamanti / docs tema**; italiano sintetico.

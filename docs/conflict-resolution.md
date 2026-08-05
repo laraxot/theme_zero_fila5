@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -28,6 +29,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Conflict Resolution — Theme Zero
 
 ## Summary
@@ -36,6 +39,7 @@ related:
 - **Root cause**: Nested stash-on-merge conflicts
 
 ## Backlinks
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,3 +57,6 @@ related:
 =======
 - [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
 >>>>>>> 2cb7d4f (.)
+=======
+- [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
+>>>>>>> 11674ce (.)

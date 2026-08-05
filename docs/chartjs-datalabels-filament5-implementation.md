@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero
 
 ## Overview
@@ -99,6 +102,7 @@ Il tema supporta l'implementazione avanzata con **due labels centrate** per ogni
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
 =======
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
@@ -109,6 +113,9 @@ I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart
 =======
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
 >>>>>>> 2cb7d4f (.)
+=======
+I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
+>>>>>>> 11674ce (.)
 
 ## Best Practices per lo Sviluppo
 
@@ -125,6 +132,7 @@ I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Multiple Labels Complete Guide](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 =======
 - [Multiple Labels Complete Guide](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
@@ -135,3 +143,6 @@ I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart
 =======
 - [Multiple Labels Complete Guide](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 >>>>>>> 2cb7d4f (.)
+=======
+- [Multiple Labels Complete Guide](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
+>>>>>>> 11674ce (.)
