@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "Product Roadmap - Zero Theme"
 type: rule
@@ -10,6 +21,19 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # Product Roadmap - Zero Theme
 
 ## 🎯 Vision & Strategy
@@ -18,4 +42,16 @@ Develop the Zero Theme as a high-performance, specialized component of the Larax
 ## 🗓️ Timeline
 ### Q1 2026: Foundation
 - Standardize Zero Theme Documentation - *Status: Shipped*
+<<<<<<< HEAD
 - PHPStan Level 10 Audit - *Status: In Progress*
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- PHPStan Level 10 Audit - *Status: In Progress*
+=======
+- PHPStan Level 10 Audit - *Status: In Progress*
+>>>>>>> 2cb7d4f (.)
+=======
+- PHPStan Level 10 Audit - *Status: In Progress*
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev

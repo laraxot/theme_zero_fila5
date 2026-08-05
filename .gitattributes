@@ -3,11 +3,25 @@
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # Binary files tracked as git files
 *.jpg binary
 *.jpeg binary
 *.gif binary
 *.webp binary
+<<<<<<< HEAD
+=======
+=======
+*.psd filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 2cb7d4f (.)
+=======
+*.psd filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
 *.jpg !text !filter !merge !diff

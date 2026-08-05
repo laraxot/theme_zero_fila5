@@ -4,10 +4,35 @@ declare(strict_types=1);
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 $base_url = 'https://manager.healthcare_app.it';
 // $base_url = 'https://manager2.healthcare_appofficina.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact';
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+$base_url = 'https://manager.quaeris.it';
+// $base_url = 'https://manager2.quaerisofficina.it';
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact';
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 $email = 'a.tocchetto@altotrevigianoservizi.it';
 $pass = 'atstocchetto321';
 
@@ -53,7 +78,27 @@ $headers = [
 
 curl_setopt_array($ch, [
     CURLOPT_HTTPHEADER => $headers,
+<<<<<<< HEAD
     CURLOPT_URL => $base_url . $addContact,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    CURLOPT_URL => $base_url . $addContact,
+=======
+    CURLOPT_URL => $base_url.$addContact,
+>>>>>>> 11674ce (.)
+=======
+    CURLOPT_URL => $base_url.$addContact,
+>>>>>>> f916df1 (.)
+=======
+    CURLOPT_URL => $base_url.$addContact,
+>>>>>>> 2cb7d4f (.)
+=======
+    CURLOPT_URL => $base_url.$addContact,
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POST => true,
     CURLOPT_RETURNTRANSFER => true,

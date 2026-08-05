@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "Readonly Field Styling - UI/UX Pattern"
 type: rule
@@ -10,6 +21,19 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # Readonly Field Styling - UI/UX Pattern
 
 **Theme**: Zero  
@@ -129,7 +153,27 @@ Questi colori sono coerenti con:
 
 - [Customization Guide](./customization.md) - Palette colori del tema
 - [Components Guide](./components.md) - Componenti disponibili
+<<<<<<< HEAD
 - [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+=======
+- [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+>>>>>>> 11674ce (.)
+=======
+- [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+>>>>>>> 099e856 (sync)
+=======
+- [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+>>>>>>> 2cb7d4f (.)
+=======
+- [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 - [Theme One - Readonly Styling](../One/docs/readonly-field-styling.md) - Pattern condiviso
 
 ---

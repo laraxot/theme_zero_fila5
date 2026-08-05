@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "Filament Installation and Chart Widget Integration Guide for Zero Theme"
 type: how-to
@@ -10,6 +21,19 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # Filament Installation and Chart Widget Integration Guide for Zero Theme
 
 ## Overview
@@ -126,6 +150,12 @@ window.ChartJsBaseService = window.ChartJsBaseService || ChartJsBaseService;
 ### Chart.js Plugin Registration
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **Project rule (healthcare_app Fila5):** Chart.js plugin assets are centralized in the Chart module.
 =======
 <<<<<<< .merge_file_Zs1KdO
@@ -133,6 +163,18 @@ window.ChartJsBaseService = window.ChartJsBaseService || ChartJsBaseService;
 =======
 **Project rule (ModuloEsempio Fila5):** Chart.js plugin assets are centralized in the Chart module.
 >>>>>>> .merge_file_UkbOPj
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+**Project rule (healthcare_app Fila5):** Chart.js plugin assets are centralized in the Chart module.
+>>>>>>> 11674ce (.)
+=======
+**Project rule (healthcare_app Fila5):** Chart.js plugin assets are centralized in the Chart module.
+>>>>>>> 2cb7d4f (.)
+=======
+**Project rule (healthcare_app Fila5):** Chart.js plugin assets are centralized in the Chart module.
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 
 The Zero theme must **not** register `chartjs-plugin-datalabels` (or other Chart.js plugins) via its own bundle.

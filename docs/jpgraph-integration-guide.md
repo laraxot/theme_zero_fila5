@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "JpGraph Integration Guide - Zero Theme"
 type: how-to
@@ -10,6 +21,19 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # JpGraph Integration Guide - Zero Theme
 
 ---
@@ -440,10 +464,42 @@ class MakePdf2Action
 
 ### Module Documentation
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 - [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
 - [LimeSurvey Charts PDF Integration](./limesurvey-charts-pdf-integration.md) - Integrazione completa LimeSurvey charts nei PDF
 - [PDF Generation with Charts](../../../laravel/Modules/healthcare_app/docs/pdf-generation-with-charts.md) - Workflow completo generazione PDF
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 11674ce (.)
+- [JpGraph Class Reference Complete](../../Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
+- [JpGraph Complete Guide](../../Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
+- [LimeSurvey Charts PDF Integration](./limesurvey-charts-pdf-integration.md) - Integrazione completa LimeSurvey charts nei PDF
+- [PDF Generation with Charts](../../Modules/healthcare_app/docs/pdf-generation-with-charts.md) - Workflow completo generazione PDF
+<<<<<<< HEAD
+>>>>>>> 11674ce (.)
+=======
+- [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
+- [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
+- [LimeSurvey Charts PDF Integration](./limesurvey-charts-pdf-integration.md) - Integrazione completa LimeSurvey charts nei PDF
+- [PDF Generation with Charts](../../../laravel/Modules/healthcare_app/docs/pdf-generation-with-charts.md) - Workflow completo generazione PDF
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 
 ### Official JpGraph Resources
 
@@ -455,4 +511,16 @@ class MakePdf2Action
 
 **Last Updated:** January 2026  
 **Maintainer:** Laraxot Team + Auto (AI Coding Assistant)  
+<<<<<<< HEAD
 **Livello:** Approfondito con pattern reali dal codebase
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Livello:** Approfondito con pattern reali dal codebase
+=======
+**Livello:** Approfondito con pattern reali dal codebase
+>>>>>>> 2cb7d4f (.)
+=======
+**Livello:** Approfondito con pattern reali dal codebase
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev

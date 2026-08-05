@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "Theme Zero Documentation Index"
 type: guide
@@ -12,9 +23,26 @@ related:
 
 # Theme Zero Documentation Index
 
+<<<<<<< HEAD
 > **Note 2026-07-24**: redundant with [00-index.md](./00-index.md) (canonical, updated 2026-03-28).
 > See that file as the primary entry point for Zero theme docs.
 
+=======
+<<<<<<< HEAD
+> **Note 2026-07-24**: redundant with [00-index.md](./00-index.md) (canonical, updated 2026-03-28).
+> See that file as the primary entry point for Zero theme docs.
+
+=======
+# Theme Zero Documentation Index
+
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+# Theme Zero Documentation Index
+
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 **Status**: Theme implementation for Laraxot monolith  
 **Last Updated**: January 2026
 
@@ -140,6 +168,12 @@ Theme development roadmap.
 
 - **Limesurvey Module** (`../../laravel/Modules/Limesurvey/docs/`) - Survey data integration
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
 =======
 <<<<<<< .merge_file_UQp6my
@@ -147,6 +181,18 @@ Theme development roadmap.
 =======
 - **ModuloEsempio Module** (`../../laravel/Modules/ModuloEsempio/docs/`) - Dashboard and reporting
 >>>>>>> .merge_file_mmD899
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+- **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
+>>>>>>> 11674ce (.)
+=======
+- **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
+>>>>>>> 2cb7d4f (.)
+=======
+- **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 - **Chart Module** (`../../laravel/Modules/Chart/docs/`) - Chart generation
 
@@ -213,4 +259,16 @@ See [mail-layouts.md](mail-layouts.md)
 For issues or questions:
 1. Check [architecture.md](architecture.md) for architecture overview
 2. Review [customization.md](customization.md) for customization patterns
+<<<<<<< HEAD
 3. See [philosophy.md](philosophy.md) for design principles
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+3. See [philosophy.md](philosophy.md) for design principles
+=======
+3. See [philosophy.md](philosophy.md) for design principles
+>>>>>>> 2cb7d4f (.)
+=======
+3. See [philosophy.md](philosophy.md) for design principles
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
