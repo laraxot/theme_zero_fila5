@@ -34,4 +34,8 @@ networks:
   app-network:
 
 volumes:
+<<<<<<< HEAD
   db_data:
+=======
+  db_data:
+>>>>>>> laraxot/dev

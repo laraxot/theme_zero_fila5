@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "Zero Theme - Filosofia Completa"
 type: guide
@@ -10,6 +21,19 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # Zero Theme - Filosofia Completa
 
 **Data Creazione**: 2025-01-18  
@@ -21,6 +45,12 @@ related:
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 Il tema **Zero** è il tema baseline di healthcare_app, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
 =======
 <<<<<<< .merge_file_zK1GcR
@@ -28,6 +58,18 @@ Il tema **Zero** è il tema baseline di healthcare_app, implementando la filosof
 =======
 Il tema **Zero** è il tema baseline di ModuloEsempio, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
 >>>>>>> .merge_file_MMgKye
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+Il tema **Zero** è il tema baseline di healthcare_app, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
+>>>>>>> 11674ce (.)
+=======
+Il tema **Zero** è il tema baseline di healthcare_app, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
+>>>>>>> 2cb7d4f (.)
+=======
+Il tema **Zero** è il tema baseline di healthcare_app, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 
 ## Filosofia "Vestito"
@@ -148,6 +190,12 @@ Themes forniscono strutture layout:
 <head>
     <meta charset="utf-8">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     <title>@yield('title', 'healthcare_app')</title>
 =======
 <<<<<<< .merge_file_zK1GcR
@@ -155,6 +203,18 @@ Themes forniscono strutture layout:
 =======
     <title>@yield('title', 'ModuloEsempio')</title>
 >>>>>>> .merge_file_MMgKye
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+    <title>@yield('title', 'healthcare_app')</title>
+>>>>>>> 11674ce (.)
+=======
+    <title>@yield('title', 'healthcare_app')</title>
+>>>>>>> 2cb7d4f (.)
+=======
+    <title>@yield('title', 'healthcare_app')</title>
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -394,6 +454,12 @@ Il pattern "Vestito" incarna diversi valori core:
 ## Integrazione con Moduli
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ### healthcare_app Module
 =======
 <<<<<<< .merge_file_zK1GcR
@@ -401,6 +467,18 @@ Il pattern "Vestito" incarna diversi valori core:
 =======
 ### ModuloEsempio Module
 >>>>>>> .merge_file_MMgKye
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+### healthcare_app Module
+>>>>>>> 11674ce (.)
+=======
+### healthcare_app Module
+>>>>>>> 2cb7d4f (.)
+=======
+### healthcare_app Module
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 
 Zero theme fornisce presentazione per:
@@ -430,5 +508,19 @@ Zero theme è il tema baseline che implementa perfettamente la filosofia "Vestit
 **Filosofia**: Zero theme è come un vestito elegante e minimale - copre l'applicazione senza cambiare la sua essenza.
 
 **Ultimo Aggiornamento**: 2025-01-18  
+<<<<<<< HEAD
 **Versione**: 1.0.0
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Versione**: 1.0.0
+=======
+**Versione**: 1.0.0
+
+>>>>>>> 2cb7d4f (.)
+=======
+**Versione**: 1.0.0
+
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev

@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "AI-Assisted Development Guide - Zero Theme"
 type: how-to
@@ -10,11 +21,30 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # AI-Assisted Development Guide - Zero Theme
 
 ## Overview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
 =======
 <<<<<<< .merge_file_81hOYo
@@ -22,6 +52,18 @@ This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf
 =======
 This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the ModuloEsempio Fila4 Mono project.
 >>>>>>> .merge_file_IinPBV
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
+>>>>>>> 11674ce (.)
+=======
+This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
+>>>>>>> 2cb7d4f (.)
+=======
+This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 
 Zero is a flexible, modern Laravel theme system built on Filament 5, Livewire 4, and Volt. Understanding how to configure AI assistants for theme development ensures faster, more consistent development.
@@ -673,6 +715,12 @@ Consider creating a custom MCP server for Zero theme operations:
 **Last Updated**: December 23, 2025
 **Theme**: Zero
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **Maintainer**: healthcare_app Team
 
 *This guide is part of the healthcare_app documentation standard for AI-assisted development.*
@@ -686,4 +734,22 @@ Consider creating a custom MCP server for Zero theme operations:
 
 *This guide is part of the ModuloEsempio documentation standard for AI-assisted development.*
 >>>>>>> .merge_file_IinPBV
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+**Maintainer**: healthcare_app Team
+
+*This guide is part of the healthcare_app documentation standard for AI-assisted development.*
+>>>>>>> 11674ce (.)
+=======
+**Maintainer**: healthcare_app Team
+
+*This guide is part of the healthcare_app documentation standard for AI-assisted development.*
+>>>>>>> 2cb7d4f (.)
+=======
+**Maintainer**: healthcare_app Team
+
+*This guide is part of the healthcare_app documentation standard for AI-assisted development.*
+>>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev

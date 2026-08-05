@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+>>>>>>> laraxot/dev
 ---
 title: "PHPStan Configuration - Theme Zero"
 type: guide
@@ -10,6 +21,19 @@ related:
   - "./00-index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11674ce (.)
+=======
+>>>>>>> 099e856 (sync)
+=======
+>>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # PHPStan Configuration - Theme Zero
 
 ## Regola Fondamentale
@@ -50,11 +74,48 @@ phpstan*.json
 ## Esecuzione Analisi
 
 ```bash
+<<<<<<< HEAD
 cd ./laravel
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+cd /var/www/_bases/base_ptvx_fila5_mono/laravel
+=======
+cd ./laravel
+>>>>>>> 2cb7d4f (.)
+=======
+cd ./laravel
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 ./vendor/bin/phpstan analyse --level=10
 ```
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
 - [Root phpstan.neon](../../../laravel/phpstan.neon)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
+- [Root phpstan.neon](../../../laravel/phpstan.neon)
+=======
+- [PHPStan Level 10 Guidelines](../../docs/phpstan-level10.md)
+- [Root phpstan.neon](../../laravel/phpstan.neon)
+>>>>>>> 11674ce (.)
+=======
+- [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
+- [Root phpstan.neon](../../../laravel/phpstan.neon)
+>>>>>>> 099e856 (sync)
+=======
+- [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
+- [Root phpstan.neon](../../../laravel/phpstan.neon)
+>>>>>>> 2cb7d4f (.)
+=======
+- [PHPStan Level 10 Guidelines](../../docs/phpstan-level10.md)
+- [Root phpstan.neon](../../laravel/phpstan.neon)
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
