@@ -55,8 +55,8 @@ _No sources ingested yet._
 ## On-Demand References
 
 - [contract-interface-stacking](../../../../../docs/wiki/rules/contract-interface-stacking.md) — pattern contratti compositi (modelli backend)
-- [rules-index](./rules/INDEX.md) — entry point per regole condivise e theme-facing da caricare on demand
-- [skills-index](./skills/INDEX.md) — entry point per skill riusabili lato tema e Xot
+- [rules-index](./rules/index.md) — entry point per regole condivise e theme-facing da caricare on demand
+- [skills-index](./skills/index.md) — entry point per skill riusabili lato tema e Xot
 =======
 _No sources ingested yet._
 >>>>>>> 2cb7d4f (.)
