@@ -11,7 +11,31 @@ qmd search "Zero concepts" --limit 5
 
 ## See Also
 - [Root Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Filament 5 Schema (non Form)](./filament-v5-schema-not-form.md) — correzione vs docs legacy Schema→Form
 
 ---
 *Updated: 2026-07-24*
+<<<<<<< HEAD
+=======
+=======
+
+---
+*Updated: 2026-05-11*
+>>>>>>> 11674ce (.)
+=======
+
+---
+*Updated: 2026-05-11*
+>>>>>>> 2cb7d4f (.)
+=======
+
+---
+*Updated: 2026-05-11*
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
