@@ -9,6 +9,7 @@ related:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
 =======
   - "../../../../../docs/wiki/rules/agent-confidence-protocol.md"
@@ -19,10 +20,14 @@ related:
 =======
   - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
 >>>>>>> 2cb7d4f (.)
+=======
+  - "../../../../../docs/wiki/rules/agent-confidence-protocol.md"
+>>>>>>> 11674ce (.)
 ---
 
 # Massima confidenza agente
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36,5 +41,8 @@ Stub DRY. Regola canonica: [../../../../docs/wiki/rules/agent-confidence-protoco
 =======
 Stub DRY. Regola canonica: [../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
 >>>>>>> 2cb7d4f (.)
+=======
+Stub DRY. Regola canonica: [../../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../../docs/wiki/rules/agent-confidence-protocol.md).
+>>>>>>> 11674ce (.)
 
 Checklist locale: issue GitHub, wiki owner, file letti a chunk, gate eseguiti, log aggiornato, limiti dichiarati.

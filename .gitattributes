@@ -4,6 +4,7 @@
 *.js linguist-vendored
 CHANGELOG.md export-ignore
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Binary files tracked as git files
 *.jpg binary
 *.jpeg binary
@@ -12,6 +13,9 @@ CHANGELOG.md export-ignore
 =======
 *.psd filter=lfs diff=lfs merge=lfs -text
 >>>>>>> 2cb7d4f (.)
+=======
+*.psd filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 11674ce (.)
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
 *.jpg !text !filter !merge !diff

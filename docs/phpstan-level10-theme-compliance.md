@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # PHPStan Level 10 Compliance - Theme System
 
 ## 📋 Riepilogo Intervento
@@ -267,6 +270,7 @@ $merged = array_merge($this->data ?? [], $data);
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Gate canonico (Modules include i match agli ignoreErrors del neon)
 cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
@@ -277,6 +281,8 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 =======
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # PHPStan Level 10 completo
 ./vendor/bin/phpstan analyse Themes/ --memory-limit=-1
 
@@ -286,13 +292,17 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 # PHP Insights per metriche
 ./vendor/bin/phpinsights analyse Themes/
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 ```
 
 ## 📚 Riferimenti Incrociati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - **Stale ignore / Themes alone**: `docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md`
@@ -308,6 +318,11 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 - **healthcare_app Module**: `Modules/healthcare_app/docs/phpstan-level10-healthcare_app-fixes.md`
 - **User Module**: `Modules/User/docs/phpstan-level10-user-fixes.md`
 >>>>>>> 2cb7d4f (.)
+=======
+- **Xot Module**: `Modules/Xot/docs/phpstan-level10-xot-fixes.md`
+- **healthcare_app Module**: `Modules/healthcare_app/docs/phpstan-level10-healthcare_app-fixes.md`
+- **User Module**: `Modules/User/docs/phpstan-level10-user-fixes.md`
+>>>>>>> 11674ce (.)
 
 ## 🚀 Prossimi Passi
 

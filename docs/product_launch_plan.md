@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -22,6 +23,8 @@ qmd: "deprecated renamed product-launch-plan.md"
 > Do not add dates or underscores in filenames.
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 # Product Launch Plan - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -504,6 +507,7 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 | Product Owner | | |
 | Marketing Lead | | |
 | Tech Lead | | |
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 ---
@@ -513,3 +517,5 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
