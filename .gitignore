@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -25,14 +26,19 @@ tests/.claude-audit
 =======
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 *.log
 *.phar
 *.lock
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 uploads
 limesurvey
 vendor
@@ -41,36 +47,48 @@ package-lock.json
 error_log
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 11674ce (.)
 =======
 
 >>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
 *.gz
 *.cache
 /cache
 .git-rewrite
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 11674ce (.)
 =======
 
 >>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
 _ide_helper_models.php
 *.old
 *.bak
 *.backup
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 11674ce (.)
 =======
 
 >>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
 public_html/vendor
 public_html/js
 public_html/css
@@ -79,12 +97,16 @@ public_html/error_log
 public_html/chart
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 11674ce (.)
 =======
 
 >>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
 laravel/*.lock
 laravel/lang/vendor/
 laravel/database/migrations
@@ -96,11 +118,14 @@ laravel/.phpstorm.meta.php
 laravel/_ide_helper.php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 laravel/public
 laravel/resources/lang/vendor/
 =======
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 laravel/error_log
 laravel/public
 laravel/resources/lang/vendor/
@@ -109,9 +134,12 @@ laravel/composer.lock
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 vendor/
 public_html/css/
 public_html/js/
@@ -120,12 +148,15 @@ public_html/vendor/*
 laravel/bootstrap/cache/*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 laravel/stubs
 laravel/resources/views/vendor/
 .git-rewrite/
 =======
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 public_html/vendor/
 public_html/js/
 laravel/stubs
@@ -141,26 +172,34 @@ public_html/js/
 public_html/js/
 public_html/css/
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 *:Zone.Identifier
 .env
 laravel/database/migrations/
 logs
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 bashscripts/
 >>>>>>> 11674ce (.)
 =======
 bashscripts/
 >>>>>>> 2cb7d4f (.)
+=======
+bashscripts/
+>>>>>>> 11674ce (.)
 laravel/
 public_html/
 .env.docker
 .env.latest
 node_modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # PHPStan output files
@@ -192,10 +231,13 @@ graphify-out/
 =======
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 
 # PHPStan output files
 phpstan*.json
 _docs/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 11674ce (.)
@@ -210,3 +252,5 @@ _docs/
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)

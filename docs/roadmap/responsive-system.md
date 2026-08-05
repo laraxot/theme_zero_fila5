@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -26,6 +27,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Sistema responsive e grid
 
 ## Obiettivo
