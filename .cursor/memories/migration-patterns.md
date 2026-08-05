@@ -1,4 +1,4 @@
-# Pattern di Migrazione in SaluteOra
+# Pattern di Migrazione in healthcare_app
 
 ## Pattern XotBaseMigration
 
