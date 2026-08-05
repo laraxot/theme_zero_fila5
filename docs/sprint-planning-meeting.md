@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Zero - Sprint Planning Meeting
 
 > Documento operativo per sprint planning. Tema.
@@ -76,6 +79,7 @@ Spostare **Zero** in avanti sui gap P0/P1 piu' vicini al valore, evitando lavoro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 =======
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
@@ -86,3 +90,6 @@ Spostare **Zero** in avanti sui gap P0/P1 piu' vicini al valore, evitando lavoro
 =======
 - [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 >>>>>>> 2cb7d4f (.)
+=======
+- [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+>>>>>>> 11674ce (.)

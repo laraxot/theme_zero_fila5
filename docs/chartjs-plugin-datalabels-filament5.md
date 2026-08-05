@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)
 
 ## Scope
@@ -103,6 +106,7 @@ For a minimal, production-ready example showing 2 labels per bar, see:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
 =======
 <<<<<<< .merge_file_tBm5us
@@ -117,6 +121,9 @@ For a minimal, production-ready example showing 2 labels per bar, see:
 =======
 **`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
 >>>>>>> 2cb7d4f (.)
+=======
+**`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
+>>>>>>> 11674ce (.)
 
 ```php
 protected function getOptions(): RawJs
@@ -151,7 +158,11 @@ JS);
 - **Seeing no labels**: plugin not loaded (Vite input missing or FilamentAsset registration missing).
 - **Trying to register via Chart.register() inside app.js**: avoid; Filament v5 plugin system should use `window.filamentChartJsPlugins`.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Using PHP arrays with string functions**: JS callbacks don't execute as strings. Always use `RawJs::make()`.
 =======
 - **Using PHP arrays with string functions**: JS callbacks don't execute as strings. Always use `RawJs::make()`.
 >>>>>>> 2cb7d4f (.)
+=======
+- **Using PHP arrays with string functions**: JS callbacks don't execute as strings. Always use `RawJs::make()`.
+>>>>>>> 11674ce (.)
