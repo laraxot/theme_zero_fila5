@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -37,6 +38,8 @@ Specialized logic for Zero needs a dedicated, type-safe Theme to ensure maintain
 - **Goal 1:** 100% PHPStan L10 compliance.
 - **Goal 2:** Seamless integration with XotBase.
 =======
+=======
+>>>>>>> 11674ce (.)
 # PRD: Zero Theme
 
 ## 📋 Executive Summary
@@ -66,4 +69,7 @@ Theme Zero is the lightweight, performance-first foundation theme for the PTVX s
 ## ✅ Release Criteria
 - Performance: 100/100 Lighthouse score on Desktop/Mobile.
 - Zero accessibility violations in automated checks.
+<<<<<<< HEAD
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
