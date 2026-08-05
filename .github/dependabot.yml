@@ -1,15 +1,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Template: laravel/Themes/<Tema>/.github/dependabot.yml
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+# Template: laravel/Themes/<Tema>/.github/dependabot.yml
+>>>>>>> 11674ce (.)
 version: 2
 updates:
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       interval: "daily"
@@ -21,10 +26,16 @@ updates:
 =======
       interval: "daily"
 >>>>>>> 2cb7d4f (.)
+=======
+      interval: "weekly"
+    labels:
+      - "dependencies"
+>>>>>>> 11674ce (.)
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       interval: "daily"
@@ -34,6 +45,9 @@ updates:
 =======
       interval: "daily"
 >>>>>>> 2cb7d4f (.)
+=======
+      interval: "weekly"
+>>>>>>> 11674ce (.)
     labels:
       - "dependencies"
 
@@ -42,6 +56,7 @@ updates:
     schedule:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2cb7d4f (.)
       interval: "daily"
@@ -50,10 +65,15 @@ updates:
       - "dependencies"
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
       interval: "weekly"
     labels:
       - "dependencies"
       - "npm"
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
