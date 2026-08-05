@@ -18,7 +18,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme - documentation index"
 related:
-  - "./00-INDEX.md"
+  - "./00-index.md"
   - "./00-index.md"
 ---
 
@@ -67,7 +67,7 @@ related:
 ### Product & Planning
 - [product-requirements.md](./product-requirements.md) - PRD
 - [roadmap.md](./roadmap.md) - Theme roadmap
-- [CHANGELOG.md](./CHANGELOG.md) - Version history
+- [changelog.md](./changelog.md) - Version history
 
 ### Stack Reference
 | Technology | Version | Purpose |
@@ -145,7 +145,7 @@ related:
 - [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
 >>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
-- [AGENTS.md](../../../AGENTS.md) - Project guidelines
+- [agents.md](../../../agents.md) - Project guidelines
 
 ---
 

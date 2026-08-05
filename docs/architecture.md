@@ -8,14 +8,14 @@
 ---
 title: "Zero Theme Architecture"
 type: architecture
-tags: [theme, architecture, ${theme,,}]
+tags: [theme, architecture, zero]
 created: 2026-08-04
 updated: 2026-08-04
 ---
 # Zero Theme — Architecture
 
 ## Purpose
-Zero} theme architecture and design patterns for Laraxot PTVX.
+Zero theme architecture and design patterns for Laraxot PTVX.
 
 ## Core Components
 
@@ -48,7 +48,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "architettura del tema zero"
 related:
-  - "./00-INDEX.md"
+  - "./00-index.md"
   - "./00-index.md"
 ---
 
