@@ -7,6 +7,7 @@ related:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../../docs/wiki/method-name-homonym-census.md
 =======
   - ../../../../docs/wiki/method-name-homonym-census.md
@@ -17,6 +18,9 @@ related:
 =======
   - ../../../docs/wiki/method-name-homonym-census.md
 >>>>>>> 2cb7d4f (.)
+=======
+  - ../../../../docs/wiki/method-name-homonym-census.md
+>>>>>>> 11674ce (.)
   - ../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md
   - ./code-redundancy-theme.md
 ---
@@ -48,6 +52,7 @@ La ridondanza di business logic da monitorare sta nei **moduli** Laravel (`Sigma
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Indice censimento progetto](../../../docs/wiki/method-name-homonym-census.md)
 - [Ridondanza tema](./code-redundancy-theme.md)
 - [Sigma — omonimi relazioni](../../../../laravel/Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
@@ -66,6 +71,11 @@ La ridondanza di business logic da monitorare sta nei **moduli** Laravel (`Sigma
 - [Ridondanza tema](./code-redundancy-theme.md)
 - [Sigma — omonimi relazioni](../../../../laravel/Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
 >>>>>>> 2cb7d4f (.)
+=======
+- [Indice censimento progetto](../../../../docs/wiki/method-name-homonym-census.md)
+- [Ridondanza tema](./code-redundancy-theme.md)
+- [Sigma — omonimi relazioni](../../../Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
+>>>>>>> 11674ce (.)
 
 ## Rigenerazione
 

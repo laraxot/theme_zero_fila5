@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Filament Resource: Schemas e Tables (tema Zero)
 
 ## Scopo
@@ -51,6 +54,7 @@ Themes/Zero/app/Filament/Resources/{ResourceName}/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. **`getPages()`:** non dichiarare se solo `index` / `create` / `edit` con Page `List{plural}`, `Create{name}`, `Edit{name}` — [getpages-redundancy-rule](../../../laravel/Modules/Xot/docs/filament/getpages-redundancy-rule.md).
 =======
 4. **`getPages()`:** non dichiarare se solo `index` / `create` / `edit` con Page `List{plural}`, `Create{name}`, `Edit{name}` — [getpages-redundancy-rule](../../Modules/Xot/docs/filament/getpages-redundancy-rule.md).
@@ -61,11 +65,15 @@ Themes/Zero/app/Filament/Resources/{ResourceName}/
 =======
 4. **`getPages()`:** non dichiarare se solo `index` / `create` / `edit` con Page `List{plural}`, `Create{name}`, `Edit{name}` — [getpages-redundancy-rule](../../../laravel/Modules/Xot/docs/filament/getpages-redundancy-rule.md).
 >>>>>>> 2cb7d4f (.)
+=======
+4. **`getPages()`:** non dichiarare se solo `index` / `create` / `edit` con Page `List{plural}`, `Create{name}`, `Edit{name}` — [getpages-redundancy-rule](../../Modules/Xot/docs/filament/getpages-redundancy-rule.md).
+>>>>>>> 11674ce (.)
 
 Per il dettaglio infolist vedi anche [filament-infolist-pattern](./filament-infolist-pattern.md).
 
 ### Copia metodi tabella Page → `*Table`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,12 +87,15 @@ Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTable
 - [Progressioni – inventario scaffold](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
 
 ## Riferimenti
 
 - [Xot – Filament v5 hybrid pattern](../../Modules/Xot/docs/wiki/concepts/filament-v5-hybrid-pattern.md)
 - [Progressioni – inventario scaffold](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
@@ -96,6 +107,8 @@ Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTable
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 - [Progressioni – wire pilota Assenze](../../Modules/Progressioni/docs/filament-resource-wire-assenze.md)
 - [One – stesso pattern](../One/docs/filament-resource-schemas-tables.md)
 - [Three – stesso pattern](../Three/docs/filament-resource-schemas-tables.md)

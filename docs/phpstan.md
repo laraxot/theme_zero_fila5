@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # PHPStan Configuration - Theme Zero
 
 ## Regola Fondamentale
@@ -66,15 +69,20 @@ phpstan*.json
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_ptvx_fila5_mono/laravel
 =======
 cd ./laravel
 >>>>>>> 2cb7d4f (.)
+=======
+cd ./laravel
+>>>>>>> 11674ce (.)
 ./vendor/bin/phpstan analyse --level=10
 ```
 
 ## Riferimenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,3 +100,7 @@ cd ./laravel
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
 - [Root phpstan.neon](../../../laravel/phpstan.neon)
 >>>>>>> 2cb7d4f (.)
+=======
+- [PHPStan Level 10 Guidelines](../../docs/phpstan-level10.md)
+- [Root phpstan.neon](../../laravel/phpstan.neon)
+>>>>>>> 11674ce (.)

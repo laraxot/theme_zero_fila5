@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # LimeSurvey Charts PDF Integration - Zero Theme
 
 **Created:** January 2026
@@ -645,6 +648,7 @@ Themes/Zero/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2cb7d4f (.)
 - [Guida Completa LimeSurvey Chart Widget](../../../laravel/Modules/healthcare_app/docs/limesurvey-chart-widget-complete-guide.md) - ⭐ **PRINCIPALE**
@@ -658,6 +662,8 @@ Themes/Zero/
 - [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 - [Guida Completa LimeSurvey Chart Widget](../../Modules/healthcare_app/docs/limesurvey-chart-widget-complete-guide.md) - ⭐ **PRINCIPALE**
 - [JpGraph Deep Dive and Alternatives](../../Modules/Chart/docs/jpgraph-deep-dive-and-alternatives.md) - ⭐ **NUOVO** - Analisi approfondita JpGraph 4.4.3, alternative, confronto, e best practices
 
@@ -667,6 +673,7 @@ Themes/Zero/
 - [PDF Charts Integration Complete](../../Modules/Chart/docs/pdf-charts-limesurvey-integration-complete.md)
 - [JpGraph Class Reference Complete](../../Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 - [Guida Completa LimeSurvey Chart Widget](../../../laravel/Modules/healthcare_app/docs/limesurvey-chart-widget-complete-guide.md) - ⭐ **PRINCIPALE**
@@ -681,6 +688,8 @@ Themes/Zero/
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 
 ### Official JpGraph Resources
 - [JpGraph Official Site](https://jpgraph.net/) - Sito ufficiale
@@ -694,7 +703,11 @@ Themes/Zero/
 **Last Updated:** January 2026  
 **Maintainer:** Laraxot Team + Auto (AI Coding Assistant)  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Livello:** Approfondito con pattern reali dal codebase
 =======
 **Livello:** Approfondito con pattern reali dal codebase
 >>>>>>> 2cb7d4f (.)
+=======
+**Livello:** Approfondito con pattern reali dal codebase
+>>>>>>> 11674ce (.)

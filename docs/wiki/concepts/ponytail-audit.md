@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -29,11 +30,16 @@ related:
 Aggiornare solo finding e stato specifici di questo tema.
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 # Ponytail audit — Zero
 
 **Run:** 2026-06-30 · Esito: lean sul perimetro principale.
 
 Hub: [ponytail-audit-themes.md](../../../../../../docs/project/ponytail-audit-themes.md)
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Theme Zero Wiki — Schema e Convenzioni"
 type: guide
@@ -11,6 +12,8 @@ related:
   - "./log.md"
 ---
 
+=======
+>>>>>>> 11674ce (.)
 # Theme Zero Wiki — Schema e Convenzioni
 
 ## Dominio

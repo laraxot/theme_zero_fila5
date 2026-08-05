@@ -6,6 +6,7 @@ ini_set('display_errors', true);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $base_url = 'https://manager.healthcare_app.it';
 $login = '/api/user/login';
 $addContact = '/api/healthcare_app/add-contact-multi';
@@ -19,6 +20,11 @@ $base_url = 'https://manager.quaeris.it';
 $login = '/api/user/login';
 $addContact = '/api/quaeris/add-contact-multi';
 >>>>>>> 2cb7d4f (.)
+=======
+$base_url = 'https://manager.quaeris.it';
+$login = '/api/user/login';
+$addContact = '/api/quaeris/add-contact-multi';
+>>>>>>> 11674ce (.)
 $email = 'a.tocchetto@altotrevigianoservizi.it';
 $pass = 'atstocchetto321';
 
@@ -38,6 +44,7 @@ $data = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'a1'=>[
 =======
     'a1' => [
@@ -48,11 +55,15 @@ $data = [
 =======
     'a1' => [
 >>>>>>> 2cb7d4f (.)
+=======
+    'a1' => [
+>>>>>>> 11674ce (.)
         'survey_pdf_id' => '16', // id survey/questionario assegnato, valore fisso
         'email' => 'marco.sottana@gmail.com',
         'mobile_phone' => '',
         'language' => 'it', // valore fisso
         'usesleft' => '1', // valore fisso
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,6 +77,9 @@ $data = [
 =======
 
 >>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -83,6 +97,7 @@ $data = [
         'attribute_13' => 'telefono segnalatore', // telefono segnalatore
         'attribute_14' => 'altraemail@mail.com', // email segnalatore
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,11 +111,15 @@ $data = [
 =======
     'a2' => [
 >>>>>>> 2cb7d4f (.)
+=======
+    'a2' => [
+>>>>>>> 11674ce (.)
         'survey_pdf_id' => '16',
         'email' => 'vair81@gmail.com',
         'mobile_phone' => '3791339157',
         'language' => 'it',
         'usesleft' => '1',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +133,9 @@ $data = [
 =======
 
 >>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -134,6 +156,7 @@ $data = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'a3'=>[
 =======
     'a3' => [
@@ -144,11 +167,15 @@ $data = [
 =======
     'a3' => [
 >>>>>>> 2cb7d4f (.)
+=======
+    'a3' => [
+>>>>>>> 11674ce (.)
         'survey_pdf_id' => '16',
         'email' => '',
         'mobile_phone' => '3791339157',
         'language' => 'it',
         'usesleft' => '1',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +189,9 @@ $data = [
 =======
 
 >>>>>>> 2cb7d4f (.)
+=======
+
+>>>>>>> 11674ce (.)
         'first_name' => '',
         'last_name' => '',
         'attribute_1' => 'Davide', // Cliente
@@ -181,6 +211,7 @@ $data = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ]
     
     
@@ -196,6 +227,10 @@ $data = [
     ],
 
 >>>>>>> 2cb7d4f (.)
+=======
+    ],
+
+>>>>>>> 11674ce (.)
 ];
 
 $headers = [
@@ -213,6 +248,7 @@ curl_setopt_array($ch, [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     CURLOPT_POSTFIELDS => ['data'=>json_encode($data)],
 =======
     CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
@@ -223,6 +259,9 @@ curl_setopt_array($ch, [
 =======
     CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
 >>>>>>> 2cb7d4f (.)
+=======
+    CURLOPT_POSTFIELDS => ['data' => json_encode($data)],
+>>>>>>> 11674ce (.)
 ]);
 
 $response = curl_exec($ch);
@@ -231,6 +270,7 @@ echo '<pre>'.print_r($response, true).'</pre>';
 
 curl_close($ch);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +298,8 @@ function curl_postfields_flatten($data, $prefix = '')
 =======
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 function curl_postfields_flatten($data, $prefix = '')
 {
     if (! is_array($data)) {
@@ -277,9 +319,12 @@ function curl_postfields_flatten($data, $prefix = '')
     return $output;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 }
 >>>>>>> f916df1 (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)

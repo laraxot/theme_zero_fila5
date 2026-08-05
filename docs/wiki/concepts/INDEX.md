@@ -13,6 +13,7 @@ qmd search "Zero concepts" --limit 5
 - [Root Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament 5 Schema (non Form)](./filament-v5-schema-not-form.md) — correzione vs docs legacy Schema→Form
 
 ---
@@ -27,3 +28,8 @@ qmd search "Zero concepts" --limit 5
 ---
 *Updated: 2026-05-11*
 >>>>>>> 2cb7d4f (.)
+=======
+
+---
+*Updated: 2026-05-11*
+>>>>>>> 11674ce (.)

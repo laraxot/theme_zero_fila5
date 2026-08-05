@@ -10,6 +10,7 @@ module: "Zero"
 ## Log Entries
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [2026-06-15] [DOCS] Censimento omonimi metodi — [method-name-homonyms](./concepts/method-name-homonyms.md). Business logic nei moduli, non nel tema.
 
 ## [2026-05-26] ops | ptvx.local ripristinato (PHP 8.4 handler)
@@ -20,20 +21,28 @@ module: "Zero"
 
 ```text
 =======
+=======
+>>>>>>> 11674ce (.)
 _No activity yet. Start by ingesting raw documents._
 
 ### Format
 
 ```
+<<<<<<< HEAD
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 [YYYY-MM-DD HH:MM:SS UTC] [OPERATION] Description
 ```
 
 **Operations:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 - `INGEST` — Added raw document to wiki
 - `QUERY` — Answered question from wiki
 - `LINT` — Maintained wiki quality
@@ -41,6 +50,7 @@ _No activity yet. Start by ingesting raw documents._
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2026-04-29 00:00:00 UTC] [INGEST] Added Theme Zero operating focus concept from README and strategy docs
 [2026-04-29 00:00:00 UTC] [INGEST] Added Theme Zero strategic source summary for wiki-first theme retrieval
@@ -58,3 +68,7 @@ _No activity yet. Start by ingesting raw documents._
 **Last Activity:** None  
 **Total Operations:** 0
 >>>>>>> 2cb7d4f (.)
+=======
+**Last Activity:** None  
+**Total Operations:** 0
+>>>>>>> 11674ce (.)
