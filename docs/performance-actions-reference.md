@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Performance actions reference
 
 ## UpdateGgPresenzaDalalAction
@@ -119,6 +122,7 @@ ridefinirlo.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione modulo Performance](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 =======
 - [Documentazione modulo Performance](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
@@ -129,6 +133,9 @@ ridefinirlo.
 =======
 - [Documentazione modulo Performance](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 >>>>>>> 2cb7d4f (.)
+=======
+- [Documentazione modulo Performance](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+>>>>>>> 11674ce (.)
 - [README tema Zero](./README.md)
 - [Index documentazione tema Zero](./index.md)
 
@@ -229,6 +236,7 @@ TextColumn::make('gg_anno')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione modulo Performance - giorni presenza](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 - [Documentazione modulo Performance - giorni anno](../../../laravel/Modules/Performance/docs/action-update-gg-anno.md)
 - [Documentazione modulo Performance - part-time ponderato](../../../laravel/Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
@@ -247,5 +255,10 @@ TextColumn::make('gg_anno')
 - [Documentazione modulo Performance - giorni anno](../../../laravel/Modules/Performance/docs/action-update-gg-anno.md)
 - [Documentazione modulo Performance - part-time ponderato](../../../laravel/Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
 >>>>>>> 2cb7d4f (.)
+=======
+- [Documentazione modulo Performance - giorni presenza](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance - giorni anno](../../Modules/Performance/docs/action-update-gg-anno.md)
+- [Documentazione modulo Performance - part-time ponderato](../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
+>>>>>>> 11674ce (.)
 - [README tema Zero](./README.md)
 - [Index documentazione tema Zero](./index.md)

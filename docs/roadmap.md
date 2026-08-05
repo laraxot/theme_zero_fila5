@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Product Roadmap - Zero Theme
 
 ## 🎯 Vision & Strategy
@@ -34,7 +37,11 @@ Develop the Zero Theme as a high-performance, specialized component of the Larax
 ### Q1 2026: Foundation
 - Standardize Zero Theme Documentation - *Status: Shipped*
 <<<<<<< HEAD
+<<<<<<< HEAD
 - PHPStan Level 10 Audit - *Status: In Progress*
 =======
 - PHPStan Level 10 Audit - *Status: In Progress*
 >>>>>>> 2cb7d4f (.)
+=======
+- PHPStan Level 10 Audit - *Status: In Progress*
+>>>>>>> 11674ce (.)

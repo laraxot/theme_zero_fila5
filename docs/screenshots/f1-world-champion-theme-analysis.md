@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -34,6 +35,11 @@ related:
 
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
 >>>>>>> 2cb7d4f (.)
+=======
+# 🏎️ F1 World Champion 2026 - Theme Zero Integration
+
+**URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
+>>>>>>> 11674ce (.)
 **Tema**: Zero  
 **Data**: 2026-03-25
 
@@ -43,6 +49,7 @@ related:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Gli screenshot della forecast detail page sono disponibili in:
 =======
 Gli screenshot della predict detail page sono disponibili in:
@@ -50,6 +57,9 @@ Gli screenshot della predict detail page sono disponibili in:
 =======
 Gli screenshot della predict detail page sono disponibili in:
 >>>>>>> 2cb7d4f (.)
+=======
+Gli screenshot della predict detail page sono disponibili in:
+>>>>>>> 11674ce (.)
 
 ```
 laravel/Themes/Zero/docs/screenshots/
@@ -81,6 +91,7 @@ Il mercato **F1 World Champion 2026** ha **6 opzioni di risposta**:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il tema Zero utilizza i componenti del modulo forecast:
 
 ```blade
@@ -95,6 +106,8 @@ Il tema Zero utilizza i componenti del modulo forecast:
 =======
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 Il tema Zero utilizza i componenti del modulo Predict:
 
 ```blade
@@ -107,15 +120,19 @@ Il tema Zero utilizza i componenti del modulo Predict:
 <x-predict-view.share-buttons />
 <x-predict-view.sidebar-enhanced />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 ```
 
 ### File Theme Zero
 
 | File | Scopo |
 |------|-------|
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
@@ -125,6 +142,9 @@ Il tema Zero utilizza i componenti del modulo Predict:
 =======
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
 >>>>>>> 2cb7d4f (.)
+=======
+| `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
+>>>>>>> 11674ce (.)
 | `resources/css/app.css` | Theme styling |
 | `resources/js/gsap-config.js` | Animations |
 
@@ -175,6 +195,7 @@ small: text-sm (14px)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Componenti modulari forecast
 =======
 - [x] Componenti modulari Predict
@@ -182,6 +203,9 @@ small: text-sm (14px)
 =======
 - [x] Componenti modulari Predict
 >>>>>>> 2cb7d4f (.)
+=======
+- [x] Componenti modulari Predict
+>>>>>>> 11674ce (.)
 - [x] Styling coerente con design system
 - [x] Responsive design
 - [x] Dark mode support

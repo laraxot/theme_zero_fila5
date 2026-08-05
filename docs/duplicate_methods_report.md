@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -19,6 +20,8 @@ qmd: "deprecated renamed duplicate-methods-report.md"
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
 > Do not add dates or underscores in filenames.
 =======
+=======
+>>>>>>> 11674ce (.)
 # Report: Metodi con nome duplicato nei moduli e nei temi
 
 ## Introduzione
@@ -96,6 +99,7 @@ Di seguito la classifica dei metodi più frequenti (solo quelli con più di una 
 
 ## Allegati
 - `docs/duplicate_methods_report.md` (questo file)
+<<<<<<< HEAD
 - Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
 >>>>>>> 11674ce (.)
 =======
@@ -108,3 +112,6 @@ Di seguito la classifica dei metodi più frequenti (solo quelli con più di una 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
 > Do not add dates or underscores in filenames.
 >>>>>>> 2cb7d4f (.)
+=======
+- Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
+>>>>>>> 11674ce (.)

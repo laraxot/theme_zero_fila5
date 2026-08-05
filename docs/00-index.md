@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -28,6 +29,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Zero Theme - Documentation Index
 
 **Last Update**: 2026-03-28
@@ -73,6 +76,7 @@ related:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - QuestionChartAnswersTripleChartWidget — why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
 =======
 - **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
@@ -83,6 +87,9 @@ related:
 =======
 - **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
 >>>>>>> 2cb7d4f (.)
+=======
+- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
+>>>>>>> 11674ce (.)
 
 ### Theme Characteristics
 - **Style**: Ultra-minimalist
@@ -91,6 +98,7 @@ related:
 
 ### Related Resources
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +120,11 @@ related:
 - [UI Module](../../Modules/UI/docs/README.md)
 - [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
 >>>>>>> 2cb7d4f (.)
+=======
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> 11674ce (.)
 - [AGENTS.md](../../../AGENTS.md) - Project guidelines
 
 ---

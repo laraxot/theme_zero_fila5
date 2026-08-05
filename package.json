@@ -12,6 +12,7 @@
         "autoprefixer": "^10.4.21",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "laravel-vite-plugin": "^1.2.0",
 =======
         "laravel-vite-plugin": "^1.0.0",
@@ -27,12 +28,19 @@
 >>>>>>> 11674ce (.)
 =======
         "laravel-vite-plugin": "^1.2.0",
+=======
+        "laravel-vite-plugin": "^1.0.0",
+>>>>>>> 11674ce (.)
         "postcss": "^8.5.3",
         "postcss-import": "^16.0.0",
         "postcss-nesting": "^13.0.1",
         "tailwindcss": "^3.4.17",
+<<<<<<< HEAD
         "vite": "^6.4.3"
 >>>>>>> 2cb7d4f (.)
+=======
+        "vite": "^6.3.3"
+>>>>>>> 11674ce (.)
     },
     "dependencies": {
         "@alpinejs/collapse": "^3.13.5",
@@ -40,9 +48,13 @@
         "alpinejs": "^3.13.5",
         "axios": "^1.9.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "flowbite": "^4.0.2"
 =======
         "flowbite": "^1.8.1"
 >>>>>>> 2cb7d4f (.)
+=======
+        "flowbite": "^1.8.1"
+>>>>>>> 11674ce (.)
     }
 }
