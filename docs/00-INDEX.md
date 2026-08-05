@@ -18,7 +18,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme documentation index"
 related:
-  - "./00-INDEX.md"
+  - "./00-index.md"
   - "./00-index.md"
 ---
 
@@ -63,8 +63,8 @@ Zero theme documentation follows the standard theme structure with focus on:
 
 ## Key References
 
-- [Theme Hub](../Barthelemy/docs/00-INDEX.md) - Overview of all themes
-- [Sixteen Theme](../Sixteen/docs/00-INDEX.md) - Primary theme (Design Comuni)
+- [Theme Hub](../Barthelemy/docs/00-index.md) - Overview of all themes
+- [Sixteen Theme](../Sixteen/docs/00-index.md) - Primary theme (Design Comuni)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -72,28 +72,28 @@ Zero theme documentation follows the standard theme structure with focus on:
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+- [TwentyOne Theme](../TwentyOne/docs/00-index.md) - Prediction market theme
 =======
-- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - forecast market theme
+- [TwentyOne Theme](../TwentyOne/docs/00-index.md) - forecast market theme
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 =======
-- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+- [TwentyOne Theme](../TwentyOne/docs/00-index.md) - Prediction market theme
 >>>>>>> 11674ce (.)
 =======
-- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+- [TwentyOne Theme](../TwentyOne/docs/00-index.md) - Prediction market theme
 >>>>>>> 2cb7d4f (.)
 =======
-- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+- [TwentyOne Theme](../TwentyOne/docs/00-index.md) - Prediction market theme
 >>>>>>> 11674ce (.)
 >>>>>>> laraxot/dev
 - [Directory Structure Rules](../Barthelemy/docs/directory-structure-rules.md) - Theme organization
 
 ## Related Modules
 
-- [UI Module](../../Modules/UI/docs/00-INDEX.md) - Shared UI components
-- [Xot Module](../../Modules/Xot/docs/00-INDEX.md) - Core utilities
+- [UI Module](../../Modules/UI/docs/00-index.md) - Shared UI components
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Core utilities
 
 ## Asset Publication
 
@@ -140,9 +140,9 @@ Refer to the main theme documentation for build and deployment procedures.
 
 ## 🔗 Riferimenti
 
-- [Predict Module](../../Modules/Predict/docs/00-INDEX.md) - Main module
+- [Predict Module](../../Modules/Predict/docs/00-index.md) - Main module
 - [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
-- [AGENTS.md](../../../AGENTS.md) - Project guidelines
+- [agents.md](../../../agents.md) - Project guidelines
 
 ---
 
