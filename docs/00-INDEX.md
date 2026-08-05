@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -32,6 +33,10 @@ related:
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+# Zero Theme Documentation Index
+
+>>>>>>> 11674ce (.)
 **Path**: `laravel/Themes/Zero/docs/`  
 **Last updated**: 2026-06-30
 
@@ -54,6 +59,7 @@ Zero theme documentation follows the standard theme structure with focus on:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
 =======
 - [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - forecast market theme
@@ -64,6 +70,9 @@ Zero theme documentation follows the standard theme structure with focus on:
 =======
 - [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
 >>>>>>> 2cb7d4f (.)
+=======
+- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+>>>>>>> 11674ce (.)
 - [Directory Structure Rules](../Barthelemy/docs/directory-structure-rules.md) - Theme organization
 
 ## Related Modules
@@ -76,6 +85,7 @@ Zero theme documentation follows the standard theme structure with focus on:
 Theme assets are published to: `public_html/themes/Zero/`
 
 Refer to the main theme documentation for build and deployment procedures.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # 📚 Zero Theme - Documentation Index
@@ -123,3 +133,5 @@ Refer to the main theme documentation for build and deployment procedures.
 >>>>>>> f916df1 (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)

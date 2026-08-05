@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -29,6 +30,10 @@ related:
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+# Theme Zero Documentation Index
+
+>>>>>>> 11674ce (.)
 **Status**: Theme implementation for Laraxot monolith  
 **Last Updated**: January 2026
 
@@ -156,6 +161,7 @@ Theme development roadmap.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
 =======
 <<<<<<< .merge_file_UQp6my
@@ -170,6 +176,9 @@ Theme development roadmap.
 =======
 - **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
 >>>>>>> 2cb7d4f (.)
+=======
+- **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
+>>>>>>> 11674ce (.)
 - **Chart Module** (`../../laravel/Modules/Chart/docs/`) - Chart generation
 
 ## File Organization
@@ -236,7 +245,11 @@ For issues or questions:
 1. Check [architecture.md](architecture.md) for architecture overview
 2. Review [customization.md](customization.md) for customization patterns
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. See [philosophy.md](philosophy.md) for design principles
 =======
 3. See [philosophy.md](philosophy.md) for design principles
 >>>>>>> 2cb7d4f (.)
+=======
+3. See [philosophy.md](philosophy.md) for design principles
+>>>>>>> 11674ce (.)

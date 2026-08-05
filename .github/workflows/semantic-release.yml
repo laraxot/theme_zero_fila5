@@ -18,18 +18,24 @@ jobs:
 
     steps:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - uses: actions/setup-node@v7
 =======
+=======
+>>>>>>> 11674ce (.)
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
+<<<<<<< HEAD
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
         with:
           node-version: 20
 

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -19,6 +20,8 @@ qmd: "deprecated renamed CONFLICT-RESOLUTION-SUMMARY.md"
 > This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
 > Do not add dates or underscores in filenames.
 =======
+=======
+>>>>>>> 11674ce (.)
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅
@@ -177,6 +180,7 @@ Tutti i file modificati hanno backup con estensione `.backup` per eventuali roll
 
 ## Conclusione
 La migrazione a Filament 4 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 
@@ -188,3 +192,5 @@ La migrazione a Filament 4 è stata completata con successo per il 99% dei file.
 > This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
 > Do not add dates or underscores in filenames.
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
