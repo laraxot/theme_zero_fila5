@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Pattern Infolist Filament (Theme Zero)
 
 ## Overview
@@ -161,6 +164,7 @@ Per dettagli completi del pattern, vedere:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -172,12 +176,17 @@ Per dettagli completi del pattern, vedere:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 - [Documentazione Performance - Infolist Pattern](../../Modules/Performance/docs/filament-infolist-pattern.md)
 - [Progressioni - Schemas e Tables (migrazione Filament 5)](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 - [XotBaseResourceInfolist - Sorgente](../../Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
 - [XotBaseResource - Sorgente](../../Modules/Xot/app/Filament/Resources/XotBaseResource.php)
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)

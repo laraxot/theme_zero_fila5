@@ -15,10 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - uses: actions/checkout@v7
 =======
       - uses: actions/checkout@v4
 >>>>>>> 2cb7d4f (.)
+=======
+      - uses: actions/checkout@v4
+>>>>>>> 11674ce (.)
         with:
           fetch-depth: 0
       - name: Bump version and push tag
