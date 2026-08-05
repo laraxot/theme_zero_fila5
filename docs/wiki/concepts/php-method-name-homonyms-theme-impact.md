@@ -10,6 +10,7 @@ related:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../../../../docs/wiki/analysis/method-name-homonym-census.md
 =======
   - ../../../../../../docs/wiki/analysis/method-name-homonym-census.md
@@ -20,12 +21,16 @@ related:
 =======
   - ../../../../../docs/wiki/analysis/method-name-homonym-census.md
 >>>>>>> 2cb7d4f (.)
+=======
+  - ../../../../../../docs/wiki/analysis/method-name-homonym-census.md
+>>>>>>> 11674ce (.)
 ---
 
 # Omonimi metodi PHP — Theme Zero
 
 Stesso contratto di [Theme One — impatto temi](../../../One/docs/wiki/concepts/php-method-name-homonyms-theme-impact.md).
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39,3 +44,6 @@ Censimento canon: [method-name-homonym-census](../../../../../docs/wiki/analysis
 =======
 Censimento canon: [method-name-homonym-census](../../../../../docs/wiki/analysis/method-name-homonym-census.md).
 >>>>>>> 2cb7d4f (.)
+=======
+Censimento canon: [method-name-homonym-census](../../../../../../docs/wiki/analysis/method-name-homonym-census.md).
+>>>>>>> 11674ce (.)

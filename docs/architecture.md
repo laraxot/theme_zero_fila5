@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: "Zero Theme Architecture"
 type: architecture
@@ -50,6 +51,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Architettura del Tema Zero
 
 ## Filosofia: "Il Tema come Vestito"
@@ -308,8 +311,12 @@ public function test_login_widget_validation()
 - [Documentazione Layout](./layouts.md)
 - [Best Practices Filament](../Cms/docs/frontoffice/filament-auth.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Architettura Widget](../User/docs/widgets_structure.md) 
 >>>>>>> 11674ce (.)
 =======
 - [Architettura Widget](../User/docs/widgets_structure.md) 
 >>>>>>> 2cb7d4f (.)
+=======
+- [Architettura Widget](../User/docs/widgets_structure.md) 
+>>>>>>> 11674ce (.)

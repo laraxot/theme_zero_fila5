@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Tema Zero)
 
 **Versione:** 1.0  
@@ -33,6 +36,7 @@ related:
 **Livello:** Guida "a prova di stupido" - passo dopo passo
 
 > **Riferimento Ufficiale:** [chartjs-plugin-datalabels - Multiple Labels Sample](https://chartjs-plugin-datalabels.netlify.app/samples/advanced/multiple-labels.html)  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +50,9 @@ related:
 =======
 > **Guida Generale:** [Guida Completa Chart Module](../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 >>>>>>> 2cb7d4f (.)
+=======
+> **Guida Generale:** [Guida Completa Chart Module](../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
+>>>>>>> 11674ce (.)
 
 ---
 
@@ -124,6 +131,7 @@ ls -la Modules/Chart/resources/js/filament-chart-js-plugins.js
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md).
 =======
 Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../Modules/Chart/docs/chart-assets-centralization-rule.md).
@@ -134,6 +142,9 @@ Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../../lar
 =======
 Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md).
 >>>>>>> 2cb7d4f (.)
+=======
+Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../Modules/Chart/docs/chart-assets-centralization-rule.md).
+>>>>>>> 11674ce (.)
 
 ### Step 2: Installa Plugin (Solo se Necessario)
 
@@ -559,6 +570,7 @@ class ZeroPanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Guida Completa Chart Module](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [QuestionChartAnswersChartWidget (doughnut/pie)](../../../laravel/Modules/healthcare_app/docs/question-chart-answers-chart-widget.md) – implementazione doughnut con clip false, anchor/display, label+percentuale
 - [SimpleChartWidget con Sfondi](../../../laravel/Modules/healthcare_app/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
@@ -577,6 +589,11 @@ class ZeroPanelProvider extends PanelProvider
 - [QuestionChartAnswersChartWidget (doughnut/pie)](../../../laravel/Modules/healthcare_app/docs/question-chart-answers-chart-widget.md) – implementazione doughnut con clip false, anchor/display, label+percentuale
 - [SimpleChartWidget con Sfondi](../../../laravel/Modules/healthcare_app/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 >>>>>>> 2cb7d4f (.)
+=======
+- [Guida Completa Chart Module](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
+- [QuestionChartAnswersChartWidget (doughnut/pie)](../../../Modules/healthcare_app/docs/question-chart-answers-chart-widget.md) – implementazione doughnut con clip false, anchor/display, label+percentuale
+- [SimpleChartWidget con Sfondi](../../../Modules/healthcare_app/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+>>>>>>> 11674ce (.)
 - [Filament 5.x Charts](https://filamentphp.com/docs/5.x/widgets/charts)
 
 ### Documentazione Ufficiale
@@ -589,7 +606,11 @@ class ZeroPanelProvider extends PanelProvider
 **Versione:** 1.0  
 **Ultimo Aggiornamento:** Gennaio 2026  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Mantenuto da:** healthcare_app Development Team
 =======
 **Mantenuto da:** healthcare_app Development Team
 >>>>>>> 2cb7d4f (.)
+=======
+**Mantenuto da:** healthcare_app Development Team
+>>>>>>> 11674ce (.)

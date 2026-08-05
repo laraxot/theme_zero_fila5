@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -22,6 +23,8 @@ qmd: "deprecated renamed product-roadmap.md"
 > Do not add dates or underscores in filenames.
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 # Product Roadmap - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -452,6 +455,7 @@ qmd: "deprecated renamed product-roadmap.md"
 | Theme Team Lead | Product Owner | Roadmap prioritization |
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 ---
@@ -461,3 +465,5 @@ qmd: "deprecated renamed product-roadmap.md"
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)

@@ -13,6 +13,7 @@ Themes follow the same directory structure standards as Modules.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 =======
 - **Global Rules**: [Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
@@ -23,11 +24,15 @@ Themes follow the same directory structure standards as Modules.
 =======
 - **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 >>>>>>> 2cb7d4f (.)
+=======
+- **Global Rules**: [Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+>>>>>>> 11674ce (.)
 - **Module Structure Rules**:
   - All functional code MUST be inside `app/`.
   - Root-level capitalized directories (e.g., `Actions/`, `Database/`) are forbidden.
   - `database/` must be lowercase.
 - **PHPStan Memory**: ALWAYS use `php -d memory_limit=-1 ./vendor/bin/phpstan` for heavy analyses to avoid parallel worker crashes.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +46,9 @@ Themes follow the same directory structure standards as Modules.
 =======
 - **Documentation Rules**: [No lang/lang/ and No _docs/ Rule](../../../../docs/wiki/concepts/no-lang-lang-and-no-underscore-docs-rule.md)
 >>>>>>> 2cb7d4f (.)
+=======
+- **Documentation Rules**: [No lang/lang/ and No _docs/ Rule](../../../../../docs/wiki/concepts/no-lang-lang-and-no-underscore-docs-rule.md)
+>>>>>>> 11674ce (.)
 
 ## Directory Structure
 
@@ -65,6 +73,7 @@ At theme root level, these folders MUST NOT exist:
 - ❌ `Listeners/`
 - ❌ `Database/` (capitalized)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -93,3 +102,8 @@ Xot ← UI ← Geo, User, Tenant, Activity, …
 >>>>>>> 11674ce (.)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+---
+
+*Updated: June 2026*
+>>>>>>> 11674ce (.)
