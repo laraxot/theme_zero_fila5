@@ -58,4 +58,4 @@ public function getSmsFormSchema(): array
 4. **Compatibilità XotBasePage**: Progettato per lavorare con array associativi
 
 ## Riferimenti
-- [Modules/Notify/docs/FORM_SCHEMA_CONVENTIONS.md](file:///var/www/html/saluteora/laravel/Modules/Notify/docs/FORM_SCHEMA_CONVENTIONS.md)
+- [Modules/Notify/docs/FORM_SCHEMA_CONVENTIONS.md](file:///var/www/html/healthcare_app/laravel/Modules/Notify/docs/FORM_SCHEMA_CONVENTIONS.md)
