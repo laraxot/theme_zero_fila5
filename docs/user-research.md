@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -473,10 +474,13 @@ This document presents user research findings for Theme Zero, the ultra-minimali
 Thank you to all 22 research participants and 9 pre-alpha testers.
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 # User Research: Zero Theme
 
 ## 🔬 Research Goals
 Identify user needs for Zero functionality.
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 
@@ -933,3 +937,5 @@ Thank you to all 22 research participants and 9 pre-alpha testers.
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)

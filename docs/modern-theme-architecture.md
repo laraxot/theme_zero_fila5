@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Architettura Moderna dei Temi - Zero Theme
 
 Il tema Zero segue i principi di modularità e performance introdotti con Laravel 12 e Filament 5.

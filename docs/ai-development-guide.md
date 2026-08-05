@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,10 +26,13 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # AI-Assisted Development Guide - Zero Theme
 
 ## Overview
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +50,9 @@ This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf
 =======
 This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
 >>>>>>> 2cb7d4f (.)
+=======
+This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
+>>>>>>> 11674ce (.)
 
 Zero is a flexible, modern Laravel theme system built on Filament 5, Livewire 4, and Volt. Understanding how to configure AI assistants for theme development ensures faster, more consistent development.
 
@@ -698,6 +705,7 @@ Consider creating a custom MCP server for Zero theme operations:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Maintainer**: healthcare_app Team
 
 *This guide is part of the healthcare_app documentation standard for AI-assisted development.*
@@ -722,3 +730,8 @@ Consider creating a custom MCP server for Zero theme operations:
 
 *This guide is part of the healthcare_app documentation standard for AI-assisted development.*
 >>>>>>> 2cb7d4f (.)
+=======
+**Maintainer**: healthcare_app Team
+
+*This guide is part of the healthcare_app documentation standard for AI-assisted development.*
+>>>>>>> 11674ce (.)

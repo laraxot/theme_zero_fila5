@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -22,6 +23,8 @@ qmd: "deprecated renamed product-strategy.md"
 > Do not add dates or underscores in filenames.
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 # Product Strategy - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -615,6 +618,7 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-03-12 | Theme Team | Initial strategy for pre-alpha theme |
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 ---
@@ -624,3 +628,5 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)

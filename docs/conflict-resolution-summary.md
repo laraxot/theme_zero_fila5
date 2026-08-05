@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -28,6 +29,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅
@@ -85,10 +88,14 @@ public function form(Form $form): Form
 
 ### ⚠️ Richiede Attenzione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Xot/Helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
 =======
 - **Xot/helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
 >>>>>>> 2cb7d4f (.)
+=======
+- **Xot/helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
+>>>>>>> 11674ce (.)
 
 ## Script Creati
 
@@ -190,7 +197,11 @@ Tutti i file modificati hanno backup con estensione `.backup` per eventuali roll
 
 ## Conclusione
 <<<<<<< HEAD
+<<<<<<< HEAD
 La migrazione a Filament 4 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
 =======
 La migrazione a Filament 4 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
 >>>>>>> 2cb7d4f (.)
+=======
+La migrazione a Filament 4 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
+>>>>>>> 11674ce (.)

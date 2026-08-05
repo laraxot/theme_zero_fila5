@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -379,10 +380,13 @@ For every component added this sprint:
 | Lead Dev | | |
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 # Sprint Planning: Zero Theme
 
 ## 🏁 Sprint Goal
 Finalize documentation and validation for Zero.
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 
@@ -745,3 +749,5 @@ For every component added this sprint:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
