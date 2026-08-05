@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -22,6 +23,8 @@ qmd: "deprecated renamed sprint-planning.md"
 > Do not add dates or underscores in filenames.
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 11674ce (.)
 # Sprint Planning - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -378,6 +381,7 @@ For every component added this sprint:
 |------|------|------|
 | Product Owner | | |
 | Lead Dev | | |
+<<<<<<< HEAD
 >>>>>>> 11674ce (.)
 =======
 ---
@@ -387,3 +391,5 @@ For every component added this sprint:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
