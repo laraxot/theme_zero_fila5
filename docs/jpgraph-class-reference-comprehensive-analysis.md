@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 099e856 (sync)
 =======
@@ -25,6 +26,8 @@ related:
 >>>>>>> 099e856 (sync)
 =======
 >>>>>>> 2cb7d4f (.)
+=======
+>>>>>>> 11674ce (.)
 # 📚 JpGraph Class Reference - Analisi Completta 2024
 
 ## 🎯 **Introduzione alla Documentazione JpGraph**
@@ -444,6 +447,7 @@ $graph->Stroke();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🔄 **Integrazione con healthcare_app**
 =======
 <<<<<<< .merge_file_pJ783w
@@ -458,6 +462,9 @@ $graph->Stroke();
 =======
 ## 🔄 **Integrazione con healthcare_app**
 >>>>>>> 2cb7d4f (.)
+=======
+## 🔄 **Integrazione con healthcare_app**
+>>>>>>> 11674ce (.)
 
 ### **Pattern di Integrazione**
 ```php
