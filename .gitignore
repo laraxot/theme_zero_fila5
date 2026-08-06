@@ -1,294 +1,142 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-# Auto-generated forbidden paths — do not edit manually
-# Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
+# ==============================================
+# LARAXOT THEME .GITIGNORE — Zero
+# ==============================================
+# Allineato a laravel/Modules/.gitignore_template
+# ==============================================
 
+# ==============================================
+# FORBIDDEN PATHS (root cleanup policy)
+# see docs/wiki/rules/root-cleanup-policy.md
+# see docs/wiki/rules/module-theme-root-cleanup.md
+# ==============================================
 bashscripts
+bashscripts/
 _bmad-output
 .circleci
 .claude-audit
-.devcontainer
 _docs
+_docs/
 docs/archive
 docs/archived
 docs/legacy
 docs/workbench
+docs/screenshots
 .kilocode
 .kiro
 .ralph
 scripts
+extras
 test-results
 tests/.claude-audit
-*.log
-*.phar
-*.lock
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
-*.log
-*.phar
-*.lock
+tests/AuditCoverage
+tests/AuditCoverage/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-uploads
-limesurvey
+# ==============================================
+# DEPENDENCIES & BUILD
+# ==============================================
 vendor
+vendor/
+node_modules/
 build
 package-lock.json
-error_log
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+uploads
+limesurvey
 
->>>>>>> 11674ce (.)
-=======
-
->>>>>>> 2cb7d4f (.)
-=======
-
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-*.gz
+# ==============================================
+# CACHE & TEMPORARY FILES
+# ==============================================
 *.cache
+*.gz
+*.lock
+*.phar
 /cache
-.git-rewrite
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+*:Zone.Identifier
 
->>>>>>> 11674ce (.)
-=======
+# ==============================================
+# LOG FILES
+# ==============================================
+*.log
+logs
+error_log
 
->>>>>>> 2cb7d4f (.)
-=======
+# ==============================================
+# ENVIRONMENT
+# ==============================================
+.env
+.env.docker
+.env.latest
 
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-_ide_helper_models.php
+# ==============================================
+# BACKUP FILES
+# ==============================================
 *.old
 *.bak
 *.backup
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 11674ce (.)
-=======
-
->>>>>>> 2cb7d4f (.)
-=======
-
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-public_html/vendor
-public_html/js
-public_html/css
-public_html/storage
-public_html/error_log
-public_html/chart
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 11674ce (.)
-=======
-
->>>>>>> 2cb7d4f (.)
-=======
-
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-laravel/*.lock
-laravel/lang/vendor/
-laravel/database/migrations
-laravel/resources/views/vendor
-laravel/composer.lock
-laravel/package-lock.json
-laravel/error_log
-laravel/.phpstorm.meta.php
-laravel/_ide_helper.php
-<<<<<<< HEAD
-laravel/public
-laravel/resources/lang/vendor/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-laravel/public
-laravel/resources/lang/vendor/
-=======
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
-laravel/error_log
-laravel/public
-laravel/resources/lang/vendor/
-laravel/composer.lock
-
-
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-vendor/
-public_html/css/
-public_html/js/
-public_html/vendor/
-public_html/vendor/*
-laravel/bootstrap/cache/*
-<<<<<<< HEAD
-laravel/stubs
-laravel/resources/views/vendor/
+# ==============================================
+# GIT SPECIFIC
+# ==============================================
+.git-rewrite
 .git-rewrite/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-laravel/stubs
-laravel/resources/views/vendor/
-.git-rewrite/
-=======
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
-public_html/vendor/
-public_html/js/
-laravel/stubs
-laravel/resources/lang/vendor/
-laravel/resources/views/vendor/
-public_html/vendor/
-.git-rewrite/
-public_html/css
-public_html/js
-vendor
-public_html/css/
-public_html/js/
-public_html/js/
-public_html/css/
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-*:Zone.Identifier
-.env
-laravel/database/migrations/
-logs
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-bashscripts/
->>>>>>> 11674ce (.)
-=======
-bashscripts/
->>>>>>> 2cb7d4f (.)
-=======
-bashscripts/
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-laravel/
-public_html/
-.env.docker
-.env.latest
-node_modules/
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-# PHPStan output files
-phpstan*.json
+
+# ==============================================
+# DEVELOPMENT TOOLS
+# IDE folders forbidden at module/theme root
+# see docs/wiki/rules/module-theme-root-hygiene.md
+# ==============================================
+.agents
+.cursor
 .cursor/
-.vscode/
-.windsurf/
-tests/AuditCoverage
-# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
-
-# Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
-.cursor/
+.devcontainer
 .devcontainer/
 .vscode/
 .windsurf/
-extras
-tests/AuditCoverage/
 
-# Laraxot — quality tool configs forbidden in module/theme root (use laravel/phpinsights.php, laravel/rector.php)
+# ==============================================
+# QUALITY TOOLS
+# configs forbidden in module/theme root
+# (use laravel/phpinsights.php, laravel/rector.php)
+# ==============================================
 phpinsights.php
 rector.php
-.cursor
-docs/screenshots
-.agents
+phpstan*.json
 
-# Output strumenti AI (cache locali, mai in git)
+# ==============================================
+# AI TOOL OUTPUT (cache locali, mai in git)
+# ==============================================
 graphify-out/
 .headroom/
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
 
-# PHPStan output files
-phpstan*.json
-_docs/
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
-=======
->>>>>>> 2cb7d4f (.)
-.cursor/
-.devcontainer/
-.vscode/
-.windsurf/
-<<<<<<< HEAD
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
+# ==============================================
+# LEGACY — path ereditati dal .gitignore del repo root.
+# Inerti dentro il repo tema, mantenuti per compatibilita'
+# con i checkout in cui il tema viene usato come root.
+# ==============================================
+laravel/
+laravel/*.lock
+laravel/_ide_helper.php
+laravel/.phpstorm.meta.php
+laravel/bootstrap/cache/*
+laravel/composer.lock
+laravel/database/migrations
+laravel/database/migrations/
+laravel/error_log
+laravel/lang/vendor/
+laravel/package-lock.json
+laravel/public
+laravel/resources/lang/vendor/
+laravel/resources/views/vendor
+laravel/resources/views/vendor/
+laravel/stubs
+public_html/
+public_html/chart
+public_html/css
+public_html/css/
+public_html/error_log
+public_html/js
+public_html/js/
+public_html/storage
+public_html/vendor
+public_html/vendor/
+public_html/vendor/*
+_ide_helper_models.php
