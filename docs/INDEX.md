@@ -11,22 +11,6 @@ related:
 
 # Documentation Index — Theme Zero
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-> **Note 2026-07-24**: this index is redundant with [00-index.md](./00-index.md) (canonical, updated
-> 2026-03-28, aligned with current stack: Filament 5, Livewire 4, Volt, Tailwind v4). Kept only for the
-> `archive/duplicates` links below which are not referenced elsewhere.
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ## Archive
 - [archive/duplicates/conflict-resolution-summary](./archive/duplicates/conflict_resolution_summary.md)
 

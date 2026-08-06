@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
----
-title: "Configurazione .env.development - Ambiente di Sviluppo"
-type: rule
-tags: ['filament', 'laravel', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "configurazione envdevelopment - ambiente di sviluppo"
-related:
-  - "./00-index.md"
-  - "./00-index.md"
----
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Configurazione .env.development - Ambiente di Sviluppo
 
 ## Panoramica
@@ -298,16 +262,4 @@ SESSION_DOMAIN=null
 
 ## Conclusione
 
-<<<<<<< HEAD
 Il file `.env.development` rappresenta la configurazione ottimale per lo sviluppo rapido e efficiente di healthcare_app Fila5 Mono. La sua struttura differenzia significativamente dalla produzione per favorire setup zero-setup, performance ottimizzate e debugging più semplice. Questa configurazione è essenziale per mantenere un ambiente di sviluppo fluido e produttivo.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il file `.env.development` rappresenta la configurazione ottimale per lo sviluppo rapido e efficiente di healthcare_app Fila5 Mono. La sua struttura differenzia significativamente dalla produzione per favorire setup zero-setup, performance ottimizzate e debugging più semplice. Questa configurazione è essenziale per mantenere un ambiente di sviluppo fluido e produttivo.
-=======
-Il file `.env.development` rappresenta la configurazione ottimale per lo sviluppo rapido e efficiente di healthcare_app Fila5 Mono. La sua struttura differenzia significativamente dalla produzione per favorire setup zero-setup, performance ottimizzate e debugging più semplice. Questa configurazione è essenziale per mantenere un ambiente di sviluppo fluido e produttivo.
->>>>>>> 2cb7d4f (.)
-=======
-Il file `.env.development` rappresenta la configurazione ottimale per lo sviluppo rapido e efficiente di healthcare_app Fila5 Mono. La sua struttura differenzia significativamente dalla produzione per favorire setup zero-setup, performance ottimizzate e debugging più semplice. Questa configurazione è essenziale per mantenere un ambiente di sviluppo fluido e produttivo.
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

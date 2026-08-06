@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
----
-title: "Esempi di Utilizzo - Tema Zero"
-type: guide
-tags: ['laravel', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "esempi di utilizzo - tema zero"
-related:
-  - "./00-index.md"
-  - "./00-index.md"
----
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Esempi di Utilizzo - Tema Zero
 
 ## Panoramica
@@ -558,4 +522,4 @@ Questa sezione fornisce esempi pratici di come utilizzare il Tema Zero in divers
 - [Documentazione Blade](https://laravel.com/docs/blade)
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
 - [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/)
-- [Best Practices SEO](https://developers.google.com/search/docs) 
+- [Best Practices SEO](https://developers.google.com/search/docs)

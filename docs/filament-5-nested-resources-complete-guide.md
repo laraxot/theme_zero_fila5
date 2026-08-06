@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
----
-title: "🎯 Filament 5.x Nested Resources - Guida Completa 2024"
-type: guide
-tags: ['filament', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "filament 5x nested resources - guida completa 2024"
-related:
-  - "./00-index.md"
-  - "./00-index.md"
----
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # 🎯 Filament 5.x Nested Resources - Guida Completa 2024
 
 ## 📋 **Introduzione a Nested Resources**
@@ -78,55 +42,11 @@ php artisan make:filament-page ManageCourseLessons --resource=CourseResource --t
 ```php
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 namespace Modules\healthcare_app\Filament\Resources\Courses;
 
 use Filament\Resources\Resource;
 use Filament\Resources\Pages\Page;
 use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-=======
-namespace Modules\ModuloEsempio\Filament\Resources\Courses;
-
-use Filament\Resources\Resource;
-use Filament\Resources\Pages\Page;
-use Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\LessonResource;
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 class CourseResource extends Resource
 {
@@ -163,55 +83,11 @@ class CourseResource extends Resource
 ```php
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
 
 use Filament\Resources\Resource;
 use Filament\Resources\Pages\Page;
 use Modules\healthcare_app\Filament\Resources\Courses\CourseResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-=======
-namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
-
-use Filament\Resources\Resource;
-use Filament\Resources\Pages\Page;
-use Modules\ModuloEsempio\Filament\Resources\Courses\CourseResource;
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 class LessonResource extends Resource
 {
@@ -250,66 +126,12 @@ class LessonResource extends Resource
 ```php
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
-=======
-<<<<<<< .merge_file_6hFAcq
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
-=======
-namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> 11674ce (.)
-=======
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> 2cb7d4f (.)
-=======
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Forms;
 use Filament\Tables\Table;
 use Filament\Forms\Form;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
-=======
-<<<<<<< .merge_file_6hFAcq
-use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
-=======
-use Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\LessonResource;
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
->>>>>>> 11674ce (.)
-=======
-use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
->>>>>>> 2cb7d4f (.)
-=======
-use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 class LessonsRelationManager extends RelationManager
 {
@@ -372,55 +194,11 @@ class LessonsRelationManager extends RelationManager
 ```php
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
 
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Resources\ParentResourceRegistration;
 use Modules\healthcare_app\Filament\Resources\Courses\CourseResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-=======
-namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
-
-use Filament\Resources\RelationManagers\RelationManager;
-use Filament\Resources\ParentResourceRegistration;
-use Modules\ModuloEsempio\Filament\Resources\Courses\CourseResource;
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 class LessonResource extends Resource
 {
@@ -441,33 +219,6 @@ class LessonResource extends Resource
 ```php
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
-=======
-<<<<<<< .merge_file_6hFAcq
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
-=======
-namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> 11674ce (.)
-=======
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> 2cb7d4f (.)
-=======
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 use Filament\Resources\RelationManagers\RelationManager;
 use Illuminate\Database\Eloquent\Model;
@@ -494,33 +245,6 @@ class LessonsRelationManager extends RelationManager
 ```php
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
-=======
-<<<<<<< .merge_file_6hFAcq
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
-=======
-namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> 11674ce (.)
-=======
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> 2cb7d4f (.)
-=======
-namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 use Filament\Resources\RelationManagers\RelationManager;
 use Illuminate\Database\Eloquent\Model;
@@ -592,55 +316,11 @@ public function create(): array
 ```php
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\Pages;
 
 use Filament\Resources\Pages\CreateRecord;
 use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
 use Modules\healthcare_app\Models\Course;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-=======
-namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\Pages;
-
-use Filament\Resources\Pages\CreateRecord;
-use Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\LessonResource;
-use Modules\ModuloEsempio\Models\Course;
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 class CreateLesson extends CreateRecord
 {
@@ -685,53 +365,10 @@ Per dettagli completi sul pattern, vedere anche `../../../Modules/Xot/docs/filam
 ```php
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6hFAcq
->>>>>>> laraxot/dev
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\Pages;
 
 use Filament\Resources\Pages\CreateRecord;
 use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-=======
-namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\Pages;
-
-use Filament\Resources\Pages\CreateRecord;
-use Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\LessonResource;
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 use Illuminate\Validation\Rule;
 
 class CreateLesson extends CreateRecord
@@ -832,33 +469,6 @@ dd($this->getRouteKey(), $this->getRecord());
 public function test_nested_resource_routing()
 {
     $course = Course::factory()->create();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-    $response = $this->get(route('filament.healthcare_app.resources.courses.resources.lessons.list', [
-=======
-<<<<<<< .merge_file_6hFAcq
-    $response = $this->get(route('filament.healthcare_app.resources.courses.resources.lessons.list', [
-=======
-    $response = $this->get(route('filament.ptvx.resources.courses.resources.lessons.list', [
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-    $response = $this->get(route('filament.healthcare_app.resources.courses.resources.lessons.list', [
->>>>>>> 11674ce (.)
-=======
-    $response = $this->get(route('filament.healthcare_app.resources.courses.resources.lessons.list', [
->>>>>>> 2cb7d4f (.)
-=======
-    $response = $this->get(route('filament.healthcare_app.resources.courses.resources.lessons.list', [
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
         'course' => $course,
     ]));
     
@@ -872,33 +482,6 @@ public function test_nested_resource_routing()
 - **API Reference**: https://filamentphp.com/docs/5.x/api/resources/nested-resources
 - **Plugin Guava**: https://filamentphp.com/plugins/guava-nested-resources
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-## 🔄 **Integrazione con healthcare_app**
-=======
-<<<<<<< .merge_file_6hFAcq
-## 🔄 **Integrazione con healthcare_app**
-=======
-## 🔄 **Integrazione con ModuloEsempio**
->>>>>>> .merge_file_ceuDyu
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-## 🔄 **Integrazione con healthcare_app**
->>>>>>> 11674ce (.)
-=======
-## 🔄 **Integrazione con healthcare_app**
->>>>>>> 2cb7d4f (.)
-=======
-## 🔄 **Integrazione con healthcare_app**
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ### **Pattern di Integrazione**
 

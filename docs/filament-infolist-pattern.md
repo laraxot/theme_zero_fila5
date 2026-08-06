@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
----
-title: "Pattern Infolist Filament (Theme Zero)"
-type: pattern
-tags: ['filament']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "pattern infolist filament theme zero"
-related:
-  - "./00-index.md"
-  - "./00-index.md"
----
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Pattern Infolist Filament (Theme Zero)
 
 ## Overview
@@ -166,39 +130,3 @@ XotBaseResourceInfolist (abstract)
 ## Documentazione Modulo
 
 Per dettagli completi del pattern, vedere:
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
-- [Documentazione Performance - Infolist Pattern](../../../laravel/Modules/Performance/docs/filament-infolist-pattern.md)
-- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
-- [XotBaseResourceInfolist - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
-- [XotBaseResource - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/XotBaseResource.php)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
-- [Documentazione Performance - Infolist Pattern](../../Modules/Performance/docs/filament-infolist-pattern.md)
-- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
-- [XotBaseResourceInfolist - Sorgente](../../Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
-- [XotBaseResource - Sorgente](../../Modules/Xot/app/Filament/Resources/XotBaseResource.php)
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

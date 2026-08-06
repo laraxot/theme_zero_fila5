@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Zero - Sprint Planning Meeting"
 type: guide
@@ -18,22 +7,8 @@ updated: 2026-07-14
 qmd: "zero - sprint planning meeting"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Zero - Sprint Planning Meeting
 
 > Documento operativo per sprint planning. Tema.
@@ -82,24 +57,4 @@ Spostare **Zero** in avanti sui gap P0/P1 piu' vicini al valore, evitando lavoro
 
 - [Product Strategy](product-strategy.md)
 - [Product Launch Plan](product-launch-plan.md)
-<<<<<<< HEAD
-- [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
-=======
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
->>>>>>> 11674ce (.)
-=======
-- [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
->>>>>>> 099e856 (sync)
-=======
-- [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
->>>>>>> 2cb7d4f (.)
-=======
-- [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

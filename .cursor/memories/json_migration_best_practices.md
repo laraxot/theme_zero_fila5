@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # JSON Migration Best Practices in Laravel & healthcare_app
-=======
-# JSON Migration Best Practices in Laravel & SaluteOra
->>>>>>> laraxot/dev
 
 ## Critical Error Identified
 
@@ -10,11 +6,7 @@ The error `SQLSTATE[22032]: <<Unknown error>>: 3140 Invalid JSON text: "Invalid 
 
 ## Root Cause
 
-<<<<<<< HEAD
 When using `XotBaseMigration` in healthcare_app:
-=======
-When using `XotBaseMigration` in SaluteOra:
->>>>>>> laraxot/dev
 
 1. The pattern `$table->json('field_name')->nullable()->change()` directly attempts to convert existing data
 2. This fails if any record in the column contains data that is not valid JSON
@@ -78,8 +70,4 @@ Before running migrations that involve JSON conversions:
 4. ✅ Consider chunking for large tables to avoid memory issues
 5. ✅ Always have a backup of the database before running JSON migrations
 
-<<<<<<< HEAD
 This memory replaces any previous guidance on JSON migrations and must be followed for all migrations in healthcare_app that involve JSON columns.
-=======
-This memory replaces any previous guidance on JSON migrations and must be followed for all migrations in SaluteOra that involve JSON columns.
->>>>>>> laraxot/dev

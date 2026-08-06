@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
----
-title: "🎨 THEMES SYSTEM - IL VESTITO DI LARAXOT"
-type: guide
-tags: ['filament', 'laravel', 'charts', 'pdf']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "themes system - il vestito di laraxot"
-related:
-  - "./00-index.md"
-  - "./00-index.md"
----
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # 🎨 THEMES SYSTEM - IL VESTITO DI LARAXOT
 
 ## 📋 INDICE
@@ -295,65 +259,11 @@ namespace Themes\Zero\View\Components;
 
 use Illuminate\View\Component;
 use Illuminate\View\View;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-use Modules\healthcare_app\Models\SurveyPdf;
-=======
-<<<<<<< .merge_file_Db191X
-use Modules\healthcare_app\Models\SurveyPdf;
-=======
-use Modules\ModuloEsempio\Models\SurveyPdf;
->>>>>>> .merge_file_RzKuwA
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-use Modules\healthcare_app\Models\SurveyPdf;
->>>>>>> 11674ce (.)
-=======
-use Modules\healthcare_app\Models\SurveyPdf;
->>>>>>> 2cb7d4f (.)
-=======
-use Modules\healthcare_app\Models\SurveyPdf;
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 /**
  * SurveyCard: Visualizzazione survey card
  * 
  * NOTA: Solo presentazione, nessuna logica business
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
- * La logica sta nei moduli healthcare_app
-=======
-<<<<<<< .merge_file_Db191X
- * La logica sta nei moduli healthcare_app
-=======
- * La logica sta nei moduli ModuloEsempio
->>>>>>> .merge_file_RzKuwA
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
- * La logica sta nei moduli healthcare_app
->>>>>>> 11674ce (.)
-=======
- * La logica sta nei moduli healthcare_app
->>>>>>> 2cb7d4f (.)
-=======
- * La logica sta nei moduli healthcare_app
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
  */
 class SurveyCard extends Component
 {
@@ -475,64 +385,10 @@ class SurveyCard extends Component
     <!-- Actions (se richieste) -->
     @if($showActions)
         <div class="flex justify-end space-x-2">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.view', ['record' => $survey->id]) }}" 
-=======
-<<<<<<< .merge_file_Db191X
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.view', ['record' => $survey->id]) }}" 
-=======
-            <a href="{{ route('filament.ptvx::admin.resources.survey-pdfs.view', ['record' => $survey->id]) }}" 
->>>>>>> .merge_file_RzKuwA
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.view', ['record' => $survey->id]) }}" 
->>>>>>> 11674ce (.)
-=======
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.view', ['record' => $survey->id]) }}" 
->>>>>>> 2cb7d4f (.)
-=======
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.view', ['record' => $survey->id]) }}" 
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
                class="inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                 Visualizza
             </a>
             
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.edit', ['record' => $survey->id]) }}" 
-=======
-<<<<<<< .merge_file_Db191X
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.edit', ['record' => $survey->id]) }}" 
-=======
-            <a href="{{ route('filament.ptvx::admin.resources.survey-pdfs.edit', ['record' => $survey->id]) }}" 
->>>>>>> .merge_file_RzKuwA
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.edit', ['record' => $survey->id]) }}" 
->>>>>>> 11674ce (.)
-=======
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.edit', ['record' => $survey->id]) }}" 
->>>>>>> 2cb7d4f (.)
-=======
-            <a href="{{ route('filament.healthcare_app::admin.resources.survey-pdfs.edit', ['record' => $survey->id]) }}" 
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
                class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                 Modifica
             </a>
