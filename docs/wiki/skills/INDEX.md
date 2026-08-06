@@ -21,23 +21,3 @@ qmd search "Zero theme skill filament" --limit 5
 ```
 
 ---
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-**Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-=======
-**Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-**Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
->>>>>>> 099e856 (sync)
-=======
-**Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev

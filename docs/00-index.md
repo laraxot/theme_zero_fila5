@@ -1,47 +1,15 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Zero Theme - Documentation Index"
 type: concept
 tags: ['filament', 'laravel', 'charts', 'testing']
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-08-06
 qmd: "zero theme - documentation index"
-related:
-  - "./00-index.md"
-  - "./00-index.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Zero Theme - Documentation Index
 
-**Last Update**: 2026-03-28
+**Last Update**: 2026-08-06
 **Status**: Available
 **Theme Version**: 1.0
 
@@ -63,6 +31,7 @@ related:
 - [layouts.md](./layouts.md) - Layout system
 - [authentication.md](./authentication.md) - Auth integration
 - [customization.md](./customization.md) - Theme customization
+- [translations.md](./translations.md) - Theme translation files and conventions
 
 ### Product & Planning
 - [product-requirements.md](./product-requirements.md) - PRD
@@ -81,29 +50,7 @@ related:
 | Volt | latest | Livewire functional/class components |
 
 ### Anti-Patterns
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-- QuestionChartAnswersTripleChartWidget — why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
-=======
-- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
->>>>>>> 11674ce (.)
-=======
-- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
->>>>>>> 2cb7d4f (.)
-=======
-- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
+- QuestionChartAnswersTripleChartWidget - why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
 
 ### Theme Characteristics
 - **Style**: Ultra-minimalist
@@ -112,40 +59,10 @@ related:
 
 ### Related Resources
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 - [Cms Module](../../../Modules/Cms/docs/README.md)
 - [UI Module](../../../Modules/UI/docs/README.md)
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
-=======
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../Modules/UI/docs/README.md)
-- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../Modules/UI/docs/README.md)
-- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
->>>>>>> 11674ce (.)
-=======
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../Modules/UI/docs/README.md)
-- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
->>>>>>> 2cb7d4f (.)
-=======
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../Modules/UI/docs/README.md)
-- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-- [agents.md](../../../agents.md) - Project guidelines
+- [agents.md](../../../../agents.md) - Project guidelines
 
 ---
 

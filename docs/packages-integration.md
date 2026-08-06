@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
----
-title: "Integrazione Pacchetti nel Tema Zero"
-type: guide
-tags: ['laravel', 'charts', 'pdf', 'permission']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "integrazione pacchetti nel tema zero"
-related:
-  - "./00-index.md"
-  - "./00-index.md"
----
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Integrazione Pacchetti nel Tema Zero
 
 Il tema Zero utilizza le ultime tecnologie dell'ecosistema Laravel per offrire un'esperienza utente moderna e accessibile.
