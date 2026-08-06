@@ -1,34 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
----
-title: "Funzionalita avanzate (dark mode, export)"
-type: guide
-tags: ['testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "funzionalita avanzate dark mode export"
-related:
-  - "./accessibility-standards.md"
-  - "./advanced-features.md"
-  - "./component-library.md"
----
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
 # Funzionalita avanzate (dark mode, export)
 
 ## Obiettivo
