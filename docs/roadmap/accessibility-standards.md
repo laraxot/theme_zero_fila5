@@ -1,34 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
----
-title: "Accessibilita e standard cross-browser"
-type: rule
-tags: ['testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "accessibilita e standard cross-browser"
-related:
-  - "./accessibility-standards.md"
-  - "./advanced-features.md"
-  - "./component-library.md"
----
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
 # Accessibilita e standard cross-browser
 
 ## Obiettivo
