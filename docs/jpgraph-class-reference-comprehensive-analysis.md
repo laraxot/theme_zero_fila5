@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
----
-title: "📚 JpGraph Class Reference - Analisi Completta 2024"
-type: guide
-tags: ['charts', 'pdf', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "jpgraph class reference - analisi completta 2024"
-related:
-  - "./00-index.md"
-  - "./00-index.md"
----
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # 📚 JpGraph Class Reference - Analisi Completta 2024
 
 ## 🎯 **Introduzione alla Documentazione JpGraph**
@@ -450,33 +414,6 @@ $graph->Stroke();
 - **API Reference**: https://jpgraph.net/doc/
 - **FAQ**: https://jpgraph.net/doc/faq.html
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-## 🔄 **Integrazione con healthcare_app**
-=======
-<<<<<<< .merge_file_pJ783w
-## 🔄 **Integrazione con healthcare_app**
-=======
-## 🔄 **Integrazione con ModuloEsempio**
->>>>>>> .merge_file_p17MPd
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
-## 🔄 **Integrazione con healthcare_app**
->>>>>>> 11674ce (.)
-=======
-## 🔄 **Integrazione con healthcare_app**
->>>>>>> 2cb7d4f (.)
-=======
-## 🔄 **Integrazione con healthcare_app**
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ### **Pattern di Integrazione**
 ```php

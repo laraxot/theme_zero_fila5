@@ -8,26 +8,6 @@ related:
 
 # organizzativa money
 
-<<<<<<< HEAD
-Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../docs/wiki/how-to/module-docs-deduplication.md).
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../docs/wiki/how-to/module-docs-deduplication.md).
-=======
 Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../../docs/wiki/how-to/module-docs-deduplication.md).
->>>>>>> 11674ce (.)
-=======
-Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../docs/wiki/how-to/module-docs-deduplication.md).
->>>>>>> 099e856 (sync)
-=======
-Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../docs/wiki/how-to/module-docs-deduplication.md).
->>>>>>> 2cb7d4f (.)
-=======
-Stub **DRY** verso wiki modulo **Xot**. Policy: [docs-deduplication](../../../../../../docs/wiki/how-to/module-docs-deduplication.md).
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 → [organizzativa-money.md](../../../../../Modules/Xot/docs/wiki/concepts/organizzativa-money.md)
