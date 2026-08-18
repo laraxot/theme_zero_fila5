@@ -1,142 +1,127 @@
-# ==============================================
-# LARAXOT THEME .GITIGNORE — Zero
-# ==============================================
-# Allineato a laravel/Modules/.gitignore_template
-# ==============================================
+# Auto-generated forbidden paths — do not edit manually
+# Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
-# ==============================================
-# FORBIDDEN PATHS (root cleanup policy)
-# see docs/wiki/rules/root-cleanup-policy.md
-# see docs/wiki/rules/module-theme-root-cleanup.md
-# ==============================================
-bashscripts
+# -----------------------------------------------------------------------------
+# Root-level forbidden directories
+# -----------------------------------------------------------------------------
+
 bashscripts/
-_bmad-output
-.circleci
-.claude-audit
-_docs
+_bmad-output/
+.circleci/
+.claude-audit/
+.devcontainer/
 _docs/
-docs/archive
-docs/archived
-docs/legacy
-docs/workbench
-docs/screenshots
-.kilocode
-.kiro
-.ralph
-scripts
-extras
-test-results
-tests/.claude-audit
-tests/AuditCoverage
+docs/archive/
+docs/archived/
+docs/legacy/
+docs/workbench/
+.kilocode/
+.kiro/
+.ralph/
+scripts/
+test-results/
+tests/.claude-audit/
 tests/AuditCoverage/
 
-# ==============================================
-# DEPENDENCIES & BUILD
-# ==============================================
-vendor
-vendor/
-node_modules/
-build
-package-lock.json
-uploads
-limesurvey
+# -----------------------------------------------------------------------------
+# IDE / AI tools
+# -----------------------------------------------------------------------------
 
-# ==============================================
-# CACHE & TEMPORARY FILES
-# ==============================================
-*.cache
-*.gz
-*.lock
+.cursor/
+.vscode/
+.windsurf/
+.agents/
+
+# -----------------------------------------------------------------------------
+# AI / local tooling output
+# -----------------------------------------------------------------------------
+
+graphify-out/
+.headroom/
+
+# -----------------------------------------------------------------------------
+# Logs, caches and temporary files
+# -----------------------------------------------------------------------------
+
+*.log
 *.phar
-/cache
+*.lock
+*.gz
+*.cache
+*.old
+*.bak
+*.backup
+error_log
+logs/
 *:Zone.Identifier
 
-# ==============================================
-# LOG FILES
-# ==============================================
-*.log
-logs
-error_log
+/cache/
+.git-rewrite/
 
-# ==============================================
-# ENVIRONMENT
-# ==============================================
+# -----------------------------------------------------------------------------
+# Environment files
+# -----------------------------------------------------------------------------
+
 .env
 .env.docker
 .env.latest
 
-# ==============================================
-# BACKUP FILES
-# ==============================================
-*.old
-*.bak
-*.backup
+# -----------------------------------------------------------------------------
+# Dependencies / generated assets
+# -----------------------------------------------------------------------------
 
-# ==============================================
-# GIT SPECIFIC
-# ==============================================
-.git-rewrite
-.git-rewrite/
+vendor/
+node_modules/
+uploads/
+limesurvey/
+build/
 
-# ==============================================
-# DEVELOPMENT TOOLS
-# IDE folders forbidden at module/theme root
-# see docs/wiki/rules/module-theme-root-hygiene.md
-# ==============================================
-.agents
-.cursor
-.cursor/
-.devcontainer
-.devcontainer/
-.vscode/
-.windsurf/
+# -----------------------------------------------------------------------------
+# Package manager files
+# -----------------------------------------------------------------------------
 
-# ==============================================
-# QUALITY TOOLS
-# configs forbidden in module/theme root
-# (use laravel/phpinsights.php, laravel/rector.php)
-# ==============================================
-phpinsights.php
-rector.php
-phpstan*.json
+package-lock.json
 
-# ==============================================
-# AI TOOL OUTPUT (cache locali, mai in git)
-# ==============================================
-graphify-out/
-.headroom/
+# -----------------------------------------------------------------------------
+# Public HTML generated/vendor assets
+# -----------------------------------------------------------------------------
 
-# ==============================================
-# LEGACY — path ereditati dal .gitignore del repo root.
-# Inerti dentro il repo tema, mantenuti per compatibilita'
-# con i checkout in cui il tema viene usato come root.
-# ==============================================
+public_html/vendor/
+public_html/js/
+public_html/css/
+public_html/storage/
+public_html/error_log
+public_html/chart/
+
+# -----------------------------------------------------------------------------
+# Laravel generated / local files
+# -----------------------------------------------------------------------------
+
 laravel/
 laravel/*.lock
-laravel/_ide_helper.php
-laravel/.phpstorm.meta.php
 laravel/bootstrap/cache/*
-laravel/composer.lock
-laravel/database/migrations
-laravel/database/migrations/
-laravel/error_log
-laravel/lang/vendor/
-laravel/package-lock.json
 laravel/public
+laravel/database/migrations/
 laravel/resources/lang/vendor/
-laravel/resources/views/vendor
 laravel/resources/views/vendor/
-laravel/stubs
-public_html/
-public_html/chart
-public_html/css
-public_html/css/
-public_html/error_log
-public_html/js
-public_html/js/
-public_html/storage
-public_html/vendor
-public_html/vendor/
-public_html/vendor/*
-_ide_helper_models.php
+laravel/stubs/
+laravel/composer.lock
+laravel/package-lock.json
+laravel/error_log
+laravel/.phpstorm.meta.php
+laravel/_ide_helper.php
+laravel/_ide_helper_models.php
+
+# -----------------------------------------------------------------------------
+# PHP / static analysis / quality tools
+# -----------------------------------------------------------------------------
+
+phpstan*.json
+phpinsights.php
+rector.php
+
+# -----------------------------------------------------------------------------
+# Documentation / generated screenshots
+# -----------------------------------------------------------------------------
+
+docs/screenshots/
