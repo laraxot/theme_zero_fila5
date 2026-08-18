@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Theme Zero Wiki — Schema e Convenzioni"
 type: guide
@@ -6,11 +10,16 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme zero wiki schema e convenzioni"
 related:
-  - "./SCHEMA.md"
+  - "./schema.md"
   - "./bmad-method.md"
   - "./log.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 11674ce (.)
+>>>>>>> laraxot/dev
 # Theme Zero Wiki — Schema e Convenzioni
 
 ## Dominio
