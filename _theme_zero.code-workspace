@@ -43,5 +43,8 @@
 		"recommendations": [
 			"junstyle.php-cs-fixer"
 		]
-	}
+	},
+	"files.exclude": {
+		"**/.git": false
+   }
 }
