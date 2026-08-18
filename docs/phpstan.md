@@ -1,121 +1,35 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
-title: "PHPStan Configuration - Theme Zero"
+title: "PHPStan — Theme Zero"
 type: guide
-tags: ['laravel', 'phpstan']
+tags: [laravel, phpstan, theme-zero]
 created: 2026-07-14
-updated: 2026-07-14
-qmd: "phpstan configuration - theme zero"
+updated: 2026-08-18
+qmd: "phpstan theme zero solo laravel/phpstan.neon modules gate no --level"
 related:
-  - "./00-index.md"
-  - "./00-index.md"
+  - "./phpstan-level10-analysis.md"
+  - "../../../../Modules/Xot/docs/stories/5.7.phpstan-modules-green.story.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-# PHPStan Configuration - Theme Zero
+# PHPStan — Theme Zero
 
-## Regola Fondamentale
+## Perché
 
-**SOLO `laravel/phpstan.neon` è la configurazione valida.**
-
-### ❌ VIETATO
-- Creare file `phpstan*.json` nei temi
-- Creare configurazioni alternative `phpstan.neon.dist`
-- Committare file di output PHPStan
-
-### ✅ PERMESSO
-- Usare `laravel/phpstan.neon` (configurazione centralizzata)
-- File di output temporanei (esclusi da .gitignore)
-
-## Configurazione Centralizzata
-
-```
-laravel/
-└── phpstan.neon          # UNICA configurazione valida
-```
-
-## Output Files
-
-I file di output PHPStan (es: `phpstan_themes_zero_filtered.json`) sono:
-- File temporanei di analisi
-- Da escludere nel `.gitignore`
-- **MAI committati nel repository**
-
-## .gitignore Aggiornamento
-
-Aggiungere al `.gitignore` del tema:
-```
-# PHPStan output files
-phpstan*.json
-```
-
-## Esecuzione Analisi
+Il tema serve il FO (login, layout). PHPStan **non** è il Job dell'utente: è il gate degli agenti. `laravel/phpstan.neon` ha `paths: Modules/` — analizzare **solo** il tema produce ignore unmatched e rumore. Il gate verde è:
 
 ```bash
-<<<<<<< HEAD
-cd ./laravel
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/_bases/base_ptvx_fila5_mono/laravel
-=======
-cd ./laravel
->>>>>>> 2cb7d4f (.)
-=======
-cd ./laravel
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
-./vendor/bin/phpstan analyse --level=10
+cd laravel && ./vendor/bin/phpstan clear-result-cache
+cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1 --no-progress
 ```
 
-## Riferimenti
+**Solo** `laravel/phpstan.neon`. Agenti: niente neon temp, niente `--level`, niente baseline.
 
-<<<<<<< HEAD
-- [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
-- [Root phpstan.neon](../../../laravel/phpstan.neon)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
-- [Root phpstan.neon](../../../laravel/phpstan.neon)
-=======
-- [PHPStan Level 10 Guidelines](../../docs/phpstan-level10.md)
-- [Root phpstan.neon](../../laravel/phpstan.neon)
->>>>>>> 11674ce (.)
-=======
-- [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
-- [Root phpstan.neon](../../../laravel/phpstan.neon)
->>>>>>> 099e856 (sync)
-=======
-- [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
-- [Root phpstan.neon](../../../laravel/phpstan.neon)
->>>>>>> 2cb7d4f (.)
-=======
-- [PHPStan Level 10 Guidelines](../../docs/phpstan-level10.md)
-- [Root phpstan.neon](../../laravel/phpstan.neon)
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
+## Vietato
+
+- `phpstan*.neon` / `phpstan*.json` nel tema (tranne output temporanei gitignored)
+- `analyse Themes` da solo
+
+## Permesso
+
+- Fixare **codice** del tema se un consumer in `Modules/` lo analizza
+- PHP del tema: `mixed` ultima spiaggia — [Xot phpstan-rules](../../../../Modules/Xot/docs/quality/phpstan-rules.md)
+- Dettaglio storico: [phpstan-level10-analysis.md](./phpstan-level10-analysis.md)
