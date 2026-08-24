@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Sprint Planning - Theme Zero"
 type: guide
@@ -18,14 +7,7 @@ updated: 2026-07-14
 qmd: "sprint planning - theme zero"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2cb7d4f (.)
 
 # Sprint Planning - Theme Zero
 
@@ -383,18 +365,10 @@ For every component added this sprint:
 |------|------|------|
 | Product Owner | | |
 | Lead Dev | | |
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
 # Sprint Planning: Zero Theme
 
 ## 🏁 Sprint Goal
 Finalize documentation and validation for Zero.
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
->>>>>>> laraxot/dev
 
 # Sprint Planning - Theme Zero
 
@@ -752,11 +726,3 @@ For every component added this sprint:
 |------|------|------|
 | Product Owner | | |
 | Lead Dev | | |
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
