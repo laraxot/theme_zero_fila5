@@ -603,6 +603,11 @@ When working with data in theme views:
 - [Theme Architecture](./architecture.md)
 - [Widget Structure (User Module)](../../../laravel/Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../../laravel/Modules/Cms/docs/frontoffice/filament-auth.md)
+- [Model Inheritance Rules (User Module)](../../Modules/User/docs/model-inheritance-rules.md)
+- [DRY/KISS Model Refactoring Analysis](../../Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
+- [Theme Architecture](./architecture.md)
+- [Widget Structure (User Module)](../../Modules/User/docs/widgets_structure.md)
+- [Filament Authentication Best Practices](../../Modules/Cms/docs/frontoffice/filament-auth.md)
 
 ---
 

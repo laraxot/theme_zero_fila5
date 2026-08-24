@@ -1,3 +1,14 @@
+---
+title: "🎨 DRY & KISS Analysis - Theme Zero"
+type: guide
+tags: ['theme', 'dry-kiss-analysis']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "dry kiss analysis - theme zero"
+related:
+  - "./00-index.md"
+---
+
 # 🎨 DRY & KISS Analysis - Theme Zero
 
 **Data Analisi:** 2025-12-02

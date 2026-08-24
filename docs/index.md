@@ -10,14 +10,12 @@ related:
   - "./stories/docs-theme-zero-audit-2026-09-11.story.md"
 ---
 
-# Documentation Index — Theme Zero
+> **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
+> [00-index.md](./00-index.md) (canonico, aggiornato 2026-03-28). Usare `00-index.md` come riferimento
+> primario; questo file non è stato consolidato per evitare di perdere la prosa introduttiva italiana.
 
-Elenco completo e verificato di tutti i 235 file `.md` sotto `docs/` (generato per
-directory con `find`, non a mano — vedi
-[stories/docs-theme-zero-audit-2026-09-11.story.md](./stories/docs-theme-zero-audit-2026-09-11.story.md)
-per il comando esatto). Per la navigazione curata per argomento, usa
-**[00-index.md](./00-index.md)** ("Quick Navigation") come punto di ingresso primario:
-questo file e' un inventario esaustivo, non una guida tematica.
+## Panoramica
+Questo documento serve come indice centrale per il tema Zero, fornendo una guida per la personalizzazione e l'utilizzo del tema all'interno dell'applicazione Laravel. Il tema Zero è un tema basato su TailwindCSS con supporto per Vite e componenti Blade moderni.
 
 ## Duplicati noti (non cancellati, solo documentati)
 
@@ -34,35 +32,10 @@ working tree che le conteneva gia'. Dettaglio investigativo completo nella story
 
 Forma canonica → variante non canonica (da trattare come storica, mai fonte primaria):
 
-- `architecture.md` → `ARCHITECTURE.md` (identico)
-- `prd.md` → `PRD.md` (identico)
-- `pandoc-guide.md` → `PANDOC_GUIDE.md` (identico)
-- `tech-spec.md` → `TECH_SPEC.md` (identico)
-- `metodi-duplicati-analisi.md` → `METODI-DUPLICATI-ANALISI.md`, `METODI_DUPLICATI_ANALISI.md` (identici)
-- `changelog.md` → `CHANGELOG.md` (CHANGELOG.md e' un merge successivo, dichiara da solo nel testo di essere nato da una collisione case-insensitive con `changelog.md`)
-- `readme-en.md` → `README-en.md` (differiscono solo per frontmatter mancante + un path relativo)
-- `frameworks.md` → `FRAMEWORKS.md` (differiscono solo per frontmatter mancante)
-- `index.md` (questo file) → `INDEX.md` (snapshot piu' vecchio, non aggiornato con questa revisione)
-- `00-index.md` → `00-INDEX.md` (quest'ultimo si autodichiara gia' ridondante dal 2026-07-24, nessuna azione necessaria)
-- `duplicate-methods.md` → `duplicate_methods.md` (marcato deprecato nel proprio frontmatter)
-- `duplicate-methods-report.md` → `duplicate_methods_report.md` (marcato deprecato nel proprio frontmatter)
-- `conflict-resolution-summary.md` → `conflict_resolution_summary.md`, `CONFLICT_RESOLUTION_SUMMARY.md` (marcati deprecati), `CONFLICT-RESOLUTION-SUMMARY.md` (**non era marcato**, corretto in questa sessione)
-- `product-roadmap.md`, `product-strategy.md`, `product-launch-plan.md` → `product_roadmap.md`, `product_strategy.md`, `product_launch_plan.md` (marcati deprecati nel proprio frontmatter; il contenuto kebab-case e' una riscrittura 2026, non una migrazione del testo legacy)
-- `sprint-planning.md`, `user-research.md` → `sprint_planning.md`, `user_research.md` (**bug reale, corretto in questa sessione**: i file canonici erano vuoti, tutto il contenuto era intrappolato nei file "deprecated")
+### Moduli Integrati
+- [Performance Actions Reference](./performance-actions-reference.md) - Riferimento action calcolo performance
 
-Non ancora sistemato (fuori scope per questa sessione, vedi story per dettagli):
-lo stesso pattern di duplicati case/underscore si ripete identico dentro `wiki/`
-(`wiki/INDEX.md` + `wiki/index.md`, `wiki/SCHEMA.md` + `wiki/schema.md`,
-`wiki/commands/INDEX.md` + `wiki/commands/index.md`, `wiki/concepts/INDEX.md` +
-`wiki/concepts/index.md`, `wiki/memories/INDEX.md` + `wiki/memories/index.md`,
-`wiki/rules/INDEX.md` + `wiki/rules/index.md`, `wiki/skills/INDEX.md` +
-`wiki/skills/index.md`); `_archive/` contiene copie di gran parte dei file sopra
-ma i relativi originali NON sono mai stati rimossi da `docs/` root, quindi
-l'archiviazione risulta incompleta (duplicazione della duplicazione).
-
-## Inventario per directory
-
-## Root
+## Categorie Principali
 
 - [00-INDEX](./00-INDEX.md)
 - [00-index](./00-index.md)
@@ -220,7 +193,12 @@ l'archiviazione risulta incompleta (duplicazione della duplicazione).
 - [user-research](./user-research.md)
 - [user_research](./user_research.md)
 
-## _archive
+### Personalizzazione
+- [Personalizzazione](./customization.md) - Guida alla personalizzazione del tema
+- [Readonly Field Styling](./readonly-field-styling.md) - Pattern UI/UX per campi readonly/calcolati
+- [Esempi](./examples.md) - Esempi pratici di personalizzazione
+- [Autenticazione](./authentication.md) - Componenti di autenticazione
+- [Esempi Autenticazione](./auth_examples.md) - Esempi di pagine di autenticazione
 
 - [_archive/00-INDEX](./_archive/00-INDEX.md)
 - [_archive/CHANGELOG](./_archive/CHANGELOG.md)
@@ -244,7 +222,11 @@ l'archiviazione risulta incompleta (duplicazione della duplicazione).
 
 ## Archive
 
-- [archive/duplicates/conflict_resolution_summary](./archive/duplicates/conflict_resolution_summary.md)
+### Testing e Qualità
+- [Testing](./testing.md) - Strategie e approcci per il testing del tema
+- [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
+- [Performance](./performance.md) - Ottimizzazioni e analisi performance
+- [Accessibilità](./accessibility.md) - Linee guida per l'accessibilità
 
 ## Concepts
 
@@ -348,16 +330,7 @@ l'archiviazione risulta incompleta (duplicazione della duplicazione).
 - [wiki/sources/laravel13-theme-zero-composer-audit](./wiki/sources/laravel13-theme-zero-composer-audit.md)
 - [wiki/sources/theme-zero-product-and-roadmap-docs](./wiki/sources/theme-zero-product-and-roadmap-docs.md)
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Ultimo aggiornamento: Gennaio 2025*
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 - **Aggiunto**: Sistema di documentazione automatica moduli
 - **Integrato**: Refresh intelligente form reattivi
 - **Migliorato**: Sistema di tracking e audit trail
@@ -379,22 +352,10 @@ related:
 
 # Documentation Index — Theme Zero
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 > **Note 2026-07-24**: this index is redundant with [00-index.md](./00-index.md) (canonical, updated
 > 2026-03-28, aligned with current stack: Filament 5, Livewire 4, Volt, Tailwind v4). Kept only for the
 > `archive/duplicates` links below which are not referenced elsewhere.
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ## Archive
 - [archive/duplicates/conflict-resolution-summary](./archive/duplicates/conflict_resolution_summary.md)
 

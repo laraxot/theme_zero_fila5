@@ -1,3 +1,14 @@
+---
+title: "Tema Zero - Mail Layouts"
+type: guide
+tags: ['laravel', 'permission', 'testing']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "tema zero - mail layouts"
+related:
+  - "./00-index.md"
+---
+
 # Tema Zero - Mail Layouts
 
 ## Panoramica
