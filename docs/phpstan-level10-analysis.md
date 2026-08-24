@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Analisi PHPStan livello 10 - tema"
 type: guide
@@ -18,22 +7,8 @@ updated: 2026-07-14
 qmd: "analisi phpstan livello 10 - tema"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Analisi PHPStan livello 10 - tema
 
 ## Scopo
@@ -70,10 +45,6 @@ Se sono presenti cartelle legacy o extra non in target, specificare le esclusion
 - [theme documentation](./theme-documentation.md)
 - [theme architecture](./theme-architecture-best-practices.md)
 - [README](./README.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 # PHPStan Level 10 Analysis - Theme Zero
 
 ## Status
@@ -88,8 +59,3 @@ Se sono presenti cartelle legacy o extra non in target, specificare le esclusion
 
 > [!NOTE]
 > The `extras/` directory contains legacy scripts and was excluded from the main stabilization target to focus on the active theme logic.
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

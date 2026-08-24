@@ -1,27 +1,9 @@
 # Indice della Documentazione - Tema Zero
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 > **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
 > [00-index.md](./00-index.md) (canonico, aggiornato 2026-03-28). Usare `00-index.md` come riferimento
 > primario; questo file non è stato consolidato per evitare di perdere la prosa introduttiva italiana.
 
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 ## Panoramica
 Questo documento serve come indice centrale per il tema Zero, fornendo una guida per la personalizzazione e l'utilizzo del tema all'interno dell'applicazione Laravel. Il tema Zero è un tema basato su TailwindCSS con supporto per Vite e componenti Blade moderni.
 
@@ -48,27 +30,9 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 - [Modulo UI](../../Modules/UI/docs/README.md)
 - [Modulo Xot](../../Modules/Xot/docs/README.md)
 
-<<<<<<< HEAD
 ### Moduli Integrati
 - [Performance Actions Reference](./performance-actions-reference.md) - Riferimento action calcolo performance
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Moduli Integrati
-- [Performance Actions Reference](./performance-actions-reference.md) - Riferimento action calcolo performance
-
-=======
->>>>>>> 11674ce (.)
-=======
-### Moduli Integrati
-- [Performance Actions Reference](./performance-actions-reference.md) - Riferimento action calcolo performance
-
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -80,16 +44,6 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 ### Personalizzazione
 - [Personalizzazione](./customization.md) - Guida alla personalizzazione del tema
 - [Readonly Field Styling](./readonly-field-styling.md) - Pattern UI/UX per campi readonly/calcolati
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Readonly Field Styling](./readonly-field-styling.md) - Pattern UI/UX per campi readonly/calcolati
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 - [Esempi](./examples.md) - Esempi pratici di personalizzazione
 - [Autenticazione](./authentication.md) - Componenti di autenticazione
 - [Esempi Autenticazione](./auth_examples.md) - Esempi di pagine di autenticazione
@@ -107,30 +61,7 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 
 ### Testing e Qualità
 - [Testing](./testing.md) - Strategie e approcci per il testing del tema
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 11674ce (.)
-=======
-- [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
->>>>>>> 099e856 (sync)
-=======
-- [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 - [Performance](./performance.md) - Ottimizzazioni e analisi performance
 - [Accessibilità](./accessibility.md) - Linee guida per l'accessibilità
 
@@ -239,16 +170,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Vedi anche: [../../../docs/README.md](../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Ultimo aggiornamento: Gennaio 2025*
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 - **Aggiunto**: Sistema di documentazione automatica moduli
 - **Integrato**: Refresh intelligente form reattivi
 - **Migliorato**: Sistema di tracking e audit trail
@@ -270,22 +192,10 @@ related:
 
 # Documentation Index — Theme Zero
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 > **Note 2026-07-24**: this index is redundant with [00-index.md](./00-index.md) (canonical, updated
 > 2026-03-28, aligned with current stack: Filament 5, Livewire 4, Volt, Tailwind v4). Kept only for the
 > `archive/duplicates` links below which are not referenced elsewhere.
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ## Archive
 - [archive/duplicates/conflict-resolution-summary](./archive/duplicates/conflict_resolution_summary.md)
 

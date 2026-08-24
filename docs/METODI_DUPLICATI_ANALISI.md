@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "METODI-DUPLICATI-ANALISI (deprecated)"
 type: reference
 status: deprecated
@@ -10,7 +9,6 @@ qmd: "deprecated renamed METODI-DUPLICATI-ANALISI.md"
 
 > This file has been renamed to [METODI-DUPLICATI-ANALISI.md](METODI-DUPLICATI-ANALISI.md).
 > Do not add dates or underscores in filenames.
-=======
 theme: Zero
 topic: METODI_DUPLICATI_ANALISI
 tags: [metodi-duplicati, refactoring]
@@ -39,4 +37,3 @@ Il metodo `curl_postfields_flatten` è duplicato in 3 file `extras/` tutti inter
 
 Si raccomanda di valutare il refactoring dei pattern comuni che interessano questo tema,
 preferendo l'estrazione in trait condivisi o servizi centralizzati nel modulo Xot.
->>>>>>> 11674ce (.)

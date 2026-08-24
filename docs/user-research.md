@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "User Research - Theme Zero"
 type: guide
@@ -18,14 +7,7 @@ updated: 2026-07-14
 qmd: "user research - theme zero"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2cb7d4f (.)
 
 # User Research - Theme Zero
 
@@ -477,18 +459,10 @@ This document presents user research findings for Theme Zero, the ultra-minimali
 
 **Acknowledgments**
 Thank you to all 22 research participants and 9 pre-alpha testers.
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
 # User Research: Zero Theme
 
 ## 🔬 Research Goals
 Identify user needs for Zero functionality.
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
->>>>>>> laraxot/dev
 
 # User Research - Theme Zero
 
@@ -940,11 +914,3 @@ This document presents user research findings for Theme Zero, the ultra-minimali
 
 **Acknowledgments**
 Thank you to all 22 research participants and 9 pre-alpha testers.
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

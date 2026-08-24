@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Model Usage in Themes - Best Practices"
 type: guide
@@ -18,22 +7,8 @@ updated: 2026-07-14
 qmd: "model usage in themes - best practices"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Model Usage in Themes - Best Practices
 
 ## Executive Summary
@@ -401,53 +376,14 @@ When working with the Zero theme, you'll commonly encounter models from these mo
 - `Modules\Cms\Models\Page` - Static pages
 - `Modules\Cms\Models\Article` - Articles
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_S9ebzA
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_S9ebzA
->>>>>>> laraxot/dev
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 ### healthcare_app Module
 - `Modules\healthcare_app\Models\Survey` - Surveys
 - `Modules\healthcare_app\Models\Question` - Survey questions
 - `Modules\healthcare_app\Models\SurveyPdf` - PDF exports
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-=======
 ### ModuloEsempio Module
 - `Modules\ModuloEsempio\Models\Survey` - Surveys
 - `Modules\ModuloEsempio\Models\Question` - Survey questions
 - `Modules\ModuloEsempio\Models\SurveyPdf` - PDF exports
->>>>>>> .merge_file_PKuvUx
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ### Other Modules
 - `Modules\Geo\Models\Place` - Geographic data
@@ -652,47 +588,26 @@ When working with data in theme views:
 
 ## Related Documentation
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 - [Model Inheritance Rules (User Module)](../../../laravel/Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../../laravel/Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
 - [Widget Structure (User Module)](../../../laravel/Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../../laravel/Modules/Cms/docs/frontoffice/filament-auth.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 - [Model Inheritance Rules (User Module)](../../Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../Modules/Xot/docs/dry-kiss-model-refactoring.md)
 - [Theme Architecture](./architecture.md)
 - [Widget Structure (User Module)](../../Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../Modules/Cms/docs/frontoffice/filament-auth.md)
->>>>>>> 11674ce (.)
-=======
 - [Model Inheritance Rules (User Module)](../../../laravel/Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../../laravel/Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
 - [Widget Structure (User Module)](../../../laravel/Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../../laravel/Modules/Cms/docs/frontoffice/filament-auth.md)
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
 - [Model Inheritance Rules (User Module)](../../Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
 - [Widget Structure (User Module)](../../Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../Modules/Cms/docs/frontoffice/filament-auth.md)
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ---
 
@@ -718,16 +633,4 @@ By keeping models in modules and accessing them only through widgets, Folio page
 ---
 
 *Last Updated: 15 October 2025*
-<<<<<<< HEAD
 *Refactoring Reference: DRY/KISS Model Refactoring 2025-10-15*
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Refactoring Reference: DRY/KISS Model Refactoring 2025-10-15*
-=======
-*Refactoring Reference: DRY/KISS Model Refactoring 2025-10-15*
->>>>>>> 2cb7d4f (.)
-=======
-*Refactoring Reference: DRY/KISS Model Refactoring 2025-10-15*
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
