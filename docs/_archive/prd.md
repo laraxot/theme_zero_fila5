@@ -1,3 +1,27 @@
+---
+title: "PRD: Zero Theme"
+type: guide
+tags: ['filament', 'charts']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "prd zero theme"
+related:
+  - "./00-index.md"
+---
+
+# PRD: Zero Theme
+
+## 📋 Overview
+- **Author:** Gemini CLI
+- **Status:** Draft
+- **Target Release:** 1.0.0
+
+## ❓ Problem Statement
+Specialized logic for Zero needs a dedicated, type-safe Theme to ensure maintainability.
+
+## 🎯 Goals & Success Metrics
+- **Goal 1:** 100% PHPStan L10 compliance.
+- **Goal 2:** Seamless integration with XotBase.
 # PRD: Zero Theme
 
 ## 📋 Executive Summary
@@ -27,13 +51,6 @@ Theme Zero is the lightweight, performance-first foundation theme for the PTVX s
 ## ✅ Release Criteria
 - Performance: 100/100 Lighthouse score on Desktop/Mobile.
 - Zero accessibility violations in automated checks.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ---
 
