@@ -5,6 +5,8 @@ tags: ['filament', 'laravel', 'charts', 'testing']
 created: 2026-07-14
 updated: 2026-08-06
 qmd: "zero theme - documentation index"
+related:
+  - "./00-index.md"
 ---
 
 # Zero Theme - Documentation Index
@@ -50,7 +52,8 @@ qmd: "zero theme - documentation index"
 | Volt | latest | Livewire functional/class components |
 
 ### Anti-Patterns
-- QuestionChartAnswersTripleChartWidget - why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
+- QuestionChartAnswersTripleChartWidget — why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
+- **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
 
 ### Theme Characteristics
 - **Style**: Ultra-minimalist
@@ -59,10 +62,22 @@ qmd: "zero theme - documentation index"
 
 ### Related Resources
 
-- [Restaurant Module](../../Modules/Restaurant/docs/00-INDEX.md) - Floor plan, competitor analysis
-- [UI Module](../../Modules/UI/docs/00-index.md) - Shared UI components
-- [Xot Module](../../Modules/Xot/docs/00-index.md) - Core utilities
-- [AGENTS.md](../../../AGENTS.md) - Project guidelines
+- [Cms Module](../../../Modules/Cms/docs/README.md)
+- [UI Module](../../../Modules/UI/docs/README.md)
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+- [agents.md](../../../agents.md) - Project guidelines
 
 ---
 
@@ -72,18 +87,6 @@ qmd: "zero theme - documentation index"
 
 <!-- Merged from 00-INDEX.md, which collided with this file on case-insensitive filesystems. -->
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Zero Theme Documentation Index"
 type: concept
@@ -93,33 +96,17 @@ updated: 2026-07-14
 qmd: "zero theme documentation index"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
 # Zero Theme Documentation Index
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 > **Nota 2026-07-24**: file d'indice ridondante rispetto a [00-index.md](./00-index.md), che è il più recente
 > (2026-03-28) e allineato allo stack corrente (Filament 5, Livewire 4, Volt, Tailwind v4). Consultare
 > `00-index.md` come punto di ingresso primario; questo file resta come vista alternativa non aggiornata
 > nella stessa sessione.
 
-<<<<<<< HEAD
-=======
-=======
 # Zero Theme Documentation Index
 
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
-# Zero Theme Documentation Index
-
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 **Path**: `laravel/Themes/Zero/docs/`  
 **Last updated**: 2026-06-30
 
@@ -139,29 +126,9 @@ Zero theme documentation follows the standard theme structure with focus on:
 
 - [Theme Hub](../Barthelemy/docs/00-index.md) - Overview of all themes
 - [Sixteen Theme](../Sixteen/docs/00-index.md) - Primary theme (Design Comuni)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 - [TwentyOne Theme](../TwentyOne/docs/00-index.md) - Prediction market theme
-=======
 - [TwentyOne Theme](../TwentyOne/docs/00-index.md) - forecast market theme
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
 - [TwentyOne Theme](../TwentyOne/docs/00-index.md) - Prediction market theme
->>>>>>> 11674ce (.)
-=======
-- [TwentyOne Theme](../TwentyOne/docs/00-index.md) - Prediction market theme
->>>>>>> 2cb7d4f (.)
-=======
-- [TwentyOne Theme](../TwentyOne/docs/00-index.md) - Prediction market theme
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 - [Directory Structure Rules](../Barthelemy/docs/directory-structure-rules.md) - Theme organization
 
 ## Related Modules
@@ -174,11 +141,6 @@ Zero theme documentation follows the standard theme structure with focus on:
 Theme assets are published to: `public_html/themes/Zero/`
 
 Refer to the main theme documentation for build and deployment procedures.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 # 📚 Zero Theme - Documentation Index
 
 **Path**: `laravel/Themes/Zero/docs/`  
@@ -221,9 +183,3 @@ Refer to the main theme documentation for build and deployment procedures.
 ---
 
 **Ultimo Aggiornamento**: 2026-03-24
->>>>>>> f916df1 (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
