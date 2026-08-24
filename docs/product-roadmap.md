@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Product Roadmap - Theme Zero"
 type: guide
@@ -18,14 +7,7 @@ updated: 2026-07-14
 qmd: "product roadmap - theme zero"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2cb7d4f (.)
 
 # Product Roadmap - Theme Zero
 
@@ -457,12 +439,7 @@ related:
 | Theme Team Lead | Product Owner | Roadmap prioritization |
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
-<<<<<<< HEAD
-=======
 # Zero - Product Roadmap
-=======
->>>>>>> 099e856 (sync)
->>>>>>> laraxot/dev
 
 # Product Roadmap - Theme Zero
 
@@ -878,14 +855,8 @@ related:
 
 - [Product Requirements Document](prd.md)
 - [Product Strategy](product-strategy.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 - [Sprint Planning Meeting](sprint-planning-meeting.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
->>>>>>> 11674ce (.)
-=======
->>>>>>> laraxot/dev
 - [Sprint Planning](sprint-planning.md)
 - [Philosophy Guide](philosophy.md)
 
@@ -902,12 +873,6 @@ related:
 | Theme Team Lead | Product Owner | Roadmap prioritization |
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
 # Zero - Product Roadmap
 
 > Documento vivente. Tema.
@@ -954,5 +919,3 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **Zero**, che nel prog
 - [Product Strategy](product-strategy.md)
 - [Sprint Planning Meeting](sprint-planning-meeting.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

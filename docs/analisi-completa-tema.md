@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Analisi Completa Tema Zero - Tema Minimalista Laravel"
 type: guide
@@ -18,22 +7,8 @@ updated: 2026-07-14
 qmd: "analisi completa tema zero - tema minimalista laravel"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Analisi Completa Tema Zero - Tema Minimalista Laravel
 
 ## 🎯 Panoramica Generale
@@ -686,7 +661,6 @@ describe('Accessibility Tests', () => {
 
 <!-- With size -->
 <x-button size="lg">Large Button</x-button>
-```
 ```
 
 ### 2. Design System

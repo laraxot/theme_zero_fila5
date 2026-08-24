@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 # Theme Documentation
 
 This directory contains documentation for the theme.
@@ -19,13 +13,6 @@ Documentation should be:
 - Clear and concise
 - Updated with theme changes
 - Use Markdown format (.md)
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
 # Tema Zero - Documentazione
 
 ## Overview
@@ -76,11 +63,3 @@ Zero/
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
