@@ -268,6 +268,18 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 
 ## 📚 Riferimenti Incrociati
 
+- **Stale ignore / Themes alone**: `docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md`
+- **Xot Module**: `Modules/Xot/docs/wiki/concepts/xotbasemodel-get-class-name.md`
+- **User Module**: `Modules/User/docs/`
+- **Stale ignore / Themes alone**: `docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md`
+- **Xot Module**: `Modules/Xot/docs/wiki/concepts/xotbasemodel-get-class-name.md`
+- **User Module**: `Modules/User/docs/`
+- **Xot Module**: `Modules/Xot/docs/phpstan-level10-xot-fixes.md`
+- **healthcare_app Module**: `Modules/healthcare_app/docs/phpstan-level10-healthcare_app-fixes.md`
+- **User Module**: `Modules/User/docs/phpstan-level10-user-fixes.md`
+- **Xot Module**: `Modules/Xot/docs/phpstan-level10-xot-fixes.md`
+- **healthcare_app Module**: `Modules/healthcare_app/docs/phpstan-level10-healthcare_app-fixes.md`
+- **User Module**: `Modules/User/docs/phpstan-level10-user-fixes.md`
 - **Xot Module**: `Modules/Xot/docs/phpstan-level10-xot-fixes.md`
 - **healthcare_app Module**: `Modules/healthcare_app/docs/phpstan-level10-healthcare_app-fixes.md`
 - **User Module**: `Modules/User/docs/phpstan-level10-user-fixes.md`
