@@ -1,3 +1,14 @@
+---
+title: "Zero Theme Documentation"
+type: concept
+tags: ['filament', 'charts', 'testing']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "zero theme documentation"
+related:
+  - "./00-index.md"
+---
+
 # Zero Theme Documentation
 
 ## Overview

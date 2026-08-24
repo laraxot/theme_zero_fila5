@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Zero Theme Architecture"
 type: architecture
@@ -34,12 +27,6 @@ Zero theme architecture and design patterns for Laraxot PTVX.
 - Build passes without errors
 - Components render correctly
 - Performance optimized
-<<<<<<< HEAD
-=======
-=======
-=======
-=======
->>>>>>> 2cb7d4f (.)
 ---
 title: "Architettura del Tema Zero"
 type: guide
@@ -49,15 +36,8 @@ updated: 2026-07-14
 qmd: "architettura del tema zero"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
-<<<<<<< HEAD
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
 # Architettura del Tema Zero
 
 ## Filosofia: "Il Tema come Vestito"
@@ -315,17 +295,7 @@ public function test_login_widget_validation()
 - [Documentazione Componenti](./components.md)
 - [Documentazione Layout](./layouts.md)
 - [Best Practices Filament](../Cms/docs/frontoffice/filament-auth.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Architettura Widget](../User/docs/widgets_structure.md) 
->>>>>>> 11674ce (.)
-=======
-- [Architettura Widget](../User/docs/widgets_structure.md) 
->>>>>>> 2cb7d4f (.)
-=======
-- [Architettura Widget](../User/docs/widgets_structure.md) 
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ---
 
