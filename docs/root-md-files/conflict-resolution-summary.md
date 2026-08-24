@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 ---
 title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
 type: guide
@@ -15,10 +10,6 @@ related:
   - "./conflict-resolution-summary.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅

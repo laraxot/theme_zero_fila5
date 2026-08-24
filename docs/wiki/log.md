@@ -9,10 +9,6 @@ module: "Zero"
 
 ## Log Entries
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 [2026-06-15] [DOCS] Censimento omonimi metodi — [method-name-homonyms](./concepts/method-name-homonyms.md). Business logic nei moduli, non nel tema.
 
 ## [2026-05-26] ops | ptvx.local ripristinato (PHP 8.4 handler)
@@ -22,36 +18,15 @@ module: "Zero"
 ### Format
 
 ```text
-=======
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 _No activity yet. Start by ingesting raw documents._
 
 ### Format
 
 ```
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 [YYYY-MM-DD HH:MM:SS UTC] [OPERATION] Description
 ```
 
 **Operations:**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 - `INGEST` — Added raw document to wiki
 - `QUERY` — Answered question from wiki
 - `LINT` — Maintained wiki quality
@@ -59,12 +34,8 @@ _No activity yet. Start by ingesting raw documents._
 
 ---
 
-<<<<<<< HEAD
 **Last Activity:** None  
 **Total Operations:** 0
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 [2026-04-29 00:00:00 UTC] [INGEST] Added Theme Zero operating focus concept from README and strategy docs
 [2026-04-29 00:00:00 UTC] [INGEST] Added Theme Zero strategic source summary for wiki-first theme retrieval
 [2026-04-29 07:22:00 UTC] [UPDATE] Added Theme Zero-local second brain loop and updated wiki index description
@@ -77,12 +48,7 @@ _No activity yet. Start by ingesting raw documents._
 
 **Last Activity:** 2026-05-12 10:16:00 UTC  
 **Total Operations:** 9
-=======
 **Last Activity:** None  
 **Total Operations:** 0
->>>>>>> 2cb7d4f (.)
-=======
 **Last Activity:** None  
 **Total Operations:** 0
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

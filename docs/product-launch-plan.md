@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Product Launch Plan - Theme Zero"
 type: guide
@@ -18,30 +7,15 @@ updated: 2026-07-14
 qmd: "product launch plan - theme zero"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 
 # Product Launch Plan - Theme Zero
 
 ## Ultra-Minimalist Theme
 
-<<<<<<< HEAD
-**Document Version:** 1.0  
-**Launch Date:** October 15, 2026 (Target - v1.0)  
-**Launch Type:** Major Release (Pre-Alpha to v1.0)  
-=======
 **Document Version:** 1.0
 **Launch Date:** October 15, 2026 (Target - v1.0)
-**Launch Type:** Major Release (Pre-Alpha to v1.0)
->>>>>>> laraxot/dev
-**Owner:** Theme Product Team
+**Launch Type:** Major Release (Pre-Alpha to v1.0)**Owner:** Theme Product Team
 
 ---
 
@@ -516,13 +490,7 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 | Product Owner | | |
 | Marketing Lead | | |
 | Tech Lead | | |
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 # Zero - Product Launch Plan
-=======
->>>>>>> 099e856 (sync)
 
 # Product Launch Plan - Theme Zero
 
@@ -990,10 +958,7 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 - [Product Roadmap](product-roadmap.md)
 - [Product Strategy](product-strategy.md)
 - [User Research](user-research.md)
-<<<<<<< HEAD
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
->>>>>>> 11674ce (.)
-=======
 - [Philosophy Guide](philosophy.md)
 
 ### Contacts
@@ -1010,10 +975,6 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 | Product Owner | | |
 | Marketing Lead | | |
 | Tech Lead | | |
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
 # Zero - Product Launch Plan
 
 > Piano di lancio. Tema.
@@ -1070,5 +1031,3 @@ Rilasciare **Zero** in modo controllato, misurabile e coerente con il suo ruolo:
 - [PRD](prd.md)
 - [User Research](user-research.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

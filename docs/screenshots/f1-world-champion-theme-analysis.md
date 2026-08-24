@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "🏎️ F1 World Champion 2026 - Theme Zero Integration"
 type: guide
@@ -21,34 +10,21 @@ related:
   - "./f1-world-champion-theme-analysis.md"
 ---
 
-<<<<<<< HEAD
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
 **URL**: `http://forecast.local/it/forecasts/f1-world-champion-2026`  
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
 **URL**: `http://forecast.local/it/forecasts/f1-world-champion-2026`  
-=======
-=======
->>>>>>> 099e856 (sync)
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
->>>>>>> 11674ce (.)
-=======
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
->>>>>>> 2cb7d4f (.)
-=======
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 **Tema**: Zero  
 **Data**: 2026-03-25
 
@@ -56,23 +32,11 @@ related:
 
 ## 📸 Screenshots Repository
 
-<<<<<<< HEAD
 Gli screenshot della forecast detail page sono disponibili in:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Gli screenshot della forecast detail page sono disponibili in:
-=======
 Gli screenshot della predict detail page sono disponibili in:
->>>>>>> 11674ce (.)
-=======
 Gli screenshot della predict detail page sono disponibili in:
->>>>>>> 2cb7d4f (.)
-=======
 Gli screenshot della predict detail page sono disponibili in:
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ```
 laravel/Themes/Zero/docs/screenshots/
@@ -102,12 +66,6 @@ Il mercato **F1 World Champion 2026** ha **6 opzioni di risposta**:
 
 ### Componenti Utilizzati
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 Il tema Zero utilizza i componenti del modulo forecast:
 
 ```blade
@@ -119,13 +77,6 @@ Il tema Zero utilizza i componenti del modulo forecast:
 <x-forecast-view.recent-trades />
 <x-forecast-view.share-buttons />
 <x-forecast-view.sidebar-enhanced />
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
 Il tema Zero utilizza i componenti del modulo Predict:
 
 ```blade
@@ -137,37 +88,17 @@ Il tema Zero utilizza i componenti del modulo Predict:
 <x-predict-view.recent-trades />
 <x-predict-view.share-buttons />
 <x-predict-view.sidebar-enhanced />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 ```
 
 ### File Theme Zero
 
 | File | Scopo |
 |------|-------|
-<<<<<<< HEAD
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
-=======
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
->>>>>>> 11674ce (.)
-=======
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
->>>>>>> 2cb7d4f (.)
-=======
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 | `resources/css/app.css` | Theme styling |
 | `resources/js/gsap-config.js` | Animations |
 
@@ -216,23 +147,11 @@ small: text-sm (14px)
 
 ## ✅ Theme Compliance
 
-<<<<<<< HEAD
 - [x] Componenti modulari forecast
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [x] Componenti modulari forecast
-=======
 - [x] Componenti modulari Predict
->>>>>>> 11674ce (.)
-=======
 - [x] Componenti modulari Predict
->>>>>>> 2cb7d4f (.)
-=======
 - [x] Componenti modulari Predict
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 - [x] Styling coerente con design system
 - [x] Responsive design
 - [x] Dark mode support
