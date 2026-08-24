@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "sprint-planning (deprecated)"
 type: reference
@@ -16,23 +5,10 @@ status: deprecated
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "deprecated renamed sprint-planning.md"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 
 > This file has been renamed to [sprint-planning.md](sprint-planning.md).
 > Do not add dates or underscores in filenames.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11674ce (.)
 # Sprint Planning - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -389,16 +365,7 @@ For every component added this sprint:
 |------|------|------|
 | Product Owner | | |
 | Lead Dev | | |
-<<<<<<< HEAD
->>>>>>> 11674ce (.)
-=======
 ---
 
 > This file has been renamed to [sprint-planning.md](sprint-planning.md).
 > Do not add dates or underscores in filenames.
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

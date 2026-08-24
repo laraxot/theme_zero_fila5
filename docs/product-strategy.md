@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Product Strategy - Theme Zero"
 type: guide
@@ -18,14 +7,7 @@ updated: 2026-07-14
 qmd: "product strategy - theme zero"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2cb7d4f (.)
 
 # Product Strategy - Theme Zero
 
@@ -620,12 +602,7 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-03-12 | Theme Team | Initial strategy for pre-alpha theme |
-<<<<<<< HEAD
-=======
 # Zero - Product Strategy
-=======
->>>>>>> 099e856 (sync)
->>>>>>> laraxot/dev
 
 # Product Strategy - Theme Zero
 
@@ -1216,25 +1193,13 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 - Performance Best Practices: Web.dev
 - Laravel Documentation: https://laravel.com/
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`
 - Convenzione: Action con metodo `execute()` e dispatch tramite container
->>>>>>> 11674ce (.)
-=======
->>>>>>> laraxot/dev
 ### Document History
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-03-12 | Theme Team | Initial strategy for pre-alpha theme |
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
 # Zero - Product Strategy
 
 > Strategia prodotto. Tema.
@@ -1288,5 +1253,3 @@ Portare **Zero** a uno stato in cui il progetto ottiene un vantaggio netto e mis
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`
 - Convenzione: Action con metodo `execute()` e dispatch tramite container
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

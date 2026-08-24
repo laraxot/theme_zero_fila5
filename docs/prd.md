@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "PRD: Zero Theme"
 type: guide
@@ -18,17 +7,8 @@ updated: 2026-07-14
 qmd: "prd zero theme"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
 # PRD: Zero Theme
 
 ## 📋 Overview
@@ -42,10 +22,6 @@ Specialized logic for Zero needs a dedicated, type-safe Theme to ensure maintain
 ## 🎯 Goals & Success Metrics
 - **Goal 1:** 100% PHPStan L10 compliance.
 - **Goal 2:** Seamless integration with XotBase.
-=======
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # PRD: Zero Theme
 
 ## 📋 Executive Summary
@@ -75,13 +51,6 @@ Theme Zero is the lightweight, performance-first foundation theme for the PTVX s
 ## ✅ Release Criteria
 - Performance: 100/100 Lighthouse score on Desktop/Mobile.
 - Zero accessibility violations in automated checks.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ---
 

@@ -9,7 +9,3 @@ related:
   - "./00-index.md"
   - "./00-index.md"
 ---
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev

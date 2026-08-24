@@ -25,24 +25,7 @@ qmd search "Zero theme rule filament" --limit 5
 
 ---
 
-<<<<<<< HEAD
 **Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-=======
 **Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
->>>>>>> 11674ce (.)
-=======
 **Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
->>>>>>> 099e856 (sync)
-=======
-**Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
->>>>>>> 2cb7d4f (.)
-=======
 **Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev

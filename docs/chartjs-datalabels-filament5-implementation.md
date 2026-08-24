@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
->>>>>>> laraxot/dev
 ---
 title: "Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero"
 type: concept
@@ -18,22 +7,8 @@ updated: 2026-07-14
 qmd: "implementazione chartjs datalabels in filament 5x - tema zero"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 11674ce (.)
-=======
->>>>>>> 099e856 (sync)
-=======
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 # Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero
 
 ## Overview
@@ -105,27 +80,10 @@ Il tema supporta l'implementazione avanzata con **due labels centrate** per ogni
 
 ## Asset Registration
 
-<<<<<<< HEAD
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
-=======
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
->>>>>>> 11674ce (.)
-=======
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
->>>>>>> 099e856 (sync)
-=======
-I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
->>>>>>> 2cb7d4f (.)
-=======
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ## Best Practices per lo Sviluppo
 
@@ -139,24 +97,7 @@ I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart
 - [Chart.js Documentation](https://www.chartjs.org/docs/latest/)
 - [Filament 5.x Charts](https://filamentphp.com/docs/5.x/widgets/charts)
 - [chartjs-plugin-datalabels](https://chartjs-plugin-datalabels.netlify.app/)
-<<<<<<< HEAD
 - [Multiple Labels Complete Guide](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Multiple Labels Complete Guide](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
-=======
 - [Multiple Labels Complete Guide](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
->>>>>>> 11674ce (.)
-=======
 - [Multiple Labels Complete Guide](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
->>>>>>> 099e856 (sync)
-=======
-- [Multiple Labels Complete Guide](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
->>>>>>> 2cb7d4f (.)
-=======
 - [Multiple Labels Complete Guide](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
