@@ -1,21 +1,15 @@
 ---
-title: "Product Requirements Document (PRD) - Zero Theme"
-theme: "Zero"
-type: concept
-tags: [PRD, theme, zero, frontend]
-created: 2026-08-04
-updated: 2026-08-04
----
-# Product Requirements Document (PRD) - Zero Theme
-
-**Theme**: Zero
-**Version**: 1.0
-**Status**: Draft
-**Author**: Product Team
-
+title: "PRD: Zero Theme"
+type: guide
+tags: ['filament', 'charts']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "prd zero theme"
+related:
+  - "./00-index.md"
 ---
 
-## Document Control
+# PRD: Zero Theme
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
@@ -23,7 +17,10 @@ updated: 2026-08-04
 
 ---
 
-## 1. Executive Summary
+## 🎯 Goals & Success Metrics
+- **Goal 1:** 100% PHPStan L10 compliance.
+- **Goal 2:** Seamless integration with XotBase.
+# PRD: Zero Theme
 
 ### 1.1 Problem Statement
 Users need consistent, branded interfaces across the platform. Without proper themes, UI quality varies and brand consistency is hard to maintain.
@@ -45,13 +42,6 @@ The Zero theme provides a consistent, maintainable frontend experience using Bla
 ## ✅ Release Criteria
 - Performance: 100/100 Lighthouse score on Desktop/Mobile.
 - Zero accessibility violations in automated checks.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2cb7d4f (.)
-=======
->>>>>>> 11674ce (.)
->>>>>>> laraxot/dev
 
 ---
 
