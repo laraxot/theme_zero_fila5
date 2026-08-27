@@ -1,3 +1,12 @@
+---
+title: "Filament Nested Resources"
+type: concept
+tags: [docs, migrated-from-txt]
+created: 2026-08-24
+updated: 2026-08-24
+source: laravel/Themes/Zero/docs/filament-5-nested-resources.txt
+---
+
 # Filament 5.x Nested Resources Guide
 
 ## Overview

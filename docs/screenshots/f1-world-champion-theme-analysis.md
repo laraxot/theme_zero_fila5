@@ -79,6 +79,8 @@ Il tema Zero utilizza i componenti del modulo forecast:
 <x-forecast-view.sidebar-enhanced />
 Il tema Zero utilizza i componenti del modulo Predict:
 
+```
+
 ```blade
 <x-predict-view.header />
 <x-predict-view.market-stats />
