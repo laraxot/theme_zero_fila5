@@ -150,6 +150,8 @@ Add theme-specific patterns to `.claude/` configuration:
 - Assets: `Themes/Zero/Resources/{css,js,images,fonts}/`
 
 ### Component Usage
+```
+
 ```blade
 {{-- Standard Blade component --}}
 <x-theme::components.button-primary>
@@ -512,6 +514,8 @@ Available layouts:
 NEVER hardcode asset paths.
 
 ALWAYS use asset() helper:
+```
+
 ```blade
 <link href="{{ asset('themes/Zero/css/app.css') }}" rel="stylesheet">
 <img src="{{ asset('themes/Zero/images/logo.png') }}" alt="Logo">
@@ -535,6 +539,8 @@ Consider creating a custom MCP server for Zero theme operations:
 - Check asset compilation
 
 **Configuration**: `.claude/mcp.json`, `.cursor/mcp.json`, `.windsurf/mcp.json`
+
+```
 
 ```json
 {
