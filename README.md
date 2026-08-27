@@ -31,7 +31,7 @@ Questo tema non e solo codice: e una vetrina operativa. Mostra dove intervenire,
 - [Protocollo confidenza](./docs/agent-confidence-protocol.md)
 - [Disciplina agenti](./docs/agent-edit-discipline.md)
 - [00 Index](./docs/00-index.md)
-- [Conflict Resolution Summary](./docs/CONFLICT_RESOLUTION_SUMMARY.md)
+- [Conflict Resolution Summary](./docs/conflict_resolution_summary.md)
 - [Accessor Delegation Pattern](./docs/accessor-delegation-pattern.md)
 - [Ai Development Guide](./docs/ai-development-guide.md)
 - [Ai Handoff](./docs/ai-handoff.md)

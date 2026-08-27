@@ -217,9 +217,9 @@ related:
 - [roadmap/theme-customization](./roadmap/theme-customization.md)
 
 ## Root
-- [CHANGELOG](./changelog.md)
-- [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT-RESOLUTION-SUMMARY.md)
-- [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT_RESOLUTION_SUMMARY.md)
+- [CHANGELOG](./CHANGELOG.md)
+- [CONFLICT-RESOLUTION-SUMMARY](./conflict-resolution-summary.md)
+- [CONFLICT-RESOLUTION-SUMMARY](./conflict_resolution_summary.md)
 - [METODI-DUPLICATI-ANALISI](./METODI-DUPLICATI-ANALISI.md)
 - [METODI-DUPLICATI-ANALISI](./METODI_DUPLICATI_ANALISI.md)
 - [accessor-delegation-pattern](./accessor-delegation-pattern.md)
@@ -234,7 +234,7 @@ related:
 - [architecture](./architecture.md)
 - [auth-examples](./auth-examples.md)
 - [authentication](./authentication.md)
-- [changelog](./changelog.md)
+- [changelog](./CHANGELOG.md)
 - [chartjs-datalabels-background-styling](./chartjs-datalabels-background-styling.md)
 - [chartjs-datalabels-filament5-implementation](./chartjs-datalabels-filament5-implementation.md)
 - [chartjs-datalabels-multiple-labels-complete-guide](./chartjs-datalabels-multiple-labels-complete-guide.md)

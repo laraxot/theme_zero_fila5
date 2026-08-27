@@ -37,7 +37,7 @@ related:
 ### Product & Planning
 - [product-requirements.md](./product-requirements.md) - PRD
 - [roadmap.md](./roadmap.md) - Theme roadmap
-- [changelog.md](./changelog.md) - Version history
+- [changelog.md](./CHANGELOG.md) - Version history
 
 ### Stack Reference
 | Technology | Version | Purpose |
