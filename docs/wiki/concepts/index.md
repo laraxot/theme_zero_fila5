@@ -1,3 +1,11 @@
+---
+title: "Index"
+type: reference
+tags: [wiki, no-frontmatter-fix]
+created: 2026-08-24
+updated: 2026-08-24
+---
+
 # Zero Theme - concepts Index
 
 ## Purpose
@@ -18,3 +26,8 @@ qmd search "Zero concepts" --limit 5
 
 ---
 *Updated: 2026-07-24*
+
+## Aggiunti 2026-08-24 (da .txt)
+
+- [jpgraph-guide.md](jpgraph-guide.md) — guida JpGraph 4.4.2 (charts server-side)
+- [filament-nested-resources.md](filament-nested-resources.md) — nested resources Filament 5
