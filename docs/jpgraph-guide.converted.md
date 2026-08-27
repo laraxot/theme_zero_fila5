@@ -1,3 +1,6 @@
+# Jpgraph guide
+
+```text
 # JpGraph 4.4.2 Guide
 
 ## Overview
@@ -294,3 +297,4 @@ public function testChartInPDF()
 - GitHub repository
 - Community forums
 - Stack Overflow questions
+```

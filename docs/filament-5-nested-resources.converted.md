@@ -1,3 +1,6 @@
+# Filament 5 nested resources
+
+```text
 # Filament 5.x Nested Resources Guide
 
 ## Overview
@@ -288,3 +291,4 @@ $this->assertDatabaseHas('posts', $data->toArray());
 3. **Use parameterized queries** to prevent SQL injection
 4. **Sanitize user input** before storage
 5. **Implement proper error handling** without information leakage
+```
