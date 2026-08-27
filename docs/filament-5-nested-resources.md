@@ -1,3 +1,15 @@
+---
+title: 'Filament 5.x Nested Resources Guide'
+module: Zero
+type: reference
+slug: filament-5-nested-resources
+description: 'app/Filament/Resources/User/Resources/PostResource.php ├── static $parentResource = UserResource::class └── relation managers in RelationManagers/ ```'
+tags: [migrato-da-txt, zero]
+converted_from: filament-5-nested-resources.txt
+created: 2026-08-24
+updated: 2026-08-24
+---
+
 # Filament 5.x Nested Resources Guide
 
 ## Overview
@@ -45,7 +57,7 @@ class UserResource extends XotBaseResource
 class PostResource extends XotBaseResource
 {
     protected static ?string $model = Post::class;
-    
+
     public static function getNavigationLabel(): string
     {
         return __('filament::resources/relation-managers.posts');
@@ -59,7 +71,7 @@ class PostResource extends XotBaseResource
 class PostRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'posts';
-    
+
     public static function getRecordLabel(): ?string
     {
         return __('filament::resources/relation-managers.post');

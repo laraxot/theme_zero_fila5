@@ -1,3 +1,15 @@
+---
+title: 'Push'
+module: Zero
+type: reference
+slug: push
+description: 'Obiettivo: sincronizzare il tema Zero su tutti i remote GitHub configurati.'
+tags: [migrato-da-txt, zero]
+converted_from: push.txt
+created: 2026-08-24
+updated: 2026-08-24
+---
+
 Obiettivo: sincronizzare il tema Zero su tutti i remote GitHub configurati.
 
 Procedura richiesta:

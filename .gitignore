@@ -125,3 +125,7 @@ rector.php
 # -----------------------------------------------------------------------------
 
 docs/screenshots/
+.cursor
+.devcontainer
+.vscode
+.windsurf
