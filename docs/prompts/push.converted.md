@@ -1,3 +1,5 @@
+# Push
+
 Obiettivo: sincronizzare il tema Zero su tutti i remote GitHub configurati.
 
 Procedura richiesta:
