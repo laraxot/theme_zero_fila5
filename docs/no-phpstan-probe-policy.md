@@ -25,7 +25,10 @@ Vedi anche:
 
 - `bashscripts/ai/wiki/rules/no-phpstan-probe-models.md`
 - `Modules/Xot/docs/phpstan-modules-fix-log.md`
+<<<<<<< HEAD
 - `bashscripts/ai/wiki/rules/no-phpstan-probe-models.md`
 - `Modules/Xot/docs/phpstan-modules-fix-log.md`
 - `@/var/www/_bases/base_ptvx_fila5/.windsurf/rules/no-phpstan-probe-models.md`
 - `@/var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/phpstan-modules-fix-log.md`
+=======
+>>>>>>> laraxot/dev

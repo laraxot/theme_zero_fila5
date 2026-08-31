@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme docs confidence audit - 2026-03-07"
 related:
+<<<<<<< HEAD
+=======
+  - "./00-INDEX.md"
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 

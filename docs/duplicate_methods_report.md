@@ -9,6 +9,7 @@ qmd: "deprecated renamed duplicate-methods-report.md"
 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
 > Do not add dates or underscores in filenames.
+<<<<<<< HEAD
 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
 > Do not add dates or underscores in filenames.
@@ -97,3 +98,5 @@ Di seguito la classifica dei metodi più frequenti (solo quelli con più di una 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
 > Do not add dates or underscores in filenames.
 - Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
+=======
+>>>>>>> laraxot/dev
