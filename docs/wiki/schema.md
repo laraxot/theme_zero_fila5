@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Theme Zero Wiki — Schema e Convenzioni"
 type: guide
@@ -12,8 +11,6 @@ related:
   - "./log.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Theme Zero Wiki — Schema e Convenzioni
 
 ## Dominio

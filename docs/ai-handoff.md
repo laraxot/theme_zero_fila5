@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai handoff"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -50,9 +47,6 @@ Se questi punti mancano, il rischio e' che agenti diversi facciano implementazio
 - `PHPMD` va eseguito come `.phar` standalone, non come package Composer del repo
 - per cambiamenti di governance o workflow, aggiornare anche issue/discussion GitHub gia' esistenti dopo `git remote -v`
 - anche nei task tema, se servono cast o normalizzazioni di supporto non creare helper ad hoc senza prima verificare le action condivise in `Modules/Xot/app/Actions/Cast/`
-<<<<<<< HEAD
-=======
 - anche nei task tema, se servono cast o normalizzazioni di supporto non creare helper ad hoc senza prima verificare le action condivise in `Modules/Xot/app/Actions/Cast/`
->>>>>>> laraxot/dev
 - se un bug e' visibile su una URL reale del progetto, non considerare sufficiente un test che legge solo il source; serve una verifica runtime o una riproduzione fedele della stessa pipeline
 - nei componenti Filament/Livewire coinvolti dal tema, preferire proprieta' pubbliche serializzabili; array di oggetti custom non serializzabili tendono a rompere l'hydration

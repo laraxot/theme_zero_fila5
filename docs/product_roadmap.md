@@ -9,7 +9,6 @@ qmd: "deprecated renamed product-roadmap.md"
 
 > This file has been renamed to [product-roadmap.md](product-roadmap.md).
 > Do not add dates or underscores in filenames.
-<<<<<<< HEAD
 # Product Roadmap - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -444,5 +443,3 @@ qmd: "deprecated renamed product-roadmap.md"
 
 > This file has been renamed to [product-roadmap.md](product-roadmap.md).
 > Do not add dates or underscores in filenames.
-=======
->>>>>>> laraxot/dev

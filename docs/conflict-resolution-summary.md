@@ -3,28 +3,23 @@ title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
 type: guide
 tags: ['filament', 'laravel', 'testing', 'phpstan']
 created: 2026-07-14
-<<<<<<< HEAD
 updated: 2026-08-18
 qmd: "riepilogo risoluzione conflitti git - filament 4"
 related:
-=======
+
 updated: 2026-07-14
 qmd: "riepilogo risoluzione conflitti git - filament 4"
 related:
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
-<<<<<<< HEAD
 ## Stato 2026-08-18
 
 Marker di conflitto a inizio riga rimossi dal tema (union dei lati, PHPDoc/wiki index ripuliti dai duplicati). Inventario User: [git-merge-conflict-inventory](../../../Modules/User/docs/wiki/troubleshooting/git-merge-conflict-inventory.md). Casing docs: [case-conflicts](../../../Modules/UI/docs/case-conflicts.md).
 
-=======
->>>>>>> laraxot/dev
 ## Obiettivo Completato ✅
 Risoluzione sistematica di tutti i conflitti Git presenti nel progetto per la migrazione a Filament 4.
 
@@ -80,11 +75,8 @@ public function form(Form $form): Form
 
 ### ⚠️ Richiede Attenzione
 - **Xot/helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
-<<<<<<< HEAD
 - **Xot/Helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
 - **Xot/helpers/Helper.php**: File con conflitti complessi, richiede risoluzione manuale
-=======
->>>>>>> laraxot/dev
 
 ## Script Creati
 

@@ -9,7 +9,6 @@ qmd: "deprecated renamed user-research.md"
 
 > This file has been renamed to [user-research.md](user-research.md).
 > Do not add dates or underscores in filenames.
-<<<<<<< HEAD
 # User Research - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -464,5 +463,3 @@ Thank you to all 22 research participants and 9 pre-alpha testers.
 
 > This file has been renamed to [user-research.md](user-research.md).
 > Do not add dates or underscores in filenames.
-=======
->>>>>>> laraxot/dev

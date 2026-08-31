@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "schemaless attributes in themes"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -17,7 +14,6 @@ related:
 
 **Status:** ✅ STANDARD
 **Central Reference:** [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
-<<<<<<< HEAD
 # 🧬 Schemaless Attributes in Themes
 
 **Status:** ✅ STANDARD
@@ -26,8 +22,6 @@ related:
 
 **Status:** ✅ STANDARD
 **Central Reference:** [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
-=======
->>>>>>> laraxot/dev
 
 ---
 
@@ -92,7 +86,6 @@ $record->save();
 - [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
 - [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
 - [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
-<<<<<<< HEAD
 - [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
 - [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
 - [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
@@ -108,5 +101,3 @@ $record->save();
 - [Xot Schemaless Guide](../../Modules/Xot/docs/spatie-schemaless-attributes.md)
 - [UI Themes Detailed Guide](../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
 - [Rating Schemaless Docs](../../Modules/Rating/docs/schemaless-attributes.md)
-=======
->>>>>>> laraxot/dev
