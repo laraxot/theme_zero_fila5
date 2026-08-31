@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Theme Documentation
 
 This directory contains documentation for the theme.
@@ -16,14 +15,13 @@ Documentation should be:
 - Use Markdown format (.md)
 # Tema Zero - Documentazione
 
-=======
+
 # Tema Zero - Documentazione
 
 ## Gestionale / replica
 
 Tema alternativo/sperimentale. Hub: [gestionale-docs-index.md](../../docs/gestionale-docs-index.md) · [tenant-modules-navigation-discipline.md](../../docs/tenant-modules-navigation-discipline.md) · [panels vs Zero](./gestionale-panels-vs-themes.md).
 
->>>>>>> laraxot/dev
 ## Overview
 
 Il tema **Zero** è il tema principale di default per l'applicazione Laraxot PTVX.
@@ -58,13 +56,10 @@ Zero/
 2. **Output files**: `phpstan*.json` ignorati (NON committare)
 3. **Namespace**: `Themes\Zero\`
 
-<<<<<<< HEAD
-=======
 ## Repo indipendente
 
 Path in `gitmodules.ini`: `laravel/Themes/Zero` → remote `laraxot/theme_zero_fila5`. Entrare con `cd`, non trattarlo come submodule della root. Protocollo: [17-gitmodules-path-iteration.md](../../../../bashscripts/tools/prompts/17-gitmodules-path-iteration.md).
 
->>>>>>> laraxot/dev
 ## Collegamenti
 
 - [PHPStan Docs](./phpstan.md)

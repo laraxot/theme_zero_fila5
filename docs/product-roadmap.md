@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product roadmap - theme zero"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -17,7 +14,6 @@ related:
 
 ## Ultra-Minimalist Theme
 
-<<<<<<< HEAD
 **Document Version:** 1.0
 **Planning Period:** 2026 (Q1-Q4)
 **Last Updated:** March 12, 2026
@@ -450,8 +446,6 @@ related:
 
 ## Ultra-Minimalist Theme
 
-=======
->>>>>>> laraxot/dev
 **Document Version:** 1.0  
 **Planning Period:** 2026 (Q1-Q4)  
 **Last Updated:** March 12, 2026  
@@ -862,11 +856,8 @@ related:
 
 - [Product Requirements Document](prd.md)
 - [Product Strategy](product-strategy.md)
-<<<<<<< HEAD
 - [Sprint Planning Meeting](sprint-planning-meeting.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
-=======
->>>>>>> laraxot/dev
 - [Sprint Planning](sprint-planning.md)
 - [Philosophy Guide](philosophy.md)
 
@@ -883,7 +874,6 @@ related:
 | Theme Team Lead | Product Owner | Roadmap prioritization |
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
-<<<<<<< HEAD
 # Zero - Product Roadmap
 
 > Documento vivente. Tema.
@@ -930,5 +920,3 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **Zero**, che nel prog
 - [Product Strategy](product-strategy.md)
 - [Sprint Planning Meeting](sprint-planning-meeting.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
-=======
->>>>>>> laraxot/dev

@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "Zero Theme Architecture"
 type: architecture
 tags: [theme, architecture, zero]
@@ -29,8 +28,6 @@ Zero theme architecture and design patterns for Laraxot PTVX.
 - Components render correctly
 - Performance optimized
 ---
-=======
->>>>>>> laraxot/dev
 title: "Architettura del Tema Zero"
 type: guide
 tags: ['filament', 'laravel', 'charts', 'testing']
@@ -38,10 +35,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "architettura del tema zero"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -302,7 +296,6 @@ public function test_login_widget_validation()
 - [Documentazione Componenti](./components.md)
 - [Documentazione Layout](./layouts.md)
 - [Best Practices Filament](../Cms/docs/frontoffice/filament-auth.md)
-<<<<<<< HEAD
 - [Architettura Widget](../User/docs/widgets_structure.md) 
 
 ---
@@ -352,6 +345,3 @@ Base Laravel theme (skeleton/boostrap)
 - **Build**: npm run build passes
 - **Lint**: Tailwind/Pug linter checks
 - **Preview**: Theme renders correctly in browser
-=======
-- [Architettura Widget](../User/docs/widgets_structure.md) 
->>>>>>> laraxot/dev

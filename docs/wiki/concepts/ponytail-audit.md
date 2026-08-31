@@ -20,11 +20,8 @@ related:
 - [Delta temi](../../../../../docs/project/ponytail-audit-themes.md)
 
 Aggiornare solo finding e stato specifici di questo tema.
-<<<<<<< HEAD
 # Ponytail audit — Zero
 
 **Run:** 2026-06-30 · Esito: lean sul perimetro principale.
 
 Hub: [ponytail-audit-themes.md](../../../../../../docs/project/ponytail-audit-themes.md)
-=======
->>>>>>> laraxot/dev

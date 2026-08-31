@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "pattern infolist filament theme zero"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -150,10 +147,7 @@ Per dettagli completi del pattern, vedere:
 - [Progressioni - Schemas e Tables (migrazione Filament 5)](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 - [XotBaseResourceInfolist - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
 - [XotBaseResource - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/XotBaseResource.php)
-<<<<<<< HEAD
 - [Documentazione Performance - Infolist Pattern](../../Modules/Performance/docs/filament-infolist-pattern.md)
 - [Progressioni - Schemas e Tables (migrazione Filament 5)](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 - [XotBaseResourceInfolist - Sorgente](../../Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
 - [XotBaseResource - Sorgente](../../Modules/Xot/app/Filament/Resources/XotBaseResource.php)
-=======
->>>>>>> laraxot/dev

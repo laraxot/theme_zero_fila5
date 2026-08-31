@@ -9,7 +9,6 @@ qmd: "deprecated renamed product-strategy.md"
 
 > This file has been renamed to [product-strategy.md](product-strategy.md).
 > Do not add dates or underscores in filenames.
-<<<<<<< HEAD
 # Product Strategy - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -607,5 +606,3 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 
 > This file has been renamed to [product-strategy.md](product-strategy.md).
 > Do not add dates or underscores in filenames.
-=======
->>>>>>> laraxot/dev
