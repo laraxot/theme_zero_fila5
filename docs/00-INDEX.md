@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+=======
+---
+title: "Zero Theme Documentation Index"
+type: concept
+tags: ['laravel']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "zero theme documentation index"
+related:
+  - "./00-INDEX.md"
+  - "./00-index.md"
+---
+
+# Zero Theme Documentation Index
+
+> **Nota 2026-07-24**: file d'indice ridondante rispetto a [00-index.md](./00-index.md), che è il più recente
+> (2026-03-28) e allineato allo stack corrente (Filament 5, Livewire 4, Volt, Tailwind v4). Consultare
+> `00-index.md` come punto di ingresso primario; questo file resta come vista alternativa non aggiornata
+> nella stessa sessione.
+
+>>>>>>> laraxot/dev
 **Path**: `laravel/Themes/Zero/docs/`  
 **Last updated**: 2026-06-30
 
@@ -15,14 +37,25 @@ Zero theme documentation follows the standard theme structure with focus on:
 
 ## Key References
 
+<<<<<<< HEAD
 - [Theme Hub](../Barthelemy/docs/00-index.md) - Overview of all themes
 - [Sixteen Theme](../Sixteen/docs/00-index.md) - Primary theme (Design Comuni)
+=======
+- [Theme Hub](../Barthelemy/docs/00-INDEX.md) - Overview of all themes
+- [Sixteen Theme](../Sixteen/docs/00-INDEX.md) - Primary theme (Design Comuni)
+- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+>>>>>>> laraxot/dev
 - [Directory Structure Rules](../Barthelemy/docs/directory-structure-rules.md) - Theme organization
 
 ## Related Modules
 
+<<<<<<< HEAD
 - [UI Module](../../Modules/UI/docs/00-index.md) - Shared UI components
 - [Xot Module](../../Modules/Xot/docs/00-index.md) - Core utilities
+=======
+- [UI Module](../../Modules/UI/docs/00-INDEX.md) - Shared UI components
+- [Xot Module](../../Modules/Xot/docs/00-INDEX.md) - Core utilities
+>>>>>>> laraxot/dev
 
 ## Asset Publication
 

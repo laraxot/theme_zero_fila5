@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme - filosofia completa"
 related:
+<<<<<<< HEAD
+=======
+  - "./00-INDEX.md"
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -20,8 +24,11 @@ related:
 ## Panoramica
 
 Il tema **Zero** è il tema baseline di healthcare_app, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
+<<<<<<< HEAD
 Il tema **Zero** è il tema baseline di ModuloEsempio, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
 Il tema **Zero** è il tema baseline di healthcare_app, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
+=======
+>>>>>>> laraxot/dev
 
 ## Filosofia "Vestito"
 
@@ -141,8 +148,11 @@ Themes forniscono strutture layout:
 <head>
     <meta charset="utf-8">
     <title>@yield('title', 'healthcare_app')</title>
+<<<<<<< HEAD
     <title>@yield('title', 'ModuloEsempio')</title>
     <title>@yield('title', 'healthcare_app')</title>
+=======
+>>>>>>> laraxot/dev
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
@@ -381,8 +391,11 @@ Il pattern "Vestito" incarna diversi valori core:
 ## Integrazione con Moduli
 
 ### healthcare_app Module
+<<<<<<< HEAD
 ### ModuloEsempio Module
 ### healthcare_app Module
+=======
+>>>>>>> laraxot/dev
 
 Zero theme fornisce presentazione per:
 - SurveyPdf resources
@@ -413,5 +426,8 @@ Zero theme è il tema baseline che implementa perfettamente la filosofia "Vestit
 **Ultimo Aggiornamento**: 2025-01-18  
 **Versione**: 1.0.0
 
+<<<<<<< HEAD
 **Versione**: 1.0.0
 
+=======
+>>>>>>> laraxot/dev
