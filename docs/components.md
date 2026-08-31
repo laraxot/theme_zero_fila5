@@ -351,4 +351,4 @@ npm run build
 - [Documentazione Blade](https://laravel.com/docs/blade)
 - [Documentazione Alpine.js](https://alpinejs.dev/)
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
-- [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/)
+- [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/) 
