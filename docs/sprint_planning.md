@@ -9,6 +9,7 @@ qmd: "deprecated renamed sprint-planning.md"
 
 > This file has been renamed to [sprint-planning.md](sprint-planning.md).
 > Do not add dates or underscores in filenames.
+<<<<<<< HEAD
 # Sprint Planning - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -369,3 +370,5 @@ For every component added this sprint:
 
 > This file has been renamed to [sprint-planning.md](sprint-planning.md).
 > Do not add dates or underscores in filenames.
+=======
+>>>>>>> laraxot/dev

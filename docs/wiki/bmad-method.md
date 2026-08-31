@@ -6,7 +6,11 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "bmad method v63 operativo nel progetto"
 related:
+<<<<<<< HEAD
   - "./schema.md"
+=======
+  - "./SCHEMA.md"
+>>>>>>> laraxot/dev
   - "./bmad-method.md"
   - "./log.md"
 ---
