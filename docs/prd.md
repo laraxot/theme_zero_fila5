@@ -6,14 +6,16 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "prd zero theme"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
 # PRD: Zero Theme
 
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | 2026-08-04 | Product Team | Initial draft |
+## 📋 Overview
+- **Author:** Gemini CLI
+- **Status:** Draft
+- **Target Release:** 1.0.0
 
 ---
 
@@ -22,8 +24,8 @@ related:
 - **Goal 2:** Seamless integration with XotBase.
 # PRD: Zero Theme
 
-### 1.1 Problem Statement
-Users need consistent, branded interfaces across the platform. Without proper themes, UI quality varies and brand consistency is hard to maintain.
+## 📋 Executive Summary
+Theme Zero is the lightweight, performance-first foundation theme for the PTVX system. It serves as the baseline for all other themes and offers a minimal-overhead interface for systems where rapid data entry and low-latency interaction are prioritized over complex visual aesthetics.
 
 ### 1.2 Proposed Solution
 The Zero theme provides a consistent, maintainable frontend experience using Blade templates, Tailwind CSS, and Filament patterns.

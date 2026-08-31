@@ -6,6 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "esempi di autenticazione - tema zero"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
@@ -575,4 +576,4 @@ public function test_login_page_is_accessible()
 - [Laravel Authentication](https://laravel.com/docs/authentication)
 - [Laravel Folio](https://laravel.com/docs/folio)
 - [Livewire Volt](https://livewire.laravel.com/docs/volt)
-- [WCAG Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
+- [WCAG Guidelines](https://www.w3.org/WAI/WCAG21/quickref/) 
