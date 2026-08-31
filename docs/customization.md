@@ -543,4 +543,4 @@ tail -f storage/logs/laravel.log
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
 - [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-- [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations)
+- [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations) 
