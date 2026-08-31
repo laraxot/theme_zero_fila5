@@ -9,7 +9,6 @@ qmd: "deprecated renamed product-launch-plan.md"
 
 > This file has been renamed to [product-launch-plan.md](product-launch-plan.md).
 > Do not add dates or underscores in filenames.
-<<<<<<< HEAD
 # Product Launch Plan - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -496,5 +495,3 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 
 > This file has been renamed to [product-launch-plan.md](product-launch-plan.md).
 > Do not add dates or underscores in filenames.
-=======
->>>>>>> laraxot/dev

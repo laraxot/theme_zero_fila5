@@ -11,24 +11,18 @@ Themes follow the same directory structure standards as Modules.
 ## Key References
 
 - **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-<<<<<<< HEAD
 - **Global Rules**: [Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 - **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 - **Global Rules**: [Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-=======
->>>>>>> laraxot/dev
 - **Module Structure Rules**:
   - All functional code MUST be inside `app/`.
   - Root-level capitalized directories (e.g., `Actions/`, `Database/`) are forbidden.
   - `database/` must be lowercase.
 - **PHPStan Memory**: ALWAYS use `php -d memory_limit=-1 ./vendor/bin/phpstan` for heavy analyses to avoid parallel worker crashes.
 - **Documentation Rules**: [No lang/lang/ and No _docs/ Rule](../../../../docs/wiki/concepts/no-lang-lang-and-no-underscore-docs-rule.md)
-<<<<<<< HEAD
 - **Documentation Rules**: [No lang/lang/ and No _docs/ Rule](../../../../../docs/wiki/concepts/no-lang-lang-and-no-underscore-docs-rule.md)
 - **Documentation Rules**: [No lang/lang/ and No _docs/ Rule](../../../../docs/wiki/concepts/no-lang-lang-and-no-underscore-docs-rule.md)
 - **Documentation Rules**: [No lang/lang/ and No _docs/ Rule](../../../../../docs/wiki/concepts/no-lang-lang-and-no-underscore-docs-rule.md)
-=======
->>>>>>> laraxot/dev
 
 ## Directory Structure
 
@@ -69,12 +63,9 @@ Xot ← UI ← Geo, User, Tenant, Activity, …
 ---
 
 *Updated: 2026-07-06*
-<<<<<<< HEAD
 ---
 
 *Updated: June 2026*
 ---
 
 *Updated: June 2026*
-=======
->>>>>>> laraxot/dev

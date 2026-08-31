@@ -6,16 +6,12 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "prd zero theme"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
 # PRD: Zero Theme
 
-<<<<<<< HEAD
 ## 📋 Overview
 - **Author:** Gemini CLI
 - **Status:** Draft
@@ -29,8 +25,6 @@ Specialized logic for Zero needs a dedicated, type-safe Theme to ensure maintain
 - **Goal 2:** Seamless integration with XotBase.
 # PRD: Zero Theme
 
-=======
->>>>>>> laraxot/dev
 ## 📋 Executive Summary
 Theme Zero is the lightweight, performance-first foundation theme for the PTVX system. It serves as the baseline for all other themes and offers a minimal-overhead interface for systems where rapid data entry and low-latency interaction are prioritized over complex visual aesthetics.
 
@@ -58,7 +52,6 @@ Theme Zero is the lightweight, performance-first foundation theme for the PTVX s
 ## ✅ Release Criteria
 - Performance: 100/100 Lighthouse score on Desktop/Mobile.
 - Zero accessibility violations in automated checks.
-<<<<<<< HEAD
 
 ---
 
@@ -158,5 +151,3 @@ The Zero theme provides a consistent, maintainable frontend experience using Bla
 - All components render correctly
 - Theme switching functional
 - Documentation complete
-=======
->>>>>>> laraxot/dev

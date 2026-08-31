@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "jpgraph class reference - analisi completta 2024"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -430,11 +427,8 @@ $graph->Stroke();
 - **FAQ**: https://jpgraph.net/doc/faq.html
 
 ## 🔄 **Integrazione con healthcare_app**
-<<<<<<< HEAD
 ## 🔄 **Integrazione con ModuloEsempio**
 ## 🔄 **Integrazione con healthcare_app**
-=======
->>>>>>> laraxot/dev
 
 ### **Pattern di Integrazione**
 ```php

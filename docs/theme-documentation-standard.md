@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme documentation standard"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -128,10 +125,7 @@ Breve descrizione del componente e del suo scopo.
     </x-slot>
 </x-theme::component-name>
 ```
-<<<<<<< HEAD
-=======
 ```
->>>>>>> laraxot/dev
 
 ### Documentazione Architettura
 
@@ -171,10 +165,7 @@ La documentazione architetturale deve includere:
     Clicca qui
 </button>
 ```
-<<<<<<< HEAD
-=======
 ```
->>>>>>> laraxot/dev
 
 ### 3. Screenshot e Demo
 

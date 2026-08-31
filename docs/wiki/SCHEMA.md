@@ -6,11 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme zero wiki schema e convenzioni"
 related:
-<<<<<<< HEAD
   - "./schema.md"
-=======
+
   - "./SCHEMA.md"
->>>>>>> laraxot/dev
   - "./bmad-method.md"
   - "./log.md"
 ---
