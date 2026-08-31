@@ -6,10 +6,11 @@ created: 2026-07-14
 updated: 2026-08-24
 qmd: "phpstan theme zero solo laravel/phpstan.neon modules gate no --level"
 related:
-  - "./00-index.md"
+  - "./phpstan-level10-analysis.md"
+  - "../../../../Modules/Xot/docs/stories/5.7.phpstan-modules-green.story.md"
 ---
 
-# PHPStan Configuration - Theme Zero
+# PHPStan — Theme Zero
 
 ## Perché
 

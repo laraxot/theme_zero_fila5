@@ -3,7 +3,7 @@ title: "Zero Theme - Documentation Index"
 type: concept
 tags: ['filament', 'laravel', 'charts', 'testing']
 created: 2026-07-14
-updated: 2026-08-06
+updated: 2026-07-14
 qmd: "zero theme - documentation index"
 related:
   - "./00-index.md"
@@ -11,7 +11,7 @@ related:
 
 # Zero Theme - Documentation Index
 
-**Last Update**: 2026-08-06
+**Last Update**: 2026-03-28
 **Status**: Available
 **Theme Version**: 1.0
 
@@ -33,7 +33,6 @@ related:
 - [layouts.md](./layouts.md) - Layout system
 - [authentication.md](./authentication.md) - Auth integration
 - [customization.md](./customization.md) - Theme customization
-- [translations.md](./translations.md) - Theme translation files and conventions
 
 ### Product & Planning
 - [product-requirements.md](./product-requirements.md) - PRD
