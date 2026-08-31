@@ -1,6 +1,7 @@
 # Changelog
 
 Tutte le variazioni importanti di Zero saranno generate automaticamente da semantic-release.
+<<<<<<< HEAD
 
 ---
 
@@ -240,3 +241,5 @@ Current known issues:
 - [Customization Guide](./customization.md) — How to extend
 - [../README.md](../README.md) — Root theme README (marketing)
 - [../../docs/wiki/themes/](../../../../docs/wiki/themes/) — Project-wide theme docs
+=======
+>>>>>>> laraxot/dev
