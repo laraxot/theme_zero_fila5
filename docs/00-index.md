@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme - documentation index"
 related:
+<<<<<<< HEAD
+=======
+  - "./00-INDEX.md"
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -37,7 +41,11 @@ related:
 ### Product & Planning
 - [product-requirements.md](./product-requirements.md) - PRD
 - [roadmap.md](./roadmap.md) - Theme roadmap
+<<<<<<< HEAD
 - [changelog.md](./changelog.md) - Version history
+=======
+- [CHANGELOG.md](./CHANGELOG.md) - Version history
+>>>>>>> laraxot/dev
 
 ### Stack Reference
 | Technology | Version | Purpose |
@@ -52,7 +60,10 @@ related:
 
 ### Anti-Patterns
 - QuestionChartAnswersTripleChartWidget — why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
+<<<<<<< HEAD
 - **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
+=======
+>>>>>>> laraxot/dev
 
 ### Theme Characteristics
 - **Style**: Ultra-minimalist
@@ -64,6 +75,7 @@ related:
 - [Cms Module](../../../Modules/Cms/docs/README.md)
 - [UI Module](../../../Modules/UI/docs/README.md)
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+<<<<<<< HEAD
 - [Cms Module](../../Modules/Cms/docs/README.md)
 - [UI Module](../../Modules/UI/docs/README.md)
 - [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
@@ -77,10 +89,14 @@ related:
 - [UI Module](../../Modules/UI/docs/README.md)
 - [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
 - [agents.md](../../../agents.md) - Project guidelines
+=======
+- [AGENTS.md](../../../AGENTS.md) - Project guidelines
+>>>>>>> laraxot/dev
 
 ---
 
 *Theme documentation conforming to Laraxot standards*
+<<<<<<< HEAD
 
 ---
 
@@ -182,3 +198,5 @@ Refer to the main theme documentation for build and deployment procedures.
 ---
 
 **Ultimo Aggiornamento**: 2026-03-24
+=======
+>>>>>>> laraxot/dev

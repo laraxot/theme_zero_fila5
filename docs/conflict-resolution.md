@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "conflict resolution theme zero"
 related:
+<<<<<<< HEAD
+=======
+  - "./00-INDEX.md"
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -18,6 +22,9 @@ related:
 
 ## Backlinks
 - [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
+<<<<<<< HEAD
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
 - [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
+=======
+>>>>>>> laraxot/dev
