@@ -99,44 +99,4 @@ error_log
 # ==============================================
 phpinsights.php
 rector.php
-phpstan*.json
-
-# ==============================================
-# AI TOOL OUTPUT (cache locali, mai in git)
-# ==============================================
-graphify-out/
-.headroom/
-
-# ==============================================
-# LEGACY — path ereditati dal .gitignore del repo root.
-# Inerti dentro il repo tema, mantenuti per compatibilita'
-# con i checkout in cui il tema viene usato come root.
-# ==============================================
-laravel/
-laravel/*.lock
-laravel/_ide_helper.php
-laravel/.phpstorm.meta.php
-laravel/bootstrap/cache/*
-laravel/composer.lock
-laravel/database/migrations
-laravel/database/migrations/
-laravel/error_log
-laravel/lang/vendor/
-laravel/package-lock.json
-laravel/public
-laravel/resources/lang/vendor/
-laravel/resources/views/vendor
-laravel/resources/views/vendor/
-laravel/stubs
-public_html/
-public_html/chart
-public_html/css
-public_html/css/
-public_html/error_log
-public_html/js
-public_html/js/
-public_html/storage
-public_html/vendor
-public_html/vendor/
-public_html/vendor/*
-_ide_helper_models.php
+docs/graphify/graphify-out/
