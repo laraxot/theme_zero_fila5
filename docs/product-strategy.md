@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product strategy - theme zero"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -17,7 +14,6 @@ related:
 
 ## Ultra-Minimalist Theme
 
-<<<<<<< HEAD
 **Document Version:** 1.0
 **Created:** March 12, 2026
 **Review Cycle:** Quarterly
@@ -613,8 +609,6 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 
 ## Ultra-Minimalist Theme
 
-=======
->>>>>>> laraxot/dev
 **Document Version:** 1.0  
 **Created:** March 12, 2026  
 **Review Cycle:** Quarterly  
@@ -1200,17 +1194,13 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 - Performance Best Practices: Web.dev
 - Laravel Documentation: https://laravel.com/
 
-<<<<<<< HEAD
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`
 - Convenzione: Action con metodo `execute()` e dispatch tramite container
-=======
->>>>>>> laraxot/dev
 ### Document History
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-03-12 | Theme Team | Initial strategy for pre-alpha theme |
-<<<<<<< HEAD
 # Zero - Product Strategy
 
 > Strategia prodotto. Tema.
@@ -1264,5 +1254,3 @@ Portare **Zero** a uno stato in cui il progetto ottiene un vantaggio netto e mis
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`
 - Convenzione: Action con metodo `execute()` e dispatch tramite container
-=======
->>>>>>> laraxot/dev

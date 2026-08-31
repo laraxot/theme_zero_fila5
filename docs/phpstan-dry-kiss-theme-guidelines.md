@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 drykiss guidelines for themes"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -510,15 +507,12 @@ render(function (StatsService $statsService): array {
 - [Theme Architecture](./architecture.md)
 - [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis-2025-10-17.md)
 - [DRY/KISS Best Practices](./dry-kiss-best-practices-2025-10-15.md)
-<<<<<<< HEAD
 - [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis.md)
 - [DRY/KISS Best Practices](./dry-kiss-best-practices.md)
 - [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis-2025-10-17.md)
 - [DRY/KISS Best Practices](./dry-kiss-best-practices-2025-10-15.md)
 - [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis-2025-10-17.md)
 - [DRY/KISS Best Practices](./dry-kiss-best-practices-2025-10-15.md)
-=======
->>>>>>> laraxot/dev
 
 ---
 

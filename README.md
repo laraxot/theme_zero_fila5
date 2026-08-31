@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Zero: il tema che trasforma complessita in vantaggio operativo
 
 Zero theme for Laraxot PTVX: frontend theme with Tailwind, Vite, Flowbite and Alpine.js integration.
@@ -41,8 +40,6 @@ Questo tema non e solo codice: e una vetrina operativa. Mostra dove intervenire,
 ## Filosofia
 
 Scopo prima del codice. DRY prima dell'orgoglio. KISS prima dell'astrazione. La release automatica non sostituisce il giudizio: lo rende tracciabile.
-=======
->>>>>>> laraxot/dev
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -282,7 +279,4 @@ For support and questions, please refer to the project documentation or contact 
 
 *Last updated: January 2025*
 # base_healthcare_app_fila5_mono
-<<<<<<< HEAD
-=======
 # base_healthcare_app_fila5_mono
->>>>>>> laraxot/dev

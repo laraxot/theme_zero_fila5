@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	"folders": [
 		{
@@ -52,6 +51,3 @@
 		"**/.git": false
    }
 }
-=======
-{"folders":[{"path":"."}],"settings":{}}
->>>>>>> laraxot/dev

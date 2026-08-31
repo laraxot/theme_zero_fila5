@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "PHPStan — Theme Zero"
 type: guide
 tags: [laravel, phpstan, theme-zero]
@@ -41,7 +40,7 @@ niente `--level`, baseline, esclusioni o `@phpstan-ignore`. I test fanno parte d
 Le vecchie note “Level 10” e “0 errori” sono storiche. Lo stato corrente esiste solo
 come output datato del comando canonico e come evidenza nella story proprietaria; un
 conteggio ottenuto con `analyse Themes` o `--level=<n>` non aggiorna questo gate.
-=======
+
 title: "PHPStan Configuration - Theme Zero"
 type: guide
 tags: ['laravel', 'phpstan']
@@ -101,4 +100,3 @@ cd ./laravel
 
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
 - [Root phpstan.neon](../../../laravel/phpstan.neon)
->>>>>>> laraxot/dev

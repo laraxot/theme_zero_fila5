@@ -7,22 +7,16 @@ created: "2026-05-26"
 updated: "2026-05-26"
 related:
   - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
-<<<<<<< HEAD
   - "../../../../../docs/wiki/rules/agent-confidence-protocol.md"
   - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
   - "../../../../../docs/wiki/rules/agent-confidence-protocol.md"
-=======
->>>>>>> laraxot/dev
 ---
 
 # Massima confidenza agente
 
 Stub DRY. Regola canonica: [../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
-<<<<<<< HEAD
 Stub DRY. Regola canonica: [../../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../../docs/wiki/rules/agent-confidence-protocol.md).
 Stub DRY. Regola canonica: [../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
 Stub DRY. Regola canonica: [../../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../../docs/wiki/rules/agent-confidence-protocol.md).
-=======
->>>>>>> laraxot/dev
 
 Checklist locale: issue GitHub, wiki owner, file letti a chunk, gate eseguiti, log aggiornato, limiti dichiarati.

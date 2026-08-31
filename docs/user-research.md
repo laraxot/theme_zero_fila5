@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "user research - theme zero"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -17,7 +14,6 @@ related:
 
 ## Ultra-Minimalist Theme
 
-<<<<<<< HEAD
 **Document Version:** 1.0
 **Research Period:** Q1 2026
 **Last Updated:** March 12, 2026
@@ -473,8 +469,6 @@ Identify user needs for Zero functionality.
 
 ## Ultra-Minimalist Theme
 
-=======
->>>>>>> laraxot/dev
 **Document Version:** 1.0  
 **Research Period:** Q1 2026  
 **Last Updated:** March 12, 2026  
