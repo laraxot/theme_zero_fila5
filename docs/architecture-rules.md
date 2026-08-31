@@ -1,7 +1,7 @@
 ---
 title: architecture rules — Theme Zero
 type: reference
-updated: 2026-07-06
+updated: 2026-06-18
 ---
 
 # Architecture Rules — Theme Zero
@@ -58,7 +58,7 @@ Xot ← UI ← Geo, User, Tenant, Activity, …
 - Il modulo **UI non dipende** da Geo (o altri moduli domain-specific)
 - Il modulo **Geo può dipendere** da UI
 - Componenti geografici (mappe, geocoding, `LocationSelector` con `Comune`) → `Modules/Geo/`
-- Ref: [`Modules/UI/docs/dependency-rules.md`](../../../Modules/UI/docs/dependency-rules.md)
+- Ref: [`Modules/UI/docs/dependency-rules.md`](../../../laravel/Modules/UI/docs/dependency-rules.md)
 
 ---
 
