@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product launch plan - theme zero"
 related:
+<<<<<<< HEAD
+=======
+  - "./00-INDEX.md"
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -13,6 +17,7 @@ related:
 
 ## Ultra-Minimalist Theme
 
+<<<<<<< HEAD
 **Document Version:** 1.0
 **Launch Date:** October 15, 2026 (Target - v1.0)
 **Launch Type:** Major Release (Pre-Alpha to v1.0)**Owner:** Theme Product Team
@@ -496,6 +501,8 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 
 ## Ultra-Minimalist Theme
 
+=======
+>>>>>>> laraxot/dev
 **Document Version:** 1.0  
 **Launch Date:** October 15, 2026 (Target - v1.0)  
 **Launch Type:** Major Release (Pre-Alpha to v1.0)  
@@ -958,7 +965,10 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 - [Product Roadmap](product-roadmap.md)
 - [Product Strategy](product-strategy.md)
 - [User Research](user-research.md)
+<<<<<<< HEAD
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+=======
+>>>>>>> laraxot/dev
 - [Philosophy Guide](philosophy.md)
 
 ### Contacts
@@ -975,6 +985,7 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 | Product Owner | | |
 | Marketing Lead | | |
 | Tech Lead | | |
+<<<<<<< HEAD
 # Zero - Product Launch Plan
 
 > Piano di lancio. Tema.
@@ -1031,3 +1042,5 @@ Rilasciare **Zero** in modo controllato, misurabile e coerente con il suo ruolo:
 - [PRD](prd.md)
 - [User Research](user-research.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+=======
+>>>>>>> laraxot/dev

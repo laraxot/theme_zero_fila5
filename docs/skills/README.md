@@ -110,8 +110,11 @@ Questa skill fornisce le best practices e guidelines per lo sviluppo UI nel tema
 ## Componenti Consigliati
 
 ### 1. Card Components
+<<<<<<< HEAD
 ```
 
+=======
+>>>>>>> laraxot/dev
 ```blade
 <x-zero.card class="bg-white rounded-lg shadow-md p-6">
     <x-zero.card.header>
