@@ -239,3 +239,4 @@ Themes/Zero/
 **Ultimo Aggiornamento:** 15 Ottobre 2025  
 **Autore:** Team Laraxot  
 **Versione:** 1.0
+

@@ -254,3 +254,4 @@ Il layout segue il versionamento semantico del tema Zero. Modifiche breaking dev
 **Ultimo aggiornamento**: Gennaio 2025  
 **Versione Layout**: 1.0.0  
 **Compatibilità**: Spatie Mail Templates 3.x+
+

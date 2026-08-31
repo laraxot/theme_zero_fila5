@@ -21,7 +21,7 @@ Use `laravel/Themes/Zero/composer.json` only for theme-owned PHP dependencies or
 
 - Do not add `laravel/framework`, `nwidart/laravel-modules`, Passport, permissions, or debugbar to this theme composer.
 - Debugbar e' tool dev cross-app in `Modules/Xot/composer.json` (`fruitcake/laravel-debugbar`); i temi non lo dichiarano.
-- **Non** aggiungere `Themes/*/composer.json` al merge root: autoload runtime via Xot (`RegisterRuntimePsr4NamespacesAction`).
+- **Non** aggiungere `Themes/*/composer.json` al merge root: autoload runtime via Xot (`RegisterRuntimePsr4NamespacesAction`). Vedi [theme-composer-boundary](../TwentyOne/docs/wiki/concepts/theme-composer-boundary.md).
 - Keep Filament widget logic in modules; the theme only renders module-provided widgets and views.
 
 ## Verification
