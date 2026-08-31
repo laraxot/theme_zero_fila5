@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai-assisted development guide - zero theme"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -18,11 +15,8 @@ related:
 ## Overview
 
 This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
-<<<<<<< HEAD
 This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the ModuloEsempio Fila4 Mono project.
 This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
-=======
->>>>>>> laraxot/dev
 
 Zero is a flexible, modern Laravel theme system built on Filament 5, Livewire 4, and Volt. Understanding how to configure AI assistants for theme development ensures faster, more consistent development.
 
@@ -157,11 +151,8 @@ Add theme-specific patterns to `.claude/` configuration:
 - Assets: `Themes/Zero/Resources/{css,js,images,fonts}/`
 
 ### Component Usage
-<<<<<<< HEAD
 ```
 
-=======
->>>>>>> laraxot/dev
 ```blade
 {{-- Standard Blade component --}}
 <x-theme::components.button-primary>
@@ -180,10 +171,7 @@ Add theme-specific patterns to `.claude/` configuration:
 ```bash
 npm run build  # Compiles to ../public_html/themes/Zero/
 ```
-<<<<<<< HEAD
-=======
 ```
->>>>>>> laraxot/dev
 
 ## Theme Development Workflows with AI
 
@@ -528,11 +516,8 @@ Available layouts:
 NEVER hardcode asset paths.
 
 ALWAYS use asset() helper:
-<<<<<<< HEAD
 ```
 
-=======
->>>>>>> laraxot/dev
 ```blade
 <link href="{{ asset('themes/Zero/css/app.css') }}" rel="stylesheet">
 <img src="{{ asset('themes/Zero/images/logo.png') }}" alt="Logo">
@@ -557,11 +542,8 @@ Consider creating a custom MCP server for Zero theme operations:
 
 **Configuration**: `.claude/mcp.json`, `.cursor/mcp.json`, `.windsurf/mcp.json`
 
-<<<<<<< HEAD
 ```
 
-=======
->>>>>>> laraxot/dev
 ```json
 {
   "mcpServers": {
@@ -693,7 +675,6 @@ Consider creating a custom MCP server for Zero theme operations:
 **Maintainer**: healthcare_app Team
 
 *This guide is part of the healthcare_app documentation standard for AI-assisted development.*
-<<<<<<< HEAD
 **Maintainer**: healthcare_app Team
 
 *This guide is part of the healthcare_app documentation standard for AI-assisted development.*
@@ -706,5 +687,3 @@ Consider creating a custom MCP server for Zero theme operations:
 **Maintainer**: healthcare_app Team
 
 *This guide is part of the healthcare_app documentation standard for AI-assisted development.*
-=======
->>>>>>> laraxot/dev

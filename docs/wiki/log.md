@@ -9,7 +9,6 @@ module: "Zero"
 
 ## Log Entries
 
-<<<<<<< HEAD
 [2026-06-15] [DOCS] Censimento omonimi metodi — [method-name-homonyms](./concepts/method-name-homonyms.md). Business logic nei moduli, non nel tema.
 
 ## [2026-05-26] ops | ptvx.local ripristinato (PHP 8.4 handler)
@@ -19,8 +18,6 @@ module: "Zero"
 ### Format
 
 ```text
-=======
->>>>>>> laraxot/dev
 _No activity yet. Start by ingesting raw documents._
 
 ### Format
@@ -39,7 +36,6 @@ _No activity yet. Start by ingesting raw documents._
 
 **Last Activity:** None  
 **Total Operations:** 0
-<<<<<<< HEAD
 [2026-04-29 00:00:00 UTC] [INGEST] Added Theme Zero operating focus concept from README and strategy docs
 [2026-04-29 00:00:00 UTC] [INGEST] Added Theme Zero strategic source summary for wiki-first theme retrieval
 [2026-04-29 07:22:00 UTC] [UPDATE] Added Theme Zero-local second brain loop and updated wiki index description
@@ -58,5 +54,3 @@ _No activity yet. Start by ingesting raw documents._
 **Total Operations:** 0
 
 ```
-=======
->>>>>>> laraxot/dev

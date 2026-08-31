@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "sprint planning - theme zero"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -17,7 +14,6 @@ related:
 
 ## Ultra-Minimalist Theme
 
-<<<<<<< HEAD
 **Document Version:** 1.0
 **Sprint:** Sprint 1 (Q2 2026)
 **Sprint Duration:** 2 weeks (April 1-14, 2026)
@@ -379,8 +375,6 @@ Finalize documentation and validation for Zero.
 
 ## Ultra-Minimalist Theme
 
-=======
->>>>>>> laraxot/dev
 **Document Version:** 1.0  
 **Sprint:** Sprint 1 (Q2 2026)  
 **Sprint Duration:** 2 weeks (April 1-14, 2026)  

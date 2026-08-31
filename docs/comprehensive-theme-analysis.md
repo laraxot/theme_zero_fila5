@@ -6,10 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "analisi completa tema zero - tema minimalista laravel"
 related:
-<<<<<<< HEAD
-=======
   - "./00-INDEX.md"
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -656,11 +653,8 @@ describe('Accessibility Tests', () => {
 
 ### Examples
 
-<<<<<<< HEAD
 ```
 
-=======
->>>>>>> laraxot/dev
 ```blade
 <!-- Basic usage -->
 <x-button>Click me</x-button>
@@ -671,10 +665,7 @@ describe('Accessibility Tests', () => {
 <!-- With size -->
 <x-button size="lg">Large Button</x-button>
 ```
-<<<<<<< HEAD
-=======
 ```
->>>>>>> laraxot/dev
 
 ### 2. Design System
 
