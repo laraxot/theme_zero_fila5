@@ -31,13 +31,6 @@ Appartiene a:
 - `Modules\Performance\Actions\Organizzativa\UpdateGgPresenzaDalalAction`
 - `Modules\Sigma\Models\Traits\Mutators\EnteMatrDateRangeMutator`
 
-Nello stesso mutator Sigma vivono anche `getGgAssenzaDalal()` e `getHhAssenzaDalal()`,
-condivisi da tutte le schede (Ptv, Progressioni, Performance) via `SchedaTrait`.
-Il tema **non** deve ricalcolarli: consuma i campi materializzati o il refresh
-Filament (`FieldRefreshAction`) sul form.
-
-Per `gg_integ_params_no_asz` (≠ `gg_esperienza_no_asz`): getter + Attribute co-locati in `SchedaMutator` con persist `withoutEvents`; boundary tema in [gg-integ-params-no-asz-theme-boundary](./wiki/concepts/gg-integ-params-no-asz-theme-boundary.md).
-
 Il tema vede solo l'effetto finale: il campo `gg_presenza_dalal` valorizzato sul
 record `Organizzativa`.
 
