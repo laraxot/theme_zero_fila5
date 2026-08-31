@@ -20,4 +20,6 @@ Regola canonica: [../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipli
 Regola canonica: [../../../laravel/Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md](../../../laravel/Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md).
 Regola canonica: [../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md](../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md).
 
-Sintesi: verificare prima di affermare; riprodurre prima di correggere; **scopo / chiamanti / docs tema**; italiano sintetico.
+Sintesi: verificare prima di affermare; riprodurre prima di correggere; **business logic prima del tipo** su bugfix; documentare prove, dubbi e rischio residuo; rispondere in italiano sintetico.
+
+Pattern bugfix: [../../../../docs/wiki/patterns/bugfix-business-logic-before-type.md](../../../../docs/wiki/patterns/bugfix-business-logic-before-type.md)
