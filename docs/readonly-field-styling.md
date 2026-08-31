@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "readonly field styling - uiux pattern"
 related:
+<<<<<<< HEAD
+=======
+  - "./00-INDEX.md"
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -129,9 +133,12 @@ Questi colori sono coerenti con:
 - [Customization Guide](./customization.md) - Palette colori del tema
 - [Components Guide](./components.md) - Componenti disponibili
 - [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+<<<<<<< HEAD
 - [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
 - [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
 - [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+=======
+>>>>>>> laraxot/dev
 - [Theme One - Readonly Styling](../One/docs/readonly-field-styling.md) - Pattern condiviso
 
 ---

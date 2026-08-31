@@ -1,6 +1,7 @@
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Root-level forbidden directories
 # -----------------------------------------------------------------------------
@@ -105,11 +106,57 @@ laravel/database/migrations/
 laravel/resources/lang/vendor/
 laravel/resources/views/vendor/
 laravel/stubs/
+=======
+bashscripts
+_bmad-output
+.circleci
+.claude-audit
+.devcontainer
+_docs
+docs/archive
+docs/archived
+docs/legacy
+docs/workbench
+.kilocode
+.kiro
+.ralph
+scripts
+test-results
+tests/.claude-audit
+*.log
+*.phar
+*.lock
+uploads
+limesurvey
+vendor
+build
+package-lock.json
+error_log
+*.gz
+*.cache
+/cache
+.git-rewrite
+_ide_helper_models.php
+*.old
+*.bak
+*.backup
+public_html/vendor
+public_html/js
+public_html/css
+public_html/storage
+public_html/error_log
+public_html/chart
+laravel/*.lock
+laravel/lang/vendor/
+laravel/database/migrations
+laravel/resources/views/vendor
+>>>>>>> laraxot/dev
 laravel/composer.lock
 laravel/package-lock.json
 laravel/error_log
 laravel/.phpstorm.meta.php
 laravel/_ide_helper.php
+<<<<<<< HEAD
 laravel/_ide_helper_models.php
 
 # -----------------------------------------------------------------------------
@@ -129,3 +176,44 @@ docs/screenshots/
 .devcontainer
 .vscode
 .windsurf
+=======
+laravel/public
+laravel/resources/lang/vendor/
+vendor/
+public_html/css/
+public_html/js/
+public_html/vendor/
+public_html/vendor/*
+laravel/bootstrap/cache/*
+laravel/stubs
+laravel/resources/views/vendor/
+.git-rewrite/
+*:Zone.Identifier
+.env
+laravel/database/migrations/
+logs
+laravel/
+public_html/
+.env.docker
+.env.latest
+node_modules/
+# PHPStan output files
+phpstan*.json
+.cursor/
+.vscode/
+.windsurf/
+tests/AuditCoverage
+# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
+
+# Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
+.cursor/
+.devcontainer/
+.vscode/
+.windsurf/
+extras
+tests/AuditCoverage/
+
+# Laraxot — quality tool configs forbidden in module/theme root (use laravel/phpinsights.php, laravel/rector.php)
+phpinsights.php
+rector.php
+>>>>>>> laraxot/dev

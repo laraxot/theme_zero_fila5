@@ -170,6 +170,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Vedi anche: [../../../docs/README.md](../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: Gennaio 2025*
 - **Aggiunto**: Sistema di documentazione automatica moduli
 - **Integrato**: Refresh intelligente form reattivi
@@ -362,3 +363,8 @@ related:
 - [wiki/sources/context-compression-and-retrieval](./wiki/sources/context-compression-and-retrieval.md)
 - [wiki/sources/laravel13-theme-zero-composer-audit](./wiki/sources/laravel13-theme-zero-composer-audit.md)
 - [wiki/sources/theme-zero-product-and-roadmap-docs](./wiki/sources/theme-zero-product-and-roadmap-docs.md)
+=======
+- **Aggiunto**: Sistema di documentazione automatica moduli
+- **Integrato**: Refresh intelligente form reattivi
+- **Migliorato**: Sistema di tracking e audit trail
+>>>>>>> laraxot/dev
