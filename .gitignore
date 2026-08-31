@@ -119,13 +119,4 @@ laravel/_ide_helper_models.php
 phpstan*.json
 phpinsights.php
 rector.php
-
-# -----------------------------------------------------------------------------
-# Documentation / generated screenshots
-# -----------------------------------------------------------------------------
-
-docs/screenshots/
-.cursor
-.devcontainer
-.vscode
-.windsurf
+docs/graphify/graphify-out/
