@@ -137,7 +137,10 @@ Zero theme documentation follows the standard theme structure with focus on:
 
 ## Asset Publication
 
-Theme assets are published to: `public_html/themes/Zero/`
+Theme assets are published to: `public_html/themes/Zero/` (document root repo — **non** `laravel/public/`).
+
+`public_path()` in Laravel punta a `public_html/` via `App\Application::publicPath()`.
+Regola: [Xot wiki — public-path-public-html](../../Modules/Xot/docs/wiki/rules/public-path-public-html.md).
 
 Refer to the main theme documentation for build and deployment procedures.
 # 📚 Zero Theme - Documentation Index
