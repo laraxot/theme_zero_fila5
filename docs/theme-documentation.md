@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme documentation"
 related:
-<<<<<<< .merge_file_Ih5Vzu
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_9XmnMj
   - "./00-index.md"
 ---
 
@@ -510,8 +506,4 @@ console.log('Theme initialized', window.ZeroTheme);
 
 - [Laraxot Theme Development Guide](../../../docs/theme-development.md)
 - [Blade Components Documentation](../../../docs/blade-components.md)
-<<<<<<< .merge_file_Ih5Vzu
 - [Asset Management Guide](../../../docs/asset-management.md)
-=======
-- [Asset Management Guide](../../../docs/asset-management.md)
->>>>>>> .merge_file_9XmnMj

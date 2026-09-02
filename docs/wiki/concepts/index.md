@@ -31,7 +31,6 @@ qmd search "Zero concepts" --limit 5
 
 - [jpgraph-guide.md](jpgraph-guide.md) — guida JpGraph 4.4.2 (charts server-side)
 - [filament-nested-resources.md](filament-nested-resources.md) — nested resources Filament 5
-<<<<<<< .merge_file_6KgH53
 
 
 ---
@@ -54,5 +53,3 @@ qmd search "Zero concepts" --limit 5
 
 ---
 *Updated: 2026-05-11*
-=======
->>>>>>> .merge_file_wHGvCO

@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "chart uiux enhancements with background styling and positioning"
 related:
-<<<<<<< .merge_file_tUTcvI
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_TfhvBm
   - "./00-index.md"
 ---
 
@@ -109,8 +105,4 @@ For displaying rating information (e.g., average rating 0-10 and voter count), a
 ## DRY + KISS Principles
 - **DRY**: Background styling configuration is standardized and reusable
 - **KISS**: Simple configuration parameters for consistent results
-<<<<<<< .merge_file_tUTcvI
 - **Maintainable**: Easy to update styling across all charts by modifying parameters
-=======
-- **Maintainable**: Easy to update styling across all charts by modifying parameters
->>>>>>> .merge_file_TfhvBm

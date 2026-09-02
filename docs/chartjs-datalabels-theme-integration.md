@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "chartjs datalabels plugin integration in zero theme"
 related:
-<<<<<<< .merge_file_wvJZyL
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_6sZGzs
   - "./00-index.md"
 ---
 
@@ -624,8 +620,4 @@ describe('Theme Chart Integration', () => {
 4. **Flexibility**: Provide configuration options while maintaining theme defaults
 5. **Maintainability**: Keep theme-specific code separate from module-specific code
 6. **Compatibility**: Ensure the theme works with all chart types and datalabels configurations
-<<<<<<< .merge_file_wvJZyL
 7. **Documentation**: Provide clear documentation for developers using the theme
-=======
-7. **Documentation**: Provide clear documentation for developers using the theme
->>>>>>> .merge_file_6sZGzs

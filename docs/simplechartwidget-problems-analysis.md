@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "simplechartwidget - analisi problemi e miglioramenti uiux"
 related:
-<<<<<<< .merge_file_QHWhDA
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_OkzGfC
   - "./00-index.md"
 ---
 
@@ -481,8 +477,4 @@ L'analisi del `SimpleChartWidget` ha identificato diversi problemi che impattano
 2. **Ottimizzano l'esperienza utente** (accessibilità, performance)
 3. **Migliorano la manutenibilità** (separazione logica, refactoring)
 
-<<<<<<< .merge_file_QHWhDA
 L'implementazione incrementale permette di validare ogni miglioramento prima di procedere con la fase successiva, garantendo un processo di refactoring sicuro e controllato.
-=======
-L'implementazione incrementale permette di validare ogni miglioramento prima di procedere con la fase successiva, garantendo un processo di refactoring sicuro e controllato.
->>>>>>> .merge_file_OkzGfC

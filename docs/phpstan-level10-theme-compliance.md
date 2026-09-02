@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 compliance - theme system"
 related:
-<<<<<<< .merge_file_FfQN1a
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_4nzrF2
   - "./00-index.md"
 ---
 
@@ -302,8 +298,4 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 - **Documentazione**: ✅ Completa e aggiornata
 - **Compliance**: ✅ 100% con standard del progetto
 
-<<<<<<< .merge_file_FfQN1a
 **Status**: ✅ **COMPLETATO** - Theme system PHPStan Level 10 compliant.
-=======
-**Status**: ✅ **COMPLETATO** - Theme system PHPStan Level 10 compliant.
->>>>>>> .merge_file_4nzrF2

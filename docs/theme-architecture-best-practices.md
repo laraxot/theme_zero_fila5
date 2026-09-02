@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme architecture and best practices"
 related:
-<<<<<<< .merge_file_ZUwwE7
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_P60QZr
   - "./00-index.md"
 ---
 
@@ -143,8 +139,4 @@ if (is_object($data) && isset($data->TABLE_SCHEMA)) {
 - Proper caching strategies
 - Efficient template rendering
 
-<<<<<<< .merge_file_ZUwwE7
 This documentation serves as a reference for maintaining and extending the theme architecture while preserving the modular application's integrity and type safety.
-=======
-This documentation serves as a reference for maintaining and extending the theme architecture while preserving the modular application's integrity and type safety.
->>>>>>> .merge_file_P60QZr

@@ -7,13 +7,9 @@ updated: 2026-07-14
 qmd: "documentation"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
-<<<<<<< .merge_file_5G9ohe
-=======
 
-  - "./00-INDEX.md"
+  - "./00-index.md"
   - "./00-index.md"
 ---
 
->>>>>>> .merge_file_6i5ll6
