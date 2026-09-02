@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme zero - doc-first workflow"
 related:
-<<<<<<< .merge_file_XoRTk4
-=======
-  - "./00-index.md"
->>>>>>> .merge_file_IOXumJ
   - "./00-index.md"
 ---
 
