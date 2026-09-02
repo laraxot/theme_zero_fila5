@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "chartjs-plugin-datalabels with filament 5 chartwidget multiple labels"
 related:
+<<<<<<< .merge_file_JUrouE
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_jVBgeZ
   - "./00-index.md"
 ---
 

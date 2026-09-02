@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme documentation standard"
 related:
+<<<<<<< .merge_file_u5iLAh
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_XAjXeH
   - "./00-index.md"
 ---
 
@@ -124,6 +128,10 @@ Breve descrizione del componente e del suo scopo.
     </x-slot>
 </x-theme::component-name>
 ```
+<<<<<<< .merge_file_u5iLAh
+=======
+```
+>>>>>>> .merge_file_XAjXeH
 
 ### Documentazione Architettura
 
@@ -163,6 +171,10 @@ La documentazione architetturale deve includere:
     Clicca qui
 </button>
 ```
+<<<<<<< .merge_file_u5iLAh
+=======
+```
+>>>>>>> .merge_file_XAjXeH
 
 ### 3. Screenshot e Demo
 
@@ -254,4 +266,8 @@ Vedi [customization.md](./customization.md) per la guida completa.
 ---
 
 **Standard Version**: 1.0
+<<<<<<< .merge_file_u5iLAh
 **Ultimo Aggiornamento**: 2025-11-11
+=======
+**Ultimo Aggiornamento**: 2025-11-11
+>>>>>>> .merge_file_XAjXeH

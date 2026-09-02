@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "autenticazione - tema zero"
 related:
+<<<<<<< .merge_file_Uggg29
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_weCbTJ
   - "./00-index.md"
 ---
 
@@ -334,4 +338,8 @@ RateLimiter::attempt(
 - [Documentazione Laravel Authentication](https://laravel.com/docs/authentication)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
 - [Laws of UX](https://lawsofux.com/)
+<<<<<<< .merge_file_Uggg29
 - [Material Design Guidelines](https://material.io/design) 
+=======
+- [Material Design Guidelines](https://material.io/design) 
+>>>>>>> .merge_file_weCbTJ

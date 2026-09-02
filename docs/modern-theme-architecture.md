@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "architettura moderna dei temi - zero theme"
 related:
+<<<<<<< .merge_file_BoPYaE
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_pCL25v
   - "./00-index.md"
 ---
 

@@ -22,4 +22,8 @@ Regola canonica: [../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipli
 
 Sintesi: verificare prima di affermare; riprodurre prima di correggere; **business logic prima del tipo** su bugfix; documentare prove, dubbi e rischio residuo; rispondere in italiano sintetico.
 
+<<<<<<< .merge_file_kakfI2
 Pattern bugfix: [../../../../docs/wiki/patterns/bugfix-business-logic-before-type.md](../../../../docs/wiki/patterns/bugfix-business-logic-before-type.md)
+=======
+Pattern bugfix: [../../../../docs/wiki/patterns/bugfix-business-logic-before-type.md](../../../../docs/wiki/patterns/bugfix-business-logic-before-type.md)
+>>>>>>> .merge_file_b1OfMX
