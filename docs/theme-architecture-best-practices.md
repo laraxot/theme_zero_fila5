@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme architecture and best practices"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_ZUwwE7
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_P60QZr
   - "./00-index.md"
 ---
 
