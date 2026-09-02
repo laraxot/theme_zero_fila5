@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "code quality improvements - zero theme"
 related:
-<<<<<<< .merge_file_OfcgcB
-=======
-  - "./00-index.md"
->>>>>>> .merge_file_qpjiC1
   - "./00-index.md"
 ---
 

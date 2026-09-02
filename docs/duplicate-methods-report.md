@@ -8,9 +8,6 @@ qmd: "report metodi con nome duplicato nei moduli e nei temi"
 related:
   - "./00-index.md"
 
-  - "./00-index.md"
->>>>>>> .merge_file_DVZ5oW
-  - "./00-index.md"
 ---
 
 # Report: Metodi con nome duplicato nei moduli e nei temi

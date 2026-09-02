@@ -8,8 +8,6 @@ updated: "2026-07-22"
 related:
   - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
   - "../../../../../docs/wiki/rules/agent-confidence-protocol.md"
-  - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
-  - "../../../../../docs/wiki/rules/agent-confidence-protocol.md"
 ---
 
 # Massima confidenza agente

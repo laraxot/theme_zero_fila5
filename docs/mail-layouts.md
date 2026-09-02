@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "tema zero - mail layouts"
 related:
-<<<<<<< .merge_file_Z3xmrW
-=======
-  - "./00-index.md"
->>>>>>> .merge_file_w8s9TB
   - "./00-index.md"
 ---
 

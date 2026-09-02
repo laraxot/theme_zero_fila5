@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme troubleshooting guide"
 related:
-<<<<<<< .merge_file_d0WbQd
-=======
-  - "./00-index.md"
->>>>>>> .merge_file_wd87gg
   - "./00-index.md"
 ---
 
