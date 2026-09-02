@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product requirements document prd"
 related:
+<<<<<<< .merge_file_F2Mrxm
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_astwEw
   - "./00-index.md"
 ---
 

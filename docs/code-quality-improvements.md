@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "code quality improvements - zero theme"
 related:
+<<<<<<< .merge_file_OfcgcB
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_qpjiC1
   - "./00-index.md"
 ---
 
@@ -131,4 +135,8 @@ private function surveyHasField(object $survey, string $field): bool
 
 ---
 
+<<<<<<< .merge_file_OfcgcB
 *Last Updated: November 17, 2025*
+=======
+*Last Updated: November 17, 2025*
+>>>>>>> .merge_file_qpjiC1

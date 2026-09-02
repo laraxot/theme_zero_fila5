@@ -217,9 +217,15 @@ related:
 - [roadmap/theme-customization](./roadmap/theme-customization.md)
 
 ## Root
+<<<<<<< .merge_file_vuvWYd
 - [CHANGELOG](./CHANGELOG.md)
 - [CONFLICT-RESOLUTION-SUMMARY](./conflict-resolution-summary.md)
 - [CONFLICT-RESOLUTION-SUMMARY](./conflict_resolution_summary.md)
+=======
+- [CHANGELOG](./changelog.md)
+- [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT-RESOLUTION-SUMMARY.md)
+- [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT_RESOLUTION_SUMMARY.md)
+>>>>>>> .merge_file_MbDZpA
 - [METODI-DUPLICATI-ANALISI](./METODI-DUPLICATI-ANALISI.md)
 - [METODI-DUPLICATI-ANALISI](./METODI_DUPLICATI_ANALISI.md)
 - [accessor-delegation-pattern](./accessor-delegation-pattern.md)
@@ -234,7 +240,11 @@ related:
 - [architecture](./architecture.md)
 - [auth-examples](./auth-examples.md)
 - [authentication](./authentication.md)
+<<<<<<< .merge_file_vuvWYd
 - [changelog](./CHANGELOG.md)
+=======
+- [changelog](./changelog.md)
+>>>>>>> .merge_file_MbDZpA
 - [chartjs-datalabels-background-styling](./chartjs-datalabels-background-styling.md)
 - [chartjs-datalabels-filament5-implementation](./chartjs-datalabels-filament5-implementation.md)
 - [chartjs-datalabels-multiple-labels-complete-guide](./chartjs-datalabels-multiple-labels-complete-guide.md)

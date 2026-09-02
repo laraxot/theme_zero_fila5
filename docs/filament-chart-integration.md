@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament installation and chart widget integration guide for zero theme"
 related:
+<<<<<<< .merge_file_ghAQOE
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_hmMqau
   - "./00-index.md"
 ---
 
@@ -429,4 +433,8 @@ it('registers Filament plugins globally', () => {
 });
 ```
 
+<<<<<<< .merge_file_ghAQOE
 This guide provides comprehensive instructions for integrating Filament 5.x ChartWidgets with the Zero theme, ensuring proper asset management, performance optimization, and security practices.
+=======
+This guide provides comprehensive instructions for integrating Filament 5.x ChartWidgets with the Zero theme, ensuring proper asset management, performance optimization, and security practices.
+>>>>>>> .merge_file_hmMqau

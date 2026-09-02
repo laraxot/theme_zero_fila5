@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament 5x nested resources - guida completa 2024"
 related:
+<<<<<<< .merge_file_pNoDPu
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_O1oBp0
   - "./00-index.md"
 ---
 
@@ -556,4 +560,8 @@ class NestedResourceGenerator
 
 **Ultimo Aggiornamento:** 2024-01-27  
 **Versione Filament:** 5.x  
+<<<<<<< .merge_file_pNoDPu
 **Stato:** 📚 Completamente Analizzato e Documentato
+=======
+**Stato:** 📚 Completamente Analizzato e Documentato
+>>>>>>> .merge_file_O1oBp0

@@ -4,6 +4,11 @@ type: handoff
 tags: [git, multi-org, bmad, story-003]
 created: 2026-07-21
 updated: 2026-07-29
+<<<<<<< .merge_file_54XVbe
+=======
+
+updated: 2026-07-23
+>>>>>>> .merge_file_4tupNF
 module: "Zero"
 issues:
   - "https://github.com/provtv/theme_zero_fila5/issues/12"
@@ -44,6 +49,12 @@ Tema: sync multi-org + handoff docs.
 
 ### Playbook push dual-remote (2026-07-22)
 
+<<<<<<< .merge_file_54XVbe
+=======
+Se unpack fallisce → `git push --no-thin`. Se GH008 / LFS missing e un remote sibling ha già il tip → `git lfs fetch <sibling> --all` + `git lfs push <target> --all` + push.
+Canon (caso UI `b874935`): [../../../Modules/UI/docs/wiki/troubleshooting/git-push-lfs-missing-objects.md](../../../Modules/UI/docs/wiki/troubleshooting/git-push-lfs-missing-objects.md).
+Forward-only: niente reset/squash/force per aggirare LFS.
+>>>>>>> .merge_file_4tupNF
 
 ### Caso User 2026-07-23 (unrelated)
 

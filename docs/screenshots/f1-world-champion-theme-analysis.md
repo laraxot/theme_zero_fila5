@@ -12,6 +12,7 @@ related:
 
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
+<<<<<<< .merge_file_Tss9Ez
 **URL**: `http://forecast.local/it/forecasts/f1-world-champion-2026`  
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
@@ -24,6 +25,8 @@ related:
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
+=======
+>>>>>>> .merge_file_fDQY0y
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
 **Tema**: Zero  
 **Data**: 2026-03-25
@@ -32,10 +35,13 @@ related:
 
 ## 📸 Screenshots Repository
 
+<<<<<<< .merge_file_Tss9Ez
 Gli screenshot della forecast detail page sono disponibili in:
 Gli screenshot della forecast detail page sono disponibili in:
 Gli screenshot della predict detail page sono disponibili in:
 Gli screenshot della predict detail page sono disponibili in:
+=======
+>>>>>>> .merge_file_fDQY0y
 Gli screenshot della predict detail page sono disponibili in:
 
 ```
@@ -66,6 +72,7 @@ Il mercato **F1 World Champion 2026** ha **6 opzioni di risposta**:
 
 ### Componenti Utilizzati
 
+<<<<<<< .merge_file_Tss9Ez
 Il tema Zero utilizza i componenti del modulo forecast:
 
 ```blade
@@ -81,6 +88,10 @@ Il tema Zero utilizza i componenti del modulo Predict:
 
 ```
 
+=======
+Il tema Zero utilizza i componenti del modulo Predict:
+
+>>>>>>> .merge_file_fDQY0y
 ```blade
 <x-predict-view.header />
 <x-predict-view.market-stats />
@@ -96,10 +107,13 @@ Il tema Zero utilizza i componenti del modulo Predict:
 
 | File | Scopo |
 |------|-------|
+<<<<<<< .merge_file_Tss9Ez
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
+=======
+>>>>>>> .merge_file_fDQY0y
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
 | `resources/css/app.css` | Theme styling |
 | `resources/js/gsap-config.js` | Animations |
@@ -149,10 +163,13 @@ small: text-sm (14px)
 
 ## ✅ Theme Compliance
 
+<<<<<<< .merge_file_Tss9Ez
 - [x] Componenti modulari forecast
 - [x] Componenti modulari forecast
 - [x] Componenti modulari Predict
 - [x] Componenti modulari Predict
+=======
+>>>>>>> .merge_file_fDQY0y
 - [x] Componenti modulari Predict
 - [x] Styling coerente con design system
 - [x] Responsive design
