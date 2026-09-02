@@ -3,10 +3,7 @@
 
 # -----------------------------------------------------------------------------
 # Root-level forbidden directories
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
-=======
->>>>>>> .merge_file_kpuj1H
 
 bashscripts/
 _bmad-output/
@@ -26,37 +23,25 @@ test-results/
 tests/.claude-audit/
 tests/AuditCoverage/
 
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
 # IDE / AI tools
 # -----------------------------------------------------------------------------
-=======
-# IDE / AI tools
->>>>>>> .merge_file_kpuj1H
 
 .cursor/
 .vscode/
 .windsurf/
 .agents/
 
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
 # AI / local tooling output
 # -----------------------------------------------------------------------------
-=======
-# AI / local tooling output
->>>>>>> .merge_file_kpuj1H
 
 graphify-out/
 .headroom/
 
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
 # Logs, caches and temporary files
 # -----------------------------------------------------------------------------
-=======
-# Logs, caches and temporary files
->>>>>>> .merge_file_kpuj1H
 
 *.log
 *.phar
@@ -73,25 +58,17 @@ logs/
 /cache/
 .git-rewrite/
 
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
 # Environment files
 # -----------------------------------------------------------------------------
-=======
-# Environment files
->>>>>>> .merge_file_kpuj1H
 
 .env
 .env.docker
 .env.latest
 
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
 # Dependencies / generated assets
 # -----------------------------------------------------------------------------
-=======
-# Dependencies / generated assets
->>>>>>> .merge_file_kpuj1H
 
 vendor/
 node_modules/
@@ -99,7 +76,6 @@ uploads/
 limesurvey/
 build/
 
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
 # Package manager files
 # -----------------------------------------------------------------------------
@@ -109,13 +85,6 @@ package-lock.json
 # -----------------------------------------------------------------------------
 # Public HTML generated/vendor assets
 # -----------------------------------------------------------------------------
-=======
-# Package manager files
-
-package-lock.json
-
-# Public HTML generated/vendor assets
->>>>>>> .merge_file_kpuj1H
 
 public_html/vendor/
 public_html/js/
@@ -124,13 +93,9 @@ public_html/storage/
 public_html/error_log
 public_html/chart/
 
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
 # Laravel generated / local files
 # -----------------------------------------------------------------------------
-=======
-# Laravel generated / local files
->>>>>>> .merge_file_kpuj1H
 
 laravel/
 laravel/*.lock
@@ -140,8 +105,6 @@ laravel/database/migrations/
 laravel/resources/lang/vendor/
 laravel/resources/views/vendor/
 laravel/stubs/
-<<<<<<< .merge_file_A93Cdd
-=======
 bashscripts
 _bmad-output
 .circleci
@@ -173,7 +136,6 @@ public_html/chart
 laravel/lang/vendor/
 laravel/database/migrations
 laravel/resources/views/vendor
->>>>>>> .merge_file_kpuj1H
 laravel/composer.lock
 laravel/package-lock.json
 laravel/error_log
@@ -183,30 +145,21 @@ laravel/_ide_helper_models.php
 
 # -----------------------------------------------------------------------------
 # PHP / static analysis / quality tools
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
-=======
->>>>>>> .merge_file_kpuj1H
 
 phpstan*.json
 phpinsights.php
 rector.php
 
-<<<<<<< .merge_file_A93Cdd
 # -----------------------------------------------------------------------------
 # Documentation / generated screenshots
 # -----------------------------------------------------------------------------
-=======
-# Documentation / generated screenshots
->>>>>>> .merge_file_kpuj1H
 
 docs/screenshots/
 .cursor
 .devcontainer
 .vscode
 .windsurf
-<<<<<<< .merge_file_A93Cdd
-=======
 laravel/public
 laravel/resources/lang/vendor/
 vendor/
@@ -240,10 +193,6 @@ extras
 tests/AuditCoverage/
 
 # Laraxot — quality tool configs forbidden in module/theme root (use laravel/phpinsights.php, laravel/rector.php)
-<<<<<<< .merge_file_N8Dp3V
 phpinsights.php
 rector.php
 docs/graphify/graphify-out/
-=======
->>>>>>> .merge_file_iR93P9
->>>>>>> .merge_file_kpuj1H
