@@ -6,6 +6,14 @@ created: 2026-07-14
 updated: 2026-08-18
 qmd: "riepilogo risoluzione conflitti git - filament 4"
 related:
+<<<<<<< .merge_file_HenebC
+=======
+
+updated: 2026-07-14
+qmd: "riepilogo risoluzione conflitti git - filament 4"
+related:
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_J5jHZy
   - "./00-index.md"
 ---
 

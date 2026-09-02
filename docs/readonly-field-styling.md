@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "readonly field styling - uiux pattern"
 related:
+<<<<<<< .merge_file_8PeTA9
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_Dr3pMJ
   - "./00-index.md"
 ---
 
