@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme documentation standard"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_u5iLAh
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_XAjXeH
   - "./00-index.md"
 ---
 
