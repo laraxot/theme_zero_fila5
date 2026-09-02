@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "componenti del tema zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_G5OPGd
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_qR4Kq5
   - "./00-index.md"
 ---
 
