@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "esempi di utilizzo - tema zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_t5fiiW
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_Iz8xo6
   - "./00-index.md"
 ---
 

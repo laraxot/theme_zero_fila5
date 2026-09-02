@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "chart uiux enhancements with background styling and positioning"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_tUTcvI
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_TfhvBm
   - "./00-index.md"
 ---
 

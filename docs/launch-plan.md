@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product launch plan zero theme"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_ABI334
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_CHpPE6
   - "./00-index.md"
 ---
 

@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "layout del tema zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_GnjHaF
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_Ychijc
   - "./00-index.md"
 ---
 
