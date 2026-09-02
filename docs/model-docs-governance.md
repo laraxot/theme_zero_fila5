@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme zero docs governance"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_GzKTcz
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_FP8d1b
   - "./00-index.md"
 ---
 

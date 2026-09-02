@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "jpgraph class reference - analisi completta 2024"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_6rCaHF
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_VAsbJW
   - "./00-index.md"
 ---
 

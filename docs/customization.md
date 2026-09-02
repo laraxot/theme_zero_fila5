@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "personalizzazione del tema zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_egtCV4
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_jlaMQP
   - "./00-index.md"
 ---
 

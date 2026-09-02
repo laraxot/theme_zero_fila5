@@ -35,7 +35,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "architettura del tema zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_Wwu3v3
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_xxqpWG
   - "./00-index.md"
 ---
 
