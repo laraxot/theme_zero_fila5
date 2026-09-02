@@ -17,4 +17,4 @@ related:
 
 # Composer — moduli sì, temi no (Zero)
 
-Canon: [composer-modules-not-themes.md](../../docs/composer-modules-not-themes.md).
+Canon: [composer-modules-not-themes.md](./composer-modules-not-themes.md).
