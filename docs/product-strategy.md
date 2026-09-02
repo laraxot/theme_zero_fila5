@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product strategy - theme zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_cW2BOr
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_MSRdBJ
   - "./00-index.md"
 ---
 
