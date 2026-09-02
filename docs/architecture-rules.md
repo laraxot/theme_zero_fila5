@@ -11,9 +11,9 @@ Themes follow the same directory structure standards as Modules.
 ## Key References
 
 - **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-- **Global Rules**: [Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 - **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-- **Global Rules**: [Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+- **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+- **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 - **Module Structure Rules**:
   - All functional code MUST be inside `app/`.
   - Root-level capitalized directories (e.g., `Actions/`, `Database/`) are forbidden.
