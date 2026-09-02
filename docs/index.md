@@ -24,11 +24,11 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 
 ## Collegamenti Correlati
 - [AI Methodologies](./ai-methodologies.md)
-- [Documentazione Generale Progetto](../../../docs/README.md) (docs: replace project-specific references with generic placeholders across documentation)
+- [Documentazione Generale Progetto](./README.md) (docs: replace project-specific references with generic placeholders across documentation)
 - [Collegamenti Documentazione](../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../docs/DOCUMENTATION_STANDARDS.md)
-- [Modulo UI](../../Modules/UI/docs/README.md)
-- [Modulo Xot](../../Modules/Xot/docs/README.md)
+- [Modulo UI](../../../Modules/UI/docs/README.md)
+- [Modulo Xot](../../../Modules/Xot/docs/README.md)
 
 ### Moduli Integrati
 - [Performance Actions Reference](./performance-actions-reference.md) - Riferimento action calcolo performance
@@ -167,7 +167,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione
 - Il file `lang/it/zero_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
-- Vedi anche: [../../../docs/README.md](../../../docs/README.md)
+- Vedi anche: [../../../docs/README.md](./README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 
 *Ultimo aggiornamento: Gennaio 2025*
