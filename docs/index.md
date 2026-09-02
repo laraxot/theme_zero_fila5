@@ -1,14 +1,12 @@
 ---
-title: "Documentation Index — Theme Zero"
+title: "Indice della Documentazione - Tema Zero"
 type: index
-tags: [documentation, index, theme]
-created: 2026-07-14
-updated: 2026-09-11
-qmd: "theme zero documentation index"
-related:
-  - "./00-index.md"
-  - "./stories/docs-theme-zero-audit-2026-09-11.story.md"
+tags: [theme, zero, index]
+created: 2026-07-01
+updated: 2026-09-02
+qmd: "zero theme indice della documentazione   tema zero"
 ---
+# Indice della Documentazione - Tema Zero
 
 > **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
 > [00-index.md](./00-index.md) (canonico, aggiornato 2026-03-28). Usare `00-index.md` come riferimento
