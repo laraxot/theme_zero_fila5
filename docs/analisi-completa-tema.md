@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "analisi completa tema zero - tema minimalista laravel"
 related:
-<<<<<<< .merge_file_w9wHID
-=======
-  - "./00-index.md"
->>>>>>> .merge_file_bOTEWT
   - "./00-index.md"
 ---
 
