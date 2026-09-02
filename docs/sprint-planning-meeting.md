@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero - sprint planning meeting"
 related:
+<<<<<<< .merge_file_iZ3bL5
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_p0ZuYL
   - "./00-index.md"
 ---
 

@@ -12,9 +12,12 @@ related:
 
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
+<<<<<<< .merge_file_1mBH57
 **URL**: `http://forecast.local/it/forecasts/f1-world-champion-2026`  
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
+=======
+>>>>>>> .merge_file_cCy4MC
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
 **Tema**: Zero  
 **Data**: 2026-03-25
@@ -23,7 +26,10 @@ related:
 
 ## 📸 Screenshots Repository
 
+<<<<<<< .merge_file_1mBH57
 Gli screenshot della forecast detail page sono disponibili in:
+=======
+>>>>>>> .merge_file_cCy4MC
 Gli screenshot della predict detail page sono disponibili in:
 
 ```
@@ -54,6 +60,7 @@ Il mercato **F1 World Champion 2026** ha **6 opzioni di risposta**:
 
 ### Componenti Utilizzati
 
+<<<<<<< .merge_file_1mBH57
 Il tema Zero utilizza i componenti del modulo forecast:
 
 ```blade
@@ -69,6 +76,10 @@ Il tema Zero utilizza i componenti del modulo Predict:
 
 ```
 
+=======
+Il tema Zero utilizza i componenti del modulo Predict:
+
+>>>>>>> .merge_file_cCy4MC
 ```blade
 <x-predict-view.header />
 <x-predict-view.market-stats />
@@ -84,7 +95,10 @@ Il tema Zero utilizza i componenti del modulo Predict:
 
 | File | Scopo |
 |------|-------|
+<<<<<<< .merge_file_1mBH57
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
+=======
+>>>>>>> .merge_file_cCy4MC
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
 | `resources/css/app.css` | Theme styling |
 | `resources/js/gsap-config.js` | Animations |
@@ -134,7 +148,10 @@ small: text-sm (14px)
 
 ## ✅ Theme Compliance
 
+<<<<<<< .merge_file_1mBH57
 - [x] Componenti modulari forecast
+=======
+>>>>>>> .merge_file_cCy4MC
 - [x] Componenti modulari Predict
 - [x] Styling coerente con design system
 - [x] Responsive design
@@ -146,7 +163,10 @@ small: text-sm (14px)
 
 ## 🔗 Riferimenti
 
+<<<<<<< .merge_file_1mBH57
 - [forecast Module Docs](../../Modules/Domain/docs/screenshots/f1-world-champion-2026-analysis.md)
+=======
+>>>>>>> .merge_file_cCy4MC
 - [Predict Module Docs](../../Modules/Predict/docs/screenshots/f1-world-champion-2026-analysis.md)
 - [Theme Zero Docs](./README.md)
 - [Architecture](./architecture.md)

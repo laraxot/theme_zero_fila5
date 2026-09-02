@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "chartjs export integration - tema zero"
 related:
+<<<<<<< .merge_file_Bwsr9R
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_BwKQhM
   - "./00-index.md"
 ---
 
@@ -1382,4 +1386,8 @@ if (mix.inProduction()) {
 
 *Integrazione Tema Zero Chart.js Export - Laraxot Theme System*  
 *Creato: 2025-11-17*  
+<<<<<<< .merge_file_Bwsr9R
 *Autore: AI Assistant con tema production-ready*
+=======
+*Autore: AI Assistant con tema production-ready*
+>>>>>>> .merge_file_BwKQhM

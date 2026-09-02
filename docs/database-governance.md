@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "documentation"
 related:
+<<<<<<< .merge_file_rGHLri
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_yLmijQ
   - "./00-index.md"
 ---
 
