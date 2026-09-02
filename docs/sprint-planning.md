@@ -6,7 +6,6 @@ created: 2026-07-14
 updated: 2026-09-11
 qmd: "sprint planning theme zero"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
