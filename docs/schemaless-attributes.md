@@ -8,7 +8,7 @@ qmd: "schemaless attributes in themes"
 related:
 <<<<<<< .merge_file_SjsWp5
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_o6v1Px
   - "./00-index.md"
 ---

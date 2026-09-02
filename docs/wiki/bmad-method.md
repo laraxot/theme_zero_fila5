@@ -10,7 +10,7 @@ related:
 <<<<<<< .merge_file_dz32LG
 =======
 
-  - "./schema.md"
+  - "./SCHEMA.md"
 >>>>>>> .merge_file_sTjwm6
   - "./bmad-method.md"
   - "./log.md"

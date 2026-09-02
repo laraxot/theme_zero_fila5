@@ -8,7 +8,7 @@ qmd: "personalizzazione del tema zero"
 related:
 <<<<<<< .merge_file_egtCV4
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_jlaMQP
   - "./00-index.md"
 ---

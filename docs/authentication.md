@@ -8,7 +8,7 @@ qmd: "autenticazione - tema zero"
 related:
 <<<<<<< .merge_file_Uggg29
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_weCbTJ
   - "./00-index.md"
 ---
