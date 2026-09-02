@@ -7,6 +7,11 @@ updated: 2026-07-14
 qmd: "metodi duplicati zero"
 related:
   - "./00-index.md"
+<<<<<<< .merge_file_Fttir7
+=======
+
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_v2z01y
   - "./00-index.md"
 ---
 

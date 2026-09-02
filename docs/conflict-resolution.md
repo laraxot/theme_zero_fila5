@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "conflict resolution theme zero"
 related:
+<<<<<<< .merge_file_sobuyN
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_VK5Lgd
   - "./00-index.md"
 ---
 

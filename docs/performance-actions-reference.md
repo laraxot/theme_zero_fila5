@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "performance actions reference"
 related:
+<<<<<<< .merge_file_8MkS8j
+=======
+  - "./00-INDEX.md"
+>>>>>>> .merge_file_F7UGVv
   - "./00-index.md"
 ---
 
