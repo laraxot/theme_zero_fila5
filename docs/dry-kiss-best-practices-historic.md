@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "dry kiss best practices - tema zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_KVRVuH
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_koRDZn
   - "./00-index.md"
 ---
 
