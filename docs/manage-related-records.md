@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "managerelatedrecords styling - zero theme"
 related:
-<<<<<<< .merge_file_HqFydR
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_WPOnzK
   - "./00-index.md"
 ---
 

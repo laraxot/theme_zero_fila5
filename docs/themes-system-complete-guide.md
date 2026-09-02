@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "themes system - il vestito di laraxot"
 related:
-<<<<<<< .merge_file_nn8G8B
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_Dsb8n4
   - "./00-index.md"
 ---
 
@@ -1154,8 +1150,4 @@ Il sistema themes di Laraxot segue una filosofia radicale:
 
 *Documentazione Themes System v1.0*
 *Creato: 2025-11-17*
-<<<<<<< .merge_file_nn8G8B
 *Autore: AI Assistant con analisi approfondita*
-=======
-*Autore: AI Assistant con analisi approfondita*
->>>>>>> .merge_file_Dsb8n4

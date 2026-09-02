@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "spatie permission team context"
 related:
-<<<<<<< .merge_file_25DrkE
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_jlk3st
   - "./00-index.md"
 ---
 

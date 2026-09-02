@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "accessor delegation pattern - zero theme"
 related:
-<<<<<<< .merge_file_c2vxPn
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_7b7kCA
   - "./00-index.md"
 ---
 

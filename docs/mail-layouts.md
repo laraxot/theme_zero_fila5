@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "tema zero - mail layouts"
 related:
-<<<<<<< .merge_file_Z3xmrW
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_w8s9TB
   - "./00-index.md"
 ---
 
@@ -235,11 +231,8 @@ Il sistema implementa una strategia di fallback a cascata:
 - [Spatie Database Mail Templates](../../../Modules/Notify/docs/spatie-database-mail-templates-deep-dive.md)
 - [Email Best Practices](../../../Modules/Notify/docs/email-html-best-practices.md)
 
-<<<<<<< .merge_file_Z3xmrW
-=======
 - [Email Best Practices](../../../Modules/Notify/docs/email_html_best_practices.md)
 
->>>>>>> .merge_file_w8s9TB
 ### Repository di Riferimento
 
 - [spatie/laravel-database-mail-templates](https://github.com/spatie/laravel-database-mail-templates)
