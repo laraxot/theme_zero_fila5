@@ -1,3 +1,11 @@
+---
+title: "Changelog"
+type: guide
+tags: [theme, zero, changelog]
+created: 2026-07-01
+updated: 2026-08-18
+qmd: "zero theme changelog"
+---
 # Changelog
 
 Tutte le variazioni importanti di Zero saranno generate automaticamente da semantic-release.
