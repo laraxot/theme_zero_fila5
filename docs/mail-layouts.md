@@ -8,7 +8,7 @@ qmd: "tema zero - mail layouts"
 related:
 <<<<<<< .merge_file_Z3xmrW
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_w8s9TB
   - "./00-index.md"
 ---

@@ -8,7 +8,7 @@ qmd: "phpstan level 10 compliance - theme system"
 related:
 <<<<<<< .merge_file_FfQN1a
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_4nzrF2
   - "./00-index.md"
 ---

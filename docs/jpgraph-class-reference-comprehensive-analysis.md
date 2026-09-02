@@ -8,7 +8,7 @@ qmd: "jpgraph class reference - analisi completta 2024"
 related:
 <<<<<<< .merge_file_6rCaHF
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_VAsbJW
   - "./00-index.md"
 ---

@@ -8,7 +8,7 @@ qmd: "implementazione chartjs datalabels in filament 5x - tema zero"
 related:
 <<<<<<< .merge_file_pAFvKG
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_eobUfn
   - "./00-index.md"
 ---

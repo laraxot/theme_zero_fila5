@@ -8,7 +8,7 @@ qmd: "theme zero docs governance"
 related:
 <<<<<<< .merge_file_GzKTcz
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_FP8d1b
   - "./00-index.md"
 ---
