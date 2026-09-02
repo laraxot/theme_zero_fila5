@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 compliance - theme system"
 related:
-<<<<<<< .merge_file_FfQN1a
-=======
-  - "./00-index.md"
->>>>>>> .merge_file_4nzrF2
   - "./00-index.md"
 ---
 
