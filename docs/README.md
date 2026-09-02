@@ -1,3 +1,11 @@
+---
+title: "Theme Documentation"
+type: index
+tags: [theme, zero, readme]
+created: 2026-07-01
+updated: 2026-09-02
+qmd: "zero theme theme documentation"
+---
 # Theme Documentation
 
 This directory contains documentation for the theme.

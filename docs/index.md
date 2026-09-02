@@ -1,3 +1,11 @@
+---
+title: "Indice della Documentazione - Tema Zero"
+type: index
+tags: [theme, zero, index]
+created: 2026-07-01
+updated: 2026-09-02
+qmd: "zero theme indice della documentazione   tema zero"
+---
 # Indice della Documentazione - Tema Zero
 
 > **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
