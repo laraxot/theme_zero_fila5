@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme documentation"
 related:
-<<<<<<< .merge_file_Ih5Vzu
-=======
-  - "./00-index.md"
->>>>>>> .merge_file_9XmnMj
   - "./00-index.md"
 ---
 
