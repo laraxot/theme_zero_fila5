@@ -1,3 +1,11 @@
+---
+title: "Graphify Knowledge Graph"
+type: index
+tags: [theme, zero, readme]
+created: 2026-08-03
+updated: 2026-09-02
+qmd: "zero theme graphify knowledge graph"
+---
 # Graphify Knowledge Graph
 
 ## Overview
