@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "simplechartwidget - analisi qualit del codice e best practices"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_q3GXTa
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_Ly6oVj
   - "./00-index.md"
 ---
 
