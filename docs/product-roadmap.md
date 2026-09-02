@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product roadmap - theme zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_ueX1G8
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_oLRzre
   - "./00-index.md"
 ---
 

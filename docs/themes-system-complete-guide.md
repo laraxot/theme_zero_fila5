@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "themes system - il vestito di laraxot"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_nn8G8B
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_Dsb8n4
   - "./00-index.md"
 ---
 
