@@ -8,8 +8,6 @@ updated: "2026-06-18"
 related:
   - "../../../laravel/Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md"
   - "../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md"
-  - "../../../laravel/Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md"
-  - "../../Modules/Xot/docs/wiki/concepts/agent-confidence-discipline.md"
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
 ---
 
