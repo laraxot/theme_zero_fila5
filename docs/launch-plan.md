@@ -8,7 +8,7 @@ qmd: "product launch plan zero theme"
 related:
 <<<<<<< .merge_file_ABI334
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_CHpPE6
   - "./00-index.md"
 ---

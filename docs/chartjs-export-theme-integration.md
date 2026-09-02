@@ -8,7 +8,7 @@ qmd: "chartjs export integration - tema zero"
 related:
 <<<<<<< .merge_file_Bwsr9R
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_BwKQhM
   - "./00-index.md"
 ---

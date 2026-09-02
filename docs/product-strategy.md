@@ -8,7 +8,7 @@ qmd: "product strategy - theme zero"
 related:
 <<<<<<< .merge_file_cW2BOr
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_MSRdBJ
   - "./00-index.md"
 ---

@@ -8,7 +8,7 @@ qmd: "spatie permission teams boundary"
 related:
 <<<<<<< .merge_file_0RKMtb
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_uU54pw
   - "./00-index.md"
 ---

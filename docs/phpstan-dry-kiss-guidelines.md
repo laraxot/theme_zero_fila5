@@ -8,7 +8,7 @@ qmd: "phpstan level 10 drykiss guidelines for themes"
 related:
 <<<<<<< .merge_file_n4f2JQ
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_L91sP1
   - "./00-index.md"
 ---

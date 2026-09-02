@@ -8,7 +8,7 @@ qmd: "simplechartwidget - analisi qualit del codice e best practices"
 related:
 <<<<<<< .merge_file_MR7DbO
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_Gx6an5
   - "./00-index.md"
 ---

@@ -8,7 +8,7 @@ qmd: "filament 5x nested resources - guida completa 2024"
 related:
 <<<<<<< .merge_file_pNoDPu
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_O1oBp0
   - "./00-index.md"
 ---

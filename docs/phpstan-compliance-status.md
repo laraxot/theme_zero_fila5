@@ -8,7 +8,7 @@ qmd: "phpstan level 10 compliance status"
 related:
 <<<<<<< .merge_file_HwbIFx
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_4rzVN4
   - "./00-index.md"
 ---

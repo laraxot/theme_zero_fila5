@@ -8,7 +8,7 @@ qmd: "simplechartwidget - analisi problemi e miglioramenti uiux"
 related:
 <<<<<<< .merge_file_QHWhDA
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_OkzGfC
   - "./00-index.md"
 ---

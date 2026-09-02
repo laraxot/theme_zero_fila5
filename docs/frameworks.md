@@ -1,3 +1,11 @@
+---
+title: "Zero — Framework Integration Notes"
+type: guide
+tags: [theme, zero, frameworks, caveman, graphify, bmad, headroom, ponytail]
+created: 2026-09-02
+updated: 2026-09-02
+qmd: "zero theme framework integration notes"
+---
 # Zero — Framework Integration Notes
 
 Integration guidelines for caveman, graphify, bmad-method, headroom, ponytail.

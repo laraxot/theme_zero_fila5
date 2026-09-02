@@ -8,7 +8,7 @@ qmd: "performance actions reference"
 related:
 <<<<<<< .merge_file_8MkS8j
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_F7UGVv
   - "./00-index.md"
 ---

@@ -8,7 +8,7 @@ qmd: "filament installation and chart widget integration guide for zero theme"
 related:
 <<<<<<< .merge_file_ghAQOE
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_hmMqau
   - "./00-index.md"
 ---

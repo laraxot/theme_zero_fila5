@@ -8,7 +8,7 @@ qmd: "code quality improvements - zero theme"
 related:
 <<<<<<< .merge_file_OfcgcB
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_qpjiC1
   - "./00-index.md"
 ---

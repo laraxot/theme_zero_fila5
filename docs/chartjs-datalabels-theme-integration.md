@@ -8,7 +8,7 @@ qmd: "chartjs datalabels plugin integration in zero theme"
 related:
 <<<<<<< .merge_file_wvJZyL
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_6sZGzs
   - "./00-index.md"
 ---

@@ -8,7 +8,7 @@ qmd: "analisi phpstan livello 10 - tema"
 related:
 <<<<<<< .merge_file_0kP1ol
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_AtW6JL
   - "./00-index.md"
 ---

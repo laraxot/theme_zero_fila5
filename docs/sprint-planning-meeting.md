@@ -8,7 +8,7 @@ qmd: "zero - sprint planning meeting"
 related:
 <<<<<<< .merge_file_iZ3bL5
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_p0ZuYL
   - "./00-index.md"
 ---
