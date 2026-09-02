@@ -17,9 +17,6 @@ Core module for the FixCity Platform.
 
 ## Superpoteri
 
-- Modular component with XotBase patterns
-- Professional-grade implementation
-- Integrated with FixCity Platform
 
 ## Documentazione
 
@@ -31,7 +28,6 @@ Core module for the FixCity Platform.
 
 ---
 
->>>>>>> .merge_file_OjluFU
 ## Overview
 
 Il tema **Zero** è il tema principale di default per l'applicazione Laraxot PTVX.
@@ -66,13 +62,10 @@ Zero/
 2. **Output files**: `phpstan*.json` ignorati (NON committare)
 3. **Namespace**: `Themes\Zero\`
 
-<<<<<<< .merge_file_TsU77R
-=======
 ## Repo indipendente
 
 Path `laravel/Themes/Zero` → remote `laraxot/theme_zero_fila5` (da `git remote -v`; il vecchio `gitmodules.ini` è stato rimosso il 2 set 2026, non era un file letto da git). Entrare con `cd`, non trattarlo come submodule della root. Protocollo: [17-gitmodules-path-iteration.md](../../../../bashscripts/tools/prompts/17-gitmodules-path-iteration.md).
 
->>>>>>> .merge_file_OjluFU
 ## Collegamenti
 
 - [PHPStan Docs](./phpstan.md)
