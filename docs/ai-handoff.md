@@ -7,7 +7,6 @@ updated: 2026-07-14
 qmd: "ai handoff"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
 # ai handoff

@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 compliance status"
 related:
-<<<<<<< .merge_file_HwbIFx
-=======
-  - "./00-index.md"
->>>>>>> .merge_file_4rzVN4
   - "./00-index.md"
 ---
 
