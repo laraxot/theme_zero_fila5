@@ -49,6 +49,7 @@ updated: 2026-08-24
 qmd: "phpstan theme zero solo laravel/phpstan.neon modules gate no --level"
 related:
   - "./00-index.md"
+  - "./00-index.md"
 ---
 
 # PHPStan Configuration - Theme Zero
