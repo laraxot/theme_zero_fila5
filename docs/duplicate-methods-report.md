@@ -10,7 +10,7 @@ related:
 <<<<<<< .merge_file_KKyVCP
 =======
 
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_DVZ5oW
   - "./00-index.md"
 ---

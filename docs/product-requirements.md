@@ -8,7 +8,7 @@ qmd: "product requirements document prd"
 related:
 <<<<<<< .merge_file_F2Mrxm
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_astwEw
   - "./00-index.md"
 ---

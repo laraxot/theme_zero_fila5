@@ -8,7 +8,7 @@ qmd: "analisi completa tema zero - tema minimalista laravel"
 related:
 <<<<<<< .merge_file_w9wHID
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_bOTEWT
   - "./00-index.md"
 ---

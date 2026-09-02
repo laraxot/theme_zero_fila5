@@ -8,7 +8,7 @@ qmd: "theme zero - doc-first workflow"
 related:
 <<<<<<< .merge_file_XoRTk4
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_IOXumJ
   - "./00-index.md"
 ---

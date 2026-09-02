@@ -8,7 +8,7 @@ qmd: "user research - theme zero"
 related:
 <<<<<<< .merge_file_UQpsyn
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_y1fXqw
   - "./00-index.md"
 ---

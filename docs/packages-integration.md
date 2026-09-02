@@ -8,7 +8,7 @@ qmd: "integrazione pacchetti nel tema zero"
 related:
 <<<<<<< .merge_file_9u8W8g
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_gQQN4d
   - "./00-index.md"
 ---

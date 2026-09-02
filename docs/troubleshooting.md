@@ -8,7 +8,7 @@ qmd: "zero theme troubleshooting guide"
 related:
 <<<<<<< .merge_file_d0WbQd
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_wd87gg
   - "./00-index.md"
 ---

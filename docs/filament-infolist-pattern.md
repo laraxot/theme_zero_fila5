@@ -8,7 +8,7 @@ qmd: "pattern infolist filament theme zero"
 related:
 <<<<<<< .merge_file_SVx1cU
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_7z2jd7
   - "./00-index.md"
 ---

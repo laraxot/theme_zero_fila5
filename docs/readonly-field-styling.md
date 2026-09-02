@@ -8,7 +8,7 @@ qmd: "readonly field styling - uiux pattern"
 related:
 <<<<<<< .merge_file_8PeTA9
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_Dr3pMJ
   - "./00-index.md"
 ---

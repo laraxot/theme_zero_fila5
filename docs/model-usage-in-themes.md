@@ -8,7 +8,7 @@ qmd: "model usage in themes - best practices"
 related:
 <<<<<<< .merge_file_rfSVT8
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_bJ3u5o
   - "./00-index.md"
 ---

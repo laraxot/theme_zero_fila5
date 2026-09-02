@@ -8,7 +8,7 @@ qmd: "esempi di autenticazione - tema zero"
 related:
 <<<<<<< .merge_file_BaXXtW
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_O40f5U
   - "./00-index.md"
 ---

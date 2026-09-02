@@ -8,7 +8,7 @@ qmd: "spatie permission team context"
 related:
 <<<<<<< .merge_file_25DrkE
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_jlk3st
   - "./00-index.md"
 ---

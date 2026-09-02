@@ -8,7 +8,7 @@ qmd: "zero theme docs confidence audit - 2026-03-07"
 related:
 <<<<<<< .merge_file_pb6485
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_V2ouzR
   - "./00-index.md"
 ---

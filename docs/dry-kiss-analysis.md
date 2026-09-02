@@ -8,7 +8,7 @@ qmd: "dry kiss analysis - theme zero"
 related:
 <<<<<<< .merge_file_WbLke3
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_aZH3qi
   - "./00-index.md"
 ---

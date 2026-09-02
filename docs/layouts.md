@@ -8,7 +8,7 @@ qmd: "layout del tema zero"
 related:
 <<<<<<< .merge_file_GnjHaF
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_Ychijc
   - "./00-index.md"
 ---

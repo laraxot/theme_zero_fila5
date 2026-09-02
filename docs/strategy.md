@@ -8,7 +8,7 @@ qmd: "product strategy zero theme"
 related:
 <<<<<<< .merge_file_1q4PAD
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_PvSgvu
   - "./00-index.md"
 ---

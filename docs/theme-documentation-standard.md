@@ -8,7 +8,7 @@ qmd: "theme documentation standard"
 related:
 <<<<<<< .merge_file_u5iLAh
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_XAjXeH
   - "./00-index.md"
 ---

@@ -8,7 +8,7 @@ qmd: "managerelatedrecords styling - zero theme"
 related:
 <<<<<<< .merge_file_HqFydR
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_WPOnzK
   - "./00-index.md"
 ---

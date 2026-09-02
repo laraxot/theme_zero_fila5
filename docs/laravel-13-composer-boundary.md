@@ -8,7 +8,7 @@ qmd: "laravel 13 composer boundary for theme zero"
 related:
 <<<<<<< .merge_file_r1XXUC
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_Rkqumz
   - "./00-index.md"
 ---

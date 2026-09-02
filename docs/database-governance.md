@@ -8,7 +8,7 @@ qmd: "documentation"
 related:
 <<<<<<< .merge_file_rGHLri
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_yLmijQ
   - "./00-index.md"
 ---

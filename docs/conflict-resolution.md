@@ -8,7 +8,7 @@ qmd: "conflict resolution theme zero"
 related:
 <<<<<<< .merge_file_sobuyN
 =======
-  - "./00-INDEX.md"
+  - "./00-index.md"
 >>>>>>> .merge_file_VK5Lgd
   - "./00-index.md"
 ---
