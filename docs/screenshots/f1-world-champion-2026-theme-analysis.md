@@ -148,8 +148,8 @@ small: text-sm (14px)
 
 - [forecast Module Docs](../../Modules/Domain/docs/screenshots/f1-world-champion-2026-analysis.md)
 - [Predict Module Docs](../../Modules/Predict/docs/screenshots/f1-world-champion-2026-analysis.md)
-- [Theme Zero Docs](./README.md)
-- [Architecture](./architecture.md)
+- [Theme Zero Docs](../README.md)
+- [Architecture](../architecture.md)
 
 ---
 
