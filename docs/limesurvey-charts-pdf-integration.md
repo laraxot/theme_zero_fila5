@@ -8,7 +8,7 @@ qmd: "limesurvey charts pdf integration - zero theme"
 related:
 <<<<<<< .merge_file_HUID1I
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_nW96wd
   - "./00-index.md"
 ---

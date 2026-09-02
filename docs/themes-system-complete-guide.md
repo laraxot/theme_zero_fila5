@@ -8,7 +8,7 @@ qmd: "themes system - il vestito di laraxot"
 related:
 <<<<<<< .merge_file_nn8G8B
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_Dsb8n4
   - "./00-index.md"
 ---

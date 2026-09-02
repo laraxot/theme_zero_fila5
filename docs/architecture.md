@@ -37,7 +37,7 @@ qmd: "architettura del tema zero"
 related:
 <<<<<<< .merge_file_Wwu3v3
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_xxqpWG
   - "./00-index.md"
 ---

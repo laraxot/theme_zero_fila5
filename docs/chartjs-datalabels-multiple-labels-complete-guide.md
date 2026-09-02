@@ -8,7 +8,7 @@ qmd: "guida completa multiple labels con chartjs-plugin-datalabels in filament 5
 related:
 <<<<<<< .merge_file_SsqUsv
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_6L8022
   - "./00-index.md"
 ---

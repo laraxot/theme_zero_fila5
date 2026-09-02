@@ -8,7 +8,7 @@ qmd: "filament version declaration zero"
 related:
 <<<<<<< .merge_file_QQbqyo
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_gGIT9P
   - "./00-index.md"
 ---

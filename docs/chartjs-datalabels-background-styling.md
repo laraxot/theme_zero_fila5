@@ -8,7 +8,7 @@ qmd: "chart uiux enhancements with background styling and positioning"
 related:
 <<<<<<< .merge_file_tUTcvI
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_TfhvBm
   - "./00-index.md"
 ---
