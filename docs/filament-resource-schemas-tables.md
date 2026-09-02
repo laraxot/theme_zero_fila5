@@ -36,24 +36,24 @@ Themes/Zero/app/Filament/Resources/{ResourceName}/
 ## Regole
 
 1. `XotBaseResourceForm` / `XotBaseResourceInfolist` / `XotBaseResourceTable` — mai Filament diretto.
-2. **Eccezione scheda:** model `BaseScheda` → Form `BaseSchedaForm` e Infolist `BaseSchedaInfolist` (non Xot diretti). [Ptv](../../Modules/Ptv/docs/scheda-resource-pages-inheritance.md), [IR Form](../../Modules/IndennitaResponsabilita/docs/base-scheda-form-inheritance.md), [IR Infolist](../../Modules/IndennitaResponsabilita/docs/base-scheda-infolist-inheritance.md).
+2. **Eccezione scheda:** model `BaseScheda` → Form `BaseSchedaForm` e Infolist `BaseSchedaInfolist` (non Xot diretti). [Ptv](../../../Modules/Ptv/docs/scheda-resource-pages-inheritance.md), [IR Form](../../../Modules/IndennitaResponsabilita/docs/base-scheda-form-inheritance.md), [IR Infolist](../../../Modules/IndennitaResponsabilita/docs/base-scheda-infolist-inheritance.md).
 3. Traduzioni automatiche: **no** `->label()`, `->placeholder()`, `->helperText()`.
 4. `getFormSchema()`, `getInfolistSchema()`, `getTableColumns()` → `array<string, ...>`.
-5. **`getPages()`:** non dichiarare se solo `index` / `create` / `edit` con Page `List{plural}`, `Create{name}`, `Edit{name}` — [getpages-redundancy-rule](../../Modules/Xot/docs/filament/getpages-redundancy-rule.md).
+5. **`getPages()`:** non dichiarare se solo `index` / `create` / `edit` con Page `List{plural}`, `Create{name}`, `Edit{name}` — [getpages-redundancy-rule](../../../Modules/Xot/docs/filament/getpages-redundancy-rule.md).
 
 Per il dettaglio infolist vedi anche [filament-infolist-pattern](./filament-infolist-pattern.md).
 
 ### Copia metodi tabella Page → `*Table`
 
-Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
+Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](../../../Modules/Progressioni/docs/filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
 
 ## Riferimenti
 
-- [Xot – Filament v5 hybrid pattern](../../Modules/Xot/docs/wiki/concepts/filament-v5-hybrid-pattern.md)
-- [Progressioni – inventario scaffold](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
+- [Xot – Filament v5 hybrid pattern](../../../Modules/Xot/docs/wiki/concepts/filament-v5-hybrid-pattern.md)
+- [Progressioni – inventario scaffold](../../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 - [Progressioni – wire pilota Assenze](../../Modules/Progressioni/docs/filament-resource-wire-assenze.md)
-- [One – stesso pattern](../One/docs/filament-resource-schemas-tables.md)
-- [Three – stesso pattern](../Three/docs/filament-resource-schemas-tables.md)
+- [One – stesso pattern](../../One/docs/filament-resource-schemas-tables.md)
+- [Three – stesso pattern](../../Three/docs/filament-resource-schemas-tables.md)
 - [Cursor rule](../../../.cursor/rules/filament-resource-schemas-tables.mdc)
 
 *Ultimo aggiornamento: 2026-09-01*
