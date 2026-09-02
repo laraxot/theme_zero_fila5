@@ -7,12 +7,7 @@ updated: 2026-07-14
 qmd: "report metodi con nome duplicato nei moduli e nei temi"
 related:
   - "./00-index.md"
-<<<<<<< .merge_file_KKyVCP
-=======
 
-  - "./00-INDEX.md"
->>>>>>> .merge_file_DVZ5oW
-  - "./00-index.md"
 ---
 
 # Report: Metodi con nome duplicato nei moduli e nei temi
@@ -92,8 +87,4 @@ Di seguito la classifica dei metodi più frequenti (solo quelli con più di una 
 
 ## Allegati
 - `docs/duplicate-methods-report.md` (questo file)
-<<<<<<< .merge_file_KKyVCP
 - Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
-=======
-- Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
->>>>>>> .merge_file_DVZ5oW

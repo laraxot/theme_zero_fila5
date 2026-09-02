@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "componenti del tema zero"
 related:
-<<<<<<< .merge_file_G5OPGd
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_qR4Kq5
   - "./00-index.md"
 ---
 
@@ -355,8 +351,4 @@ npm run build
 - [Documentazione Blade](https://laravel.com/docs/blade)
 - [Documentazione Alpine.js](https://alpinejs.dev/)
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
-<<<<<<< .merge_file_G5OPGd
 - [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/) 
-=======
-- [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/) 
->>>>>>> .merge_file_qR4Kq5

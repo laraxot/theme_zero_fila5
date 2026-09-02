@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "esempi di utilizzo - tema zero"
 related:
-<<<<<<< .merge_file_t5fiiW
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_Iz8xo6
   - "./00-index.md"
 ---
 
@@ -537,8 +533,4 @@ Questa sezione fornisce esempi pratici di come utilizzare il Tema Zero in divers
 - [Documentazione Blade](https://laravel.com/docs/blade)
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
 - [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/)
-<<<<<<< .merge_file_t5fiiW
 - [Best Practices SEO](https://developers.google.com/search/docs) 
-=======
-- [Best Practices SEO](https://developers.google.com/search/docs) 
->>>>>>> .merge_file_Iz8xo6

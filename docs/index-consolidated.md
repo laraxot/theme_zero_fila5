@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme zero documentation index"
 related:
-<<<<<<< .merge_file_heIyWS
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_oWwv3R
   - "./00-index.md"
 ---
 

@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme - filosofia completa"
 related:
-<<<<<<< .merge_file_zeTeC1
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_BlgOcr
   - "./00-index.md"
 ---
 

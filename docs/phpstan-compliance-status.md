@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 compliance status"
 related:
-<<<<<<< .merge_file_HwbIFx
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_4rzVN4
   - "./00-index.md"
 ---
 
@@ -66,8 +62,4 @@ To maintain theme quality:
 - [Component Guidelines](components.md)
 - [Layout System](layouts.md)
 - [Authentication Views](authentication.md)
-<<<<<<< .merge_file_HwbIFx
 - [Customization Guide](customization.md)
-=======
-- [Customization Guide](customization.md)
->>>>>>> .merge_file_4rzVN4

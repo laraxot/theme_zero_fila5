@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "troubleshooting calcolo quota performance"
 related:
-<<<<<<< .merge_file_T0QK8R
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_wsyGTH
   - "./00-index.md"
 ---
 

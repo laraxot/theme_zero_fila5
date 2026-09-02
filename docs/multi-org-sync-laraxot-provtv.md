@@ -39,13 +39,10 @@ revisione manuale dei conflitti reali.
 ### Playbook push dual-remote (2026-07-22, canon UI)
 
 Se `unpack failed` / `did not receive expected object` → `git push --no-thin`.
-<<<<<<< .merge_file_uWTe6r
-=======
 Se `GH008` / LFS missing su un org e l’altro ha già accettato il tip →
 `git lfs fetch <sibling> --all` poi `git lfs push <target> --all`, poi push.
 Dettaglio (SSoT): [../../../Modules/UI/docs/wiki/troubleshooting/git-push-lfs-missing-objects.md](../../../Modules/UI/docs/wiki/troubleshooting/git-push-lfs-missing-objects.md).
 Niente reset/squash/force per aggirare LFS.
->>>>>>> .merge_file_h5xhQn
 
 ## Aggiornamento 2026-07-22 — modulo UI (riferimento temi)
 
@@ -57,8 +54,6 @@ Stesso pattern dual-remote (`laraxot` + `provtv`) applicato a `laravel/Modules/U
 Confine Geo: [geo-boundary.md](../../../Modules/UI/docs/geo-boundary.md)
 
 
-<<<<<<< .merge_file_uWTe6r
-=======
 2. LFS GH008 su un org → `git lfs fetch <sibling> --all` poi `git lfs push <target> --all`
 3. Tip allineato `b874935` su entrambi i remote
 
@@ -67,7 +62,6 @@ Confine Geo: [geo-boundary.md](../../../Modules/UI/docs/geo-boundary.md)
 
 I temi One/Zero/Three usano lo stesso playbook se il push fallisce per thin pack o LFS.
 
->>>>>>> .merge_file_h5xhQn
 ### Caso User 2026-07-23 (unrelated)
 
 Se un remote ha `merge-base` vuoto vs HEAD → **non** merge/force automatico.
