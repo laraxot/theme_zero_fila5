@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "chartjs export integration - tema zero"
 related:
-<<<<<<< .merge_file_Bwsr9R
-=======
-  - "./00-index.md"
->>>>>>> .merge_file_BwKQhM
   - "./00-index.md"
 ---
 
