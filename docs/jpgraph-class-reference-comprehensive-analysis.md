@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "jpgraph class reference - analisi completta 2024"
 related:
-<<<<<<< .merge_file_6rCaHF
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_VAsbJW
   - "./00-index.md"
 ---
 
@@ -491,8 +487,4 @@ class JpGraphChartGenerator
 
 **Ultimo Aggiornamento:** 2024-01-27  
 **Versione JpGraph:** 4.4.2  
-<<<<<<< .merge_file_6rCaHF
 **Stato:** 📚 Completamente Analizzato e Documentato
-=======
-**Stato:** 📚 Completamente Analizzato e Documentato
->>>>>>> .merge_file_VAsbJW

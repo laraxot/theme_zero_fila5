@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "simplechartwidget - analisi qualit del codice e best practices"
 related:
-<<<<<<< .merge_file_MR7DbO
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_Gx6an5
   - "./00-index.md"
 ---
 
@@ -813,8 +809,4 @@ Il refactoring ha migliorato la qualità del codice da:
 - **Mancanza di testing** → **Coverage completo**
 - **Violazioni di principi** → **Conformità con best practices**
 
-<<<<<<< .merge_file_MR7DbO
 Questo approccio DRY+KISS permette di mantenere un codice di alta qualità, facile da testare e manutenere nel tempo.
-=======
-Questo approccio DRY+KISS permette di mantenere un codice di alta qualità, facile da testare e manutenere nel tempo.
->>>>>>> .merge_file_Gx6an5

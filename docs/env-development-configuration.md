@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "configurazione envdevelopment - ambiente di sviluppo"
 related:
-<<<<<<< .merge_file_7pLm8j
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_sR1hK3
   - "./00-index.md"
 ---
 

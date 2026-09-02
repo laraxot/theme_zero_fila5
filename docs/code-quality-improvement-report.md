@@ -15,10 +15,7 @@ discussions: []
 related:
   - "../../../../docs/stories/STORY-001-code-quality-moduli-temi.md"
   - "../../../../docs/wiki/memories/module-github-remote-discipline.md"
-<<<<<<< .merge_file_5o4DTx
-=======
 module: "Zero"
->>>>>>> .merge_file_hxpfN3
 ---
 
 # Code Quality Improvement Report — Zero
@@ -91,11 +88,8 @@ Rilevazione del 17 luglio 2026 sul working tree locale; esclusi vendor e dipende
 
 
 - [x] PHPStan L10 scoped senza errori non giustificati. (Modules 2026-07-27)
-<<<<<<< .merge_file_5o4DTx
-=======
 
 - [ ] PHPStan L10 scoped senza errori non giustificati.
->>>>>>> .merge_file_hxpfN3
 - [ ] Pest scoped verde sui flussi critici.
 - [ ] Nessuna nuova estensione Filament diretta o controller FO.
 - [ ] Nessuna nuova business logic in Services/Support.
@@ -119,8 +113,6 @@ cd ../../.. && cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit
 ```
 
 Gate moduli (2026-07-27): **0 errori** — chat [phpstan-modules-themes-gate](../../../../docs/chat/phpstan-modules-themes-gate.md).
-<<<<<<< .merge_file_5o4DTx
-=======
 
 ## Verifica
 
@@ -130,4 +122,3 @@ Dalla cartella laravel/:
     ./vendor/bin/pest Themes/Zero/tests
 
 Limite deliberato: niente coverage, mutation score o metriche di complessità finché PHPStan, Pest e review mirata bastano a decidere.
->>>>>>> .merge_file_hxpfN3

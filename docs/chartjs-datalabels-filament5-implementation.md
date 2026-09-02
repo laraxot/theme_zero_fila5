@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "implementazione chartjs datalabels in filament 5x - tema zero"
 related:
-<<<<<<< .merge_file_pAFvKG
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_eobUfn
   - "./00-index.md"
 ---
 

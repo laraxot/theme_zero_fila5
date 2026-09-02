@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "model usage in themes - best practices"
 related:
-<<<<<<< .merge_file_rfSVT8
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_bJ3u5o
   - "./00-index.md"
 ---
 

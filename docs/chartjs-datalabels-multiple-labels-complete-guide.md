@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "guida completa multiple labels con chartjs-plugin-datalabels in filament 5x tema zero"
 related:
-<<<<<<< .merge_file_SsqUsv
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_6L8022
   - "./00-index.md"
 ---
 

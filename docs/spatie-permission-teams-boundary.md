@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "spatie permission teams boundary"
 related:
-<<<<<<< .merge_file_0RKMtb
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_uU54pw
   - "./00-index.md"
 ---
 

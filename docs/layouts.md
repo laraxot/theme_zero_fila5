@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "layout del tema zero"
 related:
-<<<<<<< .merge_file_GnjHaF
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_Ychijc
   - "./00-index.md"
 ---
 
@@ -261,8 +257,4 @@ php artisan config:cache
 - [Documentazione Blade](https://laravel.com/docs/blade)
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
 - [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/)
-<<<<<<< .merge_file_GnjHaF
 - [Best Practices SEO](https://developers.google.com/search/docs) 
-=======
-- [Best Practices SEO](https://developers.google.com/search/docs) 
->>>>>>> .merge_file_Ychijc

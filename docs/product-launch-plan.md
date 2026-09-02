@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product launch plan - theme zero"
 related:
-<<<<<<< .merge_file_JIVTp1
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_oNDFMU
   - "./00-index.md"
 ---
 

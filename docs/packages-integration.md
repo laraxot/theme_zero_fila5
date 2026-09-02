@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "integrazione pacchetti nel tema zero"
 related:
-<<<<<<< .merge_file_9u8W8g
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_gQQN4d
   - "./00-index.md"
 ---
 
