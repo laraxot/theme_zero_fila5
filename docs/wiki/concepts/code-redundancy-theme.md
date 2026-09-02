@@ -35,7 +35,7 @@ Verificare che i commenti Blade non dicano «tema Zero» dentro file One (confus
 ## Collegamenti
 
 - [One](code-redundancy-theme.md)
-- [Filosofia](../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
-- [Filosofia](../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
-- [Filosofia](../../../laravel/Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
-- [Filosofia](../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
+- [Filosofia](../../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
+- [Filosofia](../../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
+- [Filosofia](../../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)
+- [Filosofia](../../../../../Modules/Xot/docs/wiki/concepts/code-redundancy-philosophy.md)

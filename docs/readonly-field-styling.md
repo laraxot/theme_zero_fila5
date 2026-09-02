@@ -132,7 +132,7 @@ Questi colori sono coerenti con:
 - [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
 - [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
 - [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
-- [Theme One - Readonly Styling](../One/docs/readonly-field-styling.md) - Pattern condiviso
+- [Theme One - Readonly Styling](../../One/docs/readonly-field-styling.md) - Pattern condiviso
 
 ---
 
