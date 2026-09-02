@@ -8,7 +8,7 @@ qmd: "jpgraph integration guide - zero theme"
 related:
 <<<<<<< .merge_file_0AGRW8
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_PY8Op2
   - "./00-index.md"
 ---

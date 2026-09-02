@@ -8,7 +8,7 @@ qmd: "componenti del tema zero"
 related:
 <<<<<<< .merge_file_G5OPGd
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_qR4Kq5
   - "./00-index.md"
 ---

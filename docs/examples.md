@@ -8,7 +8,7 @@ qmd: "esempi di utilizzo - tema zero"
 related:
 <<<<<<< .merge_file_t5fiiW
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_Iz8xo6
   - "./00-index.md"
 ---

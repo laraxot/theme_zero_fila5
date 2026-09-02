@@ -197,8 +197,10 @@ related:
 > `archive/duplicates` links below which are not referenced elsewhere.
 
 ## Archive
+- [archive/duplicates/conflict-resolution-summary](./archive/duplicates/conflict_resolution_summary.md)
 
 ## Legacy
+- [legacy/duplicates/conflict-resolution-summary](./legacy/duplicates/conflict_resolution_summary.md)
 
 ## Outputs
 - [outputs/README](./outputs/README.md)
@@ -218,14 +220,14 @@ related:
 <<<<<<< .merge_file_vuvWYd
 - [CHANGELOG](./CHANGELOG.md)
 - [CONFLICT-RESOLUTION-SUMMARY](./conflict-resolution-summary.md)
-- [CONFLICT-RESOLUTION-SUMMARY](./conflict-resolution-summary.md)
+- [CONFLICT-RESOLUTION-SUMMARY](./conflict_resolution_summary.md)
 =======
-- [CHANGELOG](./CHANGELOG.md)
-- [CONFLICT-RESOLUTION-SUMMARY](./conflict-resolution-summary.md)
-- [CONFLICT-RESOLUTION-SUMMARY](./conflict-resolution-summary.md)
+- [CHANGELOG](./changelog.md)
+- [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT-RESOLUTION-SUMMARY.md)
+- [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT_RESOLUTION_SUMMARY.md)
 >>>>>>> .merge_file_MbDZpA
-- [METODI-DUPLICATI-ANALISI](./metodi-duplicati-analisi.md)
-- [METODI-DUPLICATI-ANALISI](./metodi-duplicati-analisi.md)
+- [METODI-DUPLICATI-ANALISI](./METODI-DUPLICATI-ANALISI.md)
+- [METODI-DUPLICATI-ANALISI](./METODI_DUPLICATI_ANALISI.md)
 - [accessor-delegation-pattern](./accessor-delegation-pattern.md)
 - [agent-confidence-discipline](./agent-confidence-discipline.md)
 - [agent-confidence-protocol](./agent-confidence-protocol.md)
@@ -241,7 +243,7 @@ related:
 <<<<<<< .merge_file_vuvWYd
 - [changelog](./CHANGELOG.md)
 =======
-- [changelog](./CHANGELOG.md)
+- [changelog](./changelog.md)
 >>>>>>> .merge_file_MbDZpA
 - [chartjs-datalabels-background-styling](./chartjs-datalabels-background-styling.md)
 - [chartjs-datalabels-filament5-implementation](./chartjs-datalabels-filament5-implementation.md)
@@ -267,8 +269,8 @@ related:
 - [dual-label-chart-widget-implementation](./dual-label-chart-widget-implementation.md)
 - [duplicate-methods-report](./duplicate-methods-report.md)
 - [duplicate-methods](./duplicate-methods.md)
-- [duplicate-methods](./duplicate-methods.md)
-- [duplicate-methods-report](./duplicate-methods-report.md)
+- [duplicate-methods](./duplicate_methods.md)
+- [duplicate-methods-report](./duplicate_methods_report.md)
 - [env-development-configuration](./env-development-configuration.md)
 - [examples](./examples.md)
 - [filament-5-nested-resources-complete-guide](./filament-5-nested-resources-complete-guide.md)
@@ -310,9 +312,9 @@ related:
 - [product-requirements](./product-requirements.md)
 - [product-roadmap](./product-roadmap.md)
 - [product-strategy](./product-strategy.md)
-- [product-launch-plan](./product-launch-plan.md)
-- [product-roadmap](./product-roadmap.md)
-- [product-strategy](./product-strategy.md)
+- [product-launch-plan](./product_launch_plan.md)
+- [product-roadmap](./product_roadmap.md)
+- [product-strategy](./product_strategy.md)
 - [readonly-field-styling](./readonly-field-styling.md)
 - [release-marketing-standard](./release-marketing-standard.md)
 - [roadmap](./roadmap.md)
@@ -325,7 +327,7 @@ related:
 - [spatie-permission-teams-boundary](./spatie-permission-teams-boundary.md)
 - [sprint-planning-meeting](./sprint-planning-meeting.md)
 - [sprint-planning](./sprint-planning.md)
-- [sprint-planning](./sprint-planning.md)
+- [sprint-planning](./sprint_planning.md)
 - [strategy](./strategy.md)
 - [theme-architecture-best-practices](./theme-architecture-best-practices.md)
 - [theme-documentation-standard](./theme-documentation-standard.md)
@@ -333,7 +335,7 @@ related:
 - [themes-system-complete-guide](./themes-system-complete-guide.md)
 - [troubleshooting](./troubleshooting.md)
 - [user-research](./user-research.md)
-- [user-research](./user-research.md)
+- [user-research](./user_research.md)
 
 ## Root-Md-Files
 - [root-md-files/conflict-resolution-summary-relocated](./root-md-files/conflict-resolution-summary-relocated.md)

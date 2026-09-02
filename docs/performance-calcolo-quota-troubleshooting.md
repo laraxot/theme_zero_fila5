@@ -8,7 +8,7 @@ qmd: "troubleshooting calcolo quota performance"
 related:
 <<<<<<< .merge_file_T0QK8R
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_wsyGTH
   - "./00-index.md"
 ---

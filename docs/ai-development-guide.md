@@ -8,7 +8,7 @@ qmd: "ai-assisted development guide - zero theme"
 related:
 <<<<<<< .merge_file_0Qd7v9
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_n6LGW1
   - "./00-index.md"
 ---
