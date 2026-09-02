@@ -12,15 +12,15 @@ related:
 # 🧬 Schemaless Attributes in Themes
 
 **Status:** ✅ STANDARD
-**Central Reference:** [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
+**Central Reference:** [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
 # 🧬 Schemaless Attributes in Themes
 
 **Status:** ✅ STANDARD
-**Central Reference:** [Xot Schemaless Guide](../../Modules/Xot/docs/spatie-schemaless-attributes.md)
+**Central Reference:** [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
 # 🧬 Schemaless Attributes in Themes
 
 **Status:** ✅ STANDARD
-**Central Reference:** [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
+**Central Reference:** [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
 
 ---
 
@@ -82,21 +82,21 @@ $record->save();
 
 ## References
 
-- [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
-- [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
-- [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
-- [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
-- [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
-- [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
-- [Xot Schemaless Guide](../../Modules/Xot/docs/spatie-schemaless-attributes.md)
-- [UI Themes Detailed Guide](../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
-- [Rating Schemaless Docs](../../Modules/Rating/docs/schemaless-attributes.md)
-- [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
-- [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
-- [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
-- [Xot Schemaless Guide](../../../laravel/Modules/Xot/docs/spatie-schemaless-attributes.md)
-- [UI Themes Detailed Guide](../../../laravel/Modules/UI/docs/themes/schemaless-attributes-guide.md)
-- [Rating Schemaless Docs](../../../laravel/Modules/Rating/docs/schemaless-attributes.md)
-- [Xot Schemaless Guide](../../Modules/Xot/docs/spatie-schemaless-attributes.md)
-- [UI Themes Detailed Guide](../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
-- [Rating Schemaless Docs](../../Modules/Rating/docs/schemaless-attributes.md)
+- [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
+- [UI Themes Detailed Guide](../../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
+- [Rating Schemaless Docs](../../../Modules/Rating/docs/schemaless-attributes.md)
+- [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
+- [UI Themes Detailed Guide](../../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
+- [Rating Schemaless Docs](../../../Modules/Rating/docs/schemaless-attributes.md)
+- [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
+- [UI Themes Detailed Guide](../../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
+- [Rating Schemaless Docs](../../../Modules/Rating/docs/schemaless-attributes.md)
+- [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
+- [UI Themes Detailed Guide](../../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
+- [Rating Schemaless Docs](../../../Modules/Rating/docs/schemaless-attributes.md)
+- [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
+- [UI Themes Detailed Guide](../../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
+- [Rating Schemaless Docs](../../../Modules/Rating/docs/schemaless-attributes.md)
+- [Xot Schemaless Guide](../../../Modules/Xot/docs/spatie-schemaless-attributes.md)
+- [UI Themes Detailed Guide](../../../Modules/UI/docs/themes/schemaless-attributes-guide.md)
+- [Rating Schemaless Docs](../../../Modules/Rating/docs/schemaless-attributes.md)

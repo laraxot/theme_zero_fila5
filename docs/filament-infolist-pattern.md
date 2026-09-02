@@ -142,11 +142,11 @@ XotBaseResourceInfolist (abstract)
 
 Per dettagli completi del pattern, vedere:
 
-- [Documentazione Performance - Infolist Pattern](../../../laravel/Modules/Performance/docs/filament-infolist-pattern.md)
-- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
+- [Documentazione Performance - Infolist Pattern](../../../Modules/Performance/docs/filament-infolist-pattern.md)
+- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 - [XotBaseResourceInfolist - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
 - [XotBaseResource - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/XotBaseResource.php)
-- [Documentazione Performance - Infolist Pattern](../../Modules/Performance/docs/filament-infolist-pattern.md)
-- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
+- [Documentazione Performance - Infolist Pattern](../../../Modules/Performance/docs/filament-infolist-pattern.md)
+- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 - [XotBaseResourceInfolist - Sorgente](../../Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
 - [XotBaseResource - Sorgente](../../Modules/Xot/app/Filament/Resources/XotBaseResource.php)
