@@ -30,7 +30,13 @@ identico), quasi tutte introdotte in blocco il 2026-09-09 (commit radice
 `0d6cf4c` di questo repo) quando la storia git del tema e' stata ricreata da un
 working tree che le conteneva gia'. Dettaglio investigativo completo nella story.
 
-Forma canonica → variante non canonica (da trattare come storica, mai fonte primaria):
+## Collegamenti Correlati
+- [AI Methodologies](./ai-methodologies.md)
+- [Documentazione Generale Progetto](./README.md) (docs: replace project-specific references with generic placeholders across documentation)
+- [Collegamenti Documentazione](../../../docs/collegamenti-documentazione.md)
+- [Standard di Documentazione](../../../docs/DOCUMENTATION_STANDARDS.md)
+- [Modulo UI](../../../Modules/UI/docs/README.md)
+- [Modulo Xot](../../../Modules/Xot/docs/README.md)
 
 ### Moduli Integrati
 - [Performance Actions Reference](./performance-actions-reference.md) - Riferimento action calcolo performance
@@ -258,77 +264,12 @@ Forma canonica → variante non canonica (da trattare come storica, mai fonte pr
 
 ## Raw
 
-- [raw/README](./raw/README.md)
-
-## Roadmap
-
-- [roadmap/accessibility-standards](./roadmap/accessibility-standards.md)
-- [roadmap/advanced-features](./roadmap/advanced-features.md)
-- [roadmap/component-library](./roadmap/component-library.md)
-- [roadmap/performance-optimization](./roadmap/performance-optimization.md)
-- [roadmap/responsive-system](./roadmap/responsive-system.md)
-- [roadmap/theme-customization](./roadmap/theme-customization.md)
-
-## Root-Md-Files
-
-- [root-md-files/CONFLICT_RESOLUTION_SUMMARY](./root-md-files/CONFLICT_RESOLUTION_SUMMARY.md)
-- [root-md-files/conflict-resolution-summary-relocated](./root-md-files/conflict-resolution-summary-relocated.md)
-- [root-md-files/conflict-resolution-summary](./root-md-files/conflict-resolution-summary.md)
-
-## Screenshots
-
-- [screenshots/f1-world-champion-2026-theme-analysis](./screenshots/f1-world-champion-2026-theme-analysis.md)
-- [screenshots/f1-world-champion-theme-analysis](./screenshots/f1-world-champion-theme-analysis.md)
-
-## Skills
-
-- [skills/README](./skills/README.md)
-
-## Stories
-
-- [stories/docs-index-audit.story](./stories/docs-index-audit.story.md)
-
-## Wiki
-
-- [wiki/INDEX](./wiki/INDEX.md)
-- [wiki/SCHEMA](./wiki/SCHEMA.md)
-- [wiki/bmad-method](./wiki/bmad-method.md)
-- [wiki/commands/INDEX](./wiki/commands/INDEX.md)
-- [wiki/commands/index](./wiki/commands/index.md)
-- [wiki/concepts/INDEX](./wiki/concepts/INDEX.md)
-- [wiki/concepts/code-redundancy-theme](./wiki/concepts/code-redundancy-theme.md)
-- [wiki/concepts/context-overflow-prevention](./wiki/concepts/context-overflow-prevention.md)
-- [wiki/concepts/criteri-gg-theme-boundary-audit](./wiki/concepts/criteri-gg-theme-boundary-audit.md)
-- [wiki/concepts/duplicate-method-bodies](./wiki/concepts/duplicate-method-bodies.md)
-- [wiki/concepts/filament-nested-resources](./wiki/concepts/filament-nested-resources.md)
-- [wiki/concepts/filament-v5-schema-not-form](./wiki/concepts/filament-v5-schema-not-form.md)
-- [wiki/concepts/gg-integ-params-no-asz-theme-boundary](./wiki/concepts/gg-integ-params-no-asz-theme-boundary.md)
-- [wiki/concepts/index](./wiki/concepts/index.md)
-- [wiki/concepts/jpgraph-guide](./wiki/concepts/jpgraph-guide.md)
-- [wiki/concepts/method-name-homonyms](./wiki/concepts/method-name-homonyms.md)
-- [wiki/concepts/module-directory-structure-boundary](./wiki/concepts/module-directory-structure-boundary.md)
-- [wiki/concepts/organizzativa-money](./wiki/concepts/organizzativa-money.md)
-- [wiki/concepts/php-method-name-homonyms-theme-impact](./wiki/concepts/php-method-name-homonyms-theme-impact.md)
-- [wiki/concepts/platform-leaf-dependency-and-theme](./wiki/concepts/platform-leaf-dependency-and-theme.md)
-- [wiki/concepts/ponytail-audit](./wiki/concepts/ponytail-audit.md)
-- [wiki/concepts/ponytail-docs-lifecycle](./wiki/concepts/ponytail-docs-lifecycle.md)
-- [wiki/concepts/second-brain-local-discipline](./wiki/concepts/second-brain-local-discipline.md)
-- [wiki/concepts/theme-zero-operating-focus](./wiki/concepts/theme-zero-operating-focus.md)
-- [wiki/how-to/gitmodules-sync-session](./wiki/how-to/gitmodules-sync-session.md)
-- [wiki/index](./wiki/index.md)
-- [wiki/log](./wiki/log.md)
-- [wiki/memories/INDEX](./wiki/memories/INDEX.md)
-- [wiki/memories/github-remote-theme-resolve](./wiki/memories/github-remote-theme-resolve.md)
-- [wiki/memories/index](./wiki/memories/index.md)
-- [wiki/overview](./wiki/overview.md)
-- [wiki/rules/INDEX](./wiki/rules/INDEX.md)
-- [wiki/rules/index](./wiki/rules/index.md)
-- [wiki/schema](./wiki/schema.md)
-- [wiki/skills/INDEX](./wiki/skills/INDEX.md)
-- [wiki/skills/index](./wiki/skills/index.md)
-- [wiki/sources/context-compression-and-retrieval](./wiki/sources/context-compression-and-retrieval.md)
-- [wiki/sources/laravel13-theme-zero-composer-audit](./wiki/sources/laravel13-theme-zero-composer-audit.md)
-- [wiki/sources/theme-zero-product-and-roadmap-docs](./wiki/sources/theme-zero-product-and-roadmap-docs.md)
+## Risoluzione Conflitti e Standard
+- **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione
+- Il file `lang/it/zero_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10
+- **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
+- Vedi anche: [../../../docs/README.md](./README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 
 *Ultimo aggiornamento: Gennaio 2025*
 - **Aggiunto**: Sistema di documentazione automatica moduli
