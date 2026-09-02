@@ -8,7 +8,7 @@ qmd: "integrazione jpgraph e chartjs nel tema zero"
 related:
 <<<<<<< .merge_file_WnvfRw
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_XrPwym
   - "./00-index.md"
 ---

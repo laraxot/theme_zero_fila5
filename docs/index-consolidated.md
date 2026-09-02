@@ -8,7 +8,7 @@ qmd: "theme zero documentation index"
 related:
 <<<<<<< .merge_file_heIyWS
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_oWwv3R
   - "./00-index.md"
 ---

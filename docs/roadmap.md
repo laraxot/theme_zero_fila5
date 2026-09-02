@@ -8,7 +8,7 @@ qmd: "product roadmap - zero theme"
 related:
 <<<<<<< .merge_file_8C2jwz
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_qAzk0u
   - "./00-index.md"
 ---

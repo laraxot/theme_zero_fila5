@@ -8,7 +8,7 @@ qmd: "ai methodologies handbook"
 related:
 <<<<<<< .merge_file_DHsLeX
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_h2djdl
   - "./00-index.md"
 ---

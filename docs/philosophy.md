@@ -8,7 +8,7 @@ qmd: "zero theme - filosofia completa"
 related:
 <<<<<<< .merge_file_zeTeC1
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_BlgOcr
   - "./00-index.md"
 ---

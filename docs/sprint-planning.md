@@ -8,7 +8,7 @@ qmd: "sprint planning - theme zero"
 related:
 <<<<<<< .merge_file_eSjX6A
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_KWLPOx
   - "./00-index.md"
 ---

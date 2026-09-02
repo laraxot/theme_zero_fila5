@@ -8,7 +8,7 @@ qmd: "dry kiss best practices - tema zero"
 related:
 <<<<<<< .merge_file_KVRVuH
 =======
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_koRDZn
   - "./00-index.md"
 ---

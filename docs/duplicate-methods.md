@@ -10,7 +10,7 @@ related:
 <<<<<<< .merge_file_Fttir7
 =======
 
-  - "./00-index.md"
+  - "./00-INDEX.md"
 >>>>>>> .merge_file_v2z01y
   - "./00-index.md"
 ---
