@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai-assisted development guide - zero theme"
 related:
-<<<<<<< .merge_file_0Qd7v9
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_n6LGW1
   - "./00-index.md"
 ---
 
@@ -174,10 +170,7 @@ Add theme-specific patterns to `.claude/` configuration:
 ```bash
 npm run build  # Compiles to ../public_html/themes/Zero/
 ```
-<<<<<<< .merge_file_0Qd7v9
-=======
 ```
->>>>>>> .merge_file_n6LGW1
 
 ## Theme Development Workflows with AI
 

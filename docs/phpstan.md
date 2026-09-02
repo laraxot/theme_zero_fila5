@@ -40,8 +40,6 @@ niente `--level`, baseline, esclusioni o `@phpstan-ignore`. I test fanno parte d
 Le vecchie note “Level 10” e “0 errori” sono storiche. Lo stato corrente esiste solo
 come output datato del comando canonico e come evidenza nella story proprietaria; un
 conteggio ottenuto con `analyse Themes` o `--level=<n>` non aggiorna questo gate.
-<<<<<<< .merge_file_IPmlPp
-=======
 
 title: "PHPStan Configuration - Theme Zero"
 type: guide
@@ -50,7 +48,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan configuration - theme zero"
 related:
-  - "./00-INDEX.md"
+  - "./00-index.md"
   - "./00-index.md"
 ---
 
@@ -102,4 +100,3 @@ cd ./laravel
 
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
 - [Root phpstan.neon](../../../laravel/phpstan.neon)
->>>>>>> .merge_file_3C3RTx

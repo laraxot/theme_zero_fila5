@@ -63,11 +63,8 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo theme, senza perd
 
 - Markdown locale + Git restano la base piu' portabile: gli agenti leggono/scrivono file senza database esterni.
 - agents.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
-<<<<<<< .merge_file_1Voti4
-=======
 
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
->>>>>>> .merge_file_ukgH3q
 - I descrittori architetturali navigabili riducono i passi di localizzazione: ogni owner dovrebbe avere mappa scopo -> file chiave.
 - AI utile = recupero mirato, non pre-caricamento: report atomici, QMD, issue e log.
 

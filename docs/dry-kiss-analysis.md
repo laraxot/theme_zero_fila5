@@ -6,10 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "dry kiss analysis - theme zero"
 related:
-<<<<<<< .merge_file_WbLke3
-=======
-  - "./00-INDEX.md"
->>>>>>> .merge_file_aZH3qi
   - "./00-index.md"
 ---
 
