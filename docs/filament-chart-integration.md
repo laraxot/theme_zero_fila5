@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament installation and chart widget integration guide for zero theme"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_ghAQOE
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_hmMqau
   - "./00-index.md"
 ---
 

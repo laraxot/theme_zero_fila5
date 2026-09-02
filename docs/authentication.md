@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "autenticazione - tema zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_Uggg29
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_weCbTJ
   - "./00-index.md"
 ---
 

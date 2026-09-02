@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "esempi di autenticazione - tema zero"
 related:
-  - "./00-INDEX.md"
+<<<<<<< .merge_file_BaXXtW
+=======
+  - "./00-index.md"
+>>>>>>> .merge_file_O40f5U
   - "./00-index.md"
 ---
 
