@@ -67,11 +67,6 @@
     <main id="main-content" class="flex-1">
         @if(isset($slot))
             {{ $slot }}
-        @else
-            <!-- Default content area -->
-            <div class="container mx-auto px-4 py-8">
-                @yield('content')
-            </div>
         @endif
     </main>
 
@@ -79,53 +74,13 @@
     <footer class="bg-gray-800 text-white py-8 mt-auto">
         @if(isset($footer))
             {{ $footer }}
-        @else
-            <div class="container mx-auto px-4">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Company Info -->
-                    <div>
-                        <h3 class="text-lg font-semibold mb-4">{{ config('app.name', 'Laravel') }}</h3>
-                        <p class="text-gray-300 text-sm">
-                            {{ __('Your application description here.') }}
-                        </p>
-                    </div>
-
-                    <!-- Quick Links -->
-                    <div>
-                        <h3 class="text-lg font-semibold mb-4">{{ __('Quick Links') }}</h3>
-                        <ul class="space-y-2 text-sm">
-                            <li><a href="{{ route('home') }}" class="text-gray-300 hover:text-white transition-colors">{{ __('Home') }}</a></li>
-                            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">{{ __('About') }}</a></li>
-                            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">{{ __('Contact') }}</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Contact Info -->
-                    <div>
-                        <h3 class="text-lg font-semibold mb-4">{{ __('Contact') }}</h3>
-                        <div class="text-sm text-gray-300 space-y-2">
-                            <p>{{ __('Email: info@example.com') }}</p>
-                            <p>{{ __('Phone: +1 234 567 890') }}</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Copyright -->
-                <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-300">
-                    <p>&copy; {{ date('Y') }} {{ config('app.name', 'Laravel') }}. {{ __('All rights reserved.') }}</p>
-                </div>
-            </div>
         @endif
     </footer>
 
     <!-- Scripts -->
-    @filamentScripts(withCore: true)
+    @livewireScriptConfig
+    @filamentScripts
+    @vite(['resources/js/app.js'], 'themes/Zero')
     @stack('scripts')
-    
-    <!-- Alpine.js -->
-    <!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
-    
-    <!-- Custom Scripts -->
-    @stack('custom-scripts')
 </body>
-</html> 
+</html>
