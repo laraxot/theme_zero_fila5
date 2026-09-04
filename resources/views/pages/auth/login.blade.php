@@ -53,10 +53,7 @@
             <!-- Footer Links -->
             <div class="text-center space-y-2">
                 <p class="text-xs text-gray-500">
-                    {{ __('Continuando, accetti i nostri') }}
-                    <a href="{{-- route('terms') --}}" class="text-blue-600 hover:text-blue-500">{{ __('Termini di Servizio') }}</a>
-                    {{ __('e la nostra') }}
-                    <a href="{{-- route('privacy') --}}" class="text-blue-600 hover:text-blue-500">{{ __('Privacy Policy') }}</a>
+                    {{ __('Continuando, accetti i nostri Termini di Servizio e la nostra Privacy Policy') }}
                 </p>
             </div>
         </div>
