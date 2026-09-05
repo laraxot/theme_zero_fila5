@@ -1,29 +1,47 @@
-# Zero: il tema che trasforma complessita in vantaggio operativo
+# ⚪ Zero
 
-[![Module](https://img.shields.io/badge/Module-Zero: il tema che trasforma complessita in vantaggio operativo-8B0000.svg)]()
-[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-[![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
-[![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
-[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
-[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
-[![Architecture-Modular](https://img.shields.io/badge/Architecture-Modular-purple.svg)]()
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)]()
+[![Stars](https://img.shields.io/github/stars/laraxot/theme_zero_fila5?style=plastic&color=yellow)]()
+[![Forks](https://img.shields.io/github/forks/laraxot/theme_zero_fila5?style=plastic&color=green)]()
+[![Issues](https://img.shields.io/github/issues/laraxot/theme_zero_fila5?style=plastic&color=red)]()
+[![License](https://img.shields.io/github/license/laraxot/theme_zero_fila5?style=plastic&color=blue)]()
+[![Last Commit](https://img.shields.io/github/last-commit/laraxot/theme_zero_fila5?style=plastic&color=purple)]()
+[![Release](https://img.shields.io/github/v/release/laraxot/theme_zero_fila5?style=plastic&color=orange&display_name=release)]()
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)
+[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)
+[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)
+[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=plastic)]()
+]()
 
-> **Core module for the FixCity Platform.**
+> **Tema minimal e framework-agnostic**  
+> Tema minimal con zero dipendenze. Perfetto per progetti fresh start.
 
-## Perché esiste
+## 🎯 La Visione
 
-Core module for the FixCity Platform.
+Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni tema è stato pensato per rendere l'esperienza utente straordinaria.
 
-## Superpoteri
+## Perché esiste questo tema?
 
-- **Modular Architecture**: Built using Laravel Modules for clean separation of concerns
-- **Comprehensive Authorization**: Complete policy system for all models
-- **Automatic Policy Registration**: Policies are automatically discovered and registered
-- **Multi-Tenant Support**: Full multi-tenancy with tenant-aware policies
-- **Filament Integration**: Modern admin panel with policy-aware interfaces
+**Tema minimal con zero dipendenze. Perfetto per progetti fresh start.**
 
-## Documentazione
+In un mondo dove l'estetica conta, abbiamo creato un tema che unisce **funzionalità e bellezza**.
+
+## 🧘 I Principi Zen
+
+1. **Semplicità è eleganza** - Un design pulito vale più di mille colori.
+2. **Modulare è flessibile** - Ogni componente può essere adattato.
+3. **Accessibilità è rispetto** - Ogni utente merita un'esperienza perfetta.
+4. **Performance è cortesia** - Velocità è rispetto per l'utente.
+5. **Consistenza è fiducia** - Uniformità genera sicurezza.
+
+## 💎 Le sue Superpoteri
+
+- **Design Comuni AGID** - Conformità standard PA italiana
+- **Tailwind v4 + DaisyUI + Flowbite** - Framework frontend moderni
+- **Lit v3** - Web Component ad alte prestazioni
+- **Filament v5** - Admin panel integrato
+- **XotBase** - Pattern consolidati
+
+## 📖 Documentazione
 
 | Lingua | Link |
 |--------|------|
@@ -31,6 +49,16 @@ Core module for the FixCity Platform.
 | 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
 | 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
 
+## 🔧 Tecnologie chiave
+
+**Stack principale:** Laravel 13, Tailwind v4, Alpine, Lit v3, Filament 5
+
+**Keywords:** Minimal, Zero-dependency, Clean
+
+## 🚀 Pronto all'uso
+
+Attiva il tema e il gioco è fatto.
+
 ---
 
-**Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+**Tema** `Zero` · **Laraxot** · PHPStan 10 · Filament 5
