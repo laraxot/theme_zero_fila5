@@ -1,7 +1,18 @@
 ---
+title: "METODI-DUPLICATI-ANALISI (deprecated)"
+type: reference
+status: deprecated
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "deprecated renamed METODI-DUPLICATI-ANALISI.md"
+---
+
+> This file has been renamed to [METODI-DUPLICATI-ANALISI.md](METODI-DUPLICATI-ANALISI.md).
+> Do not add dates or underscores in filenames.
 theme: Zero
-topic: metodi-duplicati-analisi
+topic: METODI_DUPLICATI_ANALISI
 tags: [metodi-duplicati, refactoring]
+canonical: ../Zero/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 ---
 
 # Metodi Duplicati — Analisi Tema Zero
