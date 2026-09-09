@@ -8,36 +8,32 @@ qmd: "zero theme skills per il tema zero"
 ---
 # Skills per il Tema Zero
 
-[![Module](https://img.shields.io/badge/Module-Skills per il Tema Zero-8B0000.svg)]()
-[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
-[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
-[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://php.net/)
-[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://phpstan.org/)
-[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue?style=for-the-badge)](https://www.php-fig.org/psr/psr-12/)](https://www.php-fig.org/psr/psr-12/)
-[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=for-the-badge)](https://martinfowler.com/articles/paradigm-shifts.html)]()
-]()
+## Panoramica
 
-> **Core module for the FixCity Platform.**
+Questo documento fornisce informazioni sulle skills disponibili per il tema Zero. Le skills permettono agli agenti AI di specializzarsi in aree specifiche del tema e migliorare la produttivita' nello sviluppo frontend.
 
-## Perché esiste
+## Governance d'uso
 
-Core module for the FixCity Platform.
+Le skills del tema non sostituiscono i `docs/` del tema:
 
-## Superpoteri
+- prima si leggono e si aggiornano i `Themes/*/docs/` pertinenti;
+- poi si usa la skill minima necessaria;
+- le decisioni rilevanti tornano nei `docs/` come handoff per altri agenti;
+- se il task impatta PHP, il quality gate include `phpstan`, `PHPMD` standalone `.phar` e `phpinsights`.
 
-- Modular component with XotBase patterns
-- Professional-grade implementation
-- Integrated with FixCity Platform
+## Skills Disponibili
 
-## Documentazione
+### 1. Skills per UI e Design
 
-| Lingua | Link |
-|--------|------|
-| 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+#### Theme Skills
+- **Theme Factory**: Applicazione temi professionali a documenti, presentazioni e landing pages
+- **Canvas Design**: Creazione arte visiva in PNG e PDF con design philosophy
+- **Imagen**: Generazione immagini usando Google Gemini per mockup UI, icone e illustrazioni
 
----
+#### Design Skills
+- **Brand Guidelines**: Applicazione colori e tipografia ufficiale per coerenza visiva
+- **Image Enhancer**: Miglioramento qualità immagini e screenshot per presentazioni professionali
+- **Slack GIF Creator**: Creazione GIF animate ottimizzate per Slack con validazione dimensioni
 
 ### 2. Skills per Frontend Development
 
