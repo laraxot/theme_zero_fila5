@@ -1,3 +1,17 @@
+---
+title: "CONFLICT-RESOLUTION-SUMMARY (deprecated)"
+type: reference
+status: deprecated
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "deprecated renamed CONFLICT-RESOLUTION-SUMMARY.md"
+---
+
+> This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
+> Do not add dates or underscores in filenames.
+
+> This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
+> Do not add dates or underscores in filenames.
 # Riepilogo Risoluzione Conflitti Git - Filament 5
 
 ## Obiettivo Completato ✅
@@ -156,3 +170,9 @@ Tutti i file modificati hanno backup con estensione `.backup` per eventuali roll
 
 ## Conclusione
 La migrazione a Filament 5 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
+
+> This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
+> Do not add dates or underscores in filenames.
+
+> This file has been renamed to [CONFLICT-RESOLUTION-SUMMARY.md](CONFLICT-RESOLUTION-SUMMARY.md).
+> Do not add dates or underscores in filenames.
