@@ -6,6 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "performance actions reference"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
@@ -30,13 +31,6 @@ Appartiene a:
 
 - `Modules\Performance\Actions\Organizzativa\UpdateGgPresenzaDalalAction`
 - `Modules\Sigma\Models\Traits\Mutators\EnteMatrDateRangeMutator`
-
-Nello stesso mutator Sigma vivono anche `getGgAssenzaDalal()` e `getHhAssenzaDalal()`,
-condivisi da tutte le schede (Ptv, Progressioni, Performance) via `SchedaTrait`.
-Il tema **non** deve ricalcolarli: consuma i campi materializzati o il refresh
-Filament (`FieldRefreshAction`) sul form.
-
-Per `gg_integ_params_no_asz` (≠ `gg_esperienza_no_asz`): getter + Attribute co-locati in `SchedaMutator` con persist `withoutEvents`; boundary tema in [gg-integ-params-no-asz-theme-boundary](./wiki/concepts/gg-integ-params-no-asz-theme-boundary.md).
 
 Il tema vede solo l'effetto finale: il campo `gg_presenza_dalal` valorizzato sul
 record `Organizzativa`.
@@ -100,10 +94,10 @@ ridefinirlo.
 
 ## Collegamenti
 
-- [Documentazione modulo Performance](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
-- [Documentazione modulo Performance](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
-- [Documentazione modulo Performance](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
-- [Documentazione modulo Performance](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 - [README tema Zero](./README.md)
 - [Index documentazione tema Zero](./index.md)
 
@@ -201,23 +195,23 @@ TextColumn::make('gg_anno')
 
 ## Collegamenti
 
-- [Documentazione modulo Performance - giorni presenza](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
-- [Documentazione modulo Performance - giorni anno](../../../Modules/Performance/docs/action-update-gg-anno.md)
-- [Documentazione modulo Performance - part-time ponderato](../../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
-- [Documentazione modulo Performance - giorni presenza](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
-- [Documentazione modulo Performance - giorni anno](../../../Modules/Performance/docs/action-update-gg-anno.md)
-- [Documentazione modulo Performance - part-time ponderato](../../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
-- [Documentazione modulo Performance - giorni presenza](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
-- [Documentazione modulo Performance - giorni anno](../../../Modules/Performance/docs/action-update-gg-anno.md)
-- [Documentazione modulo Performance - part-time ponderato](../../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
-- [Documentazione modulo Performance - giorni presenza](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
-- [Documentazione modulo Performance - giorni anno](../../../Modules/Performance/docs/action-update-gg-anno.md)
-- [Documentazione modulo Performance - part-time ponderato](../../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
-- [Documentazione modulo Performance - giorni presenza](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
-- [Documentazione modulo Performance - giorni anno](../../../Modules/Performance/docs/action-update-gg-anno.md)
-- [Documentazione modulo Performance - part-time ponderato](../../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
-- [Documentazione modulo Performance - giorni presenza](../../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
-- [Documentazione modulo Performance - giorni anno](../../../Modules/Performance/docs/action-update-gg-anno.md)
-- [Documentazione modulo Performance - part-time ponderato](../../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
+- [Documentazione modulo Performance - giorni presenza](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance - giorni anno](../../../laravel/Modules/Performance/docs/action-update-gg-anno.md)
+- [Documentazione modulo Performance - part-time ponderato](../../../laravel/Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
+- [Documentazione modulo Performance - giorni presenza](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance - giorni anno](../../../laravel/Modules/Performance/docs/action-update-gg-anno.md)
+- [Documentazione modulo Performance - part-time ponderato](../../../laravel/Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
+- [Documentazione modulo Performance - giorni presenza](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance - giorni anno](../../Modules/Performance/docs/action-update-gg-anno.md)
+- [Documentazione modulo Performance - part-time ponderato](../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
+- [Documentazione modulo Performance - giorni presenza](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance - giorni anno](../../../laravel/Modules/Performance/docs/action-update-gg-anno.md)
+- [Documentazione modulo Performance - part-time ponderato](../../../laravel/Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
+- [Documentazione modulo Performance - giorni presenza](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance - giorni anno](../../../laravel/Modules/Performance/docs/action-update-gg-anno.md)
+- [Documentazione modulo Performance - part-time ponderato](../../../laravel/Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
+- [Documentazione modulo Performance - giorni presenza](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+- [Documentazione modulo Performance - giorni anno](../../Modules/Performance/docs/action-update-gg-anno.md)
+- [Documentazione modulo Performance - part-time ponderato](../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
 - [README tema Zero](./README.md)
 - [Index documentazione tema Zero](./index.md)

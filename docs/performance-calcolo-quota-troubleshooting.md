@@ -6,6 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "troubleshooting calcolo quota performance"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
@@ -104,10 +105,10 @@ Prima di ogni calcolo quota, verificare:
 ## Documentazione Tecnica
 
 Per approfondimenti:
-- [Discrepanza Calcolo Quota (modulo Performance)](../../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
-- [Discrepanza Calcolo Quota (modulo Performance)](../../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
-- [Discrepanza Calcolo Quota (modulo Performance)](../../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
-- [Discrepanza Calcolo Quota (modulo Performance)](../../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
+- [Discrepanza Calcolo Quota (modulo Performance)](../../../laravel/Modules/Performance/docs/discrepanza-calcolo-quota.md)
+- [Discrepanza Calcolo Quota (modulo Performance)](../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
+- [Discrepanza Calcolo Quota (modulo Performance)](../../../laravel/Modules/Performance/docs/discrepanza-calcolo-quota.md)
+- [Discrepanza Calcolo Quota (modulo Performance)](../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
 - [Performance Actions Reference](./performance-actions-reference.md)
 
 ## Note
