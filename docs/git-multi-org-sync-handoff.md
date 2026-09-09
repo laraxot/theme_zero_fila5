@@ -10,7 +10,7 @@ module: "Zero"
 issues:
   - "https://github.com/provtv/theme_zero_fila5/issues/12"
 discussions:
-  - "https://github.com/provtv/<repo progetto>/discussions/204"
+  - "https://github.com/provtv/base_ptv_fila5/discussions/204"
 ---
 
 # Handoff — multi-org sync (STORY-003)
@@ -28,9 +28,9 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 | Tipo | URL |
 |------|-----|
 | Issue owner | https://github.com/provtv/theme_zero_fila5/issues/12 |
-| Discussion | https://github.com/provtv/<repo progetto>/discussions/204 |
-| Hub base issue | https://github.com/provtv/<repo progetto>/issues/203 |
-| Hub base discussion | https://github.com/provtv/<repo progetto>/discussions/204 |
+| Discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
+| Hub base issue | https://github.com/provtv/base_ptv_fila5/issues/203 |
+| Hub base discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
 | Story monorepo | `docs/stories/STORY-003-multi-org-sync-geo-boundary-bashscripts.md` |
 
 ## Regole rapide
