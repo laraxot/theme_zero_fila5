@@ -1,16 +1,20 @@
 ---
-title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
+title: "Riepilogo Risoluzione Conflitti Git - Filament 5"
 type: guide
 tags: ['filament', 'laravel', 'testing', 'phpstan']
 created: 2026-07-14
+updated: 2026-08-18
+qmd: "riepilogo risoluzione conflitti git - Filament 5"
+related:
+
 updated: 2026-07-14
-qmd: "riepilogo risoluzione conflitti git - filament 4"
+qmd: "riepilogo risoluzione conflitti git - Filament 5"
 related:
   - "./00-index.md"
   - "./00-index.md"
 ---
 
-# Riepilogo Risoluzione Conflitti Git - Filament 4
+# Riepilogo Risoluzione Conflitti Git - Filament 5
 
 ## Obiettivo Completato ✅
 Risoluzione sistematica di tutti i conflitti Git presenti nel progetto per la migrazione a Filament 5.
