@@ -6,6 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "implementazione chartjs datalabels in filament 5x - tema zero"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
@@ -91,9 +92,6 @@ I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart
 - Segui il pattern delle labels multiple centrate per coerenza visiva
 - Applica sfondi semi-trasparenti per migliorare il contrasto
 - Usa angoli arrotondati e padding generoso per un aspetto moderno
-- Nei form Livewire usare `<form wire:submit="metodo">` e `{{ $this->form }}`;
-  non inventare componenti nel namespace `filament-schemas`.
-- Usare `php artisan view:cache` come gate per i Blade del tema.
 
 ## Riferimenti
 
