@@ -61,7 +61,7 @@ Widgets encapsulate both logic and data access, passing only the necessary data 
 
 namespace Modules\User\Filament\Widgets\Auth;
 
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
 class LoginWidget extends XotBaseWidget
@@ -113,7 +113,7 @@ For Folio pages that need data, use route model binding or controller-like logic
 ```php
 <?php
 
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 use function Laravel\Folio\{name, render};
 
 name('users.show');
@@ -132,7 +132,7 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 ```
 
 **Key Points:**
-- ✅ Import model from module: `use Modules\Xot\Contracts\UserContract;`
+- ✅ Import model from module: `use Modules\User\Models\User;`
 - ✅ Use route model binding for automatic loading
 - ✅ Pass data to view as variables
 - ❌ Never instantiate models directly in Blade templates
@@ -144,7 +144,7 @@ For data needed across multiple views (e.g., navigation, user info).
 **Service Provider (Modules/User/Providers/UserServiceProvider.php):**
 ```php
 use Illuminate\Support\Facades\View;
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 
 public function boot(): void
 {
@@ -268,7 +268,7 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 **✅ Use Folio for Simple Lists:**
 ```php
 // Folio page
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 
 render(fn () => view('pub_theme::pages.users.index', [
     'users' => User::query()->latest()->paginate(20),
@@ -294,7 +294,7 @@ render(fn () => view('pub_theme::pages.users.index', [
 
 1. **Import Models from Modules**
    ```php
-   use Modules\Xot\Contracts\UserContract;
+   use Modules\User\Models\User;
    use Modules\Cms\Models\Post;
    ```
 
@@ -413,7 +413,7 @@ test('login widget provides form to theme view', function () {
 ### Test 2: Verify Folio Page Data Binding
 
 ```php
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 
 test('user profile page displays user data', function () {
     $user = User::factory()->create(['name' => 'John Doe']);
@@ -516,7 +516,7 @@ use Modules\User\Models\CustomUser;  // ✅ NEW
 
 **Solution:** Import at top of Folio page or pass via widget:
 ```php
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 ```
 
 ### Problem: "Connection not found" error
