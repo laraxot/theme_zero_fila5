@@ -8,37 +8,31 @@ qmd: "zero theme theme documentation"
 ---
 # Theme Documentation
 
-[![Module](https://img.shields.io/badge/Module-Theme Documentation-8B0000.svg)]()
-[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
-[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
-[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://php.net/)
-[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://phpstan.org/)
-[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue?style=for-the-badge)](https://www.php-fig.org/psr/psr-12/)](https://www.php-fig.org/psr/psr-12/)
-[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=for-the-badge)](https://martinfowler.com/articles/paradigm-shifts.html)]()
-]()
+This directory contains documentation for the theme.
 
-> **Core module for the FixCity Platform.**
+## Structure
 
-## Perché esiste
+- **customization.md** - Theme customization
+- **README.md** - This file
 
-Core module for the FixCity Platform.
+## Guidelines
 
-## Superpoteri
+Documentation should be:
+- Clear and concise
+- Updated with theme changes
+- Use Markdown format (.md)
+# Tema Zero - Documentazione
 
 
-## Documentazione
+# Tema Zero - Documentazione
 
-| Lingua | Link |
-|--------|------|
-| 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+## Gestionale / replica
 
----
+Tema alternativo/sperimentale. Hub: [gestionale-docs-index.md](../../docs/gestionale-docs-index.md) · [tenant-modules-navigation-discipline.md](../../docs/tenant-modules-navigation-discipline.md) · [panels vs Zero](./gestionale-panels-vs-themes.md).
 
 ## Overview
 
-Il tema **Zero** è il tema principale di default per l'applicazione Laraxot PTVX.
+Il tema **Zero** è il tema principale di default per l'applicazione Laraxot.
 
 ## Scopo (business)
 

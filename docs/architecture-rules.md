@@ -1,7 +1,7 @@
 ---
 title: architecture rules — Theme Zero
 type: reference
-updated: 2026-07-06
+updated: 2026-06-18
 ---
 
 # Architecture Rules — Theme Zero

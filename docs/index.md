@@ -1,4 +1,193 @@
 ---
+title: "Indice della Documentazione - Tema Zero"
+type: index
+tags: [theme, zero, index]
+created: 2026-07-01
+updated: 2026-09-02
+qmd: "zero theme indice della documentazione   tema zero"
+---
+# Indice della Documentazione - Tema Zero
+
+> **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
+> [00-index.md](./00-index.md) (canonico, aggiornato 2026-03-28). Usare `00-index.md` come riferimento
+> primario; questo file non è stato consolidato per evitare di perdere la prosa introduttiva italiana.
+
+## Panoramica
+Questo documento serve come indice centrale per il tema Zero, fornendo una guida per la personalizzazione e l'utilizzo del tema all'interno dell'applicazione Laravel. Il tema Zero è un tema basato su TailwindCSS con supporto per Vite e componenti Blade moderni.
+
+## Principi Chiave
+1. **Semplicità**: Il tema Zero è progettato per essere semplice e leggero
+2. **Personalizzabilità**: Consente facile personalizzazione attraverso configurazioni e sovrascrittura di componenti
+3. **Performance**: Ottimizzato per prestazioni elevate con asset minimizzati
+4. **Responsive**: Completamente responsive per tutti i dispositivi
+
+## Funzionalità Principali
+- **TailwindCSS**: Framework CSS utility-first per uno styling moderno e coerente
+- **Vite**: Bundler moderno per la compilazione degli assets
+- **Componenti Blade**: Libreria di componenti riutilizzabili per l'interfaccia frontend
+- **Layout Flessibili**: Sistema di layout adattivo per diverse tipologie di pagina
+- **Traduzioni**: Supporto multilingua integrato
+- **Temi Personalizzabili**: Sistema di estensione per creare varianti del tema
+- **Integrazione Filament**: Compatibilità completa con i componenti Filament
+
+## Collegamenti Correlati
+- [AI Methodologies](./ai-methodologies.md)
+- [Documentazione Generale Progetto](./README.md) (docs: replace project-specific references with generic placeholders across documentation)
+- [Collegamenti Documentazione](../../../docs/collegamenti-documentazione.md)
+- [Standard di Documentazione](../../../docs/DOCUMENTATION_STANDARDS.md)
+- [Modulo UI](../../../Modules/UI/docs/README.md)
+- [Modulo Xot](../../../Modules/Xot/docs/README.md)
+
+### Moduli Integrati
+- [Performance Actions Reference](./performance-actions-reference.md) - Riferimento action calcolo performance
+
+## Categorie Principali
+
+### Architettura e Struttura
+- [README](./README.md) - Panoramica generale del tema
+- [Architettura](./architecture.md) - Architettura generale del tema
+- [Struttura](./layouts.md) - Struttura delle directory e dei layout
+- [Componenti](./components.md) - Componenti Blade disponibili
+
+### Personalizzazione
+- [Personalizzazione](./customization.md) - Guida alla personalizzazione del tema
+- [Readonly Field Styling](./readonly-field-styling.md) - Pattern UI/UX per campi readonly/calcolati
+- [Esempi](./examples.md) - Esempi pratici di personalizzazione
+- [Autenticazione](./authentication.md) - Componenti di autenticazione
+- [Esempi Autenticazione](./auth_examples.md) - Esempi di pagine di autenticazione
+
+### Sviluppo e Configurazione
+- [Configurazione](./configuration.md) - Configurazione del tema
+- [Compilazione Assets](./asset-compilation.md) - Guida alla compilazione degli assets
+- [TailwindCSS](./tailwind.md) - Configurazione e personalizzazione Tailwind
+- [Vite](./vite.md) - Configurazione e ottimizzazione Vite
+
+### Traduzioni
+- [Sistema Traduzioni](./translations.md) - Sistema di traduzioni del tema
+- [File Lingua](./language-files.md) - Gestione dei file di traduzione
+- [Localizzazione](./localization.md) - Localizzazione del tema
+
+### Testing e Qualità
+- [Testing](./testing.md) - Strategie e approcci per il testing del tema
+- [ide-helper-phpdoc-boundary](./ide-helper-phpdoc-boundary.md) - Confine PHPDoc moduli ↔ tema
+- [Performance](./performance.md) - Ottimizzazioni e analisi performance
+- [Accessibilità](./accessibility.md) - Linee guida per l'accessibilità
+
+## Linee Guida per l'Implementazione
+
+### 1. Struttura del Tema
+Il tema Zero segue una struttura standard con directory per componenti, risorse e configurazioni:
+
+```
+Zero/
+├── app/
+│   ├── View/
+│   │   └── Components/
+├── lang/
+├── public/
+├── resources/
+│   ├── css/
+│   ├── js/
+│   └── views/
+│       ├── components/
+│       ├── layouts/
+│       └── pages/
+└── docs/
+```
+
+### 2. Personalizzazione del Tema
+Per personalizzare il tema Zero:
+
+1. **Sovrascrivere i componenti**:
+   ```bash
+   # Copiare un componente esistente
+   cp resources/views/components/button.blade.php resources/views/components/custom-button.blade.php
+   ```
+
+2. **Modificare i layout**:
+   ```bash
+   # Creare un layout personalizzato
+   cp resources/views/layouts/app.blade.php resources/views/layouts/custom.blade.php
+   ```
+
+3. **Aggiungere stili personalizzati**:
+   ```css
+   /* resources/css/custom.css */
+   .custom-class {
+       @apply bg-blue-500 text-white rounded-lg;
+   }
+   ```
+
+### 3. Compilazione Assets
+```bash
+# Sviluppo
+npm run dev
+
+# Produzione
+npm run build
+
+# Watch mode
+npm run watch
+```
+
+### 4. Configurazione Tailwind
+```javascript
+// tailwind.config.js
+module.exports = {
+    content: [
+        './resources/**/*.blade.php',
+        './resources/**/*.js',
+        './resources/**/*.vue',
+    ],
+    theme: {
+        extend: {
+            colors: {
+                primary: '#3B82F6',
+                secondary: '#10B981',
+            },
+        },
+    },
+    plugins: [],
+}
+```
+
+## Problemi Comuni e Soluzioni
+- **Assets non caricati**: Verificare che `npm run build` sia stato eseguito
+- **Stili non applicati**: Controllare la configurazione di TailwindCSS
+- **Componenti mancanti**: Verificare la registrazione corretta dei componenti Blade
+- **Traduzioni mancanti**: Controllare la presenza dei file di traduzione
+
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi personalizzazione o modifica al tema nella cartella di documentazione
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al tema Zero
+
+## Collegamenti alla Documentazione Correlata
+- [Panoramica Architettura](./architecture.md)
+- [Personalizzazione](./customization.md)
+- [Componenti](./components.md)
+- [Esempi](./examples.md)
+- [Troubleshooting](./troubleshooting.md)
+
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al tema, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+## Risoluzione Conflitti e Standard
+- **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione
+- Il file `lang/it/zero_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10
+- **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
+- Vedi anche: [../../../docs/README.md](./README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+
+*Ultimo aggiornamento: Gennaio 2025*
+- **Aggiunto**: Sistema di documentazione automatica moduli
+- **Integrato**: Refresh intelligente form reattivi
+- **Migliorato**: Sistema di tracking e audit trail
+
+---
+
+<!-- Merged from INDEX.md, which collided with this file on case-insensitive filesystems. -->
+
+---
 title: "Documentation Index — Theme Zero"
 type: index
 tags: [documentation, index, theme]
@@ -10,6 +199,10 @@ related:
 ---
 
 # Documentation Index — Theme Zero
+
+> **Note 2026-07-24**: this index is redundant with [00-index.md](./00-index.md) (canonical, updated
+> 2026-03-28, aligned with current stack: Filament 5, Livewire 4, Volt, Tailwind v4). Kept only for the
+> `archive/duplicates` links below which are not referenced elsewhere.
 
 ## Archive
 - [archive/duplicates/conflict-resolution-summary](./archive/duplicates/conflict_resolution_summary.md)
@@ -32,11 +225,11 @@ related:
 - [roadmap/theme-customization](./roadmap/theme-customization.md)
 
 ## Root
-- [CHANGELOG](./changelog.md)
-- [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT-RESOLUTION-SUMMARY.md)
-- [CONFLICT-RESOLUTION-SUMMARY](./CONFLICT_RESOLUTION_SUMMARY.md)
-- [METODI-DUPLICATI-ANALISI](./METODI-DUPLICATI-ANALISI.md)
-- [METODI-DUPLICATI-ANALISI](./METODI_DUPLICATI_ANALISI.md)
+- [CHANGELOG](./CHANGELOG.md)
+- [CONFLICT-RESOLUTION-SUMMARY](./conflict-resolution-summary.md)
+- [CONFLICT-RESOLUTION-SUMMARY](./conflict-resolution-summary.md)
+- [METODI-DUPLICATI-ANALISI](./metodi-duplicati-analisi.md)
+- [METODI-DUPLICATI-ANALISI](./metodi-duplicati-analisi.md)
 - [accessor-delegation-pattern](./accessor-delegation-pattern.md)
 - [agent-confidence-discipline](./agent-confidence-discipline.md)
 - [agent-confidence-protocol](./agent-confidence-protocol.md)
@@ -49,7 +242,7 @@ related:
 - [architecture](./architecture.md)
 - [auth-examples](./auth-examples.md)
 - [authentication](./authentication.md)
-- [changelog](./changelog.md)
+- [changelog](./CHANGELOG.md)
 - [chartjs-datalabels-background-styling](./chartjs-datalabels-background-styling.md)
 - [chartjs-datalabels-filament5-implementation](./chartjs-datalabels-filament5-implementation.md)
 - [chartjs-datalabels-multiple-labels-complete-guide](./chartjs-datalabels-multiple-labels-complete-guide.md)
@@ -74,8 +267,8 @@ related:
 - [dual-label-chart-widget-implementation](./dual-label-chart-widget-implementation.md)
 - [duplicate-methods-report](./duplicate-methods-report.md)
 - [duplicate-methods](./duplicate-methods.md)
-- [duplicate-methods](./duplicate_methods.md)
-- [duplicate-methods-report](./duplicate_methods_report.md)
+- [duplicate-methods](./duplicate-methods.md)
+- [duplicate-methods-report](./duplicate-methods-report.md)
 - [env-development-configuration](./env-development-configuration.md)
 - [examples](./examples.md)
 - [filament-5-nested-resources-complete-guide](./filament-5-nested-resources-complete-guide.md)
@@ -117,9 +310,9 @@ related:
 - [product-requirements](./product-requirements.md)
 - [product-roadmap](./product-roadmap.md)
 - [product-strategy](./product-strategy.md)
-- [product-launch-plan](./product_launch_plan.md)
-- [product-roadmap](./product_roadmap.md)
-- [product-strategy](./product_strategy.md)
+- [product-launch-plan](./product-launch-plan.md)
+- [product-roadmap](./product-roadmap.md)
+- [product-strategy](./product-strategy.md)
 - [readonly-field-styling](./readonly-field-styling.md)
 - [release-marketing-standard](./release-marketing-standard.md)
 - [roadmap](./roadmap.md)
@@ -132,7 +325,7 @@ related:
 - [spatie-permission-teams-boundary](./spatie-permission-teams-boundary.md)
 - [sprint-planning-meeting](./sprint-planning-meeting.md)
 - [sprint-planning](./sprint-planning.md)
-- [sprint-planning](./sprint_planning.md)
+- [sprint-planning](./sprint-planning.md)
 - [strategy](./strategy.md)
 - [theme-architecture-best-practices](./theme-architecture-best-practices.md)
 - [theme-documentation-standard](./theme-documentation-standard.md)
@@ -140,7 +333,7 @@ related:
 - [themes-system-complete-guide](./themes-system-complete-guide.md)
 - [troubleshooting](./troubleshooting.md)
 - [user-research](./user-research.md)
-- [user-research](./user_research.md)
+- [user-research](./user-research.md)
 
 ## Root-Md-Files
 - [root-md-files/conflict-resolution-summary-relocated](./root-md-files/conflict-resolution-summary-relocated.md)
