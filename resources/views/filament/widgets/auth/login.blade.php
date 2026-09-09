@@ -3,6 +3,16 @@
 
 <x-filament-widgets::widget>
     <div class="space-y-6">
+        {{-- Header del form --}}
+        <div class="text-center">
+            <h2 class="text-xl font-semibold text-gray-900">
+                {{ __('Accedi al tuo account') }}
+            </h2>
+            <p class="mt-2 text-sm text-gray-600">
+                {{ __('Inserisci le tue credenziali per accedere') }}!
+            </p>
+        </div>
+
         {{-- Form renderizzato dal widget --}}
         <form wire:submit="login" class="space-y-4">
             {{ $this->form }}
@@ -55,23 +65,23 @@
             </div>
         </div>
 
-        {{-- Social Login --}}
+        {{-- Social Login (se implementato) --}}
         <div class="grid grid-cols-2 gap-3">
-            <a
-                href="{{ route('socialite.oauth.fo.redirect', ['provider' => 'google']) }}"
+            <button 
+                type="button"
                 class="w-full inline-flex justify-center items-center gap-2 py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors"
             >
                 <x-filament::icon icon="ui-google" class="w-5 h-5 flex-shrink-0" />
                 <span>{{ __('Google') }}</span>
-            </a>
+            </button>
 
-            <a
-                href="{{ route('socialite.oauth.fo.redirect', ['provider' => 'github']) }}"
+            <button 
+                type="button"
                 class="w-full inline-flex justify-center items-center gap-2 py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors"
             >
                 <x-filament::icon icon="ui-brands.github" class="w-5 h-5 flex-shrink-0" />
                 <span>{{ __('GitHub') }}</span>
-            </a>
+            </button>
         </div>
     </div>
 </x-filament-widgets::widget> 

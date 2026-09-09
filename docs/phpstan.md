@@ -45,8 +45,8 @@ title: "PHPStan Configuration - Theme Zero"
 type: guide
 tags: ['laravel', 'phpstan']
 created: 2026-07-14
-updated: 2026-08-24
-qmd: "phpstan theme zero solo laravel/phpstan.neon modules gate no --level"
+updated: 2026-07-14
+qmd: "phpstan configuration - theme zero"
 related:
   - "./00-index.md"
   - "./00-index.md"
@@ -58,13 +58,23 @@ related:
 
 **SOLO `laravel/phpstan.neon` è la configurazione valida.**
 
-```bash
-cd laravel
-./vendor/bin/phpstan analyse Modules --memory-limit=-1 --no-progress
+### ❌ VIETATO
+- Creare file `phpstan*.json` nei temi
+- Creare configurazioni alternative `phpstan.neon.dist`
+- Committare file di output PHPStan
+
+### ✅ PERMESSO
+- Usare `laravel/phpstan.neon` (configurazione centralizzata)
+- File di output temporanei (esclusi da .gitignore)
+
+## Configurazione Centralizzata
+
+```
+laravel/
+└── phpstan.neon          # UNICA configurazione valida
 ```
 
-**Solo** `laravel/phpstan.neon`, con il suo `level: max`. Agenti: niente neon temp,
-niente `--level`, baseline, esclusioni o `@phpstan-ignore`. I test fanno parte del gate.
+## Output Files
 
 I file di output PHPStan (es: `phpstan_themes_zero_filtered.json`) sono:
 - File temporanei di analisi
@@ -79,11 +89,12 @@ Aggiungere al `.gitignore` del tema:
 phpstan*.json
 ```
 
-- Fixare **codice** del tema se un consumer in `Modules/` lo analizza
-- PHP del tema: risalire al tipo al boundary; `mixed` non è una scorciatoia — [Xot phpstan-rules](../../../../Modules/Xot/docs/quality/phpstan-rules.md)
-- Dettaglio storico: [phpstan-level10-analysis.md](./phpstan-level10-analysis.md)
+## Esecuzione Analisi
 
-## Stato e prove
+```bash
+cd ./laravel
+./vendor/bin/phpstan analyse --level=10
+```
 
 ## Riferimenti
 
