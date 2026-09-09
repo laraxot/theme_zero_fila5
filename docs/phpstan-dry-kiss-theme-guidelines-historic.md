@@ -6,6 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 drykiss guidelines for themes"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
@@ -143,7 +144,7 @@ Anche se i temi sono principalmente presentation layer, alcune parti contengono 
 **Fix** ✅:
 ```php
 // In Folio page or controller
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 
 render(fn (User $user) => view('pub_theme::pages.users.show', [
     'user' => $user,
@@ -173,7 +174,7 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 ```php
 <?php
 
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 use Illuminate\Database\Eloquent\Collection;
 use function Laravel\Folio\{name, render};
 
@@ -460,7 +461,7 @@ Themes/Zero/
 <?php
 // resources/views/pages/dashboard.blade.php
 
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 use Modules\Analytics\Services\StatsService;
 use function Laravel\Folio\{name, render};
 
@@ -502,7 +503,7 @@ render(function (StatsService $statsService): array {
 - [Theme Architecture](./architecture.md)
 - [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis-2025-10-17.md)
 - [DRY/KISS Best Practices](./dry-kiss-best-practices-2025-10-15.md)
-- [PHPStan Level 10 Full Analysis (Xot)](../../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis.md)
+- [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis.md)
 - [DRY/KISS Best Practices](./dry-kiss-best-practices.md)
 - [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis-2025-10-17.md)
 - [DRY/KISS Best Practices](./dry-kiss-best-practices-2025-10-15.md)

@@ -6,6 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "tema zero - mail layouts"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
@@ -256,3 +257,4 @@ Il layout segue il versionamento semantico del tema Zero. Modifiche breaking dev
 **Ultimo aggiornamento**: Gennaio 2025  
 **Versione Layout**: 1.0.0  
 **Compatibilità**: Spatie Mail Templates 3.x+
+
