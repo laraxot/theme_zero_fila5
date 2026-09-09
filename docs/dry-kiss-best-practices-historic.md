@@ -6,6 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "dry kiss best practices - tema zero"
 related:
+  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
@@ -239,3 +240,4 @@ Themes/Zero/
 **Ultimo Aggiornamento:** 15 Ottobre 2025  
 **Autore:** Team Laraxot  
 **Versione:** 1.0
+
