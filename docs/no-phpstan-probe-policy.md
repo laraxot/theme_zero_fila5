@@ -27,5 +27,5 @@ Vedi anche:
 - `Modules/Xot/docs/phpstan-modules-fix-log.md`
 - `bashscripts/ai/wiki/rules/no-phpstan-probe-models.md`
 - `Modules/Xot/docs/phpstan-modules-fix-log.md`
-- `@/var/www/_bases/base_ptvx_fila5/.windsurf/rules/no-phpstan-probe-models.md`
-- `@/var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/phpstan-modules-fix-log.md`
+- `@/var/www/_bases/<repo progetto>/.windsurf/rules/no-phpstan-probe-models.md`
+- `@/var/www/_bases/<repo progetto>/laravel/Modules/Xot/docs/phpstan-modules-fix-log.md`

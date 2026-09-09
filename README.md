@@ -1,6 +1,6 @@
 # Zero: il tema che trasforma complessita in vantaggio operativo
 
-Zero theme for Laraxot PTVX: frontend theme with Tailwind, Vite, Flowbite and Alpine.js integration.
+Zero theme for Laraxot: frontend theme with Tailwind, Vite, Flowbite and Alpine.js integration.
 
 ## Perche guardarlo adesso
 
@@ -120,7 +120,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# base_healthcare_app_fila5_mono
+# <repo progetto>
 # healthcare_app Fila3 Mono Project
 
 ## Overview
@@ -292,4 +292,4 @@ This project is proprietary software. All rights reserved.
 For support and questions, please refer to the project documentation or contact the development team.
 
 *Last updated: January 2025*
-# base_healthcare_app_fila5_mono
+# <repo progetto>
