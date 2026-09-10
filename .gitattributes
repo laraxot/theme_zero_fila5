@@ -2,8 +2,7 @@
 # Canon: bashscripts/ai/wiki/rules/no-git-lfs.md
 # Sync:  bash bashscripts/templates/sync-gitattributes-modules.sh
 #
-# Git LFS VIETATO. I binari sono blob git normali.
-# Mai: filter=lfs / diff=lfs / merge=lfs
+# Git LFS VIETATO. Binari = blob git normali.
 
 * text=auto
 *.css linguist-vendored
