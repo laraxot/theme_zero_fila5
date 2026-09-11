@@ -11,7 +11,6 @@ updated: 2026-07-14
 qmd: "riepilogo risoluzione conflitti git - Filament 5"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
 # Riepilogo Risoluzione Conflitti Git - Filament 5
