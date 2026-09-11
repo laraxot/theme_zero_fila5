@@ -7,7 +7,6 @@ updated: 2026-07-14
 qmd: "troubleshooting calcolo quota performance"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
 # Troubleshooting Calcolo Quota Performance

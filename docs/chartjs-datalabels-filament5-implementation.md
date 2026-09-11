@@ -7,7 +7,6 @@ updated: 2026-07-14
 qmd: "implementazione chartjs datalabels in filament 5x - tema zero"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
 # Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero

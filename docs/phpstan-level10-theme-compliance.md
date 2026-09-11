@@ -7,7 +7,6 @@ updated: 2026-07-14
 qmd: "phpstan level 10 compliance - theme system"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
 # PHPStan Level 10 Compliance - Theme System

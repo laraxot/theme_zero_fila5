@@ -7,7 +7,6 @@ updated: 2026-07-14
 qmd: "guida completa multiple labels con chartjs-plugin-datalabels in filament 5x tema zero"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Tema Zero)
