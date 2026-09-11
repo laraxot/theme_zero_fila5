@@ -7,7 +7,6 @@ updated: 2026-07-14
 qmd: "model usage in themes - best practices"
 related:
   - "./00-index.md"
-  - "./00-index.md"
 ---
 
 # Model Usage in Themes - Best Practices
