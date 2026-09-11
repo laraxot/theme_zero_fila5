@@ -1,15 +1,3 @@
----
-title: "Tema Zero - Mail Layouts"
-type: guide
-tags: ['laravel', 'permission', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "tema zero - mail layouts"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # Tema Zero - Mail Layouts
 
 ## Panoramica
@@ -232,8 +220,6 @@ Il sistema implementa una strategia di fallback a cascata:
 - [Spatie Database Mail Templates](../../../Modules/Notify/docs/spatie-database-mail-templates-deep-dive.md)
 - [Email Best Practices](../../../Modules/Notify/docs/email-html-best-practices.md)
 
-- [Email Best Practices](../../../Modules/Notify/docs/email_html_best_practices.md)
-
 ### Repository di Riferimento
 
 - [spatie/laravel-database-mail-templates](https://github.com/spatie/laravel-database-mail-templates)
@@ -257,4 +243,3 @@ Il layout segue il versionamento semantico del tema Zero. Modifiche breaking dev
 **Ultimo aggiornamento**: Gennaio 2025  
 **Versione Layout**: 1.0.0  
 **Compatibilità**: Spatie Mail Templates 3.x+
-

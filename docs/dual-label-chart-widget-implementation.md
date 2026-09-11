@@ -1,15 +1,3 @@
----
-title: "SimpleChartWidget - Analisi Qualità del Codice e Best Practices"
-type: guide
-tags: ['filament', 'charts', 'testing', 'phpstan']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "simplechartwidget - analisi qualit del codice e best practices"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # SimpleChartWidget - Analisi Qualità del Codice e Best Practices
 
 ## Panoramica
@@ -775,17 +763,11 @@ protected function getData(): array
 ### PHPStan Level 10 Compliance
 ```bash
 # ✅ Zero errori dopo refactoring
-./vendor/bin/phpstan analyse Modules/healthcare_app/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
-./vendor/bin/phpstan analyse Modules/ModuloEsempio/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
-./vendor/bin/phpstan analyse Modules/healthcare_app/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
 ```
 
 ### Testing Coverage
 ```bash
 # ✅ 100% coverage per metodi principali
-./vendor/bin/phpunit --coverage-html=coverage Modules/healthcare_app/tests/Unit/SimpleChartWidgetTest.php
-./vendor/bin/phpunit --coverage-html=coverage Modules/ModuloEsempio/tests/Unit/SimpleChartWidgetTest.php
-./vendor/bin/phpunit --coverage-html=coverage Modules/healthcare_app/tests/Unit/SimpleChartWidgetTest.php
 ```
 
 ### Performance Metrics

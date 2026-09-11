@@ -1,15 +1,3 @@
----
-title: "chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)"
-type: how-to
-tags: ['filament', 'laravel', 'charts']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "chartjs-plugin-datalabels with filament 5 chartwidget multiple labels"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)
 
 ## Scope
@@ -85,9 +73,6 @@ If you need callbacks, always use `RawJs`.
 
 For a minimal, production-ready example showing 2 labels per bar, see:
 
-**`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
-**`Modules/ModuloEsempio/Filament/Widgets/SimpleChartWidget.php`**
-**`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
 
 ```php
 protected function getOptions(): RawJs
