@@ -1,15 +1,3 @@
----
-title: "Layout del Tema Zero"
-type: guide
-tags: ['laravel', 'charts', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "layout del tema zero"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # Layout del Tema Zero
 
 ## Panoramica
@@ -258,4 +246,4 @@ php artisan config:cache
 - [Documentazione Blade](https://laravel.com/docs/blade)
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
 - [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/)
-- [Best Practices SEO](https://developers.google.com/search/docs) 
+- [Best Practices SEO](https://developers.google.com/search/docs)
