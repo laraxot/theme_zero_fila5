@@ -1,22 +1,9 @@
----
-title: "ai handoff"
-type: guide
-tags: ['filament', 'laravel', 'testing', 'phpstan']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "ai handoff"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # ai handoff
 
 ## regole non negoziabili
 
 - tests solo pest
-- nei tests **MAI** `RefreshDatabase` / `DatabaseMigrations`
-- **MAI** `migrate:fresh`, `migrate --force`, `db:wipe` — i dati sono sacri
+- nei tests MAI RefreshDatabase
 - i tests devono leggere `.env.testing`
 
 ## stato lavori (ultimo)

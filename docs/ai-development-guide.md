@@ -1,22 +1,7 @@
----
-title: "AI-Assisted Development Guide - Zero Theme"
-type: how-to
-tags: ['filament', 'laravel', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "ai-assisted development guide - zero theme"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # AI-Assisted Development Guide - Zero Theme
 
 ## Overview
 
-This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
-This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the ModuloEsempio Fila4 Mono project.
-This guide explains how to leverage AI assistants (Claude Code, Cursor, Windsurf) when developing with the **Zero Theme** in the healthcare_app Fila4 Mono project.
 
 Zero is a flexible, modern Laravel theme system built on Filament 5, Livewire 4, and Volt. Understanding how to configure AI assistants for theme development ensures faster, more consistent development.
 
@@ -151,8 +136,6 @@ Add theme-specific patterns to `.claude/` configuration:
 - Assets: `Themes/Zero/Resources/{css,js,images,fonts}/`
 
 ### Component Usage
-```
-
 ```blade
 {{-- Standard Blade component --}}
 <x-theme::components.button-primary>
@@ -516,8 +499,6 @@ Available layouts:
 NEVER hardcode asset paths.
 
 ALWAYS use asset() helper:
-```
-
 ```blade
 <link href="{{ asset('themes/Zero/css/app.css') }}" rel="stylesheet">
 <img src="{{ asset('themes/Zero/images/logo.png') }}" alt="Logo">
@@ -541,8 +522,6 @@ Consider creating a custom MCP server for Zero theme operations:
 - Check asset compilation
 
 **Configuration**: `.claude/mcp.json`, `.cursor/mcp.json`, `.windsurf/mcp.json`
-
-```
 
 ```json
 {
@@ -672,18 +651,3 @@ Consider creating a custom MCP server for Zero theme operations:
 **Version**: 1.0
 **Last Updated**: December 23, 2025
 **Theme**: Zero
-**Maintainer**: healthcare_app Team
-
-*This guide is part of the healthcare_app documentation standard for AI-assisted development.*
-**Maintainer**: healthcare_app Team
-
-*This guide is part of the healthcare_app documentation standard for AI-assisted development.*
-**Maintainer**: ModuloEsempio Team
-
-*This guide is part of the ModuloEsempio documentation standard for AI-assisted development.*
-**Maintainer**: healthcare_app Team
-
-*This guide is part of the healthcare_app documentation standard for AI-assisted development.*
-**Maintainer**: healthcare_app Team
-
-*This guide is part of the healthcare_app documentation standard for AI-assisted development.*
