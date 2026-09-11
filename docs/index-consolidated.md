@@ -1,20 +1,3 @@
----
-title: "Theme Zero Documentation Index"
-type: guide
-tags: ['laravel', 'charts', 'phpstan']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "theme zero documentation index"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
-# Theme Zero Documentation Index
-
-> **Note 2026-07-24**: redundant with [00-index.md](./00-index.md) (canonical, updated 2026-03-28).
-> See that file as the primary entry point for Zero theme docs.
-
 # Theme Zero Documentation Index
 
 **Status**: Theme implementation for Laraxot monolith  
@@ -141,9 +124,6 @@ Theme development roadmap.
 ## Related Modules
 
 - **Limesurvey Module** (`../../laravel/Modules/Limesurvey/docs/`) - Survey data integration
-- **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
-- **ModuloEsempio Module** (`../../laravel/Modules/ModuloEsempio/docs/`) - Dashboard and reporting
-- **healthcare_app Module** (`../../laravel/Modules/healthcare_app/docs/`) - Dashboard and reporting
 - **Chart Module** (`../../laravel/Modules/Chart/docs/`) - Chart generation
 
 ## File Organization

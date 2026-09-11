@@ -1,15 +1,3 @@
----
-title: "Autenticazione - Tema Zero"
-type: guide
-tags: ['filament', 'laravel', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "autenticazione - tema zero"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # Autenticazione - Tema Zero
 
 ## Panoramica
@@ -335,4 +323,4 @@ RateLimiter::attempt(
 - [Documentazione Laravel Authentication](https://laravel.com/docs/authentication)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
 - [Laws of UX](https://lawsofux.com/)
-- [Material Design Guidelines](https://material.io/design) 
+- [Material Design Guidelines](https://material.io/design)
