@@ -7,15 +7,13 @@ created: 2026-07-17
 updated: 2026-07-27
 qmd: "code quality baseline PHPStan Pest strict types Laraxot Zero git remote"
 story: STORY-001
-# GRAVE: issue/discussion del tema — mai base_techplanner / base_workorder / mono.
-# GRAVE: issue/discussion del tema — mai base_ptvx / base_workorder / mono.
+# GRAVE: issue/discussion del tema — mai i repo `base_*` di altri progetti, mai il monorepo.
 # Resolve: cd laravel/Themes/Zero && git remote -v → laraxot/theme_zero_fila5
 issues: []
 discussions: []
 related:
   - "../../../../docs/stories/STORY-001-code-quality-moduli-temi.md"
   - "../../../../docs/wiki/memories/module-github-remote-discipline.md"
-module: "Zero"
 ---
 
 # Code Quality Improvement Report — Zero
@@ -30,8 +28,7 @@ cd laravel/Themes/Zero && git remote -v
 # atteso: laraxot/theme_zero_fila5
 ```
 
-**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
-**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_ptvx_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
+**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (due repo `base_*` diversi, nessuno dei due giusto). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 
 ## Baseline
 
@@ -88,8 +85,6 @@ Rilevazione del 17 luglio 2026 sul working tree locale; esclusi vendor e dipende
 
 
 - [x] PHPStan L10 scoped senza errori non giustificati. (Modules 2026-07-27)
-
-- [ ] PHPStan L10 scoped senza errori non giustificati.
 - [ ] Pest scoped verde sui flussi critici.
 - [ ] Nessuna nuova estensione Filament diretta o controller FO.
 - [ ] Nessuna nuova business logic in Services/Support.
@@ -113,12 +108,3 @@ cd ../../.. && cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit
 ```
 
 Gate moduli (2026-07-27): **0 errori** — chat [phpstan-modules-themes-gate](../../../../docs/chat/phpstan-modules-themes-gate.md).
-
-## Verifica
-
-Dalla cartella laravel/:
-
-    ./vendor/bin/phpstan analyse Themes/Zero --memory-limit=-1
-    ./vendor/bin/pest Themes/Zero/tests
-
-Limite deliberato: niente coverage, mutation score o metriche di complessità finché PHPStan, Pest e review mirata bastano a decidere.

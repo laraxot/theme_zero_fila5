@@ -1,15 +1,3 @@
----
-title: "Personalizzazione del Tema Zero"
-type: guide
-tags: ['laravel', 'testing']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "personalizzazione del tema zero"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # Personalizzazione del Tema Zero
 
 ## Panoramica
@@ -544,4 +532,4 @@ tail -f storage/logs/laravel.log
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
 - [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-- [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations) 
+- [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations)
