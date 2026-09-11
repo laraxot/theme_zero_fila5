@@ -7,7 +7,6 @@ updated: 2026-07-14
 qmd: "metodi duplicati zero"
 related:
   - "./00-index.md"
-
 ---
 
 # Metodi duplicati — Zero
