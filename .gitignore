@@ -1,0 +1,142 @@
+# ==============================================
+# LARAXOT THEME .GITIGNORE — Zero
+# ==============================================
+# Allineato a laravel/Modules/.gitignore_template
+# ==============================================
+
+# ==============================================
+# FORBIDDEN PATHS (root cleanup policy)
+# see docs/wiki/rules/root-cleanup-policy.md
+# see docs/wiki/rules/module-theme-root-cleanup.md
+# ==============================================
+bashscripts
+bashscripts/
+_bmad-output
+.circleci
+.claude-audit
+_docs
+_docs/
+docs/archive
+docs/archived
+docs/legacy
+docs/workbench
+docs/screenshots
+.kilocode
+.kiro
+.ralph
+scripts
+extras
+test-results
+tests/.claude-audit
+tests/AuditCoverage
+tests/AuditCoverage/
+
+# ==============================================
+# DEPENDENCIES & BUILD
+# ==============================================
+vendor
+vendor/
+node_modules/
+build
+package-lock.json
+uploads
+limesurvey
+
+# ==============================================
+# CACHE & TEMPORARY FILES
+# ==============================================
+*.cache
+*.gz
+*.lock
+*.phar
+/cache
+*:Zone.Identifier
+
+# ==============================================
+# LOG FILES
+# ==============================================
+*.log
+logs
+error_log
+
+# ==============================================
+# ENVIRONMENT
+# ==============================================
+.env
+.env.docker
+.env.latest
+
+# ==============================================
+# BACKUP FILES
+# ==============================================
+*.old
+*.bak
+*.backup
+
+# ==============================================
+# GIT SPECIFIC
+# ==============================================
+.git-rewrite
+.git-rewrite/
+
+# ==============================================
+# DEVELOPMENT TOOLS
+# IDE folders forbidden at module/theme root
+# see docs/wiki/rules/module-theme-root-hygiene.md
+# ==============================================
+.agents
+.cursor
+.cursor/
+.devcontainer
+.devcontainer/
+.vscode/
+.windsurf/
+
+# ==============================================
+# QUALITY TOOLS
+# configs forbidden in module/theme root
+# (use laravel/phpinsights.php, laravel/rector.php)
+# ==============================================
+phpinsights.php
+rector.php
+phpstan*.json
+
+# ==============================================
+# AI TOOL OUTPUT (cache locali, mai in git)
+# ==============================================
+graphify-out/
+.headroom/
+
+# ==============================================
+# LEGACY — path ereditati dal .gitignore del repo root.
+# Inerti dentro il repo tema, mantenuti per compatibilita'
+# con i checkout in cui il tema viene usato come root.
+# ==============================================
+laravel/
+laravel/*.lock
+laravel/_ide_helper.php
+laravel/.phpstorm.meta.php
+laravel/bootstrap/cache/*
+laravel/composer.lock
+laravel/database/migrations
+laravel/database/migrations/
+laravel/error_log
+laravel/lang/vendor/
+laravel/package-lock.json
+laravel/public
+laravel/resources/lang/vendor/
+laravel/resources/views/vendor
+laravel/resources/views/vendor/
+laravel/stubs
+public_html/
+public_html/chart
+public_html/css
+public_html/css/
+public_html/error_log
+public_html/js
+public_html/js/
+public_html/storage
+public_html/vendor
+public_html/vendor/
+public_html/vendor/*
+_ide_helper_models.php
