@@ -1,63 +1,3 @@
-# Zero: il tema che trasforma complessita in vantaggio operativo
-
-<<<<<<< .merge_file_wqisaW
-[![Module](https://img.shields.io/badge/Module-Zero: il tema che trasforma complessita in vantaggio operativo-8B0000.svg)]()
-[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-[![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
-[![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
-[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
-[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
-[![Architecture-Modular](https://img.shields.io/badge/Architecture-Modular-purple.svg)]()
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)]()
-
-> **Core module for the FixCity Platform.**
-
-## Perché esiste
-
-Core module for the FixCity Platform.
-
-## Superpoteri
-=======
-Zero theme for Laraxot PTVX: frontend theme with Tailwind, Vite, Flowbite and Alpine.js integration.
-
-## Perche guardarlo adesso
-
-- Riduce attrito operativo con convenzioni Laraxot gia pronte.
-- Porta documentazione, release e changelog nello stesso flusso verificabile.
-- Aiuta team e agenti AI a capire subito scopo, confini e prossime mosse.
-- E pensato per crescere: semantic versioning, auto release e changelog automatico sono gia configurati.
-
-## Cosa promette
-
-Questo tema non e solo codice: e una vetrina operativa. Mostra dove intervenire, cosa leggere, come rilasciare e come mantenere alta la confidenza tecnica.
-
-## Release automation
-
-- Workflow: [Semantic Release](./.github/workflows/semantic-release.yml)
-- Config: [.releaserc.json](./.releaserc.json)
-- Changelog: [changelog.md](./changelog.md)
-
-
-## Documentazione tecnica
-
-- [Indice docs](./docs/README.md) — mappa knowledge base locale (wiki, audit, regole)
-
-## Documentazione essenziale
-
-- [Second brain locale](./docs/wiki/index.md)
-- [Audit ridondanza](./docs/code-redundancy-audit.md)
-- [Protocollo confidenza](./docs/agent-confidence-protocol.md)
-- [Disciplina agenti](./docs/agent-edit-discipline.md)
-- [00 Index](./docs/00-index.md)
-- [Conflict Resolution Summary](./docs/CONFLICT_RESOLUTION_SUMMARY.md)
-- [Accessor Delegation Pattern](./docs/accessor-delegation-pattern.md)
-- [Ai Development Guide](./docs/ai-development-guide.md)
-- [Ai Handoff](./docs/ai-handoff.md)
-- [Analisi Completa Tema](./docs/analisi-completa-tema.md)
-
-## Filosofia
-
-Scopo prima del codice. DRY prima dell'orgoglio. KISS prima dell'astrazione. La release automatica non sostituisce il giudizio: lo rende tracciabile.
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -132,27 +72,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 healthcare_app Fila3 Mono is a comprehensive Laravel-based modular application built on the Laraxot framework. This project implements a complete authorization system with policies for all models across all modules.
 
 ## Key Features
->>>>>>> .merge_file_Ydj0r5
 
 - **Modular Architecture**: Built using Laravel Modules for clean separation of concerns
 - **Comprehensive Authorization**: Complete policy system for all models
 - **Automatic Policy Registration**: Policies are automatically discovered and registered
 - **Multi-Tenant Support**: Full multi-tenancy with tenant-aware policies
 - **Filament Integration**: Modern admin panel with policy-aware interfaces
-<<<<<<< .merge_file_wqisaW
-
-## Documentazione
-
-| Lingua | Link |
-|--------|------|
-| 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
-
----
-
-**Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-=======
 - **Type Safety**: PHPStan Level 10 compliance for maximum code quality
 
 ## Module Structure
@@ -313,4 +238,3 @@ For support and questions, please refer to the project documentation or contact 
 *Last updated: January 2025*
 # base_healthcare_app_fila5_mono
 # base_healthcare_app_fila5_mono
->>>>>>> .merge_file_Ydj0r5
