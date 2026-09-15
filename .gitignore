@@ -176,3 +176,4 @@ tests/AuditCoverage/
 phpinsights.php
 rector.php
 docs/graphify/graphify-out/
+.opencode
