@@ -143,7 +143,6 @@ laravel/.phpstorm.meta.php
 laravel/_ide_helper.php
 laravel/_ide_helper_models.php
 
-# -----------------------------------------------------------------------------
 # PHP / static analysis / quality tools
 # -----------------------------------------------------------------------------
 
@@ -157,43 +156,31 @@ rector.php
 
 docs/screenshots/
 .cursor
-.devcontainer
 .vscode
 .windsurf
-laravel/public
-laravel/resources/lang/vendor/
-vendor/
-public_html/css/
-public_html/js/
-public_html/vendor/
 public_html/vendor/*
-laravel/bootstrap/cache/*
 laravel/stubs
-laravel/resources/views/vendor/
-.git-rewrite/
-*:Zone.Identifier
-.env
-laravel/database/migrations/
 logs
-laravel/
 public_html/
-.env.docker
-.env.latest
-node_modules/
 # PHPStan output files
-.cursor/
-.vscode/
-.windsurf/
 tests/AuditCoverage
 # AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
 
 # Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
-.devcontainer/
 extras
-tests/AuditCoverage/
 
 # Laraxot — quality tool configs forbidden in module/theme root (use laravel/phpinsights.php, laravel/rector.php)
-phpinsights.php
-rector.php
 docs/graphify/graphify-out/
 .opencode
+
+# Laraxot — forbidden at module/theme root (rector.php, phpinsights.php, .cursor, .windsurf, .vscode)
+/rector.php
+/phpinsights.php
+/.cursor
+/.cursor/
+/.windsurf
+/.windsurf/
+/.vscode
+/.vscode/
+.cursor~*
+.windsurf~*
