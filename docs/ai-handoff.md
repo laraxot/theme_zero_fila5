@@ -28,8 +28,12 @@ related:
 ## dove scambiarci le informazioni
 
 - questo file (`Themes/Zero/docs/ai-handoff.md`) contiene handoff cross-agente lato tema
+- **coordinamento lavoro prodotto/moduli:** BMAD stories sotto `Modules/*/docs/bmad/` +
+  `docs/sprint-status.yaml` + `bashscripts/lock/` — **non** `docs/chat/`
 - per lo stato tecnico e regole dettagliate, vedere:
   - `../../Modules/Xot/docs/ai-handoff.md`
+  - pack Rating attivo: `../../Modules/Rating/docs/bmad/README.md`
+  - pack filtri schede: `../../Modules/Ptv/docs/bmad/architecture/scheda-lista-filtri-layout.md`
 
 ## cosa va scritto prima di lavorare
 
