@@ -44,7 +44,11 @@
     @livewireStyles
     @filamentStyles
     @vite(['resources/css/app.css', 'resources/js/app.js'],'themes/Zero')
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> laraxot/dev
     <!-- Custom Styles -->
     @stack('styles')
 </head>
@@ -121,6 +125,7 @@
     <!-- Scripts -->
     @filamentScripts(withCore: true)
     @stack('scripts')
+<<<<<<< HEAD
     
     <!-- Alpine.js -->
     <!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
@@ -129,3 +134,13 @@
     @stack('custom-scripts')
 </body>
 </html> 
+=======
+
+    <!-- Alpine.js -->
+    <!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
+
+    <!-- Custom Scripts -->
+    @stack('custom-scripts')
+</body>
+</html>
+>>>>>>> laraxot/dev
