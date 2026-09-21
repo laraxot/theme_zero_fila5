@@ -22,6 +22,8 @@ CHANGELOG.md export-ignore
 *.webp binary !filter
 *.ico binary !filter
 *.svg binary !filter
+*.mp4 binary !filter
+*.psd binary !filter
 *.pdf binary !filter
 *.zip binary !filter
 *.woff binary !filter
@@ -29,8 +31,6 @@ CHANGELOG.md export-ignore
 *.ttf binary !filter
 *.eot binary !filter
 *.otf binary !filter
-*.mp4 binary !filter
-*.psd binary !filter
 *.phar binary !filter
 *.db binary !filter
 *.sqlite binary !filter
