@@ -1,18 +1,18 @@
 <!--
-  DUPLICATO TEMPORANEO — non è la fonte di verità.
-  Origine reale: laravel/Modules/Notify/resources/mail-layouts/base/default.html
-  (modulo Notify, non incluso nella select finché getMailHtmlLayoutPath() legge
-  solo il tema attivo).
+  Duplicato intenzionale, confermato dal team — non e' debito da rimuovere.
+  Origine: laravel/Modules/Notify/resources/mail-layouts/base/default.html
+  (identico contenuto). getMailHtmlLayoutPath() legge solo la cartella del
+  tema attivo, mai quella del modulo Notify — vedi story per il contesto
+  completo:
 
-  Deciso di duplicare qui, in attesa di risposta del team su:
-  - Discussion: laraxot/base_quaeris_fila5#206
-  - Issue:      laraxot/module_notify_fila5#75
+  laravel/Modules/Notify/docs/stories/notify-mail-layout-shared-with-theme.story.md
+  Issue:      laraxot/module_notify_fila5#75 (chiusa)
+  Discussion: laraxot/base_quaeris_fila5#206 (chiusa)
 
-  Se il team conferma l'opzione "ricerca su piu' cartelle" (opzione 3
-  nell'issue/discussion sopra), QUESTO FILE VA RIMOSSO e la select tornerà a
-  leggere direttamente Modules/Notify/resources/mail-layouts/base/default.html
-  senza copie. Fino ad allora, ogni modifica al layout "pulito" va replicata
-  manualmente in ENTRAMBI i file.
+  Decisione (2026-09-22): trattandosi di un file HTML statico (nessuna
+  logica), la duplicazione e' stata giudicata accettabile — niente ricerca
+  multi-cartella da implementare. Se in futuro questo layout cambia,
+  aggiornare ENTRAMBE le copie (qui e in Notify).
 -->
 <!DOCTYPE html>
 <html>
