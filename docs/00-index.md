@@ -61,22 +61,9 @@ related:
 
 ### Related Resources
 
-- [Cms Module](../../../Modules/Cms/docs/README.md)
-- [UI Module](../../../Modules/UI/docs/README.md)
+- [UI Module](../../../Modules/UI/docs/README.md) - Shared UI components
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../../Modules/UI/docs/README.md)
-- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../../Modules/UI/docs/README.md)
-- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../../Modules/UI/docs/README.md)
-- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../../Modules/UI/docs/README.md)
-- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
-- [agents.md](../../../agents.md) - Project guidelines
+- [AGENTS.md](../../../AGENTS.md) - Project guidelines
 
 ---
 
