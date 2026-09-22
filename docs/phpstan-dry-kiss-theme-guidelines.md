@@ -148,11 +148,7 @@ Anche se i temi sono principalmente presentation layer, alcune parti contengono 
 **Fix** ✅:
 ```php
 // In Folio page or controller
-<<<<<<< HEAD
-use Modules\User\Models\User;
-=======
 use Modules\Xot\Contracts\UserContract;
->>>>>>> laraxot/dev
 
 render(fn (User $user) => view('pub_theme::pages.users.show', [
     'user' => $user,
@@ -182,11 +178,7 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 ```php
 <?php
 
-<<<<<<< HEAD
-use Modules\User\Models\User;
-=======
 use Modules\Xot\Contracts\UserContract;
->>>>>>> laraxot/dev
 use Illuminate\Database\Eloquent\Collection;
 use function Laravel\Folio\{name, render};
 
@@ -473,11 +465,7 @@ Themes/Zero/
 <?php
 // resources/views/pages/dashboard.blade.php
 
-<<<<<<< HEAD
-use Modules\User\Models\User;
-=======
 use Modules\Xot\Contracts\UserContract;
->>>>>>> laraxot/dev
 use Modules\Analytics\Services\StatsService;
 use function Laravel\Folio\{name, render};
 
