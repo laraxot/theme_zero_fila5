@@ -71,14 +71,18 @@ viene servito.
 Va deciso quale delle due fonti è quella giusta — non dedotto: se il tema attivo deve essere
 One, va cambiata la config; se è Zero, va corretto `epics.md` e vanno ricollocate le story.
 
-### 2. Igiene della root, due violazioni misurabili
+### 2. Igiene della root: una violazione risolta, una resta aperta
 
 ```
-_theme_zero.code-workspace   +   _zero.code-workspace      <- due, il pilastro ne vuole uno
-CONFLICT_RESOLUTION_SUMMARY.md + conflict-resolution-summary.md
+_theme_zero.code-workspace                                  <- unico (dedup 2026-09-22, commit 5371092f)
+CONFLICT_RESOLUTION_SUMMARY.md + conflict-resolution-summary.md  <- ancora due
 ```
 
-La seconda coppia è una **collisione di case nella root**: su un filesystem
+Il doppio `.code-workspace` (`_theme_zero.code-workspace` + `_zero.code-workspace`, il
+pilastro ne vuole uno) è stato deduplicato il 2026-09-22 (commit
+`5371092f973b3afb38ef98783f2f0f50e9459f59`): in root resta solo `_theme_zero.code-workspace`.
+
+La seconda coppia resta una **collisione di case nella root**: su un filesystem
 case-insensitive i due file sono lo stesso file. È la regola
 `case_sensitive_naming_critical`, e in root è più grave che in `docs/` perché la root è
 ciò che si clona.
