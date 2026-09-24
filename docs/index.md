@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Indice della Documentazione - Tema Zero
 
 > **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
@@ -363,7 +362,6 @@ related:
 - [wiki/sources/context-compression-and-retrieval](./wiki/sources/context-compression-and-retrieval.md)
 - [wiki/sources/laravel13-theme-zero-composer-audit](./wiki/sources/laravel13-theme-zero-composer-audit.md)
 - [wiki/sources/theme-zero-product-and-roadmap-docs](./wiki/sources/theme-zero-product-and-roadmap-docs.md)
-=======
 ---
 title: "Zero Theme — Documentation Index"
 type: index
