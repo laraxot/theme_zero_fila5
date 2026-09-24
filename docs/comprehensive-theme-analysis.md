@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Analisi Completa Tema Zero - Tema Minimalista Laravel"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Analisi Completa Tema Zero - Tema Minimalista Laravel
 
 ## 🎯 Panoramica Generale
@@ -656,11 +653,8 @@ describe('Accessibility Tests', () => {
 
 ### Examples
 
-<<<<<<< HEAD
 ```
 
-=======
->>>>>>> laraxot/dev
 ```blade
 <!-- Basic usage -->
 <x-button>Click me</x-button>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Sistema responsive e grid"
 type: guide
@@ -12,8 +11,6 @@ related:
   - "./component-library.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Sistema responsive e grid
 
 ## Obiettivo

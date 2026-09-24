@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Product Roadmap - Zero Theme"
 type: rule
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Product Roadmap - Zero Theme
 
 ## 🎯 Vision & Strategy

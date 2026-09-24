@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "🎨 DRY & KISS Analysis - Theme Zero"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # 🎨 DRY & KISS Analysis - Theme Zero
 
 **Data Analisi:** 2025-12-02
