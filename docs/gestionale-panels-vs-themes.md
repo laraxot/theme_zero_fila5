@@ -22,6 +22,9 @@ related:
 # Panels SRC vs Themes Zero
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 > **Nota 2026-09-17**: contenuto verosimilmente cross-org (issue/discussion citati sono su
 > `laraxot/base_workorder_fila5`, non su questo repo). In questo checkout (`base_restaurant_fila5`)
 > il tema `Sixteen` citato sotto non esiste (`Themes/` contiene solo `Meetup`, `Trattoria`,
@@ -30,6 +33,9 @@ related:
 > e `../../docs/gestionale-docs-index.md` non risolvono in questo repo. Contenuto originale
 > conservato sotto senza modifiche per non perdere lo storico.
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 > Zero è tema alternativo/sperimentale. La BL gestionale resta nei moduli; enable = [matrice](../../docs/gc-modules-runtime-matrix.md).
