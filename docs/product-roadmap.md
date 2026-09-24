@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Product Roadmap - Theme Zero"
 type: guide
@@ -7,7 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product roadmap - theme zero"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
@@ -875,8 +873,6 @@ related:
 | Theme Team Lead | Product Owner | Roadmap prioritization |
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
-=======
->>>>>>> laraxot/dev
 # Zero - Product Roadmap
 
 > Documento vivente. Tema.

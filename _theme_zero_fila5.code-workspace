@@ -8,12 +8,6 @@
 		"better-phpunit.phpunitBinary": "phpunit",
 		"editor.formatOnSave": true,
 		"editor.parameterHints.enabled": false,
-		"better-phpunit.phpunitBinary": "phpunit",
-		"editor.formatOnSave": true,
-		"editor.parameterHints.enabled": false,
-		"better-phpunit.phpunitBinary": "phpunit",
-		"editor.formatOnSave": true,
-		"editor.parameterHints.enabled": false,
 		"php-cs-fixer.onsave": true,
 		"php-cs-fixer.formatHtml": true,
 		"php-cs-fixer.config": ".php-cs-fixer.php",
@@ -23,7 +17,7 @@
 		"vscode-php-cs-fixer.allowRisky": true,
 		"phpmd.enabled": false,
 		"phpmd.validate.rulesets": "cleancode,codesize,controversial,design,naming,unusedcode",
-		"phpmd.SuppressWarnings":true,
+		"phpmd.SuppressWarnings": true,
 		"phpmd.verbose": false,
 		"php-cs-fixer.allowRisky": true,
 		"phpformatter.composer": true,
@@ -37,17 +31,16 @@
 		"vscode-php-cs-fixer.useCache": true,
 		"editor.wordWrapColumn": 120,
 		"files.eol": "\n",
+		"files.exclude": {
+			"**/.git": false
+		},
 		"git.autofetch": true,
 		"git.ignoreLimitWarning": true,
 		"deepscan.enable": true
-
 	},
 	"extensions": {
 		"recommendations": [
 			"junstyle.php-cs-fixer"
 		]
-	},
-	"files.exclude": {
-		"**/.git": false
-   }
+	}
 }

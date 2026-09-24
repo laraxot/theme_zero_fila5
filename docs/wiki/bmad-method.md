@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "BMAD Method v6.3 operativo nel progetto"
 type: guide
@@ -9,13 +8,10 @@ qmd: "bmad method v63 operativo nel progetto"
 related:
   - "./schema.md"
 
-  - "./SCHEMA.md"
   - "./bmad-method.md"
   - "./log.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # BMAD Method v6.3 operativo nel progetto
 
 ## Regola pratica

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Libreria componenti e integrazione UI"
 type: guide
@@ -12,8 +11,6 @@ related:
   - "./component-library.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Libreria componenti e integrazione UI
 
 ## Obiettivo

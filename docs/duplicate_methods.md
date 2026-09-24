@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "duplicate-methods (deprecated)"
 type: reference
@@ -13,8 +12,6 @@ qmd: "deprecated renamed duplicate-methods.md"
 
 > This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
 > Do not add dates or underscores in filenames.
-=======
->>>>>>> laraxot/dev
 # Metodi duplicati — Zero
 
 Analisi sintetica dei metodi PHP con lo stesso nome all’interno di questo ambito.
@@ -36,12 +33,9 @@ Analisi sintetica dei metodi PHP con lo stesso nome all’interno di questo ambi
 - Per i metodi di tipo accessor/mutator, la duplicazione è spesso legata a pattern Eloquent ricorrenti.
 
 > Documento generato il 2026-06-15 da Claude Code.
-<<<<<<< HEAD
 
 > This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
 > Do not add dates or underscores in filenames.
 
 > This file has been renamed to [duplicate-methods.md](duplicate-methods.md).
 > Do not add dates or underscores in filenames.
-=======
->>>>>>> laraxot/dev

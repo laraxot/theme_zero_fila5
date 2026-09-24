@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Accessibilita e standard cross-browser"
 type: rule
@@ -12,8 +11,6 @@ related:
   - "./component-library.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Accessibilita e standard cross-browser
 
 ## Obiettivo

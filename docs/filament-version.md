@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Filament Version Declaration — Zero"
 type: guide
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament version declaration zero"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Filament Version Declaration — Zero
 
 **Current Version**: Filament v5 (Livewire v4 + Schemas)

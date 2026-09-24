@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "PHPStan Level 10 Compliance - Theme System"
 type: guide
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 compliance - theme system"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # PHPStan Level 10 Compliance - Theme System
 
 ## 📋 Riepilogo Intervento
@@ -253,7 +249,6 @@ $merged = array_merge($this->data ?? [], $data);
 ## 🔍 Verifiche Automatiche
 
 ```bash
-<<<<<<< HEAD
 # Gate canonico (Modules include i match agli ignoreErrors del neon)
 cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
@@ -261,8 +256,6 @@ cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 # Themes da solo → meta-errore "Ignored error pattern … was not matched"
 # Canon: docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md
-=======
->>>>>>> laraxot/dev
 # PHPStan Level 10 completo
 ./vendor/bin/phpstan analyse Themes/ --memory-limit=-1
 
@@ -275,7 +268,6 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 
 ## 📚 Riferimenti Incrociati
 
-<<<<<<< HEAD
 - **Stale ignore / Themes alone**: `docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md`
 - **Xot Module**: `Modules/Xot/docs/wiki/concepts/xotbasemodel-get-class-name.md`
 - **User Module**: `Modules/User/docs/`
@@ -288,8 +280,6 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 - **Xot Module**: `Modules/Xot/docs/phpstan-level10-xot-fixes.md`
 - **healthcare_app Module**: `Modules/healthcare_app/docs/phpstan-level10-healthcare_app-fixes.md`
 - **User Module**: `Modules/User/docs/phpstan-level10-user-fixes.md`
-=======
->>>>>>> laraxot/dev
 - **Xot Module**: `Modules/Xot/docs/phpstan-level10-xot-fixes.md`
 - **healthcare_app Module**: `Modules/healthcare_app/docs/phpstan-level10-healthcare_app-fixes.md`
 - **User Module**: `Modules/User/docs/phpstan-level10-user-fixes.md`
@@ -308,8 +298,4 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 - **Documentazione**: ✅ Completa e aggiornata
 - **Compliance**: ✅ 100% con standard del progetto
 
-<<<<<<< HEAD
 **Status**: ✅ **COMPLETATO** - Theme system PHPStan Level 10 compliant.
-=======
-**Status**: ✅ **COMPLETATO** - Theme system PHPStan Level 10 compliant.
->>>>>>> laraxot/dev

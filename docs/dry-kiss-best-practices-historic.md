@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "DRY & KISS Best Practices - Tema Zero"
 type: how-to
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "dry kiss best practices - tema zero"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # DRY & KISS Best Practices - Tema Zero
 
 **Data:** 15 Ottobre 2025  

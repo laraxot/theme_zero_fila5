@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Theme Documentation Standard"
 type: rule
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme documentation standard"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Theme Documentation Standard
 
 Standard per la documentazione dei temi nell'architettura Laraxot.
@@ -260,8 +256,4 @@ Vedi [customization.md](./customization.md) per la guida completa.
 ---
 
 **Standard Version**: 1.0
-<<<<<<< HEAD
 **Ultimo Aggiornamento**: 2025-11-11
-=======
-**Ultimo Aggiornamento**: 2025-11-11
->>>>>>> laraxot/dev
