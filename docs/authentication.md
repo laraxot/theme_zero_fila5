@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Autenticazione - Tema Zero"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Autenticazione - Tema Zero
 
 ## Panoramica
@@ -338,8 +335,4 @@ RateLimiter::attempt(
 - [Documentazione Laravel Authentication](https://laravel.com/docs/authentication)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
 - [Laws of UX](https://lawsofux.com/)
-<<<<<<< HEAD
 - [Material Design Guidelines](https://material.io/design) 
-=======
-- [Material Design Guidelines](https://material.io/design) 
->>>>>>> laraxot/dev

@@ -50,8 +50,4 @@
 	"files.exclude": {
 		"**/.git": false
    }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> laraxot/dev
