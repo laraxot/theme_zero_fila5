@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "🧘 Accessor Delegation Pattern - Zero Theme"
 type: pattern
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # 🧘 Accessor Delegation Pattern - Zero Theme
 
 > **Pattern per accessor nel Zero Theme**
