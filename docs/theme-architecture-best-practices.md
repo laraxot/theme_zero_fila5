@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Theme Architecture and Best Practices"
 type: pattern
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Theme Architecture and Best Practices
 
 ## Overview
@@ -143,8 +140,4 @@ if (is_object($data) && isset($data->TABLE_SCHEMA)) {
 - Proper caching strategies
 - Efficient template rendering
 
-<<<<<<< HEAD
 This documentation serves as a reference for maintaining and extending the theme architecture while preserving the modular application's integrity and type safety.
-=======
-This documentation serves as a reference for maintaining and extending the theme architecture while preserving the modular application's integrity and type safety.
->>>>>>> laraxot/dev

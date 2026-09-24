@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "product-roadmap (deprecated)"
 type: reference
@@ -10,8 +9,6 @@ qmd: "deprecated renamed product-roadmap.md"
 
 > This file has been renamed to [product-roadmap.md](product-roadmap.md).
 > Do not add dates or underscores in filenames.
-=======
->>>>>>> laraxot/dev
 # Product Roadmap - Theme Zero
 
 ## Ultra-Minimalist Theme
@@ -442,10 +439,7 @@ qmd: "deprecated renamed product-roadmap.md"
 | Theme Team Lead | Product Owner | Roadmap prioritization |
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
-<<<<<<< HEAD
 ---
 
 > This file has been renamed to [product-roadmap.md](product-roadmap.md).
 > Do not add dates or underscores in filenames.
-=======
->>>>>>> laraxot/dev

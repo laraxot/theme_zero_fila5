@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "🎨 CHART.JS EXPORT INTEGRATION - TEMA ZERO"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # 🎨 CHART.JS EXPORT INTEGRATION - TEMA ZERO
 
 ## 📋 INDICE
@@ -1386,8 +1383,4 @@ if (mix.inProduction()) {
 
 *Integrazione Tema Zero Chart.js Export - Laraxot Theme System*  
 *Creato: 2025-11-17*  
-<<<<<<< HEAD
 *Autore: AI Assistant con tema production-ready*
-=======
-*Autore: AI Assistant con tema production-ready*
->>>>>>> laraxot/dev
