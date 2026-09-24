@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Ponytail Docs Lifecycle"
 type: concept
@@ -12,8 +11,6 @@ related:
   - "./method-name-homonyms.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Ponytail Docs Lifecycle
 
 Theme docs should stay smaller than module docs.

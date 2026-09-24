@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Tema Zero - Mail Layouts"
 type: guide
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "tema zero - mail layouts"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Tema Zero - Mail Layouts
 
 ## Panoramica
@@ -233,11 +229,8 @@ Il sistema implementa una strategia di fallback a cascata:
 
 - [Mail Layouts Theme Integration](../../../Modules/Notify/docs/mail-layouts-theme-integration.md)
 - [Spatie Database Mail Templates](../../../Modules/Notify/docs/spatie-database-mail-templates-deep-dive.md)
-<<<<<<< HEAD
 - [Email Best Practices](../../../Modules/Notify/docs/email-html-best-practices.md)
 
-=======
->>>>>>> laraxot/dev
 - [Email Best Practices](../../../Modules/Notify/docs/email_html_best_practices.md)
 
 ### Repository di Riferimento

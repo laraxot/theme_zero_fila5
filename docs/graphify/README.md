@@ -1,6 +1,49 @@
+---
+title: "Graphify Knowledge Graph"
+type: index
+tags: [theme, zero, readme]
+created: 2026-08-03
+updated: 2026-09-02
+qmd: "zero theme graphify knowledge graph"
+---
 # Graphify Knowledge Graph
 
+[![Module](https://img.shields.io/badge/Module-Graphify Knowledge Graph-8B0000.svg)]()
+[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
+[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://php.net/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://phpstan.org/)
+[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue?style=for-the-badge)](https://www.php-fig.org/psr/psr-12/)](https://www.php-fig.org/psr/psr-12/)
+[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=for-the-badge)](https://martinfowler.com/articles/paradigm-shifts.html)]()
+]()
+
+> **Core module for the FixCity Platform.**
+
+## Perché esiste
+
+Core module for the FixCity Platform.
+
+## Superpoteri
+
+- Modular component with XotBase patterns
+- Professional-grade implementation
+- Integrated with FixCity Platform
+
+## Documentazione
+
+| Lingua | Link |
+|--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+
+---
+
+**Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 ## Overview
+
+> `graphify-out/` è output generato (`graphify extract`), ignorato da `.gitignore`
+> del tema e non versionato dal 2 settembre 2026 (story 5.77). Si rigenera, non si committa.
 
 This directory contains the knowledge graph for the **Zero** theme, generated using [Graphify](https://graphify.dev/). The graph provides a comprehensive visualization of code dependencies, architecture, and relationships within the theme.
 

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Zero Theme - Documentation Index"
 type: concept
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme - documentation index"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Zero Theme - Documentation Index
 
 **Last Update**: 2026-03-28
@@ -41,11 +37,8 @@ related:
 ### Product & Planning
 - [product-requirements.md](./product-requirements.md) - PRD
 - [roadmap.md](./roadmap.md) - Theme roadmap
-<<<<<<< HEAD
 - [changelog.md](./changelog.md) - Version history
 
-=======
->>>>>>> laraxot/dev
 - [CHANGELOG.md](./CHANGELOG.md) - Version history
 
 ### Stack Reference
@@ -60,10 +53,7 @@ related:
 | Volt | latest | Livewire functional/class components |
 
 ### Anti-Patterns
-<<<<<<< HEAD
 - QuestionChartAnswersTripleChartWidget — why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
-=======
->>>>>>> laraxot/dev
 - **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
 
 ### Theme Characteristics
@@ -73,20 +63,13 @@ related:
 
 ### Related Resources
 
-<<<<<<< HEAD
 - [UI Module](../../../Modules/UI/docs/README.md) - Shared UI components
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
-=======
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../Modules/UI/docs/README.md)
-- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
->>>>>>> laraxot/dev
 - [AGENTS.md](../../../AGENTS.md) - Project guidelines
 
 ---
 
 *Theme documentation conforming to Laraxot standards*
-<<<<<<< HEAD
 
 ---
 
@@ -138,12 +121,15 @@ Zero theme documentation follows the standard theme structure with focus on:
 
 ## Related Modules
 
-- [UI Module](../../Modules/UI/docs/00-index.md) - Shared UI components
-- [Xot Module](../../Modules/Xot/docs/00-index.md) - Core utilities
+- [UI Module](../../../Modules/UI/docs/00-index.md) - Shared UI components
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Core utilities
 
 ## Asset Publication
 
-Theme assets are published to: `public_html/themes/Zero/`
+Theme assets are published to: `public_html/themes/Zero/` (document root repo — **non** `laravel/public/`).
+
+`public_path()` in Laravel punta a `public_html/` via `App\Application::publicPath()`.
+Regola: [Xot wiki — public-path-public-html](../../../Modules/Xot/docs/wiki/rules/public-path-public-html.md).
 
 Refer to the main theme documentation for build and deployment procedures.
 # 📚 Zero Theme - Documentation Index
@@ -182,11 +168,9 @@ Refer to the main theme documentation for build and deployment procedures.
 ## 🔗 Riferimenti
 
 - [Predict Module](../../Modules/Predict/docs/00-index.md) - Main module
-- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
 - [agents.md](../../../agents.md) - Project guidelines
 
 ---
 
 **Ultimo Aggiornamento**: 2026-03-24
-=======
->>>>>>> laraxot/dev

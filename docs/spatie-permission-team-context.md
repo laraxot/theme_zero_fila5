@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Spatie Permission Team Context"
 type: guide
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "spatie permission team context"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Spatie Permission Team Context
 
 ## Theme Boundary
