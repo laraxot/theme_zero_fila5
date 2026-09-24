@@ -1,5 +1,8 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 title: "Wiki Index (bridge stub)"
 module: "Zero"
 status: deprecated
@@ -15,6 +18,7 @@ Rules/Skills entry points this file was missing (and a correct relative link to 
 [Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)).
 
 Go to [index.md](./index.md) instead of reading further here.
+<<<<<<< HEAD
 =======
 title: "Wiki Index"
 module: "Zero"
@@ -47,4 +51,6 @@ _No comparisons synthesized yet._
 **Last Updated:** 2026-04-15T08:28:52Z  
 **Total Pages:** 0  
 **Total Raw Sources:** 0
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
