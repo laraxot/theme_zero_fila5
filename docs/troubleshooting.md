@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Zero Theme Troubleshooting Guide"
 type: how-to
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Zero Theme Troubleshooting Guide
 
 ## Advanced Charting Libraries
@@ -160,4 +163,8 @@ Common issues and solutions:
 - **JpGraph not found**: Verify installation and autoloader configuration
 - **Memory issues**: Optimize chart dimensions and implement Redis caching
 - **Chart generation failures**: Check file permissions and directory creation
+<<<<<<< HEAD
 - **PDF embedding issues**: Verify chart image paths and HTML generation
+=======
+- **PDF embedding issues**: Verify chart image paths and HTML generation
+>>>>>>> laraxot/dev

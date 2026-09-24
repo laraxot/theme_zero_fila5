@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "User Research - Theme Zero"
 type: guide
@@ -460,10 +461,13 @@ This document presents user research findings for Theme Zero, the ultra-minimali
 
 **Acknowledgments**
 Thank you to all 22 research participants and 9 pre-alpha testers.
+=======
+>>>>>>> laraxot/dev
 # User Research: Zero Theme
 
 ## 🔬 Research Goals
 Identify user needs for Zero functionality.
+<<<<<<< HEAD
 
 # User Research - Theme Zero
 
@@ -915,3 +919,5 @@ This document presents user research findings for Theme Zero, the ultra-minimali
 
 **Acknowledgments**
 Thank you to all 22 research participants and 9 pre-alpha testers.
+=======
+>>>>>>> laraxot/dev
