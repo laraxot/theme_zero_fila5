@@ -12,18 +12,6 @@ related:
 
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
-**URL**: `http://forecast.local/it/forecasts/f1-world-champion-2026`  
-# 🏎️ F1 World Champion 2026 - Theme Zero Integration
-
-**URL**: `http://forecast.local/it/forecasts/f1-world-champion-2026`  
-# 🏎️ F1 World Champion 2026 - Theme Zero Integration
-
-**URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
-# 🏎️ F1 World Champion 2026 - Theme Zero Integration
-
-**URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
-# 🏎️ F1 World Champion 2026 - Theme Zero Integration
-
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
 **Tema**: Zero  
 **Data**: 2026-03-25
