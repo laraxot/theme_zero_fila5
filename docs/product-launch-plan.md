@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Product Launch Plan - Theme Zero"
 type: guide
@@ -977,8 +976,6 @@ This document outlines the launch plan for Theme Zero v1.0, marking the transiti
 | Product Owner | | |
 | Marketing Lead | | |
 | Tech Lead | | |
-=======
->>>>>>> laraxot/dev
 # Zero - Product Launch Plan
 
 > Piano di lancio. Tema.

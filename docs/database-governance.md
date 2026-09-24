@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Documentation"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 ## migrazioni allineate con laraxot
 
 - ogni tabella del dominio utente deve essere creata/manutenuta da **una sola** migration per modulo  

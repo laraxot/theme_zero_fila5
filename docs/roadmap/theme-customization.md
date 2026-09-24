@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Personalizzazione tema e varianti"
 type: guide
@@ -12,8 +11,6 @@ related:
   - "./component-library.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Personalizzazione tema e varianti
 
 ## Obiettivo

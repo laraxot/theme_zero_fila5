@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Chart UI/UX Enhancements with Background Styling and Positioning"
 type: concept
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Chart UI/UX Enhancements with Background Styling and Positioning
 
 ## Overview
@@ -109,8 +106,4 @@ For displaying rating information (e.g., average rating 0-10 and voter count), a
 ## DRY + KISS Principles
 - **DRY**: Background styling configuration is standardized and reusable
 - **KISS**: Simple configuration parameters for consistent results
-<<<<<<< HEAD
 - **Maintainable**: Easy to update styling across all charts by modifying parameters
-=======
-- **Maintainable**: Easy to update styling across all charts by modifying parameters
->>>>>>> laraxot/dev
