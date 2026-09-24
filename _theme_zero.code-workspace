@@ -40,7 +40,7 @@
 		"git.autofetch": true,
 		"git.ignoreLimitWarning": true,
 		"deepscan.enable": true
-	
+
 	},
 	"extensions": {
 		"recommendations": [
@@ -50,8 +50,4 @@
 	"files.exclude": {
 		"**/.git": false
    }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> laraxot/dev

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Theme Architecture and Best Practices"
 type: pattern
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme architecture and best practices"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Theme Architecture and Best Practices
 
 ## Overview
@@ -143,8 +139,4 @@ if (is_object($data) && isset($data->TABLE_SCHEMA)) {
 - Proper caching strategies
 - Efficient template rendering
 
-<<<<<<< HEAD
 This documentation serves as a reference for maintaining and extending the theme architecture while preserving the modular application's integrity and type safety.
-=======
-This documentation serves as a reference for maintaining and extending the theme architecture while preserving the modular application's integrity and type safety.
->>>>>>> laraxot/dev

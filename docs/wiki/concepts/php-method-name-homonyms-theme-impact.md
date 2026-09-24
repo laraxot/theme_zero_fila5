@@ -7,23 +7,17 @@ created: 2026-06-15
 updated: 2026-06-15
 related:
   - ../../../One/docs/wiki/concepts/php-method-name-homonyms-theme-impact.md
-<<<<<<< HEAD
   - ../../../../../docs/wiki/analysis/method-name-homonym-census.md
   - ../../../../../../docs/wiki/analysis/method-name-homonym-census.md
   - ../../../../../docs/wiki/analysis/method-name-homonym-census.md
-=======
->>>>>>> laraxot/dev
   - ../../../../../../docs/wiki/analysis/method-name-homonym-census.md
 ---
 
 # Omonimi metodi PHP — Theme Zero
 
-Stesso contratto di [Theme One — impatto temi](../../../One/docs/wiki/concepts/php-method-name-homonyms-theme-impact.md).
+Stesso contratto di [Theme One — impatto temi](../../../../One/docs/wiki/concepts/php-method-name-homonyms-theme-impact.md).
 
-<<<<<<< HEAD
 Censimento canon: [method-name-homonym-census](../../../../../docs/wiki/analysis/method-name-homonym-census.md).
 Censimento canon: [method-name-homonym-census](../../../../../../docs/wiki/analysis/method-name-homonym-census.md).
 Censimento canon: [method-name-homonym-census](../../../../../docs/wiki/analysis/method-name-homonym-census.md).
-=======
->>>>>>> laraxot/dev
 Censimento canon: [method-name-homonym-census](../../../../../../docs/wiki/analysis/method-name-homonym-census.md).
