@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "AI Methodologies Handbook"
 type: how-to
@@ -10,12 +11,15 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # AI Methodologies Handbook
 
 This file is a DRY local index for AI workflows in this module or theme.
 
 ## Canonical Sources
 
+<<<<<<< HEAD
 - [OpenViking Integration Guide](../../../docs/openviking-integration.md)
 - [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
 - [OpenViking Integration Guide](../../../docs/openviking-integration.md)
@@ -26,6 +30,8 @@ This file is a DRY local index for AI workflows in this module or theme.
 - [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
 - [OpenViking Integration Guide](../../../docs/openviking-integration.md)
 - [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
+=======
+>>>>>>> laraxot/dev
 - [OpenViking Integration Guide](../../../../docs/openviking-integration.md)
 - [AI Methodologies Integration](../../../../docs/project/ai-methodologies-integration.md)
 - [Root Docs Index](../../../../docs/index.md)

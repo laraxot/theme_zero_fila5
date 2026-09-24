@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Troubleshooting Calcolo Quota Performance"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Troubleshooting Calcolo Quota Performance
 
 ## Problema: Discrepanza Quota Distribuita
@@ -105,9 +108,12 @@ Prima di ogni calcolo quota, verificare:
 ## Documentazione Tecnica
 
 Per approfondimenti:
+<<<<<<< HEAD
 - [Discrepanza Calcolo Quota (modulo Performance)](../../../laravel/Modules/Performance/docs/discrepanza-calcolo-quota.md)
 - [Discrepanza Calcolo Quota (modulo Performance)](../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
 - [Discrepanza Calcolo Quota (modulo Performance)](../../../laravel/Modules/Performance/docs/discrepanza-calcolo-quota.md)
+=======
+>>>>>>> laraxot/dev
 - [Discrepanza Calcolo Quota (modulo Performance)](../../Modules/Performance/docs/discrepanza-calcolo-quota.md)
 - [Performance Actions Reference](./performance-actions-reference.md)
 
