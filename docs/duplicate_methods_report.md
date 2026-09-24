@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "duplicate-methods-report (deprecated)"
 type: reference
@@ -12,6 +13,8 @@ qmd: "deprecated renamed duplicate-methods-report.md"
 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
 > Do not add dates or underscores in filenames.
+=======
+>>>>>>> laraxot/dev
 # Report: Metodi con nome duplicato nei moduli e nei temi
 
 ## Introduzione
@@ -89,6 +92,7 @@ Di seguito la classifica dei metodi più frequenti (solo quelli con più di una 
 
 ## Allegati
 - `docs/duplicate_methods_report.md` (questo file)
+<<<<<<< HEAD
 - Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
@@ -97,3 +101,6 @@ Di seguito la classifica dei metodi più frequenti (solo quelli con più di una 
 > This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
 > Do not add dates or underscores in filenames.
 - Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
+=======
+- Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
+>>>>>>> laraxot/dev

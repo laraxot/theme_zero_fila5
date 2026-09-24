@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Conflict Resolution — Theme Zero"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Conflict Resolution — Theme Zero
 
 ## Summary
@@ -18,7 +21,10 @@ related:
 - **Root cause**: Nested stash-on-merge conflicts
 
 ## Backlinks
+<<<<<<< HEAD
 - [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
 - [Root conflict resolution report](../../../docs/conflict-resolution-report.md)
+=======
+>>>>>>> laraxot/dev
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_0nR2Qx
 ---
 title: "🏎️ F1 World Champion 2026 - Theme Zero Integration"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./f1-world-champion-theme-analysis.md"
 ---
 
+=======
+>>>>>>> .merge_file_mKsfK5
 # 🏎️ F1 World Champion 2026 - Theme Zero Integration
 
 **URL**: `http://predict.local/it/predicts/f1-world-champion-2026`  
