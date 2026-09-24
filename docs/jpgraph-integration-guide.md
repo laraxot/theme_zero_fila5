@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "JpGraph Integration Guide - Zero Theme"
 type: how-to
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # JpGraph Integration Guide - Zero Theme
 
 ---
@@ -443,24 +440,18 @@ class MakePdf2Action
 
 ### Module Documentation
 
-<<<<<<< HEAD
 - [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
 - [LimeSurvey Charts PDF Integration](./limesurvey-charts-pdf-integration.md) - Integrazione completa LimeSurvey charts nei PDF
 - [PDF Generation with Charts](../../../laravel/Modules/healthcare_app/docs/pdf-generation-with-charts.md) - Workflow completo generazione PDF
-=======
->>>>>>> laraxot/dev
 - [JpGraph Class Reference Complete](../../Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
 - [LimeSurvey Charts PDF Integration](./limesurvey-charts-pdf-integration.md) - Integrazione completa LimeSurvey charts nei PDF
 - [PDF Generation with Charts](../../Modules/healthcare_app/docs/pdf-generation-with-charts.md) - Workflow completo generazione PDF
-<<<<<<< HEAD
 - [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
 - [LimeSurvey Charts PDF Integration](./limesurvey-charts-pdf-integration.md) - Integrazione completa LimeSurvey charts nei PDF
 - [PDF Generation with Charts](../../../laravel/Modules/healthcare_app/docs/pdf-generation-with-charts.md) - Workflow completo generazione PDF
-=======
->>>>>>> laraxot/dev
 
 ### Official JpGraph Resources
 
