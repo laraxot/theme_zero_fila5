@@ -1,3 +1,8 @@
+<?php
+
+declare(strict_types=1);
+
+?>
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-full">
 <head>
@@ -44,7 +49,7 @@
     @livewireStyles
     @filamentStyles
     @vite(['resources/css/app.css', 'resources/js/app.js'],'themes/Zero')
-    
+
     <!-- Custom Styles -->
     @stack('styles')
 </head>
@@ -121,11 +126,11 @@
     <!-- Scripts -->
     @filamentScripts(withCore: true)
     @stack('scripts')
-    
+
     <!-- Alpine.js -->
     <!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
-    
+
     <!-- Custom Scripts -->
     @stack('custom-scripts')
 </body>
-</html> 
+</html>
