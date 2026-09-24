@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Product Strategy: Zero Theme"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Product Strategy: Zero Theme
 
 ## 🌍 Market Context

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Configurazione .env.development - Ambiente di Sviluppo"
 type: rule
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Configurazione .env.development - Ambiente di Sviluppo
 
 ## Panoramica

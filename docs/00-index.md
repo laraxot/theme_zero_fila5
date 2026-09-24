@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Zero Theme - Documentation Index"
 type: concept
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Zero Theme - Documentation Index
 
 **Last Update**: 2026-03-28
@@ -41,11 +38,8 @@ related:
 ### Product & Planning
 - [product-requirements.md](./product-requirements.md) - PRD
 - [roadmap.md](./roadmap.md) - Theme roadmap
-<<<<<<< HEAD
 - [changelog.md](./changelog.md) - Version history
 
-=======
->>>>>>> laraxot/dev
 - [CHANGELOG.md](./CHANGELOG.md) - Version history
 
 ### Stack Reference
@@ -60,10 +54,7 @@ related:
 | Volt | latest | Livewire functional/class components |
 
 ### Anti-Patterns
-<<<<<<< HEAD
 - QuestionChartAnswersTripleChartWidget — why multi-chart widgets should be avoided (link removed 2026-07-24: target doc not found in repo, could not verify)
-=======
->>>>>>> laraxot/dev
 - **[QuestionChartAnswersTripleChartWidget](../../Modules/docs/anti-pattern-question-chart-answers-triple-widget.md)** - Why multi-chart widgets should be avoided
 
 ### Theme Characteristics
@@ -73,20 +64,13 @@ related:
 
 ### Related Resources
 
-<<<<<<< HEAD
 - [UI Module](../../../Modules/UI/docs/README.md) - Shared UI components
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
-=======
-- [Cms Module](../../Modules/Cms/docs/README.md)
-- [UI Module](../../Modules/UI/docs/README.md)
-- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
->>>>>>> laraxot/dev
 - [AGENTS.md](../../../AGENTS.md) - Project guidelines
 
 ---
 
 *Theme documentation conforming to Laraxot standards*
-<<<<<<< HEAD
 
 ---
 
@@ -188,5 +172,3 @@ Refer to the main theme documentation for build and deployment procedures.
 ---
 
 **Ultimo Aggiornamento**: 2026-03-24
-=======
->>>>>>> laraxot/dev

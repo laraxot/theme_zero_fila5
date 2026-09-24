@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Product Strategy - Theme Zero"
 type: guide
@@ -1202,8 +1201,6 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-03-12 | Theme Team | Initial strategy for pre-alpha theme |
-=======
->>>>>>> laraxot/dev
 # Zero - Product Strategy
 
 > Strategia prodotto. Tema.

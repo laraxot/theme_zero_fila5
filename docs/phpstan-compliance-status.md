@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "PHPStan Level 10 Compliance Status"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # PHPStan Level 10 Compliance Status
 
 **Last Updated**: 2025-12-10  
@@ -66,8 +63,4 @@ To maintain theme quality:
 - [Component Guidelines](components.md)
 - [Layout System](layouts.md)
 - [Authentication Views](authentication.md)
-<<<<<<< HEAD
 - [Customization Guide](customization.md)
-=======
-- [Customization Guide](customization.md)
->>>>>>> laraxot/dev
