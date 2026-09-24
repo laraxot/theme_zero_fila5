@@ -1,15 +1,3 @@
----
-title: "Zero Theme - Filosofia Completa"
-type: guide
-tags: ['laravel', 'charts', 'pdf', 'permission']
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "zero theme - filosofia completa"
-related:
-  - "./00-INDEX.md"
-  - "./00-index.md"
----
-
 # Zero Theme - Filosofia Completa
 
 **Data Creazione**: 2025-01-18  
@@ -20,8 +8,6 @@ related:
 
 ## Panoramica
 
-Il tema **Zero** è il tema baseline di healthcare_app, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
-Il tema **Zero** è il tema baseline di ModuloEsempio, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
 Il tema **Zero** è il tema baseline di healthcare_app, implementando la filosofia "Vestito" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business rimanga completamente nei moduli.
 
 ## Filosofia "Vestito"
@@ -141,8 +127,6 @@ Themes forniscono strutture layout:
 <html>
 <head>
     <meta charset="utf-8">
-    <title>@yield('title', 'healthcare_app')</title>
-    <title>@yield('title', 'ModuloEsempio')</title>
     <title>@yield('title', 'healthcare_app')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -382,8 +366,6 @@ Il pattern "Vestito" incarna diversi valori core:
 ## Integrazione con Moduli
 
 ### healthcare_app Module
-### ModuloEsempio Module
-### healthcare_app Module
 
 Zero theme fornisce presentazione per:
 - SurveyPdf resources
@@ -412,7 +394,5 @@ Zero theme è il tema baseline che implementa perfettamente la filosofia "Vestit
 **Filosofia**: Zero theme è come un vestito elegante e minimale - copre l'applicazione senza cambiare la sua essenza.
 
 **Ultimo Aggiornamento**: 2025-01-18  
-**Versione**: 1.0.0
-
 **Versione**: 1.0.0
 
