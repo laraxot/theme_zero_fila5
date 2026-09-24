@@ -22,4 +22,14 @@ qmd search "Zero theme skill filament" --limit 5
 
 ---
 
+<<<<<<< .merge_file_92xTu2
 **Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+=======
+<<<<<<< .merge_file_01t3A2
+**Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+**Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+**Upstream:** [Root Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+=======
+**Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+>>>>>>> .merge_file_hR5PHa
+>>>>>>> .merge_file_zr26MP
