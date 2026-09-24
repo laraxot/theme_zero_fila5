@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Chart.js Datalabels Plugin Integration in Zero Theme"
 type: how-to
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Chart.js Datalabels Plugin Integration in Zero Theme
 
 ## Overview
@@ -624,8 +621,4 @@ describe('Theme Chart Integration', () => {
 4. **Flexibility**: Provide configuration options while maintaining theme defaults
 5. **Maintainability**: Keep theme-specific code separate from module-specific code
 6. **Compatibility**: Ensure the theme works with all chart types and datalabels configurations
-<<<<<<< HEAD
 7. **Documentation**: Provide clear documentation for developers using the theme
-=======
-7. **Documentation**: Provide clear documentation for developers using the theme
->>>>>>> laraxot/dev

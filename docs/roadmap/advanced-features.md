@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Funzionalita avanzate (dark mode, export)"
 type: guide
@@ -12,8 +11,6 @@ related:
   - "./component-library.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Funzionalita avanzate (dark mode, export)
 
 ## Obiettivo

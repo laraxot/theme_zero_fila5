@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Layout del Tema Zero"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Layout del Tema Zero
 
 ## Panoramica
@@ -261,8 +258,4 @@ php artisan config:cache
 - [Documentazione Blade](https://laravel.com/docs/blade)
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
 - [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/)
-<<<<<<< HEAD
 - [Best Practices SEO](https://developers.google.com/search/docs) 
-=======
-- [Best Practices SEO](https://developers.google.com/search/docs) 
->>>>>>> laraxot/dev
