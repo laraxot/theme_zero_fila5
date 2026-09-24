@@ -4,11 +4,17 @@ type: guide
 tags: ['theme', 'duplicate-methods']
 created: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 updated: 2026-09-17
 qmd: "metodi duplicati zero"
 related:
   - "./index.md"
   - "./duplicate-methods-report.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 updated: 2026-07-14
@@ -19,11 +25,17 @@ related:
   - "./00-INDEX.md"
   - "./00-index.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 updated: 2026-09-17
 qmd: "metodi duplicati zero"
 related:
   - "./index.md"
   - "./duplicate-methods-report.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---
@@ -31,6 +43,9 @@ related:
 # Metodi duplicati — Zero
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 Analisi sintetica dei metodi PHP con lo stesso nome all'interno di questo tema.
 
 > **Nota 2026-09-17**: questo file consolida `duplicate_methods.md`, `metodi-duplicati-analisi.md`,
@@ -43,6 +58,9 @@ Analisi sintetica dei metodi PHP con lo stesso nome all'interno di questo tema.
 - Metodi duplicati trovati (alla data 2026-06-15): **1**
 
 ## Metodi duplicati (stato storico 2026-06-15)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 Analisi sintetica dei metodi PHP con lo stesso nome all’interno di questo ambito.
@@ -52,6 +70,9 @@ Analisi sintetica dei metodi PHP con lo stesso nome all’interno di questo ambi
 
 ## Metodi duplicati
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 Analisi sintetica dei metodi PHP con lo stesso nome all'interno di questo tema.
 
 > **Nota 2026-09-17**: questo file consolida `duplicate_methods.md`, `metodi-duplicati-analisi.md`,
@@ -64,6 +85,9 @@ Analisi sintetica dei metodi PHP con lo stesso nome all'interno di questo tema.
 - Metodi duplicati trovati (alla data 2026-06-15): **1**
 
 ## Metodi duplicati (stato storico 2026-06-15)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -72,6 +96,9 @@ Analisi sintetica dei metodi PHP con lo stesso nome all'interno di questo tema.
 | `curl_postfields_flatten` | 3 | candidato a trait/helper |
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 > **Verificato 2026-09-17**: la directory `laravel/Themes/Zero/extras/` che conteneva i 3 file con
 > `curl_postfields_flatten` **non esiste più** nel codebase attuale (confermato con `grep -r
 > curl_postfields_flatten` su tutto il repo: zero risultati). Il finding è quindi **risolto/superato
@@ -79,6 +106,9 @@ Analisi sintetica dei metodi PHP con lo stesso nome all'interno di questo tema.
 > altri metodi duplicati specifici del tema Zero al momento di questa verifica; per un quadro
 > aggiornato rieseguire lo script di analisi citato in `duplicate-methods-report.md`.
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ## Riflessioni
@@ -86,10 +116,16 @@ Analisi sintetica dei metodi PHP con lo stesso nome all'interno di questo tema.
 - I duplicati con nomi generici (`__construct`, `up`, `down`, `definition`) sono spesso inevitabili, ma vanno monitorati.
 - Quando un metodo compare in più classi con firme simili, conviene valutare un trait o una classe base condivisa.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - Se il metodo ha firme diverse, meglio evitare l'ereditarietà implicita e preferire un service/helper dedicato.
 - Per i metodi di tipo accessor/mutator, la duplicazione è spesso legata a pattern Eloquent ricorrenti.
 
 > Documento generato il 2026-06-15 da Claude Code; verificato e aggiornato il 2026-09-17 (docs-improvement pass, E-DOCS-20.Zero).
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - Se il metodo ha firme diverse, meglio evitare l’ereditarietà implicita e preferire un service/helper dedicato.
@@ -97,9 +133,15 @@ Analisi sintetica dei metodi PHP con lo stesso nome all'interno di questo tema.
 
 > Documento generato il 2026-06-15 da Claude Code.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - Se il metodo ha firme diverse, meglio evitare l'ereditarietà implicita e preferire un service/helper dedicato.
 - Per i metodi di tipo accessor/mutator, la duplicazione è spesso legata a pattern Eloquent ricorrenti.
 
 > Documento generato il 2026-06-15 da Claude Code; verificato e aggiornato il 2026-09-17 (docs-improvement pass, E-DOCS-20.Zero).
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

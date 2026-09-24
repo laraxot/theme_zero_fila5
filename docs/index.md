@@ -2,6 +2,9 @@
 title: "Zero Theme — Documentation Index"
 type: index
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 status: superseded
 canonical: ./00-index.md
 ---
@@ -14,6 +17,7 @@ Questo file era un indice storico duplicato (648 righe, marker di conflitto mai
 risolti tra due varianti in italiano). La nota nella versione HEAD lo dichiarava
 già ridondante rispetto a `00-index.md` (canonico). Consolidato qui come
 puntatore per non rompere i link esistenti.
+<<<<<<< HEAD
 =======
 tags: [documentation, index, theme, zero]
 updated: 2026-09-03
@@ -293,4 +297,6 @@ Restano raggiungibili ai path indicati.
 - [filament-5-nested-resources.md](./filament-5-nested-resources.md) — superseded by [filament-5-nested-resources-complete-guide.md](./filament-5-nested-resources-complete-guide.md)
 
 Nota: nessun file .md e' stato cancellato, rinominato o spostato per produrre questo indice.
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
