@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -104,18 +105,47 @@ docs/workbench
 scripts
 test-results
 tests/.claude-audit
+=======
+*.log
+*.phar
+*.lock
+
+>>>>>>> laraxot/dev
 uploads
 limesurvey
 vendor
 build
+<<<<<<< HEAD
 /cache
 .git-rewrite
 _ide_helper_models.php
+=======
+package-lock.json
+error_log
+
+*.gz
+*.cache
+/cache
+.git-rewrite
+
+_ide_helper_models.php
+*.old
+*.bak
+*.backup
+
+>>>>>>> laraxot/dev
 public_html/vendor
 public_html/js
 public_html/css
 public_html/storage
+<<<<<<< HEAD
 public_html/chart
+=======
+public_html/error_log
+public_html/chart
+
+laravel/*.lock
+>>>>>>> laraxot/dev
 laravel/lang/vendor/
 laravel/database/migrations
 laravel/resources/views/vendor
@@ -124,6 +154,7 @@ laravel/package-lock.json
 laravel/error_log
 laravel/.phpstorm.meta.php
 laravel/_ide_helper.php
+<<<<<<< HEAD
 laravel/_ide_helper_models.php
 
 # -----------------------------------------------------------------------------
@@ -142,24 +173,55 @@ docs/screenshots/
 .windsurf
 laravel/public
 laravel/resources/lang/vendor/
+=======
+laravel/error_log
+laravel/public
+laravel/resources/lang/vendor/
+laravel/composer.lock
+
+
+
+>>>>>>> laraxot/dev
 vendor/
 public_html/css/
 public_html/js/
 public_html/vendor/
 public_html/vendor/*
 laravel/bootstrap/cache/*
+<<<<<<< HEAD
 laravel/stubs
 laravel/resources/views/vendor/
 .git-rewrite/
+=======
+public_html/vendor/
+public_html/js/
+laravel/stubs
+laravel/resources/lang/vendor/
+laravel/resources/views/vendor/
+public_html/vendor/
+.git-rewrite/
+public_html/css
+public_html/js
+vendor
+public_html/css/
+public_html/js/
+public_html/js/
+public_html/css/
+>>>>>>> laraxot/dev
 *:Zone.Identifier
 .env
 laravel/database/migrations/
 logs
+<<<<<<< HEAD
+=======
+bashscripts/
+>>>>>>> laraxot/dev
 laravel/
 public_html/
 .env.docker
 .env.latest
 node_modules/
+<<<<<<< HEAD
 # PHPStan output files
 .cursor/
 .vscode/
@@ -189,3 +251,17 @@ docs/graphify/graphify-out/
 /.vscode/
 .cursor~*
 .windsurf~*
+=======
+
+# PHPStan output files
+phpstan*.json
+_docs/
+.cursor/
+.vscode/
+.windsurf/
+.devcontainer/
+.cursor/
+.devcontainer/
+.vscode/
+.windsurf/
+>>>>>>> laraxot/dev
