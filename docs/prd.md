@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "PRD: Zero Theme"
 type: guide
@@ -23,6 +24,8 @@ Specialized logic for Zero needs a dedicated, type-safe Theme to ensure maintain
 ## 🎯 Goals & Success Metrics
 - **Goal 1:** 100% PHPStan L10 compliance.
 - **Goal 2:** Seamless integration with XotBase.
+=======
+>>>>>>> laraxot/dev
 # PRD: Zero Theme
 
 ## 📋 Executive Summary
@@ -52,6 +55,7 @@ Theme Zero is the lightweight, performance-first foundation theme for the PTVX s
 ## ✅ Release Criteria
 - Performance: 100/100 Lighthouse score on Desktop/Mobile.
 - Zero accessibility violations in automated checks.
+<<<<<<< HEAD
 
 ---
 
@@ -151,3 +155,5 @@ The Zero theme provides a consistent, maintainable frontend experience using Bla
 - All components render correctly
 - Theme switching functional
 - Documentation complete
+=======
+>>>>>>> laraxot/dev

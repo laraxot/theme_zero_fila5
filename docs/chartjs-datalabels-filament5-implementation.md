@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero"
 type: concept
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero
 
 ## Overview
@@ -81,9 +84,12 @@ Il tema supporta l'implementazione avanzata con **due labels centrate** per ogni
 
 ## Asset Registration
 
+<<<<<<< HEAD
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
+=======
+>>>>>>> laraxot/dev
 I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
 
 ## Best Practices per lo Sviluppo
@@ -98,7 +104,11 @@ I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart
 - [Chart.js Documentation](https://www.chartjs.org/docs/latest/)
 - [Filament 5.x Charts](https://filamentphp.com/docs/5.x/widgets/charts)
 - [chartjs-plugin-datalabels](https://chartjs-plugin-datalabels.netlify.app/)
+<<<<<<< HEAD
 - [Multiple Labels Complete Guide](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [Multiple Labels Complete Guide](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [Multiple Labels Complete Guide](../../../../laravel/Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [Multiple Labels Complete Guide](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
+=======
+- [Multiple Labels Complete Guide](../../../Modules/Chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
+>>>>>>> laraxot/dev
