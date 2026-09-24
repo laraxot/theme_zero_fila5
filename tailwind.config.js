@@ -89,7 +89,7 @@ export default {
                 },
             },
             fontFamily: {
-                sans: ['Nunito', 'sans-serif'],
+                sans: ['Figtree', 'sans-serif'],
             },
         },
     },
