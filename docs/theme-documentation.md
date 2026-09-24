@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Zero Theme Documentation"
 type: concept
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Zero Theme Documentation
 
 ## Overview
@@ -507,4 +510,8 @@ console.log('Theme initialized', window.ZeroTheme);
 
 - [Laraxot Theme Development Guide](../../../docs/theme-development.md)
 - [Blade Components Documentation](../../../docs/blade-components.md)
+<<<<<<< HEAD
 - [Asset Management Guide](../../../docs/asset-management.md)
+=======
+- [Asset Management Guide](../../../docs/asset-management.md)
+>>>>>>> laraxot/dev
