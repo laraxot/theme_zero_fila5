@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ⚪ Zero
 
 [![Stars](https://img.shields.io/github/stars/laraxot/theme_zero_fila5?style=plastic&color=yellow)]()
@@ -63,7 +62,6 @@ Attiva il tema e il gioco è fatto.
 ---
 
 **Tema** `Zero` · **Laraxot** · PHPStan 10 · Filament 5
-=======
 # Zero: il tema che trasforma complessita in vantaggio operativo
 
 Zero theme for Laraxot PTVX: frontend theme with Tailwind, Vite, Flowbite and Alpine.js integration.
@@ -119,4 +117,3 @@ Misure e cinque mosse concrete: [`docs/scopo.md`](./docs/scopo.md).
 ## Filosofia
 
 Scopo prima del codice. DRY prima dell'orgoglio. KISS prima dell'astrazione. La release automatica non sostituisce il giudizio: lo rende tracciabile.
->>>>>>> laraxot/dev
