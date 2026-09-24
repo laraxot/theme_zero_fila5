@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Esempi di Utilizzo - Tema Zero"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Esempi di Utilizzo - Tema Zero
 
 ## Panoramica
@@ -534,4 +537,8 @@ Questa sezione fornisce esempi pratici di come utilizzare il Tema Zero in divers
 - [Documentazione Blade](https://laravel.com/docs/blade)
 - [Documentazione Tailwind CSS](https://tailwindcss.com/docs)
 - [Guida Accessibilità](https://www.w3.org/WAI/WCAG21/quickref/)
+<<<<<<< HEAD
 - [Best Practices SEO](https://developers.google.com/search/docs) 
+=======
+- [Best Practices SEO](https://developers.google.com/search/docs) 
+>>>>>>> laraxot/dev

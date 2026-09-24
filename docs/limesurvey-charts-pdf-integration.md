@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "LimeSurvey Charts PDF Integration - Zero Theme"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # LimeSurvey Charts PDF Integration - Zero Theme
 
 **Created:** January 2026
@@ -627,6 +630,7 @@ Themes/Zero/
 ## Related Documentation
 
 ### Primary Guides
+<<<<<<< HEAD
 - [Guida Completa LimeSurvey Chart Widget](../../../laravel/Modules/healthcare_app/docs/limesurvey-chart-widget-complete-guide.md) - ⭐ **PRINCIPALE**
 - [JpGraph Deep Dive and Alternatives](../../Modules/Chart/docs/jpgraph-deep-dive-and-alternatives.md) - ⭐ **NUOVO** - Analisi approfondita JpGraph 4.4.3, alternative, confronto, e best practices
 
@@ -636,6 +640,8 @@ Themes/Zero/
 - [PDF Charts Integration Complete](../../../laravel/Modules/Chart/docs/pdf-charts-limesurvey-integration-complete.md)
 - [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
+=======
+>>>>>>> laraxot/dev
 - [Guida Completa LimeSurvey Chart Widget](../../Modules/healthcare_app/docs/limesurvey-chart-widget-complete-guide.md) - ⭐ **PRINCIPALE**
 - [JpGraph Deep Dive and Alternatives](../../Modules/Chart/docs/jpgraph-deep-dive-and-alternatives.md) - ⭐ **NUOVO** - Analisi approfondita JpGraph 4.4.3, alternative, confronto, e best practices
 
@@ -645,6 +651,7 @@ Themes/Zero/
 - [PDF Charts Integration Complete](../../Modules/Chart/docs/pdf-charts-limesurvey-integration-complete.md)
 - [JpGraph Class Reference Complete](../../Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
+<<<<<<< HEAD
 - [Guida Completa LimeSurvey Chart Widget](../../../laravel/Modules/healthcare_app/docs/limesurvey-chart-widget-complete-guide.md) - ⭐ **PRINCIPALE**
 - [JpGraph Deep Dive and Alternatives](../../Modules/Chart/docs/jpgraph-deep-dive-and-alternatives.md) - ⭐ **NUOVO** - Analisi approfondita JpGraph 4.4.3, alternative, confronto, e best practices
 
@@ -654,6 +661,8 @@ Themes/Zero/
 - [PDF Charts Integration Complete](../../../laravel/Modules/Chart/docs/pdf-charts-limesurvey-integration-complete.md)
 - [JpGraph Class Reference Complete](../../../laravel/Modules/Chart/docs/jpgraph-class-reference-complete.md) - ⭐ **NUOVO** - Guida completa Class Reference basata su documentazione ufficiale
 - [JpGraph Complete Guide](../../../laravel/Modules/Chart/docs/jpgraph-complete-guide.md) - Guida completa JpGraph con esempi pratici
+=======
+>>>>>>> laraxot/dev
 
 ### Official JpGraph Resources
 - [JpGraph Official Site](https://jpgraph.net/) - Sito ufficiale
