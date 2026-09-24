@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Integrazione JpGraph e Chart.js nel Tema Zero"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Integrazione JpGraph e Chart.js nel Tema Zero
 
 ## Panoramica

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Product Requirements Document (PRD)"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Product Requirements Document (PRD)
 
 ## Metadata
