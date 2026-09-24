@@ -26,25 +26,6 @@ license: project-internal
 
 # Zero — perché esiste
 
-> **Correzione verificata 2026-09-17, non applicabile a questo repo (`base_restaurant_fila5`)**:
-> questo file descrive un altro checkout dell'ecosistema Laraxot (issue/discussion linkati sotto
-> puntano a `provtv/theme_zero_fila5` e `provtv/base_ptv_fila5`, non a questo repo). Verificato
-> contro il codice reale qui:
-> - `Themes/One` e `Themes/Three`, citati sotto come temi gemelli, **non esistono** in questo repo
->   (`Themes/` contiene `Meetup`, `Trattoria`, `TwentyOne`, `Zero`).
-> - Non esiste una chiave `xra.pub_theme`/`xra.adm_theme` a livello globale in `config/`; il
->   default in `laravel/config/xot.php` è `'pub_theme' => 'TwentyOne'`. Per-host, però,
->   `config/local/restaurant/xra.php` (host di produzione, `APP_URL=restaurant.local`) imposta
->   davvero `pub_theme: Zero` — quindi la conclusione di fondo del file ("Zero è il tema servito
->   in produzione") **è verificata anche qui**, solo con nomi di host diversi da quelli citati
->   sotto (`tv/prov/*`, `ptvx*`, che non esistono in questo repo).
-> - `docs/epics.md` non esiste alla root del repo.
-> - Il conteggio blade/css/js sotto (22 blade, 9 css/js) non corrisponde a questo checkout: qui
->   sono 23 file `.blade.php` e 4 file fra `resources/css` e `resources/js`.
->
-> Contenuto originale conservato sotto senza modifiche (nessuna cancellazione), per non perdere
-> lo storico — ma va letto come descrizione di un altro progetto, non di `base_restaurant_fila5`.
-
 ## Lo scopo in una frase
 
 **Zero è il tema che l'applicazione sta effettivamente servendo**: `xra.pub_theme` e

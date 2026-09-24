@@ -1,4 +1,4 @@
-<x-layouts.auth>
+<x-layouts.main>
     <x-slot name="title">
         {{ __('Accedi') }} - {{ config('app.name', 'Laravel') }}
     </x-slot>
@@ -7,53 +7,58 @@
         {{ __('Accedi al tuo account per accedere alle funzionalità riservate.') }}
     </x-slot>
 
-    <div class="w-full max-w-5xl" data-auth-card>
-        <div class="grid overflow-hidden rounded-[2rem] border border-primary-100/80 bg-white/80 shadow-2xl shadow-primary-950/10 backdrop-blur-xl lg:grid-cols-[1.05fr_0.95fr]">
-            <section class="auth-hero relative hidden min-h-[38rem] flex-col justify-between overflow-hidden bg-primary-950 p-10 text-white lg:flex xl:p-14" aria-labelledby="auth-hero-title">
-                <div class="auth-hero__glow auth-hero__glow--one" aria-hidden="true"></div>
-                <div class="auth-hero__glow auth-hero__glow--two" aria-hidden="true"></div>
-                <div class="relative z-10" data-auth-hero-item>
-                    <span class="mb-8 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-500 text-white shadow-lg shadow-black/20">
-                        <x-heroicon-o-building-storefront class="h-6 w-6" aria-hidden="true" />
-                    </span>
-                    <p class="mb-4 text-xs font-semibold uppercase tracking-[0.24em] text-primary-300">{{ __('La tua sala, sempre con te') }}</p>
-                    <h1 id="auth-hero-title" class="max-w-md font-serif text-4xl font-semibold leading-tight tracking-tight xl:text-5xl">
-                        {{ __('Accedi e porta avanti il servizio con serenità.') }}
-                    </h1>
-                    <p class="mt-6 max-w-md text-base leading-7 text-primary-100/80">
-                        {{ __('Ordini, prenotazioni e operazioni quotidiane in un unico spazio pensato per il tuo ristorante.') }}
-                    </p>
-                </div>
-                <ul class="relative z-10 mt-12 space-y-4 text-sm text-primary-100/90" data-auth-hero-item>
-                    <li class="flex items-center gap-3"><x-heroicon-o-check-circle class="h-5 w-5 text-primary-300" aria-hidden="true" />{{ __('Un accesso sicuro e veloce') }}</li>
-                    <li class="flex items-center gap-3"><x-heroicon-o-check-circle class="h-5 w-5 text-primary-300" aria-hidden="true" />{{ __('Una visione chiara del lavoro di squadra') }}</li>
-                    <li class="flex items-center gap-3"><x-heroicon-o-check-circle class="h-5 w-5 text-primary-300" aria-hidden="true" />{{ __('Supporto per ogni turno e ogni sede') }}</li>
-                </ul>
-                <div class="relative z-10 mt-10 flex items-center gap-3 border-t border-white/15 pt-5 text-xs text-primary-100/70" data-auth-hero-item>
-                    <span class="h-2 w-2 rounded-full bg-emerald-300 shadow-[0_0_0_4px_rgba(110,231,183,0.12)]" aria-hidden="true"></span>
-                    {{ __('Il tuo spazio operativo è pronto') }}
-                </div>
-            </section>
+    <!-- Skip to main content for accessibility -->
+    <a href="#login-widget" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-indigo-600 text-white px-4 py-2 rounded-md z-50">
+        {{ __('Vai al form di login') }}
+    </a>
 
-            <section class="p-6 sm:p-10 xl:p-14" aria-labelledby="login-widget-title">
-                <div class="mb-8 lg:hidden" data-auth-card-item>
-                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary-700">{{ __('Area riservata') }}</p>
-                    <h1 class="mt-2 font-serif text-3xl font-semibold tracking-tight text-primary-950">{{ __('Bentornato.') }}</h1>
+    <!-- Login Container -->
+    <div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-md w-full space-y-8">
+            <!-- Logo and Header -->
+            <div class="text-center">
+                <div class="mx-auto h-12 w-12 bg-indigo-600 rounded-lg flex items-center justify-center mb-4">
+                    <svg class="h-8 w-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
                 </div>
-                <div id="login-widget" data-auth-card-item>
-                    @livewire(\Modules\User\Filament\Widgets\Auth\LoginWidget::class)
-                </div>
-            </section>
+
+                <h1 class="text-3xl font-extrabold text-gray-900 mb-2">
+                    {{ __('Accedi al tuo account') }}
+                </h1>
+
+                <p class="text-sm text-gray-600">
+                    {{ __('Inserisci le tue credenziali per accedere') }}
+                </p>
+            </div>
+
+            <!-- Login Widget Container -->
+            <div id="login-widget" class="bg-white rounded-lg shadow-lg border border-gray-200 p-8">
+                @livewire(\Modules\User\Filament\Widgets\Auth\LoginWidget::class)
+            </div>
+
+            <!-- Registration Link -->
+            <div class="text-center">
+                <p class="text-sm text-gray-600">
+                    {{ __('Non hai un account?') }}
+                    <a
+                        href="{{ route('register') }}"
+                        class="font-medium text-blue-600 hover:text-blue-500 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+                    >
+                        {{ __('Registrati ora') }}
+                    </a>
+                </p>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="text-center space-y-2">
+                <p class="text-xs text-gray-500">
+                    {{ __('Continuando, accetti i nostri') }}
+                    <a href="{{-- route('terms') --}}" class="text-blue-600 hover:text-blue-500">{{ __('Termini di Servizio') }}</a>
+                    {{ __('e la nostra') }}
+                    <a href="{{-- route('privacy') --}}" class="text-blue-600 hover:text-blue-500">{{ __('Privacy Policy') }}</a>
+                </p>
+            </div>
         </div>
-
-        <p class="mt-6 text-center text-sm text-gray-600" data-auth-card-item>
-            {{ __('Non hai un account?') }}
-            <a
-                href="{{ route('register') }}"
-                class="font-medium text-primary-600 hover:text-primary-500 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 rounded"
-            >
-                {{ __('Registrati ora') }}
-            </a>
-        </p>
     </div>
-</x-layouts.auth>
+</x-layouts.main>
