@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "PHPStan — Theme Zero"
 type: guide
@@ -52,6 +53,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # PHPStan Configuration - Theme Zero
 
 ## Regola Fondamentale
@@ -98,5 +101,10 @@ cd ./laravel
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level10.md)
 - [Root phpstan.neon](../../../laravel/phpstan.neon)
+=======
+- [PHPStan Level 10 Guidelines](../../docs/phpstan-level10.md)
+- [Root phpstan.neon](../../laravel/phpstan.neon)
+>>>>>>> laraxot/dev
