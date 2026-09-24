@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "SimpleChartWidget - Analisi Qualità del Codice e Best Practices"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # SimpleChartWidget - Analisi Qualità del Codice e Best Practices
 
 ## Panoramica
@@ -779,22 +776,16 @@ protected function getData(): array
 ```bash
 # ✅ Zero errori dopo refactoring
 ./vendor/bin/phpstan analyse Modules/healthcare_app/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
-<<<<<<< HEAD
 ./vendor/bin/phpstan analyse Modules/ModuloEsempio/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
 ./vendor/bin/phpstan analyse Modules/healthcare_app/app/Filament/Widgets/SimpleChartWidget.php --memory-limit=-1 --level=10
-=======
->>>>>>> laraxot/dev
 ```
 
 ### Testing Coverage
 ```bash
 # ✅ 100% coverage per metodi principali
 ./vendor/bin/phpunit --coverage-html=coverage Modules/healthcare_app/tests/Unit/SimpleChartWidgetTest.php
-<<<<<<< HEAD
 ./vendor/bin/phpunit --coverage-html=coverage Modules/ModuloEsempio/tests/Unit/SimpleChartWidgetTest.php
 ./vendor/bin/phpunit --coverage-html=coverage Modules/healthcare_app/tests/Unit/SimpleChartWidgetTest.php
-=======
->>>>>>> laraxot/dev
 ```
 
 ### Performance Metrics
@@ -819,8 +810,4 @@ Il refactoring ha migliorato la qualità del codice da:
 - **Mancanza di testing** → **Coverage completo**
 - **Violazioni di principi** → **Conformità con best practices**
 
-<<<<<<< HEAD
 Questo approccio DRY+KISS permette di mantenere un codice di alta qualità, facile da testare e manutenere nel tempo.
-=======
-Questo approccio DRY+KISS permette di mantenere un codice di alta qualità, facile da testare e manutenere nel tempo.
->>>>>>> laraxot/dev
