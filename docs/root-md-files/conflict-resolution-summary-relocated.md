@@ -10,7 +10,7 @@ related:
   - "./conflict-resolution-summary.md"
 ---
 
-# Riepilogo Risoluzione Conflitti Git - Filament 5
+# Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅
 Risoluzione sistematica di tutti i conflitti Git presenti nel progetto per la migrazione a Filament 5.
