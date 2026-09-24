@@ -2,7 +2,10 @@
 title: second brain — puntatore modulo
 type: reference
 qmd: second brain modulo wiki locale laravel
+<<<<<<< HEAD
 updated: 2026-07-29
+=======
+>>>>>>> laraxot/dev
 updated: 2026-05-21
 ---
 
@@ -18,6 +21,7 @@ Stub **puntatore**: disciplina e link esterni curati stanno nella wiki di proget
 
 ## Link operativi (relativi al repo)
 
+<<<<<<< HEAD
 - Modello: [../../../../docs/wiki/concepts/second-brain-operating-model.md](../../../../docs/wiki/concepts/second-brain-operating-model.md)
 - Guida wiki modulo: [../../../../docs/wiki/how-to/module-wiki-documentation.md](../../../../docs/wiki/how-to/module-wiki-documentation.md)
 - Benchmark lettura esterna (Karpathy, Obsidian, PARA, …): [../../../../docs/wiki/sources/second-brain-external-benchmarks.md](../../../../docs/wiki/sources/second-brain-external-benchmarks.md)
@@ -32,6 +36,8 @@ Per sync multi-org del tema:
 3. verificare `git rev-list --left-right --count HEAD...<remote>/dev`;
 4. fare push solo quando il secondo numero e' `0`;
 5. se QMD non trova la collection locale, usare wiki file-based e annotare il degrado nel report.
+=======
+>>>>>>> laraxot/dev
 - Modello: [../../../../../docs/wiki/concepts/second-brain-operating-model.md](../../../../../docs/wiki/concepts/second-brain-operating-model.md)
 - Guida wiki modulo: [../../../../../docs/wiki/how-to/module-wiki-documentation.md](../../../../../docs/wiki/how-to/module-wiki-documentation.md)
 - Benchmark lettura esterna (Karpathy, Obsidian, PARA, …): [../../../../../docs/wiki/sources/second-brain-external-benchmarks.md](../../../../../docs/wiki/sources/second-brain-external-benchmarks.md)

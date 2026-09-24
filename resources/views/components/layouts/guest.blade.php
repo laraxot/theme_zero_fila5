@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> laraxot/dev
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-full">
 <head>
@@ -49,7 +52,11 @@ declare(strict_types=1);
     @livewireStyles
     @filamentStyles
     @vite(['resources/css/app.css', 'resources/js/app.js'],'themes/Zero')
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> laraxot/dev
     <!-- Custom Styles -->
     @stack('styles')
 </head>
@@ -126,6 +133,7 @@ declare(strict_types=1);
     <!-- Scripts -->
     @filamentScripts(withCore: true)
     @stack('scripts')
+<<<<<<< HEAD
 
     <!-- Alpine.js -->
     <!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
@@ -134,3 +142,13 @@ declare(strict_types=1);
     @stack('custom-scripts')
 </body>
 </html>
+=======
+    
+    <!-- Alpine.js -->
+    <!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
+    
+    <!-- Custom Scripts -->
+    @stack('custom-scripts')
+</body>
+</html> 
+>>>>>>> laraxot/dev
