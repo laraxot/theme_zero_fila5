@@ -17,8 +17,7 @@ instead of being removed. See [docs-archive-policy.md](./docs-archive-policy.md)
 - [README.md](./README.md) — theme overview (kept uppercase)
 - [readme-en.md](./readme-en.md) — English overview
 - [philosophy.md](./philosophy.md) — theme philosophy
-- [scopo.md](./scopo.md) — scope, boundaries and how to use the theme (partially cross-repo, see its 2026-09-17 correction note)
-- [purpose.md](./purpose.md) — was not linked from any index; largely describes a sibling checkout, see its 2026-09-17 correction note
+- [scopo.md](./scopo.md) — scope, boundaries and how to use the theme
 - [second-brain.md](./second-brain.md) — pointer to the module second-brain workflow
 - [docs-archive-policy.md](./docs-archive-policy.md) — archive/duplication policy for this docs tree
 - [docs-confidence-audit.md](./docs-confidence-audit.md) — docs confidence audit
@@ -136,9 +135,6 @@ instead of being removed. See [docs-archive-policy.md](./docs-archive-policy.md)
 
 ## Rules, boundaries and governance
 
-- [navigation-integration.md](./navigation-integration.md) — navigation contract: labels/groups come from
-  the owning module's `lang/`, never a `resource.navigation` fallback in the theme
-- [navigation-translations.md](./navigation-translations.md) — companion rule for navigation translations
 - [database-governance.md](./database-governance.md)
 - [composer-modules-not-themes.md](./composer-modules-not-themes.md)
 - [one-migration-themes-boundary.md](./one-migration-themes-boundary.md)
@@ -235,10 +231,10 @@ o indici superati, raggruppati qui per evitare di inquinare la navigazione princ
 Restano raggiungibili ai path indicati.
 
 ### Indici superati (sostituiti da questo index.md)
-- [00-index.md](./00-index.md) — convertito in bridge stub 2026-09-17
-- [00-INDEX.md](./00-INDEX.md) — convertito in bridge stub 2026-09-17
-- [INDEX.md](./INDEX.md) — convertito in bridge stub 2026-09-17
-- [index-consolidated.md](./index-consolidated.md) — convertito in bridge stub 2026-09-17
+- [00-index.md](./00-index.md)
+- [00-INDEX.md](./00-INDEX.md)
+- [INDEX.md](./INDEX.md)
+- [index-consolidated.md](./index-consolidated.md)
 - [wiki/commands/INDEX.md](./wiki/commands/INDEX.md) — uppercase duplicate of wiki/commands/index.md
 - [wiki/concepts/INDEX.md](./wiki/concepts/INDEX.md) — uppercase duplicate of wiki/concepts/index.md
 - [wiki/memories/INDEX.md](./wiki/memories/INDEX.md) — uppercase duplicate of wiki/memories/index.md
