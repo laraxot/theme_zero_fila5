@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Product Roadmap - Theme Zero"
 type: guide
@@ -874,6 +875,8 @@ related:
 | Theme Team Lead | Product Owner | Roadmap prioritization |
 | Developers | Delivery | Component implementation |
 | Community | Feedback & Plugins | Contributions |
+=======
+>>>>>>> laraxot/dev
 # Zero - Product Roadmap
 
 > Documento vivente. Tema.
