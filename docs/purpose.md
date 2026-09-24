@@ -27,6 +27,9 @@ license: project-internal
 # Zero — perché esiste
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 > **Correzione verificata 2026-09-17, non applicabile a questo repo (`base_restaurant_fila5`)**:
 > questo file descrive un altro checkout dell'ecosistema Laraxot (issue/discussion linkati sotto
 > puntano a `provtv/theme_zero_fila5` e `provtv/base_ptv_fila5`, non a questo repo). Verificato
@@ -46,6 +49,9 @@ license: project-internal
 > Contenuto originale conservato sotto senza modifiche (nessuna cancellazione), per non perdere
 > lo storico — ma va letto come descrizione di un altro progetto, non di `base_restaurant_fila5`.
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ## Lo scopo in una frase
@@ -102,6 +108,9 @@ CONFLICT_RESOLUTION_SUMMARY.md + conflict-resolution-summary.md
 
 La seconda coppia è una **collisione di case nella root**: su un filesystem
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ### 2. Igiene della root: una violazione risolta, una resta aperta
 
 ```
@@ -122,6 +131,9 @@ CONFLICT_RESOLUTION_SUMMARY.md + conflict-resolution-summary.md
 ```
 
 La seconda coppia è una **collisione di case nella root**: su un filesystem
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 case-insensitive i due file sono lo stesso file. È la regola
