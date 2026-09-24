@@ -1,21 +1,57 @@
 ---
 title: "Zero Theme Documentation Index"
 type: concept
-status: deprecated
 tags: ['laravel']
 created: 2026-07-14
-updated: 2026-09-17
+updated: 2026-07-14
 qmd: "zero theme documentation index"
 related:
-  - "./index.md"
+  - "./00-INDEX.md"
+  - "./00-index.md"
 ---
 
-# Zero Theme Documentation Index (bridge stub)
+# Zero Theme Documentation Index
 
-Superseded by [index.md](./index.md), the canonical topic-organized entry point for
-`Themes/Zero/docs/` (see its "Storico / da consolidare" section, which lists this file).
+> **Nota 2026-07-24**: file d'indice ridondante rispetto a [00-index.md](./00-index.md), che è il più recente
+> (2026-03-28) e allineato allo stack corrente (Filament 5, Livewire 4, Volt, Tailwind v4). Consultare
+> `00-index.md` come punto di ingresso primario; questo file resta come vista alternativa non aggiornata
+> nella stessa sessione.
 
-Kept as a bridge stub rather than deleted, per [docs-archive-policy.md](./docs-archive-policy.md):
-no file in this tree is removed or renamed, only superseded and pointed at its replacement.
+**Path**: `laravel/Themes/Zero/docs/`  
+**Last updated**: 2026-06-30
 
-Go to [index.md](./index.md) instead of reading further here.
+## Theme Overview
+
+Zero is a minimal theme variant providing core layout and styling structures without heavy customization.
+
+## Documentation Structure
+
+Zero theme documentation follows the standard theme structure with focus on:
+- Minimal, semantic HTML
+- Essential CSS for layout
+- Cross-browser compatibility
+- Progressive enhancement principles
+
+## Key References
+
+- [Theme Hub](../Barthelemy/docs/00-index.md) - Overview of all themes
+- [Sixteen Theme](../Sixteen/docs/00-index.md) - Primary theme (Design Comuni)
+
+- [Theme Hub](../Barthelemy/docs/00-INDEX.md) - Overview of all themes
+- [Sixteen Theme](../Sixteen/docs/00-INDEX.md) - Primary theme (Design Comuni)
+- [TwentyOne Theme](../TwentyOne/docs/00-INDEX.md) - Prediction market theme
+- [Directory Structure Rules](../Barthelemy/docs/directory-structure-rules.md) - Theme organization
+
+## Related Modules
+
+- [UI Module](../../Modules/UI/docs/00-index.md) - Shared UI components
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Core utilities
+
+- [UI Module](../../Modules/UI/docs/00-INDEX.md) - Shared UI components
+- [Xot Module](../../Modules/Xot/docs/00-INDEX.md) - Core utilities
+
+## Asset Publication
+
+Theme assets are published to: `public_html/themes/Zero/`
+
+Refer to the main theme documentation for build and deployment procedures.
