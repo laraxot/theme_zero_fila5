@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "📚 JpGraph Class Reference - Analisi Completta 2024"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # 📚 JpGraph Class Reference - Analisi Completta 2024
 
 ## 🎯 **Introduzione alla Documentazione JpGraph**
@@ -427,8 +430,11 @@ $graph->Stroke();
 - **FAQ**: https://jpgraph.net/doc/faq.html
 
 ## 🔄 **Integrazione con healthcare_app**
+<<<<<<< HEAD
 ## 🔄 **Integrazione con ModuloEsempio**
 ## 🔄 **Integrazione con healthcare_app**
+=======
+>>>>>>> laraxot/dev
 
 ### **Pattern di Integrazione**
 ```php
@@ -488,4 +494,8 @@ class JpGraphChartGenerator
 
 **Ultimo Aggiornamento:** 2024-01-27  
 **Versione JpGraph:** 4.4.2  
+<<<<<<< HEAD
 **Stato:** 📚 Completamente Analizzato e Documentato
+=======
+**Stato:** 📚 Completamente Analizzato e Documentato
+>>>>>>> laraxot/dev

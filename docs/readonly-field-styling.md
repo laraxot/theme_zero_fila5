@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Readonly Field Styling - UI/UX Pattern"
 type: rule
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Readonly Field Styling - UI/UX Pattern
 
 **Theme**: Zero  
@@ -129,9 +132,12 @@ Questi colori sono coerenti con:
 
 - [Customization Guide](./customization.md) - Palette colori del tema
 - [Components Guide](./components.md) - Componenti disponibili
+<<<<<<< HEAD
 - [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
 - [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
 - [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
+=======
+>>>>>>> laraxot/dev
 - [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
 - [Theme One - Readonly Styling](../One/docs/readonly-field-styling.md) - Pattern condiviso
 

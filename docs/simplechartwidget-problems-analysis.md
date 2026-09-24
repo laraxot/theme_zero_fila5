@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "SimpleChartWidget - Analisi Problemi e Miglioramenti UI/UX"
 type: guide
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # SimpleChartWidget - Analisi Problemi e Miglioramenti UI/UX
 
 ## Panoramica
@@ -478,4 +481,8 @@ L'analisi del `SimpleChartWidget` ha identificato diversi problemi che impattano
 2. **Ottimizzano l'esperienza utente** (accessibilità, performance)
 3. **Migliorano la manutenibilità** (separazione logica, refactoring)
 
+<<<<<<< HEAD
 L'implementazione incrementale permette di validare ogni miglioramento prima di procedere con la fase successiva, garantendo un processo di refactoring sicuro e controllato.
+=======
+L'implementazione incrementale permette di validare ogni miglioramento prima di procedere con la fase successiva, garantendo un processo di refactoring sicuro e controllato.
+>>>>>>> laraxot/dev
