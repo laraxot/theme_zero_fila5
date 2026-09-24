@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Performance e ottimizzazione asset"
 type: rule
@@ -12,8 +11,6 @@ related:
   - "./component-library.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Performance e ottimizzazione asset
 
 ## Obiettivo

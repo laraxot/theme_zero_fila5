@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Zero - Sprint Planning Meeting"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Zero - Sprint Planning Meeting
 
 > Documento operativo per sprint planning. Tema.
@@ -61,10 +58,7 @@ Spostare **Zero** in avanti sui gap P0/P1 piu' vicini al valore, evitando lavoro
 
 - [Product Strategy](product-strategy.md)
 - [Product Launch Plan](product-launch-plan.md)
-<<<<<<< HEAD
 - [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 - [Indice centrale](../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
-=======
->>>>>>> laraxot/dev
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
