@@ -26,6 +26,7 @@ license: project-internal
 
 # Zero — perché esiste
 
+<<<<<<< .merge_file_W8eQcT
 > **Correzione verificata 2026-09-17, non applicabile a questo repo (`base_restaurant_fila5`)**:
 > questo file descrive un altro checkout dell'ecosistema Laraxot (issue/discussion linkati sotto
 > puntano a `provtv/theme_zero_fila5` e `provtv/base_ptv_fila5`, non a questo repo). Verificato
@@ -45,6 +46,8 @@ license: project-internal
 > Contenuto originale conservato sotto senza modifiche (nessuna cancellazione), per non perdere
 > lo storico — ma va letto come descrizione di un altro progetto, non di `base_restaurant_fila5`.
 
+=======
+>>>>>>> .merge_file_5VhKfi
 ## Lo scopo in una frase
 
 **Zero è il tema che l'applicazione sta effettivamente servendo**: `xra.pub_theme` e
@@ -90,6 +93,7 @@ viene servito.
 Va deciso quale delle due fonti è quella giusta — non dedotto: se il tema attivo deve essere
 One, va cambiata la config; se è Zero, va corretto `epics.md` e vanno ricollocate le story.
 
+<<<<<<< .merge_file_W8eQcT
 ### 2. Igiene della root, due violazioni misurabili
 
 ```
@@ -98,6 +102,20 @@ CONFLICT_RESOLUTION_SUMMARY.md + conflict-resolution-summary.md
 ```
 
 La seconda coppia è una **collisione di case nella root**: su un filesystem
+=======
+### 2. Igiene della root: una violazione risolta, una resta aperta
+
+```
+_theme_zero.code-workspace                                  <- unico (dedup 2026-09-22, commit 5371092f)
+CONFLICT_RESOLUTION_SUMMARY.md + conflict-resolution-summary.md  <- ancora due
+```
+
+Il doppio `.code-workspace` (`_theme_zero.code-workspace` + `_zero.code-workspace`, il
+pilastro ne vuole uno) è stato deduplicato il 2026-09-22 (commit
+`5371092f973b3afb38ef98783f2f0f50e9459f59`): in root resta solo `_theme_zero.code-workspace`.
+
+La seconda coppia resta una **collisione di case nella root**: su un filesystem
+>>>>>>> .merge_file_5VhKfi
 case-insensitive i due file sono lo stesso file. È la regola
 `case_sensitive_naming_critical`, e in root è più grave che in `docs/` perché la root è
 ciò che si clona.
