@@ -11,6 +11,25 @@ qmd: "scopo tema zero pub_theme frontoffice folio vite tailwind public_html asse
 
 # Zero — scopo, confini e come servirlo meglio
 
+> **Nota di verifica 2026-09-17 (`base_restaurant_fila5`)**: gran parte di questo file resta
+> valida (stessa base di codice condivisa fra deployment Laraxot), ma alcuni dettagli citano un
+> altro checkout e vanno letti con cautela:
+> - `Themes/One` e `Themes/Three`, citati come temi gemelli, **non esistono qui** (`Themes/`
+>   contiene `Meetup`, `Trattoria`, `TwentyOne`, `Zero`); i link "Collegamenti" in fondo sono rotti.
+> - Gli host citati nella tabella (`tv/prov/personale2022`, `tv/prov/personale2019`, `ptvx`,
+>   `ptvx-mono`, `localhost`) non esistono in questo repo. L'equivalente qui è
+>   `config/local/restaurant/xra.php` (`pub_theme: Zero`, `APP_URL=http://restaurant.local`) e
+>   `config/localhost/xra.php` (`pub_theme: TwentyOne`) — la conclusione di fondo ("Zero è il
+>   tema che gli host di produzione selezionano") **resta verificata anche qui**.
+> - I "cinque indici" di `docs/` (punto 4 e sezione "Come servire meglio", §4) sono stati
+>   convertiti in bridge stub verso `index.md` in questa sessione (2026-09-17); non serve più
+>   agire su quel punto.
+> - Il boilerplate Laravel in coda a `Themes/Zero/README.md` (§3) non è più presente: il file è
+>   oggi 41 righe pulite. I due link morti che segnalava (`.github/workflows/semantic-release.yml`,
+>   `changelog.md` minuscolo) **sono invece ancora rotti** in questo checkout, non ancora corretti.
+> - Il conteggio "22 file Blade" non corrisponde più a questo checkout (23 oggi); non è un
+>   errore, è drift naturale nel tempo.
+
 ## Lo scopo, dedotto dal codice
 
 Zero non contiene PHP: `app/` ha un solo file, `.gitkeep`. Nessun service provider,
