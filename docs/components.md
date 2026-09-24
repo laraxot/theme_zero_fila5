@@ -108,34 +108,15 @@ Versione responsive del componente nav-link per menu mobile.
 
 ### Organizzazione
 
-Verificato contro il filesystem reale (2026-09-17):
-
 ```
 resources/views/components/
-├── blocks/
-│   ├── cta/banner.blade.php
-│   ├── features/grid.blade.php
-│   ├── hero/main.blade.php
-│   ├── links/grid.blade.php
-│   ├── navigation/simple.blade.php
-│   ├── sidebar/quick-links.blade.php
-│   ├── sidebar/system-info.blade.php
-│   ├── stats/overview.blade.php
-│   └── testimonials/carousel.blade.php
 ├── layouts/
 │   ├── app.blade.php
-│   ├── auth.blade.php
-│   ├── guest.blade.php
 │   └── main.blade.php
-├── ui/logo.blade.php
 ├── navigation.blade.php
 ├── nav-link.blade.php
 └── responsive-nav-link.blade.php
 ```
-
-`resources/views/filament/widgets/auth/` contains Filament-facing auth widgets (separate
-from the `components/` tree above). `resources/views/layouts/app.blade.php` is a top-level
-Blade layout distinct from `components/layouts/app.blade.php`.
 
 ### Convenzioni di Naming
 
