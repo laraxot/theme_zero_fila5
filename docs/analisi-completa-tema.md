@@ -1,3 +1,15 @@
+---
+title: "Analisi Completa Tema Zero - Tema Minimalista Laravel"
+type: guide
+tags: ['filament', 'laravel', 'charts', 'permission']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "analisi completa tema zero - tema minimalista laravel"
+related:
+  - "./00-INDEX.md"
+  - "./00-index.md"
+---
+
 # Analisi Completa Tema Zero - Tema Minimalista Laravel
 
 ## 🎯 Panoramica Generale
@@ -640,6 +652,8 @@ describe('Accessibility Tests', () => {
 | disabled | Boolean | false | Whether button is disabled |
 
 ### Examples
+
+```
 
 ```blade
 <!-- Basic usage -->
