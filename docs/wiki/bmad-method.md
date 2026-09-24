@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "BMAD Method v6.3 operativo nel progetto"
 type: guide
@@ -13,6 +14,8 @@ related:
   - "./log.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # BMAD Method v6.3 operativo nel progetto
 
 ## Regola pratica
