@@ -1,31 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-title: "User Research - Theme Zero"
-type: guide
-tags: ['laravel', 'charts', 'testing']
-=======
-title: "User Research — Theme Zero"
-type: reference
-status: active
->>>>>>> 72cae4b (.)
-created: 2026-07-14
-updated: 2026-09-11
-qmd: "user research theme zero"
-related:
-  - "./prd.md"
-  - "./product-roadmap.md"
-  - "./product-strategy.md"
-  - "./sprint-planning.md"
-  - "./philosophy.md"
----
-
-<<<<<<< HEAD
-# User Research - Theme Zero
-=======
->>>>>>> laraxot/dev
 title: "User Research — Theme Zero"
 type: reference
 status: active
@@ -40,11 +13,6 @@ related:
   - "./philosophy.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
 # User Research — Theme Zero
 
 > Nota 2026-09-11: questo file era vuoto (bug reale, vedi
@@ -54,13 +22,6 @@ related:
 > dati (partecipanti, quote, metriche) sono materiale storico di ricerca (Q1
 > 2026), non verificato/rieseguito in questa sessione: trattarli come input
 > storico, non come dato corrente.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
 
 ## Ultra-Minimalist Theme
 

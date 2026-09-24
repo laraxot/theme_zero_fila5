@@ -9,23 +9,13 @@ module: "Zero"
 
 ## Log Entries
 
+[2026-09-25] [UPDATE] Risolti i conflitti della sincronizzazione forward-only: mantenuti i 243 documenti Markdown e rigenerato l’inventario completo in `docs/index.md`.
+
 [2026-06-15] [DOCS] Censimento omonimi metodi — [method-name-homonyms](./concepts/method-name-homonyms.md). Business logic nei moduli, non nel tema.
 
 ## [2026-05-26] ops | ptvx.local ripristinato (PHP 8.4 handler)
 
-<<<<<<< HEAD
 - Vedi [ptvx-local-php84-apache-handler.md](../../../../Modules/Xot/docs/wiki/troubleshooting/ptvx-local-php84-apache-handler.md) (modulo Xot).
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Vedi [ptvx-local-php84-apache-handler.md](../../../Modules/Xot/docs/wiki/troubleshooting/ptvx-local-php84-apache-handler.md) (modulo Xot).
-=======
-- Vedi [ptvx-local-php84-apache-handler.md](../../../../Modules/Xot/docs/wiki/troubleshooting/ptvx-local-php84-apache-handler.md) (modulo Xot).
->>>>>>> laraxot/dev
-=======
-- Vedi [ptvx-local-php84-apache-handler.md](../../../../Modules/Xot/docs/wiki/troubleshooting/ptvx-local-php84-apache-handler.md) (modulo Xot).
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
 
 ### Format
 

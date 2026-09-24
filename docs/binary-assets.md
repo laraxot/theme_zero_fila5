@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
 ---
 title: "Asset binari"
 type: guide
@@ -14,13 +6,6 @@ created: 2026-07-29
 updated: 2026-07-29
 qmd: "zero theme asset binari"
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
 # Asset binari
 
 Gli asset binari sono file normali del repository.

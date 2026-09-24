@@ -6,16 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "chartjs-plugin-datalabels with filament 5 chartwidget multiple labels"
 related:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - "./00-INDEX.md"
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
