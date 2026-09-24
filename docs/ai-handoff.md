@@ -6,16 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai handoff"
 related:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - "./00-INDEX.md"
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -37,35 +27,12 @@ related:
 ## dove scambiarci le informazioni
 
 - questo file (`Themes/Zero/docs/ai-handoff.md`) contiene handoff cross-agente lato tema
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- per lo stato tecnico e regole dettagliate, vedere:
-  - `../../Modules/Xot/docs/ai-handoff.md`
-=======
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
 - **coordinamento lavoro prodotto/moduli:** BMAD stories sotto `Modules/*/docs/bmad/` +
   `docs/sprint-status.yaml` + `bashscripts/lock/` — **non** `docs/chat/`
 - per lo stato tecnico e regole dettagliate, vedere:
   - `../../Modules/Xot/docs/ai-handoff.md`
   - pack Rating attivo: `../../Modules/Rating/docs/bmad/README.md`
   - pack filtri schede: `../../Modules/Ptv/docs/bmad/architecture/scheda-lista-filtri-layout.md`
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
 
 ## cosa va scritto prima di lavorare
 
@@ -84,15 +51,5 @@ Se questi punti mancano, il rischio e' che agenti diversi facciano implementazio
 - `PHPMD` va eseguito come `.phar` standalone, non come package Composer del repo
 - per cambiamenti di governance o workflow, aggiornare anche issue/discussion GitHub gia' esistenti dopo `git remote -v`
 - anche nei task tema, se servono cast o normalizzazioni di supporto non creare helper ad hoc senza prima verificare le action condivise in `Modules/Xot/app/Actions/Cast/`
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- anche nei task tema, se servono cast o normalizzazioni di supporto non creare helper ad hoc senza prima verificare le action condivise in `Modules/Xot/app/Actions/Cast/`
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 72cae4b (.)
->>>>>>> laraxot/dev
 - se un bug e' visibile su una URL reale del progetto, non considerare sufficiente un test che legge solo il source; serve una verifica runtime o una riproduzione fedele della stessa pipeline
 - nei componenti Filament/Livewire coinvolti dal tema, preferire proprieta' pubbliche serializzabili; array di oggetti custom non serializzabili tendono a rompere l'hydration
