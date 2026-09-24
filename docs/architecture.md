@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Zero Theme Architecture"
 type: architecture
@@ -40,8 +39,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Architettura del Tema Zero
 
 ## Filosofia: "Il Tema come Vestito"
@@ -299,7 +296,6 @@ public function test_login_widget_validation()
 - [Documentazione Componenti](./components.md)
 - [Documentazione Layout](./layouts.md)
 - [Best Practices Filament](../Cms/docs/frontoffice/filament-auth.md)
-<<<<<<< HEAD
 - [Architettura Widget](../User/docs/widgets_structure.md) 
 
 ---
@@ -349,6 +345,3 @@ Base Laravel theme (skeleton/boostrap)
 - **Build**: npm run build passes
 - **Lint**: Tailwind/Pug linter checks
 - **Preview**: Theme renders correctly in browser
-=======
-- [Architettura Widget](../User/docs/widgets_structure.md) 
->>>>>>> laraxot/dev

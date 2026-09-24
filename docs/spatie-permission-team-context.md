@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Spatie Permission Team Context"
 type: guide
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Spatie Permission Team Context
 
 ## Theme Boundary
