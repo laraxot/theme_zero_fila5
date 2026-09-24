@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Filament Installation and Chart Widget Integration Guide for Zero Theme"
 type: how-to
@@ -11,8 +10,6 @@ related:
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Filament Installation and Chart Widget Integration Guide for Zero Theme
 
 ## Overview
@@ -129,11 +126,8 @@ window.ChartJsBaseService = window.ChartJsBaseService || ChartJsBaseService;
 ### Chart.js Plugin Registration
 
 **Project rule (healthcare_app Fila5):** Chart.js plugin assets are centralized in the Chart module.
-<<<<<<< HEAD
 **Project rule (ModuloEsempio Fila5):** Chart.js plugin assets are centralized in the Chart module.
 **Project rule (healthcare_app Fila5):** Chart.js plugin assets are centralized in the Chart module.
-=======
->>>>>>> laraxot/dev
 
 The Zero theme must **not** register `chartjs-plugin-datalabels` (or other Chart.js plugins) via its own bundle.
 It consumes the plugins that are already registered for Filament charts by the Chart module.
@@ -436,8 +430,4 @@ it('registers Filament plugins globally', () => {
 });
 ```
 
-<<<<<<< HEAD
 This guide provides comprehensive instructions for integrating Filament 5.x ChartWidgets with the Zero theme, ensuring proper asset management, performance optimization, and security practices.
-=======
-This guide provides comprehensive instructions for integrating Filament 5.x ChartWidgets with the Zero theme, ensuring proper asset management, performance optimization, and security practices.
->>>>>>> laraxot/dev
