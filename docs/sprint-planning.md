@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Sprint Planning - Theme Zero"
 type: guide
@@ -366,10 +367,13 @@ For every component added this sprint:
 |------|------|------|
 | Product Owner | | |
 | Lead Dev | | |
+=======
+>>>>>>> laraxot/dev
 # Sprint Planning: Zero Theme
 
 ## 🏁 Sprint Goal
 Finalize documentation and validation for Zero.
+<<<<<<< HEAD
 
 # Sprint Planning - Theme Zero
 
@@ -727,3 +731,5 @@ For every component added this sprint:
 |------|------|------|
 | Product Owner | | |
 | Lead Dev | | |
+=======
+>>>>>>> laraxot/dev
