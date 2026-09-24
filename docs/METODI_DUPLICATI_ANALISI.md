@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "METODI-DUPLICATI-ANALISI (deprecated)"
 type: reference
 status: deprecated
@@ -9,6 +10,8 @@ qmd: "deprecated renamed METODI-DUPLICATI-ANALISI.md"
 
 > This file has been renamed to [METODI-DUPLICATI-ANALISI.md](METODI-DUPLICATI-ANALISI.md).
 > Do not add dates or underscores in filenames.
+=======
+>>>>>>> laraxot/dev
 theme: Zero
 topic: METODI_DUPLICATI_ANALISI
 tags: [metodi-duplicati, refactoring]

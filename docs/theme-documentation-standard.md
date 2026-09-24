@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Theme Documentation Standard"
 type: rule
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Theme Documentation Standard
 
 Standard per la documentazione dei temi nell'architettura Laraxot.
@@ -257,4 +260,8 @@ Vedi [customization.md](./customization.md) per la guida completa.
 ---
 
 **Standard Version**: 1.0
+<<<<<<< HEAD
 **Ultimo Aggiornamento**: 2025-11-11
+=======
+**Ultimo Aggiornamento**: 2025-11-11
+>>>>>>> laraxot/dev
