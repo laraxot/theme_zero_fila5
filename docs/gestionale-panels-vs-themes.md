@@ -6,11 +6,11 @@ created: 2026-07-23
 updated: 2026-07-24
 qmd: "Zero themes panels gestionale_commesse folio"
 issues:
-  - "https://github.com/laraxot/base_workorder_fila5/issues/7"
-  - "https://github.com/laraxot/base_workorder_fila5/issues/14"
+  - "https://github.com/laraxot/<repo progetto>/issues/7"
+  - "https://github.com/laraxot/<repo progetto>/issues/14"
 discussions:
-  - "https://github.com/laraxot/base_workorder_fila5/discussions/8"
-  - "https://github.com/laraxot/base_workorder_fila5/discussions/15"
+  - "https://github.com/laraxot/<repo progetto>/discussions/8"
+  - "https://github.com/laraxot/<repo progetto>/discussions/15"
 related:
   - "./README.md"
   - "../../docs/gestionale-panels-vs-themes.md"
@@ -21,12 +21,6 @@ related:
 
 # Panels SRC vs Themes Zero
 
-<<<<<<< .merge_file_lZwkc7
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< .merge_file_dw6qgD
->>>>>>> .merge_file_LQx6q8
 > **Nota 2026-09-17**: contenuto verosimilmente cross-org (issue/discussion citati sono su
 > `laraxot/base_workorder_fila5`, non su questo repo). In questo checkout (`base_restaurant_fila5`)
 > il tema `Sixteen` citato sotto non esiste (`Themes/` contiene solo `Meetup`, `Trattoria`,
@@ -35,12 +29,6 @@ related:
 > e `../../docs/gestionale-docs-index.md` non risolvono in questo repo. Contenuto originale
 > conservato sotto senza modifiche per non perdere lo storico.
 
-<<<<<<< .merge_file_lZwkc7
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> .merge_file_JmOoMo
->>>>>>> .merge_file_LQx6q8
 > Zero è tema alternativo/sperimentale. La BL gestionale resta nei moduli; enable = [matrice](../../docs/gc-modules-runtime-matrix.md).
 
 Canon: [gestionale-docs-index.md](../../docs/gestionale-docs-index.md) · FO attivo = Sixteen, non Zero.

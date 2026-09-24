@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Theme Zero - Doc-First Workflow"
 type: how-to
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme zero - doc-first workflow"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Theme Zero - Doc-First Workflow
 
 ## Regola

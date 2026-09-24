@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Documentation"
 type: guide
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "documentation"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 ## migrazioni allineate con laraxot
 
 - ogni tabella del dominio utente deve essere creata/manutenuta da **una sola** migration per modulo  

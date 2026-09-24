@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Product Strategy - Theme Zero"
 type: guide
@@ -7,7 +6,6 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product strategy - theme zero"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
@@ -1202,8 +1200,6 @@ Theme Zero occupies a unique position as the ultra-minimalist option in the Lara
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-03-12 | Theme Team | Initial strategy for pre-alpha theme |
-=======
->>>>>>> laraxot/dev
 # Zero - Product Strategy
 
 > Strategia prodotto. Tema.

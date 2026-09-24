@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Analisi Completa Tema Zero - Tema Minimalista Laravel"
 type: guide
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "analisi completa tema zero - tema minimalista laravel"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Analisi Completa Tema Zero - Tema Minimalista Laravel
 
 ## 🎯 Panoramica Generale
@@ -656,11 +652,8 @@ describe('Accessibility Tests', () => {
 
 ### Examples
 
-<<<<<<< HEAD
 ```
 
-=======
->>>>>>> laraxot/dev
 ```blade
 <!-- Basic usage -->
 <x-button>Click me</x-button>

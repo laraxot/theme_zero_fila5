@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Model Usage in Themes - Best Practices"
 type: guide
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "model usage in themes - best practices"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Model Usage in Themes - Best Practices
 
 ## Executive Summary
@@ -65,11 +61,8 @@ Widgets encapsulate both logic and data access, passing only the necessary data 
 
 namespace Modules\User\Filament\Widgets\Auth;
 
-<<<<<<< HEAD
-use Modules\Xot\Contracts\UserContract;
-=======
 use Modules\User\Models\User;
->>>>>>> laraxot/dev
+use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
 class LoginWidget extends XotBaseWidget
@@ -121,11 +114,8 @@ For Folio pages that need data, use route model binding or controller-like logic
 ```php
 <?php
 
-<<<<<<< HEAD
-use Modules\Xot\Contracts\UserContract;
-=======
 use Modules\User\Models\User;
->>>>>>> laraxot/dev
+use Modules\Xot\Contracts\UserContract;
 use function Laravel\Folio\{name, render};
 
 name('users.show');
@@ -144,11 +134,8 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 ```
 
 **Key Points:**
-<<<<<<< HEAD
-- ✅ Import model from module: `use Modules\Xot\Contracts\UserContract;`
-=======
 - ✅ Import model from module: `use Modules\User\Models\User;`
->>>>>>> laraxot/dev
+- ✅ Import model from module: `use Modules\Xot\Contracts\UserContract;`
 - ✅ Use route model binding for automatic loading
 - ✅ Pass data to view as variables
 - ❌ Never instantiate models directly in Blade templates
@@ -160,11 +147,8 @@ For data needed across multiple views (e.g., navigation, user info).
 **Service Provider (Modules/User/Providers/UserServiceProvider.php):**
 ```php
 use Illuminate\Support\Facades\View;
-<<<<<<< HEAD
-use Modules\Xot\Contracts\UserContract;
-=======
 use Modules\User\Models\User;
->>>>>>> laraxot/dev
+use Modules\Xot\Contracts\UserContract;
 
 public function boot(): void
 {
@@ -288,11 +272,8 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 **✅ Use Folio for Simple Lists:**
 ```php
 // Folio page
-<<<<<<< HEAD
-use Modules\Xot\Contracts\UserContract;
-=======
 use Modules\User\Models\User;
->>>>>>> laraxot/dev
+use Modules\Xot\Contracts\UserContract;
 
 render(fn () => view('pub_theme::pages.users.index', [
     'users' => User::query()->latest()->paginate(20),
@@ -318,11 +299,8 @@ render(fn () => view('pub_theme::pages.users.index', [
 
 1. **Import Models from Modules**
    ```php
-<<<<<<< HEAD
-   use Modules\Xot\Contracts\UserContract;
-=======
    use Modules\User\Models\User;
->>>>>>> laraxot/dev
+   use Modules\Xot\Contracts\UserContract;
    use Modules\Cms\Models\Post;
    ```
 
@@ -408,13 +386,10 @@ When working with the Zero theme, you'll commonly encounter models from these mo
 - `Modules\healthcare_app\Models\Survey` - Surveys
 - `Modules\healthcare_app\Models\Question` - Survey questions
 - `Modules\healthcare_app\Models\SurveyPdf` - PDF exports
-<<<<<<< HEAD
 ### ModuloEsempio Module
 - `Modules\ModuloEsempio\Models\Survey` - Surveys
 - `Modules\ModuloEsempio\Models\Question` - Survey questions
 - `Modules\ModuloEsempio\Models\SurveyPdf` - PDF exports
-=======
->>>>>>> laraxot/dev
 
 ### Other Modules
 - `Modules\Geo\Models\Place` - Geographic data
@@ -444,11 +419,8 @@ test('login widget provides form to theme view', function () {
 ### Test 2: Verify Folio Page Data Binding
 
 ```php
-<<<<<<< HEAD
-use Modules\Xot\Contracts\UserContract;
-=======
 use Modules\User\Models\User;
->>>>>>> laraxot/dev
+use Modules\Xot\Contracts\UserContract;
 
 test('user profile page displays user data', function () {
     $user = User::factory()->create(['name' => 'John Doe']);
@@ -551,11 +523,8 @@ use Modules\User\Models\CustomUser;  // ✅ NEW
 
 **Solution:** Import at top of Folio page or pass via widget:
 ```php
-<<<<<<< HEAD
-use Modules\Xot\Contracts\UserContract;
-=======
 use Modules\User\Models\User;
->>>>>>> laraxot/dev
+use Modules\Xot\Contracts\UserContract;
 ```
 
 ### Problem: "Connection not found" error
@@ -627,28 +596,25 @@ When working with data in theme views:
 
 ## Related Documentation
 
-<<<<<<< HEAD
 - [Model Inheritance Rules (User Module)](../../../laravel/Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../../laravel/Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
-- [Widget Structure (User Module)](../../../laravel/Modules/User/docs/widgets_structure.md)
+- [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../../laravel/Modules/Cms/docs/frontoffice/filament-auth.md)
-- [Model Inheritance Rules (User Module)](../../Modules/User/docs/model-inheritance-rules.md)
-- [DRY/KISS Model Refactoring Analysis](../../Modules/Xot/docs/dry-kiss-model-refactoring.md)
+- [Model Inheritance Rules (User Module)](../../../Modules/User/docs/model-inheritance-rules.md)
+- [DRY/KISS Model Refactoring Analysis](../../../Modules/Xot/docs/dry-kiss-model-refactoring.md)
 - [Theme Architecture](./architecture.md)
-- [Widget Structure (User Module)](../../Modules/User/docs/widgets_structure.md)
+- [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../Modules/Cms/docs/frontoffice/filament-auth.md)
-- [Model Inheritance Rules (User Module)](../../../laravel/Modules/User/docs/model-inheritance-rules.md)
+- [Model Inheritance Rules (User Module)](../../../Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../../laravel/Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
-- [Widget Structure (User Module)](../../../laravel/Modules/User/docs/widgets_structure.md)
+- [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../../laravel/Modules/Cms/docs/frontoffice/filament-auth.md)
-=======
->>>>>>> laraxot/dev
 - [Model Inheritance Rules (User Module)](../../Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
-- [Widget Structure (User Module)](../../Modules/User/docs/widgets_structure.md)
+- [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../Modules/Cms/docs/frontoffice/filament-auth.md)
 
 ---
