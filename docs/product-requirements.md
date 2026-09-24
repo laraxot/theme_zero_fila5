@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Product Requirements Document (PRD)"
 type: guide
@@ -7,12 +6,9 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product requirements document prd"
 related:
-  - "./00-INDEX.md"
   - "./00-index.md"
 ---
 
-=======
->>>>>>> laraxot/dev
 # Product Requirements Document (PRD)
 
 ## Metadata

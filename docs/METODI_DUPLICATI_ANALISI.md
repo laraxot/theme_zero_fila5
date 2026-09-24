@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "METODI-DUPLICATI-ANALISI (deprecated)"
 type: reference
 status: deprecated
@@ -10,8 +9,6 @@ qmd: "deprecated renamed METODI-DUPLICATI-ANALISI.md"
 
 > This file has been renamed to [METODI-DUPLICATI-ANALISI.md](METODI-DUPLICATI-ANALISI.md).
 > Do not add dates or underscores in filenames.
-=======
->>>>>>> laraxot/dev
 theme: Zero
 topic: METODI_DUPLICATI_ANALISI
 tags: [metodi-duplicati, refactoring]
@@ -24,9 +21,9 @@ _Metodi dominio duplicati che coinvolgono il tema **Zero** — 1 metodo trovato.
 
 ## Metodo: `curl_postfields_flatten` (3 occorrenze, 3 in Zero)
 
-- `./laravel/Themes/Zero/extras/add_multiple_contact_ATS_manager_quaeris_it.php`
-- `./laravel/Themes/Zero/extras/add_multi_contact_quaerisf3_local.php`
-- `./laravel/Themes/Zero/extras/add_multiple_contact_VivaServizi_manager_quaeris_it.php`
+- `./laravel/Themes/Zero/extras/add_multiple_contact_ATS_manager_<nome progetto>_it.php`
+- `./laravel/Themes/Zero/extras/add_multi_contact_<nome progetto>f3_local.php`
+- `./laravel/Themes/Zero/extras/add_multiple_contact_VivaServizi_manager_<nome progetto>_it.php`
 
 [Riflessione: Duplicato interno al modulo App — valutare estrazione in trait di modulo o classe base]
 
