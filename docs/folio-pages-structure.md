@@ -41,7 +41,16 @@ resources/views/pages/
 
 ## Provenienza
 
+<<<<<<< .merge_file_mVn4TS
 Studiato (read-only) lo script/canon progetto corrente Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests` — il pattern `[container0]` di Sixteen **non** è presente in questo repo, non va forzato qui.
+=======
+Studiato (read-only) lo script/canon Fixcity Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests`.  
+- progetto corrente/Sixteen (`[container0]`) **non** è presente in questo repo; non forzarlo qui.
+
+## Provenienza
+
+Studiato (read-only) lo script/canon progetto corrente Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests`.  
+>>>>>>> .merge_file_7biTok
 Git: `git show` / basi sibling — **mai** restore ([git-forward-only](../../../../docs/wiki/rules/git-forward-only.md)).
 
 ## Enforcement
