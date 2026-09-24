@@ -1,3 +1,17 @@
+---
+title: "duplicate-methods-report (deprecated)"
+type: reference
+status: deprecated
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "deprecated renamed duplicate-methods-report.md"
+---
+
+> This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
+> Do not add dates or underscores in filenames.
+
+> This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
+> Do not add dates or underscores in filenames.
 # Report: Metodi con nome duplicato nei moduli e nei temi
 
 ## Introduzione
@@ -75,4 +89,11 @@ Di seguito la classifica dei metodi più frequenti (solo quelli con più di una 
 
 ## Allegati
 - `docs/duplicate_methods_report.md` (questo file)
+- Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.
+
+> This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
+> Do not add dates or underscores in filenames.
+
+> This file has been renamed to [duplicate-methods-report.md](duplicate-methods-report.md).
+> Do not add dates or underscores in filenames.
 - Script di ricerca (`find_duplicate_methods.sh`) disponibile in `bashscripts/` per replicare l’analisi.

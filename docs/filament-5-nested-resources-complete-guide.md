@@ -1,3 +1,15 @@
+---
+title: "🎯 Filament 5.x Nested Resources - Guida Completa 2024"
+type: guide
+tags: ['filament', 'testing']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament 5x nested resources - guida completa 2024"
+related:
+  - "./00-INDEX.md"
+  - "./00-index.md"
+---
+
 # 🎯 Filament 5.x Nested Resources - Guida Completa 2024
 
 ## 📋 **Introduzione a Nested Resources**
@@ -47,6 +59,11 @@ namespace Modules\healthcare_app\Filament\Resources\Courses;
 use Filament\Resources\Resource;
 use Filament\Resources\Pages\Page;
 use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
+namespace Modules\ModuloEsempio\Filament\Resources\Courses;
+
+use Filament\Resources\Resource;
+use Filament\Resources\Pages\Page;
+use Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\LessonResource;
 
 class CourseResource extends Resource
 {
@@ -88,6 +105,11 @@ namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
 use Filament\Resources\Resource;
 use Filament\Resources\Pages\Page;
 use Modules\healthcare_app\Filament\Resources\Courses\CourseResource;
+namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
+
+use Filament\Resources\Resource;
+use Filament\Resources\Pages\Page;
+use Modules\ModuloEsempio\Filament\Resources\Courses\CourseResource;
 
 class LessonResource extends Resource
 {
@@ -127,12 +149,16 @@ class LessonResource extends Resource
 <?php
 
 namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
+namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
+namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
 
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Forms;
 use Filament\Tables\Table;
 use Filament\Forms\Form;
+use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
+use Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\LessonResource;
 use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
 
 class LessonsRelationManager extends RelationManager
@@ -201,6 +227,11 @@ namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Resources\ParentResourceRegistration;
 use Modules\healthcare_app\Filament\Resources\Courses\CourseResource;
+namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
+
+use Filament\Resources\RelationManagers\RelationManager;
+use Filament\Resources\ParentResourceRegistration;
+use Modules\ModuloEsempio\Filament\Resources\Courses\CourseResource;
 
 class LessonResource extends Resource
 {
@@ -221,6 +252,8 @@ class LessonResource extends Resource
 ```php
 <?php
 
+namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
+namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
 namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
 
 use Filament\Resources\RelationManagers\RelationManager;
@@ -248,6 +281,8 @@ class LessonsRelationManager extends RelationManager
 ```php
 <?php
 
+namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
+namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons;
 namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons;
 
 use Filament\Resources\RelationManagers\RelationManager;
@@ -325,6 +360,11 @@ namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\Pa
 use Filament\Resources\Pages\CreateRecord;
 use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
 use Modules\healthcare_app\Models\Course;
+namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\Pages;
+
+use Filament\Resources\Pages\CreateRecord;
+use Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\LessonResource;
+use Modules\ModuloEsempio\Models\Course;
 
 class CreateLesson extends CreateRecord
 {
@@ -373,6 +413,10 @@ namespace Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\Pa
 
 use Filament\Resources\Pages\CreateRecord;
 use Modules\healthcare_app\Filament\Resources\Courses\Resources\Lessons\LessonResource;
+namespace Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\Pages;
+
+use Filament\Resources\Pages\CreateRecord;
+use Modules\ModuloEsempio\Filament\Resources\Courses\Resources\Lessons\LessonResource;
 use Illuminate\Validation\Rule;
 
 class CreateLesson extends CreateRecord
@@ -474,6 +518,8 @@ public function test_nested_resource_routing()
 {
     $course = Course::factory()->create();
     $response = $this->get(route('filament.healthcare_app.resources.courses.resources.lessons.list', [
+    $response = $this->get(route('filament.ptvx.resources.courses.resources.lessons.list', [
+    $response = $this->get(route('filament.healthcare_app.resources.courses.resources.lessons.list', [
         'course' => $course,
     ]));
     
@@ -487,6 +533,8 @@ public function test_nested_resource_routing()
 - **API Reference**: https://filamentphp.com/docs/5.x/api/resources/nested-resources
 - **Plugin Guava**: https://filamentphp.com/plugins/guava-nested-resources
 
+## 🔄 **Integrazione con healthcare_app**
+## 🔄 **Integrazione con ModuloEsempio**
 ## 🔄 **Integrazione con healthcare_app**
 
 ### **Pattern di Integrazione**
