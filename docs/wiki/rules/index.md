@@ -12,7 +12,17 @@ updated: 2026-05-12
 
 ## Available Rules
 - [context-overflow-prevention](../../../../../../docs/wiki/rules/context-overflow-prevention.md) — prevenzione 262K token overflow; file vietati; tool output compression
+<<<<<<< .merge_file_KCNtGJ
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Pfwg6J
+=======
+
+>>>>>>> .merge_file_xtcal5
+>>>>>>> .merge_file_QW2M9L
 - [filament-resource-property](../../../../../../docs/wiki/rules/filament-resource-property.md) — `$resource` nelle page Filament è `protected static string`, non `public static`
 - [xotbase-critical-rules](../../../../../../docs/wiki/rules/xotbase-critical-rules.md) — il tema riusa i guardrail XotBase/Laraxot, senza estensioni Filament dirette
 - [filament-rules-summary](../../../../../../docs/wiki/rules/filament-rules-summary.md) — riepilogo rapido su `->label()`, array key tipizzate e convenzioni schema
@@ -26,6 +36,18 @@ qmd search "Zero theme rule filament" --limit 5
 ---
 
 **Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+<<<<<<< .merge_file_KCNtGJ
+<<<<<<< HEAD
 **Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 **Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 **Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Pfwg6J
+=======
+**Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+**Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+**Upstream:** [Root Trigger Map](../../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+>>>>>>> .merge_file_xtcal5
+>>>>>>> .merge_file_QW2M9L

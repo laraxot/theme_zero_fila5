@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Product Launch Plan: Zero Theme"
 type: concept
@@ -10,6 +11,8 @@ related:
   - "./00-index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Product Launch Plan: Zero Theme
 
 ## 🚀 Launch Overview
