@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "analisi phpstan livello 10 - tema"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 

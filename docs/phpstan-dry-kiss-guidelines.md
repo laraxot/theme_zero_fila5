@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "phpstan level 10 drykiss guidelines for themes"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 
@@ -149,6 +152,7 @@ Anche se i temi sono principalmente presentation layer, alcune parti contengono 
 // In Folio page or controller
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 use Modules\Xot\Contracts\UserContract;
@@ -157,6 +161,10 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
 
 render(fn (User $user) => view('pub_theme::pages.users.show', [
     'user' => $user,
@@ -188,6 +196,7 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 use Modules\Xot\Contracts\UserContract;
@@ -196,6 +205,10 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
 use Illuminate\Database\Eloquent\Collection;
 use function Laravel\Folio\{name, render};
 
@@ -484,6 +497,7 @@ Themes/Zero/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 use Modules\Xot\Contracts\UserContract;
@@ -492,6 +506,10 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
 use Modules\Analytics\Services\StatsService;
 use function Laravel\Folio\{name, render};
 

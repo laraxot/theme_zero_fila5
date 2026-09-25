@@ -6,10 +6,14 @@ tags: [release, semantic-versioning, changelog, readme, marketing]
 created: "2026-05-26"
 updated: "2026-05-26"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
 =======
 issue: "https://github.com/provtv/<repo progetto>/issues/153"
 >>>>>>> laraxot/dev
+=======
+issue: "https://github.com/provtv/<repo progetto>/issues/153"
+>>>>>>> 72cae4b (.)
 ---
 
 # Release e README marketing — Zero

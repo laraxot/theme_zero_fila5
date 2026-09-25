@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 # Zero
 
 [![Module](https://img.shields.io/badge/Module-Zero-8B0000.svg)]()
@@ -37,10 +40,13 @@ Core module for the FixCity Platform.
 
 **Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 title: "Headroom - Tema Zero"
 type: how-to
 tags: [headroom, theme, zero, codex, mcp]
@@ -55,9 +61,12 @@ discussions:
 related:
   - "../../../../../docs/HEADROOM-INTEGRATION.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 
 # Headroom - Tema Zero
 

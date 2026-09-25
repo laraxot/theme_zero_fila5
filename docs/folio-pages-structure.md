@@ -7,6 +7,7 @@ updated: 2026-07-22
 qmd: "folio pages structure theme zero ptvx auth home index no semantic directories"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - https://github.com/provtv/base_ptv_fila5/issues/124
 discussions:
   - https://github.com/laraxot/base_fixcity_fila5/discussions/273
@@ -15,6 +16,11 @@ discussions:
 discussions:
   - https://github.com/laraxot/<repo progetto>/discussions/273
 >>>>>>> laraxot/dev
+=======
+  - https://github.com/provtv/<repo progetto>/issues/124
+discussions:
+  - https://github.com/laraxot/<repo progetto>/discussions/273
+>>>>>>> 72cae4b (.)
   - https://github.com/laraxot/platform/discussions/273
 related:
   - ./architecture.md
@@ -44,6 +50,7 @@ resources/views/pages/
 - **DRY:** login/home restano nel tema; business logic nei moduli.
 - **KISS:** niente `pages/dashboard` / `pages/profile` come cartelle — esempi storici nei docs Zero non sono licenza a crearli.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Fixcity/Sixteen (`[container0]`) **non** è presente in questo repo; non forzarlo qui.
 
 ## Provenienza
@@ -55,6 +62,13 @@ resources/views/pages/
 
 Studiato (read-only) lo script/canon progetto corrente Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests` — il pattern `[container0]` di Sixteen **non** è presente in questo repo, non va forzato qui.
 >>>>>>> laraxot/dev
+=======
+- <nome progetto>/Sixteen (`[container0]`) **non** è presente in questo repo; non forzarlo qui.
+
+## Provenienza
+
+Studiato (read-only) lo script/canon progetto corrente Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests` — il pattern `[container0]` di Sixteen **non** è presente in questo repo, non va forzato qui.
+>>>>>>> 72cae4b (.)
 Studiato (read-only) lo script/canon Fixcity Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests`.  
 - progetto corrente/Sixteen (`[container0]`) **non** è presente in questo repo; non forzarlo qui.
 
@@ -62,9 +76,13 @@ Studiato (read-only) lo script/canon Fixcity Sixteen; su Zero si applica forward
 
 Studiato (read-only) lo script/canon progetto corrente Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests`.  
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Studiato (read-only) lo script/canon progetto corrente Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests` — il pattern `[container0]` di Sixteen **non** è presente in questo repo, non va forzato qui.
 >>>>>>> laraxot/dev
+=======
+Studiato (read-only) lo script/canon progetto corrente Sixteen; su Zero si applica forward-only lo stesso divieto semantic dirs senza forzare `container0`/`tests` — il pattern `[container0]` di Sixteen **non** è presente in questo repo, non va forzato qui.
+>>>>>>> 72cae4b (.)
 Git: `git show` / basi sibling — **mai** restore ([git-forward-only](../../../../docs/wiki/rules/git-forward-only.md)).
 
 ## Enforcement

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅
@@ -9,6 +10,12 @@ Risoluzione sistematica di tutti i conflitti Git presenti nel progetto per la mi
 ## Obiettivo Completato ✅
 Risoluzione sistematica di tutti i conflitti Git presenti nel progetto per la migrazione a Filament 5.
 >>>>>>> laraxot/dev
+=======
+# Riepilogo Risoluzione Conflitti Git - Filament 5
+
+## Obiettivo Completato ✅
+Risoluzione sistematica di tutti i conflitti Git presenti nel progetto per la migrazione a Filament 5.
+>>>>>>> 72cae4b (.)
 
 ## Statistiche Finali
 - **File con conflitti iniziali**: ~100+ file
@@ -19,10 +26,14 @@ Risoluzione sistematica di tutti i conflitti Git presenti nel progetto per la mi
 ## Modifiche Principali Implementate
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 1. Migrazione Schema → Form (Filament 4)
 =======
 ### 1. Migrazione Schema → Form (Filament 5)
 >>>>>>> laraxot/dev
+=======
+### 1. Migrazione Schema → Form (Filament 5)
+>>>>>>> 72cae4b (.)
 ```php
 // PRIMA (Filament 3)
 use Filament\Schemas\Schema;
@@ -32,10 +43,14 @@ public function form(Schema $schema): Schema
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // DOPO (Filament 4)
 =======
 // DOPO (Filament 5)
 >>>>>>> laraxot/dev
+=======
+// DOPO (Filament 5)
+>>>>>>> 72cae4b (.)
 use Filament\Forms\Form;
 public function form(Form $form): Form
 {
@@ -95,12 +110,17 @@ public function form(Form $form): Form
 ## Documentazione Creata
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### `laravel/Modules/Xot/docs/filament-4-migration-guide.md`
 - Guida completa alla migrazione Filament 4
 =======
 ### `laravel/Modules/Xot/docs/Filament-5-migration-guide.md`
 - Guida completa alla migrazione Filament 5
 >>>>>>> laraxot/dev
+=======
+### `laravel/Modules/Xot/docs/Filament-5-migration-guide.md`
+- Guida completa alla migrazione Filament 5
+>>>>>>> 72cae4b (.)
 - Pattern di risoluzione conflitti
 - Checklist migrazione
 - Esempi pratici
@@ -110,10 +130,14 @@ public function form(Form $form): Form
 ### ✅ Completate
 - [x] Analisi conflitti iniziali
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] Studio documentazione Filament 4
 =======
 - [x] Studio documentazione Filament 5
 >>>>>>> laraxot/dev
+=======
+- [x] Studio documentazione Filament 5
+>>>>>>> 72cae4b (.)
 - [x] Risoluzione conflitti Schema → Form
 - [x] Aggiornamento import
 - [x] Pulizia PHPDoc
@@ -154,20 +178,28 @@ php artisan test --testsuite=Filament
 ```bash
 git add .
 <<<<<<< HEAD
+<<<<<<< HEAD
 git commit -m "feat: migrazione completa a Filament 4
 =======
 git commit -m "feat: migrazione completa a Filament 5
 >>>>>>> laraxot/dev
+=======
+git commit -m "feat: migrazione completa a Filament 5
+>>>>>>> 72cae4b (.)
 
 - Risolti tutti i conflitti Schema → Form
 - Aggiornati import e type hints
 - Creati script di automazione
 - Aggiornata documentazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Verificata compatibilità Filament 4"
 =======
 - Verificata compatibilità Filament 5"
 >>>>>>> laraxot/dev
+=======
+- Verificata compatibilità Filament 5"
+>>>>>>> 72cae4b (.)
 ```
 
 ## Note Importanti
@@ -188,7 +220,11 @@ Tutti i file modificati hanno backup con estensione `.backup` per eventuali roll
 
 ## Conclusione
 <<<<<<< HEAD
+<<<<<<< HEAD
 La migrazione a Filament 4 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
 =======
 La migrazione a Filament 5 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
 >>>>>>> laraxot/dev
+=======
+La migrazione a Filament 5 è stata completata con successo per il 99% dei file. Rimane solo la risoluzione manuale del file Helper.php per completare al 100% la migrazione.
+>>>>>>> 72cae4b (.)

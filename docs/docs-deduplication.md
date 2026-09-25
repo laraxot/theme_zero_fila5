@@ -10,7 +10,11 @@ I temi mantengono **stub** verso wiki progetto, Xot (`docs/wiki/concepts/`) e Me
 
 - How-to: [../../../../docs/wiki/how-to/module-docs-deduplication.md](../../../../docs/wiki/how-to/module-docs-deduplication.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Issue [#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124)
 =======
 - Issue [#124](https://github.com/provtv/<repo progetto>/issues/124)
 >>>>>>> laraxot/dev
+=======
+- Issue [#124](https://github.com/provtv/<repo progetto>/issues/124)
+>>>>>>> 72cae4b (.)

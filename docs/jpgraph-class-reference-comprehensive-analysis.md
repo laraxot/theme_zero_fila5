@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "jpgraph class reference - analisi completta 2024"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 

@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "simplechartwidget - analisi problemi e miglioramenti uiux"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 

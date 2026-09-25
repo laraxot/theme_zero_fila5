@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "zero theme - documentation index"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 
@@ -69,6 +72,7 @@ related:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Cms Module](../../../Modules/Cms/docs/README.md)
 - [UI Module](../../../Modules/UI/docs/README.md)
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
@@ -95,6 +99,10 @@ related:
 - [UI Module](../../../Modules/UI/docs/README.md) - Shared UI components
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
 >>>>>>> laraxot/dev
+=======
+- [UI Module](../../../Modules/UI/docs/README.md) - Shared UI components
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> 72cae4b (.)
 - [AGENTS.md](../../../AGENTS.md) - Project guidelines
 
 ---
@@ -152,6 +160,7 @@ Zero theme documentation follows the standard theme structure with focus on:
 ## Related Modules
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [UI Module](../../Modules/UI/docs/00-index.md) - Shared UI components
 - [Xot Module](../../Modules/Xot/docs/00-index.md) - Core utilities
 
@@ -164,11 +173,21 @@ Theme assets are published to: `public_html/themes/Zero/`
 
 ## Asset Publication
 
+=======
+- [UI Module](../../../Modules/UI/docs/00-index.md) - Shared UI components
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Core utilities
+
+## Asset Publication
+
+>>>>>>> 72cae4b (.)
 Theme assets are published to: `public_html/themes/Zero/` (document root repo — **non** `laravel/public/`).
 
 `public_path()` in Laravel punta a `public_html/` via `App\Application::publicPath()`.
 Regola: [Xot wiki — public-path-public-html](../../../Modules/Xot/docs/wiki/rules/public-path-public-html.md).
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 
 Refer to the main theme documentation for build and deployment procedures.
 # 📚 Zero Theme - Documentation Index
@@ -208,10 +227,14 @@ Refer to the main theme documentation for build and deployment procedures.
 
 - [Predict Module](../../Modules/Predict/docs/00-index.md) - Main module
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
 =======
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
 >>>>>>> laraxot/dev
+=======
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> 72cae4b (.)
 - [agents.md](../../../agents.md) - Project guidelines
 
 ---

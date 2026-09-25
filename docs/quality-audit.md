@@ -51,14 +51,20 @@ del tema. In root ci sono anche `phpstan_themes_zero_filtered.json`, artefatto d
 vecchia, e `gitmodules.ini`, che non e' un file che git legge.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 72cae4b (.)
 Risolto il 2 settembre 2026 (story 5.77): resta `_theme_zero.code-workspace` (i due
 differivano solo per il newline finale); i due riassunti in root erano sottoinsiemi
 riga per riga di `docs/conflict-resolution-summary.md`; `phpstan_themes_zero_filtered.json`
 e `gitmodules.ini` rimossi. In `docs/` collassati 18 gruppi di gemelli (maiuscolo/underscore)
 e rinominati 6 file: `bashscripts/docs-audit-naming.sh Zero` → 0/0/0.
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 ### Nessun test
 
 0 file di test su 28 file PHP.

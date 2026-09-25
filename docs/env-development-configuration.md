@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "configurazione envdevelopment - ambiente di sviluppo"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 
@@ -110,12 +113,17 @@ MAIL_FROM_NAME="${APP_NAME}"
 - **Array Cache**: Performance ottimizzata per sviluppo rapido
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 3. Compatibilità con Laravel 12.x
 - Configurazione conforme alle best practices Laravel 12.x
 =======
 ### 3. Compatibilità con Laravel 13.x
 - Configurazione conforme alle best practices Laravel 13.x
 >>>>>>> laraxot/dev
+=======
+### 3. Compatibilità con Laravel 13.x
+- Configurazione conforme alle best practices Laravel 13.x
+>>>>>>> 72cae4b (.)
 - Variabili d'ambiente ottimizzate per ambiente di sviluppo
 - Supporto completo per tutte le funzionalità di Laravel
 
@@ -225,6 +233,7 @@ LOG_LEVEL=debug
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Compatibilità con Laravel 12.x
 
 ### ✅ Compatibile
@@ -235,16 +244,26 @@ LOG_LEVEL=debug
 ### ✅ Compatibile
 - Tutte le funzionalità Laravel 13.x
 >>>>>>> laraxot/dev
+=======
+## Compatibilità con Laravel 13.x
+
+### ✅ Compatibile
+- Tutte le funzionalità Laravel 13.x
+>>>>>>> 72cae4b (.)
 - Configurazione database SQLite standard
 - Supporto completo per Redis
 - Compatibilità con Filament 5.x
 
 ### 🔄 Configurazioni Automatiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Laravel 12.x riconosce automaticamente SQLite
 =======
 - Laravel 13.x riconosce automaticamente SQLite
 >>>>>>> laraxot/dev
+=======
+- Laravel 13.x riconosce automaticamente SQLite
+>>>>>>> 72cae4b (.)
 - Configurazione Redis ottimizzata
 - Supporto per tutte le funzionalità di sviluppo
 

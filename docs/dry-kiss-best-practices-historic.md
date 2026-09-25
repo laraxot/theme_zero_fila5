@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "dry kiss best practices - tema zero"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 

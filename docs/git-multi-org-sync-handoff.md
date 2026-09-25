@@ -11,10 +11,14 @@ issues:
   - "https://github.com/provtv/theme_zero_fila5/issues/12"
 discussions:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "https://github.com/provtv/base_ptv_fila5/discussions/204"
 =======
   - "https://github.com/provtv/<repo progetto>/discussions/204"
 >>>>>>> laraxot/dev
+=======
+  - "https://github.com/provtv/<repo progetto>/discussions/204"
+>>>>>>> 72cae4b (.)
 ---
 
 # Handoff — multi-org sync (STORY-003)
@@ -33,6 +37,7 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 |------|-----|
 | Issue owner | https://github.com/provtv/theme_zero_fila5/issues/12 |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
 | Hub base issue | https://github.com/provtv/base_ptv_fila5/issues/203 |
 | Hub base discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
@@ -41,6 +46,11 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 | Hub base issue | https://github.com/provtv/<repo progetto>/issues/203 |
 | Hub base discussion | https://github.com/provtv/<repo progetto>/discussions/204 |
 >>>>>>> laraxot/dev
+=======
+| Discussion | https://github.com/provtv/<repo progetto>/discussions/204 |
+| Hub base issue | https://github.com/provtv/<repo progetto>/issues/203 |
+| Hub base discussion | https://github.com/provtv/<repo progetto>/discussions/204 |
+>>>>>>> 72cae4b (.)
 | Story monorepo | `docs/stories/STORY-003-multi-org-sync-geo-boundary-bashscripts.md` |
 
 ## Regole rapide
@@ -57,11 +67,14 @@ Tema: sync multi-org + handoff docs.
 ### Playbook push dual-remote (2026-07-22)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Se unpack fallisce → `git push --no-thin`. Se GH008 / LFS missing e un remote sibling ha già il tip → `git lfs fetch <sibling> --all` + `git lfs push <target> --all` + push.
 Canon (caso UI `b874935`): [../../../Modules/UI/docs/wiki/troubleshooting/git-push-lfs-missing-objects.md](../../../Modules/UI/docs/wiki/troubleshooting/git-push-lfs-missing-objects.md).
 Forward-only: niente reset/squash/force per aggirare LFS.
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 
 ### Caso User 2026-07-23 (unrelated)
 

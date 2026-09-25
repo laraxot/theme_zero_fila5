@@ -12,7 +12,10 @@ qmd: "scopo tema zero pub_theme frontoffice folio vite tailwind public_html asse
 # Zero — scopo, confini e come servirlo meglio
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 72cae4b (.)
 > **Nota di verifica 2026-09-17 (`base_restaurant_fila5`)**: gran parte di questo file resta
 > valida (stessa base di codice condivisa fra deployment Laraxot), ma alcuni dettagli citano un
 > altro checkout e vanno letti con cautela:
@@ -32,7 +35,10 @@ qmd: "scopo tema zero pub_theme frontoffice folio vite tailwind public_html asse
 > - Il conteggio "22 file Blade" non corrisponde più a questo checkout (23 oggi); non è un
 >   errore, è drift naturale nel tempo.
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 ## Lo scopo, dedotto dal codice
 
 Zero non contiene PHP: `app/` ha un solo file, `.gitkeep`. Nessun service provider,

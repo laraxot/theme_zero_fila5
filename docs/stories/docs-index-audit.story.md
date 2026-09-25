@@ -17,7 +17,10 @@ family) and grouped them under "Storico / da consolidare" in the new index, each
 at its original path per `docs-archive-policy.md`. Verified via link-vs-filesystem diff that
 all 213 files are reachable from `index.md`.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 72cae4b (.)
 
 ## Update 2026-09-11
 
@@ -40,4 +43,7 @@ brain del monorepo diffida di fidarsi ciecamente della documentazione esistente
 come inventario completo verificato (235 file, tutti i link controllati contro
 il filesystem), stavolta con provenienza scriptata (non a mano) cosi' e'
 riproducibile: vedere quella story per il comando esatto.
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)

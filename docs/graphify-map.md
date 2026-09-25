@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 72cae4b (.)
 ---
 title: "Zero Theme — Mappa Graphify"
 type: guide
@@ -8,7 +11,10 @@ created: 2026-08-03
 updated: 2026-08-03
 qmd: "zero theme zero theme   mappa graphify"
 ---
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 # Zero Theme — Mappa Graphify
 
 **Versione:** 1.0.0 | **Tema:** Zero | **Data:** 2026-08-02

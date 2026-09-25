@@ -12,9 +12,12 @@ Themes follow the same directory structure standards as Modules.
 
 - **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Global Rules**: [Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 - **Global Rules**: [Trigger Map](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 - **Global Rules**: [Trigger Map](../../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
 - **Module Structure Rules**:
@@ -62,10 +65,14 @@ Xot ← UI ← Geo, User, Tenant, Activity, …
 - Il modulo **Geo può dipendere** da UI
 - Componenti geografici (mappe, geocoding, `LocationSelector` con `Comune`) → `Modules/Geo/`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Ref: [`Modules/UI/docs/dependency-rules.md`](../../../laravel/Modules/UI/docs/dependency-rules.md)
 =======
 - Ref: [`Modules/UI/docs/dependency-rules.md`](../../../Modules/UI/docs/dependency-rules.md)
 >>>>>>> laraxot/dev
+=======
+- Ref: [`Modules/UI/docs/dependency-rules.md`](../../../Modules/UI/docs/dependency-rules.md)
+>>>>>>> 72cae4b (.)
 
 ---
 
