@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai methodologies handbook"
 related:
+<<<<<<< HEAD
   - "./00-INDEX.md"
+=======
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -28,7 +31,11 @@ This file is a DRY local index for AI workflows in this module or theme.
 - [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
 - [OpenViking Integration Guide](../../../../docs/openviking-integration.md)
 - [AI Methodologies Integration](../../../../docs/project/ai-methodologies-integration.md)
+<<<<<<< HEAD
 - [Root Docs Index](../../../../docs/index.md)
+=======
+- [Root Docs Index](./index.md)
+>>>>>>> laraxot/dev
 
 ## Local Workflow
 

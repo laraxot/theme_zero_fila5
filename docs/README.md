@@ -1,6 +1,9 @@
 # Theme Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-Theme Documentation-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -33,7 +36,10 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 # Tema Zero - Documentazione
 
 ## Gestionale / replica
@@ -42,7 +48,11 @@ Tema alternativo/sperimentale. Hub: [gestionale-docs-index.md](../../docs/gestio
 
 ## Overview
 
+<<<<<<< HEAD
 Il tema **Zero** è il tema principale di default per l'applicazione Laraxot PTVX.
+=======
+Il tema **Zero** è il tema principale di default per l'applicazione Laraxot.
+>>>>>>> laraxot/dev
 
 ## Scopo (business)
 
@@ -92,4 +102,7 @@ Path in `gitmodules.ini`: `laravel/Themes/Zero` → remote `laraxot/theme_zero_f
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

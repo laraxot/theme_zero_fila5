@@ -3,6 +3,10 @@
 
 # -----------------------------------------------------------------------------
 # Root-level forbidden directories
+<<<<<<< HEAD
+=======
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 bashscripts/
 _bmad-output/
@@ -22,19 +26,37 @@ test-results/
 tests/.claude-audit/
 tests/AuditCoverage/
 
+<<<<<<< HEAD
 # IDE / AI tools
+=======
+# -----------------------------------------------------------------------------
+# IDE / AI tools
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 .cursor/
 .vscode/
 .windsurf/
 .agents/
 
+<<<<<<< HEAD
 # AI / local tooling output
+=======
+# -----------------------------------------------------------------------------
+# AI / local tooling output
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 graphify-out/
 .headroom/
 
+<<<<<<< HEAD
 # Logs, caches and temporary files
+=======
+# -----------------------------------------------------------------------------
+# Logs, caches and temporary files
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 *.log
 *.phar
@@ -51,13 +73,25 @@ logs/
 /cache/
 .git-rewrite/
 
+<<<<<<< HEAD
 # Environment files
+=======
+# -----------------------------------------------------------------------------
+# Environment files
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 .env
 .env.docker
 .env.latest
 
+<<<<<<< HEAD
 # Dependencies / generated assets
+=======
+# -----------------------------------------------------------------------------
+# Dependencies / generated assets
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 vendor/
 node_modules/
@@ -65,11 +99,23 @@ uploads/
 limesurvey/
 build/
 
+<<<<<<< HEAD
 # Package manager files
 
 package-lock.json
 
 # Public HTML generated/vendor assets
+=======
+# -----------------------------------------------------------------------------
+# Package manager files
+# -----------------------------------------------------------------------------
+
+package-lock.json
+
+# -----------------------------------------------------------------------------
+# Public HTML generated/vendor assets
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 public_html/vendor/
 public_html/js/
@@ -78,7 +124,13 @@ public_html/storage/
 public_html/error_log
 public_html/chart/
 
+<<<<<<< HEAD
 # Laravel generated / local files
+=======
+# -----------------------------------------------------------------------------
+# Laravel generated / local files
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 laravel/
 laravel/*.lock
@@ -128,12 +180,22 @@ laravel/_ide_helper_models.php
 
 # -----------------------------------------------------------------------------
 # PHP / static analysis / quality tools
+<<<<<<< HEAD
+=======
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 phpstan*.json
 phpinsights.php
 rector.php
 
+<<<<<<< HEAD
 # Documentation / generated screenshots
+=======
+# -----------------------------------------------------------------------------
+# Documentation / generated screenshots
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
 
 docs/screenshots/
 .cursor
@@ -189,3 +251,9 @@ docs/graphify/graphify-out/
 /.vscode/
 .cursor~*
 .windsurf~*
+<<<<<<< HEAD
+=======
+
+# Artefatti audit vietati (rule: tests-auditcoverage-forbidden)
+audit-coverage/
+>>>>>>> laraxot/dev
