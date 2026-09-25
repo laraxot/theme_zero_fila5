@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "guida completa multiple labels con chartjs-plugin-datalabels in filament 5x tema zero"
 related:
+<<<<<<< HEAD
   - "./00-INDEX.md"
+=======
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 

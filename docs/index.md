@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Indice della Documentazione - Tema Zero
 
 > **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
@@ -363,6 +366,7 @@ related:
 - [wiki/sources/context-compression-and-retrieval](./wiki/sources/context-compression-and-retrieval.md)
 - [wiki/sources/laravel13-theme-zero-composer-audit](./wiki/sources/laravel13-theme-zero-composer-audit.md)
 - [wiki/sources/theme-zero-product-and-roadmap-docs](./wiki/sources/theme-zero-product-and-roadmap-docs.md)
+<<<<<<< HEAD
 =======
 ---
 title: "Zero Theme — Documentation Index"
@@ -645,4 +649,21 @@ Restano raggiungibili ai path indicati.
 - [filament-5-nested-resources.md](./filament-5-nested-resources.md) — superseded by [filament-5-nested-resources-complete-guide.md](./filament-5-nested-resources-complete-guide.md)
 
 Nota: nessun file .md e' stato cancellato, rinominato o spostato per produrre questo indice.
+>>>>>>> laraxot/dev
+=======
+---
+title: "Zero Theme — Documentation Index"
+type: index
+status: superseded
+canonical: ./00-index.md
+---
+
+# Indice (puntatore — vietato duplicare)
+
+SSoT: [00-index.md](./00-index.md).
+
+Questo file era un indice storico duplicato (648 righe, marker di conflitto mai
+risolti tra due varianti in italiano). La nota nella versione HEAD lo dichiarava
+già ridondante rispetto a `00-index.md` (canonico). Consolidato qui come
+puntatore per non rompere i link esistenti.
 >>>>>>> laraxot/dev

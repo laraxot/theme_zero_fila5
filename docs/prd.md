@@ -138,7 +138,11 @@ The Zero theme provides a consistent, maintainable frontend experience using Bla
 ## 5. Technical Considerations
 
 ### Dependencies
+<<<<<<< HEAD
 - Laravel 12+
+=======
+- Laravel 13+
+>>>>>>> laraxot/dev
 - Blade templates
 - Tailwind CSS v4
 - Vite build tool

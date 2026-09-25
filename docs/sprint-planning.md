@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Sprint Planning - Theme Zero"
 type: guide
 tags: ['charts']
@@ -11,6 +12,30 @@ related:
 ---
 
 # Sprint Planning - Theme Zero
+=======
+title: "Sprint Planning — Theme Zero"
+type: reference
+status: active
+created: 2026-07-14
+updated: 2026-09-11
+qmd: "sprint planning theme zero"
+related:
+  - "./prd.md"
+  - "./product-roadmap.md"
+  - "./philosophy.md"
+  - "./sprint-planning-meeting.md"
+---
+
+# Sprint Planning — Theme Zero
+
+> Nota 2026-09-11: questo file era vuoto (bug reale, vedi
+> [stories/docs-theme-zero-audit-2026-09-11.story.md](./stories/docs-theme-zero-audit-2026-09-11.story.md)).
+> Il contenuto sotto e' stato recuperato da `sprint_planning.md`, marcato
+> "deprecated/renamed to sprint-planning.md" ma mai effettivamente migrato. Le
+> date/sprint sotto sono materiale storico di pianificazione (Q2 2026), non
+> necessariamente lo stato corrente dello sviluppo: verificare prima di
+> considerarle un piano attivo.
+>>>>>>> laraxot/dev
 
 ## Ultra-Minimalist Theme
 
