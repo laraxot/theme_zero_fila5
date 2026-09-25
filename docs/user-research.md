@@ -1,27 +1,16 @@
 ---
-title: "User Research — Theme Zero"
-type: reference
-status: active
+title: "User Research - Theme Zero"
+type: guide
+tags: ['laravel', 'charts', 'testing']
 created: 2026-07-14
-updated: 2026-09-11
-qmd: "user research theme zero"
+updated: 2026-07-14
+qmd: "user research - theme zero"
 related:
-  - "./prd.md"
-  - "./product-roadmap.md"
-  - "./product-strategy.md"
-  - "./sprint-planning.md"
-  - "./philosophy.md"
+  - "./00-INDEX.md"
+  - "./00-index.md"
 ---
 
-# User Research — Theme Zero
-
-> Nota 2026-09-11: questo file era vuoto (bug reale, vedi
-> [stories/docs-theme-zero-audit-2026-09-11.story.md](./stories/docs-theme-zero-audit-2026-09-11.story.md)).
-> Il contenuto sotto e' stato recuperato da `user_research.md`, marcato
-> "deprecated/renamed to user-research.md" ma mai effettivamente migrato. I
-> dati (partecipanti, quote, metriche) sono materiale storico di ricerca (Q1
-> 2026), non verificato/rieseguito in questa sessione: trattarli come input
-> storico, non come dato corrente.
+# User Research - Theme Zero
 
 ## Ultra-Minimalist Theme
 
