@@ -6,7 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "limesurvey charts pdf integration - zero theme"
 related:
+<<<<<<< HEAD
   - "./00-INDEX.md"
+=======
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
