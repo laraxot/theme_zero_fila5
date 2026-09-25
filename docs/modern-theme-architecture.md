@@ -6,12 +6,34 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "architettura moderna dei temi - zero theme"
 related:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - "./00-INDEX.md"
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
 # Architettura Moderna dei Temi - Zero Theme
 
+<<<<<<< HEAD
 Il tema Zero segue i principi di modularità e performance introdotti con Laravel 13 e Filament 5.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il tema Zero segue i principi di modularità e performance introdotti con Laravel 12 e Filament 5.
+=======
+Il tema Zero segue i principi di modularità e performance introdotti con Laravel 13 e Filament 5.
+>>>>>>> laraxot/dev
+=======
+Il tema Zero segue i principi di modularità e performance introdotti con Laravel 13 e Filament 5.
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 
 ## 1. Asset Management (Vite + Tailwind CSS v4)
 Il tema utilizza Vite per il build degli asset e Tailwind CSS v4 per il design system.

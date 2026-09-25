@@ -14,8 +14,23 @@ qmd search "Zero concepts" --limit 5
 
 ---
 *Updated: 2026-05-11*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 
 - [Filament 5 Schema (non Form)](./filament-v5-schema-not-form.md) — correzione vs docs legacy Schema→Form
 
 ---
 *Updated: 2026-07-24*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev

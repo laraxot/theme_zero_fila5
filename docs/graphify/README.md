@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Graphify Knowledge Graph
+
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Graphify Knowledge Graph"
 type: index
@@ -8,6 +17,22 @@ qmd: "zero theme graphify knowledge graph"
 ---
 # Graphify Knowledge Graph
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+---
+title: "Graphify Knowledge Graph"
+type: index
+tags: [theme, zero, readme]
+created: 2026-08-03
+updated: 2026-09-02
+qmd: "zero theme graphify knowledge graph"
+---
+# Graphify Knowledge Graph
+
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-Graphify Knowledge Graph-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -40,11 +65,31 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Overview
+
+=======
+>>>>>>> laraxot/dev
 ## Overview
 
 > `graphify-out/` è output generato (`graphify extract`), ignorato da `.gitignore`
 > del tema e non versionato dal 2 settembre 2026 (story 5.77). Si rigenera, non si committa.
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+## Overview
+
+> `graphify-out/` è output generato (`graphify extract`), ignorato da `.gitignore`
+> del tema e non versionato dal 2 settembre 2026 (story 5.77). Si rigenera, non si committa.
+
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 This directory contains the knowledge graph for the **Zero** theme, generated using [Graphify](https://graphify.dev/). The graph provides a comprehensive visualization of code dependencies, architecture, and relationships within the theme.
 
 ## Quick Start
@@ -110,3 +155,10 @@ For more information about this theme, see:
 - [Graphify Documentation](https://graphify.dev/)
 - [Theme Structure Guidelines](../../../../docs/wiki/rules/theme-structure.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
