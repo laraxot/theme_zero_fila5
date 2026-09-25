@@ -6,6 +6,16 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme - documentation index"
 related:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - "./00-INDEX.md"
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -63,8 +73,44 @@ related:
 
 ### Related Resources
 
+<<<<<<< HEAD
 - [UI Module](../../../Modules/UI/docs/README.md) - Shared UI components
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Cms Module](../../../Modules/Cms/docs/README.md)
+- [UI Module](../../../Modules/UI/docs/README.md)
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+- [Cms Module](../../Modules/Cms/docs/README.md)
+- [UI Module](../../Modules/UI/docs/README.md)
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+- [agents.md](../../../agents.md) - Project guidelines
+
+=======
+- [Restaurant Module](../../Modules/Restaurant/docs/00-INDEX.md) - Floor plan, competitor analysis
+- [UI Module](../../Modules/UI/docs/00-index.md) - Shared UI components
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Core utilities
+>>>>>>> laraxot/dev
+=======
+- [UI Module](../../../Modules/UI/docs/README.md) - Shared UI components
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> laraxot/dev
+=======
+- [UI Module](../../../Modules/UI/docs/README.md) - Shared UI components
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 - [AGENTS.md](../../../AGENTS.md) - Project guidelines
 
 ---
@@ -121,15 +167,44 @@ Zero theme documentation follows the standard theme structure with focus on:
 
 ## Related Modules
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [UI Module](../../Modules/UI/docs/00-index.md) - Shared UI components
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Core utilities
+
+## Asset Publication
+
+Theme assets are published to: `public_html/themes/Zero/`
+=======
+>>>>>>> laraxot/dev
 - [UI Module](../../../Modules/UI/docs/00-index.md) - Shared UI components
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Core utilities
 
 ## Asset Publication
 
+<<<<<<< HEAD
+=======
+=======
+- [UI Module](../../../Modules/UI/docs/00-index.md) - Shared UI components
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Core utilities
+
+## Asset Publication
+
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 Theme assets are published to: `public_html/themes/Zero/` (document root repo — **non** `laravel/public/`).
 
 `public_path()` in Laravel punta a `public_html/` via `App\Application::publicPath()`.
 Regola: [Xot wiki — public-path-public-html](../../../Modules/Xot/docs/wiki/rules/public-path-public-html.md).
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 
 Refer to the main theme documentation for build and deployment procedures.
 # 📚 Zero Theme - Documentation Index
@@ -168,7 +243,19 @@ Refer to the main theme documentation for build and deployment procedures.
 ## 🔗 Riferimenti
 
 - [Predict Module](../../Modules/Predict/docs/00-index.md) - Main module
+<<<<<<< HEAD
 - [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Xot Module](../../Modules/Xot/docs/00-index.md) - Base classes
+=======
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> laraxot/dev
+=======
+- [Xot Module](../../../Modules/Xot/docs/00-index.md) - Base classes
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 - [agents.md](../../../agents.md) - Project guidelines
 
 ---

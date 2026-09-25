@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 ---
 title: "Code quality — tema Zero"
 type: report
@@ -6,6 +14,13 @@ created: 2026-07-24
 updated: 2026-07-24
 qmd: "zero theme code quality   tema zero"
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 # Code quality — tema Zero
 
 Report locale (2026-07-17). Metodo: `phpstan analyse` (sweep repo-wide, incluso nei Themes), `phpmd` (codesize+unusedcode), grep mirati (TODO/FIXME, dd()/dump() nei .blade.php, facade dirette in app/Actions).

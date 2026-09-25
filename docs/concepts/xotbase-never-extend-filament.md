@@ -14,7 +14,19 @@ related:
 
 # Mai `Filament\*` — sempre `Modules\Xot\Filament\...\XotBase*`
 
+<<<<<<< HEAD
 Bridge on-demand. Contenuto canonico: [docs/wiki/rules/xotbase-critical-rules.md](../../../../../docs/wiki/rules/xotbase-critical-rules.md).
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Bridge on-demand. Contenuto canonico: [docs/wiki/rules/xotbase-critical-rules.md](../../../../docs/wiki/rules/xotbase-critical-rules.md).
+=======
+Bridge on-demand. Contenuto canonico: [docs/wiki/rules/xotbase-critical-rules.md](../../../../../docs/wiki/rules/xotbase-critical-rules.md).
+>>>>>>> laraxot/dev
+=======
+Bridge on-demand. Contenuto canonico: [docs/wiki/rules/xotbase-critical-rules.md](../../../../../docs/wiki/rules/xotbase-critical-rules.md).
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 
 ## Zen (riassunto)
 

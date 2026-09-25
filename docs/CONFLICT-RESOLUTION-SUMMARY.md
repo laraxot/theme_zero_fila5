@@ -1,4 +1,26 @@
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
+type: guide
+=======
+title: "CONFLICT-RESOLUTION-SUMMARY (deprecated)"
+type: reference
+status: deprecated
+>>>>>>> 72cae4b (.)
+tags: ['filament', 'laravel', 'testing', 'phpstan']
+created: 2026-07-14
+updated: 2026-09-11
+qmd: "deprecated case-variant of conflict-resolution-summary.md"
+related:
+  - "./conflict-resolution-summary.md"
+---
+
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 title: "CONFLICT-RESOLUTION-SUMMARY (deprecated)"
 type: reference
 status: deprecated
@@ -10,6 +32,11 @@ related:
   - "./conflict-resolution-summary.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 > Variante `UPPERCASE` non canonica, quasi identica a
 > [conflict-resolution-summary.md](conflict-resolution-summary.md) (canonica,
 > kebab-case). Non era marcata deprecata nonostante le altre 3 varianti
@@ -18,6 +45,13 @@ related:
 > [stories/docs-theme-zero-audit-2026-09-11.story.md](./stories/docs-theme-zero-audit-2026-09-11.story.md).
 > Contenuto storico lasciato intatto sotto, non cancellato.
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅

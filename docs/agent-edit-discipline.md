@@ -6,7 +6,19 @@ updated: 2026-05-21
 
 # Disciplina edit e qualità (puntatore)
 
+<<<<<<< HEAD
 Stub **DRY**: policy nella wiki di progetto; discussioni GitHub issue [#124](https://github.com/provtv/<repo progetto>/issues/138).
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Stub **DRY**: policy nella wiki di progetto; discussioni GitHub issue [#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124) e [#138](https://github.com/provtv/base_ptv_fila5_mono/issues/138).
+=======
+Stub **DRY**: policy nella wiki di progetto; discussioni GitHub issue [#124](https://github.com/provtv/<repo progetto>/issues/138).
+>>>>>>> laraxot/dev
+=======
+Stub **DRY**: policy nella wiki di progetto; discussioni GitHub issue [#124](https://github.com/provtv/<repo progetto>/issues/138).
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 
 ## Link operativi
 

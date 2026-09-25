@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 # Zero
 
 [![Module](https://img.shields.io/badge/Module-Zero-8B0000.svg)]()
@@ -32,6 +42,17 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+---
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 title: "Headroom - Tema Zero"
 type: how-to
 tags: [headroom, theme, zero, codex, mcp]
@@ -45,6 +66,16 @@ discussions:
   - "https://github.com/provtv/base_ptv_fila5/discussions/219"
 related:
   - "../../../../../docs/HEADROOM-INTEGRATION.md"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+---
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
+>>>>>>> laraxot/dev
 
 # Headroom - Tema Zero
 
@@ -65,3 +96,10 @@ headroom perf --hours 24
 - Guida root: `../../../../../docs/HEADROOM-INTEGRATION.md`.
 - Non documentare comandi per-tema non presenti nel CLI Headroom.
 - Coordinare modifiche su issue #218 e discussion #219.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
