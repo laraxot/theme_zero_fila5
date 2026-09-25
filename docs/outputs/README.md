@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # LLM Wiki Outputs
 
 <<<<<<< HEAD
@@ -14,6 +15,18 @@ qmd: "zero theme llm wiki outputs"
 # LLM Wiki Outputs
 
 >>>>>>> laraxot/dev
+=======
+---
+title: "LLM Wiki Outputs"
+type: index
+tags: [theme, zero, readme]
+created: 2026-07-01
+updated: 2026-07-01
+qmd: "zero theme llm wiki outputs"
+---
+# LLM Wiki Outputs
+
+>>>>>>> 72cae4b (.)
 [![Module](https://img.shields.io/badge/Module-LLM Wiki Outputs-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -47,7 +60,10 @@ Core module for the FixCity Platform.
 
 **Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 72cae4b (.)
 Persistent answers, research reports, and generated summaries derived from this package wiki belong here.
 
 Outputs should cite the wiki or raw files they used, so later agents can audit the reasoning.

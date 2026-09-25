@@ -41,10 +41,14 @@
 		"git.ignoreLimitWarning": true,
 		"deepscan.enable": true
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 72cae4b (.)
 	},
 	"extensions": {
 		"recommendations": [

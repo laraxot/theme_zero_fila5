@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "filament installation and chart widget integration guide for zero theme"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 

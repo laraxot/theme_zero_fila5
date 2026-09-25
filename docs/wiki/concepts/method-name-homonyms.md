@@ -39,9 +39,12 @@ La ridondanza di business logic da monitorare sta nei **moduli** Laravel (`Sigma
 - [Indice censimento progetto](../../../docs/wiki/method-name-homonym-census.md)
 - [Ridondanza tema](./code-redundancy-theme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Sigma — omonimi relazioni](../../../../laravel/Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
 - [Indice censimento progetto](../../../docs/wiki/method-name-homonym-census.md)
 =======
+=======
+>>>>>>> 72cae4b (.)
 - [Sigma — omonimi relazioni](../../../../../Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
 - [Indice censimento progetto](../../../../../../docs/wiki/method-name-homonym-census.md)
 - [Ridondanza tema](./code-redundancy-theme.md)
@@ -53,11 +56,15 @@ La ridondanza di business logic da monitorare sta nei **moduli** Laravel (`Sigma
 - [Ridondanza tema](./code-redundancy-theme.md)
 - [Sigma — omonimi relazioni](../../../../../Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
 - [Indice censimento progetto](../../../../../../docs/wiki/method-name-homonym-census.md)
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 - [Ridondanza tema](./code-redundancy-theme.md)
 - [Sigma — omonimi relazioni](../../../../laravel/Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
 - [Indice censimento progetto](../../../../docs/wiki/method-name-homonym-census.md)
 - [Ridondanza tema](./code-redundancy-theme.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Sigma — omonimi relazioni](../../../Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
 - [Indice censimento progetto](../../../docs/wiki/method-name-homonym-census.md)
@@ -72,6 +79,9 @@ La ridondanza di business logic da monitorare sta nei **moduli** Laravel (`Sigma
 =======
 - [Sigma — omonimi relazioni](../../../../../Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
 >>>>>>> laraxot/dev
+=======
+- [Sigma — omonimi relazioni](../../../../../Modules/Sigma/docs/wiki/concepts/method-name-homonyms.md)
+>>>>>>> 72cae4b (.)
 
 ## Rigenerazione
 

@@ -39,10 +39,15 @@ In root ci sono anche `phpstan_themes_zero_filtered.json`, artefatto di una run 
 `gitmodules.ini`, che non è un file che git legge.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Risolto il 2 settembre 2026 (story 5.77): vedi `quality-audit.md`.
 
 >>>>>>> laraxot/dev
+=======
+Risolto il 2 settembre 2026 (story 5.77): vedi `quality-audit.md`.
+
+>>>>>>> 72cae4b (.)
 ## Cosa fare, in ordine di resa
 
 1. **Zero test su 28 file PHP.** Qualunque punteggio di qualità qui descrive la forma del codice, non il suo comportamento.

@@ -16,10 +16,14 @@ related:
 
 Stub DRY. Regola canonica: [../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
 <<<<<<< HEAD
+<<<<<<< HEAD
 Stub DRY. Regola canonica: [../../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../../docs/wiki/rules/agent-confidence-protocol.md).
 =======
 Stub DRY. Regola canonica: [../../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
 >>>>>>> laraxot/dev
+=======
+Stub DRY. Regola canonica: [../../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
+>>>>>>> 72cae4b (.)
 Stub DRY. Regola canonica: [../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../docs/wiki/rules/agent-confidence-protocol.md).
 Stub DRY. Regola canonica: [../../../../../docs/wiki/rules/agent-confidence-protocol.md](../../../../../docs/wiki/rules/agent-confidence-protocol.md).
 

@@ -65,10 +65,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 <<<<<<< HEAD
+<<<<<<< HEAD
 # base_healthcare_app_fila5_mono
 =======
 # <repo progetto>
 >>>>>>> laraxot/dev
+=======
+# <repo progetto>
+>>>>>>> 72cae4b (.)
 # healthcare_app Fila3 Mono Project
 
 ## Overview
@@ -241,9 +245,14 @@ For support and questions, please refer to the project documentation or contact 
 
 *Last updated: January 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
 # base_healthcare_app_fila5_mono
 # base_healthcare_app_fila5_mono
 =======
 # <repo progetto>
 # <repo progetto>
 >>>>>>> laraxot/dev
+=======
+# <repo progetto>
+# <repo progetto>
+>>>>>>> 72cae4b (.)

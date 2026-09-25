@@ -8,12 +8,17 @@ updated: 2026-07-27
 qmd: "code quality baseline PHPStan Pest strict types Laraxot Zero git remote"
 story: STORY-001
 <<<<<<< HEAD
+<<<<<<< HEAD
 # GRAVE: issue/discussion del tema — mai base_techplanner / base_workorder / mono.
 # GRAVE: issue/discussion del tema — mai base_ptvx / base_workorder / mono.
 =======
 # GRAVE: issue/discussion del tema — mai base_techplanner / base_<nome progetto> / mono.
 # GRAVE: issue/discussion del tema — mai base_ptvx / base_<nome progetto> / mono.
 >>>>>>> laraxot/dev
+=======
+# GRAVE: issue/discussion del tema — mai base_techplanner / base_<nome progetto> / mono.
+# GRAVE: issue/discussion del tema — mai base_ptvx / base_<nome progetto> / mono.
+>>>>>>> 72cae4b (.)
 # Resolve: cd laravel/Themes/Zero && git remote -v → laraxot/theme_zero_fila5
 issues: []
 discussions: []
@@ -36,12 +41,17 @@ cd laravel/Themes/Zero && git remote -v
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_ptvx_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 =======
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_<nome progetto>_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_ptvx_*` vs `base_<nome progetto>_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 >>>>>>> laraxot/dev
+=======
+**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_<nome progetto>_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
+**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_ptvx_*` vs `base_<nome progetto>_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
+>>>>>>> 72cae4b (.)
 
 ## Baseline
 

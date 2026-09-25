@@ -8,6 +8,7 @@ qmd: "documentation"
 related:
   - "./00-index.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-index.md"
 ---
 
@@ -15,5 +16,7 @@ related:
   - "./00-index.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 ---
 

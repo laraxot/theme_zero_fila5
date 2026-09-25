@@ -9,9 +9,12 @@ related:
   - "./schema.md"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./SCHEMA.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./bmad-method.md"
   - "./log.md"
 ---

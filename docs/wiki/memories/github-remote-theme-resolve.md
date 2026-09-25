@@ -6,12 +6,17 @@ theme: Zero
 created: 2026-07-27
 updated: 2026-07-27
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "theme Zero git remote theme_zero_fila5 never base_techplanner base_workorder"
 qmd: "theme Zero git remote theme_zero_fila5 never base_project base_workorder"
 =======
 qmd: "theme Zero git remote theme_zero_fila5 never base_techplanner base_<nome progetto>"
 qmd: "theme Zero git remote theme_zero_fila5 never base_project base_<nome progetto>"
 >>>>>>> laraxot/dev
+=======
+qmd: "theme Zero git remote theme_zero_fila5 never base_techplanner base_<nome progetto>"
+qmd: "theme Zero git remote theme_zero_fila5 never base_project base_<nome progetto>"
+>>>>>>> 72cae4b (.)
 related:
   - ../../code-quality-improvement-report.md
   - ../../../../../../docs/wiki/memories/module-github-remote-discipline.md
@@ -26,11 +31,16 @@ cd laravel/Themes/Zero && git remote -v
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 In un conflitto su URL `base_techplanner_*` vs `base_workorder_*`, *entrambe* le parti possono essere false. Non scegliere a caso: rieseguire `git remote -v`.
 In un conflitto su URL `base_project_*` vs `base_workorder_*`, *entrambe* le parti possono essere false. Non scegliere a caso: rieseguire `git remote -v`.
 =======
 In un conflitto su URL `base_techplanner_*` vs `base_<nome progetto>_*`, *entrambe* le parti possono essere false. Non scegliere a caso: rieseguire `git remote -v`.
 In un conflitto su URL `base_project_*` vs `base_<nome progetto>_*`, *entrambe* le parti possono essere false. Non scegliere a caso: rieseguire `git remote -v`.
 >>>>>>> laraxot/dev
+=======
+In un conflitto su URL `base_techplanner_*` vs `base_<nome progetto>_*`, *entrambe* le parti possono essere false. Non scegliere a caso: rieseguire `git remote -v`.
+In un conflitto su URL `base_project_*` vs `base_<nome progetto>_*`, *entrambe* le parti possono essere false. Non scegliere a caso: rieseguire `git remote -v`.
+>>>>>>> 72cae4b (.)
 
 Canon: [module-github-remote-discipline](../../../../../../docs/wiki/memories/module-github-remote-discipline.md) · skill [module-theme-git-remote-resolve](../../../../../../docs/wiki/skills/module-theme-git-remote-resolve.md).

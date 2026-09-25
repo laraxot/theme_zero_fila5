@@ -16,10 +16,14 @@ related:
 # Omonimi metodi PHP — Theme Zero
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Stesso contratto di [Theme One — impatto temi](../../../One/docs/wiki/concepts/php-method-name-homonyms-theme-impact.md).
 =======
 Stesso contratto di [Theme One — impatto temi](../../../../One/docs/wiki/concepts/php-method-name-homonyms-theme-impact.md).
 >>>>>>> laraxot/dev
+=======
+Stesso contratto di [Theme One — impatto temi](../../../../One/docs/wiki/concepts/php-method-name-homonyms-theme-impact.md).
+>>>>>>> 72cae4b (.)
 
 Censimento canon: [method-name-homonym-census](../../../../../docs/wiki/analysis/method-name-homonym-census.md).
 Censimento canon: [method-name-homonym-census](../../../../../../docs/wiki/analysis/method-name-homonym-census.md).

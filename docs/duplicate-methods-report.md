@@ -8,11 +8,14 @@ qmd: "report metodi con nome duplicato nei moduli e nei temi"
 related:
   - "./00-index.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   - "./00-INDEX.md"
   - "./00-index.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 ---
 
 # Report: Metodi con nome duplicato nei moduli e nei temi

@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
 # Indice della Documentazione - Tema Zero
 
 > **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
@@ -367,6 +370,7 @@ related:
 - [wiki/sources/laravel13-theme-zero-composer-audit](./wiki/sources/laravel13-theme-zero-composer-audit.md)
 - [wiki/sources/theme-zero-product-and-roadmap-docs](./wiki/sources/theme-zero-product-and-roadmap-docs.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Zero Theme — Documentation Index"
@@ -651,6 +655,8 @@ Restano raggiungibili ai path indicati.
 Nota: nessun file .md e' stato cancellato, rinominato o spostato per produrre questo indice.
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> 72cae4b (.)
 ---
 title: "Zero Theme — Documentation Index"
 type: index
@@ -666,4 +672,7 @@ Questo file era un indice storico duplicato (648 righe, marker di conflitto mai
 risolti tra due varianti in italiano). La nota nella versione HEAD lo dichiarava
 già ridondante rispetto a `00-index.md` (canonico). Consolidato qui come
 puntatore per non rompere i link esistenti.
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)

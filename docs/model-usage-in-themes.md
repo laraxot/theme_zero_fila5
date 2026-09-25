@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "model usage in themes - best practices"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 
@@ -67,6 +70,7 @@ namespace Modules\User\Filament\Widgets\Auth;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 use Modules\Xot\Contracts\UserContract;
@@ -75,6 +79,10 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
 class LoginWidget extends XotBaseWidget
@@ -128,6 +136,7 @@ For Folio pages that need data, use route model binding or controller-like logic
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 use Modules\Xot\Contracts\UserContract;
@@ -136,6 +145,10 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
 use function Laravel\Folio\{name, render};
 
 name('users.show');
@@ -156,6 +169,7 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 **Key Points:**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Import model from module: `use Modules\User\Models\User;`
 =======
 - ✅ Import model from module: `use Modules\Xot\Contracts\UserContract;`
@@ -164,6 +178,10 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 - ✅ Import model from module: `use Modules\User\Models\User;`
 - ✅ Import model from module: `use Modules\Xot\Contracts\UserContract;`
 >>>>>>> laraxot/dev
+=======
+- ✅ Import model from module: `use Modules\User\Models\User;`
+- ✅ Import model from module: `use Modules\Xot\Contracts\UserContract;`
+>>>>>>> 72cae4b (.)
 - ✅ Use route model binding for automatic loading
 - ✅ Pass data to view as variables
 - ❌ Never instantiate models directly in Blade templates
@@ -177,6 +195,7 @@ For data needed across multiple views (e.g., navigation, user info).
 use Illuminate\Support\Facades\View;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 use Modules\Xot\Contracts\UserContract;
@@ -185,6 +204,10 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
 
 public function boot(): void
 {
@@ -310,6 +333,7 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 // Folio page
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 use Modules\Xot\Contracts\UserContract;
@@ -318,6 +342,10 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
 
 render(fn () => view('pub_theme::pages.users.index', [
     'users' => User::query()->latest()->paginate(20),
@@ -345,6 +373,7 @@ render(fn () => view('pub_theme::pages.users.index', [
    ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    use Modules\User\Models\User;
 =======
    use Modules\Xot\Contracts\UserContract;
@@ -353,6 +382,10 @@ render(fn () => view('pub_theme::pages.users.index', [
    use Modules\User\Models\User;
    use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+   use Modules\User\Models\User;
+   use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
    use Modules\Cms\Models\Post;
    ```
 
@@ -473,6 +506,7 @@ test('login widget provides form to theme view', function () {
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 use Modules\Xot\Contracts\UserContract;
@@ -481,6 +515,10 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
 
 test('user profile page displays user data', function () {
     $user = User::factory()->create(['name' => 'John Doe']);
@@ -585,6 +623,7 @@ use Modules\User\Models\CustomUser;  // ✅ NEW
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\User;
 =======
 use Modules\Xot\Contracts\UserContract;
@@ -593,6 +632,10 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> 72cae4b (.)
 ```
 
 ### Problem: "Connection not found" error
@@ -668,16 +711,21 @@ When working with data in theme views:
 - [DRY/KISS Model Refactoring Analysis](../../../laravel/Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Widget Structure (User Module)](../../../laravel/Modules/User/docs/widgets_structure.md)
+=======
+- [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
+>>>>>>> 72cae4b (.)
 - [Filament Authentication Best Practices](../../../laravel/Modules/Cms/docs/frontoffice/filament-auth.md)
-- [Model Inheritance Rules (User Module)](../../Modules/User/docs/model-inheritance-rules.md)
-- [DRY/KISS Model Refactoring Analysis](../../Modules/Xot/docs/dry-kiss-model-refactoring.md)
+- [Model Inheritance Rules (User Module)](../../../Modules/User/docs/model-inheritance-rules.md)
+- [DRY/KISS Model Refactoring Analysis](../../../Modules/Xot/docs/dry-kiss-model-refactoring.md)
 - [Theme Architecture](./architecture.md)
-- [Widget Structure (User Module)](../../Modules/User/docs/widgets_structure.md)
+- [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
 - [Filament Authentication Best Practices](../../Modules/Cms/docs/frontoffice/filament-auth.md)
-- [Model Inheritance Rules (User Module)](../../../laravel/Modules/User/docs/model-inheritance-rules.md)
+- [Model Inheritance Rules (User Module)](../../../Modules/User/docs/model-inheritance-rules.md)
 - [DRY/KISS Model Refactoring Analysis](../../../laravel/Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
 - [Theme Architecture](./architecture.md)
+<<<<<<< HEAD
 - [Widget Structure (User Module)](../../../laravel/Modules/User/docs/widgets_structure.md)
 =======
 - [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
@@ -701,6 +749,14 @@ When working with data in theme views:
 =======
 - [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
 >>>>>>> laraxot/dev
+=======
+- [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
+- [Filament Authentication Best Practices](../../../laravel/Modules/Cms/docs/frontoffice/filament-auth.md)
+- [Model Inheritance Rules (User Module)](../../Modules/User/docs/model-inheritance-rules.md)
+- [DRY/KISS Model Refactoring Analysis](../../Modules/Xot/docs/dry-kiss-model-refactoring-2025-10-15.md)
+- [Theme Architecture](./architecture.md)
+- [Widget Structure (User Module)](../../../Modules/User/docs/widgets_structure.md)
+>>>>>>> 72cae4b (.)
 - [Filament Authentication Best Practices](../../Modules/Cms/docs/frontoffice/filament-auth.md)
 
 ---

@@ -7,9 +7,12 @@ updated: 2026-07-14
 qmd: "accessor delegation pattern - zero theme"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./00-INDEX.md"
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 72cae4b (.)
   - "./00-index.md"
 ---
 
