@@ -1,6 +1,7 @@
 ---
 title: "Filament Resource: Schemas e Tables (tema Zero)"
 type: guide
+<<<<<<< HEAD
 description: "Convenzione Schemas/Tables Filament per tema Zero; eccezione scheda BaseSchedaForm/Infolist."
 status: stable
 tags: [filament, schemas, tables, theme-zero]
@@ -14,6 +15,15 @@ related:
   - ../../Modules/IndennitaResponsabilita/docs/base-scheda-infolist-inheritance.md
   - ../One/docs/filament-resource-schemas-tables.md
   - ../../../docs/wiki/rules/markdown-file-naming-and-frontmatter.md
+=======
+tags: ['filament']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament resource schemas e tables tema zero"
+related:
+  - "./00-INDEX.md"
+  - "./00-index.md"
+>>>>>>> laraxot/dev
 ---
 
 # Filament Resource: Schemas e Tables (tema Zero)
@@ -67,8 +77,16 @@ Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTable
 - [Xot – Filament v5 hybrid pattern](../../../laravel/Modules/Xot/docs/wiki/concepts/filament-v5-hybrid-pattern.md)
 - [Progressioni – inventario scaffold](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
 - [Progressioni – wire pilota Assenze](../../Modules/Progressioni/docs/filament-resource-wire-assenze.md)
+<<<<<<< HEAD
 - [One – stesso pattern](../../One/docs/filament-resource-schemas-tables.md)
 - [Three – stesso pattern](../../Three/docs/filament-resource-schemas-tables.md)
 - [Cursor rule](../../../.cursor/rules/filament-resource-schemas-tables.mdc)
 
 *Ultimo aggiornamento: 2026-09-01*
+=======
+- [One – stesso pattern](../One/docs/filament-resource-schemas-tables.md)
+- [Three – stesso pattern](../Three/docs/filament-resource-schemas-tables.md)
+- [Cursor rule](../../../.cursor/rules/filament-resource-schemas-tables.mdc)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> laraxot/dev

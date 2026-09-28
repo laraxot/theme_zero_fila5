@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "User Research — Theme Zero"
 type: reference
 status: active
@@ -22,6 +23,20 @@ related:
 > dati (partecipanti, quote, metriche) sono materiale storico di ricerca (Q1
 > 2026), non verificato/rieseguito in questa sessione: trattarli come input
 > storico, non come dato corrente.
+=======
+title: "User Research - Theme Zero"
+type: guide
+tags: ['laravel', 'charts', 'testing']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "user research - theme zero"
+related:
+  - "./00-INDEX.md"
+  - "./00-index.md"
+---
+
+# User Research - Theme Zero
+>>>>>>> laraxot/dev
 
 ## Ultra-Minimalist Theme
 
