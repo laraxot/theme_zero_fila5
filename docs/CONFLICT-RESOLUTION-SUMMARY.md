@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "CONFLICT-RESOLUTION-SUMMARY (deprecated)"
 type: reference
 status: deprecated
@@ -17,6 +18,20 @@ related:
 > fossero gia' — corretto 2026-09-11, vedi
 > [stories/docs-theme-zero-audit-2026-09-11.story.md](./stories/docs-theme-zero-audit-2026-09-11.story.md).
 > Contenuto storico lasciato intatto sotto, non cancellato.
+=======
+title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
+type: guide
+tags: ['filament', 'laravel', 'testing', 'phpstan']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "riepilogo risoluzione conflitti git - filament 4"
+related:
+  - "./00-index.md"
+
+  - "./00-INDEX.md"
+  - "./00-index.md"
+---
+>>>>>>> laraxot/dev
 
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 

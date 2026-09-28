@@ -20,10 +20,13 @@ related:
 
 ## 📸 Screenshots Repository
 
+<<<<<<< HEAD
 Gli screenshot della forecast detail page sono disponibili in:
 Gli screenshot della forecast detail page sono disponibili in:
 Gli screenshot della predict detail page sono disponibili in:
 Gli screenshot della predict detail page sono disponibili in:
+=======
+>>>>>>> laraxot/dev
 Gli screenshot della predict detail page sono disponibili in:
 
 ```
@@ -54,6 +57,7 @@ Il mercato **F1 World Champion 2026** ha **6 opzioni di risposta**:
 
 ### Componenti Utilizzati
 
+<<<<<<< HEAD
 Il tema Zero utilizza i componenti del modulo forecast:
 
 ```blade
@@ -69,6 +73,10 @@ Il tema Zero utilizza i componenti del modulo Predict:
 
 ```
 
+=======
+Il tema Zero utilizza i componenti del modulo Predict:
+
+>>>>>>> laraxot/dev
 ```blade
 <x-predict-view.header />
 <x-predict-view.market-stats />
@@ -84,10 +92,13 @@ Il tema Zero utilizza i componenti del modulo Predict:
 
 | File | Scopo |
 |------|-------|
+<<<<<<< HEAD
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
+=======
+>>>>>>> laraxot/dev
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
 | `resources/css/app.css` | Theme styling |
 | `resources/js/gsap-config.js` | Animations |
@@ -137,10 +148,13 @@ small: text-sm (14px)
 
 ## ✅ Theme Compliance
 
+<<<<<<< HEAD
 - [x] Componenti modulari forecast
 - [x] Componenti modulari forecast
 - [x] Componenti modulari Predict
 - [x] Componenti modulari Predict
+=======
+>>>>>>> laraxot/dev
 - [x] Componenti modulari Predict
 - [x] Styling coerente con design system
 - [x] Responsive design

@@ -6,6 +6,10 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 drykiss guidelines for themes"
 related:
+<<<<<<< HEAD
+=======
+  - "./00-INDEX.md"
+>>>>>>> laraxot/dev
   - "./00-index.md"
 ---
 
@@ -143,8 +147,16 @@ Anche se i temi sono principalmente presentation layer, alcune parti contengono 
 **Fix** ✅:
 ```php
 // In Folio page or controller
+<<<<<<< HEAD
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
+=======
+<<<<<<< HEAD
+use Modules\User\Models\User;
+=======
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 render(fn (User $user) => view('pub_theme::pages.users.show', [
     'user' => $user,
@@ -174,8 +186,16 @@ render(fn (User $user) => view('pub_theme::pages.users.show', [
 ```php
 <?php
 
+<<<<<<< HEAD
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
+=======
+<<<<<<< HEAD
+use Modules\User\Models\User;
+=======
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Illuminate\Database\Eloquent\Collection;
 use function Laravel\Folio\{name, render};
 
@@ -462,8 +482,16 @@ Themes/Zero/
 <?php
 // resources/views/pages/dashboard.blade.php
 
+<<<<<<< HEAD
 use Modules\User\Models\User;
 use Modules\Xot\Contracts\UserContract;
+=======
+<<<<<<< HEAD
+use Modules\User\Models\User;
+=======
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Modules\Analytics\Services\StatsService;
 use function Laravel\Folio\{name, render};
 

@@ -20,7 +20,10 @@ related:
 
 ## 📸 Screenshots Repository
 
+<<<<<<< HEAD
 Gli screenshot della forecast detail page sono disponibili in:
+=======
+>>>>>>> laraxot/dev
 Gli screenshot della predict detail page sono disponibili in:
 
 ```
@@ -51,6 +54,7 @@ Il mercato **F1 World Champion 2026** ha **6 opzioni di risposta**:
 
 ### Componenti Utilizzati
 
+<<<<<<< HEAD
 Il tema Zero utilizza i componenti del modulo forecast:
 
 ```blade
@@ -66,6 +70,10 @@ Il tema Zero utilizza i componenti del modulo Predict:
 
 ```
 
+=======
+Il tema Zero utilizza i componenti del modulo Predict:
+
+>>>>>>> laraxot/dev
 ```blade
 <x-predict-view.header />
 <x-predict-view.market-stats />
@@ -81,7 +89,10 @@ Il tema Zero utilizza i componenti del modulo Predict:
 
 | File | Scopo |
 |------|-------|
+<<<<<<< HEAD
 | `resources/views/filament/widgets/view-forecast/detail.blade.php` | Widget integration |
+=======
+>>>>>>> laraxot/dev
 | `resources/views/filament/widgets/view-predict/detail.blade.php` | Widget integration |
 | `resources/css/app.css` | Theme styling |
 | `resources/js/gsap-config.js` | Animations |
@@ -131,7 +142,10 @@ small: text-sm (14px)
 
 ## ✅ Theme Compliance
 
+<<<<<<< HEAD
 - [x] Componenti modulari forecast
+=======
+>>>>>>> laraxot/dev
 - [x] Componenti modulari Predict
 - [x] Styling coerente con design system
 - [x] Responsive design
@@ -143,10 +157,16 @@ small: text-sm (14px)
 
 ## 🔗 Riferimenti
 
+<<<<<<< HEAD
 - [forecast Module Docs](../../Modules/Domain/docs/screenshots/f1-world-champion-2026-analysis.md)
 - [Predict Module Docs](../../Modules/Predict/docs/screenshots/f1-world-champion-2026-analysis.md)
 - [Theme Zero Docs](../README.md)
 - [Architecture](../architecture.md)
+=======
+- [Predict Module Docs](../../Modules/Predict/docs/screenshots/f1-world-champion-2026-analysis.md)
+- [Theme Zero Docs](./README.md)
+- [Architecture](./architecture.md)
+>>>>>>> laraxot/dev
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Sprint Planning — Theme Zero"
 type: reference
 status: active
@@ -21,6 +22,20 @@ related:
 > date/sprint sotto sono materiale storico di pianificazione (Q2 2026), non
 > necessariamente lo stato corrente dello sviluppo: verificare prima di
 > considerarle un piano attivo.
+=======
+title: "Sprint Planning - Theme Zero"
+type: guide
+tags: ['charts']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "sprint planning - theme zero"
+related:
+  - "./00-INDEX.md"
+  - "./00-index.md"
+---
+
+# Sprint Planning - Theme Zero
+>>>>>>> laraxot/dev
 
 ## Ultra-Minimalist Theme
 
