@@ -68,7 +68,7 @@ Sezione generata: raggruppamento euristico per nome e titolo, nessun file e' sta
 - Modulo o tema: [../README.md](../README.md) (vetrina), [../../../Modules/Xot/docs/README.md](../../../Modules/Xot/docs/README.md) (docs del modulo base Xot)
 - [INDEX.md](./INDEX.md): indice gia' presente
 - [index.md](./index.md): indice gia' presente
-- [00-INDEX.md](./00-INDEX.md): indice gia' presente
+- [00-INDEX.md](./00-index.md): indice gia' presente
 - [00-index.md](./00-index.md): indice gia' presente
 - [purpose.md](./purpose.md): scopo (esiste anche l'equivalente italiano/inglese, possibile duplicato)
 - [scopo.md](./scopo.md): scopo (esiste anche l'equivalente italiano/inglese, possibile duplicato)
@@ -276,7 +276,7 @@ Sezione generata: raggruppamento euristico per nome e titolo, nessun file e' sta
 
 #### Indici, standard e meta-documentazione (12)
 
-- [00-INDEX.md](./00-INDEX.md): Zero Theme Documentation Index [dup]
+- [00-INDEX.md](./00-index.md): Zero Theme Documentation Index [dup]
 - [00-index.md](./00-index.md): Zero Theme - Documentation Index [dup] [marker di merge]
 - [CHANGELOG.md](./CHANGELOG.md): Changelog [dup]
 - [README-en.md](./README-en.md): base_healthcare_app_fila5_mono [dup]
@@ -303,7 +303,7 @@ Nessun file e' stato toccato. Proposte di destinazione nella story [swarm-phpsta
 - contenuto identico: [dry-kiss-best-practices-historic.md](./dry-kiss-best-practices-historic.md), [dry-kiss-best-practices.md](./dry-kiss-best-practices.md)
 - contenuto identico: [dual-label-chart-widget-implementation.md](./dual-label-chart-widget-implementation.md), [simplechartwidget-quality-analysis.md](./simplechartwidget-quality-analysis.md)
 - contenuto identico: [phpstan-dry-kiss-guidelines.md](./phpstan-dry-kiss-guidelines.md), [phpstan-dry-kiss-theme-guidelines-historic.md](./phpstan-dry-kiss-theme-guidelines-historic.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [00-INDEX.md](./00-INDEX.md), [00-index.md](./00-index.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [00-INDEX.md](./00-index.md), [00-index.md](./00-index.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [ARCHITECTURE.md](./ARCHITECTURE.md), [architecture.md](./architecture.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [CHANGELOG.md](./CHANGELOG.md), [changelog.md](./changelog.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [CONFLICT-RESOLUTION-SUMMARY.md](./CONFLICT-RESOLUTION-SUMMARY.md), [CONFLICT_RESOLUTION_SUMMARY.md](./CONFLICT_RESOLUTION_SUMMARY.md), [conflict-resolution-summary.md](./conflict-resolution-summary.md), [conflict_resolution_summary.md](./conflict_resolution_summary.md)
