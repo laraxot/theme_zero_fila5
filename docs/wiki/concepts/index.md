@@ -29,7 +29,7 @@ qmd search "Zero concepts" --limit 5
 
 ## Aggiunti 2026-08-24 (da .txt)
 
-- [jpegraph-guide.md](jpegraph-guide.md) — guida JpGraph 4.4.2 (charts server-side)
+- [jpgraph-guide.md](jpgraph-guide.md) — guida JpGraph 4.4.2 (charts server-side)
 - [filament-nested-resources.md](filament-nested-resources.md) — nested resources Filament 5
 
 ---
@@ -47,7 +47,7 @@ qmd search "Zero concepts" --limit 5
 - [filament-nested-resources.md](filament-nested-resources.md)
 - [filament-v5-schema-not-form.md](filament-v5-schema-not-form.md)
 - [gg-integ-params-no-asz-theme-boundary.md](gg-integ-params-no-asz-theme-boundary.md)
-- [jpegraph-guide.md](jpegraph-guide.md)
+- [jpgraph-guide.md](jpgraph-guide.md)
 - [method-name-homonyms.md](method-name-homonyms.md)
 - [module-directory-structure-boundary.md](module-directory-structure-boundary.md)
 - [organizzativa-money.md](organizzativa-money.md)

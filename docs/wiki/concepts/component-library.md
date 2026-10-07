@@ -69,8 +69,8 @@ Costruire una libreria componenti coerente con il tema e allineata alle componen
 
 ## Collegamenti correlati
 
-- [`Roadmap tema Zero`](../roadmap.md)
+- [`Roadmap tema Zero`](../../bmad/roadmap.md)
 - [`responsive-system.md`](responsive-system.md)
-- [`theme-customization.md`](theme-customization.md)
-- [`components.md`](../components.md)
-- [`theme-documentation.md`](../theme-documentation.md)
+- [`theme-customization.md`](../how-to/theme-customization.md)
+- [`components.md`](../../bmad/components.md)
+- [`theme-documentation.md`](../../bmad/theme-documentation.md)
