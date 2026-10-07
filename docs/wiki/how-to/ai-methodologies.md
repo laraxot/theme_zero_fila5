@@ -6,11 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ai methodologies handbook"
 related:
-<<<<<<< HEAD
-=======
-  - "./00-INDEX.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+  - "../../bmad/00-index.md"
 ---
 
 # AI Methodologies Handbook
@@ -21,21 +17,6 @@ This file is a DRY local index for AI workflows in this module or theme.
 
 - [OpenViking Integration Guide](../../../docs/openviking-integration.md)
 - [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
-- [OpenViking Integration Guide](../../../docs/openviking-integration.md)
-- [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
-- [OpenViking Integration Guide](../../../../docs/openviking-integration.md)
-- [AI Methodologies Integration](../../../../docs/project/ai-methodologies-integration.md)
-- [OpenViking Integration Guide](../../../docs/openviking-integration.md)
-- [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
-- [OpenViking Integration Guide](../../../docs/openviking-integration.md)
-- [AI Methodologies Integration](../../../docs/project/ai-methodologies-integration.md)
-- [OpenViking Integration Guide](../../../../docs/openviking-integration.md)
-- [AI Methodologies Integration](../../../../docs/project/ai-methodologies-integration.md)
-<<<<<<< HEAD
-- [Root Docs Index](./index.md)
-=======
-- [Root Docs Index](../../../../docs/index.md)
->>>>>>> laraxot/dev
 
 ## Local Workflow
 
@@ -48,3 +29,8 @@ This file is a DRY local index for AI workflows in this module or theme.
 ## OpenViking Rule
 
 Do not duplicate installation or runtime setup here. Keep operational details only in the canonical guide and use this file as a local routing document.
+
+## Related Workflows
+
+- [Root Docs Index](../../../docs/index.md)
+

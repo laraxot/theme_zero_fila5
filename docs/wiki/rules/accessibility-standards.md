@@ -69,8 +69,8 @@ Rendere il tema conforme agli standard di accessibilita e compatibile con i prin
 
 ## Collegamenti correlati
 
-- [`Roadmap tema Zero`](../roadmap.md)
+- [`Roadmap tema Zero`](../../bmad/roadmap.md)
 - [`component-library.md`](component-library.md)
 - [`responsive-system.md`](responsive-system.md)
-- [`theme-documentation-standard.md`](../theme-documentation-standard.md)
-- [`architecture.md`](../architecture.md)
+- [`theme-documentation-standard.md`](../../bmad/theme-documentation-standard.md)
+- [`architecture.md`](../../bmad/architecture.md)

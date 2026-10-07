@@ -57,19 +57,27 @@ Path in `gitmodules.ini`: `laravel/Themes/Zero` → remote `laraxot/theme_zero_f
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
 
-<!-- swarm-docs:index:start -->
+ <!-- swarm-docs:index:start -->
+
+> **Audit completato 2026-10-06**: tutti i duplicati sono stati risolti.
+> - 24 file duplicati (redirect/stub) eliminati
+> - 12 file con naming convention non standard (maiuscole/underscore) rimossi in favore delle versioni kebab-case
+> - 5 file con contenuto identico (exact dup) eliminati
+> - File `readme.md`/`changelog.md` (kebab-case) sono le versioni canoniche
+> - Merge conflict: risolti in 00-index.md, conflict-resolution-summary.md, dry-kiss-best-practices.md,
+  duplicate-methods.md, duplicate-methods-report.md, metodi-duplicati-analisi.md,
+  product-launch-plan.md, product-roadmap.md, product-strategy.md, sprint-planning.md,
+  simplechartwidget-quality-analysis.md
 
 ## Mappa della documentazione (indice di radice, generato dalla passata swarm-docs 2026-10-06)
 
-Sezione generata: raggruppamento euristico per nome e titolo, nessun file e' stato spostato o rinominato. Marcatori: `[orfano]` = prima di questa passata nessun file della cartella `docs/` lo linkava; `[dup]` = sospetto duplicato (vedi sezione dedicata); `[marker di merge]` = contiene `<<<<<<<` o `>>>>>>>` non risolti.
+Sezione generata: raggruppamento euristico per nome e titolo. **Aggiornato post-deduplication**:
+i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` sono state risolte.
 
 ### Entry point e struttura
 
-- Modulo o tema: [../README.md](../README.md) (vetrina), [../../../Modules/Xot/docs/README.md](../../../Modules/Xot/docs/README.md) (docs del modulo base Xot)
-- [INDEX.md](./INDEX.md): indice gia' presente
-- [index.md](./index.md): indice gia' presente
-- [00-INDEX.md](./00-index.md): indice gia' presente
-- [00-index.md](./00-index.md): indice gia' presente
+- Modulo o tema: [../readme.md](../readme.md) (vetrina), [../../../Modules/Xot/docs/README.md](../../../Modules/Xot/docs/README.md) (docs del modulo base Xot)
+- [00-index.md](./00-index.md): indice canonico (00-INDEX.md rimosso — duplicate)
 - [purpose.md](./purpose.md): scopo (esiste anche l'equivalente italiano/inglese, possibile duplicato)
 - [scopo.md](./scopo.md): scopo (esiste anche l'equivalente italiano/inglese, possibile duplicato)
 - Architettura: [architecture.md](./architecture.md)

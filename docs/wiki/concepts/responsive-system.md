@@ -69,8 +69,8 @@ Definire un sistema responsive coerente con griglie, breakpoint e layout riutili
 
 ## Collegamenti correlati
 
-- [`Roadmap tema Zero`](../roadmap.md)
+- [`Roadmap tema Zero`](../../bmad/roadmap.md)
 - [`component-library.md`](component-library.md)
-- [`performance-optimization.md`](performance-optimization.md)
-- [`layouts.md`](../layouts.md)
-- [`architecture.md`](../architecture.md)
+- [`performance-optimization.md`](../rules/performance-optimization.md)
+- [`layouts.md`](../../bmad/layouts.md)
+- [`architecture.md`](../../bmad/architecture.md)
