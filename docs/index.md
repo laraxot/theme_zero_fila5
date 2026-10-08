@@ -1,3 +1,21 @@
+---
+id: zero-docs-index
+slug: index
+title: "Indice della Documentazione - Tema Zero"
+description: "00-index.md (canonico, aggiornato 2026-03-28). Usare 00-index.md come riferimento"
+document_type: index
+type: index
+category: documentation
+status: superseded
+tags: []
+created: "2026-09-24"
+updated: "2026-10-08"
+qmd: "indice della documentazione - tema zero"
+issues: []
+discussions: []
+superseded_by: README.md
+---
+
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD

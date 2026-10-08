@@ -242,6 +242,6 @@ Current known issues:
 
 - [README.md](./README.md) — Theme overview
 - [Component Guide](./component-guide.md) — Components reference
-- [Customization Guide](./customization.md) — How to extend
+- [Customization Guide](./bmad/customization.md) — How to extend
 - [../README.md](../README.md) — Root theme README (marketing)
 - [../../docs/wiki/themes/](../../../../docs/wiki/themes/) — Project-wide theme docs
