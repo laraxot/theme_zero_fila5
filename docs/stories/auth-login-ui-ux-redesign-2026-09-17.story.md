@@ -11,7 +11,7 @@ updated: "2026-09-17"
 depends_on: []
 feeds: []
 id: zero-docs-stories-auth-login-ui-ux-redesign-2026-09-17-story
-description: "gsap-skills, threejs-skills, design-dna, motion-design-skill, genjutsu, e uno skill"
+description: "Story di restyling della pagina di login del tema Zero con skill di motion e design."
 document_type: story
 category: bmad-story
 tags: []

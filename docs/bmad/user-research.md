@@ -13,7 +13,7 @@ related:
   - "./philosophy.md"
 id: zero-docs-bmad-user-research
 slug: user-research
-description: "stories/docs-theme-zero-audit-2026-09-11.story.md)."
+description: "Ricerca utenti storica sul tema Zero (Q1 2026), recuperata da un file che era vuoto e da trattare come input non verificato."
 document_type: reference
 category: documentation
 tags: []
@@ -24,7 +24,7 @@ discussions: []
 # User Research — Theme Zero
 
 > Nota 2026-09-11: questo file era vuoto (bug reale, vedi
-> [stories/docs-theme-zero-audit-2026-09-11.story.md](./stories/docs-theme-zero-audit-2026-09-11.story.md)).
+> [stories/docs-theme-zero-audit-2026-09-11.story.md](../stories/docs-theme-zero-audit-2026-09-11.story.md)).
 > Il contenuto sotto e' stato recuperato da `user_research.md`, marcato
 > "deprecated/renamed to user-research.md" ma mai effettivamente migrato. I
 > dati (partecipanti, quote, metriche) sono materiale storico di ricerca (Q1

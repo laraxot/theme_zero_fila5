@@ -9,7 +9,7 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-conflict-resolution
 slug: conflict-resolution
-description: "Conflict Resolution - Theme Zero"
+description: "Riepilogo di una risoluzione di conflitti Git nel tema Zero: 2 file, lato locale mantenuto."
 document_type: guide
 category: git-workflow
 status: active

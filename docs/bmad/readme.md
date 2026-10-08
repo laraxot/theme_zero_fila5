@@ -1,3 +1,20 @@
+---
+id: zero-docs-bmad-readme-2
+slug: readme
+title: "Tema Zero - Documentazione"
+description: "Tema alternativo/sperimentale. Hub: gestionale-docs-index.md · tenant-modules-navigation-discipline.md · panels vs Zero."
+document_type: index
+type: index
+category: documentation
+status: active
+tags: []
+created: "2026-10-06"
+updated: "2026-10-08"
+qmd: "tema zero - documentazione"
+issues: []
+discussions: []
+---
+
 # Tema Zero - Documentazione
 
 ## Gestionale / replica
@@ -55,7 +72,7 @@ Path in `gitmodules.ini`: `laravel/Themes/Zero` → remote `laraxot/theme_zero_f
 - [UI Module](../../Modules/UI/docs/)
 
 ## AI Workflows
-- [AI Methodologies](./ai-methodologies.md)
+- [AI Methodologies](../wiki/how-to/ai-methodologies.md)
 
  <!-- swarm-docs:index:start -->
 
@@ -81,7 +98,7 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 - [purpose.md](./purpose.md): scopo (esiste anche l'equivalente italiano/inglese, possibile duplicato)
 - [scopo.md](./scopo.md): scopo (esiste anche l'equivalente italiano/inglese, possibile duplicato)
 - Architettura: [architecture.md](./architecture.md)
-- Architettura: [architecture-rules.md](./architecture-rules.md)
+- Architettura: [architecture-rules.md](../wiki/rules/architecture-rules.md)
 - [wiki/index.md](./wiki/index.md)
 - Story BMAD (posizione canonica): [bmad/stories/](./bmad/stories/) (2 file)
 
@@ -115,13 +132,13 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 #### Agenti AI e regole di lavoro (12)
 
-- [agent-confidence-discipline.md](./agent-confidence-discipline.md): Disciplina agenti per massimizzare la confidenza
-- [agent-confidence-protocol.md](./agent-confidence-protocol.md): Massima confidenza agente [marker di merge]
-- [agent-edit-discipline.md](./agent-edit-discipline.md): agent edit discipline — puntatore [marker di merge]
+- [agent-confidence-discipline.md](../wiki/rules/agent-confidence-discipline.md): Disciplina agenti per massimizzare la confidenza
+- [agent-confidence-protocol.md](../wiki/rules/agent-confidence-protocol.md): Massima confidenza agente [marker di merge]
+- [agent-edit-discipline.md](../wiki/rules/agent-edit-discipline.md): agent edit discipline — puntatore [marker di merge]
 - [ai-development-guide.md](./ai-development-guide.md): AI-Assisted Development Guide - Zero Theme [marker di merge]
-- [ai-handoff.md](./ai-handoff.md): ai handoff [marker di merge]
-- [ai-methodologies.md](./ai-methodologies.md): AI Methodologies Handbook [marker di merge]
-- [ai-tooling.md](./ai-tooling.md): Strumenti AI nel tema Zero
+- [ai-handoff.md](../wiki/concepts/ai-handoff.md): ai handoff [marker di merge]
+- [ai-methodologies.md](../wiki/how-to/ai-methodologies.md): AI Methodologies Handbook [marker di merge]
+- [ai-tooling.md](../wiki/concepts/ai-tooling.md): Strumenti AI nel tema Zero
 - [doc-first-workflow.md](./doc-first-workflow.md): Theme Zero - Doc-First Workflow [marker di merge]
 - [docs-confidence-audit.md](./docs-confidence-audit.md): Zero Theme Docs Confidence Audit - 2026-03-07 [marker di merge]
 - [graphify-map.md](./graphify-map.md): Zero Theme — Mappa Graphify [marker di merge]
@@ -130,8 +147,8 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 #### PHPStan, qualita e test (31)
 
-- [METODI-DUPLICATI-ANALISI.md](./METODI-DUPLICATI-ANALISI.md): Metodi Duplicati — Analisi Tema Zero [dup]
-- [METODI_DUPLICATI_ANALISI.md](./METODI_DUPLICATI_ANALISI.md): METODI-DUPLICATI-ANALISI (deprecated) [dup] [marker di merge]
+- [METODI-DUPLICATI-ANALISI.md](./metodi-duplicati-analisi.md): Metodi Duplicati — Analisi Tema Zero [dup]
+- [METODI_DUPLICATI_ANALISI.md](./metodi-duplicati-analisi.md): METODI-DUPLICATI-ANALISI (deprecated) [dup] [marker di merge]
 - [code-quality-improvement-report.md](./code-quality-improvement-report.md): Code Quality Improvement Report — Zero [marker di merge]
 - [code-quality-improvements.md](./code-quality-improvements.md): Code Quality Improvements - Zero Theme [marker di merge]
 - [code-quality-report.md](./code-quality-report.md): Code quality — tema Zero [marker di merge]
@@ -141,8 +158,8 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 - [dry-kiss-best-practices.md](./dry-kiss-best-practices.md): DRY & KISS Best Practices - Tema Zero [dup] [marker di merge]
 - [duplicate-methods-report.md](./duplicate-methods-report.md): Report: Metodi con nome duplicato nei moduli e nei temi [dup] [marker di merge]
 - [duplicate-methods.md](./duplicate-methods.md): Metodi duplicati — Zero [dup] [marker di merge]
-- [duplicate_methods.md](./duplicate_methods.md): duplicate-methods (deprecated) [dup]
-- [duplicate_methods_report.md](./duplicate_methods_report.md): duplicate-methods-report (deprecated) [dup]
+- [duplicate_methods.md](./duplicate-methods.md): duplicate-methods (deprecated) [dup]
+- [duplicate_methods_report.md](./duplicate-methods-report.md): duplicate-methods-report (deprecated) [dup]
 - [git-collision-audit-bashscripts.md](./git-collision-audit-bashscripts.md): Audit collisioni Git committate in bashscripts [dup]
 - [git-collisions-bashscripts-audit.md](./git-collisions-bashscripts-audit.md): Audit collisioni Git committate in bashscripts [dup]
 - [ide-helper-phpdoc-boundary.md](./ide-helper-phpdoc-boundary.md): ide helper — confine PHPDoc tema Zero [marker di merge]
@@ -164,11 +181,11 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 #### Git, sync e conflitti (9)
 
-- [CONFLICT-RESOLUTION-SUMMARY.md](./CONFLICT-RESOLUTION-SUMMARY.md): CONFLICT-RESOLUTION-SUMMARY (deprecated) [dup] [marker di merge]
-- [CONFLICT_RESOLUTION_SUMMARY.md](./CONFLICT_RESOLUTION_SUMMARY.md): CONFLICT-RESOLUTION-SUMMARY (deprecated) [dup]
+- [CONFLICT-RESOLUTION-SUMMARY.md](./conflict-resolution-summary.md): CONFLICT-RESOLUTION-SUMMARY (deprecated) [dup] [marker di merge]
+- [CONFLICT_RESOLUTION_SUMMARY.md](./conflict-resolution-summary.md): CONFLICT-RESOLUTION-SUMMARY (deprecated) [dup]
 - [conflict-resolution-summary.md](./conflict-resolution-summary.md): Riepilogo Risoluzione Conflitti Git - Filament 5 [dup] [marker di merge]
 - [conflict-resolution.md](./conflict-resolution.md): Conflict Resolution — Theme Zero [marker di merge]
-- [conflict_resolution_summary.md](./conflict_resolution_summary.md): CONFLICT-RESOLUTION-SUMMARY (deprecated) [dup]
+- [conflict_resolution_summary.md](./conflict-resolution-summary.md): CONFLICT-RESOLUTION-SUMMARY (deprecated) [dup]
 - [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md): Audit collisioni Git committate in bashscripts [dup]
 - [git-multi-org-sync-handoff.md](./git-multi-org-sync-handoff.md): Handoff multi-org sync (STORY-003) [marker di merge]
 - [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md): Sincronizzazione multi-organizzazione (laraxot + provtv)
@@ -182,9 +199,9 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 #### Architettura e pattern (10)
 
-- [ARCHITECTURE.md](./ARCHITECTURE.md): Zero Theme Architecture [dup]
+- [ARCHITECTURE.md](./architecture.md): Zero Theme Architecture [dup]
 - [accessor-delegation-pattern.md](./accessor-delegation-pattern.md): 🧘 Accessor Delegation Pattern - Zero Theme [marker di merge]
-- [architecture-rules.md](./architecture-rules.md): architecture rules — Theme Zero [marker di merge]
+- [architecture-rules.md](../wiki/rules/architecture-rules.md): architecture rules — Theme Zero [marker di merge]
 - [architecture.md](./architecture.md): Zero Theme Architecture [dup]
 - [filament-infolist-pattern.md](./filament-infolist-pattern.md): Pattern Infolist Filament (Theme Zero) [marker di merge]
 - [filament-table-architecture.md](./filament-table-architecture.md): Dove si configura la tabella di una Resource Filament
@@ -195,31 +212,31 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 #### Prodotto, roadmap e pianificazione (21)
 
-- [PRD.md](./PRD.md): Product Requirements Document (PRD) - Zero Theme [dup] [marker di merge]
-- [TECH_SPEC.md](./TECH_SPEC.md): Technical Specification - Zero Theme [dup]
-- [cosa-migliorare.md](./cosa-migliorare.md): Cosa migliorare: tema Zero [marker di merge]
+- [PRD.md](./prd.md): Product Requirements Document (PRD) - Zero Theme [dup] [marker di merge]
+- [TECH_SPEC.md](./tech-spec.md): Technical Specification - Zero Theme [dup]
+- [cosa-migliorare.md](../wiki/summaries/cosa-migliorare.md): Cosa migliorare: tema Zero [marker di merge]
 - [launch-plan.md](./launch-plan.md): Product Launch Plan: Zero Theme [marker di merge]
 - [prd.md](./prd.md): PRD: Zero Theme [dup] [marker di merge]
 - [product-launch-plan.md](./product-launch-plan.md): Product Launch Plan - Theme Zero [dup] [marker di merge]
 - [product-requirements.md](./product-requirements.md): Product Requirements Document (PRD) [marker di merge]
 - [product-roadmap.md](./product-roadmap.md): Product Roadmap - Theme Zero [dup] [marker di merge]
 - [product-strategy.md](./product-strategy.md): Product Strategy - Theme Zero [dup] [marker di merge]
-- [product_launch_plan.md](./product_launch_plan.md): product-launch-plan (deprecated) [dup]
-- [product_roadmap.md](./product_roadmap.md): product-roadmap (deprecated) [dup]
-- [product_strategy.md](./product_strategy.md): product-strategy (deprecated) [dup]
+- [product_launch_plan.md](./product-launch-plan.md): product-launch-plan (deprecated) [dup]
+- [product_roadmap.md](./product-roadmap.md): product-roadmap (deprecated) [dup]
+- [product_strategy.md](./product-strategy.md): product-strategy (deprecated) [dup]
 - [release-marketing-standard.md](./release-marketing-standard.md): Release e README marketing — Zero [marker di merge]
 - [roadmap.md](./roadmap.md): Product Roadmap - Zero Theme [marker di merge]
 - [sprint-planning-meeting.md](./sprint-planning-meeting.md): Zero - Sprint Planning Meeting [marker di merge]
 - [sprint-planning.md](./sprint-planning.md): Sprint Planning — Theme Zero [dup] [marker di merge]
-- [sprint_planning.md](./sprint_planning.md): sprint-planning (deprecated) [dup]
+- [sprint_planning.md](./sprint-planning.md): sprint-planning (deprecated) [dup]
 - [strategy.md](./strategy.md): Product Strategy: Zero Theme [marker di merge]
 - [tech-spec.md](./tech-spec.md): Technical Specification - Zero Theme [dup]
 - [user-research.md](./user-research.md): User Research — Theme Zero [dup] [marker di merge]
-- [user_research.md](./user_research.md): user-research (deprecated) [dup]
+- [user_research.md](./user-research.md): user-research (deprecated) [dup]
 
 #### Filament, UI e grafici (39)
 
-- [PANDOC_GUIDE.md](./PANDOC_GUIDE.md): Pandoc Documentation Generation Guide [dup]
+- [PANDOC_GUIDE.md](./pandoc-guide.md): Pandoc Documentation Generation Guide [dup]
 - [auth-examples.md](./auth-examples.md): Esempi di Autenticazione - Tema Zero [marker di merge]
 - [auth-login-ui-ux.md](./auth-login-ui-ux.md): UI/UX della pagina di accesso Restaurant [orfano]
 - [chartjs-datalabels-background-styling.md](./chartjs-datalabels-background-styling.md): Chart UI/UX Enhancements with Background Styling and Positioning [marker di merge]
@@ -268,16 +285,16 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 #### Configurazione, permessi e confini (13)
 
-- [FRAMEWORKS.md](./FRAMEWORKS.md): Zero — Framework Integration Notes [dup]
+- [FRAMEWORKS.md](./frameworks.md): Zero — Framework Integration Notes [dup]
 - [authentication.md](./authentication.md): Autenticazione - Tema Zero [marker di merge]
-- [binary-assets.md](./binary-assets.md): Asset binari [marker di merge]
+- [binary-assets.md](../wiki/rules/binary-assets.md): Asset binari [marker di merge]
 - [document-root-public-html.md](./document-root-public-html.md): Document root: public_html, non laravel/public
 - [env-development-configuration.md](./env-development-configuration.md): Configurazione .env.development - Ambiente di Sviluppo [marker di merge]
 - [frameworks.md](./frameworks.md): Zero — Framework Integration Notes [dup]
 - [laravel-13-composer-boundary.md](./laravel-13-composer-boundary.md): Laravel 13 Composer boundary for Theme Zero [marker di merge]
 - [laravel-13-upgrade.md](./laravel-13-upgrade.md): Upgrade Laravel 13 - Theme Zero 🐄✨ [marker di merge]
 - [packages-integration.md](./packages-integration.md): Integrazione Pacchetti nel Tema Zero [marker di merge]
-- [public-path-public-html.md](./public-path-public-html.md): public_path = public_html (tema)
+- [public-path-public-html.md](../wiki/memories/public-path-public-html.md): public_path = public_html (tema)
 - [spatie-permission-team-context.md](./spatie-permission-team-context.md): Spatie Permission Team Context [marker di merge]
 - [spatie-permission-teams-boundary.md](./spatie-permission-teams-boundary.md): Spatie Permission teams boundary [marker di merge]
 - [translations.md](./translations.md): Traduzioni del tema Zero
@@ -287,7 +304,7 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 - [00-INDEX.md](./00-index.md): Zero Theme Documentation Index [dup]
 - [00-index.md](./00-index.md): Zero Theme - Documentation Index [dup] [marker di merge]
 - [CHANGELOG.md](./CHANGELOG.md): Changelog [dup]
-- [README-en.md](./README-en.md): base_healthcare_app_fila5_mono [dup]
+- [README-en.md](./readme-en.md): base_healthcare_app_fila5_mono [dup]
 - [changelog.md](./changelog.md): Changelog — Zero Theme [dup]
 - [docs-archive-policy.md](./docs-archive-policy.md): docs archive policy — puntatore [marker di merge]
 - [docs-deduplication.md](./docs-deduplication.md): docs deduplication — tema Zero [marker di merge]
@@ -305,36 +322,36 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 Nessun file e' stato toccato. Proposte di destinazione nella story [swarm-phpstan-modular-docs-org](../../../Modules/Xot/docs/bmad/stories/swarm-phpstan-modular-docs-org.story.md).
 
-- contenuto identico: [PANDOC_GUIDE.md](./PANDOC_GUIDE.md), [pandoc-guide.md](./pandoc-guide.md)
-- contenuto identico: [TECH_SPEC.md](./TECH_SPEC.md), [tech-spec.md](./tech-spec.md)
+- contenuto identico: [PANDOC_GUIDE.md](./pandoc-guide.md), [pandoc-guide.md](./pandoc-guide.md)
+- contenuto identico: [TECH_SPEC.md](./tech-spec.md), [tech-spec.md](./tech-spec.md)
 - contenuto identico: [analisi-completa-tema.md](./analisi-completa-tema.md), [comprehensive-theme-analysis.md](./comprehensive-theme-analysis.md)
 - contenuto identico: [dry-kiss-best-practices-historic.md](./dry-kiss-best-practices-historic.md), [dry-kiss-best-practices.md](./dry-kiss-best-practices.md)
 - contenuto identico: [dual-label-chart-widget-implementation.md](./dual-label-chart-widget-implementation.md), [simplechartwidget-quality-analysis.md](./simplechartwidget-quality-analysis.md)
 - contenuto identico: [phpstan-dry-kiss-guidelines.md](./phpstan-dry-kiss-guidelines.md), [phpstan-dry-kiss-theme-guidelines-historic.md](./phpstan-dry-kiss-theme-guidelines-historic.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [00-INDEX.md](./00-index.md), [00-index.md](./00-index.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [ARCHITECTURE.md](./ARCHITECTURE.md), [architecture.md](./architecture.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [ARCHITECTURE.md](./architecture.md), [architecture.md](./architecture.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [CHANGELOG.md](./CHANGELOG.md), [changelog.md](./changelog.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [CONFLICT-RESOLUTION-SUMMARY.md](./CONFLICT-RESOLUTION-SUMMARY.md), [CONFLICT_RESOLUTION_SUMMARY.md](./CONFLICT_RESOLUTION_SUMMARY.md), [conflict-resolution-summary.md](./conflict-resolution-summary.md), [conflict_resolution_summary.md](./conflict_resolution_summary.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [FRAMEWORKS.md](./FRAMEWORKS.md), [frameworks.md](./frameworks.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [CONFLICT-RESOLUTION-SUMMARY.md](./conflict-resolution-summary.md), [CONFLICT_RESOLUTION_SUMMARY.md](./conflict-resolution-summary.md), [conflict-resolution-summary.md](./conflict-resolution-summary.md), [conflict_resolution_summary.md](./conflict-resolution-summary.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [FRAMEWORKS.md](./frameworks.md), [frameworks.md](./frameworks.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [INDEX.md](./INDEX.md), [index.md](./index.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [METODI-DUPLICATI-ANALISI.md](./METODI-DUPLICATI-ANALISI.md), [METODI_DUPLICATI_ANALISI.md](./METODI_DUPLICATI_ANALISI.md), [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [PRD.md](./PRD.md), [prd.md](./prd.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [README-en.md](./README-en.md), [readme-en.md](./readme-en.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [duplicate-methods-report.md](./duplicate-methods-report.md), [duplicate-methods.md](./duplicate-methods.md), [duplicate_methods.md](./duplicate_methods.md), [duplicate_methods_report.md](./duplicate_methods_report.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [product-launch-plan.md](./product-launch-plan.md), [product_launch_plan.md](./product_launch_plan.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [product-roadmap.md](./product-roadmap.md), [product_roadmap.md](./product_roadmap.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [product-strategy.md](./product-strategy.md), [product_strategy.md](./product_strategy.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [sprint-planning.md](./sprint-planning.md), [sprint_planning.md](./sprint_planning.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [user-research.md](./user-research.md), [user_research.md](./user_research.md)
-- stesso titolo: [CONFLICT-RESOLUTION-SUMMARY.md](./CONFLICT-RESOLUTION-SUMMARY.md), [CONFLICT_RESOLUTION_SUMMARY.md](./CONFLICT_RESOLUTION_SUMMARY.md), [conflict_resolution_summary.md](./conflict_resolution_summary.md)
-- stesso titolo: [METODI-DUPLICATI-ANALISI.md](./METODI-DUPLICATI-ANALISI.md), [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [METODI-DUPLICATI-ANALISI.md](./metodi-duplicati-analisi.md), [METODI_DUPLICATI_ANALISI.md](./metodi-duplicati-analisi.md), [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [PRD.md](./prd.md), [prd.md](./prd.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [README-en.md](./readme-en.md), [readme-en.md](./readme-en.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [duplicate-methods-report.md](./duplicate-methods-report.md), [duplicate-methods.md](./duplicate-methods.md), [duplicate_methods.md](./duplicate-methods.md), [duplicate_methods_report.md](./duplicate-methods-report.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [product-launch-plan.md](./product-launch-plan.md), [product_launch_plan.md](./product-launch-plan.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [product-roadmap.md](./product-roadmap.md), [product_roadmap.md](./product-roadmap.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [product-strategy.md](./product-strategy.md), [product_strategy.md](./product-strategy.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [sprint-planning.md](./sprint-planning.md), [sprint_planning.md](./sprint-planning.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [user-research.md](./user-research.md), [user_research.md](./user-research.md)
+- stesso titolo: [CONFLICT-RESOLUTION-SUMMARY.md](./conflict-resolution-summary.md), [CONFLICT_RESOLUTION_SUMMARY.md](./conflict-resolution-summary.md), [conflict_resolution_summary.md](./conflict-resolution-summary.md)
+- stesso titolo: [METODI-DUPLICATI-ANALISI.md](./metodi-duplicati-analisi.md), [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md)
 - stesso titolo: [database-governance.md](./database-governance.md), [phpstan-merge-conflicts.md](./phpstan-merge-conflicts.md)
 - stesso titolo: [git-collision-audit-bashscripts.md](./git-collision-audit-bashscripts.md), [git-collisions-bashscripts-audit.md](./git-collisions-bashscripts-audit.md), [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md)
 - stesso titolo: [phpstan-dry-kiss-guidelines.md](./phpstan-dry-kiss-guidelines.md), [phpstan-dry-kiss-theme-guidelines-historic.md](./phpstan-dry-kiss-theme-guidelines-historic.md), [phpstan-dry-kiss-theme-guidelines.md](./phpstan-dry-kiss-theme-guidelines.md)
 
 ### Senza front matter (9)
 
-[CHANGELOG.md](./CHANGELOG.md), [FRAMEWORKS.md](./FRAMEWORKS.md), [README-en.md](./README-en.md), [README.md](./README.md), [binary-assets.md](./binary-assets.md), [code-quality-report.md](./code-quality-report.md), [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md), [graphify-map.md](./graphify-map.md), [index.md](./index.md)
+[CHANGELOG.md](./CHANGELOG.md), [FRAMEWORKS.md](./frameworks.md), [README-en.md](./readme-en.md), [README.md](./README.md), [binary-assets.md](../wiki/rules/binary-assets.md), [code-quality-report.md](./code-quality-report.md), [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md), [graphify-map.md](./graphify-map.md), [index.md](./index.md)
 
 ### Marker di merge non risolti (113 file di radice)
 

@@ -2,7 +2,7 @@
 id: zero-docs-archive-wiki-concepts-index
 slug: index
 title: "Zero Theme - concepts Index"
-description: "Index for Zero theme concepts."
+description: "Indice archiviato dei concetti wiki del tema Zero; il canonico e' wiki/concepts/index.md."
 document_type: index
 type: index
 category: documentation
@@ -33,7 +33,7 @@ qmd search "Zero concepts" --limit 5
 ---
 *Updated: 2026-05-11*
 
-- [Filament 5 Schema (non Form)](./filament-v5-schema-not-form.md) — correzione vs docs legacy Schema→Form
+- [Filament 5 Schema (non Form)](../../../wiki/concepts/filament-v5-schema-not-form.md) — correzione vs docs legacy Schema→Form
 
 ---
 *Updated: 2026-07-24*

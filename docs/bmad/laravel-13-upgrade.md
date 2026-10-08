@@ -9,10 +9,10 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-laravel-13-upgrade
 slug: laravel-13-upgrade
-description: "Upgrade Laravel 13 - Theme Zero"
+description: "Segnaposto: solo il titolo dell'upgrade a Laravel 13 del tema Zero, senza contenuto."
 document_type: guide
 category: architecture
-status: active
+status: draft
 issues: []
 discussions: []
 ---

@@ -9,7 +9,7 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-database-governance
 slug: database-governance
-description: "Documentation"
+description: "Una sola migration per tabella di dominio; le nuove colonne passano da tableUpdate() o da una alter con nome esplicito."
 document_type: guide
 category: database
 status: active

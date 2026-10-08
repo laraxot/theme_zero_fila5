@@ -2,7 +2,7 @@
 id: zero-docs-archive-wiki-commands-index
 slug: index
 title: "Zero Theme - commands Index"
-description: "Index for Zero theme commands."
+description: "Indice archiviato dei comandi wiki del tema Zero; il canonico e' wiki/commands/index.md."
 document_type: index
 type: index
 category: documentation

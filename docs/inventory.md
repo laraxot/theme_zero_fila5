@@ -1,10 +1,9 @@
 ---
-title: "Inventario della documentazione — Tema Zero"
+title: "Inventario della documentazione - Tema Zero"
 type: note
 module: Zero
 status: active
 updated: "2026-10-08"
-<<<<<<< .merge_file_D4zAuK
 id: zero-docs-inventory
 slug: inventory
 description: "Questa nota descrive la struttura reale di laravel/Themes/Zero/docs/ al"
@@ -15,11 +14,9 @@ created: "2026-10-08"
 qmd: "inventario della documentazione - tema zero"
 issues: []
 discussions: []
-=======
->>>>>>> .merge_file_dBCpu4
 ---
 
-# Inventario della documentazione — Tema Zero
+# Inventario della documentazione - Tema Zero
 
 Questa nota descrive la struttura reale di `laravel/Themes/Zero/docs/` al
 2026-10-08. È un riferimento operativo: non sposta, rinomina o sostituisce i
@@ -41,7 +38,7 @@ documenti storici.
 |---|---|---:|
 | `bmad/` | pianificazione, architettura, guide e report | 125 |
 | `wiki/` | conoscenza curata, regole, how-to e fonti | 55 |
-| `stories/` | storie operative e audit | 4 |
+| `stories/` | storie operative e audit | 5 |
 | `concepts/` | concetti specifici del tema | 1 |
 | `skills/` | note sulle skill | 1 |
 | `_archive/` | materiale storico non canonico | 19 |
@@ -55,16 +52,14 @@ ancora pagine.
 
 ## Stato dei controlli
 
-- Totale: **209** file Markdown.
-- Marker di conflitto presenti: **95 file / 501 righe**. Sono concentrati
-  soprattutto in documenti storici e in `bmad/`; questa nota non li risolve
-  perché richiederebbe una riconciliazione contenutistica per file.
-- Link relativi controllati: **1.406**.
-- Target relativi non risolti: **964**, principalmente riferimenti ereditati
-  da indici storici, percorsi di altri moduli e nomi mai presenti nella
-  struttura corrente.
-- Gli entrypoint operativi `README.md`, `inventory.md` e `wiki/index.md` non
-  hanno link locali non risolti.
+Misurati a fine sessione del 2026-10-08 con le classi di `bashscripts/quality-gates/audit-module-docs.sh` applicate alla sola cartella Zero.
+
+- Totale: **210** file Markdown.
+- Front matter completo (`id`, `slug`, `title`, `description`, `document_type`, `category`, `status`): **210/210**. All'inizio della sessione 0/209 (25 senza front matter, 184 incompleti).
+- Marker di conflitto Git: **0 file**. All'inizio 95 file / 501 righe: 65 file risolti per intero da questa sessione senza perdita (un lato vuoto o lati identici), piu' i blocchi banali di altri 7; i 30 file rimasti, con lati divergenti o annidati, sono stati risolti scegliendo un lato da un altro attore.
+- Link relativi: **1.215** controllati, **509** non risolti. All'inizio 1.406 e 968. Cause: percorsi di altri moduli, nomi ambigui, file mai esistiti.
+- File `superseded`: 6. File in `_archive/` con `canonical:`: 19. Id duplicati: 0.
+- Gli entrypoint operativi `README.md`, `bmad/README.md`, `inventory.md` e `wiki/index.md` non hanno link locali non risolti.
 
 ## Regola per i prossimi incrementi
 

@@ -13,7 +13,7 @@ related:
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
 id: zero-docs-wiki-rules-agent-confidence-discipline
 slug: agent-confidence-discipline
-description: "Disciplina agenti per massimizzare la confidenza"
+description: "Disciplina degli agenti per massimizzare la confidenza prima di modificare il tema."
 document_type: rule
 category: static-analysis
 qmd: "disciplina agenti per massimizzare la confidenza"

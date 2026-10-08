@@ -1,8 +1,25 @@
 ---
-title: "Documentazione — Tema Zero"
+id: zero-docs-readme
+slug: readme
+title: "Documentazione del tema Zero"
+description: "Punto di ingresso della docs del tema Zero: scopo del tema, mappa delle cartelle, documenti chiave e regole di manutenzione."
+document_type: index
 type: index
-module: Zero
+category: documentation
 status: active
+<<<<<<< HEAD
+module: Zero
+tags: [zero, tema, docs, indice]
+created: "2026-09-24"
+updated: "2026-10-08"
+qmd: "tema zero docs indice mappa cartelle bmad wiki stories archivio frontmatter duplicati"
+issues: []
+discussions: []
+related:
+  - ./inventory.md
+  - ./wiki/index.md
+  - ./bmad/00-index.md
+=======
 updated: '2026-10-07'
 id: zero-docs-readme
 slug: readme
@@ -14,32 +31,61 @@ created: "2026-09-24"
 qmd: "documentazione - tema zero"
 issues: []
 discussions: []
+>>>>>>> 2566b4168 (pull moduli vari)
 ---
 
 # Documentazione del tema Zero
 
-Questo è l’entrypoint pulito per i documenti del tema. `index.md` conserva marcatori di conflitto e storia di merge: è stato lasciato intatto; per navigare usare questa pagina e il catalogo wiki in `wiki/index.md`.
+## Scopo del tema
 
-## Aree
+`laravel/Themes/Zero` e' l'unico tema frontend del monorepo (tipo `pub`, vedi `theme.json`). Contiene solo presentazione: viste Blade, asset e traduzioni. La cartella `app/` e' vuota.
 
-| Percorso | Contenuto |
-|---|---|
-| [`wiki/index.md`](wiki/index.md) | catalogo wiki e riferimenti on-demand |
-| [`wiki/overviews/overview.md`](wiki/overviews/overview.md) | overview del tema |
-| [`wiki/rules/architecture-rules.md`](wiki/rules/architecture-rules.md) | confini architetturali e regole |
-| [`concepts/xotbase-never-extend-filament.md`](concepts/xotbase-never-extend-filament.md) | vincolo del tema sulle classi base Filament |
-| [`stories/`](stories/) | storie del tema: [audit documentazione](stories/docs-theme-zero-audit-2026-09-11.story.md), [audit indice](stories/docs-index-audit.story.md), [pulizia marker di conflitto](stories/zero-conflict-markers-cleanup-2026-09-22.story.md) e [restyling login](stories/auth-login-ui-ux-redesign-2026-09-17.story.md) |
-| [`bmad/stories/`](bmad/stories/) | [gate PHPStan e swarm](bmad/stories/quality-gates-phpstan-swarm-2026-09-23.story.md) e [deduplicazione/frontmatter docs](bmad/stories/theme-docs-dedup-frontmatter.story.md) |
-| [`changelog.md`](changelog.md) | cronologia documentata del tema |
-| [`inventory.md`](inventory.md) | inventario verificato della struttura e dei controlli |
-| [`_archive/`](_archive/) | documentazione storica conservata, non canonica |
+| Parte | Cosa c'e' | Dove |
+|---|---|---|
+| Viste | layout `app`, pagine `home`, `index`, login, componenti `layouts`, `blocks`, `ui`, override Filament per il login | `resources/views/` |
+| Asset | Tailwind 3.4, Alpine 3, Flowbite 4, Vite 6 con `laravel-vite-plugin`; build in `public/` | `resources/css`, `resources/js`, `vite.config.js` |
+| Mail | layout HTML `base`, `clean`, `christmas-professional` | `resources/mail-layouts/` |
+| Lingue | `navigation` e `ui` in it, en, de | `lang/` |
 
-Le pagine di dettaglio per categorie (regole, concetti, skill, memorie e comandi) sono raggiungibili dal [catalogo wiki](wiki/index.md). Gli indici duplicati in maiuscolo/minuscolo restano da riallineare.
+Il tema non contiene logica di dominio. Survey, autorizzazione e dati Pulse sono del modulo Quaeris: contratto in [Quaeris docs, BMAD](../../../Modules/Quaeris/docs/bmad/README.md). Non copiare nel tema metriche o decisioni di dominio.
 
-## Confine con i moduli
+## Mappa delle cartelle
 
-Il tema possiede presentazione, asset, layout e componenti visuali. La logica survey, l’autorizzazione e i dati Pulse sono proprietà del modulo Quaeris; il relativo contratto è in [`Quaeris docs / BMAD`](../../../Modules/Quaeris/docs/bmad/README.md). Non copiare metriche o decisioni di dominio nel tema.
+| Percorso | Ruolo | Ingresso |
+|---|---|---|
+| [`bmad/`](bmad/) | guide, architettura, report e pianificazione del tema (la parte piu' grande) | [`bmad/00-index.md`](bmad/00-index.md), [`bmad/README.md`](bmad/README.md) |
+| [`wiki/`](wiki/) | conoscenza curata per gli agenti: concetti, regole, how-to, memorie, fonti | [`wiki/index.md`](wiki/index.md) |
+| [`stories/`](stories/) | story BMAD del tema (posizione prevista dalla policy) | vedi sotto |
+| [`bmad/stories/`](bmad/stories/) | altre due story, nate prima della policy | vedi sotto |
+| [`concepts/`](concepts/) | vincolo XotBase al posto di Filament | [`xotbase-never-extend-filament.md`](concepts/xotbase-never-extend-filament.md) |
+| [`skills/`](skills/) | note sulle skill del tema | [`readme.md`](skills/readme.md) |
+| [`_archive/`](_archive/) | copie storiche, non canoniche; ogni file ha `canonical:` verso il documento vivo | [`index.md`](_archive/index.md) |
 
-## Manutenzione
+File nella radice: [`changelog.md`](changelog.md) (cronologia), [`inventory.md`](inventory.md) (conteggi verificati), [`index.md`](index.md) (indice storico, `status: superseded`: usare questa pagina).
 
-Aggiornare questo indice solo per documenti verificati esistenti. Restano in backlog la riconciliazione dei marcatori di conflitto in [index.md](index.md) e negli indici duplicati, oltre alla verifica dei link storici nel [README del tema](../README.md). Non spostare o cancellare in blocco gli archivi; correggere i conflitti Git in un’attività dedicata, preservando entrambe le parti e la storia.
+## Documenti chiave
+
+- Architettura: [`bmad/architecture.md`](bmad/architecture.md), [`wiki/rules/architecture-rules.md`](wiki/rules/architecture-rules.md), [`concepts/xotbase-never-extend-filament.md`](concepts/xotbase-never-extend-filament.md).
+- Viste e UI: [`bmad/layouts.md`](bmad/layouts.md), [`bmad/components.md`](bmad/components.md), [`bmad/customization.md`](bmad/customization.md), [`bmad/mail-layouts.md`](bmad/mail-layouts.md).
+- Grafici: [`bmad/filament-chart-integration.md`](bmad/filament-chart-integration.md), [`wiki/concepts/jpgraph-guide.md`](wiki/concepts/jpgraph-guide.md).
+- Qualita': [`bmad/phpstan-dry-kiss-theme-guidelines.md`](bmad/phpstan-dry-kiss-theme-guidelines.md), [`bmad/php-quality-gates-rule.md`](bmad/php-quality-gates-rule.md).
+
+## Story
+
+- In `stories/`: [salute della docs](stories/2026-10-08-zero-docs-health.story.md), [audit documentazione](stories/docs-theme-zero-audit-2026-09-11.story.md), [audit indice](stories/docs-index-audit.story.md), [pulizia marker di conflitto](stories/zero-conflict-markers-cleanup-2026-09-22.story.md), [restyling login](stories/auth-login-ui-ux-redesign-2026-09-17.story.md).
+- In `bmad/stories/`: [gate PHPStan e swarm](bmad/stories/quality-gates-phpstan-swarm-2026-09-23.story.md), [dedup e frontmatter](bmad/stories/theme-docs-dedup-frontmatter.story.md).
+
+## Regole di manutenzione
+
+1. Ogni `.md` apre con front matter completo (`id`, `slug`, `title`, `description`, `document_type`, `category`, `status`); regola in `bashscripts/ai/wiki/rules/markdown-file-naming-and-frontmatter.md`.
+2. Un solo canonico per argomento. Il duplicato resta ma con `status: superseded` e `superseded_by`, oppure sta in `_archive/` con `canonical:`. Non cancellare, non rinumerare le story.
+3. Nomi in kebab-case senza date (le story seguono la propria convenzione).
+4. Nuove pagine nella cartella piu' specifica gia' esistente, con link dall'indice di quella cartella.
+
+## Debito noto
+
+- Nessun marker di conflitto Git nella docs. I conflitti con lati divergenti sono stati risolti scegliendo un lato (per esempio `index.md` e' passato da 669 a 397 righe): il testo scartato e' nella storia git e va riletto prima di fidarsi di un documento che citava due versioni.
+- Circa 510 link relativi su 1.215 non risolvono (percorsi di altri moduli, nomi ambigui, file mai esistiti). Conteggio e metodo in [`inventory.md`](inventory.md).
+- 31 file hanno al massimo 12 righe di corpo e nessun puntatore a un canonico; alcuni sono veri placeholder (`bmad/phpstan-merge-conflicts.md`, `bmad/laravel-13-upgrade.md`).
+- Le guide in `bmad/` citano Tailwind v4, Livewire 4 e Flux UI; il tema reale usa Tailwind 3.4, Alpine e Flowbite. Allineare quando si tocca la guida.
+- Il gemello `bmad/readme.md` (maiuscola diversa) collide su filesystem case-insensitive: vedi [`bmad/README.md`](bmad/README.md).

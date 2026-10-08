@@ -41,3 +41,7 @@ esito completo? E audit frontmatter YAML su tutti i `.md` del tema
 
 - [ ] Zero md senza frontmatter in Themes/Zero/docs
 - [ ] Dup `00-index`/`00-INDEX` risolto (case-insensitive filesystem = bug latente)
+
+## Nota di verifica 2026-10-08
+
+Eseguito in [2026-10-08-zero-docs-health](../../stories/2026-10-08-zero-docs-health.story.md). Esito misurato: 0 `.md` senza front matter e 0 incompleti su 210; l'unico nome con data fuori dalle story (`git-conflict-resolution-2026-07-31.md`) e' stato rinominato in `git-conflict-resolution-audit.md`. Non esiste piu' una coppia `00-index`/`00-INDEX` nella stessa cartella; il gemello per maiuscola rimasto e' `bmad/README.md` e `bmad/readme.md`, da decidere. Le caselle sopra non sono state spuntate: la prova e' nella story collegata. `qmd update` resta al coordinatore.

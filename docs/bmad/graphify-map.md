@@ -7,7 +7,7 @@ updated: 2026-08-03
 qmd: "zero theme zero theme   mappa graphify"
 id: zero-docs-bmad-graphify-map
 slug: graphify-map
-description: "Zero Theme - Mappa Graphify"
+description: "Mappa Graphify del tema Zero: cosa fornisce, architettura essenziale e punti di ingresso."
 document_type: guide
 category: documentation
 status: active

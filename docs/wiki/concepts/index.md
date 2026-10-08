@@ -6,7 +6,7 @@ created: 2026-08-24
 updated: 2026-08-24
 id: zero-docs-wiki-concepts-index
 slug: index
-description: "Index for Zero theme concepts."
+description: "Indice dei concetti wiki del tema Zero."
 document_type: reference
 category: documentation
 status: active

@@ -10,10 +10,10 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-phpstan-merge-conflicts
 slug: phpstan-merge-conflicts
-description: "Documentation"
+description: "Segnaposto senza contenuto: solo front matter e riferimenti duplicati all'indice; da compilare o archiviare."
 document_type: guide
 category: static-analysis
-status: active
+status: draft
 issues: []
 discussions: []
 ---

@@ -78,7 +78,7 @@ Ridurre i tempi di caricamento e standardizzare la pipeline di asset del tema.
 ## Collegamenti correlati
 
 - [`Roadmap tema Zero`](../roadmap.md)
-- [`responsive-system.md`](responsive-system.md)
-- [`theme-customization.md`](theme-customization.md)
+- [`responsive-system.md`](../concepts/responsive-system.md)
+- [`theme-customization.md`](../how-to/theme-customization.md)
 - [`code-quality-improvements.md`](../code-quality-improvements.md)
 - [`theme-architecture-best-practices.md`](../theme-architecture-best-practices.md)

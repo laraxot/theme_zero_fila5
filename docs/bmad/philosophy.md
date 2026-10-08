@@ -9,7 +9,7 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-philosophy
 slug: philosophy
-description: "Il tema Zero è il tema baseline di healthcareapp, implementando la filosofia \"Vestito\" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business..."
+description: "Filosofia del tema Zero come tema baseline: presentazione pura, il dominio resta nei moduli."
 document_type: guide
 category: product-planning
 status: active

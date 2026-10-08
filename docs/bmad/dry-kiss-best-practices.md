@@ -9,7 +9,7 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-dry-kiss-best-practices
 slug: dry-kiss-best-practices
-description: "DRY & KISS Best Practices - Tema Zero"
+description: "Principi DRY e KISS applicati al tema Zero, con esempi e linee guida."
 document_type: how-to
 category: static-analysis
 status: active
