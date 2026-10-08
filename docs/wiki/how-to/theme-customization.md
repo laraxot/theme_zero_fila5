@@ -78,7 +78,7 @@ Introdurre un sistema di personalizzazione con varianti di colore, tipografia e 
 ## Collegamenti correlati
 
 - [`Roadmap tema Zero`](../roadmap.md)
-- [`component-library.md`](component-library.md)
-- [`performance-optimization.md`](performance-optimization.md)
+- [`component-library.md`](../concepts/component-library.md)
+- [`performance-optimization.md`](../rules/performance-optimization.md)
 - [`customization.md`](../customization.md)
 - [`theme-documentation-standard.md`](../theme-documentation-standard.md)

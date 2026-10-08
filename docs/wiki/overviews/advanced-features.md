@@ -78,7 +78,7 @@ Introdurre funzionalita avanzate mantenendo coerenza visiva e controllo delle di
 ## Collegamenti correlati
 
 - [`Roadmap tema Zero`](../roadmap.md)
-- [`theme-customization.md`](theme-customization.md)
-- [`performance-optimization.md`](performance-optimization.md)
+- [`theme-customization.md`](../how-to/theme-customization.md)
+- [`performance-optimization.md`](../rules/performance-optimization.md)
 - [`theme-documentation.md`](../theme-documentation.md)
 - [`themes-system-complete-guide.md`](../themes-system-complete-guide.md)

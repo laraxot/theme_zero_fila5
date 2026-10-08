@@ -39,7 +39,7 @@ graphify query "quali componenti usano il layout app" \
 ## La trappola: scaffold nel tema
 
 `graphify update <path>` scrive `<path>/graphify-out/`. Su un tema questo crea esattamente la
-categoria di cartella che [no-ai-tool-scaffold-dirs](./no-ai-tool-scaffold-dirs.md) vieta: il tema
+categoria di cartella che [no-ai-tool-scaffold-dirs](../../bmad/no-ai-tool-scaffold-dirs.md) vieta: il tema
 vive anche come repo Git indipendente, e uno strumento lanciato nella sua root ci deposita la
 propria cache ignorando le convenzioni del monorepo.
 
