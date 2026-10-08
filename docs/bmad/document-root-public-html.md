@@ -10,7 +10,7 @@ related:
   - "../../../../docs/wiki/rules/public-path-public-html.md"
 id: zero-docs-bmad-document-root-public-html
 slug: document-root-public-html
-description: "publicpath() risolve {repo}/publichtml/. Mai {repo}/laravel/public/."
+description: "public_path() risolve {repo}/public_html/ e mai {repo}/laravel/public/; la regola canonica e' nel modulo Xot."
 document_type: rule
 category: architecture
 status: active

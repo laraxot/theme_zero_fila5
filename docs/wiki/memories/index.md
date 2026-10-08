@@ -6,7 +6,7 @@ created: 2026-08-24
 updated: 2026-08-24
 id: zero-docs-wiki-memories-index
 slug: index
-description: "Index for Zero theme memories."
+description: "Indice delle memorie wiki del tema Zero."
 document_type: reference
 category: documentation
 status: active

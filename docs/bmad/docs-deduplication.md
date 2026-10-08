@@ -20,8 +20,4 @@ discussions: []
 I temi mantengono **stub** verso wiki progetto, Xot (`docs/wiki/concepts/`) e Media (`html2pdf`).
 
 - How-to: [../../../../docs/wiki/how-to/module-docs-deduplication.md](../../../../docs/wiki/how-to/module-docs-deduplication.md)
-<<<<<<< HEAD
 - Issue [#124](https://github.com/provtv/<repo progetto>/issues/124)
-=======
-- Issue [#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124)
->>>>>>> laraxot/dev

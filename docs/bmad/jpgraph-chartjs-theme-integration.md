@@ -9,7 +9,7 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-jpgraph-chartjs-theme-integration
 slug: jpgraph-chartjs-theme-integration
-description: "Il tema Zero funge da \"vestito\" per l'applicazione healthcareapp, fornendo la presentazione visiva senza logica di business. Questo documento descrive come il tema Zero può..."
+description: "Integrazione di JpGraph e Chart.js nel tema Zero, che fa da vestito di presentazione per l'applicazione."
 document_type: guide
 category: ui-frontend
 status: active

@@ -9,7 +9,7 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-php-quality-gates-rule
 slug: php-quality-gates-rule
-description: "Theme Zero - PHP Quality Gates Rule"
+description: "Regola dei quality gate PHP nel tema: strict_types in ogni file e verifica con phpstan prima della consegna."
 document_type: rule
 category: static-analysis
 status: active

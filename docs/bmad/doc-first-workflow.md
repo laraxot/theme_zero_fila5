@@ -9,7 +9,7 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-doc-first-workflow
 slug: doc-first-workflow
-description: "Theme Zero - Doc-First Workflow"
+description: "Regola doc-first: ogni modifica al tema parte dallo studio e dall'aggiornamento della docs, anche come handoff tra agenti."
 document_type: how-to
 category: documentation
 status: active

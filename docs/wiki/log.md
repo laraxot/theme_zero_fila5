@@ -22,6 +22,8 @@ discussions: []
 
 ## Log Entries
 
+[2026-10-08] [DOCS] Salute della docs: front matter completo su tutti i file, duplicati marcati `superseded`, indici rifatti. Vedi [story](../stories/2026-10-08-zero-docs-health.story.md).
+
 [2026-06-15] [DOCS] Censimento omonimi metodi — [method-name-homonyms](./concepts/method-name-homonyms.md). Business logic nei moduli, non nel tema.
 
 ## [2026-05-26] ops | ptvx.local ripristinato (PHP 8.4 handler)

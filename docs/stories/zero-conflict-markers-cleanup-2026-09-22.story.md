@@ -33,7 +33,7 @@ owned_scope:
 related:
   - "./docs-theme-zero-audit-2026-09-11.story.md"
 id: zero-docs-stories-zero-conflict-markers-cleanup-2026-09-22-story
-description: "laravel/Themes/Zero. 12 assegnati a questo fork (agent claude-sonnet-5, task"
+description: "Story di pulizia dei marker di conflitto committati nel tema Zero: 12 file assegnati, merge basato sull'evidenza."
 document_type: story
 category: bmad-story
 tags: []

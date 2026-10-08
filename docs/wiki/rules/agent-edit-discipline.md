@@ -4,7 +4,7 @@ type: reference
 updated: 2026-05-21
 id: zero-docs-wiki-rules-agent-edit-discipline
 slug: agent-edit-discipline
-description: "agent edit discipline - puntatore"
+description: "Puntatore alla regola canonica sulla disciplina di edit e validazione post-modifica degli agenti."
 document_type: reference
 category: architecture
 status: active

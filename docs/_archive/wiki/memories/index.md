@@ -2,7 +2,7 @@
 id: zero-docs-archive-wiki-memories-index
 slug: index
 title: "Zero Theme - memories Index"
-description: "Index for Zero theme memories."
+description: "Indice archiviato delle memorie wiki del tema Zero; il canonico e' wiki/memories/index.md."
 document_type: index
 type: index
 category: documentation

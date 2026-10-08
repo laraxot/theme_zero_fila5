@@ -9,7 +9,7 @@ related:
   - "./00-index.md"
 id: zero-docs-bmad-launch-plan
 slug: launch-plan
-description: "Product Launch Plan: Zero Theme"
+description: "Piano di lancio breve del tema Zero (Q2 2026); la versione estesa e' product-launch-plan."
 document_type: concept
 category: product-planning
 status: active

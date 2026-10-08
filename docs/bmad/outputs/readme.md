@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "LLM Wiki Outputs"
 type: index
@@ -6,14 +5,17 @@ tags: [theme, zero, readme]
 created: 2026-07-01
 updated: 2026-07-01
 qmd: "zero theme llm wiki outputs"
+id: zero-docs-bmad-outputs-readme
+slug: readme
+description: "![Laravel](https://laravel.com/)](https://laravel.com/)"
+document_type: index
+category: documentation
+status: active
+issues: []
+discussions: []
 ---
 # LLM Wiki Outputs
 
-=======
-# LLM Wiki Outputs
-
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-LLM Wiki Outputs-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -40,20 +42,12 @@ Core module for the FixCity Platform.
 | Lingua | Link |
 |--------|------|
 | 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 🇬🇧 Business card | [docs/readme-en.md](../readme-en.md) |
 | 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
 
 ---
 
 **Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-<<<<<<< HEAD
 Persistent answers, research reports, and generated summaries derived from this package wiki belong here.
 
 Outputs should cite the wiki or raw files they used, so later agents can audit the reasoning.
-=======
-=======
-Persistent answers, research reports, and generated summaries derived from this package wiki belong here.
-
-Outputs should cite the wiki or raw files they used, so later agents can audit the reasoning.
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
