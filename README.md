@@ -1,3 +1,5 @@
+> **Documentazione:** usare l’indice mantenuto in [`docs/README.md`](./docs/README.md); gli elenchi legacy qui sotto sono da riallineare separatamente.
+
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
