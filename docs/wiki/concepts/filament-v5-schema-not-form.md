@@ -7,7 +7,7 @@ created: 2026-07-24
 updated: 2026-07-24
 related:
   - ../../../../../../docs/wiki/concepts/filament-v5-form-in-blade.md
-  - ../../root-md-files/conflict-resolution-summary.md
+  - ../../bmad/conflict-resolution-summary.md
 ---
 
 # Filament 5 — `Schema`, non `Form`
