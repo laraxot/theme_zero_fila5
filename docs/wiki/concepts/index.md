@@ -4,6 +4,15 @@ type: reference
 tags: [wiki, no-frontmatter-fix]
 created: 2026-08-24
 updated: 2026-08-24
+id: zero-docs-wiki-concepts-index
+slug: index
+description: "Index for Zero theme concepts."
+document_type: reference
+category: documentation
+status: active
+qmd: "index"
+issues: []
+discussions: []
 ---
 
 # Zero Theme - concepts Index

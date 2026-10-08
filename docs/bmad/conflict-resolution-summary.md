@@ -7,6 +7,14 @@ updated: 2026-08-18
 qmd: "riepilogo risoluzione conflitti git - Filament 5"
 related:
   - "./00-index.md"
+id: zero-docs-bmad-conflict-resolution-summary
+slug: conflict-resolution-summary
+description: "Marker di conflitto a inizio riga rimossi dal tema (union dei lati, PHPDoc/wiki index ripuliti dai duplicati). Inventario User: git-merge-conflict-inventory. Casing docs:..."
+document_type: guide
+category: git-workflow
+status: active
+issues: []
+discussions: []
 ---
 
 # Riepilogo Risoluzione Conflitti Git - Filament 5

@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 compliance status"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-phpstan-compliance-status
+slug: phpstan-compliance-status
+description: "The Zero theme is a frontend theme and doesn't contain PHP code that requires PHPStan analysis. However, the theme follows best practices for"
+document_type: guide
+category: static-analysis
+status: active
+issues: []
+discussions: []
 ---
 
 # PHPStan Level 10 Compliance Status

@@ -7,6 +7,15 @@ updated: 2026-09-17
 tags: [navigazione, traduzioni, filament]
 related:
   - ./ARCHITECTURE.md
+id: zero-docs-bmad-navigation-integration
+slug: navigation-integration
+description: "Zero è un tema infrastrutturale: non contiene traduzioni dominio e non"
+document_type: rule
+category: ui-frontend
+status: active
+qmd: "contratto di navigazione del tema zero"
+issues: []
+discussions: []
 ---
 
 # Contratto di navigazione del tema Zero

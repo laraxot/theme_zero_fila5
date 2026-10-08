@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "implementazione chartjs datalabels in filament 5x - tema zero"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-chartjs-datalabels-filament5-implementation
+slug: chartjs-datalabels-filament5-implementation
+description: "Il tema Zero implementa il plugin chartjs-plugin-datalabels per migliorare l'esperienza utente nei widget grafici. L'implementazione segue i principi DRY + KISS e si integra..."
+document_type: concept
+category: ui-frontend
+status: active
+issues: []
+discussions: []
 ---
 
 # Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero

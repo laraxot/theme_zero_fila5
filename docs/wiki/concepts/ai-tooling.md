@@ -8,6 +8,14 @@ qmd: "graphify headroom caveman tema Zero blade indicizzazione scaffold"
 related:
   - ./no-ai-tool-scaffold-dirs.md
   - ../../../Modules/Xot/docs/ai-tooling-stack.md
+id: zero-docs-wiki-concepts-ai-tooling
+slug: ai-tooling
+description: "Canonico dello stack (versioni, installazione, configurazione)"
+document_type: guide
+category: documentation
+status: active
+issues: []
+discussions: []
 ---
 
 # Strumenti AI nel tema Zero

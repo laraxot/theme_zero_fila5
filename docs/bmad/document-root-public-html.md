@@ -8,6 +8,15 @@ qmd: "public_path public_html document root tema zero asset vite publish"
 related:
   - "../../../Modules/Xot/docs/wiki/rules/public-path-public-html.md"
   - "../../../../docs/wiki/rules/public-path-public-html.md"
+id: zero-docs-bmad-document-root-public-html
+slug: document-root-public-html
+description: "publicpath() risolve {repo}/publichtml/. Mai {repo}/laravel/public/."
+document_type: rule
+category: architecture
+status: active
+tags: []
+issues: []
+discussions: []
 ---
 
 # Document root: `public_html`, non `laravel/public`

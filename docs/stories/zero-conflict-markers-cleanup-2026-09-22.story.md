@@ -32,6 +32,14 @@ owned_scope:
   - "laravel/Themes/Zero/docs/skills/README.md"
 related:
   - "./docs-theme-zero-audit-2026-09-11.story.md"
+id: zero-docs-stories-zero-conflict-markers-cleanup-2026-09-22-story
+description: "laravel/Themes/Zero. 12 assegnati a questo fork (agent claude-sonnet-5, task"
+document_type: story
+category: bmad-story
+tags: []
+qmd: "cleanup marker di conflitto committati - theme zero (2026-09-22)"
+issues: []
+discussions: []
 ---
 
 # Cleanup marker di conflitto committati in HEAD — Theme Zero

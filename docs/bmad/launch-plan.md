@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "product launch plan zero theme"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-launch-plan
+slug: launch-plan
+description: "Product Launch Plan: Zero Theme"
+document_type: concept
+category: product-planning
+status: active
+issues: []
+discussions: []
 ---
 
 # Product Launch Plan: Zero Theme

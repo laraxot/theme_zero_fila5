@@ -4,6 +4,16 @@ type: reference
 qmd: second brain modulo wiki locale laravel
 updated: 2026-07-29
 updated: 2026-05-21
+id: zero-docs-bmad-second-brain
+slug: second-brain
+description: "Per sync multi-org del tema"
+document_type: reference
+category: documentation
+status: active
+tags: []
+created: "2026-10-06"
+issues: []
+discussions: []
 ---
 
 # Second brain (modulo)

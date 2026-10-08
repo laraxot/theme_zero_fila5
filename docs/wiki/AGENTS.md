@@ -4,6 +4,15 @@ type: reference
 tags: [wiki, no-frontmatter-fix]
 created: 2026-10-06
 updated: 2026-10-06
+id: zero-docs-wiki-agents
+slug: agents
+description: "You are the Zero Wiki Maintainer. Your job is to"
+document_type: reference
+category: documentation
+status: active
+qmd: "zero {{type^}} llm wiki agent instructions"
+issues: []
+discussions: []
 ---
 
 # Zero {{TYPE^}} LLM Wiki Agent Instructions

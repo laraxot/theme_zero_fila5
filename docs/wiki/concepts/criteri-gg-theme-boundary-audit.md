@@ -17,6 +17,14 @@ related:
   - ../../../../Modules/Ptv/docs/wiki/concepts/base-criteri-precedenza.md
   - ../../../../Modules/Ptv/docs/wiki/concepts/base-valutatore.md
   - ../../../../Modules/Progressioni/docs/wiki/concepts/no-services-queueable-actions.md
+id: zero-docs-wiki-concepts-criteri-gg-theme-boundary-audit
+slug: criteri-gg-theme-boundary-audit
+description: "Dopo l’audit moduli (Ptv/Sigma/Progressioni): il tema non è il posto dove “sistemare” duplicati di calcolo."
+document_type: concept
+category: architecture
+status: active
+issues: []
+discussions: []
 ---
 
 # Boundary tema: campi gg materializzati

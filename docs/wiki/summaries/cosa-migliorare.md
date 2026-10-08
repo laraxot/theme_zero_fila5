@@ -4,6 +4,16 @@ type: report
 theme: Zero
 updated: 2026-09-01
 qmd: "cosa migliorare zero phpstan phpmd phpinsights coverage debito priorita"
+id: zero-docs-wiki-summaries-cosa-migliorare
+slug: cosa-migliorare
+description: "Ogni affermazione qui sotto viene da un comando eseguito il 1 settembre 2026, dopo il"
+document_type: analysis
+category: documentation
+status: active
+tags: []
+created: "2026-10-08"
+issues: []
+discussions: []
 ---
 
 # Cosa migliorare — tema Zero

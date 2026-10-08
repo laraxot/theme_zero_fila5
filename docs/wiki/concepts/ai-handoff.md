@@ -7,6 +7,14 @@ updated: 2026-07-14
 qmd: "ai handoff"
 related:
   - "./00-index.md"
+id: zero-docs-wiki-concepts-ai-handoff
+slug: ai-handoff
+description: "docs/sprint-status.yaml + bashscripts/lock/ - non docs/chat/"
+document_type: guide
+category: documentation
+status: active
+issues: []
+discussions: []
 ---
 
 # ai handoff

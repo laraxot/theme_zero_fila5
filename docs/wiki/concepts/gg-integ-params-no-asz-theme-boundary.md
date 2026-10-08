@@ -11,6 +11,14 @@ related:
   - ./method-name-homonyms.md
   - ../../../../Modules/Sigma/docs/wiki/concepts/gg-integ-params-no-asz.md
   - ../../../../../../docs/wiki/rules/criterio-esclusione-field-isomorphism.md
+id: zero-docs-wiki-concepts-gg-integ-params-no-asz-theme-boundary
+slug: gg-integ-params-no-asz-theme-boundary
+description: "Il tema mostra valori già calcolati dai moduli (Sigma/Ptv/Progressioni/Performance). Non inventa sinonimi tra campi."
+document_type: concept
+category: architecture
+status: active
+issues: []
+discussions: []
 ---
 
 # Campi gg integ vs esperienza (tema Zero)

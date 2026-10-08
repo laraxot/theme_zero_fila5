@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "integrazione jpgraph e chartjs nel tema zero"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-jpgraph-chartjs-theme-integration
+slug: jpgraph-chartjs-theme-integration
+description: "Il tema Zero funge da \"vestito\" per l'applicazione healthcareapp, fornendo la presentazione visiva senza logica di business. Questo documento descrive come il tema Zero può..."
+document_type: guide
+category: ui-frontend
+status: active
+issues: []
+discussions: []
 ---
 
 # Integrazione JpGraph e Chart.js nel Tema Zero

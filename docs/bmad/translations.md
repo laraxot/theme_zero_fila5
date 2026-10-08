@@ -5,6 +5,14 @@ tags: [translations, i18n, theme]
 created: 2026-08-06
 updated: 2026-08-06
 qmd: "zero theme translations traduzioni tema"
+id: zero-docs-bmad-translations
+slug: translations
+description: "Themes/Zero/lang/{locale}/ contiene solo le stringhe del front-office che appartengono al"
+document_type: reference
+category: documentation
+status: active
+issues: []
+discussions: []
 ---
 
 # Traduzioni del tema Zero

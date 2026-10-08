@@ -10,6 +10,14 @@ related:
   - "./product-roadmap.md"
   - "./philosophy.md"
   - "./sprint-planning-meeting.md"
+id: zero-docs-bmad-sprint-planning
+slug: sprint-planning
+description: "stories/docs-theme-zero-audit-2026-09-11.story.md)."
+document_type: reference
+category: product-planning
+tags: []
+issues: []
+discussions: []
 ---
 
 # Sprint Planning — Theme Zero

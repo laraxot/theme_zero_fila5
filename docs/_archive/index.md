@@ -1,3 +1,21 @@
+---
+id: zero-docs-archive-index
+slug: index
+title: "Indice della Documentazione - Tema Zero"
+description: "Questo documento serve come indice centrale per il tema Zero, fornendo una guida per la personalizzazione e l'utilizzo del tema all'interno dell'applicazione Laravel. Il tema..."
+document_type: index
+type: index
+category: documentation
+status: archived
+tags: []
+created: "2026-09-24"
+updated: "2026-10-08"
+qmd: "indice della documentazione - tema zero"
+issues: []
+discussions: []
+canonical: ../README.md
+---
+
 # Indice della Documentazione - Tema Zero
 
 ## Panoramica

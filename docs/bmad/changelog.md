@@ -1,3 +1,21 @@
+---
+id: zero-docs-bmad-changelog
+slug: changelog
+title: "Changelog"
+description: "Tutte le variazioni importanti di Zero saranno generate automaticamente da semantic-release."
+document_type: guide
+type: guide
+category: documentation
+status: superseded
+tags: []
+created: "2026-10-06"
+updated: "2026-10-08"
+qmd: "changelog"
+issues: []
+discussions: []
+superseded_by: ../changelog.md
+---
+
 # Changelog
 
 Tutte le variazioni importanti di Zero saranno generate automaticamente da semantic-release.

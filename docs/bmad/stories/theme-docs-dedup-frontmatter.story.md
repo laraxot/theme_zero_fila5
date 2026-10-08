@@ -9,6 +9,16 @@ track: quality/docs
 qmd: "Themes Zero docs dedup frontmatter YAML audit peer zero-theme-rebase-fix convenzione markdown"
 related:
   - ../../00-index.md
+id: zero-docs-bmad-stories-theme-docs-dedup-frontmatter-story
+slug: theme-docs-dedup-frontmatter-story
+description: "Peer zero-theme-rebase-fix ha deduplicato docs (2026-09-22). Da verificare"
+document_type: story
+category: bmad-story
+tags: []
+created: "2026-09-24"
+updated: "2026-10-08"
+issues: []
+discussions: []
 ---
 
 # zero-docs-dedup-frontmatter

@@ -7,6 +7,14 @@ updated: 2026-07-14
 qmd: "zero theme - documentation index"
 related:
   - "./00-index.md"
+id: zero-docs-bmad-00-index
+slug: 00-index
+description: "Theme documentation conforming to Laraxot standards"
+document_type: concept
+category: documentation
+status: active
+issues: []
+discussions: []
 ---
 
 # Zero Theme - Documentation Index

@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "guida completa multiple labels con chartjs-plugin-datalabels in filament 5x tema zero"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-chartjs-datalabels-multiple-labels-complete-guide
+slug: chartjs-datalabels-multiple-labels-complete-guide
+description: "Questa guida è specifica per l'uso di multiple labels con chartjs-plugin-datalabels nel Tema Zero in Filament 5.x."
+document_type: guide
+category: ui-frontend
+status: active
+issues: []
+discussions: []
 ---
 
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Tema Zero)
