@@ -9,6 +9,14 @@ related:
   - "./accessibility-standards.md"
   - "./advanced-features.md"
   - "./component-library.md"
+id: zero-docs-wiki-concepts-responsive-system
+slug: responsive-system
+description: "Definire un sistema responsive coerente con griglie, breakpoint e layout riutilizzabili."
+document_type: guide
+category: documentation
+status: active
+issues: []
+discussions: []
 ---
 
 # Sistema responsive e grid

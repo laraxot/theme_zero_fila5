@@ -11,6 +11,14 @@ related:
   - ../../code-quality-improvement-report.md
   - ../../../../../../docs/wiki/memories/module-github-remote-discipline.md
   - ../../../../../../docs/wiki/skills/module-theme-git-remote-resolve.md
+id: zero-docs-wiki-memories-github-remote-theme-resolve
+slug: github-remote-theme-resolve
+description: "In un conflitto su URL basetechplanner vs base, entrambe le parti possono essere false. Non scegliere a caso: rieseguire git remote -v."
+document_type: memory
+category: git-workflow
+status: active
+issues: []
+discussions: []
 ---
 
 # Remote GitHub — tema Zero

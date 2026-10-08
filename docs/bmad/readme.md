@@ -169,7 +169,7 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 - [conflict-resolution-summary.md](./conflict-resolution-summary.md): Riepilogo Risoluzione Conflitti Git - Filament 5 [dup] [marker di merge]
 - [conflict-resolution.md](./conflict-resolution.md): Conflict Resolution — Theme Zero [marker di merge]
 - [conflict_resolution_summary.md](./conflict_resolution_summary.md): CONFLICT-RESOLUTION-SUMMARY (deprecated) [dup]
-- [git-conflict-resolution-2026-07-31.md](./git-conflict-resolution-2026-07-31.md): Audit collisioni Git committate in bashscripts [dup]
+- [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md): Audit collisioni Git committate in bashscripts [dup]
 - [git-multi-org-sync-handoff.md](./git-multi-org-sync-handoff.md): Handoff multi-org sync (STORY-003) [marker di merge]
 - [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md): Sincronizzazione multi-organizzazione (laraxot + provtv)
 - [no-git-lfs.md](./no-git-lfs.md): Git LFS vietato: linea guida e prototipo .gitattributes [marker di merge]
@@ -329,12 +329,12 @@ Nessun file e' stato toccato. Proposte di destinazione nella story [swarm-phpsta
 - stesso titolo: [CONFLICT-RESOLUTION-SUMMARY.md](./CONFLICT-RESOLUTION-SUMMARY.md), [CONFLICT_RESOLUTION_SUMMARY.md](./CONFLICT_RESOLUTION_SUMMARY.md), [conflict_resolution_summary.md](./conflict_resolution_summary.md)
 - stesso titolo: [METODI-DUPLICATI-ANALISI.md](./METODI-DUPLICATI-ANALISI.md), [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md)
 - stesso titolo: [database-governance.md](./database-governance.md), [phpstan-merge-conflicts.md](./phpstan-merge-conflicts.md)
-- stesso titolo: [git-collision-audit-bashscripts.md](./git-collision-audit-bashscripts.md), [git-collisions-bashscripts-audit.md](./git-collisions-bashscripts-audit.md), [git-conflict-resolution-2026-07-31.md](./git-conflict-resolution-2026-07-31.md)
+- stesso titolo: [git-collision-audit-bashscripts.md](./git-collision-audit-bashscripts.md), [git-collisions-bashscripts-audit.md](./git-collisions-bashscripts-audit.md), [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md)
 - stesso titolo: [phpstan-dry-kiss-guidelines.md](./phpstan-dry-kiss-guidelines.md), [phpstan-dry-kiss-theme-guidelines-historic.md](./phpstan-dry-kiss-theme-guidelines-historic.md), [phpstan-dry-kiss-theme-guidelines.md](./phpstan-dry-kiss-theme-guidelines.md)
 
 ### Senza front matter (9)
 
-[CHANGELOG.md](./CHANGELOG.md), [FRAMEWORKS.md](./FRAMEWORKS.md), [README-en.md](./README-en.md), [README.md](./README.md), [binary-assets.md](./binary-assets.md), [code-quality-report.md](./code-quality-report.md), [git-conflict-resolution-2026-07-31.md](./git-conflict-resolution-2026-07-31.md), [graphify-map.md](./graphify-map.md), [index.md](./index.md)
+[CHANGELOG.md](./CHANGELOG.md), [FRAMEWORKS.md](./FRAMEWORKS.md), [README-en.md](./README-en.md), [README.md](./README.md), [binary-assets.md](./binary-assets.md), [code-quality-report.md](./code-quality-report.md), [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md), [graphify-map.md](./graphify-map.md), [index.md](./index.md)
 
 ### Marker di merge non risolti (113 file di radice)
 

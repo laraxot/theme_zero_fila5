@@ -11,6 +11,14 @@ related:
   - "./product-strategy.md"
   - "./sprint-planning.md"
   - "./philosophy.md"
+id: zero-docs-bmad-user-research
+slug: user-research
+description: "stories/docs-theme-zero-audit-2026-09-11.story.md)."
+document_type: reference
+category: documentation
+tags: []
+issues: []
+discussions: []
 ---
 
 # User Research — Theme Zero

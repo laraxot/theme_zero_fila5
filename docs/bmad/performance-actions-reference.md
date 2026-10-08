@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "performance actions reference"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-performance-actions-reference
+slug: performance-actions-reference
+description: "Questo documento spiega cosa deve sapere il tema Zero dell'action"
+document_type: guide
+category: performance
+status: active
+issues: []
+discussions: []
 ---
 
 # Performance actions reference

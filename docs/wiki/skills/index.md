@@ -4,6 +4,16 @@ type: "index"
 tags: [skills, theme, on-demand]
 module: "Zero"
 updated: 2026-05-12
+id: zero-docs-wiki-skills-index
+slug: index
+description: "Skill condivise e riusabili per il tema. Load on-demand."
+document_type: index
+category: documentation
+status: active
+created: "2026-09-24"
+qmd: "skills index"
+issues: []
+discussions: []
 ---
 
 # Skills — Zero Theme Wiki

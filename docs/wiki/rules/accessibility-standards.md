@@ -9,6 +9,14 @@ related:
   - "./accessibility-standards.md"
   - "./advanced-features.md"
   - "./component-library.md"
+id: zero-docs-wiki-rules-accessibility-standards
+slug: accessibility-standards
+description: "Rendere il tema conforme agli standard di accessibilita e compatibile con i principali browser."
+document_type: rule
+category: architecture
+status: active
+issues: []
+discussions: []
 ---
 
 # Accessibilita e standard cross-browser

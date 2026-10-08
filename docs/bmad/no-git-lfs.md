@@ -4,6 +4,16 @@ type: guideline
 theme: Zero
 updated: 2026-09-01
 qmd: "git lfs vietato gitattributes prototipo binari blob normali zero puntatori immagini"
+id: zero-docs-bmad-no-git-lfs
+slug: no-git-lfs
+description: "Vale per il repo root, per bashscripts/ e per ogni modulo e tema. Questo tema non fa"
+document_type: rule
+category: git-workflow
+status: active
+tags: []
+created: "2026-10-06"
+issues: []
+discussions: []
 ---
 
 # Git LFS non si usa in questo progetto

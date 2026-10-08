@@ -8,6 +8,14 @@ qmd: "phpstan theme zero solo laravel/phpstan.neon modules gate no --level"
 related:
   - "./phpstan-level10-analysis.md"
   - "../../../../Modules/Xot/docs/stories/5.7.phpstan-modules-green.story.md"
+id: zero-docs-bmad-phpstan
+slug: phpstan
+description: "Il tema serve il FO (login, layout). PHPStan non è il Job dell'utente: è il gate degli agenti. laravel/phpstan.neon ha paths: Modules/ - analizzare solo il tema produce ignore..."
+document_type: guide
+category: static-analysis
+status: active
+issues: []
+discussions: []
 ---
 
 # PHPStan — Theme Zero

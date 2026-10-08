@@ -4,6 +4,15 @@ type: architecture
 tags: [theme, architecture, zero]
 created: 2026-08-04
 updated: 2026-08-04
+id: zero-docs-bmad-architecture
+slug: architecture
+description: "Zero theme architecture and design patterns for Laraxot PTVX."
+document_type: reference
+category: architecture
+status: active
+qmd: "zero theme architecture"
+issues: []
+discussions: []
 ---
 # Zero Theme — Architecture
 

@@ -2,6 +2,18 @@
 title: "Wiki Index"
 module: "Zero"
 updated: "2026-05-12T10:15:00Z"
+id: zero-docs-wiki-index
+slug: index
+description: "Replaces embedding-based RAG at moderate scale (100 sources)."
+document_type: index
+type: index
+category: documentation
+status: active
+tags: []
+created: "2026-09-24"
+qmd: "wiki index"
+issues: []
+discussions: []
 ---
 
 # Wiki Index — Zero
@@ -31,7 +43,7 @@ _No entities tracked yet._
 
 ## On-Demand References
 
-- [contract-interface-stacking](../../../../../docs/wiki/rules/contract-interface-stacking.md) — pattern contratti compositi (modelli backend)
+- [handoff-contract-stacking-basescheda](../../../../Modules/Geo/docs/chat/handoff-contract-stacking-basescheda.md) — riferimento al pattern di stacking dei contratti
 - [rules-index](./rules/index.md) — entry point per regole condivise e theme-facing da caricare on demand
 - [skills-index](./skills/index.md) — entry point per skill riusabili lato tema e Xot
 

@@ -8,6 +8,14 @@ tags: [migrato-da-txt, zero]
 converted_from: jpgraph-guide.txt
 created: 2026-08-24
 updated: 2026-08-24
+id: zero-docs-bmad-jpgraph-guide
+document_type: reference
+category: ui-frontend
+status: superseded
+qmd: "jpgraph 4.4.2 guide"
+issues: []
+discussions: []
+superseded_by: ../wiki/concepts/jpgraph-guide.md
 ---
 
 # JpGraph 4.4.2 Guide

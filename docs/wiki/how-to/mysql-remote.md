@@ -1,3 +1,20 @@
+---
+id: zero-docs-wiki-how-to-mysql-remote
+slug: mysql-remote
+title: "MySQL/MariaDB Remoto - Configurazione"
+description: "Operativo - connessione remota confermata da esterno."
+document_type: how-to
+type: how-to
+category: database
+status: active
+tags: []
+created: "2026-10-08"
+updated: "2026-10-08"
+qmd: "mysql/mariadb remoto - configurazione"
+issues: []
+discussions: []
+---
+
 # MySQL/MariaDB Remoto — Configurazione
 
 **Data:** 2026-09-10

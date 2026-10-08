@@ -8,6 +8,14 @@ qmd: "prd zero theme"
 related:
   - "./00-index.md"
   - "./00-index.md"
+id: zero-docs-bmad-prd
+slug: prd
+description: "Specialized logic for Zero needs a dedicated, type-safe Theme to ensure maintainability."
+document_type: guide
+category: product-planning
+status: active
+issues: []
+discussions: []
 ---
 
 # PRD: Zero Theme

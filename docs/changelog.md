@@ -8,6 +8,15 @@ updated: "2026-06-18"
 related:
   - README.md
   - ../README.md
+id: zero-docs-changelog
+slug: changelog
+description: "v1.0.0 - Released 2026-06-18"
+document_type: reference
+category: documentation
+created: "2026-09-24"
+qmd: "changelog - zero theme"
+issues: []
+discussions: []
 ---
 
 # Changelog — Zero Theme

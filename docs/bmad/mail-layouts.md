@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "tema zero - mail layouts"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-mail-layouts
+slug: mail-layouts
+description: "Il tema Zero utilizza un layout email basato sul Design System Italiano (italia/design-comuni-pagine-statiche) e integrato con spatie/laravel-database-mail-templates per..."
+document_type: guide
+category: ui-frontend
+status: active
+issues: []
+discussions: []
 ---
 
 # Tema Zero - Mail Layouts

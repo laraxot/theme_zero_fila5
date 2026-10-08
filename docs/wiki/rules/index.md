@@ -4,6 +4,16 @@ type: "index"
 tags: [rules, theme, on-demand]
 module: "Zero"
 updated: 2026-05-12
+id: zero-docs-wiki-rules-index
+slug: index
+description: "Regole condivise rilevanti per il tema. Load on-demand."
+document_type: index
+category: documentation
+status: active
+created: "2026-09-24"
+qmd: "rules index"
+issues: []
+discussions: []
 ---
 
 # Rules — Zero Theme Wiki

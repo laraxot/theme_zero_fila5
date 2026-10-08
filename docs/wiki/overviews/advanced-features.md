@@ -9,6 +9,14 @@ related:
   - "./accessibility-standards.md"
   - "./advanced-features.md"
   - "./component-library.md"
+id: zero-docs-wiki-overviews-advanced-features
+slug: advanced-features
+description: "Introdurre funzionalita avanzate mantenendo coerenza visiva e controllo delle dipendenze."
+document_type: guide
+category: documentation
+status: active
+issues: []
+discussions: []
 ---
 
 # Funzionalita avanzate (dark mode, export)

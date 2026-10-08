@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "schemaless attributes in themes"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-schemaless-attributes
+slug: schemaless-attributes
+description: "Themes can use models that implement Schemaless Attributes (e.g., Profile, Extra)."
+document_type: rule
+category: database
+status: active
+issues: []
+discussions: []
 ---
 
 # 🧬 Schemaless Attributes in Themes

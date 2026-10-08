@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "accessor delegation pattern - zero theme"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-accessor-delegation-pattern
+slug: accessor-delegation-pattern
+description: "Pattern per accessor nel Zero Theme"
+document_type: pattern
+category: architecture
+status: active
+issues: []
+discussions: []
 ---
 
 # 🧘 Accessor Delegation Pattern - Zero Theme

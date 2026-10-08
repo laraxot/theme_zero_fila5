@@ -9,6 +9,14 @@ related:
   - "./accessibility-standards.md"
   - "./advanced-features.md"
   - "./component-library.md"
+id: zero-docs-wiki-how-to-theme-customization
+slug: theme-customization
+description: "Introdurre un sistema di personalizzazione con varianti di colore, tipografia e layout."
+document_type: guide
+category: ui-frontend
+status: active
+issues: []
+discussions: []
 ---
 
 # Personalizzazione tema e varianti

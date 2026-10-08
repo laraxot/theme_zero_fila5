@@ -10,6 +10,14 @@ related:
   - "../../../../../docs/wiki/rules/agent-confidence-protocol.md"
   - "../../../../docs/wiki/rules/agent-confidence-protocol.md"
   - "../../../../../docs/wiki/rules/agent-confidence-protocol.md"
+id: zero-docs-wiki-rules-agent-confidence-protocol
+slug: agent-confidence-protocol
+description: "Stub DRY. Regola canonica: ../../../../docs/wiki/rules/agent-confidence-protocol.md."
+document_type: reference
+category: static-analysis
+qmd: "massima confidenza agente"
+issues: []
+discussions: []
 ---
 
 # Massima confidenza agente

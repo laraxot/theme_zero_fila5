@@ -9,6 +9,14 @@ related:
   - "./accessibility-standards.md"
   - "./advanced-features.md"
   - "./component-library.md"
+id: zero-docs-wiki-concepts-component-library
+slug: component-library
+description: "Costruire una libreria componenti coerente con il tema e allineata alle componenti UI esistenti."
+document_type: guide
+category: ui-frontend
+status: active
+issues: []
+discussions: []
 ---
 
 # Libreria componenti e integrazione UI

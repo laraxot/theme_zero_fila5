@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "zero theme - filosofia completa"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-philosophy
+slug: philosophy
+description: "Il tema Zero è il tema baseline di healthcareapp, implementando la filosofia \"Vestito\" di Laraxot. Zero fornisce presentazione visiva minimale, lasciando che la logica business..."
+document_type: guide
+category: product-planning
+status: active
+issues: []
+discussions: []
 ---
 
 # Zero Theme - Filosofia Completa

@@ -4,6 +4,15 @@ type: reference
 tags: [wiki, no-frontmatter-fix]
 created: 2026-08-24
 updated: 2026-08-24
+id: zero-docs-wiki-memories-index
+slug: index
+description: "Index for Zero theme memories."
+document_type: reference
+category: documentation
+status: active
+qmd: "index"
+issues: []
+discussions: []
 ---
 
 # Zero Theme - memories Index

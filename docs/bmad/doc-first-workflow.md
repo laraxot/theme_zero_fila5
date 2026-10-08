@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme zero - doc-first workflow"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-doc-first-workflow
+slug: doc-first-workflow
+description: "Theme Zero - Doc-First Workflow"
+document_type: how-to
+category: documentation
+status: active
+issues: []
+discussions: []
 ---
 
 # Theme Zero - Doc-First Workflow

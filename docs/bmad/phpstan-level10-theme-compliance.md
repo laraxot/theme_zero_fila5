@@ -6,11 +6,15 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "phpstan level 10 compliance - theme system"
 related:
-<<<<<<< HEAD
-=======
   - "./00-index.md"
->>>>>>> laraxot/dev
-  - "./00-index.md"
+id: zero-docs-bmad-phpstan-level10-theme-compliance
+slug: phpstan-level10-theme-compliance
+description: "I temi del progetto seguono gli stessi pattern PHPStan Level 10 applicati nei moduli"
+document_type: guide
+category: static-analysis
+status: active
+issues: []
+discussions: []
 ---
 
 # PHPStan Level 10 Compliance - Theme System

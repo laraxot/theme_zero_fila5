@@ -6,6 +6,15 @@ created: "2026-07-21"
 updated: "2026-07-23"
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+id: zero-docs-bmad-multi-org-sync-laraxot-provtv
+slug: multi-org-sync-laraxot-provtv
+description: "Questo repository è tracciato da due remote GitHub (laraxot = org upstream canonica,"
+document_type: concept
+category: git-workflow
+status: active
+qmd: "sincronizzazione multi-organizzazione (laraxot + provtv)"
+issues: []
+discussions: []
 ---
 
 # Sincronizzazione multi-organizzazione (laraxot + provtv)

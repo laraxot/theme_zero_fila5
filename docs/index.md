@@ -572,7 +572,7 @@ instead of being removed. See [docs-archive-policy.md](./docs-archive-policy.md)
 
 - [conflict-resolution.md](./conflict-resolution.md)
 - [conflict-resolution-summary.md](./conflict-resolution-summary.md)
-- [git-conflict-resolution-2026-07-31.md](./git-conflict-resolution-2026-07-31.md)
+- [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md)
 - [git-collision-audit-bashscripts.md](./git-collision-audit-bashscripts.md)
 - [git-collisions-bashscripts-audit.md](./git-collisions-bashscripts-audit.md) — near duplicate of git-collision-audit-bashscripts.md, see Storico
 - [git-multi-org-sync-handoff.md](./git-multi-org-sync-handoff.md)
