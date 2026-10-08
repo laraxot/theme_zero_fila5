@@ -1,92 +1,34 @@
-# Theme Documentation
-
-[![Module](https://img.shields.io/badge/Module-Theme Documentation-8B0000.svg)]()
-[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
-[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
-[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://php.net/)
-[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://phpstan.org/)
-[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue?style=for-the-badge)](https://www.php-fig.org/psr/psr-12/)](https://www.php-fig.org/psr/psr-12/)
-[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=for-the-badge)](https://martinfowler.com/articles/paradigm-shifts.html)]()
-]()
-
-> **Core module for the FixCity Platform.**
-
-## Perché esiste
-
-Core module for the FixCity Platform.
-
-## Superpoteri
-
-- Modular component with XotBase patterns
-- Professional-grade implementation
-- Integrated with FixCity Platform
-
-## Documentazione
-
-| Lingua | Link |
-|--------|------|
-| 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
-
+---
+title: "Documentazione — Tema Zero"
+type: index
+module: Zero
+status: active
+updated: '2026-10-07'
 ---
 
-**Modulo** `Zero` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-# Tema Zero - Documentazione
+# Documentazione del tema Zero
 
-## Gestionale / replica
+Questo è l’entrypoint pulito per i documenti del tema. `index.md` conserva marcatori di conflitto e storia di merge: è stato lasciato intatto; per navigare usare questa pagina e il catalogo wiki in `wiki/index.md`.
 
-Tema alternativo/sperimentale. Hub: [gestionale-docs-index.md](../../docs/gestionale-docs-index.md) · [tenant-modules-navigation-discipline.md](../../docs/tenant-modules-navigation-discipline.md) · [panels vs Zero](./gestionale-panels-vs-themes.md).
+## Aree
 
-## Overview
+| Percorso | Contenuto |
+|---|---|
+| [`wiki/index.md`](wiki/index.md) | catalogo wiki e riferimenti on-demand |
+| [`wiki/overview.md`](wiki/overview.md) | overview del tema |
+| [`wiki/architecture-rules.md`](wiki/architecture-rules.md) | confini architetturali e regole |
+| [`concepts/xotbase-never-extend-filament.md`](concepts/xotbase-never-extend-filament.md) | vincolo del tema sulle classi base Filament |
+| [`stories/`](stories/) | storie del tema: [audit documentazione](stories/docs-theme-zero-audit-2026-09-11.story.md), [audit indice](stories/docs-index-audit.story.md), [pulizia marker di conflitto](stories/zero-conflict-markers-cleanup-2026-09-22.story.md) e [restyling login](stories/auth-login-ui-ux-redesign-2026-09-17.story.md) |
+| [`bmad/stories/`](bmad/stories/) | [gate PHPStan e swarm](bmad/stories/quality-gates-phpstan-swarm-2026-09-23.story.md) e [deduplicazione/frontmatter docs](bmad/stories/theme-docs-dedup-frontmatter.story.md) |
+| [`changelog.md`](changelog.md) | cronologia documentata del tema |
+| [`_archive/`](_archive/) | documentazione storica conservata, non canonica |
 
-Il tema **Zero** è il tema principale di default per l'applicazione Laraxot.
+Le pagine di dettaglio per categorie (regole, concetti, skill, memorie e comandi) sono raggiungibili dal [catalogo wiki](wiki/index.md). Gli indici duplicati in maiuscolo/minuscolo restano da riallineare.
 
-## Scopo (business)
+## Confine con i moduli
 
-- **Frontoffice**: layout e pagine base, con convenzioni condivise.
-- **Coerenza**: integrazione con `UI` per componenti, e con `Xot` per regole architetturali.
+Il tema possiede presentazione, asset, layout e componenti visuali. La logica survey, l’autorizzazione e i dati Pulse sono proprietà del modulo Quaeris; il relativo contratto è in [`Quaeris docs / BMAD`](../../../Modules/Quaeris/docs/bmad/README.md). Non copiare metriche o decisioni di dominio nel tema.
 
-## Struttura
+## Manutenzione
 
-```
-Zero/
-├── app/
-│   ├── Http/
-│   ├── View/
-│   └── ...
-├── config/
-├── docs/
-├── lang/
-├── resources/
-│   ├── views/
-│   └── svg/
-└── routes/
-```
-
-## Configurazione
-
-### Regole Fondamentali
-
-1. **PHPStan**: Configurazione centralizzata in `laravel/phpstan.neon`
-2. **Output files**: `phpstan*.json` ignorati (NON committare)
-3. **Namespace**: `Themes\Zero\`
-
-## Repo indipendente
-
-Path in `gitmodules.ini`: `laravel/Themes/Zero` → remote `laraxot/theme_zero_fila5`. Entrare con `cd`, non trattarlo come submodule della root. Protocollo: [17-gitmodules-path-iteration.md](../../../../bashscripts/tools/prompts/17-gitmodules-path-iteration.md).
-
-## Collegamenti
-
-- [PHPStan Docs](./phpstan.md)
-- [Configurazione Root](../../../docs/THEME_ZERO.md)
-- [Metodologia GSD](../../../../docs/project/gsd-methodology.md)
-- [GSD templates locali](../../../../.gsd/README.md)
-
-## Backlinks
-
-- [Xot Module](../../Modules/Xot/docs/)
-- [UI Module](../../Modules/UI/docs/)
-
-## AI Workflows
-- [AI Methodologies](./ai-methodologies.md)
+Aggiornare questo indice solo per documenti verificati esistenti. Restano in backlog la riconciliazione dei marcatori di conflitto in [index.md](index.md), [wiki/INDEX.md](wiki/INDEX.md) e negli indici duplicati, e la verifica dei link storici nel [README del tema](../README.md). Non spostare o cancellare in blocco gli archivi; correggere i conflitti Git in un’attività dedicata, preservando entrambe le parti e la storia.
