@@ -4,6 +4,7 @@ type: note
 module: Zero
 status: active
 updated: "2026-10-08"
+<<<<<<< .merge_file_D4zAuK
 id: zero-docs-inventory
 slug: inventory
 description: "Questa nota descrive la struttura reale di laravel/Themes/Zero/docs/ al"
@@ -14,6 +15,8 @@ created: "2026-10-08"
 qmd: "inventario della documentazione - tema zero"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_dBCpu4
 ---
 
 # Inventario della documentazione — Tema Zero
