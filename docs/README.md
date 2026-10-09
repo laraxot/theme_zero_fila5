@@ -7,7 +7,6 @@ document_type: index
 type: index
 category: documentation
 status: active
-<<<<<<< HEAD
 module: Zero
 tags: [zero, tema, docs, indice]
 created: "2026-09-24"
@@ -19,19 +18,6 @@ related:
   - ./inventory.md
   - ./wiki/index.md
   - ./bmad/00-index.md
-=======
-updated: '2026-10-07'
-id: zero-docs-readme
-slug: readme
-description: "Questo è l’entrypoint pulito per i documenti del tema. index.md conserva marcatori di conflitto e storia di merge: è stato lasciato intatto; per navigare usare questa pagina e..."
-document_type: index
-category: documentation
-tags: []
-created: "2026-09-24"
-qmd: "documentazione - tema zero"
-issues: []
-discussions: []
->>>>>>> 2566b4168 (pull moduli vari)
 ---
 
 # Documentazione del tema Zero
@@ -72,11 +58,7 @@ File nella radice: [`changelog.md`](changelog.md) (cronologia), [`inventory.md`]
 
 ## Story
 
-<<<<<<< .merge_file_DFcUPh
-- In `stories/`: [salute della docs](stories/2026-10-08-zero-docs-health.story.md), [audit documentazione](stories/docs-theme-zero-audit-2026-09-11.story.md), [audit indice](stories/docs-index-audit.story.md), [pulizia marker di conflitto](stories/zero-conflict-markers-cleanup-2026-09-22.story.md), [restyling login](stories/auth-login-ui-ux-redesign-2026-09-17.story.md).
-=======
 - In `stories/`: [salute della docs, 2026-10-08](stories/2026-10-08-zero-docs-health.story.md), [audit documentazione](stories/docs-theme-zero-audit-2026-09-11.story.md), [audit indice](stories/docs-index-audit.story.md), [pulizia marker di conflitto](stories/zero-conflict-markers-cleanup-2026-09-22.story.md), [restyling login](stories/auth-login-ui-ux-redesign-2026-09-17.story.md).
->>>>>>> .merge_file_TUQK6v
 - In `bmad/stories/`: [gate PHPStan e swarm](bmad/stories/quality-gates-phpstan-swarm-2026-09-23.story.md), [dedup e frontmatter](bmad/stories/theme-docs-dedup-frontmatter.story.md).
 
 ## Regole di manutenzione
@@ -88,14 +70,7 @@ File nella radice: [`changelog.md`](changelog.md) (cronologia), [`inventory.md`]
 
 ## Debito noto
 
-<<<<<<< .merge_file_DFcUPh
-- Nessun marker di conflitto Git nella docs. I conflitti con lati divergenti sono stati risolti scegliendo un lato (per esempio `index.md` e' passato da 669 a 397 righe): il testo scartato e' nella storia git e va riletto prima di fidarsi di un documento che citava due versioni.
-- Circa 510 link relativi su 1.215 non risolvono (percorsi di altri moduli, nomi ambigui, file mai esistiti). Conteggio e metodo in [`inventory.md`](inventory.md).
-- 31 file hanno al massimo 12 righe di corpo e nessun puntatore a un canonico; alcuni sono veri placeholder (`bmad/phpstan-merge-conflicts.md`, `bmad/laravel-13-upgrade.md`).
-- Le guide in `bmad/` citano Tailwind v4, Livewire 4 e Flux UI; il tema reale usa Tailwind 3.4, Alpine e Flowbite. Allineare quando si tocca la guida.
-- Il gemello `bmad/readme.md` (maiuscola diversa) collide su filesystem case-insensitive: vedi [`bmad/README.md`](bmad/README.md).
-=======
 - 30 file contengono ancora marker di conflitto Git con lati divergenti o annidati: elenco e stato in [`inventory.md`](inventory.md). Si risolvono uno per uno, tenendo entrambe le parti utili, in un task dedicato.
 - Molti link relativi ereditati dalla vecchia struttura piatta non risolvono (conteggio in `inventory.md`).
 - Le guide in `bmad/` citano Tailwind v4, Livewire 4 e Flux UI; il tema reale usa Tailwind 3.4, Alpine e Flowbite. Allineare quando si tocca la guida.
->>>>>>> .merge_file_TUQK6v
+- Il gemello `bmad/readme.md` (maiuscola diversa) collide su filesystem case-insensitive: vedi [`bmad/README.md`](bmad/README.md).

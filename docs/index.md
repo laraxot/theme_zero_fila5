@@ -16,13 +16,6 @@ discussions: []
 superseded_by: README.md
 ---
 
-<<<<<<< .merge_file_iAz2lt
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_bn1kOY
 # Indice della Documentazione - Tema Zero
 
 > **Nota 2026-07-24**: indice storico senza frontmatter, ridondante rispetto a
