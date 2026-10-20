@@ -1,7 +1,13 @@
 ---
-title: Theme Zero — indice documentazione
+id: zero-docs-index-pointer
+slug: index-pointer
+title: "Tema Zero, puntatore all'indice (ex INDEX.md)"
+description: "Puntatore di compatibilita' verso README.md; era INDEX.md e collideva con index.md su filesystem case-insensitive."
+document_type: index
+category: documentation
 type: index
 tags: [docs, theme, zero]
+created: "2026-10-08"
 status: superseded
 superseded_by: README.md
 canonical: ./README.md
