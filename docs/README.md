@@ -24,14 +24,16 @@ related:
   - ../../../Modules/Cms/docs/scopo.md
   - ../../../Modules/Lang/docs/scopo.md
   - ../../../Modules/Xot/docs/wiki/memories/phpstan-single-neon-config.md
+  - ../../../Modules/Xot/docs/conventions/docs-organization.md
+  - ./INDEX.md
 ---
 
 <!--
 GateGuard facts:
-1. Supersedes nothing — adds related + Qualita' link to existing Xot single-neon memory (bmad/phpstan.md already covers policy).
-2. Linked from Themes/Zero docs ingress; bmad/00-index.md points here.
+1. Supersedes previous related-only set — adds docs-organization + INDEX spine link; non cancella contenuto.
+2. Linked from Themes/Zero/docs/INDEX.md, bmad/00-index.md, inventory.
 3. Edit existing README.md — not a new file.
-4. User: "devi utilizzare laravel/phpstan.neon e solo io posso modificarlo, non puoi creare altri .neon"
+4. User verbatim: "aggiorna studia e migliora e organizza meglio le cartelle docs dentro i moduli e dentro i temi e migliora il tuo second brain"
 -->
 
 # Documentazione del tema Zero
@@ -60,10 +62,10 @@ Il tema non contiene logica di dominio. Survey, autorizzazione e dati Pulse sono
 | Percorso | Ruolo | Ingresso |
 |---|---|---|
 | [`bmad/`](bmad/) | guide, architettura, report e pianificazione del tema (la parte piu' grande) | [`bmad/00-index.md`](bmad/00-index.md), [`bmad/README.md`](bmad/README.md), panoramica lunga [`bmad/theme-overview.md`](bmad/theme-overview.md) |
-| [`wiki/`](wiki/) | conoscenza curata per gli agenti: concetti, regole, how-to, memorie, fonti | [`wiki/index.md`](wiki/index.md), [`wiki/agents.md`](wiki/agents.md) |
-| [`stories/`](stories/) | story BMAD del tema (posizione prevista dalla policy) | vedi sotto |
+| [`wiki/`](wiki/) | conoscenza curata per gli agenti: concetti, regole, how-to, memorie, fonti | [`wiki/index.md`](wiki/index.md), [`wiki/README.md`](wiki/README.md) |
+| [`stories/`](stories/) | story BMAD del tema | [`stories/README.md`](stories/README.md) |
 | [`bmad/stories/`](bmad/stories/) | altre due story, nate prima della policy | vedi sotto |
-| [`concepts/`](concepts/) | vincolo XotBase al posto di Filament | [`xotbase-never-extend-filament.md`](concepts/xotbase-never-extend-filament.md) |
+| [`concepts/`](concepts/) | vincoli e concetti specifici del tema | [`concepts/README.md`](concepts/README.md) |
 | [`skills/`](skills/) | note sulle skill del tema | [`readme.md`](skills/readme.md) |
 | [`_archive/`](_archive/) | copie storiche, non canoniche; ogni file ha `canonical:` verso il documento vivo | [`README.md`](_archive/README.md) (tabella copia e canonico) |
 
