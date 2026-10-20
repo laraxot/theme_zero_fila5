@@ -73,4 +73,4 @@ File nella radice: [`changelog.md`](changelog.md) (cronologia), [`inventory.md`]
 - 30 file contengono ancora marker di conflitto Git con lati divergenti o annidati: elenco e stato in [`inventory.md`](inventory.md). Si risolvono uno per uno, tenendo entrambe le parti utili, in un task dedicato.
 - Molti link relativi ereditati dalla vecchia struttura piatta non risolvono (conteggio in `inventory.md`).
 - Le guide in `bmad/` citano Tailwind v4, Livewire 4 e Flux UI; il tema reale usa Tailwind 3.4, Alpine e Flowbite. Allineare quando si tocca la guida.
-- Il gemello `bmad/readme.md` (maiuscola diversa) collide su filesystem case-insensitive: vedi [`bmad/README.md`](bmad/README.md).
+- Il gemello `bmad/theme-overview.md` (maiuscola diversa) collide su filesystem case-insensitive: vedi [`bmad/README.md`](bmad/README.md).

@@ -1,7 +1,7 @@
 ---
 title: "Wiki Index"
 module: "Zero"
-updated: "2026-05-12T10:15:00Z"
+updated: "2026-10-20"
 id: zero-docs-wiki-index
 slug: index
 description: "Replaces embedding-based RAG at moderate scale (100 sources)."
@@ -90,6 +90,16 @@ _No entities tracked yet._
 ## Overviews
 
 - [overview](./overviews/overview.md) — Zero Wiki Overview
+- [advanced-features](./overviews/advanced-features.md) - funzionalita avanzate (dark mode, export)
+
+## Pagine di servizio della wiki
+
+- [readme](./readme.md) - a cosa serve la cartella `wiki/`
+- [schema](./schema.md) - schema e convenzioni della wiki del tema
+- [AGENTS](./AGENTS.md) - istruzioni per gli agenti che mantengono la wiki (il blocco YAML nel corpo e' un modello da copiare, non un frontmatter)
+- [log](./log.md) - registro cronologico delle attivita'
+- [raw/readme](./raw/readme.md) - cartella delle fonti grezze, sola lettura
+- Sotto-indici: [concepts/index](./concepts/index.md), [memories/index](./memories/index.md), [rules/index](./rules/index.md), [skills/index](./skills/index.md), [commands/index](./commands/index.md)
 
 ## How-To
 

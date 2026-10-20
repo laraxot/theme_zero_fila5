@@ -197,17 +197,6 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 
 <!-- Merged from INDEX.md, which collided with this file on case-insensitive filesystems. -->
 
----
-title: "Documentation Index — Theme Zero"
-type: index
-tags: [documentation, index, theme]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "theme zero documentation index"
-related:
-  - "./README.md"
----
-
 # Documentation Index — Theme Zero
 
 > **Note 2026-07-24**: this index is redundant with [00-index.md](./bmad/00-index.md) (canonical, updated
@@ -380,11 +369,7 @@ related:
 - [wiki/sources/context-compression-and-retrieval](./wiki/sources/context-compression-and-retrieval.md)
 - [wiki/sources/laravel13-theme-zero-composer-audit](./wiki/sources/laravel13-theme-zero-composer-audit.md)
 - [wiki/sources/theme-zero-product-and-roadmap-docs](./wiki/sources/theme-zero-product-and-roadmap-docs.md)
----
-title: "Zero Theme — Documentation Index"
-type: index
-status: superseded
-canonical: ./00-index.md
+
 ---
 
 # Indice (puntatore — vietato duplicare)
