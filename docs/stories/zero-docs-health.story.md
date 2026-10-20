@@ -1,6 +1,6 @@
 ---
 id: zero-docs-stories-2026-10-08-zero-docs-health
-slug: 2026-10-08-zero-docs-health
+slug: zero-docs-health
 title: "Salute della docs del tema Zero"
 description: "Misura e bonifica della docs del tema Zero con le classi del gate audit-module-docs: front matter, conflitti banali, duplicati, indici, link."
 document_type: story
@@ -16,8 +16,8 @@ issues: []
 discussions: []
 related:
   - ../bmad/stories/theme-docs-dedup-frontmatter.story.md
-  - ./zero-conflict-markers-cleanup-2026-09-22.story.md
-  - ./docs-theme-zero-audit-2026-09-11.story.md
+  - ./zero-conflict-markers-cleanup.story.md
+  - ./docs-theme-zero-audit.story.md
 ---
 
 # Salute della docs del tema Zero
