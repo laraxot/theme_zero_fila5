@@ -4,7 +4,7 @@ type: story
 module: Zero
 epic: null
 story_id: null
-slug: zero-conflict-markers-cleanup-2026-09-22
+slug: zero-conflict-markers-cleanup
 status: done
 cold_gate: docs-only, no phpstan/pest impact
 created: '2026-09-22'
@@ -31,7 +31,7 @@ owned_scope:
   - "laravel/Themes/Zero/docs/raw/README.md"
   - "laravel/Themes/Zero/docs/skills/README.md"
 related:
-  - "./docs-theme-zero-audit-2026-09-11.story.md"
+  - "./docs-theme-zero-audit.story.md"
 id: zero-docs-stories-zero-conflict-markers-cleanup-2026-09-22-story
 description: "Story di pulizia dei marker di conflitto committati nel tema Zero: 12 file assegnati, merge basato sull'evidenza."
 document_type: story

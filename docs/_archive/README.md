@@ -23,18 +23,18 @@ related:
 
 `_archive/` contiene copie storiche e non canoniche: nessuna e' la fonte, ognuna ha `canonical:` verso il documento vivo. Non si cancellano (sono cronologia) e non si modificano nel contenuto. Prima di usare un file di questa cartella, apri il canonico.
 
-Il file [index.md](./index.md) di questa cartella e' una copia archiviata dell'indice generale vecchio, non l'indice dell'archivio: l'indice dell'archivio e' questa pagina. I link relativi dentro le copie archiviate possono ancora non risolvere (percorsi della vecchia struttura): non vanno corretti a mano, vale il canonico.
+Il file [index.md](./index.md) di questa cartella e' una copia archiviata dell'indice generale vecchio, non l'indice dell'archivio: l'indice dell'archivio e' questa pagina. I link relativi dentro le copie archiviate possono non risolvere (percorsi della vecchia struttura): in caso di dubbio vale il canonico.
 
 ## Copie nella radice di `_archive/`
 
 | Copia archiviata | Canonico vivo | Nota |
 |---|---|---|
 | [00-index.md](./00-index.md) | [../bmad/00-index.md](../bmad/00-index.md) | indice storico di `bmad/` |
-| [architecture.md](./architecture.md) | [../bmad/architecture.md](../bmad/architecture.md) | stub |
+| [architecture.md](./architecture.md) | [../bmad/architecture.md](../bmad/architecture.md) | copia breve (19 righe) |
 | [changelog.md](./changelog.md) | [../changelog.md](../changelog.md) | cronologia |
 | [conflict-resolution-summary.md](./conflict-resolution-summary.md) | [../bmad/conflict-resolution-summary.md](../bmad/conflict-resolution-summary.md) | copia con trattino |
 | [conflict_resolution_summary.md](./conflict_resolution_summary.md) | [../bmad/conflict-resolution-summary.md](../bmad/conflict-resolution-summary.md) | stesso argomento, nome con underscore |
-| [duplicate-methods-report.md](./duplicate-methods-report.md) | [../bmad/duplicate-methods-report.md](../bmad/duplicate-methods-report.md) | stub |
+| [duplicate-methods-report.md](./duplicate-methods-report.md) | [../bmad/duplicate-methods-report.md](../bmad/duplicate-methods-report.md) | copia breve (19 righe) |
 | [frameworks.md](./frameworks.md) | [../bmad/frameworks.md](../bmad/frameworks.md) | stesso corpo del canonico |
 | [index.md](./index.md) | [../README.md](../README.md) | indice generale vecchio |
 | [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md) | [../bmad/metodi-duplicati-analisi.md](../bmad/metodi-duplicati-analisi.md) | analisi omonimi |
