@@ -160,7 +160,7 @@ small: text-sm (14px)
 
 ## 🔗 Riferimenti
 
-- [Theme Zero Docs](../../bmad/readme.md)
+- [Theme Zero Docs](../../bmad/theme-overview.md)
 - [Architecture](../../bmad/architecture.md)
 
 ---
