@@ -7,7 +7,7 @@ created: 2026-07-27
 updated: 2026-07-27
 qmd: "theme Zero git remote theme_zero_fila5 never base_project base_<nome progetto>"
 related:
-  - ../../code-quality-improvement-report.md
+  - ../../bmad/code-quality-improvement-report.md
   - ../../../../../../docs/wiki/memories/module-github-remote-discipline.md
   - ../../../../../../docs/wiki/skills/module-theme-git-remote-resolve.md
 id: zero-docs-wiki-memories-github-remote-theme-resolve

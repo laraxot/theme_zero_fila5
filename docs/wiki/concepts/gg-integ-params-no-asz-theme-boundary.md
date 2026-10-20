@@ -7,7 +7,7 @@ created: 2026-07-22
 updated: 2026-07-22
 qmd: "theme zero gg_integ_params_no_asz gg_esperienza_no_asz FieldRefresh display"
 related:
-  - ../../performance-actions-reference.md
+  - ../../bmad/performance-actions-reference.md
   - ./method-name-homonyms.md
   - ../../../../Modules/Sigma/docs/wiki/concepts/gg-integ-params-no-asz.md
   - ../../../../../../docs/wiki/rules/criterio-esclusione-field-isomorphism.md
@@ -50,6 +50,6 @@ Audit moduli (replica vs unione): [criteri-gg-theme-boundary-audit](./criteri-gg
 
 ## Collegamenti
 
-- [performance-actions-reference](../../performance-actions-reference.md)
+- [performance-actions-reference](../../bmad/performance-actions-reference.md)
 - [Sigma gg-integ-params-no-asz](../../../../../Modules/Sigma/docs/wiki/concepts/gg-integ-params-no-asz.md)
 - [Regola isomorfismo](../../../../../../docs/wiki/rules/criterio-esclusione-field-isomorphism.md)

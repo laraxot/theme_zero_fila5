@@ -4,7 +4,7 @@ type: story
 module: Zero
 epic: null
 story_id: null
-slug: docs-theme-zero-audit-2026-09-11
+slug: docs-theme-zero-audit
 status: done
 cold_gate: null
 created: '2026-09-11'
