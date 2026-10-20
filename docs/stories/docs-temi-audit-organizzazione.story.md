@@ -11,7 +11,7 @@ module: Zero
 tags: [docs, temi, audit, indici, link, case-collision, bmad]
 created: "2026-10-20"
 updated: "2026-10-20"
-qmd: "docs temi audit organizzazione zero indice archivio case collision readme agents scopo purpose operating-focus 00-index lowercase cms xot boy scout phpstan wave4 wave5"
+qmd: "docs temi audit organizzazione zero indice archivio case collision readme agents scopo purpose operating-focus 00-index lowercase cms xot boy scout phpstan wave4 wave5 index maiuscola link rotti moduli inesistenti password chiaro md-filenames falso check paths cartella story nomi con data"
 issues: []
 discussions: []
 related:
@@ -44,7 +44,7 @@ Misurato con `python3 -I`, `rg -P` e `find`, ogni zero confrontato con un caso p
 | Misura | Prima | Dopo |
 |---|---:|---:|
 | File `.md` in `docs/` | 211 | 213 (indice archivio e questa story) |
-| Radice di `docs/` | 5 | 7 |
+| Radice di `docs/` | 5 | 5 (`INDEX.md` diventato `index-pointer.md`; i due file nuovi sono in `_archive/` e `stories/`) |
 | `bmad/` / `wiki/` / `_archive/` / `stories/` / `concepts/` / `skills/` | 125 / 55 / 19 / 5 / 1 / 1 | 125 / 55 / 20 / 6 / 1 / 1 |
 | Coppie di nomi che differiscono solo per la maiuscola | 2 (`bmad/readme.md`, `index.md`) | 0 |
 | Nomi con data nel nome (`md-filenames.py check`) | 5 (tutte story) | 0 |
@@ -98,6 +98,7 @@ Prima di credere a ogni "zero", un caso positivo noto.
 
 - Reindicizzazione QMD (`bash bashscripts/docs/llm-wiki-qmd.sh update`): la fa il coordinatore dello swarm.
 - Second brain: promuovere come memoria la trappola "falso zero di `md-filenames.py check --paths <cartella>`", e la regola "collisione di sola maiuscola: rinominare con riscrittura dei soli riferimenti esatti".
+- Nota di verifica 2026-10-20, ripresa dopo il limite di sessione: nel repository del tema c'e' un merge in corso (`.git/MERGE_HEAD`) con 5 file non risolti: `README.md`, `_archive/README.md`, `wiki/index.md`, `wiki/AGENTS.md` (cancellato lato nostro, perche' un'altra sessione l'ha rinominato `wiki/agents.md`) e questa story. Non l'ho risolto: la sessione che ha lanciato il pull ne e' proprietaria. In tutti i conflitti il lato "nostro" (HEAD) e' il piu' recente (rinomine `agents.md`, `metodi-duplicati-analisi-name-legacy.md`, sezioni Wave 4-6 di altre sessioni) e il lato `MERGE_HEAD` e' la mia versione precedente: la risoluzione corretta e' tenere HEAD. Finche' non e' risolto, la riga "Marker di merge 0" della tabella vale per il commit, non per la copia di lavoro. Il numero di file nella radice di `docs/` della tabella era sbagliato (7): corretto a 5.
 
 ## Wave 4 (2026-10-20, boy scout post-zero)
 

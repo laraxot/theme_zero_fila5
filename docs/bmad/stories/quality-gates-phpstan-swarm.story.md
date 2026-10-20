@@ -97,3 +97,7 @@ che il modulo ha acquisito codice PHP reale e viene regolarmente incluso nello
 scan del monorepo — la doc va trattata come cache, non come fonte di verità
 sullo scope PHPStan; la fonte di verità è l'esecuzione reale di
 `phpstan analyse <path>`.
+
+## Nota post-zero (2026-10-20)
+
+Il comando storico `analyse Themes/Zero` in questa story e' **evidenza del 2026-09-23**, non il gate corrente. Religione attuale: gate = `phpstan analyse Modules` con un solo [phpstan-single-neon-config](../../../../Modules/Xot/docs/wiki/memories/phpstan-single-neon-config.md); **vietato** PHPStan theme-only. Hub: [phpstan-modules-zero-wave3](../../../../Modules/Xot/docs/stories/phpstan-modules-zero-wave3.story.md). Boy scout tema: [docs-temi-audit-organizzazione](../../stories/docs-temi-audit-organizzazione.story.md), [README](../../README.md), [bmad/00-index](../00-index.md).
