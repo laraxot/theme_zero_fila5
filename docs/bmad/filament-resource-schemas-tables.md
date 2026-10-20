@@ -22,6 +22,8 @@ issues: []
 discussions: []
 ---
 
+> Nota di verifica 2026-10-20 (docs-temi): questa pagina cita i moduli `IndennitaResponsabilita`, `Progressioni`, `Ptv`, che non esistono in `laravel/Modules` di questo repository (controllato con `ls`). Il contenuto viene da un altro progetto della famiglia Laraxot e non e' stato riscritto: leggilo come pattern di riferimento, non come descrizione di codice presente. I link verso quei moduli non risolvono.
+
 # Filament Resource: Schemas e Tables (tema Zero)
 
 ## Scopo

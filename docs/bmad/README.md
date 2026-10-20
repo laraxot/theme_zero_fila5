@@ -2,15 +2,15 @@
 id: zero-docs-bmad-readme
 slug: readme
 title: "Mappa della cartella bmad del tema Zero"
-description: "Raggruppa per tema le guide, i report e la pianificazione in docs/bmad, indica i canonici dei duplicati e il caso del gemello readme.md."
+description: "Raggruppa per tema le guide, i report e la pianificazione in docs/bmad, indica i canonici dei duplicati e la panoramica lunga theme-overview.md (gia' readme.md)."
 document_type: index
 type: index
 category: documentation
 status: active
 tags: [zero, bmad, indice]
 created: "2026-10-06"
-updated: "2026-10-08"
-qmd: "bmad tema zero mappa cartella guide report pianificazione duplicati canonico readme gemello"
+updated: "2026-10-20"
+qmd: "bmad tema zero mappa cartella guide report pianificazione duplicati canonico readme gemello theme-overview rinominato maiuscola"
 issues: []
 discussions: []
 related:
@@ -22,9 +22,9 @@ related:
 
 `docs/bmad/` e' il contenitore storico piu' grande della docs del tema Zero: guide, report, regole e pianificazione, quasi tutti piatti. Il punto di ingresso della docs e' [../README.md](../README.md); l'indice storico di questa cartella e' [00-index.md](./00-index.md).
 
-## Gemello readme.md
+## Panoramica lunga: theme-overview.md
 
-Esistono due file che differiscono solo per la maiuscola: questo `README.md` (mappa) e [readme.md](./readme.md) (panoramica lunga del tema, 27 KB). Su filesystem case-insensitive collidono. Non si rinomina senza una decisione: la proposta e' spostare il contenuto di `readme.md` in `theme-overview.md` e aggiornare i riferimenti.
+La panoramica lunga del tema (27 KB) si chiamava `readme.md` e differiva da questo `README.md` (mappa) solo per la maiuscola: su filesystem case-insensitive i due file collidono e uno sovrascrive l'altro. Il 2026-10-20 e' stata rinominata [theme-overview.md](./theme-overview.md) (la proposta della story di salute della docs); i 16 riferimenti che risolvevano al vecchio nome sono stati riscritti, nessun file e' stato cancellato. Il nome `bmad/readme.md` non esiste piu': chi lo cerca nelle note storiche legga `theme-overview.md`. La sottocartella `outputs/` ha la propria scheda: [outputs/readme.md](./outputs/readme.md).
 
 ## Gruppi
 

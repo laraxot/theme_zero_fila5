@@ -4,7 +4,7 @@ type: story
 module: Zero
 epic: "Auth pages UI/UX"
 story_id: auth-login-ui-ux-redesign
-slug: auth-login-ui-ux-redesign-2026-09-17
+slug: auth-login-ui-ux-redesign
 status: done
 created: "2026-09-17"
 updated: "2026-09-17"

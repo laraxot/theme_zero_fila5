@@ -1,6 +1,6 @@
 ---
 id: zero-docs-bmad-readme-2
-slug: readme
+slug: theme-overview
 title: "Tema Zero - Documentazione"
 description: "Tema alternativo/sperimentale. Hub: gestionale-docs-index.md · tenant-modules-navigation-discipline.md · panels vs Zero."
 document_type: index
@@ -9,8 +9,8 @@ category: documentation
 status: active
 tags: []
 created: "2026-10-06"
-updated: "2026-10-08"
-qmd: "tema zero - documentazione"
+updated: "2026-10-20"
+qmd: "tema zero - documentazione panoramica theme-overview readme.md rinominato gemello maiuscola"
 issues: []
 discussions: []
 ---
@@ -68,8 +68,8 @@ Path in `gitmodules.ini`: `laravel/Themes/Zero` → remote `laraxot/theme_zero_f
 
 ## Backlinks
 
-- [Xot Module](../../Modules/Xot/docs/)
-- [UI Module](../../Modules/UI/docs/)
+- [Xot Module](../../../../Modules/Xot/docs)
+- [UI Module](../../../../Modules/UI/docs)
 
 ## AI Workflows
 - [AI Methodologies](../wiki/how-to/ai-methodologies.md)
@@ -93,7 +93,7 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 ### Entry point e struttura
 
-- Modulo o tema: [../readme.md](../readme.md) (vetrina), [../../../Modules/Xot/docs/README.md](../../../Modules/Xot/docs/README.md) (docs del modulo base Xot)
+- Modulo o tema: [../readme.md](../README.md) (vetrina), [../../../Modules/Xot/docs/README.md](../../../../Modules/Xot/docs/README.md) (docs del modulo base Xot)
 - [00-index.md](./00-index.md): indice canonico (00-INDEX.md rimosso — duplicate)
 - [purpose.md](./purpose.md): scopo (esiste anche l'equivalente italiano/inglese, possibile duplicato)
 - [scopo.md](./scopo.md): scopo (esiste anche l'equivalente italiano/inglese, possibile duplicato)
@@ -113,7 +113,7 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 | [epics/](./epics/) | 1 | nessuno |  |
 | [journals/](./journals/) | 0 | nessuno |  |
 | [mysql-remote/](./mysql-remote/) | 1 | [README.md](./mysql-remote/README.md) |  |
-| [outputs/](./outputs/) | 1 | [README.md](./outputs/README.md) |  |
+| [outputs/](./outputs/) | 1 | [README.md](./outputs/readme.md) |  |
 | [prompts/](./prompts/) | 1 | nessuno |  |
 | [raw/](./raw/) | 1 | [README.md](./raw/README.md) | materiale grezzo |
 | [roadmap/](./roadmap/) | 6 | nessuno |  |
@@ -303,7 +303,7 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 - [00-INDEX.md](./00-index.md): Zero Theme Documentation Index [dup]
 - [00-index.md](./00-index.md): Zero Theme - Documentation Index [dup] [marker di merge]
-- [CHANGELOG.md](./CHANGELOG.md): Changelog [dup]
+- [CHANGELOG.md](./changelog.md): Changelog [dup]
 - [README-en.md](./readme-en.md): base_healthcare_app_fila5_mono [dup]
 - [changelog.md](./changelog.md): Changelog — Zero Theme [dup]
 - [docs-archive-policy.md](./docs-archive-policy.md): docs archive policy — puntatore [marker di merge]
@@ -320,7 +320,7 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 ### Sospetti duplicati (richiedono approvazione per il consolidamento)
 
-Nessun file e' stato toccato. Proposte di destinazione nella story [swarm-phpstan-modular-docs-org](../../../Modules/Xot/docs/bmad/stories/swarm-phpstan-modular-docs-org.story.md).
+Nessun file e' stato toccato. Proposte di destinazione nella story [swarm-phpstan-modular-docs-org](../../../../Modules/Xot/docs/bmad/stories/swarm-phpstan-modular-docs-org.story.md).
 
 - contenuto identico: [PANDOC_GUIDE.md](./pandoc-guide.md), [pandoc-guide.md](./pandoc-guide.md)
 - contenuto identico: [TECH_SPEC.md](./tech-spec.md), [tech-spec.md](./tech-spec.md)
@@ -330,7 +330,7 @@ Nessun file e' stato toccato. Proposte di destinazione nella story [swarm-phpsta
 - contenuto identico: [phpstan-dry-kiss-guidelines.md](./phpstan-dry-kiss-guidelines.md), [phpstan-dry-kiss-theme-guidelines-historic.md](./phpstan-dry-kiss-theme-guidelines-historic.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [00-INDEX.md](./00-index.md), [00-index.md](./00-index.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [ARCHITECTURE.md](./architecture.md), [architecture.md](./architecture.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [CHANGELOG.md](./CHANGELOG.md), [changelog.md](./changelog.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [CHANGELOG.md](./changelog.md), [changelog.md](./changelog.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [CONFLICT-RESOLUTION-SUMMARY.md](./conflict-resolution-summary.md), [CONFLICT_RESOLUTION_SUMMARY.md](./conflict-resolution-summary.md), [conflict-resolution-summary.md](./conflict-resolution-summary.md), [conflict_resolution_summary.md](./conflict-resolution-summary.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [FRAMEWORKS.md](./frameworks.md), [frameworks.md](./frameworks.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [INDEX.md](./INDEX.md), [index.md](./index.md)
@@ -351,7 +351,7 @@ Nessun file e' stato toccato. Proposte di destinazione nella story [swarm-phpsta
 
 ### Senza front matter (9)
 
-[CHANGELOG.md](./CHANGELOG.md), [FRAMEWORKS.md](./frameworks.md), [README-en.md](./readme-en.md), [README.md](./README.md), [binary-assets.md](../wiki/rules/binary-assets.md), [code-quality-report.md](./code-quality-report.md), [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md), [graphify-map.md](./graphify-map.md), [index.md](./index.md)
+[CHANGELOG.md](./changelog.md), [FRAMEWORKS.md](./frameworks.md), [README-en.md](./readme-en.md), [README.md](./README.md), [binary-assets.md](../wiki/rules/binary-assets.md), [code-quality-report.md](./code-quality-report.md), [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md), [graphify-map.md](./graphify-map.md), [index.md](./index.md)
 
 ### Marker di merge non risolti (113 file di radice)
 

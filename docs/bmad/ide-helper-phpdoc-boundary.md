@@ -58,4 +58,4 @@ Dettaglio: [ide-helper-philosophy](../../Modules/Xot/docs/ide-helper-philosophy.
 
 - [phpstan dry kiss theme guidelines](./phpstan-dry-kiss-theme-guidelines.md)
 - [One — confine PHPDoc](../../One/docs/ide-helper-phpdoc-boundary.md)
-- [User — oauth ide helper](../../../Modules/User/docs/oauth-token-relations-ide-helper.md)
+- [User — oauth ide helper](../../../../Modules/User/docs/oauth-token-relations-ide-helper.md)
