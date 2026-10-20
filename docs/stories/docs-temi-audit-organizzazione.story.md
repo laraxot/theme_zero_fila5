@@ -123,4 +123,3 @@ Nessun commit. Nessuna cartella `docs/` nuova.
 Boy scout **continua** dopo `phpstan analyse Modules` a zero: Zero non ha PHP in `app/`; il lavoro e' solo docs/viste/asset. Indice canonico = [README](../README.md). Hub gate: [phpstan-modules-zero-wave3](../../../../Modules/Xot/docs/stories/phpstan-modules-zero-wave3.story.md). Cross-link Cms KEEP FO `Page\Show`: [Xot inventory](../../../../Modules/Xot/docs/bmad/livewire-to-filament-widgets-inventory.md).
 
 <!-- gateguard: supersedes niente (append a story gia' attiva); linked from README.md related + inventory; user: "Study, update, organize docs under laravel/Themes/*/docs/" + "Permanent order: docs continuous without waiting for confirmation" -->
-
