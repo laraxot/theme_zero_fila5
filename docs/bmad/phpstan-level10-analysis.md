@@ -52,7 +52,11 @@ Se sono presenti cartelle legacy o extra non in target, specificare le esclusion
 - [code quality improvements](./code-quality-improvements.md)
 - [theme documentation](./theme-documentation.md)
 - [theme architecture](./theme-architecture-best-practices.md)
+<<<<<<< HEAD
 - [README](./readme.md)
+=======
+- [README](./theme-overview.md)
+>>>>>>> laraxot/dev
 # PHPStan Level 10 Analysis - Theme Zero
 
 ## Status

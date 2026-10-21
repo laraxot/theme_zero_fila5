@@ -250,7 +250,11 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=healthcare_app_data
 DB_USERNAME=marco
+<<<<<<< HEAD
 DB_PASSWORD=marco
+=======
+DB_PASSWORD=<password-locale>
+>>>>>>> laraxot/dev
 ```
 
 ### 2. Cache e Queue
