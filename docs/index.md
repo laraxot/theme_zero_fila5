@@ -42,11 +42,19 @@ Questo documento serve come indice centrale per il tema Zero, fornendo una guida
 
 ## Collegamenti Correlati
 - [AI Methodologies](./wiki/how-to/ai-methodologies.md)
+<<<<<<< HEAD
 - [Documentazione Generale Progetto](../../../docs/README.md) (docs: replace project-specific references with generic placeholders across documentation)
 - [Collegamenti Documentazione](../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo UI](../../Modules/UI/docs/README.md)
 - [Modulo Xot](../../Modules/Xot/docs/README.md)
+=======
+- [Documentazione Generale Progetto](../../../../docs/README.md) (docs: replace project-specific references with generic placeholders across documentation)
+- [Collegamenti Documentazione](../../../docs/collegamenti-documentazione.md)
+- [Standard di Documentazione](../../../docs/DOCUMENTATION_STANDARDS.md)
+- [Modulo UI](../../../Modules/UI/docs/README.md)
+- [Modulo Xot](../../../Modules/Xot/docs/README.md)
+>>>>>>> laraxot/dev
 
 ### Moduli Integrati
 - [Performance Actions Reference](./bmad/performance-actions-reference.md) - Riferimento action calcolo performance
@@ -185,7 +193,11 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione
 - Il file `lang/it/zero_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
+<<<<<<< HEAD
 - Vedi anche: [../../../docs/README.md](../../../docs/README.md)
+=======
+- Vedi anche: [../../../docs/README.md](../../../../docs/README.md)
+>>>>>>> laraxot/dev
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 
 *Ultimo aggiornamento: Gennaio 2025*
@@ -197,6 +209,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 
 <!-- Merged from INDEX.md, which collided with this file on case-insensitive filesystems. -->
 
+<<<<<<< HEAD
 ---
 title: "Documentation Index — Theme Zero"
 type: index
@@ -208,6 +221,8 @@ related:
   - "./README.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Documentation Index — Theme Zero
 
 > **Note 2026-07-24**: this index is redundant with [00-index.md](./bmad/00-index.md) (canonical, updated
@@ -238,8 +253,12 @@ related:
 - [CHANGELOG](./changelog.md)
 - [CONFLICT-RESOLUTION-SUMMARY](./bmad/conflict-resolution-summary.md)
 - [CONFLICT-RESOLUTION-SUMMARY](./bmad/conflict-resolution-summary.md)
+<<<<<<< HEAD
 - [METODI-DUPLICATI-ANALISI](./bmad/metodi-duplicati-analisi.md)
 - [METODI-DUPLICATI-ANALISI](./bmad/metodi-duplicati-analisi.md)
+=======
+- [metodi-duplicati-analisi](./bmad/metodi-duplicati-analisi.md)
+>>>>>>> laraxot/dev
 - [accessor-delegation-pattern](./bmad/accessor-delegation-pattern.md)
 - [agent-confidence-discipline](./wiki/rules/agent-confidence-discipline.md)
 - [agent-confidence-protocol](./wiki/rules/agent-confidence-protocol.md)
@@ -354,7 +373,11 @@ related:
 - [screenshots/f1-world-champion-theme-analysis](./wiki/comparisons/f1-world-champion-theme-analysis.md)
 
 ## Skills
+<<<<<<< HEAD
 - [skills/README](./skills/README.md)
+=======
+- [skills/README](./skills/readme.md)
+>>>>>>> laraxot/dev
 
 ## Wiki
 - [wiki/SCHEMA](./wiki/schema.md)
@@ -380,11 +403,15 @@ related:
 - [wiki/sources/context-compression-and-retrieval](./wiki/sources/context-compression-and-retrieval.md)
 - [wiki/sources/laravel13-theme-zero-composer-audit](./wiki/sources/laravel13-theme-zero-composer-audit.md)
 - [wiki/sources/theme-zero-product-and-roadmap-docs](./wiki/sources/theme-zero-product-and-roadmap-docs.md)
+<<<<<<< HEAD
 ---
 title: "Zero Theme — Documentation Index"
 type: index
 status: superseded
 canonical: ./00-index.md
+=======
+
+>>>>>>> laraxot/dev
 ---
 
 # Indice (puntatore — vietato duplicare)

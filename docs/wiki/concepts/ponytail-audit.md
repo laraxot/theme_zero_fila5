@@ -23,7 +23,11 @@ discussions: []
 
 **Delta tema only here.** Ranked list, gate e remediation globale negli hub progetto.
 
+<<<<<<< HEAD
 - [Hub audit](../../../../../docs/audit/ponytail-audit.md)
+=======
+- [Hub audit](../../../../../../docs/audit/ponytail-audit.md)
+>>>>>>> laraxot/dev
 - [Remediation](../../../../../docs/project/ponytail-audit-remediation.md)
 - [Delta temi](../../../../../docs/project/ponytail-audit-themes.md)
 

@@ -17,6 +17,11 @@ issues: []
 discussions: []
 ---
 
+<<<<<<< HEAD
+=======
+> Nota di verifica 2026-10-20 (docs-temi): questa pagina cita il modulo `Performance`, che non esiste in `laravel/Modules` di questo repository (controllato con `ls`). Il contenuto viene da un altro progetto della famiglia Laraxot e non e' stato riscritto: leggilo come pattern di riferimento, non come descrizione di codice presente. I link verso quei moduli non risolvono.
+
+>>>>>>> laraxot/dev
 # Performance actions reference
 
 ## UpdateGgPresenzaDalalAction
@@ -105,7 +110,11 @@ ridefinirlo.
 - [Documentazione modulo Performance](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 - [Documentazione modulo Performance](../../../laravel/Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 - [Documentazione modulo Performance](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
+<<<<<<< HEAD
 - [README tema Zero](./readme.md)
+=======
+- [README tema Zero](./theme-overview.md)
+>>>>>>> laraxot/dev
 - [Index documentazione tema Zero](./index.md)
 
 ## UpdatepercParttimepondDalal
@@ -220,5 +229,9 @@ TextColumn::make('gg_anno')
 - [Documentazione modulo Performance - giorni presenza](../../Modules/Performance/docs/action-update-gg-presenza-dalal.md)
 - [Documentazione modulo Performance - giorni anno](../../Modules/Performance/docs/action-update-gg-anno.md)
 - [Documentazione modulo Performance - part-time ponderato](../../Modules/Performance/docs/action-update-perc-parttimepond-dalal.md)
+<<<<<<< HEAD
 - [README tema Zero](./readme.md)
+=======
+- [README tema Zero](./theme-overview.md)
+>>>>>>> laraxot/dev
 - [Index documentazione tema Zero](./index.md)
