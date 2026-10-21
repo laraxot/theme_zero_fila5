@@ -17,11 +17,8 @@ issues: []
 discussions: []
 ---
 
-<<<<<<< HEAD
-=======
 > Nota di verifica 2026-10-20 (docs-temi): questa pagina cita il modulo `IndennitaResponsabilita`, che non esiste in `laravel/Modules` di questo repository (controllato con `ls`). Il contenuto viene da un altro progetto della famiglia Laraxot e non e' stato riscritto: leggilo come pattern di riferimento, non come descrizione di codice presente. I link verso quei moduli non risolvono.
 
->>>>>>> laraxot/dev
 # Readonly Field Styling - UI/UX Pattern
 
 **Theme**: Zero  
@@ -141,11 +138,11 @@ Questi colori sono coerenti con:
 
 - [Customization Guide](./customization.md) - Palette colori del tema
 - [Components Guide](./components.md) - Componenti disponibili
-- [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
-- [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
-- [IndennitaResponsabilita - Readonly Styling](../../../laravel/Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
-- [IndennitaResponsabilita - Readonly Styling](../../Modules/IndennitaResponsabilita/docs/readonly-field-styling.md) - Implementazione nel modulo
-- [Theme One - Readonly Styling](../../One/docs/readonly-field-styling.md) - Pattern condiviso
+- [IndennitaResponsabilita - Readonly Styling](./readonly-field-styling.md) - Implementazione nel modulo
+- [IndennitaResponsabilita - Readonly Styling](./readonly-field-styling.md) - Implementazione nel modulo
+- [IndennitaResponsabilita - Readonly Styling](./readonly-field-styling.md) - Implementazione nel modulo
+- [IndennitaResponsabilita - Readonly Styling](./readonly-field-styling.md) - Implementazione nel modulo
+- [Theme One - Readonly Styling](./readonly-field-styling.md) - Pattern condiviso
 
 ---
 

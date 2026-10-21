@@ -65,17 +65,6 @@ Theme Zero is the lightweight, performance-first foundation theme for the PTVX s
 
 <!-- Merged from PRD.md, which collided with this file on case-insensitive filesystems. -->
 
-<<<<<<< HEAD
----
-title: "Product Requirements Document (PRD) - Zero Theme"
-theme: "Zero"
-type: concept
-tags: [PRD, theme, zero, frontend]
-created: 2026-08-04
-updated: 2026-08-04
----
-=======
->>>>>>> laraxot/dev
 # Product Requirements Document (PRD) - Zero Theme
 
 **Theme**: Zero

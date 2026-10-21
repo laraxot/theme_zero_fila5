@@ -153,11 +153,7 @@ small: text-sm (14px)
 
 - [forecast Module Docs](../../Modules/Domain/docs/screenshots/f1-world-champion-2026-analysis.md)
 - [Predict Module Docs](../../Modules/Predict/docs/screenshots/f1-world-champion-2026-analysis.md)
-<<<<<<< HEAD
-- [Theme Zero Docs](../../bmad/readme.md)
-=======
 - [Theme Zero Docs](../../bmad/theme-overview.md)
->>>>>>> laraxot/dev
 - [Architecture](../../bmad/architecture.md)
 
 ---

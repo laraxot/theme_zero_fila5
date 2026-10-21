@@ -10,7 +10,7 @@ status: done
 module: Zero
 tags: [docs, temi, audit, indici, link, case-collision, bmad]
 created: "2026-10-20"
-updated: "2026-10-20"
+updated: "2026-10-21"
 qmd: "docs temi audit organizzazione zero indice archivio case collision readme agents scopo purpose operating-focus 00-index lowercase cms xot boy scout phpstan wave4 wave5 index maiuscola link rotti moduli inesistenti password chiaro md-filenames falso check paths cartella story nomi con data"
 issues: []
 discussions: []
@@ -22,6 +22,13 @@ related:
 ---
 
 # Audit e organizzazione delle docs dei temi
+
+> **Aggiornamento 2026-10-21 (docs-temi).** Questa story resta valida per audit,
+> segreti e moduli assenti. La scelta dell'indice è superata: `docs/index.md` è
+> l'indice canonico, `README.md` l'ingresso umano e `index-pointer.md` un alias;
+> `INDEX.md` è stato assorbito. `laravel/Themes` contiene anche One e Three
+> (skeleton), non solo Zero. Esito e numeri finali:
+> [bmad/stories/docs-organization.story.md](../bmad/stories/docs-organization.story.md).
 
 Fase BMAD: Analisi, poi Build. Solo documentazione in `laravel/Themes/Zero/docs/`; nessun file PHP, Blade o JS toccato. Lane DOCS-TEMI di uno swarm: gli altri perimetri (moduli, prompt) non sono stati toccati.
 

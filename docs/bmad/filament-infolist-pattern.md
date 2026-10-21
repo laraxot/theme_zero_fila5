@@ -17,11 +17,8 @@ issues: []
 discussions: []
 ---
 
-<<<<<<< HEAD
-=======
 > Nota di verifica 2026-10-20 (docs-temi): questa pagina cita i moduli `Performance`, `Progressioni`, che non esistono in `laravel/Modules` di questo repository (controllato con `ls`). Il contenuto viene da un altro progetto della famiglia Laraxot e non e' stato riscritto: leggilo come pattern di riferimento, non come descrizione di codice presente. I link verso quei moduli non risolvono.
 
->>>>>>> laraxot/dev
 # Pattern Infolist Filament (Theme Zero)
 
 ## Overview
@@ -155,20 +152,11 @@ XotBaseResourceInfolist (abstract)
 
 Per dettagli completi del pattern, vedere:
 
-- [Documentazione Performance - Infolist Pattern](../../../laravel/Modules/Performance/docs/filament-infolist-pattern.md)
-- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
-<<<<<<< HEAD
-- [XotBaseResourceInfolist - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
-- [XotBaseResource - Sorgente](../../../laravel/Modules/Xot/app/Filament/Resources/XotBaseResource.php)
-- [Documentazione Performance - Infolist Pattern](../../Modules/Performance/docs/filament-infolist-pattern.md)
-- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
-- [XotBaseResourceInfolist - Sorgente](../../Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
-- [XotBaseResource - Sorgente](../../Modules/Xot/app/Filament/Resources/XotBaseResource.php)
-=======
+- [Documentazione Performance - Infolist Pattern](./filament-infolist-pattern.md)
+- [Progressioni - Schemas e Tables (migrazione Filament 5)](./filament-resource-schemas-tables.md)
 - [XotBaseResourceInfolist - Sorgente](../../../../Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
 - [XotBaseResource - Sorgente](../../../../Modules/Xot/app/Filament/Resources/XotBaseResource.php)
-- [Documentazione Performance - Infolist Pattern](../../Modules/Performance/docs/filament-infolist-pattern.md)
-- [Progressioni - Schemas e Tables (migrazione Filament 5)](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
+- [Documentazione Performance - Infolist Pattern](./filament-infolist-pattern.md)
+- [Progressioni - Schemas e Tables (migrazione Filament 5)](./filament-resource-schemas-tables.md)
 - [XotBaseResourceInfolist - Sorgente](../../../../Modules/Xot/app/Filament/Resources/Schemas/XotBaseResourceInfolist.php)
 - [XotBaseResource - Sorgente](../../../../Modules/Xot/app/Filament/Resources/XotBaseResource.php)
->>>>>>> laraxot/dev

@@ -6,13 +6,8 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "libreria componenti e integrazione ui"
 related:
-<<<<<<< HEAD
-  - "./accessibility-standards.md"
-  - "./advanced-features.md"
-=======
   - "../rules/accessibility-standards.md"
   - "../overviews/advanced-features.md"
->>>>>>> laraxot/dev
   - "./component-library.md"
 id: zero-docs-wiki-concepts-component-library
 slug: component-library

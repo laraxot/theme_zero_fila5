@@ -232,11 +232,7 @@ Tables\Actions\EditAction::make()
 ## Documentation
 
 - [Policy Implementation Guide](docs/policies_implementation.md)
-<<<<<<< HEAD
-- [User Module Documentation](../../../Modules/User/docs/README.md)
-=======
 - [User Module Documentation](../../../../Modules/User/docs/README.md)
->>>>>>> laraxot/dev
 - [Module-specific documentation in each module's docs folder]
 
 ## Contributing

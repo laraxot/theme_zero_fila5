@@ -6,13 +6,8 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "sistema responsive e grid"
 related:
-<<<<<<< HEAD
-  - "./accessibility-standards.md"
-  - "./advanced-features.md"
-=======
   - "../rules/accessibility-standards.md"
   - "../overviews/advanced-features.md"
->>>>>>> laraxot/dev
   - "./component-library.md"
 id: zero-docs-wiki-concepts-responsive-system
 slug: responsive-system
