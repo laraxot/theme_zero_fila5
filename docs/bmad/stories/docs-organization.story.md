@@ -85,3 +85,9 @@ docs-only. Nessun commit/push.
   non un'implementazione già presente.
 - Rischio di scritture concorrenti: `INDEX.md` era stato modificato da un altro
   processo durante la sessione; ricontrollare `git status` prima di nuovi edit.
+
+## Note docs-guardian (swarm PHPStan 2026-10-21b)
+
+Temi già organizzati: nessun nuovo contenuto di feature. Dominio PHPStan residuo
+documentato nei moduli (Progressioni/Sigma/Ptv/Pdnd), non qui.
+
