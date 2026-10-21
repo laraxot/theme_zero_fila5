@@ -9,11 +9,7 @@ category: database
 status: active
 tags: []
 created: "2026-10-08"
-<<<<<<< HEAD
-updated: "2026-10-08"
-=======
 updated: "2026-10-20"
->>>>>>> laraxot/dev
 qmd: "mysql/mariadb remoto - configurazione"
 issues: []
 discussions: []
@@ -24,18 +20,12 @@ discussions: []
 **Data:** 2026-09-10
 **IP macchina:** 192.168.1.35
 **Utente:** marco
-<<<<<<< HEAD
-**Password:** marco
-**Host:** % (qualsiasi IP)
-
-=======
 **Password:** rimossa dalla docs il 2026-10-20 (era in chiaro); usare il valore del file `.env` della macchina
 **Host:** % (qualsiasi IP)
 
 > Nota di verifica 2026-10-20: la password era scritta in chiaro e debole. E' stata tolta da questo file,
 > ma resta nella cronologia git del repository del tema: va ruotata sul server MariaDB.
 
->>>>>>> laraxot/dev
 ## Stato
 
 ✅ **Operativo** — connessione remota confermata da esterno.
@@ -45,11 +35,7 @@ discussions: []
 | Parametro | Valore | Dove |
 |-----------|--------|------|
 | bind-address | 0.0.0.0 | `/etc/mysql/mariadb.conf.d/50-server.cnf` |
-<<<<<<< HEAD
-| utente | marco@% | `CREATE USER 'marco'@'%' IDENTIFIED BY 'marco'` |
-=======
 | utente | marco@% | `CREATE USER 'marco'@'%' IDENTIFIED BY '<password>'` |
->>>>>>> laraxot/dev
 | privilegi | ALL PRIVILEGES | `GRANT ALL PRIVILEGES ON *.* TO 'marco'@'%' WITH GRANT OPTION` |
 | firewall | UFW inattivo | Nessun blocco porta 3306 |
 
@@ -59,22 +45,13 @@ discussions: []
 # Da qualsiasi IP nella rete:
 mysql -h 192.168.1.35 -u marco -p
 
-<<<<<<< HEAD
-# Test locale:
-mysql -h 192.168.1.35 -u marco -pmarco -e "SELECT VERSION(), CURRENT_USER();"
-=======
 # Test locale (la password viene chiesta, mai scritta sulla riga di comando):
 mysql -h 192.168.1.35 -u marco -p -e "SELECT VERSION(), CURRENT_USER();"
->>>>>>> laraxot/dev
 ```
 
 ## Note di sicurezza
 
-<<<<<<< HEAD
-- Utente `marco@%` con password `marco` — accetta connessioni da **qualsiasi** IP
-=======
 - Utente `marco@%` con password debole (da ruotare) e `ALL PRIVILEGES ... WITH GRANT OPTION` — accetta connessioni da **qualsiasi** IP
->>>>>>> laraxot/dev
 - UFW inattivo — nessun filtro firewall sulla porta 3306
 - Per ambiente produzione: usare password forte, host specifici, SSL/TLS
 

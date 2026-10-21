@@ -113,14 +113,14 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 | [epics/](./epics/) | 1 | nessuno |  |
 | [journals/](./journals/) | 0 | nessuno |  |
 | [mysql-remote/](./mysql-remote/) | 1 | [README.md](./mysql-remote/README.md) |  |
-| [outputs/](./outputs/) | 1 | [README.md](./outputs/readme.md) |  |
+| [_archive/bmad-outputs/](../_archive/bmad-outputs/) | 1 | [README.md](../_archive/bmad-outputs/readme.md) | archiviato 2026-10-21 |
 | [prompts/](./prompts/) | 1 | nessuno |  |
 | [raw/](./raw/) | 1 | [README.md](./raw/README.md) | materiale grezzo |
 | [roadmap/](./roadmap/) | 6 | nessuno |  |
 | [root-md-files/](./root-md-files/) | 3 | nessuno | archivio, non aggiungere file |
 | [schema/](./schema/) | 0 | nessuno |  |
 | [screenshots/](./screenshots/) | 2 | nessuno |  |
-| [skills/](./skills/) | 1 | [README.md](./skills/README.md) |  |
+| [skills/](./skills/) | 1 | [README.md](../skills/readme.md) |  |
 | [stories/](./stories/) | 4 | nessuno | legacy: la posizione canonica e' `bmad/stories/` |
 | [wiki/](./wiki/) | 39 | [INDEX.md](./wiki/INDEX.md), [index.md](./wiki/index.md) |  |
 

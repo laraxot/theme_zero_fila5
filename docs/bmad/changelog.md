@@ -24,21 +24,7 @@ Tutte le variazioni importanti di Zero saranno generate automaticamente da seman
 
 <!-- Merged from changelog.md, which collided with this file on case-insensitive filesystems. -->
 
-<<<<<<< HEAD
----
-title: Changelog — Zero Theme
-module: Zero
-type: reference
-status: approved
-tags: [version, history, releases, changelog]
-updated: "2026-06-18"
-related:
-  - ./readme.md
-  - ../readme.md
----
 
-=======
->>>>>>> laraxot/dev
 # Changelog — Zero Theme
 
 Version history for Zero theme. Follows Semantic Versioning (MAJOR.MINOR.PATCH).
@@ -256,15 +242,8 @@ Current known issues:
 
 ## Related Files
 
-<<<<<<< HEAD
-- [README.md](./readme.md) — Theme overview
-- [Component Guide](./component-guide.md) — Components reference
-- [Customization Guide](./customization.md) — How to extend
-- [../readme.md](../readme.md) — Root theme README (marketing)
-=======
 - [README.md](./theme-overview.md) — Theme overview
 - [Component Guide](./component-guide.md) — Components reference
 - [Customization Guide](./customization.md) — How to extend
 - [../readme.md](../README.md) — Root theme README (marketing)
->>>>>>> laraxot/dev
 - [../../docs/wiki/themes/](../../../../docs/wiki/themes/) — Project-wide theme docs

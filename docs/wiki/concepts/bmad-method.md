@@ -9,11 +9,7 @@ related:
   - "./schema.md"
 
   - "./bmad-method.md"
-<<<<<<< HEAD
-  - "./log.md"
-=======
   - "../log.md"
->>>>>>> laraxot/dev
 id: zero-docs-wiki-concepts-bmad-method
 slug: bmad-method
 description: "BMAD non e' un generatore casuale di codice: e' il processo di delivery. Prima si sceglie il track, poi si produce il minimo artefatto utile, poi si implementa con story..."

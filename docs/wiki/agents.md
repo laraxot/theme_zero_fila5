@@ -155,8 +155,8 @@ Related:
 
 ## Related Documentation
 
-- [Project Wiki Integration](readme.md)
-- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+- [Project Wiki Integration](README.md)
+- [Project Wiki Agent Instructions](./agents.md)
 - [Theme Documentation](../README.md)
 - [Scopo del tema](../bmad/scopo.md)
 - [Operating focus](./concepts/theme-zero-operating-focus.md)

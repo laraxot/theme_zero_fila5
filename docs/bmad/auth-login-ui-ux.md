@@ -7,11 +7,7 @@ updated: 2026-09-17
 tags: [auth, ui, ux, accessibilita, motion]
 related:
   - ./navigation-integration.md
-<<<<<<< HEAD
-  - ../../Modules/User/docs/wiki/concepts/login-page-design-comuni.md
-=======
   - ../../../../Modules/User/docs/wiki/concepts/login-page-design-comuni.md
->>>>>>> laraxot/dev
 id: zero-docs-bmad-auth-login-ui-ux
 slug: auth-login-ui-ux
 description: "La pagina usa una direzione hospitality premium: fondo caldo, accento"

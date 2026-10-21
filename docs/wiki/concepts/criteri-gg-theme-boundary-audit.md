@@ -9,11 +9,7 @@ qmd: "theme zero no duplicate gg formula criteri esclusione materialised fields 
 related:
   - ./gg-integ-params-no-asz-theme-boundary.md
   - ./method-name-homonyms.md
-<<<<<<< HEAD
-  - ../../performance-actions-reference.md
-=======
   - ../../bmad/performance-actions-reference.md
->>>>>>> laraxot/dev
   - ../../../../Modules/Ptv/docs/wiki/concepts/criteri-esclusione-action-taxonomy.md
   - ../../../../Modules/Sigma/docs/wiki/concepts/scheda-gg-getter-duplication-audit.md
   - ../../../../Modules/Progressioni/docs/wiki/concepts/duplicate-method-bodies.md
@@ -31,11 +27,8 @@ issues: []
 discussions: []
 ---
 
-<<<<<<< HEAD
-=======
 > Nota di verifica 2026-10-20 (docs-temi): questa pagina cita i moduli `Progressioni`, `Ptv`, `Sigma`, che non esistono in `laravel/Modules` di questo repository (controllato con `ls`). Il contenuto viene da un altro progetto della famiglia Laraxot e non e' stato riscritto: leggilo come pattern di riferimento, non come descrizione di codice presente. I link verso quei moduli non risolvono.
 
->>>>>>> laraxot/dev
 # Boundary tema: campi gg materializzati
 
 ## Scopo
@@ -63,11 +56,7 @@ Corpi *simili* ma campi diversi → **A_config**, non B_business. Il tema mostra
 ## Collegamenti
 
 - [gg-integ theme boundary](./gg-integ-params-no-asz-theme-boundary.md)
-<<<<<<< HEAD
-- [performance-actions-reference](../../performance-actions-reference.md)
-=======
 - [performance-actions-reference](../../bmad/performance-actions-reference.md)
->>>>>>> laraxot/dev
 - [Ptv taxonomy](../../../../../Modules/Ptv/docs/wiki/concepts/criteri-esclusione-action-taxonomy.md)
 - [Progressioni duplicate bodies (A vs B)](../../../../../Modules/Progressioni/docs/wiki/concepts/duplicate-method-bodies.md)
 - [Sigma getter audit](../../../../../Modules/Sigma/docs/wiki/concepts/scheda-gg-getter-duplication-audit.md)

@@ -2,6 +2,7 @@
 title: legacy snapshot (ex readme.md)
 status: archive
 canonical: README.md
+qmd: "zero theme legacy snapshot (ex readme.md) readme legacy snapshot"
 ---
 
 > Snapshot recuperato da git dopo unificazione `readme.md` verso `README.md`.
