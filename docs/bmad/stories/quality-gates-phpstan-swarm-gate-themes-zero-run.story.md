@@ -77,7 +77,7 @@ Nulla: nessuna segnalazione PHPStan presente. Nessuna modifica al codice.
   PHPStan reali nel codice"; segnalato qui come drift di documentazione da
   riprendere in un task doc-focused.
 - I ~14 file `docs/*.md` modificati e i 3 percorsi untracked (inclusa la story
-  `zero-conflict-markers-cleanup-2026-09-22.story.md` di un'altra sessione)
+  `zero-conflict-markers-cleanup.story.md` di un'altra sessione)
   non sono stati toccati: fuori scope PHPStan, working tree lasciato come
   trovato.
 
