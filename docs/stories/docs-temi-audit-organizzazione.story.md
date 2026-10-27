@@ -84,7 +84,7 @@ Nota sui "7 veri" del secondo front matter: l'audit ne segnalava 11 per `title` 
 
 Prima di credere a ogni "zero", un caso positivo noto.
 
-- Nomi: `find laravel/Themes/Zero/docs -type f -name '*.md' -print0 | xargs -0 python3 -I bashscripts/tools/docs/md-filenames.py check --paths` stampa `0 file .md con nome non conforme` (prima: 5). Attenzione: `check --paths laravel/Themes/Zero/docs` con una **cartella** stampa lo stesso `0` ma non controlla niente, perche' il codice tiene solo gli argomenti che finiscono in `.md`. Controprova: sul file `2026-10-08-zero-docs-health.story.md` il comando dava `VIETATO (data)`. Il prompt 55 invita a passare la cartella: va corretto (fuori dal mio perimetro, vedi decisioni).
+- Nomi: `find laravel/Themes/Zero/docs -type f -name '*.md' -print0 | xargs -0 python3 -I bashscripts/tools/docs/md-filenames.py check --paths` stampa `0 file .md con nome non conforme` (prima: 5). Attenzione: `check --paths laravel/Themes/Zero/docs` con una **cartella** stampa lo stesso `0` ma non controlla niente, perche' il codice tiene solo gli argomenti che finiscono in `.md`. Controprova: sul file `zero-docs-health.story.md` il comando dava `VIETATO (data)`. Il prompt 55 invita a passare la cartella: va corretto (fuori dal mio perimetro, vedi decisioni).
 - Marker di merge: `rg -nP '^(<{7}|={7}|>{7})( |$)' --glob '*.md' .` non stampa nulla; lo stesso pattern su un file di prova con tre marker restituisce 3.
 - Case: `find . -type f | tr A-Z a-z | sort | uniq -d` non stampa nulla; prima stampava `./bmad/readme.md` e `./index.md`.
 - Front matter: PyYAML legge tutti i file, nessuna chiave duplicata, nessun `id` duplicato.
