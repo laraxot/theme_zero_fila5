@@ -90,4 +90,3 @@ docs-only. Nessun commit/push.
 
 Temi già organizzati: nessun nuovo contenuto di feature. Dominio PHPStan residuo
 documentato nei moduli (Progressioni/Sigma/Ptv/Pdnd), non qui.
-
