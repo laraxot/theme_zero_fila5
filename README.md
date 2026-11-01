@@ -1,3 +1,5 @@
+> **Documentazione:** usare l’indice mantenuto in [`docs/README.md`](./docs/README.md); gli elenchi legacy qui sotto sono da riallineare separatamente.
+
 # ⚪ Zero
 
 [![Stars](https://img.shields.io/github/stars/laraxot/theme_zero_fila5?style=plastic&color=yellow)]()

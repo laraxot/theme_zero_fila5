@@ -1,4 +1,22 @@
 ---
+id: zero-docs-archive-conflict-resolution-summary-uc
+slug: conflict-resolution-summary
+title: "Riepilogo Risoluzione Conflitti Git - Filament 5"
+description: "This file has been renamed to CONFLICT-RESOLUTION-SUMMARY.md."
+document_type: guide
+type: guide
+category: git-workflow
+status: archived
+tags: []
+created: "2026-09-24"
+updated: "2026-10-08"
+qmd: "riepilogo risoluzione conflitti git - filament 5"
+issues: []
+discussions: []
+canonical: ../bmad/conflict-resolution-summary.md
+---
+
+---
 title: "CONFLICT-RESOLUTION-SUMMARY (deprecated)"
 type: reference
 status: deprecated

@@ -8,6 +8,15 @@ updated: 2026-06-15
 related:
   - ../../../One/docs/wiki/concepts/php-method-name-homonyms-theme-impact.md
   - ../../../../../../docs/wiki/analysis/method-name-homonym-census.md
+id: zero-docs-wiki-concepts-php-method-name-homonyms-theme-impact
+slug: php-method-name-homonyms-theme-impact
+description: "Stesso contratto di Theme One - impatto temi."
+document_type: concept
+category: documentation
+status: active
+qmd: "omonimi metodi php - impatto temi"
+issues: []
+discussions: []
 ---
 
 # Omonimi metodi PHP — Theme Zero

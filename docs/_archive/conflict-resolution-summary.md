@@ -1,3 +1,21 @@
+---
+id: zero-docs-archive-conflict-resolution-summary
+slug: conflict-resolution-summary
+title: "Riepilogo Risoluzione Conflitti Git - Filament 5"
+description: "Risoluzione sistematica di tutti i conflitti Git presenti nel progetto per la migrazione a Filament 5."
+document_type: guide
+type: guide
+category: git-workflow
+status: archived
+tags: []
+created: "2026-09-24"
+updated: "2026-10-08"
+qmd: "riepilogo risoluzione conflitti git - filament 5"
+issues: []
+discussions: []
+canonical: ../bmad/conflict-resolution-summary.md
+---
+
 # Riepilogo Risoluzione Conflitti Git - Filament 5
 
 ## Obiettivo Completato ✅
