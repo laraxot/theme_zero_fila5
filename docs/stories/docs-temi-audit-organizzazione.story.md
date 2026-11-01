@@ -10,7 +10,7 @@ status: done
 module: Zero
 tags: [docs, temi, audit, indici, link, case-collision, bmad]
 created: "2026-10-20"
-updated: "2026-10-20"
+updated: "2026-10-21"
 qmd: "docs temi audit organizzazione zero indice archivio case collision readme agents scopo purpose operating-focus 00-index lowercase cms xot boy scout phpstan wave4 wave5 index maiuscola link rotti moduli inesistenti password chiaro md-filenames falso check paths cartella story nomi con data"
 issues: []
 discussions: []
@@ -22,6 +22,13 @@ related:
 ---
 
 # Audit e organizzazione delle docs dei temi
+
+> **Aggiornamento 2026-10-21 (docs-temi).** Questa story resta valida per audit,
+> segreti e moduli assenti. La scelta dell'indice è superata: `docs/index.md` è
+> l'indice canonico, `README.md` l'ingresso umano e `index-pointer.md` un alias;
+> `INDEX.md` è stato assorbito. `laravel/Themes` contiene anche One e Three
+> (skeleton), non solo Zero. Esito e numeri finali:
+> [bmad/stories/docs-organization.story.md](../bmad/stories/docs-organization.story.md).
 
 Fase BMAD: Analisi, poi Build. Solo documentazione in `laravel/Themes/Zero/docs/`; nessun file PHP, Blade o JS toccato. Lane DOCS-TEMI di uno swarm: gli altri perimetri (moduli, prompt) non sono stati toccati.
 
@@ -77,7 +84,7 @@ Nota sui "7 veri" del secondo front matter: l'audit ne segnalava 11 per `title` 
 
 Prima di credere a ogni "zero", un caso positivo noto.
 
-- Nomi: `find laravel/Themes/Zero/docs -type f -name '*.md' -print0 | xargs -0 python3 -I bashscripts/tools/docs/md-filenames.py check --paths` stampa `0 file .md con nome non conforme` (prima: 5). Attenzione: `check --paths laravel/Themes/Zero/docs` con una **cartella** stampa lo stesso `0` ma non controlla niente, perche' il codice tiene solo gli argomenti che finiscono in `.md`. Controprova: sul file `2026-10-08-zero-docs-health.story.md` il comando dava `VIETATO (data)`. Il prompt 55 invita a passare la cartella: va corretto (fuori dal mio perimetro, vedi decisioni).
+- Nomi: `find laravel/Themes/Zero/docs -type f -name '*.md' -print0 | xargs -0 python3 -I bashscripts/tools/docs/md-filenames.py check --paths` stampa `0 file .md con nome non conforme` (prima: 5). Attenzione: `check --paths laravel/Themes/Zero/docs` con una **cartella** stampa lo stesso `0` ma non controlla niente, perche' il codice tiene solo gli argomenti che finiscono in `.md`. Controprova: sul file `zero-docs-health.story.md` il comando dava `VIETATO (data)`. Il prompt 55 invita a passare la cartella: va corretto (fuori dal mio perimetro, vedi decisioni).
 - Marker di merge: `rg -nP '^(<{7}|={7}|>{7})( |$)' --glob '*.md' .` non stampa nulla; lo stesso pattern su un file di prova con tre marker restituisce 3.
 - Case: `find . -type f | tr A-Z a-z | sort | uniq -d` non stampa nulla; prima stampava `./bmad/readme.md` e `./index.md`.
 - Front matter: PyYAML legge tutti i file, nessuna chiave duplicata, nessun `id` duplicato.

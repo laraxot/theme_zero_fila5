@@ -32,7 +32,7 @@ In `base_quaeris_fila5` Zero e' l'unico tema. Vale come guscio pubblico (`pub`),
 
 - Solo presentazione: Blade, CSS/JS, mail-layouts, `lang/*/navigation|ui`.
 - `app/` resta vuoto: niente Actions/Services nel tema.
-- Domanda "chi decide la pagina?" → [Cms scopo](../../../../Modules/Cms/docs/scopo.md).
+- Domanda "chi decide la pagina?" → [Cms scopo](../../bmad/scopo.md).
 - Domanda "quale classe Filament estendo?" → [Xot](../../../../Modules/Xot/docs/00-index.md) + [mai Filament*](../../concepts/xotbase-never-extend-filament.md).
 - Docs = handoff per agenti: aggiornare `scopo` / README quando cambia il perche', non solo il come.
 

@@ -58,7 +58,6 @@ _No entities tracked yet._
 
 ## On-Demand References
 
-- [handoff-contract-stacking-basescheda](../../../../Modules/Geo/docs/chat/handoff-contract-stacking-basescheda.md) — riferimento al pattern di stacking dei contratti
 - [rules-index](./rules/index.md) — entry point per regole condivise e theme-facing da caricare on demand
 - [skills-index](./skills/index.md) — entry point per skill riusabili lato tema e Xot
 
@@ -94,7 +93,7 @@ _No entities tracked yet._
 
 ## Pagine di servizio della wiki
 
-- [readme](./readme.md) - a cosa serve la cartella `wiki/`
+- [README](./README.md) - a cosa serve la cartella `wiki/`
 - [schema](./schema.md) - schema e convenzioni della wiki del tema
 - [agents](./agents.md) - istruzioni per gli agenti che mantengono la wiki (ex `AGENTS.md`; il blocco YAML nel corpo e' un modello da copiare, non un frontmatter)
 - [log](./log.md) - registro cronologico delle attivita'

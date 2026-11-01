@@ -1,5 +1,5 @@
 ---
-title: "Zero {{TYPE^}} LLM Wiki Agent Instructions"
+title: "Zero LLM Wiki Agent Instructions"
 type: reference
 tags: [wiki, no-frontmatter-fix]
 created: 2026-10-06
@@ -15,7 +15,7 @@ issues: []
 discussions: []
 ---
 
-# Zero {{TYPE^}} LLM Wiki Agent Instructions
+# Zero LLM Wiki Agent Instructions
 
 > **Module/Theme:** Zero
 > **Scope:** Zero-specific knowledge only
@@ -155,8 +155,8 @@ Related:
 
 ## Related Documentation
 
-- [Project Wiki Integration](readme.md)
-- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+- [Project Wiki Integration](README.md)
+- [Project Wiki Agent Instructions](./agents.md)
 - [Theme Documentation](../README.md)
 - [Scopo del tema](../bmad/scopo.md)
 - [Operating focus](./concepts/theme-zero-operating-focus.md)
