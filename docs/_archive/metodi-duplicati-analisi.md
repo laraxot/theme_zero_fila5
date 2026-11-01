@@ -2,6 +2,20 @@
 theme: Zero
 topic: metodi-duplicati-analisi
 tags: [metodi-duplicati, refactoring]
+id: zero-docs-archive-metodi-duplicati-analisi-2
+slug: metodi-duplicati-analisi
+title: "Metodi Duplicati - Analisi Tema Zero"
+description: "Metodi dominio duplicati che coinvolgono il tema Zero - 1 metodo trovato."
+document_type: guide
+type: guide
+category: documentation
+status: archived
+created: "2026-09-24"
+updated: "2026-10-08"
+qmd: "metodi duplicati - analisi tema zero"
+issues: []
+discussions: []
+canonical: ../bmad/metodi-duplicati-analisi.md
 ---
 
 # Metodi Duplicati — Analisi Tema Zero
