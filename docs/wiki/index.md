@@ -1,9 +1,6 @@
 ---
 title: "Wiki Index"
 module: "Zero"
-<<<<<<< .merge_file_3jWwQX
-updated: "2026-04-15T08:28:52Z"
-=======
 updated: "2026-10-20"
 id: zero-docs-wiki-index
 slug: index
@@ -17,7 +14,6 @@ created: "2026-09-24"
 qmd: "wiki index"
 issues: []
 discussions: []
->>>>>>> .merge_file_tuRdGN
 ---
 
 # Wiki Index — Zero
@@ -27,9 +23,6 @@ discussions: []
 
 ## Concepts
 
-<<<<<<< .merge_file_3jWwQX
-_No concepts ingested yet. Drop raw documents in `../raw/articles/` and run ingest._
-=======
 - [ai-handoff](./concepts/ai-handoff.md) — AI handoff patterns for theme development
 - [ai-tooling](./concepts/ai-tooling.md) — AI tools and scaffolding in the theme
 - [bmad-method](./concepts/bmad-method.md) — BMAD method v6.3 operativo nel progetto
@@ -52,7 +45,6 @@ _No concepts ingested yet. Drop raw documents in `../raw/articles/` and run inge
 - [ponytail-audit](./concepts/ponytail-audit.md) - delta del tema nell'audit ponytail
 - [ponytail-docs-lifecycle](./concepts/ponytail-docs-lifecycle.md) - ciclo di vita delle docs del tema
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) - stub verso la wiki del modulo Xot
->>>>>>> .merge_file_tuRdGN
 
 ## Entities
 
@@ -60,9 +52,6 @@ _No entities tracked yet._
 
 ## Sources
 
-<<<<<<< .merge_file_3jWwQX
-_No sources ingested yet._
-=======
 - [context-compression-and-retrieval](./sources/context-compression-and-retrieval.md) — summary of the shared prompt-compression setup for theme docs workflows
 - [theme-zero-product-and-roadmap-docs](./sources/theme-zero-product-and-roadmap-docs.md) — summary of strategic Theme Zero docs
 - [laravel13-theme-zero-composer-audit](./sources/laravel13-theme-zero-composer-audit.md) — composer audit results
@@ -71,7 +60,6 @@ _No sources ingested yet._
 
 - [rules-index](./rules/index.md) — entry point per regole condivise e theme-facing da caricare on demand
 - [skills-index](./skills/index.md) — entry point per skill riusabili lato tema e Xot
->>>>>>> .merge_file_tuRdGN
 
 ## Comparisons
 
@@ -142,12 +130,6 @@ _No lint results tracked yet._
 
 ---
 
-<<<<<<< .merge_file_3jWwQX
-**Last Updated:** 2026-04-15T08:28:52Z  
-**Total Pages:** 0  
-**Total Raw Sources:** 0
-=======
 **Total Pages:** 0
 **Total Raw Sources:** 3
 **Shared References:** 2
->>>>>>> .merge_file_tuRdGN

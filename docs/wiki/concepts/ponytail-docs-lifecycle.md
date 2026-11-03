@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_L9wcXb
-=======
 ---
 title: "Ponytail Docs Lifecycle"
 type: concept
@@ -21,7 +19,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> .merge_file_zDyJi0
 # Ponytail Docs Lifecycle
 
 Theme docs should stay smaller than module docs.
