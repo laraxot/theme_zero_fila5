@@ -57,6 +57,14 @@ Le vecchie note “Level 10” e “0 errori” sono storiche. Lo stato corrente
 come output datato del comando canonico e come evidenza nella story proprietaria; un
 conteggio ottenuto con `analyse Themes` o `--level=<n>` non aggiorna questo gate.
 
+title: "PHPStan Configuration - Theme Zero"
+type: guide
+tags: ['laravel', 'phpstan']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "phpstan configuration - theme zero"
+related:
+  - "./00-index.md"
 ---
 
 # PHPStan Configuration - Theme Zero

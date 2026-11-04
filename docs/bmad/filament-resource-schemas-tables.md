@@ -56,27 +56,27 @@ Per il dettaglio infolist vedi anche [filament-infolist-pattern](./filament-info
 
 ### Copia metodi tabella Page → `*Table`
 
-Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
+Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](./filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
 
 ## Riferimenti
 
 - [Xot – Filament v5 hybrid pattern](../../../laravel/Modules/Xot/docs/wiki/concepts/filament-v5-hybrid-pattern.md)
-- [Progressioni – inventario scaffold](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
-Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
+- [Progressioni – inventario scaffold](./filament-resource-schemas-tables.md)
+Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](./filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
 
 ## Riferimenti
 
 - [Xot – Filament v5 hybrid pattern](../../Modules/Xot/docs/wiki/concepts/filament-v5-hybrid-pattern.md)
-- [Progressioni – inventario scaffold](../../Modules/Progressioni/docs/filament-resource-schemas-tables.md)
-Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
+- [Progressioni – inventario scaffold](./filament-resource-schemas-tables.md)
+Spostando la config dalla Page alla `*Table`: `getHeaderActions()` → `getTableHeaderActions()`, `$this->getModel()` → FQCN esplicito, `$this->tableFilters ?? []`, niente `#[Override]`. **NON** creare metodi `return parent::getTableXxx();` (passthrough) o `return [];` (vuoto): equivalgono al default `HasXotTable` (DRY+KISS). Dettaglio: [Progressioni](./filament-resource-schemas-tables.md#copia-metodi-tabella-page--classe-table-override-utili-vs-inutili).
 
 ## Riferimenti
 
 - [Xot – Filament v5 hybrid pattern](../../../laravel/Modules/Xot/docs/wiki/concepts/filament-v5-hybrid-pattern.md)
-- [Progressioni – inventario scaffold](../../../laravel/Modules/Progressioni/docs/filament-resource-schemas-tables.md)
+- [Progressioni – inventario scaffold](./filament-resource-schemas-tables.md)
 - [Progressioni – wire pilota Assenze](../../Modules/Progressioni/docs/filament-resource-wire-assenze.md)
-- [One – stesso pattern](../../One/docs/filament-resource-schemas-tables.md)
-- [Three – stesso pattern](../../Three/docs/filament-resource-schemas-tables.md)
+- [One – stesso pattern](./filament-resource-schemas-tables.md)
+- [Three – stesso pattern](./filament-resource-schemas-tables.md)
 - [Cursor rule](../../../.cursor/rules/filament-resource-schemas-tables.mdc)
 
 *Ultimo aggiornamento: 2026-09-01*

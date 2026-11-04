@@ -24,6 +24,7 @@ Tutte le variazioni importanti di Zero saranno generate automaticamente da seman
 
 <!-- Merged from changelog.md, which collided with this file on case-insensitive filesystems. -->
 
+
 # Changelog — Zero Theme
 
 Version history for Zero theme. Follows Semantic Versioning (MAJOR.MINOR.PATCH).

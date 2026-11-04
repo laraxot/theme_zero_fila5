@@ -42,9 +42,9 @@ Theme Zero is the **public presentation shell** for Quaeris: Blade layouts, UI t
 
 | Concern | Owner |
 |---|---|
-| Page/block JSON resolution | [Cms scopo](../../../Modules/Cms/docs/scopo.md) |
+| Page/block JSON resolution | [Cms scopo](./scopo.md) |
 | Filament mirrors / foundation | [Xot 00-index](../../../Modules/Xot/docs/00-index.md) |
-| Autolabel / locale plumbing | [Lang scopo](../../../Modules/Lang/docs/scopo.md) |
+| Autolabel / locale plumbing | [Lang scopo](./scopo.md) |
 | Never extend `Filament\*` here | [xotbase-never-extend-filament](../concepts/xotbase-never-extend-filament.md) |
 
 ## Stack truth (this checkout)

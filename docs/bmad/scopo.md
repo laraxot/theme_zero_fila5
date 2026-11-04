@@ -32,7 +32,7 @@ Ingresso docs: [../README.md](../README.md). Alias EN: [purpose.md](./purpose.md
 
 > **Zero e' il vestito pubblico del monorepo Quaeris: markup Blade, token di stile e pipeline Vite. Non decide cosa e' una pagina ne' quale dato mostrare.**
 
-In questo checkout (`base_quaeris_fila5`) e' l'unico tema sotto `laravel/Themes/`. `theme.json` lo dichiara `type: pub`, `active: true`. Gli host Quaeris impostano `pub_theme => Zero` (es. `config/local/quaeris/xra.php`, `config/localhost/xra.php`); l'admin resta su temi/pannelli di altri stack (`adm_theme` tipicamente `AdminLTE`).
+In questo checkout (`base_quaeris_fila5`) e' l'unico tema **attivo** sotto `laravel/Themes/`; One e Three sono skeleton. `theme.json` lo dichiara `type: pub`, `active: true`. Gli host Quaeris impostano `pub_theme => Zero` (es. `config/local/quaeris/xra.php`, `config/localhost/xra.php`); l'admin resta su temi/pannelli di altri stack (`adm_theme` tipicamente `AdminLTE`).
 
 ## Evidenza dal codice (2026-10-20)
 
@@ -49,8 +49,8 @@ In questo checkout (`base_quaeris_fila5`) e' l'unico tema sotto `laravel/Themes/
 
 | Responsabilita' | Dove vive | Non fare nel tema |
 |---|---|---|
-| Risolvere pagina e blocchi JSON | [Cms — scopo](../../../Modules/Cms/docs/scopo.md) | Inventare Page/Block service o tabelle inventate |
-| Autolabel, locale, chiavi i18n strutturali | [Lang — scopo](../../../Modules/Lang/docs/scopo.md) | Hardcodare label di dominio nelle view |
+| Risolvere pagina e blocchi JSON | [Cms — scopo](./scopo.md) | Inventare Page/Block service o tabelle inventate |
+| Autolabel, locale, chiavi i18n strutturali | [Lang — scopo](./scopo.md) | Hardcodare label di dominio nelle view |
 | Classi base Filament / foundation | [Xot — indice](../../../Modules/Xot/docs/00-index.md), [mai estendere Filament*](../concepts/xotbase-never-extend-filament.md) | `extends Filament\...` diretto |
 | Survey, auth di dominio, metriche Pulse | Modulo Quaeris (e altri moduli) | Copiare decisioni di dominio nelle Blade |
 

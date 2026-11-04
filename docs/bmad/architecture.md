@@ -41,7 +41,16 @@ Zero theme architecture and design patterns for Laraxot PTVX.
 - Build passes without errors
 - Components render correctly
 - Performance optimized
-
+---
+title: "Architettura del Tema Zero"
+type: guide
+tags: ['filament', 'laravel', 'charts', 'testing']
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "architettura del tema zero"
+related:
+  - "./00-index.md"
+  - "./00-index.md"
 ---
 
 # Architettura del Tema Zero
