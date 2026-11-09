@@ -46,6 +46,7 @@
                     <svg wire:loading.remove class="absolute left-0 inset-y-0 flex items-center pl-3 h-5 w-5 text-blue-500 group-hover:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
+<<<<<<< .merge_file_RGKGHo
 <<<<<<< .merge_file_szSWL0
                     
                     <span wire:loading.remove>{{ __('Accedi') }}</span>
@@ -55,6 +56,11 @@
                     <span wire:loading.remove>{{ __('pub_theme::auth.actions.login.label') }}</span>
                     <span wire:loading>{{ __('pub_theme::auth.login.loading.message') }}</span>
 >>>>>>> .merge_file_52q0lj
+=======
+
+                    <span wire:loading.remove>{{ __('pub_theme::auth.actions.login.label') }}</span>
+                    <span wire:loading>{{ __('pub_theme::auth.login.loading.message') }}</span>
+>>>>>>> .merge_file_qYuURZ
                 </button>
             </div>
         </form>

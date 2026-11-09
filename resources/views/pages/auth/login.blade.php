@@ -40,11 +40,14 @@
             <!-- Registration Link -->
             <div class="text-center">
                 <p class="text-sm text-gray-600">
+<<<<<<< .merge_file_0uhbF3
 <<<<<<< .merge_file_CKkk5s
                     {{ __('Non hai un account?') }}
                     <a 
                         href="{{ route('register') }}" 
 =======
+=======
+>>>>>>> .merge_file_W0wG78
                     {{ __('pub_theme::auth.login.no_account.message') }}
                     <a
                         href="{{ route('register') }}"
