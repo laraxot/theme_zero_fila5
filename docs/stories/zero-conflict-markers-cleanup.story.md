@@ -8,11 +8,7 @@ slug: zero-conflict-markers-cleanup
 status: done
 cold_gate: docs-only, no phpstan/pest impact
 created: '2026-09-22'
-<<<<<<< .merge_file_iU8epq
-updated: '2026-09-22'
-=======
 updated: '2026-11-03'
->>>>>>> .merge_file_B6zenN
 repository: "https://github.com/laraxot/theme_zero_fila5.git"
 github_issue: null
 github_discussion: null
@@ -140,9 +136,6 @@ Docs-only cleanup completato: 0 marker residui in `Themes/Zero`. 1 difetto
 minore identificato ma non corretto (link morti in `README.md`, sezione
 "Release automation" — reintrodotti da un rewrite concorrente successivo al
 mio). 1 blocco di sync non risolvibile da questo fork (oggetto mancante verso
-<<<<<<< .merge_file_iU8epq
-`provtv`). Lock dei 12 file rilasciati a fine story.
-=======
 `provtv`). Lock dei 12 file rilasciati a fine story.
 
 ## 2026-11-03: rebase del mono dopo il pull dei sottomoduli
@@ -185,4 +178,3 @@ I tre frontmatter sono YAML valido (Symfony Yaml).
 - Link interni rotti in `docs/wiki/index.md`: `concepts/duplicate-method-bodies.md`, `concepts/filament-nested-resources.md`, `concepts/jpgraph-guide.md`, `schema.md`, `memories/index.md`, `commands/index.md`. Non toccati.
 - In `ponytail-audit.md` i link "Remediation" e "Delta temi" puntano a `docs/project/ponytail-audit-remediation.md` e `docs/project/ponytail-audit-themes.md`, che non esistono nel repo.
 - Lock presi con `bashscripts/lock/lock.sh` (task `zero-rebase-conflicts-20261103`) e rilasciati a fine lavoro.
->>>>>>> .merge_file_B6zenN
