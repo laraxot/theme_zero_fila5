@@ -250,7 +250,7 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=healthcare_app_data
 DB_USERNAME=marco
-DB_PASSWORD=marco
+DB_PASSWORD=<password-locale>
 ```
 
 ### 2. Cache e Queue

@@ -1,16 +1,23 @@
 ---
-title: Theme Zero — indice documentazione
+title: "Zero Theme — indice docs"
 type: index
-tags: [docs, theme, zero]
-qmd: "Theme Zero indice documentazione BMAD wiki"
+theme: Zero
+status: active
+updated: 2026-11-04
 ---
 
-# Theme Zero — indice documentazione
+# Zero Theme
 
-L'ingresso attivo è [README.md](README.md). Questo indice è mantenuto come
-compatibilità per i link storici e non introduce una seconda fonte di verità.
+Tema base per layout, pagine pubbliche e componenti Blade condivisi.
 
-- [README](README.md)
-- [BMAD](bmad/)
-- [Wiki](wiki/)
-- [Stories](stories/)
+## Regole minime
+
+- Le modifiche visuali devono restare nel tema, salvo contratto esplicito con un modulo.
+- Le pagine Filament e la logica dominio appartengono ai moduli, non al tema.
+- Ogni modifica UI non banale deve indicare pagina, componenti coinvolti e verifica
+  responsive/accessibilità.
+
+## Documenti
+
+Questo indice è il punto di ingresso per la documentazione del tema. Aggiungere qui i
+nuovi dossier BMAD e le decisioni UI senza rinominare o spostare la storia esistente.
