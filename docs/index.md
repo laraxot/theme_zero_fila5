@@ -10,7 +10,7 @@ theme: Zero
 status: active
 tags: [docs, theme, zero, index, bmad, wiki]
 created: "2026-09-24"
-updated: "2026-10-21"
+updated: "2026-11-16"
 qmd: "tema zero indice documentazione bmad wiki stories architecture blueprint inventory index canonical"
 issues: []
 discussions: []
@@ -71,6 +71,16 @@ storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 3. Ogni `.md` ha frontmatter YAML con `qmd`.
 4. Zero resta presentazione: Blade, asset, traduzioni; nessuna business logic.
 
+## Debito naming (flag)
+
+- `wiki/comparisons/f1-world-champion-2026-theme-analysis.md` — data nel nome;
+  preferire/allineare a [f1-world-champion-theme-analysis.md](./wiki/comparisons/f1-world-champion-theme-analysis.md)
+  e marcare il datato `superseded` ([docs-clean](../../../../bashscripts/docs/prompts/docs-clean.md)).
+
+```bash
+python3 -I bashscripts/tools/docs/md-filenames.py check --paths laravel/Themes/Zero/docs
+```
+
 ## Cosa manca per completare
 
-[completion-status.md](./completion-status.md): indicatori misurati, problemi noti e story aperte (2026-10-28).
+[completion-status.md](./completion-status.md): indicatori misurati, problemi noti e story aperte.
