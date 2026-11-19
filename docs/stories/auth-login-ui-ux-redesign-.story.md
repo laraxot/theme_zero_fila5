@@ -18,6 +18,7 @@ tags: []
 qmd: "zero theme - redesign ui/ux pagina login (/it/auth/login)"
 issues: []
 discussions: []
+date_originale_nome_file: 2026-09-17
 ---
 
 # Story — Redesign UI/UX pagina login

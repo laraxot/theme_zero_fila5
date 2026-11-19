@@ -31,7 +31,7 @@ owned_scope:
   - "laravel/Themes/Zero/docs/raw/README.md"
   - "laravel/Themes/Zero/docs/skills/README.md"
 related:
-  - "./docs-theme-zero-audit-2026-09-11.story.md"
+  - "./docs-theme-zero-audit-.story.md"
 id: zero-docs-stories-zero-conflict-markers-cleanup-2026-09-22-story
 description: "Story di pulizia dei marker di conflitto committati nel tema Zero: 12 file assegnati, merge basato sull'evidenza."
 document_type: story
@@ -40,6 +40,7 @@ tags: []
 qmd: "cleanup marker di conflitto committati - theme zero (2026-09-22)"
 issues: []
 discussions: []
+date_originale_nome_file: 2026-09-22
 ---
 
 # Cleanup marker di conflitto committati in HEAD — Theme Zero
@@ -68,7 +69,7 @@ esistenza dei link prima di scegliere un lato):
   `docs/analisi-completa-tema.md`, `docs/code-redundancy-audit.md`,
   `docs/agent-confidence-protocol.md`, `docs/agent-edit-discipline.md` esistono
   tutti. **Difetto residuo non mio**: la sezione "Release automation" referenzia
-  `.github/workflows/semantic-release.yml` e `changelog.md`, **entrambi
+  `.github/workflows/semantic-release.yml` e `CHANGELOG.md`, **entrambi
   inesistenti** (verificato con `[ -e ... ]`) — difetto pre-esistente alla mia
   riscrittura, reintrodotto dalla versione dell'agente concorrente. Non corretto
   in questa story per non riaprire un file già ri-scritto due volte da altri
