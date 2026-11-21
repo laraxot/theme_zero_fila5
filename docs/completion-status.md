@@ -1,4 +1,5 @@
 ---
+qmd: "zero completion status md"
 title: "Zero: cosa manca per completare"
 type: status
 module: Zero
