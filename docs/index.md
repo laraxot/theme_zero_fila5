@@ -73,9 +73,10 @@ storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 
 ## Debito naming (flag)
 
-- `wiki/comparisons/f1-world-champion-2026-theme-analysis.md` — data nel nome;
-  preferire/allineare a [f1-world-champion-theme-analysis.md](./wiki/comparisons/f1-world-champion-theme-analysis.md)
-  e marcare il datato `superseded` ([docs-clean](../../../../bashscripts/docs/prompts/docs-clean.md)).
+- F1 analysis unificata (2026-11-17): canonico
+  [f1-world-champion-theme-analysis.md](./wiki/comparisons/f1-world-champion-theme-analysis.md);
+  il datato `wiki/comparisons/f1-world-champion-2026-theme-analysis.md` e le copie
+  in `screenshots/` sono stub `status: superseded` (nessuna delete).
 
 ```bash
 python3 -I bashscripts/tools/docs/md-filenames.py check --paths laravel/Themes/Zero/docs
