@@ -6,7 +6,7 @@ created: 2026-08-03
 updated: 2026-08-03
 qmd: "graphify headroom caveman tema Zero blade indicizzazione scaffold"
 related:
-  - ./no-ai-tool-scaffold-dirs.md
+  - ../../bmad/no-ai-tool-scaffold-dirs.md
   - ../../../Modules/Xot/docs/ai-tooling-stack.md
 id: zero-docs-wiki-concepts-ai-tooling
 slug: ai-tooling

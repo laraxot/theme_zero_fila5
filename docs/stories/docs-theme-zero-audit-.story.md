@@ -46,6 +46,7 @@ tags: []
 qmd: "audit e correzione docs/ - theme zero (2026-09-11)"
 issues: []
 discussions: []
+date_originale_nome_file: 2026-09-11
 ---
 
 # Audit e correzione docs/ — Theme Zero (2026-09-11)
@@ -96,15 +97,15 @@ git log -1 --format=%P 0d6cf4c                 # vuoto: e' il commit radice del 
 - **Non ho toccato nulla fuori da `laravel/Themes/Zero/`** (nessun modulo,
   nessuna classe Table/Resource, nessun `.env`).
 - **Non ho completato l'archiviazione reale**: `_archive/` contiene gia' copie
-  di ~19 file (`ARCHITECTURE.md`, `CHANGELOG.md`, `PRD.md`, `README-en.md`,
-  `FRAMEWORKS.md`, `00-INDEX.md`, `duplicate_methods_report.md`,
-  `conflict*.md`, i 5 file `wiki/*/INDEX.md`, ecc.) ma gli originali NON sono
+  di ~19 file (`architecture.md`, `CHANGELOG.md`, `PRD.md`, `README-en.md`,
+  `FRAMEWORKS.md`, `00-index.md`, `duplicate_methods_report.md`,
+  `conflict*.md`, i 5 file `wiki/*/index.md`, ecc.) ma gli originali NON sono
   mai stati rimossi da `docs/` root — l'archiviazione e' incompleta
   (duplicazione della duplicazione). Rimuovere i 19 originali da `docs/` root
   e' un'operazione a rischio piu' alto (tocca link esistenti da altri file) che
   ho preferito lasciare a una story dedicata piuttosto che farla di fretta.
 - **Non ho toccato i duplicati dentro `wiki/`**: lo stesso pattern
-  `INDEX.md`/`index.md`, `SCHEMA.md`/`schema.md` si ripete in
+  `index.md`/`index.md`, `schema.md`/`schema.md` si ripete in
   `wiki/commands/`, `wiki/concepts/`, `wiki/memories/`, `wiki/rules/`,
   `wiki/skills/`. Documentato in `index.md`, non corretto: stesso ragionamento
   del punto precedente, piu' 39 file da rileggere uno per uno per essere sicuri
@@ -134,7 +135,7 @@ git log -1 --format=%P 0d6cf4c                 # vuoto: e' il commit radice del 
 - [x] Identificare la causa dei duplicati case/underscore: commit radice
       `0d6cf4c` (2026-09-09), non un merge di questa sessione — confermato
       dal commento esplicito gia' presente in `CHANGELOG.md` ("Merged from
-      changelog.md, which collided with this file on case-insensitive
+      CHANGELOG.md, which collided with this file on case-insensitive
       filesystems") (AC: 1, 3)
 - [x] Rigenerare `docs/index.md` per directory con script deterministico,
       aggiungere sezione "Duplicati noti" con canonico → variante per le ~18
@@ -168,7 +169,7 @@ git log -1 --format=%P 0d6cf4c                 # vuoto: e' il commit radice del 
 - [Source: `docs/model-docs-governance.md#L12`] — "Prefer canonical
   `kebab-case` docs filenames", stessa regola ribadita in un secondo file.
 - [Source: `docs/CHANGELOG.md#L7`] — commento letterale nel file: "Merged from
-  changelog.md, which collided with this file on case-insensitive
+  CHANGELOG.md, which collided with this file on case-insensitive
   filesystems." Conferma diretta, non dedotta, della causa dei duplicati.
 - [Source: `git show --stat 0d6cf4c` nel repo tema] — tutte le ~18 coppie di
   duplicati in `docs/` root compaiono gia' nel primo commit della storia git
