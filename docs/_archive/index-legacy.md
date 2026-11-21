@@ -195,7 +195,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 
 ---
 
-<!-- Merged from INDEX.md, which collided with this file on case-insensitive filesystems. -->
+<!-- Merged from index.md, which collided with this file on case-insensitive filesystems. -->
 
 
 # Documentation Index — Theme Zero
@@ -343,7 +343,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - [screenshots/f1-world-champion-theme-analysis](./screenshots/f1-world-champion-theme-analysis.md) — stub → [wiki/comparisons/f1-world-champion-theme-analysis.md](./wiki/comparisons/f1-world-champion-theme-analysis.md)
 
 ## Skills
-- [skills/README](./skills/readme.md)
+- [skills/README](./skills/README.md)
 
 ## Wiki
 - [wiki/SCHEMA](./wiki/schema.md)
