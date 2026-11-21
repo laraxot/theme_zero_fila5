@@ -36,7 +36,7 @@ rotti.
   `wiki/AGENTS.md`/`wiki/agents.md`, `skills/README.md`/`skills/readme.md`,
   `wiki/skills/INDEX.md`/`wiki/skills/index.md`.
 - `bmad/outputs/` e `docs/archive/duplicates/` erano contenitori fuori standard.
-- Link attivi verso moduli assenti (`Quaeris`, `Cms`, `Geo`) e verso file cancellati.
+- Link attivi verso moduli assenti (`<nome progetto>`, `Cms`, `Geo`) e verso file cancellati.
 
 ## Acceptance criteria
 

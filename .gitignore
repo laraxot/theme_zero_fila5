@@ -92,6 +92,7 @@ package-lock.json
 # -----------------------------------------------------------------------------
 # Package manager files
 
+package-lock.json
 
 # Public HTML generated/vendor assets
 
@@ -168,20 +169,44 @@ rector.php
 
 docs/screenshots/
 .cursor
+.devcontainer
 .vscode
 .windsurf
+laravel/public
+laravel/resources/lang/vendor/
+vendor/
+public_html/css/
+public_html/js/
+public_html/vendor/
 public_html/vendor/*
+laravel/bootstrap/cache/*
 laravel/stubs
+laravel/resources/views/vendor/
+.git-rewrite/
+*:Zone.Identifier
+.env
+laravel/database/migrations/
 logs
+laravel/
 public_html/
+.env.docker
+.env.latest
+node_modules/
 # PHPStan output files
+.cursor/
+.vscode/
+.windsurf/
 tests/AuditCoverage
 # AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
 
 # Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
+.devcontainer/
 extras
+tests/AuditCoverage/
 
 # Laraxot — quality tool configs forbidden in module/theme root (use laravel/phpinsights.php, laravel/rector.php)
+phpinsights.php
+rector.php
 docs/graphify/graphify-out/
 .opencode
 
@@ -203,3 +228,9 @@ audit-coverage/
 /.github/skills/
 .github/skills
 /docs/graphify/
+# Strumenti locali/IDE (wiki module-theme-root-hygiene)
+.codex/
+.qwen/
+.php-cs-fixer.php
+.php-cs-fixer.dist.php
+*.lock
