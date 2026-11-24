@@ -22,6 +22,15 @@ related:
   «non decide cosa e' una pagina ne' quale dato mostrare».
 - Domanda: dove va la logica che una vista del tema sembra richiedere (una query, un form, un calcolo)?
 
+## Driver della decisione
+
+- Riuso tra installazioni: lo stesso tema serve tenant diversi (`pub_theme`) e un altro tema ne riusa la build; ciò che porta con sé
+  una logica di dominio non si trasferisce.
+- Principio dichiarato: «Themes Don't Own Models», il tema non decide cosa è una pagina né quale dato mostrare
+  (`../model-usage-in-themes.md`, `../bmad/scopo.md`).
+- Stato di partenza: `Themes/Zero/app/` contiene già solo `.gitkeep`, e le viste si registrano sotto `pub_theme` da Xot/Cms.
+- Verificabilità: la logica nelle Blade non si prova con un test e resta invisibile a PHPStan.
+
 ## Decisione
 
 - Il tema contiene solo Blade (`resources/views/`), token di stile e asset (`resources/css`, `resources/js`, build in
@@ -41,6 +50,11 @@ related:
 - Pro: il tema si sostituisce senza perdere comportamento; niente PHPStan/test PHP da mantenere nel tema.
 - Contro: anche un piccolo helper di presentazione richiede un modulo (tipicamente `UI` o `Cms`).
 - Debito: `docs/` contiene ancora guide su JpGraph, Chart.js e Filament che descrivono codice dei moduli, non del tema.
+
+## Conferma
+
+La decisione è rispettata finché il test `the theme ships no PHP classes` di `ThemeBoundariesTest` resta verde: nessun file `.php` in
+`app/` o `src/` del tema. A mano resta la parte che nessun test copre, cioè che le Blade non contengano query o modelli.
 
 ## Verifica
 
