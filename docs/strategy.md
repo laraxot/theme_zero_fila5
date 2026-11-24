@@ -1,3 +1,8 @@
+---
+title: "Product Strategy: Zero Theme"
+type: note
+qmd: "strategy product zero theme"
+---
 # Product Strategy: Zero Theme
 
 ## 🌍 Market Context

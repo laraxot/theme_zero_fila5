@@ -2,6 +2,7 @@
 title: docs archive policy — puntatore
 type: reference
 updated: 2026-05-21
+qmd: "archive policy puntatore"
 ---
 
 # Docs archive policy (puntatore)

@@ -1,3 +1,8 @@
+---
+title: "Zero - Product Launch Plan"
+type: note
+qmd: "product launch plan zero"
+---
 # Zero - Product Launch Plan
 
 > Piano di lancio. Tema.

@@ -1,3 +1,8 @@
+---
+title: "Zero Theme - commands Index"
+type: note
+qmd: "zero theme commands"
+---
 # Zero Theme - commands Index
 
 ## Purpose

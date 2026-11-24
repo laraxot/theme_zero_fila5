@@ -1,3 +1,8 @@
+---
+title: "Configurazione .env.development - Ambiente di Sviluppo"
+type: note
+qmd: "env development configuration configurazione envdevelopment ambiente"
+---
 # Configurazione .env.development - Ambiente di Sviluppo
 
 ## Panoramica

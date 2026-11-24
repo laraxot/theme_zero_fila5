@@ -1,3 +1,8 @@
+---
+title: "Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Tema Zero)"
+type: guide
+qmd: "chartjs datalabels multiple labels complete guide"
+---
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Tema Zero)
 
 **Versione:** 1.0  

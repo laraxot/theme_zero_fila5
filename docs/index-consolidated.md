@@ -1,3 +1,8 @@
+---
+title: "Theme Zero Documentation Index"
+type: note
+qmd: "consolidated theme zero"
+---
 # Theme Zero Documentation Index
 
 **Status**: Theme implementation for Laraxot monolith  

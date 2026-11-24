@@ -2,6 +2,7 @@
 title: agent edit discipline — puntatore
 type: reference
 updated: 2026-05-21
+qmd: "agent edit discipline puntatore"
 ---
 
 # Disciplina edit e qualità (puntatore)

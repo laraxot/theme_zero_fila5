@@ -1,3 +1,8 @@
+---
+title: "chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)"
+type: note
+qmd: "chartjs plugin datalabels filament5 chartjsplugindatalabels with"
+---
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)
 
 ## Scope

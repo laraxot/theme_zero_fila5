@@ -1,3 +1,8 @@
+---
+title: "Riepilogo Risoluzione Conflitti Git - Filament 4"
+type: note
+qmd: "conflict resolution summary riepilogo risoluzione conflitti"
+---
 # Riepilogo Risoluzione Conflitti Git - Filament 4
 
 ## Obiettivo Completato ✅

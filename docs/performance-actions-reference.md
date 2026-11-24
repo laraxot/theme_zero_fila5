@@ -1,3 +1,8 @@
+---
+title: "Performance actions reference"
+type: note
+qmd: "performance actions reference"
+---
 # Performance actions reference
 
 ## UpdateGgPresenzaDalalAction

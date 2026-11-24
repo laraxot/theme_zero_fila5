@@ -1,3 +1,8 @@
+---
+title: "Theme Zero - PHP Quality Gates Rule"
+type: rule
+qmd: "php quality gates rule theme zero"
+---
 # Theme Zero - PHP Quality Gates Rule
 
 ## Regola tema

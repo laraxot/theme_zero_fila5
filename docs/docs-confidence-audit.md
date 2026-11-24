@@ -1,3 +1,8 @@
+---
+title: "Zero Theme Docs Confidence Audit - 2026-03-07"
+type: audit
+qmd: "confidence audit zero theme 20260307"
+---
 # Zero Theme Docs Confidence Audit - 2026-03-07
 
 ## Sintesi

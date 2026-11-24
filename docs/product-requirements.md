@@ -1,3 +1,8 @@
+---
+title: "Product Requirements Document (PRD)"
+type: note
+qmd: "product requirements document prd"
+---
 # Product Requirements Document (PRD)
 
 ## Metadata

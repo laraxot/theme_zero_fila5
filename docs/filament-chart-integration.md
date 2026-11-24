@@ -1,3 +1,8 @@
+---
+title: "Filament Installation and Chart Widget Integration Guide for Zero Theme"
+type: note
+qmd: "filament chart integration installation widget guide"
+---
 # Filament Installation and Chart Widget Integration Guide for Zero Theme
 
 ## Overview

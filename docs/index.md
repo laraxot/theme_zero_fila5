@@ -73,10 +73,19 @@ storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 
 ## Debito naming (flag)
 
+<!-- GateGuard: edit existing index.md (not create). Does not supersede another Zero index — append only to Debito naming. Linked from: Xot docs-md-filename-date-debt story + sprint-status Xot/docs-md-filename-date-debt. User: "Organizza meglio indici (00-index / README) dove mancano backlink" + wave rename Themes Zero. -->
+
 - F1 analysis unificata (2026-11-17): canonico
   [f1-world-champion-theme-analysis.md](./wiki/comparisons/f1-world-champion-theme-analysis.md);
-  il datato `wiki/comparisons/f1-world-champion-2026-theme-analysis.md` e le copie
-  in `screenshots/` sono stub `status: superseded` (nessuna delete).
+  il datato `wiki/comparisons/f1-world-champion-2026-theme-analysis.md` resta stub
+  `status: superseded` (nessuna delete).
+- Wave 2026-11-24: `dry-kiss-best-practices-2025-10-15` /
+  `phpstan-dry-kiss-theme-guidelines-2025-10-17` → `*-historical` + stub verso
+  canonici senza data; `METODI_DUPLICATI_ANALISI` →
+  [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md);
+  `CONFLICT_RESOLUTION_SUMMARY` → stub verso
+  [conflict-resolution-summary.md](./conflict-resolution-summary.md).
+  Residuo date ISO/year attive in Zero docs: **0**.
 
 ```bash
 python3 -I bashscripts/tools/docs/md-filenames.py check --paths laravel/Themes/Zero/docs

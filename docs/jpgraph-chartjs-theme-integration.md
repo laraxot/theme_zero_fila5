@@ -1,3 +1,8 @@
+---
+title: "Integrazione JpGraph e Chart.js nel Tema Zero"
+type: note
+qmd: "jpgraph chartjs theme integration integrazione tema"
+---
 # Integrazione JpGraph e Chart.js nel Tema Zero
 
 ## Panoramica

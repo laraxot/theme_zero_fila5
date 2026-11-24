@@ -1,3 +1,8 @@
+---
+title: "Personalizzazione del Tema Zero"
+type: note
+qmd: "customization personalizzazione tema zero"
+---
 # Personalizzazione del Tema Zero
 
 ## Panoramica

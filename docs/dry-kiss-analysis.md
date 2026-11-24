@@ -1,3 +1,8 @@
+---
+title: "🎨 DRY & KISS Analysis - Theme Zero"
+type: analysis
+qmd: "dry kiss analysis theme zero"
+---
 # 🎨 DRY & KISS Analysis - Theme Zero
 
 **Data Analisi:** 2025-12-02

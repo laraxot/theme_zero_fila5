@@ -1,3 +1,8 @@
+---
+title: "Product Launch Plan: Zero Theme"
+type: note
+qmd: "launch plan product zero theme"
+---
 # Product Launch Plan: Zero Theme
 
 ## 🚀 Launch Overview

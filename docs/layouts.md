@@ -1,3 +1,8 @@
+---
+title: "Layout del Tema Zero"
+type: note
+qmd: "layouts layout tema zero"
+---
 # Layout del Tema Zero
 
 ## Panoramica

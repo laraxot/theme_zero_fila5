@@ -8,6 +8,7 @@ updated: 2026-11-24
 related:
   - theme-as-dress-no-php.md
   - ../concepts/xotbase-never-extend-filament.md
+qmd: "auth pages render widgets with panel"
 ---
 
 # ADR: login nel front office = widget del modulo User + CSS compilato del pannello

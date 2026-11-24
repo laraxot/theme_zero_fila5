@@ -1,3 +1,8 @@
+---
+title: Zero Theme Development
+globs: ["Themes/Zero/**"]
+qmd: "ai development guide zero theme"
+---
 # AI-Assisted Development Guide - Zero Theme
 
 ## Overview
@@ -85,10 +90,6 @@ Theme assets in `Resources/`:
 **Location**: `.windsurf/rules/theme-zero.mdc` (to be created)
 
 ```markdown
----
-title: Zero Theme Development
-globs: ["Themes/Zero/**"]
----
 
 # Zero Theme Development
 

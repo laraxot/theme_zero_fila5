@@ -1,3 +1,8 @@
+---
+title: "Database Governance"
+type: note
+qmd: "database governance"
+---
 ## migrazioni allineate con laraxot
 
 - ogni tabella del dominio utente deve essere creata/manutenuta da **una sola** migration per modulo  

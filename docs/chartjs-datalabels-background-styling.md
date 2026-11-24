@@ -1,3 +1,8 @@
+---
+title: "Chart UI/UX Enhancements with Background Styling and Positioning"
+type: note
+qmd: "chartjs datalabels background styling chart uiux"
+---
 # Chart UI/UX Enhancements with Background Styling and Positioning
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+title: "Zero Theme Troubleshooting Guide"
+type: guide
+qmd: "troubleshooting zero theme guide"
+---
 # Zero Theme Troubleshooting Guide
 
 ## Advanced Charting Libraries

@@ -1,3 +1,8 @@
+---
+title: "Code Quality Improvements - Zero Theme"
+type: note
+qmd: "code quality improvements zero theme"
+---
 # Code Quality Improvements - Zero Theme
 
 ## Overview

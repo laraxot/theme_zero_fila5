@@ -1,3 +1,8 @@
+---
+title: "DRY & KISS Best Practices - Tema Zero"
+type: note
+qmd: "dry kiss best practices tema zero"
+---
 # DRY & KISS Best Practices - Tema Zero
 
 **Data:** 15 Ottobre 2025  

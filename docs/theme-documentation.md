@@ -1,3 +1,8 @@
+---
+title: "Zero Theme Documentation"
+type: note
+qmd: "theme zero"
+---
 # Zero Theme Documentation
 
 ## Overview

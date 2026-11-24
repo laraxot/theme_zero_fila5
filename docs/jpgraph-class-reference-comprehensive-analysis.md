@@ -1,3 +1,8 @@
+---
+title: "📚 JpGraph Class Reference - Analisi Completta 2024"
+type: analysis
+qmd: "jpgraph class reference comprehensive analysis analisi"
+---
 # 📚 JpGraph Class Reference - Analisi Completta 2024
 
 ## 🎯 **Introduzione alla Documentazione JpGraph**

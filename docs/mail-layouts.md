@@ -1,3 +1,8 @@
+---
+title: "Tema Zero - Mail Layouts"
+type: note
+qmd: "mail layouts tema zero"
+---
 # Tema Zero - Mail Layouts
 
 ## Panoramica

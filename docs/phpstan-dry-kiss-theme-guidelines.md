@@ -1,3 +1,8 @@
+---
+title: "PHPStan Level 10 + DRY/KISS Guidelines for Themes"
+type: guide
+qmd: "phpstan dry kiss theme guidelines level"
+---
 # PHPStan Level 10 + DRY/KISS Guidelines for Themes
 
 > **Stato aggiornato al 18 novembre 2025**  

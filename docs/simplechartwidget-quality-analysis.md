@@ -1,3 +1,8 @@
+---
+title: "SimpleChartWidget - Analisi Qualità del Codice e Best Practices"
+type: analysis
+qmd: "simplechartwidget quality analysis analisi qualità codice"
+---
 # SimpleChartWidget - Analisi Qualità del Codice e Best Practices
 
 ## Panoramica

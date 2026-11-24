@@ -1,3 +1,8 @@
+---
+title: "Integrazione Pacchetti nel Tema Zero"
+type: note
+qmd: "packages integration integrazione pacchetti tema zero"
+---
 # Integrazione Pacchetti nel Tema Zero
 
 Il tema Zero utilizza le ultime tecnologie dell'ecosistema Laravel per offrire un'esperienza utente moderna e accessibile.

@@ -1,3 +1,8 @@
+---
+title: "Spatie Permission Team Context"
+type: note
+qmd: "spatie permission team context"
+---
 # Spatie Permission Team Context
 
 ## Theme Boundary

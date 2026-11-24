@@ -1,3 +1,8 @@
+---
+title: "Theme Architecture and Best Practices"
+type: architecture
+qmd: "theme architecture best practices"
+---
 # Theme Architecture and Best Practices
 
 ## Overview

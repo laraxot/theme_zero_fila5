@@ -8,6 +8,7 @@ updated: 2026-11-24
 related:
   - ../bmad/scopo.md
   - ../model-usage-in-themes.md
+qmd: "theme as dress no php zero"
 ---
 
 # ADR: il tema e' il "vestito", non decide cosa mostrare
