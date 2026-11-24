@@ -70,7 +70,7 @@ Il tema non contiene logica di dominio. Survey, autorizzazione e dati Pulse appa
 | [`skills/`](skills/) | note sulle skill del tema | [`README.md`](skills/README.md) |
 | [`_archive/`](_archive/) | copie storiche, non canoniche; ogni file ha `canonical:` verso il documento vivo | [`README.md`](_archive/README.md) (tabella copia e canonico) |
 
-File nella radice: [`CHANGELOG.md`](CHANGELOG.md) (cronologia), [`inventory.md`](inventory.md) (conteggi verificati), [`index.md`](index.md) (indice canonico) e [`index-pointer.md`](index-pointer.md) (alias storico).
+File nella radice: [`CHANGELOG.md`](CHANGELOG.md) (cronologia), [`inventory.md`](inventory.md) (conteggi verificati), [`index.md`](index.md) (indice canonico) e `index-pointer.md` (alias storico, non più presente).
 
 ## Documenti chiave
 
@@ -98,4 +98,4 @@ File nella radice: [`CHANGELOG.md`](CHANGELOG.md) (cronologia), [`inventory.md`]
 - Link relativi che non risolvono: conteggio e cause in [`inventory.md`](inventory.md). La maggior parte punta a moduli o pagine di altri progetti della famiglia Laraxot (Performance, Sigma, Ptv, Rating, docs di root) e non sono correggibili senza riscrivere il contenuto.
 - Dieci pagine di `bmad/` e `wiki/concepts/` citano moduli che non esistono in questo repository: ognuna ha in testa una "Nota di verifica 2026-10-20" e il contenuto non e' stato riscritto.
 - Le guide in `bmad/` citano Tailwind v4, Livewire 4 e Flux UI; il tema reale usa Tailwind 3.4, Alpine e Flowbite. Allineare quando si tocca la guida.
-- Nomi che differivano solo per la maiuscola (collidono su filesystem case-insensitive): `bmad/README.md` e' stato assorbito in [`bmad/theme-overview.md`](bmad/theme-overview.md); `index.md` e' stato assorbito in [`index.md`](index.md) e [`index-pointer.md`](index-pointer.md) resta un alias. Il controllo `find docs -type f | tr A-Z a-z | sort | uniq -d` non stampa nulla.
+- Nomi che differiscono solo per la maiuscola (collidono su filesystem case-insensitive): **13 coppie** il 2026-11-24, tra cui `readme.md`/`README.md` nella radice, in `bmad/`, `skills/`, `wiki/`, `changelog.md`/`CHANGELOG.md`, `00-index.md`/`00-INDEX.md` e gli `index.md`/`INDEX.md` delle sottocartelle di `wiki/`. Vanno unificati (uno canonico, l'altro assorbito). Elenco: `find docs -type f | tr A-Z a-z | sort | uniq -d`.
