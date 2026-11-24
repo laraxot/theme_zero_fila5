@@ -2,7 +2,7 @@
 id: zero-docs-index
 slug: index
 title: "Indice della documentazione — Tema Zero"
-description: "Indice navigabile del tema Zero. Ingresso: README.md. Il vecchio INDEX.md e' stato assorbito qui per evitare la collisione di sola maiuscola."
+description: "Indice navigabile del tema Zero. Ingresso: README.md. Il vecchio index.md e' stato assorbito qui per evitare la collisione di sola maiuscola."
 document_type: index
 type: index
 category: documentation
@@ -23,7 +23,7 @@ related:
 # Indice della documentazione — Tema Zero
 
 Ingresso attivo: [README.md](./README.md). Questo `index.md` e' l'unico indice
-della radice: `INDEX.md` e' stato assorbito qui il 2026-10-21 per evitare la
+della radice: `index.md` e' stato assorbito qui il 2026-10-21 per evitare la
 collisione di sola maiuscola su filesystem case-insensitive. Il contenuto
 storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 
@@ -31,7 +31,7 @@ storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 
 - [README](./README.md) — scopo, mappa e regole
 - [Inventory](./inventory.md) — conteggi verificati
-- [Changelog](./changelog.md) — cronologia modifiche
+- [Changelog](./CHANGELOG.md) — cronologia modifiche
 - [Architettura](./architecture/README.md)
 - [Scopo](./bmad/scopo.md) / [purpose](./bmad/purpose.md)
 
@@ -49,7 +49,7 @@ storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 ## Wiki
 
 - [Indice wiki](./wiki/index.md)
-- [README wiki](./wiki/README.md)
+- [README wiki](./wiki/readme.md)
 - [Log wiki](./wiki/log.md)
 - [Concetti](./wiki/concepts/)
 - [Regole](./wiki/rules/)
@@ -60,7 +60,7 @@ storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 
 - [Stories](./stories/README.md)
 - [Concepts](./concepts/README.md)
-- [Skills](./skills/readme.md)
+- [Skills](./skills/README.md)
 - [Archivio](./_archive/README.md)
 - [Epics](./bmad/epics/)
 

@@ -1,3 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+use function Laravel\Folio\middleware;
+use function Laravel\Folio\name;
+
+// Come la pagina gemella della registrazione: questa vista sostituisce
+// `Modules/User/resources/views/pages/auth/login.blade.php`, perche' Folio
+// preferisce il tema — e senza ripetere qui le due dichiarazioni le perdeva
+// entrambe. Misurato prima di aggiungerle: un utente **gia' autenticato** che
+// apriva /auth/login riceveva 200, cioe' il modulo di accesso, invece del
+// reindirizzamento; e `Route::has('login')` era **falso** in tutta
+// l'applicazione, mentre la pagina del modulo dichiarava `name('login')`
+// (base_quaeris_fila5#237).
+middleware(['guest']);
+name('login');
+
+?>
+
 <x-layouts.main>
     <x-slot name="title">
         {{ __('pub_theme::auth.actions.login.label') }} - {{ config('app.name', 'Laravel') }}
