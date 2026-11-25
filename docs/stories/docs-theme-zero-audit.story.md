@@ -47,8 +47,30 @@ qmd: "audit e correzione docs/ - theme zero (2026-09-11)"
 issues: []
 discussions: []
 ---
-
 # Audit e correzione docs/ — Theme Zero (2026-09-11)
+
+## Context and Problem Statement
+
+Nessun epic tecnico reale esiste per `Themes/Zero` (stesso ragionamento gia'
+verificato per i moduli in `Modules/Xot/docs/stories/_TEMPLATE.story.md`), e
+non e' stata aperta una issue/discussion GitHub per questo lavoro specifico:
+inventarne una violerebbe la regola "mai fabbricare precedenti/riferimenti non
+verificati". La story resta identificata da `slug` (univoco per costruzione)
+finche' non viene aperta una issue reale.
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Story
 
@@ -284,3 +306,13 @@ non e' stata aperta una issue/discussion GitHub per questo lavoro specifico:
 inventarne una violerebbe la regola "mai fabbricare precedenti/riferimenti non
 verificati". La story resta identificata da `slug` (univoco per costruzione)
 finche' non viene aperta una issue reale.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

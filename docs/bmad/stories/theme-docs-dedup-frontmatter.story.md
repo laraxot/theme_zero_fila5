@@ -20,8 +20,27 @@ updated: "2026-10-08"
 issues: []
 discussions: []
 ---
-
 # zero-docs-dedup-frontmatter
+
+## Context and Problem Statement
+
+Peer `zero-theme-rebase-fix` ha deduplicato docs (2026-09-22). Da verificare:
+esito completo? E audit frontmatter YAML su tutti i `.md` del tema
+(convenzione repo: ogni md ha frontmatter, nomi senza date).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Perche'
 
@@ -45,3 +64,13 @@ esito completo? E audit frontmatter YAML su tutti i `.md` del tema
 ## Nota di verifica 2026-10-08
 
 Eseguito in [2026-10-08-zero-docs-health](../../stories/zero-docs-health.story.md). Esito misurato: 0 `.md` senza front matter e 0 incompleti su 210; l'unico nome con data fuori dalle story (`git-conflict-resolution-2026-07-31.md`) e' stato rinominato in `git-conflict-resolution-audit.md`. Non esiste piu' una coppia `00-index`/`00-INDEX` nella stessa cartella; il gemello per maiuscola rimasto e' `bmad/README.md` e `bmad/readme.md`, da decidere. Le caselle sopra non sono state spuntate: la prova e' nella story collegata. `qmd update` resta al coordinatore.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

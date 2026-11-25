@@ -38,7 +38,7 @@ merged_from:
 
 Lo stesso tema serve installazioni diverse (One ne riusa la build): cio' che porta logica di
 dominio non si trasferisce e non si testa nelle Blade. Decisione:
-[ADR theme-as-dress-no-php](./adr/theme-as-dress-no-php.md).
+[ADR theme-as-dress-no-php](./adr/0002-theme-as-dress-no-php.md).
 
 ## Regole
 

@@ -19,8 +19,25 @@ related:
   - ./zero-conflict-markers-cleanup.story.md
   - ./docs-theme-zero-audit.story.md
 ---
-
 # Salute della docs del tema Zero
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 Fase BMAD: Build, solo documentazione in `laravel/Themes/Zero/docs/`. Nessun codice toccato. Chiude i punti aperti di [theme-docs-dedup-frontmatter](../bmad/stories/theme-docs-dedup-frontmatter.story.md).
 
@@ -77,3 +94,16 @@ Nota sullo stub: il gate conta le righe del front matter, quindi aggiungerlo por
 - Circa 510 link relativi non risolvono ancora (percorsi di altri moduli, nomi ambigui, file mai esistiti). Vanno corretti per documento.
 - Durante la sessione i 30 file rimasti con conflitti divergenti o annidati risultano risolti da un altro attore, non da questa story, scegliendo un lato (per esempio `index.md` da 669 a 397 righe). Il contenuto scartato resta in `git log` e va rivisto con `git diff ab378b9 -- docs`.
 - Reindicizzazione QMD (`bash bashscripts/docs/llm-wiki-qmd.sh update`): la fa il coordinatore dello swarm.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+- Script di audit con le classi del gate: vedi tabella sopra, eseguito a fine lavoro.
+- Front matter YAML: PyYAML legge tutti i 209 file. A meta lavoro 14 non erano leggibili, tutti per cause preesistenti (13 con marker nel front matter, 1 con escape invalido) e poi sistemati.
+- Id univoci: nessun duplicato tra i 209 `id`.
+- `README.md`, `bmad/README.md` e `wiki/index.md`: 0 link relativi non risolti.

@@ -41,8 +41,25 @@ qmd: "cleanup marker di conflitto committati - theme zero (2026-09-22)"
 issues: []
 discussions: []
 ---
-
 # Cleanup marker di conflitto committati in HEAD — Theme Zero
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Claim
 
@@ -178,3 +195,14 @@ I tre frontmatter sono YAML valido (Symfony Yaml).
 - Link interni rotti in `docs/wiki/index.md`: `concepts/duplicate-method-bodies.md`, `concepts/filament-nested-resources.md`, `concepts/jpgraph-guide.md`, `schema.md`, `memories/index.md`, `commands/index.md`. Non toccati.
 - In `ponytail-audit.md` i link "Remediation" e "Delta temi" puntano a `docs/project/ponytail-audit-remediation.md` e `docs/project/ponytail-audit-themes.md`, che non esistono nel repo.
 - Lock presi con `bashscripts/lock/lock.sh` (task `zero-rebase-conflicts-20261103`) e rilasciati a fine lavoro.
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+- Marker in `laravel/Themes/Zero`: 0.
+- Le tre viste compilano con `Blade::compileString` dentro l'app avviata, e l'output passa `php -l`.
+- `Modules/User/tests/Feature/AuthComponentsTest.php` (con `--test-directory=Modules/User/tests` e le cache di bootstrap bypassate): "auth layout components exist" passa. Gli altri casi falliscono per cause fuori da Zero: `components.auth-session-status` non esiste, e la pagina di login risponde 500 perche' `Modules/Gdpr/resources/views/cookie-consent/index.blade.php` (HEAD Gdpr `2fe83a92`, 2026-11-01) usa `Themes\Sixteen\Infrastructure\Url\FrontofficeUrl`, una classe di un tema che qui non esiste.

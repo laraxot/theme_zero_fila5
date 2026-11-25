@@ -42,8 +42,25 @@ issues: []
 discussions: []
 date_originale_nome_file: 2026-09-22
 ---
-
 # Cleanup marker di conflitto committati in HEAD — Theme Zero
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Claim
 
@@ -138,3 +155,13 @@ minore identificato ma non corretto (link morti in `README.md`, sezione
 "Release automation" — reintrodotti da un rewrite concorrente successivo al
 mio). 1 blocco di sync non risolvibile da questo fork (oggetto mancante verso
 `provtv`). Lock dei 12 file rilasciati a fine story.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

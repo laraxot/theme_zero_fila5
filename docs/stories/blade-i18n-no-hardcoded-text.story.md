@@ -7,8 +7,25 @@ theme: Zero
 updated: 2026-10-30
 tags: [i18n, blade, multilingua, bmad]
 ---
-
 # Niente testi fissi nelle Blade del tema Zero
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## GitHub (tracciamento)
 
@@ -67,3 +84,13 @@ Scanner `Themes/Zero`: prima 79 occorrenze in 13 file (37 text, 1 attr, 41 phras
 - Residui (4): `@filamentScripts(withCore: true)` (3, direttiva) e `logo zero` in `components/ui/logo` (segnaposto del logo, non e' testo da tradurre).
 - Controlli: `check-blade-keys` Zero: 23 Blade, 77 usi, 0 mancanti (it/en/de/es); `check-key-shape`: 77 chiavi, 0 storte; compilazione: 23 file, 0 non compilano (avviso preesistente: componente `navigation` non risolto in `layouts/guest` e `layouts/main`); `php -l` pulito sui 20 file lingua.
 - Non verificato: nessun rendering (tema non servito); traduzioni `de`/`es` non riviste da un madrelingua; `Sistema Operativo` in `system-info` e' letto come «sistema operativo = in funzione» (indicatore verde), tradotto «System operational».
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

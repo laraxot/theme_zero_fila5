@@ -17,8 +17,25 @@ related:
   - ../../../../Three/docs/bmad/stories/docs-organization.story.md
   - ../../../../../Modules/Xot/docs/bmad/stories/phpstan-modules-swarm-20261021.story.md
 ---
-
 # Organizzazione docs — Theme Zero
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Obiettivo
 
@@ -104,3 +121,22 @@ Follow-up explore `f976bdcb` / docs-guardian swarm Zero only.
 | `wiki/index.md`, `index.md`, `_archive/index-legacy.md` | Link datati ripuntati / etichettati stub |
 
 Vietato rispettato: no delete, no phpstan, no commit, altri temi non toccati.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+```bash
+rg -n '^(<<<<<<<|=======$|>>>>>>>)' laravel/Themes/Zero/docs --glob '*.md'  # vuoto
+find laravel/Themes/Zero/docs -type f | tr 'A-Z' 'a-z' | sort | uniq -d     # vuoto
+# frontmatter/qmd: 204 file attivi, 0 senza frontmatter, 0 senza qmd
+# link relativi: 0 rotti in indici/README; debito residuo nei documenti storici
+git diff --check -- laravel/Themes/Zero/docs                  # solo whitespace storico
+```
+
+Nessun codice applicativo toccato: Pest e PHPStan non applicabili a un diff
+docs-only. Nessun commit/push.

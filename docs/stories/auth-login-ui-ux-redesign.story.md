@@ -19,8 +19,25 @@ qmd: "zero theme - redesign ui/ux pagina login (/it/auth/login)"
 issues: []
 discussions: []
 ---
-
 # Story — Redesign UI/UX pagina login
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Contesto e motivazione
 
@@ -150,3 +167,21 @@ screenshot dopo rebuild.
 - [x] Bug Alpine doppio-istanza risolto (impatto sitewide, non solo login)
 - [ ] Contrasto AA e viewport reali — handoff, non verificato in questa sessione
 - [ ] `role="alert"` sull'errore di validazione — handoff, richiede modifica Modules/User
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+- Screenshot desktop pre/post via Chrome tool: icona correggeva da ~124px a
+  dimensione corretta, heading duplicato sparito, sfondo ambientale visibile.
+- Console browser: 0 errori dopo i fix (prima: 8 eccezioni per page load).
+- Flusso errore reale testato (email/password errate): messaggio
+  "Le credenziali inserite non sono corrette." mostrato correttamente, form conserva
+  lo stato.
+- `php -l` su tutti i file Blade toccati: nessun errore di sintassi.
+- Build Vite: 0 errori, bundle passa da contenere `require("axios")`/`require("lodash")`
+  a 0 occorrenze di `require(`.

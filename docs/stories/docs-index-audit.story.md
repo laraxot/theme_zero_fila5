@@ -14,8 +14,25 @@ qmd: "docs index audit - theme zero"
 issues: []
 discussions: []
 ---
-
 # Docs index audit — Theme Zero
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 **BMAD phase:** Build (docs-only maintenance, no application code).
 
@@ -48,3 +65,13 @@ brain del monorepo diffida di fidarsi ciecamente della documentazione esistente
 come inventario completo verificato (235 file, tutti i link controllati contro
 il filesystem), stavolta con provenienza scriptata (non a mano) cosi' e'
 riproducibile: vedere quella story per il comando esatto.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

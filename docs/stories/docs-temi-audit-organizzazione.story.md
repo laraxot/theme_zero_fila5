@@ -20,8 +20,25 @@ related:
   - ../README.md
   - ../inventory.md
 ---
-
 # Audit e organizzazione delle docs dei temi
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 > **Aggiornamento 2026-10-21 (docs-temi).** Questa story resta valida per audit,
 > segreti e moduli assenti. La scelta dell'indice è superata: `docs/index.md` è
@@ -130,3 +147,20 @@ Nessun commit. Nessuna cartella `docs/` nuova.
 Boy scout **continua** dopo `phpstan analyse Modules` a zero: Zero non ha PHP in `app/`; il lavoro e' solo docs/viste/asset. Indice canonico = [README](../README.md). Hub gate: [phpstan-modules-zero-wave3](../../../../Modules/Xot/docs/stories/phpstan-modules-zero-wave3.story.md). Cross-link Cms KEEP FO `Page\Show`: [Xot inventory](../../../../Modules/Xot/docs/bmad/livewire-to-filament-widgets-inventory.md).
 
 <!-- gateguard: supersedes niente (append a story gia' attiva); linked from README.md related + inventory; user: "Study, update, organize docs under laravel/Themes/*/docs/" + "Permanent order: docs continuous without waiting for confirmation" -->
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Prima di credere a ogni "zero", un caso positivo noto.
+
+- Nomi: `find laravel/Themes/Zero/docs -type f -name '*.md' -print0 | xargs -0 python3 -I bashscripts/tools/docs/md-filenames.py check --paths` stampa `0 file .md con nome non conforme` (prima: 5). Attenzione: `check --paths laravel/Themes/Zero/docs` con una **cartella** stampa lo stesso `0` ma non controlla niente, perche' il codice tiene solo gli argomenti che finiscono in `.md`. Controprova: sul file `zero-docs-health.story.md` il comando dava `VIETATO (data)`. Il prompt 55 invita a passare la cartella: va corretto (fuori dal mio perimetro, vedi decisioni).
+- Marker di merge: `rg -nP '^(<{7}|={7}|>{7})( |$)' --glob '*.md' .` non stampa nulla; lo stesso pattern su un file di prova con tre marker restituisce 3.
+- Case: `find . -type f | tr A-Z a-z | sort | uniq -d` non stampa nulla; prima stampava `./bmad/readme.md` e `./index.md`.
+- Front matter: PyYAML legge tutti i file, nessuna chiave duplicata, nessun `id` duplicato.
+- Link nei file nuovi e riscritti: `README.md`, `bmad/README.md`, `wiki/index.md`, `_archive/README.md`, `index-pointer.md`, `inventory.md` e questa story hanno 0 link locali non risolti.
+- Backup della docs prima di iniziare: archivio nello scratchpad della sessione (nessun file cancellato comunque).

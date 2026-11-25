@@ -16,4 +16,4 @@ Frontmatter (`title`, `type: decision`, `status`, `created`, `updated`, `decisio
 
 ## ADR presenti
 
-Elenco con stato: [INDEX.md](INDEX.md). Presente: [theme-assets-are-built-in-theme-and-served-by-symlink](theme-assets-are-built-in-theme-and-served-by-symlink.md).
+Elenco con stato: [INDEX.md](INDEX.md). Presente: [theme-assets-are-built-in-theme-and-served-by-symlink](0003-theme-assets-are-built-in-theme-and-served-by-symlink.md).

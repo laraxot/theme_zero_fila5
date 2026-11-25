@@ -20,7 +20,7 @@ merged_from:
 ## Scopo
 
 Come si compilano CSS/JS del tema e come arrivano al browser. Decisione registrata:
-[ADR theme-assets-are-built-in-theme-and-served-by-symlink](./adr/theme-assets-are-built-in-theme-and-served-by-symlink.md).
+[ADR theme-assets-are-built-in-theme-and-served-by-symlink](./adr/0003-theme-assets-are-built-in-theme-and-served-by-symlink.md).
 
 ## Stack (da `package.json`)
 

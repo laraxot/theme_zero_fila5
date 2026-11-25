@@ -15,8 +15,25 @@ qmd: "phpstan quality gate - themes/zero (swarm run)"
 issues: []
 discussions: []
 ---
-
 # PHPStan quality gate — Themes/Zero (swarm run)
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Contesto
 
@@ -101,3 +118,16 @@ sullo scope PHPStan; la fonte di verità è l'esecuzione reale di
 ## Nota post-zero (2026-10-20)
 
 Il comando storico `analyse Themes/Zero` in questa story e' **evidenza del 2026-09-23**, non il gate corrente. Religione attuale: gate = `phpstan analyse Modules` con un solo [phpstan-single-neon-config](../../../../Modules/Xot/docs/wiki/memories/phpstan-single-neon-config.md); **vietato** PHPStan theme-only. Hub: [phpstan-modules-zero-wave3](../../../../Modules/Xot/docs/stories/phpstan-modules-zero-wave3.story.md). Boy scout tema: [docs-temi-audit-organizzazione](../../stories/docs-temi-audit-organizzazione.story.md), [README](../../README.md), [bmad/00-index](../00-index.md).
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+```bash
+cd /var/www/_bases/base_ptvx_fila5/laravel
+./vendor/bin/phpstan analyse Themes/Zero --no-progress --memory-limit=-1
+# → [OK] No errors
+```

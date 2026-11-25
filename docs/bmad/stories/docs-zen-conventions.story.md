@@ -10,8 +10,26 @@ qmd: "zero docs zen convenzioni md kebab frontmatter qmd duplicati alias templat
 related:
   - ../../../../../Modules/Xot/docs/bmad/stories/docs-zen-conventions-swarm.story.md
 ---
-
 # Docs zen: Zero
+
+## Context and Problem Statement
+
+Story ombrello `laravel/Modules/Xot/docs/bmad/stories/docs-zen-conventions-swarm.story.md` (lane D).
+Rumore nei docs (alias, copie, template inventati, nomi non conformi) degrada QMD e confonde gli agenti.
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Perche'
 
@@ -52,3 +70,13 @@ Link aggiornati con mappa vecchio→nuovo su `laravel/Modules/*/docs`, `laravel/
 ## Gate
 
 Solo file `.md` sotto `docs/`: PHPStan/Pint/Pest non applicabili (skip documentato; PHPStan gia' 0 da story ombrello). Nessun commit eseguito dall'agente.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

@@ -6,7 +6,7 @@ theme: Zero
 created: 2026-11-24
 updated: 2026-11-24
 related:
-  - theme-as-dress-no-php.md
+  - 0002-theme-as-dress-no-php.md
   - ../concepts/xotbase-never-extend-filament.md
 qmd: "auth pages render widgets with panel"
 ---

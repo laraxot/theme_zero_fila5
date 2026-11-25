@@ -17,7 +17,7 @@ merged_from:
 
 Il login del front office ha la grafica del tema ma la logica (validazione, rate limit,
 autenticazione) del modulo User. Decisione:
-[ADR auth-pages-render-module-widgets-with-panel-css](./adr/auth-pages-render-module-widgets-with-panel-css.md).
+[ADR auth-pages-render-module-widgets-with-panel-css](./adr/0001-auth-pages-render-module-widgets-with-panel-css.md).
 
 ## Come funziona
 
