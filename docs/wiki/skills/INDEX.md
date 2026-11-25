@@ -4,6 +4,7 @@ type: "index"
 tags: [skills, theme, on-demand]
 module: "Zero"
 updated: 2026-05-12
+qmd: "skills"
 ---
 
 # Skills — Zero Theme Wiki
