@@ -31,7 +31,7 @@ Questa cartella contiene le story BMAD proprie del tema. Le story storiche in
 `bmad/stories/` restano nel loro percorso originale e sono collegate dal
 [README del tema](../README.md); non creare duplicati.
 
-Indice operativo: [docs-temi-audit-organizzazione](docs-temi-audit-organizzazione.story.md).
+Indice operativo: [docs-temi-audit-organizzazione](0005-docs-temi-audit-organizzazione.story.md).
 
 
 ### Consequences
