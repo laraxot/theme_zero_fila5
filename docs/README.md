@@ -62,7 +62,7 @@ Il tema non contiene logica di dominio. Survey, autorizzazione e dati Pulse appa
 | Percorso | Ruolo | Ingresso |
 |---|---|---|
 | [`bmad/`](bmad/) | guide, architettura, report e pianificazione del tema (la parte piu' grande) | [`bmad/00-index.md`](bmad/00-index.md), [`bmad/README.md`](bmad/README.md), panoramica lunga [`bmad/theme-overview.md`](bmad/theme-overview.md) |
-| [`wiki/`](wiki/) | conoscenza curata per gli agenti: concetti, regole, how-to, memorie, fonti | [`wiki/index.md`](wiki/index.md), [`wiki/README.md`](wiki/readme.md) |
+| [`wiki/`](wiki/) | conoscenza curata per gli agenti: concetti, regole, how-to, memorie, fonti | [`wiki/index.md`](wiki/index.md), [`wiki/README.md`](wiki/README.md) |
 | [`stories/`](stories/) | story BMAD del tema | [`stories/README.md`](stories/README.md) |
 | [`bmad/stories/`](bmad/stories/) | altre story, nate prima della policy | vedi sotto |
 | [`architecture/`](architecture/) | solo ingresso verso l'architettura (il contenuto sta in `bmad/architecture.md` e `wiki/rules/`) | [`architecture/README.md`](architecture/README.md) |
@@ -99,3 +99,24 @@ File nella radice: [`CHANGELOG.md`](CHANGELOG.md) (cronologia), [`inventory.md`]
 - Dieci pagine di `bmad/` e `wiki/concepts/` citano moduli che non esistono in questo repository: ognuna ha in testa una "Nota di verifica 2026-10-20" e il contenuto non e' stato riscritto.
 - Le guide in `bmad/` citano Tailwind v4, Livewire 4 e Flux UI; il tema reale usa Tailwind 3.4, Alpine e Flowbite. Allineare quando si tocca la guida.
 - Nomi che differiscono solo per la maiuscola (collidono su filesystem case-insensitive): **13 coppie** il 2026-11-24, tra cui `readme.md`/`README.md` nella radice, in `bmad/`, `skills/`, `wiki/`, `changelog.md`/`CHANGELOG.md`, `00-index.md`/`00-INDEX.md` e gli `index.md`/`INDEX.md` delle sottocartelle di `wiki/`. Vanno unificati (uno canonico, l'altro assorbito). Elenco: `find docs -type f | tr A-Z a-z | sort | uniq -d`.
+
+## Struttura e personalizzazione (fuso da readme.md)
+
+Questa cartella contiene la documentazione specifica per il tema Zero del progetto.
+
+## Struttura del Tema
+
+- `app/`: Componenti PHP del tema
+- `resources/`: Risorse frontend (views, assets)
+- `public/`: File pubblici compilati
+- `lang/`: File di traduzione specifici del tema
+
+## Personalizzazione
+
+Il tema Zero è basato su TailwindCSS e utilizza Vite per la compilazione degli assets.
+
+Per personalizzare il tema:
+
+1. Modificare i file in `resources/views/`
+2. Aggiornare gli stili in `resources/css/`
+3. Eseguire `npm run build` per compilare gli assets

@@ -31,7 +31,7 @@ storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 
 - [README](./README.md) — scopo, mappa e regole
 - [Inventory](./inventory.md) — conteggi verificati
-- [Changelog](./changelog.md) — cronologia modifiche
+- [Changelog](./CHANGELOG.md) — cronologia modifiche
 - [Architettura](./architecture/README.md)
 - [Scopo](./bmad/scopo.md) / [purpose](./bmad/purpose.md)
 
@@ -60,7 +60,7 @@ storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 
 - [Stories](./stories/README.md)
 - [Concepts](./concepts/README.md)
-- [Skills](./skills/readme.md)
+- [Skills](./skills/README.md)
 - [Archivio](./_archive/README.md)
 - [Epics](./bmad/epics/)
 
@@ -82,9 +82,9 @@ storico e' in [`_archive/index-legacy.md`](./_archive/index-legacy.md).
 - Wave 2026-11-24: `dry-kiss-best-practices-2025-10-15` /
   `phpstan-dry-kiss-theme-guidelines-2025-10-17` → `*-historical` + stub verso
   canonici senza data; `METODI_DUPLICATI_ANALISI` →
-  [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md);
+  [metodi-duplicati-analisi.md](./bmad/duplicate-methods.md);
   `CONFLICT_RESOLUTION_SUMMARY` → stub verso
-  [conflict-resolution-summary.md](./conflict-resolution-summary.md).
+  [conflict-resolution-summary.md](./bmad/conflict-resolution-summary.md).
   Residuo date ISO/year attive in Zero docs: **0**.
 
 ```bash

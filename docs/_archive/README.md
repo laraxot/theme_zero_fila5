@@ -31,14 +31,14 @@ Il file [index.md](./index.md) di questa cartella e' una copia archiviata dell'i
 |---|---|---|
 | [00-index.md](./00-index.md) | [../bmad/00-index.md](../bmad/00-index.md) | indice storico di `bmad/` |
 | [architecture.md](./architecture.md) | [../bmad/architecture.md](../bmad/architecture.md) | copia breve (19 righe) |
-| [changelog.md](./changelog.md) | [../changelog.md](../changelog.md) | cronologia |
+| [changelog.md](./changelog.md) | [../changelog.md](../CHANGELOG.md) | cronologia |
 | [conflict-resolution-summary.md](./conflict-resolution-summary.md) | [../bmad/conflict-resolution-summary.md](../bmad/conflict-resolution-summary.md) | copia con trattino |
-| [conflict_resolution_summary.md](./conflict_resolution_summary.md) | [../bmad/conflict-resolution-summary.md](../bmad/conflict-resolution-summary.md) | stesso argomento, nome con underscore |
-| [duplicate-methods-report.md](./duplicate-methods-report.md) | [../bmad/duplicate-methods-report.md](../bmad/duplicate-methods-report.md) | copia breve (19 righe) |
+| [conflict_resolution_summary.md](../bmad/conflict-resolution-summary.md) | [../bmad/conflict-resolution-summary.md](../bmad/conflict-resolution-summary.md) | stesso argomento, nome con underscore |
+| [duplicate-methods-report.md](../bmad/duplicate-methods.md) | [../bmad/duplicate-methods-report.md](../bmad/duplicate-methods.md) | copia breve (19 righe) |
 | [frameworks.md](./frameworks.md) | [../bmad/frameworks.md](../bmad/frameworks.md) | stesso corpo del canonico |
 | [index.md](./index.md) | [../README.md](../README.md) | indice generale vecchio |
-| [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md) | [../bmad/metodi-duplicati-analisi.md](../bmad/metodi-duplicati-analisi.md) | analisi omonimi |
-| [metodi-duplicati-analisi-name-legacy.md](./metodi-duplicati-analisi-name-legacy.md) | [../bmad/metodi-duplicati-analisi.md](../bmad/metodi-duplicati-analisi.md) | ex `METODI_DUPLICATI_ANALISI.md` (uppercase rimosso 2026-10-20) |
+| [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md) | [../bmad/metodi-duplicati-analisi.md](../bmad/duplicate-methods.md) | analisi omonimi |
+| [metodi-duplicati-analisi-name-legacy.md](./metodi-duplicati-analisi-name-legacy.md) | [../bmad/metodi-duplicati-analisi.md](../bmad/duplicate-methods.md) | ex `METODI_DUPLICATI_ANALISI.md` (uppercase rimosso 2026-10-20) |
 | [prd.md](./prd.md) | [../bmad/prd.md](../bmad/prd.md) | requisiti di prodotto |
 | [readme-en.md](./readme-en.md) | [../bmad/readme-en.md](../bmad/readme-en.md) | versione inglese |
 
@@ -47,7 +47,7 @@ Il file [index.md](./index.md) di questa cartella e' una copia archiviata dell'i
 | Percorso | Canonico vivo |
 |---|---|
 | [root-md-files/conflict-resolution-summary.md](./root-md-files/conflict-resolution-summary.md) | [../bmad/conflict-resolution-summary.md](../bmad/conflict-resolution-summary.md) |
-| [wiki/schema.md](./wiki/schema.md) | [../wiki/schema.md](../wiki/schema.md) |
+| [wiki/schema.md](./wiki/schema.md) | [../wiki/schema.md](../wiki/SCHEMA.md) |
 | [wiki/commands/index.md](./wiki/commands/index.md) | [../wiki/commands/index.md](../wiki/commands/index.md) |
 | [wiki/concepts/index.md](./wiki/concepts/index.md) | [../wiki/concepts/index.md](../wiki/concepts/index.md) |
 | [wiki/memories/00-INDEX.md](./wiki/memories/index.md) | [../wiki/memories/index.md](../wiki/memories/index.md) |

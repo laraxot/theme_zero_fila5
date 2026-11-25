@@ -239,7 +239,7 @@ Il sistema implementa una strategia di fallback a cascata:
 - [Spatie Database Mail Templates](../../../../Modules/Notify/docs/spatie-database-mail-templates-deep-dive.md)
 - [Email Best Practices](../../../../Modules/Notify/docs/email-html-best-practices.md)
 
-- [Email Best Practices](../../../../Modules/Notify/docs/email_html_best_practices.md)
+- [Email Best Practices](../../../../Modules/Notify/docs/email-html-best-practices.md)
 
 ### Repository di Riferimento
 

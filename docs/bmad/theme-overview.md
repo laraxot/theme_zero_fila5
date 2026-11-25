@@ -120,7 +120,7 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 | [root-md-files/](./root-md-files/) | 3 | nessuno | archivio, non aggiungere file |
 | [schema/](./schema/) | 0 | nessuno |  |
 | [screenshots/](./screenshots/) | 2 | nessuno |  |
-| [skills/](./skills/) | 1 | [README.md](../skills/readme.md) |  |
+| [skills/](./skills/) | 1 | [README.md](../skills/README.md) |  |
 | [stories/](./stories/) | 4 | nessuno | legacy: la posizione canonica e' `bmad/stories/` |
 | [wiki/](./wiki/) | 39 | [INDEX.md](./wiki/INDEX.md), [index.md](./wiki/index.md) |  |
 
@@ -147,8 +147,8 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 
 #### PHPStan, qualita e test (31)
 
-- [METODI-DUPLICATI-ANALISI.md](./metodi-duplicati-analisi.md): Metodi Duplicati — Analisi Tema Zero [dup]
-- [METODI_DUPLICATI_ANALISI.md](./metodi-duplicati-analisi.md): METODI-DUPLICATI-ANALISI (deprecated) [dup] [marker di merge]
+- [METODI-DUPLICATI-ANALISI.md](./duplicate-methods.md): Metodi Duplicati — Analisi Tema Zero [dup]
+- [METODI_DUPLICATI_ANALISI.md](./duplicate-methods.md): METODI-DUPLICATI-ANALISI (deprecated) [dup] [marker di merge]
 - [code-quality-improvement-report.md](./code-quality-improvement-report.md): Code Quality Improvement Report — Zero [marker di merge]
 - [code-quality-improvements.md](./code-quality-improvements.md): Code Quality Improvements - Zero Theme [marker di merge]
 - [code-quality-report.md](./code-quality-report.md): Code quality — tema Zero [marker di merge]
@@ -156,14 +156,14 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 - [dry-kiss-analysis.md](./dry-kiss-analysis.md): 🎨 DRY & KISS Analysis - Theme Zero [marker di merge]
 - [dry-kiss-best-practices.md](../dry-kiss-best-practices.md): DRY & KISS Best Practices - Tema Zero [dup] [marker di merge]
 - [dry-kiss-best-practices.md](./dry-kiss-best-practices.md): DRY & KISS Best Practices - Tema Zero [dup] [marker di merge]
-- [duplicate-methods-report.md](./duplicate-methods-report.md): Report: Metodi con nome duplicato nei moduli e nei temi [dup] [marker di merge]
+- [duplicate-methods-report.md](./duplicate-methods.md): Report: Metodi con nome duplicato nei moduli e nei temi [dup] [marker di merge]
 - [duplicate-methods.md](./duplicate-methods.md): Metodi duplicati — Zero [dup] [marker di merge]
 - [duplicate_methods.md](./duplicate-methods.md): duplicate-methods (deprecated) [dup]
-- [duplicate_methods_report.md](./duplicate-methods-report.md): duplicate-methods-report (deprecated) [dup]
+- [duplicate_methods_report.md](./duplicate-methods.md): duplicate-methods-report (deprecated) [dup]
 - [git-collision-audit-bashscripts.md](./git-collision-audit-bashscripts.md): Audit collisioni Git committate in bashscripts [dup]
 - [git-collisions-bashscripts-audit.md](./git-collisions-bashscripts-audit.md): Audit collisioni Git committate in bashscripts [dup]
 - [ide-helper-phpdoc-boundary.md](./ide-helper-phpdoc-boundary.md): ide helper — confine PHPDoc tema Zero [marker di merge]
-- [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md): Metodi Duplicati — Analisi Tema Zero [dup] [marker di merge]
+- [metodi-duplicati-analisi.md](./duplicate-methods.md): Metodi Duplicati — Analisi Tema Zero [dup] [marker di merge]
 - [no-phpstan-probe-policy.md](./no-phpstan-probe-policy.md): No PHPStan probe files in themes
 - [php-quality-gates-rule.md](./php-quality-gates-rule.md): Theme Zero - PHP Quality Gates Rule [marker di merge]
 - [phpstan-compliance-status.md](./phpstan-compliance-status.md): PHPStan Level 10 Compliance Status [marker di merge]
@@ -215,24 +215,12 @@ i file duplicati sono stati rimossi; le segnalazioni `[dup]` e `[deprecated]` so
 - [PRD.md](./prd.md): Product Requirements Document (PRD) - Zero Theme [dup] [marker di merge]
 - [TECH_SPEC.md](./tech-spec.md): Technical Specification - Zero Theme [dup]
 - [cosa-migliorare.md](../wiki/summaries/cosa-migliorare.md): Cosa migliorare: tema Zero [marker di merge]
-- [launch-plan.md](./launch-plan.md): Product Launch Plan: Zero Theme [marker di merge]
 - [prd.md](./prd.md): PRD: Zero Theme [dup] [marker di merge]
-- [product-launch-plan.md](./product-launch-plan.md): Product Launch Plan - Theme Zero [dup] [marker di merge]
 - [product-requirements.md](./product-requirements.md): Product Requirements Document (PRD) [marker di merge]
-- [product-roadmap.md](./product-roadmap.md): Product Roadmap - Theme Zero [dup] [marker di merge]
-- [product-strategy.md](./product-strategy.md): Product Strategy - Theme Zero [dup] [marker di merge]
-- [product_launch_plan.md](./product-launch-plan.md): product-launch-plan (deprecated) [dup]
-- [product_roadmap.md](./product-roadmap.md): product-roadmap (deprecated) [dup]
-- [product_strategy.md](./product-strategy.md): product-strategy (deprecated) [dup]
 - [release-marketing-standard.md](./release-marketing-standard.md): Release e README marketing — Zero [marker di merge]
 - [roadmap.md](./roadmap.md): Product Roadmap - Zero Theme [marker di merge]
-- [sprint-planning-meeting.md](./sprint-planning-meeting.md): Zero - Sprint Planning Meeting [marker di merge]
-- [sprint-planning.md](./sprint-planning.md): Sprint Planning — Theme Zero [dup] [marker di merge]
-- [sprint_planning.md](./sprint-planning.md): sprint-planning (deprecated) [dup]
 - [strategy.md](./strategy.md): Product Strategy: Zero Theme [marker di merge]
 - [tech-spec.md](./tech-spec.md): Technical Specification - Zero Theme [dup]
-- [user-research.md](./user-research.md): User Research — Theme Zero [dup] [marker di merge]
-- [user_research.md](./user-research.md): user-research (deprecated) [dup]
 
 #### Filament, UI e grafici (39)
 
@@ -334,17 +322,12 @@ Nessun file e' stato toccato. Proposte di destinazione nella story [swarm-phpsta
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [CONFLICT-RESOLUTION-SUMMARY.md](./conflict-resolution-summary.md), [CONFLICT_RESOLUTION_SUMMARY.md](./conflict-resolution-summary.md), [conflict-resolution-summary.md](./conflict-resolution-summary.md), [conflict_resolution_summary.md](./conflict-resolution-summary.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [FRAMEWORKS.md](./frameworks.md), [frameworks.md](./frameworks.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [INDEX.md](./INDEX.md), [index.md](./index.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [METODI-DUPLICATI-ANALISI.md](./metodi-duplicati-analisi.md), [METODI_DUPLICATI_ANALISI.md](./metodi-duplicati-analisi.md), [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [METODI-DUPLICATI-ANALISI.md](./duplicate-methods.md), [METODI_DUPLICATI_ANALISI.md](./duplicate-methods.md), [metodi-duplicati-analisi.md](./duplicate-methods.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [PRD.md](./prd.md), [prd.md](./prd.md)
 - stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [README-en.md](./readme-en.md), [readme-en.md](./readme-en.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [duplicate-methods-report.md](./duplicate-methods-report.md), [duplicate-methods.md](./duplicate-methods.md), [duplicate_methods.md](./duplicate-methods.md), [duplicate_methods_report.md](./duplicate-methods-report.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [product-launch-plan.md](./product-launch-plan.md), [product_launch_plan.md](./product-launch-plan.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [product-roadmap.md](./product-roadmap.md), [product_roadmap.md](./product-roadmap.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [product-strategy.md](./product-strategy.md), [product_strategy.md](./product-strategy.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [sprint-planning.md](./sprint-planning.md), [sprint_planning.md](./sprint-planning.md)
-- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [user-research.md](./user-research.md), [user_research.md](./user-research.md)
+- stesso nome normalizzato (maiuscole, `_`/`-`, `-en`, `-report`): [duplicate-methods-report.md](./duplicate-methods.md), [duplicate-methods.md](./duplicate-methods.md), [duplicate_methods.md](./duplicate-methods.md), [duplicate_methods_report.md](./duplicate-methods.md)
 - stesso titolo: [CONFLICT-RESOLUTION-SUMMARY.md](./conflict-resolution-summary.md), [CONFLICT_RESOLUTION_SUMMARY.md](./conflict-resolution-summary.md), [conflict_resolution_summary.md](./conflict-resolution-summary.md)
-- stesso titolo: [METODI-DUPLICATI-ANALISI.md](./metodi-duplicati-analisi.md), [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md)
+- stesso titolo: [METODI-DUPLICATI-ANALISI.md](./duplicate-methods.md), [metodi-duplicati-analisi.md](./duplicate-methods.md)
 - stesso titolo: [database-governance.md](./database-governance.md), [phpstan-merge-conflicts.md](./phpstan-merge-conflicts.md)
 - stesso titolo: [git-collision-audit-bashscripts.md](./git-collision-audit-bashscripts.md), [git-collisions-bashscripts-audit.md](./git-collisions-bashscripts-audit.md), [git-conflict-resolution-audit.md](./git-conflict-resolution-audit.md)
 - stesso titolo: [phpstan-dry-kiss-guidelines.md](../phpstan-dry-kiss-guidelines.md), [phpstan-dry-kiss-guidelines.md](../phpstan-dry-kiss-guidelines.md), [phpstan-dry-kiss-theme-guidelines.md](./phpstan-dry-kiss-theme-guidelines.md)

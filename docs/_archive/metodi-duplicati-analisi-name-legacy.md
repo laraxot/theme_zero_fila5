@@ -17,5 +17,5 @@ canonical: ../bmad/metodi-duplicati-analisi.md
 ---
 
 > Rinominato da `METODI_DUPLICATI_ANALISI.md` (uppercase vietato eccetto `README.md`).
-> Canonico: [metodi-duplicati-analisi.md](../bmad/metodi-duplicati-analisi.md).
+> Canonico: [metodi-duplicati-analisi.md](../bmad/duplicate-methods.md).
 > Copia archiviata con contenuto: [metodi-duplicati-analisi.md](./metodi-duplicati-analisi.md).
