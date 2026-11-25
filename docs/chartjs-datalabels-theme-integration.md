@@ -1,3 +1,8 @@
+---
+title: "Chart.js Datalabels Plugin Integration in Zero Theme"
+type: note
+qmd: "chartjs datalabels theme integration plugin zero"
+---
 # Chart.js Datalabels Plugin Integration in Zero Theme
 
 ## Overview

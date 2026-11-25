@@ -1,3 +1,8 @@
+---
+title: "SimpleChartWidget - Analisi Qualità del Codice e Best Practices"
+type: note
+qmd: "dual label chart widget implementation simplechartwidget"
+---
 # SimpleChartWidget - Analisi Qualità del Codice e Best Practices
 
 ## Panoramica

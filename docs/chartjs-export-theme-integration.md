@@ -1,3 +1,8 @@
+---
+title: "🎨 CHART.JS EXPORT INTEGRATION - TEMA ZERO"
+type: note
+qmd: "chartjs export theme integration tema zero"
+---
 # 🎨 CHART.JS EXPORT INTEGRATION - TEMA ZERO
 
 ## 📋 INDICE

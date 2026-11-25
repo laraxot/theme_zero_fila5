@@ -1,3 +1,8 @@
+---
+title: "Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero"
+type: note
+qmd: "chartjs datalabels filament5 implementation implementazione filament"
+---
 # Implementazione Chart.js Datalabels in Filament 5.x - Tema Zero
 
 ## Overview

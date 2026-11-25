@@ -1,3 +1,8 @@
+---
+title: "🧘 Accessor Delegation Pattern - Zero Theme"
+type: pattern
+qmd: "accessor delegation pattern zero theme"
+---
 # 🧘 Accessor Delegation Pattern - Zero Theme
 
 > **Pattern per accessor nel Zero Theme**

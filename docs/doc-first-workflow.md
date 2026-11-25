@@ -1,3 +1,8 @@
+---
+title: "Theme Zero - Doc-First Workflow"
+type: note
+qmd: "first workflow theme zero docfirst"
+---
 # Theme Zero - Doc-First Workflow
 
 ## Regola

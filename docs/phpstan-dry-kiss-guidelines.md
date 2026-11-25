@@ -1,3 +1,8 @@
+---
+title: "PHPStan Level 10 + DRY/KISS Guidelines for Themes"
+type: guide
+qmd: "phpstan dry kiss guidelines level drykiss"
+---
 # PHPStan Level 10 + DRY/KISS Guidelines for Themes
 
 ## Theme Code Quality Standards
@@ -490,7 +495,7 @@ render(function (StatsService $statsService): array {
 - [Model Usage in Themes](./model-usage-in-themes.md)
 - [Theme Architecture](./architecture.md)
 - [PHPStan Level 10 Full Analysis (Xot)](../../Modules/Xot/docs/phpstan-level-10-dry-kiss-analysis-2025-10-17.md)
-- [DRY/KISS Best Practices](./dry-kiss-best-practices-2025-10-15.md)
+- [DRY/KISS Best Practices](./dry-kiss-best-practices.md)
 
 ---
 

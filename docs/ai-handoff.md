@@ -1,3 +1,8 @@
+---
+title: "ai handoff"
+type: note
+qmd: "ai handoff"
+---
 # ai handoff
 
 ## regole non negoziabili

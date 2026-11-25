@@ -21,5 +21,5 @@ I file probe sono scorciatoie artificiali per silenziare PHPStan. La regola del 
 
 Vedi anche:
 
-- `@/var/www/_bases/base_ptvx_fila5/.windsurf/rules/no-phpstan-probe-models.md`
+- `@/var/www/_bases/base_ptvx_fila5/.windsurf/rules/phpstan.md`
 - `@/var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/phpstan-modules-fix-log.md`

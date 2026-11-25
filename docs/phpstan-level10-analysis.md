@@ -1,3 +1,8 @@
+---
+title: "Analisi PHPStan livello 10 - tema"
+type: analysis
+qmd: "phpstan level10 analysis analisi livello tema"
+---
 # Analisi PHPStan livello 10 - tema
 
 ## Scopo

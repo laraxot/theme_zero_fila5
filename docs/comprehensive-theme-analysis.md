@@ -1,3 +1,8 @@
+---
+title: "Analisi Completa Tema Zero - Tema Minimalista Laravel"
+type: analysis
+qmd: "comprehensive theme analysis analisi completa tema"
+---
 # Analisi Completa Tema Zero - Tema Minimalista Laravel
 
 ## 🎯 Panoramica Generale

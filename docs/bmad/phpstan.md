@@ -9,7 +9,7 @@ related:
   - "./phpstan-level10-analysis.md"
   - "../../../../Modules/Xot/docs/stories/5.7.phpstan-modules-green.story.md"
   - "../../../../Modules/Xot/docs/wiki/memories/phpstan-single-neon-config.md"
-  - "../../../../../bashscripts/ai/wiki/rules/phpstan-neon-immutable.md"
+  - "../../../../../bashscripts/ai/wiki/rules/phpstan.md"
 id: zero-docs-bmad-phpstan
 slug: phpstan
 description: "Il tema serve il FO (login, layout). PHPStan non è il Job dell'utente: è il gate degli agenti. laravel/phpstan.neon ha paths: Modules/ - analizzare solo il tema produce ignore..."

@@ -2,6 +2,7 @@
 title: docs deduplication — tema Zero
 type: reference
 updated: 2026-05-21
+qmd: "deduplication tema zero"
 ---
 
 # Deduplica docs (tema Zero)

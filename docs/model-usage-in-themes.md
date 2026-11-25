@@ -1,3 +1,8 @@
+---
+title: "Model Usage in Themes - Best Practices"
+type: note
+qmd: "model usage themes best practices"
+---
 # Model Usage in Themes - Best Practices
 
 ## Executive Summary

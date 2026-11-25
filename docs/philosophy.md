@@ -1,3 +1,8 @@
+---
+title: "Zero Theme - Filosofia Completa"
+type: note
+qmd: "philosophy zero theme filosofia completa"
+---
 # Zero Theme - Filosofia Completa
 
 **Data Creazione**: 2025-01-18  

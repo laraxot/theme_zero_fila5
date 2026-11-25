@@ -1,3 +1,8 @@
+---
+title: "🧬 Schemaless Attributes in Themes"
+type: note
+qmd: "schemaless attributes themes"
+---
 # 🧬 Schemaless Attributes in Themes
 
 **Status:** ✅ STANDARD

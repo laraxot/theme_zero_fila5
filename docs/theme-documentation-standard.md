@@ -1,3 +1,8 @@
+---
+title: "Theme Documentation Standard"
+type: note
+qmd: "theme standard"
+---
 # Theme Documentation Standard
 
 Standard per la documentazione dei temi nell'architettura Laraxot.

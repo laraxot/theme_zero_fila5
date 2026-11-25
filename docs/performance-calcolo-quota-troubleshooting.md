@@ -1,3 +1,8 @@
+---
+title: "Troubleshooting Calcolo Quota Performance"
+type: guide
+qmd: "performance calcolo quota troubleshooting"
+---
 # Troubleshooting Calcolo Quota Performance
 
 ## Problema: Discrepanza Quota Distribuita

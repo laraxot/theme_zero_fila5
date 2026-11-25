@@ -195,7 +195,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 
 ---
 
-<!-- Merged from index.md, which collided with this file on case-insensitive filesystems. -->
+<!-- Merged from INDEX.md, which collided with this file on case-insensitive filesystems. -->
 
 
 # Documentation Index — Theme Zero
@@ -236,7 +236,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - [ai-development-guide](./bmad/ai-development-guide.md)
 - [ai-handoff](./wiki/concepts/ai-handoff.md)
 - [ai-methodologies](./wiki/how-to/ai-methodologies.md)
-- [analisi-completa-tema](./analisi-completa-tema.md)
+- [analisi-completa-tema](./comprehensive-theme-analysis.md)
 - [architecture-rules](./wiki/rules/architecture-rules.md)
 - [architecture](./bmad/architecture.md)
 - [auth-examples](./bmad/auth-examples.md)
@@ -261,9 +261,9 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - [docs-confidence-audit](./bmad/docs-confidence-audit.md)
 - [docs-deduplication](./bmad/docs-deduplication.md)
 - [dry-kiss-analysis](./bmad/dry-kiss-analysis.md)
-- [dry-kiss-best-practices-historic](./dry-kiss-best-practices-historic.md)
+- [dry-kiss-best-practices-historic](./dry-kiss-best-practices.md)
 - [dry-kiss-best-practices](./bmad/dry-kiss-best-practices.md)
-- [dual-label-chart-widget-implementation](./dual-label-chart-widget-implementation.md)
+- [dual-label-chart-widget-implementation](./simplechartwidget-quality-analysis.md)
 - [duplicate-methods-report](./bmad/duplicate-methods-report.md)
 - [duplicate-methods](./bmad/duplicate-methods.md)
 - [duplicate-methods](./bmad/duplicate-methods.md)
@@ -298,7 +298,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - [php-quality-gates-rule](./bmad/php-quality-gates-rule.md)
 - [phpstan-compliance-status](./bmad/phpstan-compliance-status.md)
 - [phpstan-dry-kiss-guidelines](./phpstan-dry-kiss-guidelines.md)
-- [phpstan-dry-kiss-theme-guidelines-historic](./phpstan-dry-kiss-theme-guidelines-historic.md)
+- [phpstan-dry-kiss-theme-guidelines-historic](./phpstan-dry-kiss-guidelines.md)
 - [phpstan-dry-kiss-theme-guidelines](./bmad/phpstan-dry-kiss-theme-guidelines.md)
 - [phpstan-level10-analysis](./bmad/phpstan-level10-analysis.md)
 - [phpstan-level10-theme-compliance](./bmad/phpstan-level10-theme-compliance.md)
@@ -343,7 +343,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - [screenshots/f1-world-champion-theme-analysis](./screenshots/f1-world-champion-theme-analysis.md) — stub → [wiki/comparisons/f1-world-champion-theme-analysis.md](./wiki/comparisons/f1-world-champion-theme-analysis.md)
 
 ## Skills
-- [skills/README](./skills/README.md)
+- [skills/README](./skills/readme.md)
 
 ## Wiki
 - [wiki/SCHEMA](./wiki/schema.md)

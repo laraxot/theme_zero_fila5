@@ -1,3 +1,8 @@
+---
+title: "ManageRelatedRecords Styling - Zero Theme"
+type: note
+qmd: "manage related records managerelatedrecords styling zero"
+---
 # ManageRelatedRecords Styling - Zero Theme
 
 ## Focus

@@ -1,3 +1,8 @@
+---
+title: "PHPStan Configuration - Theme Zero"
+type: note
+qmd: "phpstan configuration theme zero"
+---
 # PHPStan Configuration - Theme Zero
 
 ## Regola Fondamentale

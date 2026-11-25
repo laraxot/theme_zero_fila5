@@ -1,3 +1,8 @@
+---
+title: "PHPStan Level 10 + DRY/KISS Guidelines for Themes"
+type: guide
+qmd: "phpstan dry kiss theme guidelines historic"
+---
 # PHPStan Level 10 + DRY/KISS Guidelines for Themes
 
 ## Theme Code Quality Standards

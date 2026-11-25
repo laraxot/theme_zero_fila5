@@ -36,9 +36,9 @@ in `Modules/Xot/docs/wiki/concepts/phpstan-trait-probes.md`.
 
 Vedi anche:
 
-- `bashscripts/ai/wiki/rules/no-phpstan-probe-models.md`
+- `bashscripts/ai/wiki/rules/phpstan.md`
 - `Modules/Xot/docs/phpstan-modules-fix-log.md`
-- `bashscripts/ai/wiki/rules/no-phpstan-probe-models.md`
+- `bashscripts/ai/wiki/rules/phpstan.md`
 - `Modules/Xot/docs/phpstan-modules-fix-log.md`
-- `@/var/www/_bases/base_ptvx_fila5/.windsurf/rules/no-phpstan-probe-models.md`
+- `@/var/www/_bases/base_ptvx_fila5/.windsurf/rules/phpstan.md`
 - `@/var/www/_bases/base_ptvx_fila5/laravel/Modules/Xot/docs/phpstan-modules-fix-log.md`

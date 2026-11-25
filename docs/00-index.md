@@ -1,3 +1,8 @@
+---
+title: "Zero Theme - Documentation Index"
+type: note
+qmd: "00 zero theme"
+---
 # Zero Theme - Documentation Index
 
 **Last Update**: 13 Dicembre 2025  

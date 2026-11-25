@@ -1,3 +1,8 @@
+---
+title: "Filament Version Declaration — Zero"
+type: note
+qmd: "filament version declaration zero"
+---
 # Filament Version Declaration — Zero
 
 **Current Version**: Filament v5 (Livewire v4 + Schemas)

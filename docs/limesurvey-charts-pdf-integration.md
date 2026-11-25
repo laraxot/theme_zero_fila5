@@ -1,3 +1,8 @@
+---
+title: "LimeSurvey Charts PDF Integration - Zero Theme"
+type: note
+qmd: "limesurvey charts pdf integration zero theme"
+---
 # LimeSurvey Charts PDF Integration - Zero Theme
 
 **Created:** January 2026

@@ -1,3 +1,8 @@
+---
+title: "PHPStan Level 10 Compliance - Theme System"
+type: note
+qmd: "phpstan level10 theme compliance level system"
+---
 # PHPStan Level 10 Compliance - Theme System
 
 ## 📋 Riepilogo Intervento

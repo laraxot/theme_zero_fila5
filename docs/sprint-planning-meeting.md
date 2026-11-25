@@ -1,3 +1,8 @@
+---
+title: "Zero - Sprint Planning Meeting"
+type: note
+qmd: "sprint planning meeting zero"
+---
 # Zero - Sprint Planning Meeting
 
 > Documento operativo per sprint planning. Tema.

@@ -1,3 +1,8 @@
+---
+title: "Esempi di Utilizzo - Tema Zero"
+type: note
+qmd: "examples esempi utilizzo tema zero"
+---
 # Esempi di Utilizzo - Tema Zero
 
 ## Panoramica

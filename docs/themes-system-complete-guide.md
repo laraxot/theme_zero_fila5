@@ -1,3 +1,8 @@
+---
+title: "🎨 THEMES SYSTEM - IL VESTITO DI LARAXOT"
+type: guide
+qmd: "themes system complete guide vestito laraxot"
+---
 # 🎨 THEMES SYSTEM - IL VESTITO DI LARAXOT
 
 ## 📋 INDICE

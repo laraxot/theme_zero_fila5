@@ -1,3 +1,8 @@
+---
+title: "Componenti del Tema Zero"
+type: note
+qmd: "components componenti tema zero"
+---
 # Componenti del Tema Zero
 
 ## Panoramica

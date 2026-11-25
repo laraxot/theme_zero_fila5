@@ -1,3 +1,8 @@
+---
+title: "Documentazione del Tema Zero"
+type: note
+qmd: "tema zero"
+---
 # Documentazione del Tema Zero
 
 Questa cartella contiene la documentazione specifica per il tema Zero del progetto.

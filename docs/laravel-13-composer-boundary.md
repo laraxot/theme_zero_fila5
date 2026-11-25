@@ -1,3 +1,8 @@
+---
+title: "Laravel 13 Composer boundary for Theme Zero"
+type: note
+qmd: "laravel 13 composer boundary theme zero"
+---
 # Laravel 13 Composer boundary for Theme Zero
 
 ## Rule

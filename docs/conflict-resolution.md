@@ -1,3 +1,8 @@
+---
+title: "Conflict Resolution — Theme Zero"
+type: note
+qmd: "conflict resolution theme zero"
+---
 # Conflict Resolution — Theme Zero
 
 ## Summary

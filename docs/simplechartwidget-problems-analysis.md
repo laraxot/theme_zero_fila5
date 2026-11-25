@@ -1,3 +1,8 @@
+---
+title: "SimpleChartWidget - Analisi Problemi e Miglioramenti UI/UX"
+type: analysis
+qmd: "simplechartwidget problems analysis analisi problemi miglioramenti"
+---
 # SimpleChartWidget - Analisi Problemi e Miglioramenti UI/UX
 
 ## Panoramica

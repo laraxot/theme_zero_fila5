@@ -1,3 +1,8 @@
+---
+title: "JpGraph Integration Guide - Zero Theme"
+type: guide
+qmd: "jpgraph integration guide zero theme"
+---
 # JpGraph Integration Guide - Zero Theme
 
 ---

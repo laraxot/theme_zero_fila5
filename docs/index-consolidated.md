@@ -1,3 +1,8 @@
+---
+title: "Theme Zero Documentation Index"
+type: note
+qmd: "consolidated theme zero"
+---
 # Theme Zero Documentation Index
 
 **Status**: Theme implementation for Laraxot monolith  
@@ -109,7 +114,7 @@ Guide for AI-assisted theme development.
 
 ## Analysis and Planning
 
-### analisi-completa-tema.md
+### comprehensive-theme-analysis.md
 Complete theme analysis (Italian).
 
 ### comprehensive-theme-analysis.md
@@ -161,7 +166,7 @@ docs/
 ├── theme-documentation.md                       # Complete documentation
 ├── themes-system-complete-guide.md              # System guide
 ├── ai-development-guide.md                      # AI development
-├── analisi-completa-tema.md                     # Theme analysis
+├── comprehensive-theme-analysis.md                     # Theme analysis
 ├── comprehensive-theme-analysis.md              # Comprehensive analysis
 ├── database-governance.md                       # Database governance
 └── roadmap.md                                   # Development roadmap

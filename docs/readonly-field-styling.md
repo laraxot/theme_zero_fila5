@@ -1,3 +1,8 @@
+---
+title: "Readonly Field Styling - UI/UX Pattern"
+type: note
+qmd: "readonly field styling uiux pattern"
+---
 # Readonly Field Styling - UI/UX Pattern
 
 **Theme**: Zero  

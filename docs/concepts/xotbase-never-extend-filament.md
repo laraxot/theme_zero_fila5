@@ -12,7 +12,7 @@ related:
   - ../../../../docs/wiki/memories/xotbase-never-extend-filament.md
 id: zero-docs-concepts-xotbase-never-extend-filament
 slug: xotbase-never-extend-filament
-description: "Bridge on-demand. Contenuto canonico: bashscripts/ai/wiki/rules/xotbase-critical-rules.md."
+description: "Bridge on-demand. Contenuto canonico: bashscripts/ai/wiki/rules/xotbase-inheritance.md."
 document_type: concept
 category: architecture
 status: active
@@ -22,7 +22,7 @@ discussions: []
 
 # Mai `Filament\*` — sempre `Modules\Xot\Filament\...\XotBase*`
 
-Bridge on-demand. Contenuto canonico: [bashscripts/ai/wiki/rules/xotbase-critical-rules.md](../../../../../bashscripts/ai/wiki/rules/xotbase-critical-rules.md).
+Bridge on-demand. Contenuto canonico: [bashscripts/ai/wiki/rules/xotbase-inheritance.md](../../../../../bashscripts/ai/wiki/rules/xotbase-inheritance.md).
 
 ## Zen (riassunto)
 

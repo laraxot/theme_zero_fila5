@@ -1,3 +1,8 @@
+---
+title: "Zero - Product Strategy"
+type: note
+qmd: "product strategy zero"
+---
 # Zero - Product Strategy
 
 > Strategia prodotto. Tema.

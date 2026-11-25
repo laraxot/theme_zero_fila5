@@ -1,3 +1,8 @@
+---
+title: "Pattern Infolist Filament (Theme Zero)"
+type: pattern
+qmd: "filament infolist pattern theme zero"
+---
 # Pattern Infolist Filament (Theme Zero)
 
 ## Overview
