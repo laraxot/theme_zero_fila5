@@ -1,265 +1,92 @@
 ---
-title: "Architettura del Tema Zero"
-qmd: "zero architecture md"
-type: note
-tags: [documentation]
+title: "Theme Zero — architettura delle viste"
+type: architecture
+theme: Zero
+status: active
+updated: 2026-11-25
+qmd: "zero architettura layout main guest auth app componenti blocchi folio pages home index pages_cms_quarantine container0 slug0 tema vestito pub_theme XotData"
+merged_from:
+  - bmad/architecture.md
+  - bmad/modern-theme-architecture.md
+  - bmad/theme-architecture-best-practices.md
+  - bmad/layouts.md
+  - bmad/components.md
+  - bmad/customization.md
+  - bmad/examples.md
+  - bmad/folio-pages-structure.md
+  - bmad/packages-integration.md
+  - wiki/rules/architecture-rules.md
+  - architecture-rules.md
+  - wiki/concepts/component-library.md
+  - wiki/concepts/responsive-system.md
+  - wiki/how-to/theme-customization.md
+  - wiki/overviews/advanced-features.md
+  - wiki/rules/accessibility-standards.md
+  - wiki/rules/performance-optimization.md
+  - bmad/manage-related-records.md
+  - bmad/readonly-field-styling.md
 ---
 
-# Architettura del Tema Zero
+# Theme Zero — architettura delle viste
 
-## Filosofia: "Il Tema come Vestito"
+## Scopo
 
-Il tema Zero segue la filosofia architetturale dove **il tema serve come "vestito"** per l'applicazione, fornendo solo la presentazione visiva mentre la logica di business rimane centralizzata nei moduli.
+Descrivere come sono fatte le viste del tema e come vengono risolte, cosi' che una modifica
+tocchi il file giusto. Per i confini con i moduli: [theme-boundaries](./theme-boundaries.md).
 
-## Principi Architetturali
+## Risoluzione del tema
 
-### 1. Separazione delle Responsabilità
+Il nome del tema viene da `XotData::make()->pub_theme` (config `xra.php` per host). Le viste
+si risolvono in `Themes/<pub_theme>/resources/views`, le traduzioni nel namespace
+`pub_theme::`. Se il tema non e' registrabile (manca la cartella) la prima view fallisce su
+`realpath`.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    TEMA ZERO (Vestito)                      │
-├─────────────────────────────────────────────────────────────┤
-│  • Layout e Styling                                         │
-│  • Componenti UI                                            │
-│  • Personalizzazione visiva                                 │
-│  • Responsive design                                        │
-│  • Accessibilità                                            │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│                   MODULI (Logica)                           │
-├─────────────────────────────────────────────────────────────┤
-│  • User: Autenticazione, gestione utenti                    │
-│  • Cms: Gestione contenuti                                  │
-│  • Xot: Funzionalità core                                   │
-│  • Altri moduli specifici                                   │
-└─────────────────────────────────────────────────────────────┘
-```
+## Layout
 
-### 2. Widget Filament per la Logica
+| Componente | Uso | Note |
+|---|---|---|
+| `<x-layouts.main>` | pagine pubbliche (`home`, `auth/login`) | slot `title`, `description`; meta OG; `@livewireStyles`, `@filamentStyles`, `@filamentScripts(withCore: true)`; `@vite(..., 'themes/Zero')` |
+| `<x-layouts.guest>` | pagine ospite | meta OG con `og_image`, stesso `@vite` |
+| `<x-layouts.auth>` | pagine auth | carica anche il CSS compilato del pannello Filament (vedi [authentication](./authentication.md)) |
+| `<x-layouts.app>` | layout minimo (`pages/index`) | 15 righe |
+| `layouts/app.blade.php` | layout classico `@extends` | `@vite(..., 'themes/Zero')` |
 
-I form e le funzionalità interattive utilizzano **widget Filament** che:
-- Contengono la logica di business
-- Gestiscono la validazione
-- Implementano la sicurezza
-- Forniscono feedback utente
+## Pagine Folio
 
-### 3. Viste Minimaliste
-
-Le viste del tema sono **minimaliste** e focalizzate solo su:
-- Layout e styling
-- Personalizzazione visiva
-- Responsive design
-- Accessibilità
-
-## Struttura delle Directory
-
-```
-laravel/Themes/Zero/
-├── resources/
-│   ├── views/
-│   │   ├── layouts/              # Layout principali
-│   │   │   ├── main.blade.php    # Layout principale
-│   │   │   └── app.blade.php     # Layout semplificato
-│   │   ├── pages/                # Pagine Folio
-│   │   │   ├── auth/             # Pagine di autenticazione
-│   │   │   │   └── login.blade.php
-│   │   │   ├── home.blade.php    # Homepage
-│   │   │   └── index.blade.php   # Pagina principale
-│   │   ├── components/           # Componenti riutilizzabili
-│   │   │   ├── ui/               # Componenti UI base
-│   │   │   └── blocks/           # Blocchi di contenuto
-│   │   └── filament/             # Viste widget Filament
-│   │       └── widgets/
-│   │           └── auth/
-│   │               └── login.blade.php
-│   ├── css/                      # Stili personalizzati
-│   └── js/                       # JavaScript personalizzato
-├── docs/                         # Documentazione
-├── tailwind.config.js            # Configurazione Tailwind
-└── package.json                  # Dipendenze frontend
+```text
+resources/views/pages/
+├── index.blade.php        # <x-layouts.app>, testi pub_theme::welcome
+├── home.blade.php         # <x-layouts.main>, testi pub_theme::home
+└── auth/login.blade.php   # <x-layouts.main> + @livewire(LoginWidget)
 ```
 
-## Flusso di Rendering
+`pages/` e' la shell del tema, non un albero di domini editoriali: niente cartelle semantiche
+(`dashboard/`, `profile/`...). Guardia di progetto: `bashscripts/tools/verify-no-semantic-folio-pages.sh`.
 
-### 1. Pagina di Login
+Le pagine dinamiche `[container0]/index` e `[container0]/[slug0]/index` sono state spostate in
+`resources/views/pages_cms_quarantine/`: dipendono dal modulo Cms, assente in questo repo, e
+fuori da `pages/` Folio non le registra.
 
-```mermaid
-graph TD
-    A[Richiesta /auth/login] --> B[Folio Routing]
-    B --> C[login.blade.php]
-    C --> D[Layout main.blade.php]
-    D --> E[@livewire LoginWidget]
-    E --> F[LoginWidget.php]
-    F --> G[login.blade.php widget]
-    G --> H[Form Filament]
-    H --> I[Output HTML]
-```
+## Componenti e blocchi
 
-### 2. Componenti Widget
+- `components/navigation`, `nav-link`, `responsive-nav-link` (stato attivo via `:active`),
+  `ui/logo`.
+- `components/blocks/<tipo>/<variante>.blade.php`: `hero/main`, `cta/banner`,
+  `features/grid`, `stats/overview`, `testimonials/carousel`, `links/grid`,
+  `navigation/simple`, `sidebar/quick-links`, `sidebar/system-info`. Sono blocchi anonimi
+  pensati per contenuti JSON resi dal Cms; i testi stanno in `lang/*/blocks.php`.
+- `links/grid` e' identico (md5) in One e Three.
 
-```php
-// 1. Pagina chiama il widget
-@livewire(\Modules\User\Filament\Widgets\Auth\LoginWidget::class)
+## Personalizzazione
 
-// 2. Widget contiene la logica
-class LoginWidget extends XotBaseWidget
-{
-    protected static string $view = 'pub_theme::filament.widgets.auth.login';
-    
-    public function login(): void
-    {
-        // Logica di autenticazione
-    }
-}
+- Colori: variabili CSS `--color-primary-*` in `resources/css/app.css`, mappate in
+  `tailwind.config.js` (`primary`, `danger`, ...) come `rgb(var(--color-...) / <alpha-value>)`.
+- `darkMode: 'class'`.
+- Nuovo blocco: `components/blocks/<tipo>/<variante>.blade.php` + chiavi in tutte le lingue.
 
-// 3. Vista del tema personalizza l'aspetto
-<x-filament-widgets::widget>
-    {{ $this->form }}  {{-- Form renderizzato da Filament --}}
-</x-filament-widgets::widget>
-```
+## Insidie note
 
-## Vantaggi dell'Architettura
-
-### 🎨 **Personalizzazione**
-- Ogni tema può avere il suo stile unico
-- Colori, layout e tipografia personalizzabili
-- Mantenimento coerenza con il design del tema
-
-### 🔧 **Manutenzione**
-- Logica centralizzata nei moduli
-- Un solo punto di verità per la logica
-- Facile aggiornamento delle funzionalità
-
-### 🔄 **Flessibilità**
-- Facile switch tra temi diversi
-- Riutilizzo della logica tra temi
-- Personalizzazione per brand specifici
-
-### 🚀 **Performance**
-- Separazione chiara tra logica e presentazione
-- Caching ottimizzato per componente
-- Lazy loading dei widget
-
-## Convenzioni di Naming
-
-### Namespace delle Viste
-
-```php
-// Widget nel modulo User
-protected static string $view = 'pub_theme::filament.widgets.auth.login';
-
-// Vista nel tema Zero
-laravel/Themes/Zero/resources/views/filament/widgets/auth/login.blade.php
-```
-
-### Struttura dei File
-
-```
-// Pagina Folio
-pages/auth/login.blade.php
-
-// Vista Widget
-filament/widgets/auth/login.blade.php
-
-// Componenti UI
-components/ui/button.blade.php
-components/blocks/header.blade.php
-```
-
-## Best Practices
-
-### 1. Viste Minimaliste
-```blade
-{{-- ✅ CORRETTO: Vista focalizzata solo su styling --}}
-<x-filament-widgets::widget>
-    <div class="custom-styling">
-        {{ $this->form }}
-    </div>
-</x-filament-widgets::widget>
-
-{{-- ❌ ERRATO: Logica nella vista --}}
-@volt('auth.login')
-    // Logica di autenticazione
-@endvolt
-```
-
-### 2. Utilizzo Widget Filament
-```blade
-{{-- ✅ CORRETTO: Utilizzo widget --}}
-@livewire(\Modules\User\Filament\Widgets\Auth\LoginWidget::class)
-
-{{-- ❌ ERRATO: Form manuale --}}
-<form wire:submit="login">
-    // Campi form manuali
-</form>
-```
-
-### 3. Separazione Responsabilità
-```php
-// ✅ CORRETTO: Logica nel widget
-class LoginWidget extends XotBaseWidget
-{
-    public function login(): void
-    {
-        // Logica di autenticazione
-    }
-}
-
-// ❌ ERRATO: Logica nella vista
-@volt('auth.login')
-    // Logica nella vista
-@endvolt
-```
-
-## Integrazione con Moduli
-
-### Modulo User
-- **LoginWidget**: Gestione autenticazione
-- **RegisterWidget**: Registrazione utenti
-- **PasswordResetWidget**: Reset password
-
-### Modulo Cms
-- **ContentWidget**: Gestione contenuti
-- **NavigationWidget**: Navigazione
-- **SearchWidget**: Ricerca
-
-### Modulo Xot
-- **XotBaseWidget**: Classe base per tutti i widget
-- **Funzionalità core**: Utility e helper
-
-## Testing
-
-### Test di Integrazione
-```php
-// Test che la pagina utilizza il widget corretto
-public function test_login_page_uses_login_widget()
-{
-    $response = $this->get('/auth/login');
-    
-    $response->assertSee('@livewire');
-    $response->assertSee('LoginWidget');
-}
-```
-
-### Test di Widget
-```php
-// Test del widget isolato
-public function test_login_widget_validation()
-{
-    $component = Livewire::test(LoginWidget::class);
-    
-    $component->set('data.email', 'invalid-email')
-              ->call('login')
-              ->assertHasErrors(['data.email']);
-}
-```
-
-## Riferimenti
-
-- [Documentazione Autenticazione](./authentication.md)
-- [Documentazione Componenti](./components.md)
-- [Documentazione Layout](./layouts.md)
-- [Best Practices Filament](../Cms/docs/frontoffice/filament-auth.md)
-- [Architettura Widget](../User/docs/widgets_structure.md) 
+- Le guide precedenti descrivevano componenti inesistenti (`ui/card`, `x-zero.*`, theme
+  service provider, dark-mode toggle, export): non reintrodurli senza codice.
+- Pagine Filament admin (ManageRelatedRecords, campi readonly) **non** passano dal tema:
+  lo stile si cambia nelle classi del modulo o con CSS del tema, mai con PHP nel tema.
