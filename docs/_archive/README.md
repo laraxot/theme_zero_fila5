@@ -50,7 +50,7 @@ Il file [index.md](./index.md) di questa cartella e' una copia archiviata dell'i
 | [wiki/schema.md](./wiki/schema.md) | [../wiki/schema.md](../wiki/schema.md) |
 | [wiki/commands/index.md](./wiki/commands/index.md) | [../wiki/commands/index.md](../wiki/commands/index.md) |
 | [wiki/concepts/index.md](./wiki/concepts/index.md) | [../wiki/concepts/index.md](../wiki/concepts/index.md) |
-| [wiki/memories/index.md](./wiki/memories/index.md) | [../wiki/memories/index.md](../wiki/memories/index.md) |
+| [wiki/memories/00-INDEX.md](./wiki/memories/index.md) | [../wiki/memories/index.md](../wiki/memories/index.md) |
 | [wiki/rules/index.md](./wiki/rules/index.md) | [../wiki/rules/index.md](../wiki/rules/index.md) |
 | [wiki/skills/index.md](./wiki/skills/index.md) | [../wiki/skills/index.md](../wiki/skills/index.md) |
 

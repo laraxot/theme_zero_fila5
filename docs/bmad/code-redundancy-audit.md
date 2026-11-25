@@ -80,7 +80,7 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo theme, senza perd
 
 - [Ptv — audit ridondanza](../../../Modules/Ptv/docs/wiki/redundancy-audit.md)
 - [Catalogo superficie Ptv↔Sigma](../../../Modules/Ptv/docs/wiki/ptv-sigma-shared-surface-catalog.md)
-- [Policy ownership (Xot)](../../../Modules/Xot/docs/wiki/concepts/ptv-sigma-redundancy-ownership.md)
+- [Policy ownership (Xot)](../../../../../bashscripts/ai/wiki/concepts/quality-testing-verification.md#ptv-sigma-redundancy-ownership)
 
 Issue tema: **#3** Discussione ridondanza. Campagna mono: **#162**.
 

@@ -104,10 +104,10 @@ ls -la Modules/Chart/resources/js/filament-chart-js-plugins.js
 - **KISS**: Configurazione semplice e centralizzata
 - **Coerenza**: Tutti i moduli e temi ereditano automaticamente gli asset chart
 
-Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md).
-Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../Modules/Chart/docs/chart-assets-centralization-rule.md).
-Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../../laravel/Modules/Chart/docs/chart-assets-centralization-rule.md).
-Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../Modules/Chart/docs/chart-assets-centralization-rule.md).
+Per dettagli completi, vedere [charts-custom-question.md#chart-assets-centralization-rule](../../../../../bashscripts/ai/wiki/memories/charts-custom-question.md#chart-assets-centralization-rule).
+Per dettagli completi, vedere [charts-custom-question.md#chart-assets-centralization-rule](../../../../../bashscripts/ai/wiki/memories/charts-custom-question.md#chart-assets-centralization-rule).
+Per dettagli completi, vedere [charts-custom-question.md#chart-assets-centralization-rule](../../../../../bashscripts/ai/wiki/memories/charts-custom-question.md#chart-assets-centralization-rule).
+Per dettagli completi, vedere [charts-custom-question.md#chart-assets-centralization-rule](../../../../../bashscripts/ai/wiki/memories/charts-custom-question.md#chart-assets-centralization-rule).
 
 ### Step 2: Installa Plugin (Solo se Necessario)
 

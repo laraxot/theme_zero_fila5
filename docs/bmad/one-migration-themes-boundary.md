@@ -8,7 +8,7 @@ tags: [themes, migrations, boundaries]
 qmd: "themes no database migrations one migration per model"
 related:
   - ../../../Modules/Xot/docs/wiki/concepts/one-migration-per-model.md
-  - ../../../../docs/wiki/memories/one-migration-per-model-bump-timestamp.md
+  - ../../../../../bashscripts/ai/wiki/memories/migrations-composer-modules.md#one-migration-per-model-bump-timestamp
 id: zero-docs-bmad-one-migration-themes-boundary
 slug: one-migration-themes-boundary
 description: "I temi (Themes/One, Zero, Three) non possiedono modelli Eloquent né"

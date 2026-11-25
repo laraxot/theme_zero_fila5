@@ -14,7 +14,7 @@ issues: []
 discussions: []
 related:
   - "../../../../docs/stories/STORY-001-code-quality-moduli-temi.md"
-  - "../../../../docs/wiki/memories/module-github-remote-discipline.md"
+  - "../../../../../bashscripts/ai/wiki/memories/git-sync-fleet-remotes.md#module-github-remote-discipline"
 module: "Zero"
 id: zero-docs-bmad-code-quality-improvement-report
 slug: code-quality-improvement-report
@@ -107,7 +107,7 @@ Rilevazione del 17 luglio 2026 sul working tree locale; esclusi vendor e dipende
 ## Gate PHPStan (2026-07-27)
 
 - `cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1` → **0 errori**.
-- Themes: solo insieme a Modules — [phpstan-stale-ignore-pattern](../../../../docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md).
+- Themes: solo insieme a Modules — [phpstan-stale-ignore-pattern](../../../../../bashscripts/ai/wiki/troubleshooting/troubleshooting.md#phpstan-stale-ignore-pattern).
 
 ## Verifica GitHub / qualità cross-repo
 
@@ -115,7 +115,7 @@ Rilevazione del 17 luglio 2026 sul working tree locale; esclusi vendor e dipende
 cd laravel/Themes/Zero && git remote -v   # laraxot/theme_zero_fila5
 cd ../../.. && cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 # Themes: usare Modules Themes/Zero insieme — mai Themes da solo
-# (ignore neon unmatched) → docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md
+# (ignore neon unmatched) → bashscripts/ai/wiki/troubleshooting/troubleshooting.md#phpstan-stale-ignore-pattern
 ```
 
 Gate moduli (2026-07-27): **0 errori** — chat [phpstan-modules-themes-gate](../../../../docs/chat/phpstan-modules-themes-gate.md).

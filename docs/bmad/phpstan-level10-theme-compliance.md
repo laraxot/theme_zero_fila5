@@ -263,7 +263,7 @@ cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 # Scope tema: analizzare insieme a Modules, mai Themes da solo
 cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 # Themes da solo → meta-errore "Ignored error pattern … was not matched"
-# Canon: docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md
+# Canon: bashscripts/ai/wiki/troubleshooting/troubleshooting.md#phpstan-stale-ignore-pattern
 # PHPStan Level 10 completo
 ./vendor/bin/phpstan analyse Themes/ --memory-limit=-1
 
@@ -276,10 +276,10 @@ cd laravel && ./vendor/bin/phpstan analyse Modules Themes/Zero --memory-limit=-1
 
 ## 📚 Riferimenti Incrociati
 
-- **Stale ignore / Themes alone**: `docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md`
+- **Stale ignore / Themes alone**: `bashscripts/ai/wiki/troubleshooting/troubleshooting.md#phpstan-stale-ignore-pattern`
 - **Xot Module**: `Modules/Xot/docs/wiki/concepts/xotbasemodel-get-class-name.md`
 - **User Module**: `Modules/User/docs/`
-- **Stale ignore / Themes alone**: `docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md`
+- **Stale ignore / Themes alone**: `bashscripts/ai/wiki/troubleshooting/troubleshooting.md#phpstan-stale-ignore-pattern`
 - **Xot Module**: `Modules/Xot/docs/wiki/concepts/xotbasemodel-get-class-name.md`
 - **User Module**: `Modules/User/docs/`
 - **Xot Module**: `Modules/Xot/docs/phpstan-level10-xot-fixes.md`

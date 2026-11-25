@@ -9,5 +9,5 @@ qmd: "deduplication tema zero"
 
 I temi mantengono **stub** verso wiki progetto, Xot (`docs/wiki/concepts/`) e Media (`html2pdf`).
 
-- How-to: [../../../../docs/wiki/how-to/module-docs-deduplication.md](../../../../docs/wiki/how-to/module-docs-deduplication.md)
+- How-to: [../../../../bashscripts/ai/wiki/how-to/modules-ops.md#module-docs-deduplication](../../../../bashscripts/ai/wiki/how-to/modules-ops.md#module-docs-deduplication)
 - Issue [#124](https://github.com/provtv/base_ptv_fila5/issues/124)

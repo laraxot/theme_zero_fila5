@@ -74,7 +74,7 @@ Il tema supporta l'implementazione avanzata con **due labels centrate** per ogni
 
 ## Asset Registration
 
-I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [chart-assets-centralization-rule.md](../../../Modules/Chart/docs/chart-assets-centralization-rule.md). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
+I plugin Chart.js sono centralizzati nel modulo Chart come definito dalla [charts-custom-question.md#chart-assets-centralization-rule](../../../../bashscripts/ai/wiki/memories/charts-custom-question.md#chart-assets-centralization-rule). Il tema Zero eredita automaticamente questi asset senza necessità di registrazione locale.
 
 ## Best Practices per lo Sviluppo
 
