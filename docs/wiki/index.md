@@ -64,7 +64,7 @@ _No entities tracked yet._
 ## Comparisons
 
 - [f1-world-champion-theme-analysis](./comparisons/f1-world-champion-theme-analysis.md) — F1 World Champion theme integration analysis (canonico)
-- [f1-world-champion-2026-theme-analysis](./comparisons/f1-world-champion-2026-theme-analysis.md) — stub `superseded` (nome datato) → canonico sopra
+- [f1-world-champion-2026-theme-analysis](./comparisons/f1-world-champion-theme-analysis.md) — stub `superseded` (nome datato) → canonico sopra
 
 ## Rules
 
@@ -93,8 +93,8 @@ _No entities tracked yet._
 
 ## Pagine di servizio della wiki
 
-- [README](./readme.md) - a cosa serve la cartella `wiki/`
-- [schema](./schema.md) - schema e convenzioni della wiki del tema
+- [README](./README.md) - a cosa serve la cartella `wiki/`
+- [schema](./SCHEMA.md) - schema e convenzioni della wiki del tema
 - [agents](./AGENTS.md) - istruzioni per gli agenti che mantengono la wiki (ex `AGENTS.md`; il blocco YAML nel corpo e' un modello da copiare, non un frontmatter)
 - [log](./log.md) - registro cronologico delle attivita'
 - [raw/readme](./raw/readme.md) - cartella delle fonti grezze, sola lettura
