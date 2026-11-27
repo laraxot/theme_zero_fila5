@@ -1,30 +1,4 @@
 ---
-<<<<<<< .merge_file_vlUAU3
-title: "Contratti del tema Zero"
-type: index
-tags: [contracts, zero]
-created: 2026-11-19
-updated: 2026-11-24
----
-
-# Contratti del tema Zero
-
-Zero **non ha Action ne' classi PHP** (`app/` contiene solo `.gitkeep`, verificato da `tests/Unit/ThemeBoundariesTest.php`):
-non promette comportamenti, quindi questa cartella non contiene contratti. E' l'unico indice della cartella (il vecchio
-`INDEX.md`, con una riga «da scrivere», e' stato unito qui).
-
-**Dove stanno i contratti applicativi:** nei moduli che il tema ospita, es. autenticazione e `LoginWidget`
-(`Modules/User/docs/contracts/`), risoluzione delle pagine `[container0]` (`Modules/Cms/docs/contracts/`), consensi
-(`Modules/Gdpr/docs/contracts/`).
-
-**Quando leggere questa cartella:** mai per il tema in se'; se qualcuno aggiunge al tema una classe con effetti
-collaterali, prima va rivisto l'[ADR](../adr/theme-as-dress-no-php.md), poi il contratto va qui nel formato del
-[canon](../../../../Modules/Xot/docs/rules/action-behavioral-contract.md). Glossario del tema: [../glossary.md](../glossary.md).
-
-## Contratti
-
-Nessuno (il tema non ha Action).
-=======
 title: "Contratti — Theme Zero"
 type: index
 owner: Zero
@@ -45,4 +19,11 @@ Se una vista del tema diventasse un componente con classe (`View\Components\...`
 ## File presenti
 
 - [INDEX.md](INDEX.md): registro operativo e backlog
->>>>>>> .merge_file_Km8rl8
+
+## Harness minimo: ownership, evidenza e recupero (2026-11-27)
+
+I contratti di **theme_zero_fila5** restano accanto alle Action, interfacce o superfici di questo package; root e Xot definiscono lo standard, non copiano le promesse. Un contratto comportamentale esplicita **Input, Output, Invarianti, Effetti collaterali, Errori, Non fa**; ogni ID di invariante punta a un group Pest effettivo oppure segnala `non dimostrata`. Se esiste la classe, il docblock deve rimandare al file con `@contract` e `@see`; per temi senza classi PHP non inventare Action/contratti.
+
+- [Standard Xot](https://github.com/laraxot/module_xot_fila5/blob/dev/docs/contracts/contract-authoring-standard.md) · [ownership root](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/adr/0001-harness-minimo-e-ownership.md) · [runbook ECC/Second Brain](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/harness/README.md).
+- **BMAD**: prima di cambiare una promessa, fissa nella story owner scope, esclusioni, evidenza e approvazioni richieste.
+- **ECC**: i marker di merge rendono invalido l'indice; citare una suite non significa averla eseguita. Distingui `pass`, `fail`, `non eseguito` e registra il debito in [rollout #15](https://github.com/laraxot/base_ptvx_fila5/issues/15).
