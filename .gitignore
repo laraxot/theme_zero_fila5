@@ -238,8 +238,6 @@ audit-coverage/
 # screenshot di comparazione visiva (artefatti locali)
 docs/project/visual-comparison/
 docs/visual-comparison/
-<<<<<<< .merge_file_dfTD4z
-=======
 
 # --- entries uniti da laraxot/dev (sync merge) ---
 # graphify lanciato su tests/ scrive tests/graphify-out/: output rigenerabile, mai committare
@@ -272,4 +270,3 @@ docs/**/backup/
 docs/backups/
 docs/**/backups/
 .docs-archive/
->>>>>>> .merge_file_s9e6nf

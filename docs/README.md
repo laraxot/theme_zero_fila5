@@ -46,7 +46,6 @@ Filosofia in una riga: **tema = vestito, moduli = corpo, Xot = ossatura**.
 
 | Parte | Contenuto | Dove |
 |---|---|---|
-<<<<<<< .merge_file_VHDNqW
 | [`bmad/`](bmad/) | guide, architettura, report e pianificazione del tema (la parte piu' grande) | [`bmad/00-index.md`](bmad/00-index.md), [`bmad/README.md`](bmad/README.md), panoramica lunga [`bmad/theme-overview.md`](bmad/theme-overview.md) |
 | [`wiki/`](wiki/) | conoscenza curata per gli agenti: concetti, regole, how-to, memorie, fonti | [`wiki/index.md`](wiki/index.md), [`wiki/README.md`](wiki/readme.md) |
 | [`stories/`](stories/) | story BMAD del tema | [`stories/README.md`](stories/README.md) |
@@ -55,6 +54,15 @@ Filosofia in una riga: **tema = vestito, moduli = corpo, Xot = ossatura**.
 | [`concepts/`](concepts/) | vincoli e concetti specifici del tema | [`concepts/README.md`](concepts/README.md) |
 | [`skills/`](skills/) | note sulle skill del tema | [`README.md`](skills/README.md) |
 | [`_archive/`](_archive/) | copie storiche, non canoniche; ogni file ha `canonical:` verso il documento vivo | [`README.md`](_archive/README.md) (tabella copia e canonico) |
+| Layout | `layouts.main`, `layouts.guest`, `layouts.auth`, `layouts.app` + `layouts/app.blade.php` | `resources/views/components/layouts/`, `resources/views/layouts/` |
+| Pagine Folio | `index`, `home`, `auth/login` | `resources/views/pages/` |
+| Blocchi | hero, cta, features, stats, testimonials, links, navigation, sidebar | `resources/views/components/blocks/` |
+| Componenti | `navigation`, `nav-link`, `responsive-nav-link`, `ui/logo` | `resources/views/components/` |
+| Override Filament | vista del widget di login | `resources/views/filament/widgets/auth/login.blade.php` |
+| Asset | Tailwind 3.4, Alpine 3, Flowbite (`^1.8.1`), Vite 6; build in `public/` | `resources/css/app.css`, `resources/js/app.js`, `vite.config.js` |
+| Mail | `base.html`, `christmas-professional.html` | `resources/mail-layouts/` |
+| Lingue | it, en, de (completi), es (parziale) | `lang/` |
+| PHP | nessuno: `app/` contiene solo `.gitkeep` | test `tests/Unit/ThemeBoundariesTest.php` |
 
 File nella radice: [`CHANGELOG.md`](CHANGELOG.md) (cronologia), [`inventory.md`](inventory.md) (conteggi verificati), [`index.md`](index.md) (indice canonico) e `index-pointer.md` (alias storico, non più presente).
 
@@ -85,17 +93,6 @@ File nella radice: [`CHANGELOG.md`](CHANGELOG.md) (cronologia), [`inventory.md`]
 - Dieci pagine di `bmad/` e `wiki/concepts/` citano moduli che non esistono in questo repository: ognuna ha in testa una "Nota di verifica 2026-10-20" e il contenuto non e' stato riscritto.
 - Le guide in `bmad/` citano Tailwind v4, Livewire 4 e Flux UI; il tema reale usa Tailwind 3.4, Alpine e Flowbite. Allineare quando si tocca la guida.
 - Nomi che differiscono solo per la maiuscola (collidono su filesystem case-insensitive): **13 coppie** il 2026-11-24, tra cui `readme.md`/`README.md` nella radice, in `bmad/`, `skills/`, `wiki/`, `changelog.md`/`CHANGELOG.md`, `00-index.md`/`00-INDEX.md` e gli `index.md`/`INDEX.md` delle sottocartelle di `wiki/`. Vanno unificati (uno canonico, l'altro assorbito). Elenco: `find docs -type f | tr A-Z a-z | sort | uniq -d`.
-=======
-| Layout | `layouts.main`, `layouts.guest`, `layouts.auth`, `layouts.app` + `layouts/app.blade.php` | `resources/views/components/layouts/`, `resources/views/layouts/` |
-| Pagine Folio | `index`, `home`, `auth/login` | `resources/views/pages/` |
-| Blocchi | hero, cta, features, stats, testimonials, links, navigation, sidebar | `resources/views/components/blocks/` |
-| Componenti | `navigation`, `nav-link`, `responsive-nav-link`, `ui/logo` | `resources/views/components/` |
-| Override Filament | vista del widget di login | `resources/views/filament/widgets/auth/login.blade.php` |
-| Asset | Tailwind 3.4, Alpine 3, Flowbite (`^1.8.1`), Vite 6; build in `public/` | `resources/css/app.css`, `resources/js/app.js`, `vite.config.js` |
-| Mail | `base.html`, `christmas-professional.html` | `resources/mail-layouts/` |
-| Lingue | it, en, de (completi), es (parziale) | `lang/` |
-| PHP | nessuno: `app/` contiene solo `.gitkeep` | test `tests/Unit/ThemeBoundariesTest.php` |
-
 ## Regole in breve
 
 1. Solo presentazione: Blade, CSS/JS, mail-layouts, traduzioni. Niente Action/modelli in `app/`.
@@ -105,8 +102,7 @@ File nella radice: [`CHANGELOG.md`](CHANGELOG.md) (cronologia), [`inventory.md`]
 
 ## Documentazione
 
-Mappa completa: [00-INDEX.md](./00-INDEX.md). Punti d'ingresso:
+Mappa completa: [index.md](./index.md). Punti d'ingresso:
 [architecture](./architecture.md) · [frontend-build](./frontend-build.md) ·
 [authentication](./authentication.md) · [theme-boundaries](./theme-boundaries.md) ·
 [ADR](./adr/README.md).
->>>>>>> .merge_file_aaXTOc
